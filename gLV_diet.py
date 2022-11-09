@@ -34,13 +34,13 @@ class Experiment:
         p = Parameters()
         p.add('species', value=n, vary=False)
         for i in range(n):
-            p.add(f'growth_{i+1}', value=np.random.uniform(0, 10), min=0, vary=True)
+            p.add(f'growth_{i+1}', value=np.random.uniform(0, 8), min=0, vary=True)
             p.add(f'susceptibility_{i+1}', value=np.random.uniform(-5, 5), vary=True)
             for j in range(n):
                 if i == j:
                     p.add(f'cross_int_{i+1}_{j+1}', value=np.random.uniform(-5, 0), max=0, vary=True)
                 else:
-                    p.add(f'cross_int_{i+1}_{j+1}', value=np.random.uniform(-5, 5), vary=True)
+                    p.add(f'cross_int_{i+1}_{j+1}', value=np.random.uniform(-2, 2), vary=True)
         return p
 
     def define_params(self, growth, cross_int, susceptibility):
@@ -63,7 +63,11 @@ class Experiment:
         cross_int = np.array([[params[f'cross_int_{i+1}_{j+1}'].value for j in range(params['species'].value)] for i in range(params['species'].value)])
         susceptibility = np.array([params[f'susceptibility_{i+1}'].value for i in range(params['species'].value)])
 
-        inter = np.sum([x[i]*cross_int[i,j] for i in range(len(x)) for j in range(len(x))])
+        # inter = [x[i]*cross_int[i,j] for i in range(len(x)) for j in range(len(x))]
+        inter = np.zeros(len(x))
+        for i in range(len(x)):
+            for j in range(len(x)):
+                inter[i] += x[j]*cross_int[i,j]
 
         if self.treatment == 'LF0':
             C = 0 if (t <= 12 or t >= 25) else 1
@@ -72,7 +76,7 @@ class Experiment:
         if self.treatment == 'Stein2013':
             C = 1 if t < 1 else 0
 
-        return np.array([x[i]*(growth[i] + inter + C*susceptibility[i]) for i in range(len(x))])
+        return np.array([x[i]*(growth[i] + inter[i] + C*susceptibility[i]) for i in range(len(x))])
 
     def solve_gLV(self, params):
         return solve_ivp(lambda t, x: self.gLV(t, x, params=params), self.t_span, self.x0, t_eval=self.t_eval)
