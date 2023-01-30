@@ -83,7 +83,7 @@ class Experiment:
 
     def residuals(self, params, t, x):
         model = self.solve_gLV(params)
-        return model.y - x
+        return (model.y - x)**2
 
     def fit_gLV(self):
         self.fitting = minimize(self.residuals, self.params, args=(self.t, self.x))
