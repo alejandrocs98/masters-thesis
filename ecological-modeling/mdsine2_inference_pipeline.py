@@ -36,10 +36,14 @@ elif len(sys.argv) == 3:
 else:
     raise ValueError('Too many arguments')
 
+burnin = 5000
+n_samples = 100000
+checkpoint = 250
+
 # Define the input directory
-input_dir = Path(f'~/masters-thesis/data/06-mcnulty-datasets/{dataset}')
+input_dir = Path(f'mcnulty-datasets/{dataset}')
 # Define the output directory
-output_dir = Path(f'~/masters-thesis/data/07-mcnulty-results/{dataset}')
+output_dir = Path(f'mcnulty-results/{dataset}')
 output_dir.mkdir(parents=True, exist_ok=True)
 
 ### Create MDSINE2 Study object from input datasets ###
@@ -61,12 +65,12 @@ print('Learn the Negative Binomial dispersion parameters')
 # Set negative binomial model inference parameters
 # Configuration class for learning the negative binomial dispersion parameters. Note that these parameters are learned offline 
 print('Set negative binomial model inference parameters')
-params_negbin = md2.config.NegBinConfig(           # Initialize the MCMC chain (NegBinConfig class)
-    seed=0,                                 # Seed to start the inference
-    burnin=1000,                            # Number of initial Gibbs steps to throw away (burn-in iterations)
-    n_samples=10000,                        # Number of total Gibbs steps (total iterations)
-    checkpoint=100,                         # How often to write the trace in RAM to disk. Note that this must be a multiple of both burnin and n_samples
-    basepath=str(output_dir / "negbin")     # Basepath to save the trace to disk
+params_negbin = md2.config.NegBinConfig(        # Initialize the MCMC chain (NegBinConfig class)
+    seed=seed,                                  # Seed to start the inference
+    burnin=burnin,                              # Number of initial Gibbs steps to throw away (burn-in iterations)
+    n_samples=n_samples,                        # Number of total Gibbs steps (total iterations)
+    checkpoint=checkpoint,                      # How often to write the trace in RAM to disk. Note that this must be a multiple of both burnin and n_samples
+    basepath=str(output_dir / "negbin")         # Basepath to save the trace to disk
 )
 
 # Build the compute graph for learning the model that is used to learn negative binomial parameters
@@ -112,10 +116,10 @@ print('Initialize parameters of the model')
 params = md2.config.MDSINE2ModelConfig(
     basepath=basepath,                          # Basepath to save the inference trace to disk
     seed=seed,                                  # Seed to start the inference
-    burnin=1000,                                # Number of initial Gibbs steps to throw away (burn-in iterations)
-    n_samples=10000,                            # Number of total Gibbs steps (total iterations)
+    burnin=burnin,                              # Number of initial Gibbs steps to throw away (burn-in iterations)
+    n_samples=n_samples,                        # Number of total Gibbs steps (total iterations)
     negbin_a0=a0, negbin_a1=a1,                 # Negative binomial dispersion parameters   
-    checkpoint=100                              # How often to write the trace in RAM to disk. Note that this must be a multiple of both burnin and n_samples
+    checkpoint=checkpoint                       # How often to write the trace in RAM to disk. Note that this must be a multiple of both burnin and n_samples
 )
 
 # Initialize the clustering choice {config.py, pylab/variables.py}
@@ -166,9 +170,10 @@ for i in range(growth_rates_mean.shape[0]):
 
 # Render the traces in the folder basepath. Makes a pandas.DataFrame table where the index is the Taxa name in taxa_formatter
 print('# Plot the growth rates posteriors and create a table summarizing its values')
-growth_rates.visualize(        # Return pandas.DataFrame
-    growth_rate_dir            # Loction to write the files to
+growth_rates_table = growth_rates.visualize(        # Return pandas.DataFrame
+    growth_rate_dir                                 # Loction to write the files to
 )
+growth_rates_table.to_csv(growth_rate_dir / 'growth_rates_table.tsv', sep='\t')
 
 ## Self-interactions ##
 print('Self-interactions')
@@ -182,9 +187,11 @@ for i in range(self_interactions_mean.shape[0]):
     print(f'{taxa_list}: {self_interactions_mean[i]}')
 
 # Render the self interaction traces in the folder basepath. Makes a pandas.DataFrame table where the index is the Taxa name in taxa_formatter
-self_interactions.visualize(
+self_interactions_table = self_interactions.visualize(
     self_interactions_dir          # Loction to write the files to
 )
+self_interactions_table.to_csv(self_interactions_dir / 'self_interactions_table.tsv', sep='\t')
+
 ## Taxa module assignments ##
 print('Taxa module assignments')
 
@@ -210,18 +217,16 @@ print('Visualize co-cluster posterior probability')
 coclusters = md2.summary(mcmc.graph[STRNAMES.CLUSTERING_OBJ].coclusters)['mean']  # Get the mean of the cocluster posterior
 coclusters_table = pd.DataFrame(coclusters, index=taxa_list, columns=taxa_list)
 coclusters_table.to_csv(coclusters_dir / 'coclusters_probabilities.tsv', sep='\t')
-fig_coclusters = md2.visualization.render_cocluster_probabilities(      # Render the cocluster proportions. Values in coclusters should be [0,1]
+md2.visualization.render_cocluster_probabilities(      # Render the cocluster proportions. Values in coclusters should be [0,1]
     coclusters, taxa=mcnulty.taxa,                                      # Square matrix indicating the cocluster proportions (2-dim np.ndarray)
     yticklabels='%(name)s | %(index)s')                                 # Label for the y-axis (str)
-fig_coclusters.tight_layout()
-plt.savefig(str(coclusters_dir / 'coclustering_probabilities.png'), dpi=300)
+plt.savefig(coclusters_dir / 'coclustering_probabilities.png', bbox_inches='tight', dpi=300)
 
 # Visualize trace for number of modules
-fig_clustering_trace = md2.visualization.render_trace(  # Visualizes the Trace of a random variable
+md2.visualization.render_trace(  # Visualizes the Trace of a random variable
     clustering.n_clusters                               # Trace of the co-clustering probabilities
 )
-fig_clustering_trace.tight_layout()
-plt.savefig(str(coclusters_dir / 'clusters_trace.png'), dpi=300)
+plt.savefig(coclusters_dir / 'clusters_trace.png', bbox_inches='tight', dpi=300)
 
 ## Interactions ##
 print('Interactions')

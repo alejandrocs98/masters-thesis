@@ -1,0 +1,273 @@
+[DEBUG] Using default logger (stdout, stderr).
+Using LF0 dataset and seed 27
+Create MDSINE2 Study object from input datasets
+Parse datasets into MDSINE2 Study object
+[INFO] TaxaSet parsng new taxonomy table. Resetting
+[INFO] No `name` found - assuming index is the name
+[DEBUG] Reseting perturbations
+Learn the Negative Binomial dispersion parameters
+Set negative binomial model inference parameters
+Building the graph used for posterior inference of the negative binomial dispersion parameters
+[DEBUG] Available subjects: 1,2,3,4,5,6,7
+[DEBUG] Subject 1, available qpcr: 0.0,1.0,2.0,4.0,6.0,9.0,11.0,12.0,14.0,15.0,16.0,18.0,20.0,24.0,25.0,26.0,28.0,29.0,30.0,32.0,34.0,37.0,39.0,40.0
+[DEBUG] Subject 2, available qpcr: 0.0,1.0,2.0,4.0,6.0,9.0,11.0,12.0,14.0,15.0,16.0,18.0,20.0,24.0,25.0,26.0,28.0,29.0,30.0,32.0,34.0,37.0,39.0,40.0
+[DEBUG] Subject 3, available qpcr: 0.0,1.0,2.0,4.0,6.0,9.0,11.0,12.0,14.0,15.0,16.0,18.0,20.0,24.0,25.0,26.0,28.0,29.0,30.0,32.0,34.0,37.0,39.0,40.0
+[DEBUG] Subject 4, available qpcr: 0.0,1.0,2.0,4.0,6.0,9.0,11.0,12.0,14.0,15.0,16.0,18.0,20.0,24.0,25.0,26.0,28.0,29.0,30.0,32.0,34.0,37.0,39.0,40.0
+[DEBUG] Subject 5, available qpcr: 0.0,1.0,2.0,4.0,6.0,9.0,11.0,12.0,14.0,15.0,16.0,18.0,20.0,24.0,25.0,26.0,28.0,29.0,30.0,32.0,34.0,37.0,39.0,40.0
+[DEBUG] Subject 6, available qpcr: 0.0,1.0,2.0,4.0,6.0,9.0,11.0,12.0,14.0,15.0,16.0,18.0,20.0,24.0,25.0,26.0,28.0,29.0,30.0,32.0,34.0,37.0,39.0,40.0
+[DEBUG] Subject 7, available qpcr: 0.0,1.0,2.0,4.0,6.0,9.0,11.0,12.0,14.0,15.0,16.0,18.0,20.0,24.0,25.0,26.0,28.0,29.0,30.0,32.0,34.0,37.0,39.0,40.0
+[INFO] Setting Single Write, Multiple Read Mode
+[INFO] Setting the trace of learned parameters
+[INFO] #######################################
+[INFO] Setting the trace of Negative binomial dispersion a0
+[INFO] Setting the trace of Negative binomial dispersion a1
+[INFO] Setting the trace of Filtering
+[INFO] Setting the trace for diagnostic variables
+[INFO] ##########################################
+Running the MCMC chain to learn the negative binomial parameters
+  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [00:00<00:24,  3.97it/s] 10%|█         | 10/100 [00:00<00:02, 33.72it/s] 18%|█▊        | 18/100 [00:00<00:01, 48.99it/s] 26%|██▌       | 26/100 [00:00<00:01, 58.20it/s] 34%|███▍      | 34/100 [00:00<00:01, 63.13it/s] 42%|████▏     | 42/100 [00:00<00:00, 67.35it/s] 51%|█████     | 51/100 [00:00<00:00, 70.77it/s] 60%|██████    | 60/100 [00:01<00:00, 73.41it/s] 69%|██████▉   | 69/100 [00:01<00:00, 75.69it/s] 77%|███████▋  | 77/100 [00:01<00:00, 76.25it/s] 85%|████████▌ | 85/100 [00:01<00:00, 76.60it/s] 93%|█████████▎| 93/100 [00:01<00:00, 76.73it/s]100%|██████████| 100/100 [00:01<00:00, 65.80it/s]
+[INFO] Inference total time: 0.01523442029953003/Gibb step
+[INFO] remove local traces
+Visualize the negative binomial dispersion model
+negbin d0: 1.4764338049203203e-10
+negbin d1: 0.3009439862206026
+Run MDSINE2 inference
+Run MDSINE2 inference with seed 27 with 1000 burn-in steps and 10000 total steps
+Initialize parameters of the model
+Builds the graph for the MCMC chain
+[INFO] max_value found: 1304402561.1345034, scaling_factor: 7.666344959720491e-08
+[INFO] Normalizing abundances for a max value of 100. Normalization constant: 7.6663E-08
+[INFO] There are 168 qPCR measurements for 3 buckets. Each bucket is 56 measurements long
+[INFO] Initializing Filtering
+[INFO] Setting up the essential timepoints
+[INFO] Essential timepoints: [ 0.  1.  2.  4.  6.  9. 11. 12. 14. 15. 16. 18. 20. 24. 25. 26. 28. 29.
+ 30. 32. 34. 37. 39. 40.]
+[INFO] Initializing Zero inflation
+[INFO] Initializing LHS vector
+[INFO] Initializing growth design matrix
+[INFO] Initializing self-interactions design matrix
+[INFO] Initializing Clustering concentration parameter
+[INFO] Cluster Concentration initialization results:
+	prior shape: 1e-05
+	prior scale: 100000.0
+	value: 1.0
+[INFO] Initializing Clustering parameter
+[INFO] Cluster Assingments initialization results:
+Clustering object (contains ability to change the cluster assignments), n_clusters: 12
+Cluster 100112
+	members: ['B_caccae']
+	size: 1
+Cluster 100113
+	members: ['B_cellulosilyticus_WH2']
+	size: 1
+Cluster 100114
+	members: ['B_ovatus']
+	size: 1
+Cluster 100115
+	members: ['B_thetaiotaomicron']
+	size: 1
+Cluster 100116
+	members: ['B_uniformis']
+	size: 1
+Cluster 100117
+	members: ['B_vulgatus']
+	size: 1
+Cluster 100118
+	members: ['C_aerofaciens']
+	size: 1
+Cluster 100119
+	members: ['C_scindens']
+	size: 1
+Cluster 100120
+	members: ['C_spiroforme']
+	size: 1
+Cluster 100121
+	members: ['D_longicatena']
+	size: 1
+Cluster 100122
+	members: ['P_distasonis']
+	size: 1
+Cluster 100123
+	members: ['R_obeum']
+	size: 1
+[INFO] Initializing Process Variance parameter
+[INFO] Initializing Mean parameter for the truncated normal prior of the growth parameter
+[INFO] Initializing Variance parameter for the truncated normal prior of the growth parameter
+[INFO] Initializing Growth parameter
+[INFO] Growth value initialization: [0.07337433 0.30441204 0.31711237 0.2917259  0.45896982 0.11372509
+ 0.22310856 0.0493692  0.03040541 0.22444475 2.17122655 0.44545032]
+[INFO] Growth prior mean: 1
+[INFO] Growth truncation settings: (0.0, inf)
+[INFO] Initializing Mean parameter for the truncated normal prior of the self-interaction parameter
+[INFO] Initializing Variance parameter for the truncated normal prior of the self-interaction parameter
+[INFO] Initializing Self interaction parameter
+[INFO] Self-interactions value initialization: [1.97607261e-02 1.72688586e-02 5.64892728e-02 6.93757494e-02
+ 2.45069806e-01 1.53305190e-02 1.14266840e+00 1.29173250e-01
+ 1.54644939e+00 9.19395865e+01 1.30457117e+00 2.75303069e-01]
+[INFO] Self-interactions truncation settings: (0, inf)
+[INFO] Initializing Mean parameter for the normal prior of the interaction parameter
+[INFO] Initializing Variance parameter for the normal prior of the interaction parameter
+[INFO] Prior Variance Interactions initialization results:
+	prior dof: 2.01
+	prior scale: 0.4903197182490734
+	value: 98.55426336806585
+[INFO] Initializing Cluster interaction value parameter
+[INFO] Initializing Cluster interaction indicator parameter
+[INFO] Initializing interactions base design matrix
+[INFO] Initialized interactions mixing design matrix
+[INFO] Initializing interactions matrix
+[INFO] Initializing Cluster interaction probability
+[INFO] Indicator Probability initialization results:
+	prior a: 0.5
+	prior b: 4.014015848880813
+	value: 0.1107661153037307
+[INFO] Initializing Mean parameter for the normal prior of the perturbation parameter
+[INFO] Initializing Variance parameter for the normal prior of the perturbation parameter
+[INFO] Prior Variance Interactions initialization results:
+	prior dof: 2.5
+	prior scale: 2000.0
+	value: 10000.0
+[INFO] Initializing Perturbation indicator parameter
+[INFO] Perturbation indicator initialization results:
+	Perturbation 0:
+		indicator: [False False False False False False False False False False False False]
+
+[INFO] Initializing Perturbation value parameter
+[INFO] Perturbation magnitude initialization results:
+	Perturbation HF/HS:
+		value: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+
+[INFO] Initializing Probability parameter for the beta prior of the perturbation indicator parameter
+[INFO] Perturbation indicator probability initialization results:
+	Perturbation 0:
+		prior a: 0.5
+		prior b: 2.5649493574615367
+		value: 0.16313483248353303
+
+[INFO] Initializing Logistic growth parameters (growth, self-interactions, interactions/perturbations)
+[INFO] Initializing qPCR hyperprior scales
+[INFO] Initializing qPCR hyperprior degrees of freedom
+[INFO] Initializing qPCR variances
+[INFO] 
+
+
+
+[INFO] Initialization Values:
+[INFO] Growth
+[INFO] 	prior.loc: 1
+[INFO] 	prior.scale2: 662.6363075271602
+[INFO] 	value: [0.07337433 0.30441204 0.31711237 0.2917259  0.45896982 0.11372509
+ 0.22310856 0.0493692  0.03040541 0.22444475 2.17122655 0.44545032]
+[INFO] Self-Interactions
+[INFO] 	prior.loc: 0.18712152814361693
+[INFO] 	prior.scale2: 98.55426336806585
+[INFO] 	value: [1.97607261e-02 1.72688586e-02 5.64892728e-02 6.93757494e-02
+ 2.45069806e-01 1.53305190e-02 1.14266840e+00 1.29173250e-01
+ 1.54644939e+00 9.19395865e+01 1.30457117e+00 2.75303069e-01]
+[INFO] Prior Variance Growth
+[INFO] 	prior.dof: 2.5
+[INFO] 	prior.scale: 132.52726150543202
+[INFO] 	value: 662.6363075271602
+[INFO] Prior Variance Self-Interactions
+[INFO] 	prior.dof: 2.5
+[INFO] 	prior.scale: 19.710852673613168
+[INFO] 	value: 98.55426336806585
+[INFO] Prior Variance Interactions
+[INFO] 	prior.dof: 2.01
+[INFO] 	prior.scale: 0.4903197182490734
+[INFO] 	value: 98.55426336806585
+[INFO] Process Variance
+[INFO] 	prior.dof: 2.5
+[INFO] 	prior.scale: 0.008000000000000002
+[INFO] 	prior mean: 0.04000000000000001
+[INFO] Concentration
+[INFO] 	prior.shape: 1e-05
+[INFO] 	prior.scale: 100000.0
+[INFO] 	value: 1.0
+[INFO] Indicator probability
+[INFO] 	prior.a: 0.5
+[INFO] 	prior.b: 4.014015848880813
+[INFO] 	value: 0.1107661153037307
+[INFO] Perturbation values:
+[INFO] 	perturbation HF/HS
+[INFO] 		value: {100112: 0, 100113: 0, 100114: 0, 100115: 0, 100116: 0, 100117: 0, 100118: 0, 100119: 0, 100120: 0, 100121: 0, 100122: 0, 100123: 0}
+[INFO] 		prior.loc: 0
+[INFO] Perturbation prior variances:
+[INFO] 		dof: 2.5
+[INFO] 		scale: 2000.0
+[INFO] 		value: 10000.0
+[INFO] Perturbation indicators:
+[INFO] 	perturbation HF/HS: [False False False False False False False False False False False False]
+[INFO] Perturbation indicator probability:
+[INFO] 	perturbation HF/HS
+[INFO] 		value: 0.16313483248353303
+[INFO] 		prior.a: 0.5
+[INFO] 		prior.b: 2.5649493574615367
+[INFO] Setting Single Write, Multiple Read Mode
+[INFO] Setting the trace of learned parameters
+[INFO] #######################################
+[INFO] Setting the trace of Cluster interaction indicator parameter
+[INFO] Setting the trace of Cluster interaction probability
+[INFO] Setting the trace of Perturbation indicator parameter
+[INFO] Setting the trace of Probability parameter for the beta prior of the perturbation indicator parameter
+[INFO] Setting the trace of Logistic growth parameters (growth, self-interactions, interactions/perturbations)
+[INFO] Setting the trace of Mean parameter for the normal prior of the interaction parameter
+[INFO] Setting the trace of Mean parameter for the normal prior of the perturbation parameter
+[INFO] Setting the trace of Mean parameter for the truncated normal prior of the growth parameter
+[INFO] Setting the trace of Mean parameter for the truncated normal prior of the self-interaction parameter
+[INFO] Setting the trace of Variance parameter for the normal prior of the interaction parameter
+[INFO] Setting the trace of Variance parameter for the normal prior of the perturbation parameter
+[INFO] Setting the trace of Process Variance parameter
+[INFO] Setting the trace of Filtering
+[INFO] Setting the trace of Clustering parameter
+[INFO] Setting the trace of Clustering concentration parameter
+[INFO] Setting the trace for diagnostic variables
+[INFO] ##########################################
+Perform inference
+  0%|          | 0/100 [00:00<?, ?it/s]  2%|▏         | 2/100 [00:00<00:12,  7.58it/s]  3%|▎         | 3/100 [00:00<00:12,  7.58it/s]  4%|▍         | 4/100 [00:00<00:12,  7.46it/s]  5%|▌         | 5/100 [00:00<00:18,  5.24it/s]  7%|▋         | 7/100 [00:01<00:13,  6.87it/s]  9%|▉         | 9/100 [00:01<00:13,  6.51it/s] 10%|█         | 10/100 [00:01<00:12,  7.02it/s] 12%|█▏        | 12/100 [00:01<00:10,  8.12it/s] 13%|█▎        | 13/100 [00:01<00:12,  7.20it/s] 15%|█▌        | 15/100 [00:02<00:10,  8.29it/s] 17%|█▋        | 17/100 [00:02<00:11,  7.24it/s] 19%|█▉        | 19/100 [00:02<00:10,  8.09it/s] 20%|██        | 20/100 [00:02<00:09,  8.26it/s] 21%|██        | 21/100 [00:02<00:11,  6.72it/s] 23%|██▎       | 23/100 [00:03<00:09,  7.97it/s] 25%|██▌       | 25/100 [00:03<00:09,  7.71it/s] 27%|██▋       | 27/100 [00:03<00:08,  8.61it/s] 29%|██▉       | 29/100 [00:03<00:08,  8.10it/s] 30%|███       | 30/100 [00:03<00:08,  8.36it/s] 32%|███▏      | 32/100 [00:04<00:07,  9.09it/s] 33%|███▎      | 33/100 [00:04<00:07,  8.50it/s] 35%|███▌      | 35/100 [00:04<00:06,  9.48it/s] 37%|███▋      | 37/100 [00:04<00:07,  8.72it/s] 39%|███▉      | 39/100 [00:04<00:06,  9.50it/s] 40%|████      | 40/100 [00:04<00:06,  9.59it/s] 41%|████      | 41/100 [00:05<00:07,  8.39it/s] 43%|████▎     | 43/100 [00:05<00:06,  9.41it/s] 45%|████▌     | 45/100 [00:05<00:06,  8.80it/s] 47%|████▋     | 47/100 [00:05<00:05,  9.63it/s] 49%|████▉     | 49/100 [00:05<00:05,  9.25it/s] 51%|█████     | 51/100 [00:06<00:05,  9.57it/s] 53%|█████▎    | 53/100 [00:06<00:05,  8.89it/s] 55%|█████▌    | 55/100 [00:06<00:04,  9.62it/s] 57%|█████▋    | 57/100 [00:06<00:04,  9.22it/s] 59%|█████▉    | 59/100 [00:07<00:04,  9.75it/s] 61%|██████    | 61/100 [00:07<00:04,  8.94it/s] 63%|██████▎   | 63/100 [00:07<00:03,  9.44it/s] 65%|██████▌   | 65/100 [00:07<00:03,  9.23it/s] 67%|██████▋   | 67/100 [00:07<00:03,  9.73it/s] 69%|██████▉   | 69/100 [00:08<00:03,  9.41it/s] 71%|███████   | 71/100 [00:08<00:03,  9.66it/s] 73%|███████▎  | 73/100 [00:08<00:02,  9.13it/s] 75%|███████▌  | 75/100 [00:08<00:02,  9.78it/s] 77%|███████▋  | 77/100 [00:08<00:02,  8.84it/s] 79%|███████▉  | 79/100 [00:09<00:02,  9.32it/s] 80%|████████  | 80/100 [00:09<00:02,  9.38it/s] 81%|████████  | 81/100 [00:09<00:02,  8.16it/s] 83%|████████▎ | 83/100 [00:09<00:01,  9.14it/s] 85%|████████▌ | 85/100 [00:09<00:01,  8.87it/s] 87%|████████▋ | 87/100 [00:10<00:01,  9.60it/s] 89%|████████▉ | 89/100 [00:10<00:01,  9.02it/s] 90%|█████████ | 90/100 [00:10<00:01,  9.05it/s] 92%|█████████▏| 92/100 [00:10<00:00,  9.55it/s] 93%|█████████▎| 93/100 [00:10<00:00,  8.08it/s] 95%|█████████▌| 95/100 [00:10<00:00,  8.77it/s] 97%|█████████▋| 97/100 [00:11<00:00,  8.30it/s] 99%|█████████▉| 99/100 [00:11<00:00,  9.06it/s]100%|██████████| 100/100 [00:11<00:00,  9.17it/s]100%|██████████| 100/100 [00:11<00:00,  8.67it/s]
+[INFO] Inference total time: 0.11541360855102539/Gibb step
+[INFO] remove local traces
+[INFO] Denormalizing the parameters
+Get and visualize posteriors
+Growth rates
+B_caccae: 0.40412551185156953
+B_cellulosilyticus_WH2: 0.38266538001211287
+B_ovatus: 0.5542289135272982
+B_thetaiotaomicron: 0.5809349439116923
+B_uniformis: 0.3698444530181707
+B_vulgatus: 0.3018600157868852
+C_aerofaciens: 0.4239937833402662
+C_scindens: 0.45995687870358604
+C_spiroforme: 0.250321012044695
+D_longicatena: 0.039369639232798875
+P_distasonis: 0.7818302395265034
+R_obeum: 0.8698337258846804
+# Plot the growth rates posteriors and create a table summarizing its values
+Self-interactions
+['B_caccae', 'B_cellulosilyticus_WH2', 'B_ovatus', 'B_thetaiotaomicron', 'B_uniformis', 'B_vulgatus', 'C_aerofaciens', 'C_scindens', 'C_spiroforme', 'D_longicatena', 'P_distasonis', 'R_obeum']: 6.02210057092845e-09
+['B_caccae', 'B_cellulosilyticus_WH2', 'B_ovatus', 'B_thetaiotaomicron', 'B_uniformis', 'B_vulgatus', 'C_aerofaciens', 'C_scindens', 'C_spiroforme', 'D_longicatena', 'P_distasonis', 'R_obeum']: 2.321410336546777e-09
+['B_caccae', 'B_cellulosilyticus_WH2', 'B_ovatus', 'B_thetaiotaomicron', 'B_uniformis', 'B_vulgatus', 'C_aerofaciens', 'C_scindens', 'C_spiroforme', 'D_longicatena', 'P_distasonis', 'R_obeum']: 1.1164616534806577e-08
+['B_caccae', 'B_cellulosilyticus_WH2', 'B_ovatus', 'B_thetaiotaomicron', 'B_uniformis', 'B_vulgatus', 'C_aerofaciens', 'C_scindens', 'C_spiroforme', 'D_longicatena', 'P_distasonis', 'R_obeum']: 1.2527198824807761e-08
+['B_caccae', 'B_cellulosilyticus_WH2', 'B_ovatus', 'B_thetaiotaomicron', 'B_uniformis', 'B_vulgatus', 'C_aerofaciens', 'C_scindens', 'C_spiroforme', 'D_longicatena', 'P_distasonis', 'R_obeum']: 1.6458037623466028e-08
+['B_caccae', 'B_cellulosilyticus_WH2', 'B_ovatus', 'B_thetaiotaomicron', 'B_uniformis', 'B_vulgatus', 'C_aerofaciens', 'C_scindens', 'C_spiroforme', 'D_longicatena', 'P_distasonis', 'R_obeum']: 3.816040180615003e-09
+['B_caccae', 'B_cellulosilyticus_WH2', 'B_ovatus', 'B_thetaiotaomicron', 'B_uniformis', 'B_vulgatus', 'C_aerofaciens', 'C_scindens', 'C_spiroforme', 'D_longicatena', 'P_distasonis', 'R_obeum']: 1.846208347840636e-07
+['B_caccae', 'B_cellulosilyticus_WH2', 'B_ovatus', 'B_thetaiotaomicron', 'B_uniformis', 'B_vulgatus', 'C_aerofaciens', 'C_scindens', 'C_spiroforme', 'D_longicatena', 'P_distasonis', 'R_obeum']: 7.592930011090829e-08
+['B_caccae', 'B_cellulosilyticus_WH2', 'B_ovatus', 'B_thetaiotaomicron', 'B_uniformis', 'B_vulgatus', 'C_aerofaciens', 'C_scindens', 'C_spiroforme', 'D_longicatena', 'P_distasonis', 'R_obeum']: 5.701699369828472e-07
+['B_caccae', 'B_cellulosilyticus_WH2', 'B_ovatus', 'B_thetaiotaomicron', 'B_uniformis', 'B_vulgatus', 'C_aerofaciens', 'C_scindens', 'C_spiroforme', 'D_longicatena', 'P_distasonis', 'R_obeum']: 1.186259184243953e-06
+['B_caccae', 'B_cellulosilyticus_WH2', 'B_ovatus', 'B_thetaiotaomicron', 'B_uniformis', 'B_vulgatus', 'C_aerofaciens', 'C_scindens', 'C_spiroforme', 'D_longicatena', 'P_distasonis', 'R_obeum']: 3.516125605576825e-08
+['B_caccae', 'B_cellulosilyticus_WH2', 'B_ovatus', 'B_thetaiotaomicron', 'B_uniformis', 'B_vulgatus', 'C_aerofaciens', 'C_scindens', 'C_spiroforme', 'D_longicatena', 'P_distasonis', 'R_obeum']: 4.1339124786799134e-08
+Taxa module assignments
+Once the inference is complete, compute the clusters posthoc using sklearn's AgglomerativeClustering function with distance matrix being 1 - cocluster matrix
+[INFO] Number of clusters: 3
+[INFO] Clusters assigned: [0 1 1 0 0 0 1 0 1 2 1 1]
+[INFO] Number of clusters: 3
+[INFO] Clusters assigned: [0 1 1 0 0 0 1 0 1 2 1 1]
+Visualize co-cluster posterior probability
+Interactions
+[INFO] Number of clusters: 3
+[INFO] Clusters assigned: [0 1 1 0 0 0 1 0 1 2 1 1]
+Perturbation effects
+Visualize perturbation coefficients
+[INFO] `ax.hist` failed: autodetected range of [nan, nan] is not finite
+[INFO] `ax.hist` failed: autodetected range of [nan, nan] is not finite
+[INFO] `ax.hist` failed: autodetected range of [nan, nan] is not finite
