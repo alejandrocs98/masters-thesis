@@ -1,0 +1,13 @@
+[DEBUG] Using default logger (stdout, stderr).
+Traceback (most recent call last):
+  File "/home/acs98/anaconda3/envs/mdsine2/bin/mdsine2", line 8, in <module>
+    sys.exit(main())
+  File "/home/acs98/anaconda3/envs/mdsine2/lib/python3.7/site-packages/mdsine2/cli/__init__.py", line 36, in main
+    cli.subcommand: cli for cli in clis
+  File "/home/acs98/anaconda3/envs/mdsine2/lib/python3.7/site-packages/mdsine2/cli/base.py", line 34, in dispatch
+    cli_module.main(args)
+  File "/home/acs98/anaconda3/envs/mdsine2/lib/python3.7/site-packages/mdsine2/cli/infer_negbin.py", line 52, in main
+    study = md2.Study.load(args.input)
+  File "/home/acs98/anaconda3/envs/mdsine2/lib/python3.7/site-packages/mdsine2/pylab/base/graph.py", line 149, in load
+    with open(str(filename), 'rb') as handle:
+FileNotFoundError: [Errno 2] No such file or directory: 'mcnulty-datasets/LF0/mcnulty_HF0.pkl'
