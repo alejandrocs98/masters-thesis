@@ -2,7 +2,10 @@
 # -*- coding: utf-8 -*-
 # Author: Alejandro Castellanos
 
-# Usage: python3 r_hat.py
+# Usage: python3 r_hat.py [input-folder] [dataset] [output-folder]
+# input-folder = ~/masters-thesis/data/08-mdsine2-inference/[cluster-learning]
+# dataset = [LF0 | HF0]
+# output-folder = ~/masters-thesis/data/09-mdsine2-rhats/[cluster-learning]
 
 import mdsine2 as md2
 from mdsine2.names import STRNAMES
@@ -14,6 +17,7 @@ import pandas as pd
 from pathlib import Path
 import matplotlib.cm as cm
 import seaborn as sns
+from glob import glob
 import sys
 
 md2.visualization.set_perturbation_color('gray')
@@ -21,20 +25,23 @@ cols = [cm.tab10(i) for i in range(10)]
 cols.append(cm.Set2(5))
 cols.append(cm.Paired(4))
 
+# Define input folder
+input_folder = sys.argv[1]
+# Define dataset
+dataset = sys.argv[2]
+# Define output folder
+output_folder = sys.argv[3]
+
 # Input directories
-dir_lf0 = Path('mcnulty-results/LF0')
-dir_hf0 = Path('mcnulty-results/HF0')
+dir = Path(f'{input_folder}')
 
 # Output directories
-output_dir_lf0 = dir_lf0 / "r-hat"
-output_dir_hf0 = dir_hf0 / "r-hat"
-output_dir_lf0.mkdir(exist_ok=True, parents=True)
-output_dir_hf0.mkdir(exist_ok=True, parents=True)
+output = output_folder / dataset
+output.mkdir(exist_ok=True, parents=True)
 
 # Load the chains for each dataset
-seeds = [0, 4, 27]
-chains_lf0 = [pd.read_pickle(f'{dir_lf0}/mdsine2/seed{seed}/mcmc.pkl') for seed in seeds]
-chains_hf0 = [pd.read_pickle(f'{dir_hf0}/mdsine2/seed{seed}/mcmc.pkl') for seed in seeds]
+files = glob(f'mcnulty/{dataset}/seed*/mcmc.pkl')
+chains = [pd.read_pickle(file) for file in files]
 
 # Calculate the shrink factor for a set of chains for a given variable through a series of windows
 def shrink_factor(chains, vname, window=1000, save=False):
@@ -46,13 +53,13 @@ def shrink_factor(chains, vname, window=1000, save=False):
     if save:
         dataset = chains[0].graph.name.split('_')[0]
         if dataset == 'LF0':
-            np.save(f'{output_dir_lf0}/{vname}_rhat.npy', r_hat_window)
+            np.save(f'{output}/{vname}_rhat.npy', r_hat_window)
         elif dataset == 'HF0':
-            np.save(f'{output_dir_hf0}/{vname}_rhat.npy', r_hat_window)
+            np.save(f'{output}/{vname}_rhat.npy', r_hat_window)
     return np.array(r_hat_window)
 
 # Plot the shrink factor for a set of chains for a given variable through a series of windows
-def plot_shrink_factor(chains, vname=STRNAMES.GROWTH_VALUE, window=1000, layout='overlaped', save=False):
+def plot_shrink_factor(chains, vname, window=1000, layout='overlaped', save=False):
     dataset = chains[0].graph.name.split('_')[0]
     shrink_factors = shrink_factor(chains, vname, window)
     taxa = [chains[0].graph.data.taxa[i].name for i in range(len(chains[0].graph.data.taxa))]
@@ -71,9 +78,9 @@ def plot_shrink_factor(chains, vname=STRNAMES.GROWTH_VALUE, window=1000, layout=
             plt.grid()
             if save:
                 if dataset == 'LF0':
-                    plt.savefig(f'{output_dir_lf0}/{vname}_rhat_{layout}.png', dpi=300)
+                    plt.savefig(f'{output}/{vname}_rhat_{layout}.png', dpi=300)
                 elif dataset == 'HF0':
-                    plt.savefig(f'{output_dir_hf0}/{vname}_rhat_{layout}.png', dpi=300)
+                    plt.savefig(f'{output}/{vname}_rhat_{layout}.png', dpi=300)
                 else:
                     raise ValueError('Dataset must be LF0 or HF0')
             return fig
@@ -86,9 +93,9 @@ def plot_shrink_factor(chains, vname=STRNAMES.GROWTH_VALUE, window=1000, layout=
             plt.grid()
             if save:
                 if dataset == 'LF0':
-                    plt.savefig(f'{output_dir_lf0}/{vname}_rhat_{layout}.png', dpi=300)
+                    plt.savefig(f'{output}/{vname}_rhat_{layout}.png', dpi=300)
                 elif dataset == 'HF0':
-                    plt.savefig(f'{output_dir_hf0}/{vname}_rhat_{layout}.png', dpi=300)
+                    plt.savefig(f'{output}/{vname}_rhat_{layout}.png', dpi=300)
                 else:
                     raise ValueError('Dataset must be LF0 or HF0')
             return fig
@@ -110,9 +117,9 @@ def plot_shrink_factor(chains, vname=STRNAMES.GROWTH_VALUE, window=1000, layout=
             fig.suptitle(f'{dataset} Rhat {chains[0].graph[vname].name}', y=0.92)
             if save:
                 if dataset == 'LF0':
-                    plt.savefig(f'{output_dir_lf0}/{vname}_rhat_{layout}.png', dpi=300)
+                    plt.savefig(f'{output}/{vname}_rhat_{layout}.png', dpi=300)
                 elif dataset == 'HF0':
-                    plt.savefig(f'{output_dir_hf0}/{vname}_rhat_{layout}.png', dpi=300)
+                    plt.savefig(f'{output}/{vname}_rhat_{layout}.png', dpi=300)
                 else:
                     raise ValueError('Dataset must be LF0 or HF0')
             return fig
@@ -135,9 +142,9 @@ def plot_shrink_factor(chains, vname=STRNAMES.GROWTH_VALUE, window=1000, layout=
             plt.grid()
             if save:
                 if dataset == 'LF0':
-                    plt.savefig(f'{output_dir_lf0}/{vname}_rhat_{layout}.png', dpi=300)
+                    plt.savefig(f'{output}/{vname}_rhat_{layout}.png', dpi=300)
                 elif dataset == 'HF0':
-                    plt.savefig(f'{output_dir_hf0}/{vname}_rhat_{layout}.png', dpi=300)
+                    plt.savefig(f'{output}/{vname}_rhat_{layout}.png', dpi=300)
                 else:
                     raise ValueError('Dataset must be LF0 or HF0')
             return fig
@@ -153,9 +160,9 @@ def plot_shrink_factor(chains, vname=STRNAMES.GROWTH_VALUE, window=1000, layout=
             plt.grid()
             if save:
                 if dataset == 'LF0':
-                    plt.savefig(f'{output_dir_lf0}/{vname}_rhat_{layout}.png', dpi=300)
+                    plt.savefig(f'{output}/{vname}_rhat_{layout}.png', dpi=300)
                 elif dataset == 'HF0':
-                    plt.savefig(f'{output_dir_hf0}/{vname}_rhat_{layout}.png', dpi=300)
+                    plt.savefig(f'{output}/{vname}_rhat_{layout}.png', dpi=300)
                 else:
                     raise ValueError('Dataset must be LF0 or HF0')
             return fig
@@ -181,17 +188,21 @@ def plot_shrink_factor(chains, vname=STRNAMES.GROWTH_VALUE, window=1000, layout=
             fig.suptitle(f'{dataset} Rhat {chains[0].graph[vname].name}', y=0.92)
             if save:
                 if dataset == 'LF0':
-                    plt.savefig(f'{output_dir_lf0}/{vname}_rhat_{layout}.png', dpi=300)
+                    plt.savefig(f'{output}/{vname}_rhat_{layout}.png', dpi=300)
                 elif dataset == 'HF0':
-                    plt.savefig(f'{output_dir_hf0}/{vname}_rhat_{layout}.png', dpi=300)
+                    plt.savefig(f'{output}/{vname}_rhat_{layout}.png', dpi=300)
                 else:
                     raise ValueError('Dataset must be LF0 or HF0')
             return fig
         else:
             raise ValueError('Layaout must be overlaped, subplots or mean')
-        
+
 # Get the shrink factor for all the variables
-for chains in [chains_lf0, chains_hf0]:
-    for vname in [STRNAMES.GROWTH_VALUE, STRNAMES.SELF_INTERACTION_VALUE, STRNAMES.INTERACTIONS_OBJ]:
-        for layout in ['overlaped', 'mean', 'subplots']:
-            plot_shrink_factor(chains=chains, vname=vname, window=1000, layout=layout, save=True)
+for vname in [STRNAMES.GROWTH_VALUE, STRNAMES.SELF_INTERACTION_VALUE, STRNAMES.INTERACTIONS_OBJ]:
+    for layout in ['overlaped', 'mean', 'subplots']:
+        shrink_factor(chains=chains, vname=vname, window=1000, save=True)
+
+# Plot the shrink factor for all the variables
+for vname in [STRNAMES.GROWTH_VALUE, STRNAMES.SELF_INTERACTION_VALUE, STRNAMES.INTERACTIONS_OBJ]:
+    for layout in ['overlaped', 'mean', 'subplots']:
+        plot_shrink_factor(chains=chains, vname=vname, window=1000, layout=layout, save=True)
