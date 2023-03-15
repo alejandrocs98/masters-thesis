@@ -2,34 +2,47 @@
 # -*- coding: utf-8 -*-
 # Author: Alejandro Castellanos
 
-# Usage: python3 create_edges_table.py [mean_matrix.tsv] [bayes_factors.tsv] [coclusters.tsv] [out-folder]
-# posteriors/interactions/mean_matrix.tsv
-# posteriors/interactions/bayes_factors.tsv
-# posteriors/clustering/coclusters.tsv
-# posteriors/network-vis
+# Usage: python3 create_edges_table.py simtype dataset seed
+# simtype: [no-module-learning | cluster-learning | fixed-clusters]
+# dataset: [LF0 | HF0]
+# seed: [0 | 3 | 4 | 23 | 127]
 
 import mdsine2 as md2
 from mdsine2.names import STRNAMES
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
+import matplotlib.pyplot as plt; plt.rc('font', size=16)
 import numpy as np
 import os
 import pandas as pd
 from pathlib import Path
-import matplotlib.cm as cm
-import seaborn as sns
 import sys
 
-# Load interaction mean matrix
-mean_matrix = pd.read_table(sys.argv[1], sep='\t', index_col=0)
-# Load intercation bayes factors matrix
-bayes_factors = pd.read_table(sys.argv[2], sep='\t', index_col=0)
-# Load coclusters probabilitis matrix
-coclusters = pd.read_table(sys.argv[3], sep=',', index_col=0)
+# Define simulation type
+simtype = sys.argv[1]
+# Define dataset
+dataset = sys.argv[2]
+# Define seed
+seed = sys.argv[3]
 
-# Define output folder
-out_folder = sys.argv[4]
+# Define input folder
+input_folder = Path(f'/hpcfs/home/ciencias_biologicas/a.castellanoss/masters-thesis/data/08-mdsine2-inference/{simtype}/mcnulty-{dataset}-seed{seed}/posteriors')
+#Define output folder
+output_folder = input_folder
 
+taxa = ['B_caccae',
+        'B_cellulosilyticus_WH2',
+        'B_ovatus',
+        'B_thetaiotaomicron',
+        'B_uniformis',
+        'B_vulgatus',
+        'C_aerofaciens',
+        'C_scindens',
+        'C_spiroforme',
+        'D_longicatena',
+        'P_distasonis',
+        'R_obeum']
+
+# Load growth rates table
+mean_matrix = pd.read_table(f'{input_folder}/interactions/mean_matrix.tsv', sep='\t', index_col=0)
 # Interactions to table
 print('Interaction matrix')
 interactions_table = mean_matrix.reset_index()
@@ -50,30 +63,41 @@ interactions_table.set_index(['Source', 'Target'], inplace=True)
 print('Number of edges:', interactions_table.shape)
 print(interactions_table)
 
+# Load Bayes factors table
+bayes_factors = pd.read_table(f'{input_folder}/interactions/bayes_factors.tsv', sep='\t', index_col=0)
 # Bayes factors to table
 print('Bayes factors')
 bayes_table = bayes_factors.reset_index()
 bayes_table.rename(columns={'index': 'Source'}, inplace=True)
 bayes_table = bayes_table.melt(id_vars=['Source'], var_name='Target', value_name='Interaction_bayes_factor')
-bayes_table = bayes_table[bayes_table['Bayes_factor'] != 0].copy()
-bayes_table = bayes_table.loc[:, ['Source', 'Target', 'Bayes_factor']].copy()
+bayes_table = bayes_table[bayes_table['Interaction_bayes_factor'] != 0].copy()
+bayes_table = bayes_table.loc[:, ['Source', 'Target', 'Interaction_bayes_factor']].copy()
 bayes_table.set_index(['Source', 'Target'], inplace=True)
 print('Number of edges:', bayes_table.shape)
 print(bayes_table)
 
-# Coclusters to table
+
+# Load coclustr probability
 print('Coclusters')
+if simtype == 'cluster-learning':
+    coclusters = pd.read_csv(f'{input_folder}/clustering/coclusters.tsv', sep=',', index_col=0)
+elif simtype == 'fixed-clusters':
+    new_path = Path(f'~/masters-thesis/data/08-mdsine2-inference/cluster-learning/mcnulty-{dataset}-seed{seed}/posteriors')
+    coclusters = pd.read_csv(f'{new_path}/clustering/coclusters.tsv', sep=',', index_col=0)
+else:
+    coclusters = pd.DataFrame(np.identity(len(taxa)), index=taxa, columns=taxa)
 coclusters_table = coclusters.reset_index()
 coclusters_table.rename(columns={'index': 'Source'}, inplace=True)
 coclusters_table = coclusters_table.melt(id_vars=['Source'], var_name='Target', value_name='Cocluster_probability')
 coclusters_table = coclusters_table.loc[:, ['Source', 'Target', 'Cocluster_probability']].copy()
 coclusters_table.set_index(['Source', 'Target'], inplace=True)
 print('Number of edges:', coclusters_table.shape)
+# Coclusters to table
 print(coclusters_table)
 
 # Merge tables
 print('Merging tables -> edges')
 edges = pd.concat([interactions_table, bayes_table, coclusters_table], axis=1, join='inner')
-edges.to_csv(f'{out_folder}/edges.tsv', sep='\t')
+edges.to_csv(f'{output_folder}/edges.tsv', sep='\t')
 print('Number of edges:', edges.shape)
 print(edges)
