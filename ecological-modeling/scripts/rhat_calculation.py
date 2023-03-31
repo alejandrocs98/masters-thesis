@@ -39,7 +39,8 @@ cols = ['#016bff',
         '#16c4ff',
         '#766f41',
         '#00c800',
-        '#af3261']
+        # '#af3261'
+        ]
 
 pretty_names_dir = {'B_caccae': '$B. caccae$',
                 'B_cellulosilyticus_WH2': '$B. cellulosilyticus$',
@@ -50,7 +51,7 @@ pretty_names_dir = {'B_caccae': '$B. caccae$',
                 'C_aerofaciens': '$C. aerofaciens$',
                 'C_scindens': '$C. scindens$',
                 'C_spiroforme': '$C. spiroforme$',
-                'D_longicatena': '$D. longicatena$',
+                # 'D_longicatena': '$D. longicatena$',
                 'P_distasonis': '$P. distasonis$',
                 'R_obeum': '$R. obeum$'}
 
@@ -65,7 +66,8 @@ order = ['B_cellulosilyticus_WH2',
         'C_scindens', 
         'C_aerofaciens', 
         'C_spiroforme', 
-        'D_longicatena']
+        # 'D_longicatena'
+        ]
 
 taxa_color = {order: cols[i] for i, order in enumerate(order)}
 

@@ -35,9 +35,10 @@ pretty_names_dir = {'B_caccae': '$B. caccae$',
                 'C_aerofaciens': '$C. aerofaciens$',
                 'C_scindens': '$C. scindens$',
                 'C_spiroforme': '$C. spiroforme$',
-                'D_longicatena': '$D. longicatena$',
+                # 'D_longicatena': '$D. longicatena$',
                 'P_distasonis': '$P. distasonis$',
-                'R_obeum': '$R. obeum$'}
+                'R_obeum': '$R. obeum$'
+                }
 
 order = ['B_cellulosilyticus_WH2', 
         'B_caccae', 
@@ -50,15 +51,16 @@ order = ['B_cellulosilyticus_WH2',
         'C_scindens', 
         'C_aerofaciens', 
         'C_spiroforme', 
-        'D_longicatena']
+        # 'D_longicatena'
+        ]
 
 # Define functions
 def plot_growth_and_perturbation(nodes, dataset='LF0', pretty_names=True, ax=None, save=True):
     gp = nodes.loc[:, [ 'Perturbation_median', 'Growth_mean']].copy()
     gp.columns  = ['Perturbation effect', 'Growth rate']
     gp = gp.loc[order[::-1], :]
-    if dataset == 'HF0':
-        gp['Perturbation effect'] = -gp['Perturbation effect']
+    # if dataset == 'HF0':
+    #     gp['Perturbation effect'] = -gp['Perturbation effect']
     if pretty_names:
         gp.index = gp.index.map(pretty_names_dir)
     if ax is None:

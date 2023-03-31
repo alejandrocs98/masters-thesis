@@ -37,9 +37,10 @@ taxa = ['B_caccae',
         'C_aerofaciens',
         'C_scindens',
         'C_spiroforme',
-        'D_longicatena',
+        # 'D_longicatena',
         'P_distasonis',
-        'R_obeum']
+        'R_obeum'
+        ]
 
 coclusters = np.identity(len(taxa))
 np.save(f'{output_folder}/coclusters.npy', coclusters)

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=06_mdsine2_inference
+#SBATCH --job-name=06_mdsine2_inference_noD
 #SBATCH -p medium
 #SBATCH -N 1
 #SBATCH -n 4
@@ -10,7 +10,7 @@
 #SBATCH --mail-user=a.castellanoss@uniandes.edu.co
 #SBATCH --mail-type=ALL
 #SBATCH --array=1-10%10
-#SBATCH -o logs/06_mdsine2_inference.o%j
+#SBATCH -o logs/06_mdsine2_inference_noD.o%j
 
 source ~/anaconda3/bin/activate
 conda activate mdsine2

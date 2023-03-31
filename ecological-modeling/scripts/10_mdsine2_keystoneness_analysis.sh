@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=10_mdsine2_keystoneness_analysis
-#SBATCH -p medium
+#SBATCH -p gpu
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH --cpus-per-task=4

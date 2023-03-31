@@ -1,15 +1,15 @@
 #!/bin/bash
 
 #SBATCH --job-name=13_mdsine2_get_rsme
-#SBATCH -p medium
+#SBATCH -p short
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=8000
-#SBATCH --time=5-00:00:00
+#SBATCH --time=12:00:00
 #SBATCH --mail-user=a.castellanoss@uniandes.edu.co
 #SBATCH --mail-type=ALL
-##SBATCH --array=1-24%10
+##SBATCH --array=1-6%6
 #SBATCH -o logs/13_mdsine2_get_rsme_.o%j
 
 source ~/anaconda3/bin/activate
@@ -29,16 +29,16 @@ cd /hpcfs/home/ciencias_biologicas/a.castellanoss/masters-thesis/data
 # $intra \
 # $inter
 
-for simtype in no-module-learning cluster-learning fixed-clusters; do
-    for dataset in LF0 HF0; do
-        for intra in sum mean; do
-            for inter in sum mean; do
-                python3 /hpcfs/home/ciencias_biologicas/a.castellanoss/masters-thesis/scripts/get_rsme.py \
-                $simtype \
-                $dataset \
-                $intra \
-                $inter;
-            done;
-        done;
-    done;
-done
+simtype=no-module-learning
+intra=sum
+inter=mean
+
+# for simtype in no-module-learning cluster-learning fixed-clusters; do
+for dataset in LF0 HF0; do
+    python3 /hpcfs/home/ciencias_biologicas/a.castellanoss/masters-thesis/scripts/get_rsme.py \
+    $simtype \
+    $dataset \
+    $intra \
+    $inter;
+done;
+# done

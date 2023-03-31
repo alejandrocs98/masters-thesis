@@ -50,7 +50,8 @@ cols = ['#016bff',
         '#16c4ff',
         '#766f41',
         '#00c800',
-        '#af3261']
+        # '#af3261'
+        ]
 
 pretty_names_dir = {'B_caccae': '$B. caccae$',
                 'B_cellulosilyticus_WH2': '$B. cellulosilyticus$',
@@ -61,9 +62,10 @@ pretty_names_dir = {'B_caccae': '$B. caccae$',
                 'C_aerofaciens': '$C. aerofaciens$',
                 'C_scindens': '$C. scindens$',
                 'C_spiroforme': '$C. spiroforme$',
-                'D_longicatena': '$D. longicatena$',
+                # 'D_longicatena': '$D. longicatena$',
                 'P_distasonis': '$P. distasonis$',
-                'R_obeum': '$R. obeum$'}
+                'R_obeum': '$R. obeum$'
+                }
 
 order = ['B_cellulosilyticus_WH2', 
         'B_caccae', 
@@ -76,7 +78,8 @@ order = ['B_cellulosilyticus_WH2',
         'C_scindens', 
         'C_aerofaciens', 
         'C_spiroforme', 
-        'D_longicatena']
+        # 'D_longicatena'
+        ]
 
 taxa_color = {order: cols[i] for i, order in enumerate(order)}
 
@@ -188,6 +191,8 @@ def rsme_filtering_seed(study_path, dataset, filt_path, seeds=[0, 3, 4, 23, 127]
         rsme_table.to_csv(f'{out_folder}/rmse_filt_intra{intra}_inter{inter}.tsv', sep='\t')
     return rsme_table
 
+seeds = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 16, 23, 24, 26, 28, 31, 36, 46, 48, 51, 54, 63, 69, 77, 78, 86, 89, 96, 127]
+
 # Calling the functions
-rsme_fwrsim_seed(study_path, dataset, fwsim_path, seeds=[0, 3, 4, 23, 127], intra=intra, inter=inter, save=True)
-rsme_filtering_seed(study_path, dataset, filt_path, seeds=[0, 3, 4, 23, 127], intra=intra, inter=inter, save=True)
+rsme_fwrsim_seed(study_path, dataset, fwsim_path, seeds=seeds, intra=intra, inter=inter, save=True)
+# rsme_filtering_seed(study_path, dataset, filt_path, seeds=seeds, intra=intra, inter=inter, save=True)

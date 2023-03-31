@@ -37,9 +37,10 @@ taxa = ['B_caccae',
         'C_aerofaciens',
         'C_scindens',
         'C_spiroforme',
-        'D_longicatena',
+        # 'D_longicatena',
         'P_distasonis',
-        'R_obeum']
+        'R_obeum'
+        ]
 
 # Load growth rates table
 growth = pd.read_table(f'{input_folder}/growth/values.tsv', sep='\t', index_col=0)
@@ -73,7 +74,7 @@ elif simtype == 'fixed-clusters':
     cluster_assignment = pd.read_table(f'{new_path}/clustering/clusterassignments.tsv', sep='\t', index_col=0)
     cluster_assignment.columns = ['Cluster']
 else:
-    cluster_assignment = pd.DataFrame({'name':taxa, 'Cluster':list(range(12))})
+    cluster_assignment = pd.DataFrame({'name':taxa, 'Cluster':list(range(len(taxa)))})
     cluster_assignment.set_index('name', inplace=True)
 
 # Load perturbations effects table
@@ -82,6 +83,8 @@ if dataset == 'LF0':
     perturbations_bayes_factors = pd.read_table(f'{input_folder}/HF/HS/bayes_factors.tsv', sep='\t', index_col=0).T
 elif dataset == 'HF0':
     perturbations = pd.read_table(f'{input_folder}/LF/HPP/values.tsv', sep='\t', index_col=0)
+    perturbations['mean'] = -perturbations['mean']
+    perturbations['median'] = -perturbations['median']
     perturbations_bayes_factors = pd.read_table(f'{input_folder}/LF/HPP/bayes_factors.tsv', sep='\t', index_col=0).T
 
 # Tweak perturbations effects table

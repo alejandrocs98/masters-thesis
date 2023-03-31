@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=04_mdsine2_studies_creation
+#SBATCH --job-name=04_mdsine2_studies_creation_noD
 #SBATCH -p medium
 #SBATCH -N 1
 #SBATCH -n 4
@@ -9,7 +9,7 @@
 #SBATCH --time=5-00:00:00
 #SBATCH --mail-user=a.castellanoss@uniandes.edu.co
 #SBATCH --mail-type=ALL
-#SBATCH -o logs/04_mdsine2_studies_creation.o%j
+#SBATCH -o logs/04_mdsine2_studies_creation_noD.o%j
 
 cd /hpcfs/home/ciencias_biologicas/a.castellanoss/masters-thesis/data/06-mcnulty-datasets
 

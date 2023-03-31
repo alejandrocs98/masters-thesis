@@ -37,9 +37,10 @@ taxa = ['B_caccae',
         'C_aerofaciens',
         'C_scindens',
         'C_spiroforme',
-        'D_longicatena',
+        # 'D_longicatena',
         'P_distasonis',
-        'R_obeum']
+        'R_obeum'
+        ]
 
 # Load growth rates table
 mean_matrix = pd.read_table(f'{input_folder}/interactions/mean_matrix.tsv', sep='\t', index_col=0)
