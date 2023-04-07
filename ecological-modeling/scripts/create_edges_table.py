@@ -47,8 +47,8 @@ mean_matrix = pd.read_table(f'{input_folder}/interactions/mean_matrix.tsv', sep=
 # Interactions to table
 print('Interaction matrix')
 interactions_table = mean_matrix.reset_index()
-interactions_table.rename(columns={'index': 'Source'}, inplace=True)
-interactions_table = interactions_table.melt(id_vars=['Source'], var_name='Target', value_name='Interaction_coefficient')
+interactions_table.rename(columns={'index': 'Target'}, inplace=True)    # recently corrected --> Source and target was inverted
+interactions_table = interactions_table.melt(id_vars=['Target'], var_name='Soruce', value_name='Interaction_coefficient')
 def interaction_type(x):
     if x > 0:
         return '+'
