@@ -1,0 +1,82 @@
+---
+title: "Tanglegram"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(ape)
+library(phangorn)
+library(dendextend)
+```
+
+```{r}
+phylo <- read.tree("10-genomes-phylogeny.tre")
+phylo <- root(phylo, outgroup = "C_aerofaciens", resolve.root=TRUE)
+ultra <- chronos(phylo)
+ultra_rooted <- root(ultra, outgroup = "C_aerofaciens", resolve.root=TRUE)
+ultra_rooted_dend <- as.dendrogram(ultra_rooted)
+plot(ultra_rooted)
+
+# phylo <- read.tree("10-genomes-phylogeny.tre")
+# ultra <- chronos(phylo)
+# ultra_rooted <- multi2di(ultra)
+# ultra_rooted_dend <- as.dendrogram(as.hclust.phylo(ultra_rooted))
+# plot(ultra_rooted)
+```
+
+```{r}
+metdist <- read_table("metdist_KOs.tsv")
+metdist <- upgma(data.matrix(metdist))
+metdist_dend <- as.dendrogram(metdist)
+plot(metdist)
+```
+
+
+
+
+```{r}
+dend_intersected <- intersect_trees(ultra_rooted_dend, metdist_dend)
+dend_intersected
+```
+```{r}
+Tree1 <- dend_intersected[[1]]
+Tree2 <- dend_intersected[[2]]
+match_order_by_labels(Tree1, Tree2)
+```
+```{r}
+# Tree1e <- Tree1 %>% set("branches_k_color", k=6) %>% set("branches_lwd", 1.5) %>% set("labels_cex", 0.5)
+# Tree2e <- Tree2 %>% set("branches_k_color", k=6) %>% set("branches_lwd", 1.5) %>% set("labels_cex", 0.5)
+
+Tree1e <- Tree1 %>%  set("branches_lwd", 1.5) %>% set("labels_cex", 0.5)
+Tree2e <- Tree2 %>% set("branches_lwd", 1.5) %>% set("labels_cex", 0.5)
+```
+
+
+
+```{r}
+# dl <- dendlist(ultra_rooted_dend, metdist_dend)
+# tanglegram(dl)
+tanglegram(Tree1e, Tree2e, sort = TRUE, common_subtrees_color_lines = FALSE, highlight_distinct_edges  = FALSE, highlight_branches_lwd = FALSE)
+```
+```{r}
+entanglement(Tree1e,Tree2e)
+```
+```{r}
+x<-untangle(Tree1e,Tree2e,method = "ladderize")
+entanglement(x)
+```
+```{r}
+svg("tanglegram.svg")
+x %>% plot(main = paste("entanglement =", round(entanglement(x), 2)),sort = FALSE, common_subtrees_color_lines = FALSE, highlight_distinct_edges  = FALSE, highlight_branches_lwd = FALSE, lwd=2, lab.cex=1.2)
+dev.off()
+```
+```{r}
+x %>% plot(main = paste("entanglement =", round(entanglement(x), 2)),sort = FALSE, common_subtrees_color_lines = FALSE, highlight_distinct_edges  = TRUE, highlight_branches_lwd = FALSE, lwd=2, lab.cex=1.2)
+```
+
+
+
+
+
+
