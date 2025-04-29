@@ -1,0 +1,18 @@
+ENTRY       R08790                      Reaction
+NAME        (S)-reticuline,NADPH:oxygen oxidoreductase (C-C phenol-coupling; (S)-corytuberine-forming)
+DEFINITION  (S)-Reticuline + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> (S)-Corytuberine + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+EQUATION    C02105 + C03024 + C00007 <=> C17591 + C03161 + 2 C00001
+COMMENT     CYP80G2
+RCLASS      RC00001  C00005_C00006
+            RC02286  C02105_C17591
+ENZYME      1.14.19.51
+PATHWAY     rn00950  Isoquinoline alkaloid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.51
+                 R08790  (S)-Reticuline + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> (S)-Corytuberine + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+ORTHOLOGY   K13389  (S)-corytuberine synthase [EC:1.14.19.51]
+///

@@ -1,0 +1,20 @@
+ENTRY       R11048                      Reaction
+DEFINITION  (S)-6-Hydroxynicotine + Oxygen <=> 5-(N-Methyl-4,5-dihydro-1H-pyrrol-2-yl)pyridin-2-ol + Hydrogen peroxide
+EQUATION    C01056 + C00007 <=> C21075 + C00027
+COMMENT     first step of two-step reaction (see R03202, R11048+R11049)
+RCLASS      RC02755  C00007_C00027
+            RC03336  C01056_C21075
+ENZYME      1.5.3.5
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00810  Nicotine degradation, pyridine pathway, nicotine => 2,6-dihydroxypyridine/succinate semialdehyde
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.3  With oxygen as acceptor
+                1.5.3.5
+                 R11048  (S)-6-Hydroxynicotine + Oxygen <=> 5-(N-Methyl-4,5-dihydro-1H-pyrrol-2-yl)pyridin-2-ol + Hydrogen peroxide
+ORTHOLOGY   K19826  (S)-6-hydroxynicotine oxidase [EC:1.5.3.5]
+DBLINKS     RHEA: 46979 46999
+///

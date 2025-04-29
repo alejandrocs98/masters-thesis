@@ -1,0 +1,48 @@
+ENTRY       K15245                      KO
+SYMBOL      tftC, tcpX
+NAME        flavin reductase [EC:1.5.1.37]
+PATHWAY     map00361  Chlorocyclohexane and chlorobenzene degradation
+            map00740  Riboflavin metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R05446  
+            R05447  
+            R05449  2,4,6-trichlorophenol,FADH2:oxygen oxidoreductase (dechlorinating)
+            R09748  FADH2:NAD+ oxidoreductase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
+               00740 Riboflavin metabolism
+                K15245  tftC, tcpX; flavin reductase
+              09111 Xenobiotics biodegradation and metabolism
+               00361 Chlorocyclohexane and chlorobenzene degradation
+                K15245  tftC, tcpX; flavin reductase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.37  FAD reductase (NADH)
+                 K15245  tftC, tcpX; flavin reductase
+DBLINKS     COG: COG1853
+GENES       RPJ: N234_22410
+            CNC: CNE_BB1p03430(rutF)
+            REU: Reut_A1584
+            COX: E0W60_29400
+            CNAN: A2G96_12455
+            PHS: C2L64_40515
+            PTER: C2L65_19200
+            PPAI: E1956_22230
+            AG: AAC23547(tftC) AGC65457(tcpX)
+REFERENCE   PMID:19915006
+  AUTHORS   Webb BN, Ballinger JW, Kim E, Belchik SM, Lam KS, Youn B, Nissen MS, Xun L, Kang C
+  TITLE     Characterization of chlorophenol 4-monooxygenase (TftD) and NADH:FAD oxidoreductase (TftC) of Burkholderia cepacia AC1100.
+  JOURNAL   J Biol Chem 285:2014-27 (2010)
+            DOI:10.1074/jbc.M109.056135
+  SEQUENCE  [ag:AAC23547]
+REFERENCE   PMID:24056464
+  AUTHORS   Li J, Huang Y, Hou Y, Li X, Cao H, Cui Z
+  TITLE     Novel gene clusters and metabolic pathway involved in 3,5,6-trichloro-2-pyridinol degradation by Ralstonia sp. strain T6.
+  JOURNAL   Appl Environ Microbiol 79:7445-53 (2013)
+            DOI:10.1128/AEM.01817-13
+  SEQUENCE  [ag:AGC65457]
+///

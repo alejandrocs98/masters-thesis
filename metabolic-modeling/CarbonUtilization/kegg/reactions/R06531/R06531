@@ -1,0 +1,19 @@
+ENTRY       R06531                      Reaction
+NAME        ATP:L-threonine O-phosphotransferase
+DEFINITION  L-Threonine + ATP <=> L-Threonine O-3-phosphate + ADP
+EQUATION    C00188 + C00002 <=> C12147 + C00008
+COMMENT     L-threonine kinase, pduX
+RCLASS      RC00002  C00002_C00008
+            RC00428  C00188_C12147
+ENZYME      2.7.1.177
+PATHWAY     rn00860  Porphyrin metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.177
+                 R06531  L-Threonine + ATP <=> L-Threonine O-3-phosphate + ADP
+ORTHOLOGY   K16651  L-threonine kinase [EC:2.7.1.177]
+DBLINKS     RHEA: 33710
+///

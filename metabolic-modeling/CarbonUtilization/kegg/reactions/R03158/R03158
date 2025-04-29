@@ -1,0 +1,19 @@
+ENTRY       R03158                      Reaction
+DEFINITION  3-Hydroxypropanoate + CoA <=> 3-Hydroxypropionyl-CoA + H2O
+EQUATION    C01013 + C00010 <=> C05668 + C00001
+RCLASS      RC00004  C00010_C05668
+            RC00014  C01013_C05668
+ENZYME      3.1.2.4
+PATHWAY     rn00410  beta-Alanine metabolism
+            rn00640  Propanoate metabolism
+            rn01100  Metabolic pathways
+            rn01200  Carbon metabolism
+MODULE      M00013  Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.2  Thioester hydrolases
+                3.1.2.4
+                 R03158  3-Hydroxypropanoate + CoA <=> 3-Hydroxypropionyl-CoA + H2O
+ORTHOLOGY   K05605  3-hydroxyisobutyryl-CoA hydrolase [EC:3.1.2.4]
+///

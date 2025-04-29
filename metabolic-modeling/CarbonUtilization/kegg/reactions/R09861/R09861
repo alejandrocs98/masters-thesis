@@ -1,0 +1,18 @@
+ENTRY       R09861                      Reaction
+NAME        ent-isokaurene,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase
+DEFINITION  ent-Isokaurene + Oxygen + [Reduced NADPH---hemoprotein reductase] <=> ent-2alpha-Hydroxyisokaurene + H2O + [Oxidized NADPH---hemoprotein reductase]
+EQUATION    C20145 + C00007 + C03024 <=> C20146 + C00001 + C03161
+COMMENT     the first step of two-step reaction (see R12058, R09861+R11978)
+RCLASS      RC00478  C20145_C20146
+ENZYME      1.14.14.76
+PATHWAY     rn00904  Diterpenoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.76
+                 R09861  ent-Isokaurene + Oxygen + [Reduced NADPH---hemoprotein reductase] <=> ent-2alpha-Hydroxyisokaurene + H2O + [Oxidized NADPH---hemoprotein reductase]
+ORTHOLOGY   K16083  ent-isokaurene hydroxylase [EC:1.14.14.76]
+DBLINKS     RHEA: 31950
+///

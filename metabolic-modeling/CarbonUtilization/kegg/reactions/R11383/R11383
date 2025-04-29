@@ -1,0 +1,20 @@
+ENTRY       R11383                      Reaction
+NAME        aurachin C:NADPH:oxygen oxidoreductase (4-hydroxy-2-methyl-3-oxo-4-farnesyl-3,4-dihydroquinoline-1-oxide-forming)
+DEFINITION  Aurachin C + NADPH + H+ + Oxygen <=> 4-Hydroxy-2-methyl-3-oxo-4-[(2E,6E)-farnesyl]-3,4-dihydroquinoline 1-oxide + NADP+ + H2O
+EQUATION    C21330 + C00005 + C00080 + C00007 <=> C21141 + C00006 + C00001
+COMMENT     two-step reaction (see R11385+R11386)
+RCLASS      RC03422  C21141_C21330
+ENZYME      1.14.13.222
+PATHWAY     rn00998  Biosynthesis of various antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00848  Aurachin biosynthesis, anthranilate => aurachin A
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.222
+                 R11383  Aurachin C + NADPH + H+ + Oxygen <=> 4-Hydroxy-2-methyl-3-oxo-4-[(2E,6E)-farnesyl]-3,4-dihydroquinoline 1-oxide + NADP+ + H2O
+ORTHOLOGY   K21272  aurachin C monooxygenase/isomerase [EC:1.14.13.222]
+DBLINKS     RHEA: 49007
+///

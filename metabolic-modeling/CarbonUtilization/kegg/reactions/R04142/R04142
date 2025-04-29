@@ -1,0 +1,22 @@
+ENTRY       R04142                      Reaction
+DEFINITION  5-Acetamidopentanoate + NADH + H+ + CO2 <=> 6-Acetamido-2-oxohexanoate + NAD+ + H2O
+EQUATION    C03087 + C00004 + C00080 + C00011 <=> C05548 + C00003 + C00001
+COMMENT     oxidoreduction
+RCLASS      RC00001  C00003_C00004
+            RC00866  C03087_C05548
+ENZYME      1.2.4.-
+PATHWAY     rn00310  Lysine degradation
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.4  With a disulfide as acceptor
+                1.2.4.-
+                 R04142  5-Acetamidopentanoate + NADH + H+ + CO2 <=> 6-Acetamido-2-oxohexanoate + NAD+ + H2O
+REFERENCE   1  [PMID:1682209]
+  AUTHORS   Large PJ, Robertson A.
+  TITLE     The route of lysine breakdown in Candida tropicalis.
+  JOURNAL   FEMS Microbiol Lett 66:209-13 (1991)
+            DOI:10.1111/j.1574-6968.1990.tb03998.x
+DBLINKS     RHEA: 42511
+///

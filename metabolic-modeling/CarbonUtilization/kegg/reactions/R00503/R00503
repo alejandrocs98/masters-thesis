@@ -1,0 +1,22 @@
+ENTRY       R00503                      Reaction
+NAME        UDP-alpha-D-galactose:D-glucose 4-beta-D-galactosyltransferase
+DEFINITION  UDP-alpha-D-galactose + D-Glucose <=> UDP + Lactose
+EQUATION    C00052 + C00031 <=> C00015 + C00243
+REMARK      Same as: R06067
+RCLASS      RC00005  C00015_C00052
+            RC00049  C00031_C00243
+            RC02748  C00052_C00243
+ENZYME      2.4.1.22
+PATHWAY     rn00052  Galactose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.22
+                 R00503  UDP-alpha-D-galactose + D-Glucose <=> UDP + Lactose
+ORTHOLOGY   K00704  alpha-lactalbumin [EC:2.4.1.22]
+            K07966  beta-1,4-galactosyltransferase 1 [EC:2.4.1.22 2.4.1.90 2.4.1.38 2.4.1.-]
+            K07967  beta-1,4-galactosyltransferase 2 [EC:2.4.1.22 2.4.1.90 2.4.1.38 2.4.1.-]
+DBLINKS     RHEA: 12407
+///

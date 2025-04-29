@@ -1,0 +1,24 @@
+ENTRY       R06782                      Reaction
+NAME        3-phenylpropanoate,NADH:oxygen oxidoreductase (2,3-hydroxylating)
+DEFINITION  Phenylpropanoate + Oxygen + NADH + H+ <=> cis-3-(Carboxy-ethyl)-3,5-cyclo-hexadiene-1,2-diol + NAD+
+EQUATION    C05629 + C00007 + C00004 + C00080 <=> C11588 + C00003
+COMMENT     HcaA1 HcaA2 HcaC HcaD
+RCLASS      RC00001  C00003_C00004
+            RC00098  C05629_C11588
+ENZYME      1.14.12.19
+PATHWAY     rn00360  Phenylalanine metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.12  With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into the other donor
+                1.14.12.19
+                 R06782  Phenylpropanoate + Oxygen + NADH + H+ <=> cis-3-(Carboxy-ethyl)-3,5-cyclo-hexadiene-1,2-diol + NAD+
+ORTHOLOGY   K00529  3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin reductase component [EC:1.18.1.3]
+            K05708  3-phenylpropionate/trans-cinnamate dioxygenase subunit alpha [EC:1.14.12.19]
+            K05709  3-phenylpropionate/trans-cinnamate dioxygenase subunit beta [EC:1.14.12.19]
+            K05710  3-phenylpropionate/trans-cinnamate dioxygenase ferredoxin component
+DBLINKS     RHEA: 20360
+///

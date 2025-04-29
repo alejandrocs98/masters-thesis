@@ -1,0 +1,35 @@
+ENTRY       R00328                      Reaction
+NAME        GDP phosphohydrolase
+DEFINITION  GDP + H2O <=> GMP + Orthophosphate
+EQUATION    C00035 + C00001 <=> C00144 + C00009
+RCLASS      RC00002  C00035_C00144
+ENZYME      3.6.1.5         3.6.1.6         3.6.1.42
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.5
+                 R00328  GDP + H2O <=> GMP + Orthophosphate
+                3.6.1.6
+                 R00328  GDP + H2O <=> GMP + Orthophosphate
+                3.6.1.42
+                 R00328  GDP + H2O <=> GMP + Orthophosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.6.1.5
+               R10442  NDP <=> Nucleoside 5'-phosphate
+                R00328  GDP <=> GMP
+              3.6.1.6
+               R00329  NDP <=> Nucleotide
+                R00328  GDP <=> GMP
+ORTHOLOGY   K01510  apyrase [EC:3.6.1.5]
+            K01511  ectonucleoside triphosphate diphosphohydrolase 5/6 [EC:3.6.1.6]
+            K12304  soluble calcium-activated nucleotidase 1 [EC:3.6.1.6]
+            K12305  ectonucleoside triphosphate diphosphohydrolase 4 [EC:3.6.1.6]
+            K14641  apyrase [EC:3.6.1.5]
+            K14642  golgi apyrase [EC:3.6.1.5]
+DBLINKS     RHEA: 22159
+///

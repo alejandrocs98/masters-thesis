@@ -1,0 +1,23 @@
+ENTRY       R08557                      Reaction
+DEFINITION  Choline + NAD+ <=> Betaine aldehyde + NADH + H+
+EQUATION    C00114 + C00003 <=> C00576 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00087  C00114_C00576
+ENZYME      1.1.1.1
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+MODULE      M00555  Betaine biosynthesis, choline => betaine
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.1
+                 R08557  Choline + NAD+ <=> Betaine aldehyde + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.1
+               R00623  Primary alcohol <=> Aldehyde
+                R08557  Choline <=> Betaine aldehyde
+ORTHOLOGY   K11440  choline dehydrogenase [EC:1.1.1.1]
+DBLINKS     RHEA: 33054
+///

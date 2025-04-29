@@ -1,0 +1,23 @@
+ENTRY       R02738                      Reaction
+NAME        protein-N(pi)-phosphohistidine:D-glucose 6-phosphotransferase
+DEFINITION  Protein N(pi)-phospho-L-histidine + D-Glucose <=> Protein histidine + alpha-D-Glucose 6-phosphate
+EQUATION    C04261 + C00031 <=> C00615 + C00668
+RCLASS      RC00017  C00031_C00668
+            RC03206  C00615_C04261
+ENZYME      2.7.1.199
+PATHWAY     rn00010  Glycolysis / Gluconeogenesis
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.199
+                 R02738  Protein N(pi)-phospho-L-histidine + D-Glucose <=> Protein histidine + alpha-D-Glucose 6-phosphate
+ORTHOLOGY   K02777  sugar PTS system EIIA component [EC:2.7.1.-]
+            K02778  glucose PTS system EIIB component [EC:2.7.1.199]
+            K02779  glucose PTS system EIICB or EIICBA component [EC:2.7.1.199]
+            K02791  maltose/glucose PTS system EIICB component [EC:2.7.1.199 2.7.1.208]
+            K20118  glucose PTS system EIICBA or EIICB component [EC:2.7.1.199]
+DBLINKS     RHEA: 33370
+///

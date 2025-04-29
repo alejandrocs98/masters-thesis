@@ -1,0 +1,16 @@
+ENTRY       R05210                      Reaction
+NAME        (S)-coclaurine,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (C-O phenol-coupling)
+DEFINITION  (S)-Coclaurine + (R)-N-Methylcoclaurine + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 2'-Norberbamunine + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+EQUATION    C06161 + C05243 + C03024 + C00007 <=> C06512 + C03161 + 2 C00001
+RCLASS      RC00878  C06161_C06512
+            RC01199  C05243_C06512
+ENZYME      1.14.19.66
+PATHWAY     rn00950  Isoquinoline alkaloid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.66
+                 R05210  (S)-Coclaurine + (R)-N-Methylcoclaurine + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 2'-Norberbamunine + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+ORTHOLOGY   K13387  berbamunine synthase [EC:1.14.19.66]
+///

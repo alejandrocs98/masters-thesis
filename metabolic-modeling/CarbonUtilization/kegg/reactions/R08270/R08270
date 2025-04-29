@@ -1,0 +1,16 @@
+ENTRY       R08270                      Reaction
+DEFINITION  N-Desmethyltamoxifen + NADPH + Oxygen + H+ <=> Endoxifen + NADP+ + H2O
+EQUATION    C16546 + C00005 + C00007 + C00080 <=> C16547 + C00006 + C00001
+COMMENT     CYP2D6
+RCLASS      RC00001  C00005_C00006
+            RC00490  C16546_C16547
+ENZYME      1.14.14.1
+PATHWAY     rn00982  Drug metabolism - cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R08270  N-Desmethyltamoxifen + NADPH + Oxygen + H+ <=> Endoxifen + NADP+ + H2O
+ORTHOLOGY   K17712  cytochrome P450 family 2 subfamily D6 [EC:1.14.14.1]
+///

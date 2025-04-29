@@ -1,0 +1,20 @@
+ENTRY       R05556                      Reaction
+NAME        (2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase (adding 10-55 isopentenyl units)
+DEFINITION  trans,trans-Farnesyl diphosphate + n Isopentenyl diphosphate <=> ditrans,polycis-Polyprenyl diphosphate + n Diphosphate
+EQUATION    C00448 + n C00129 <=> C05859 + n C00013
+COMMENT     multistep-reaction (n = 10-55)
+RCLASS      RC00279  C00129_C05859
+            RC02839  C00448_C05859
+ENZYME      2.5.1.87
+PATHWAY     rn00900  Terpenoid backbone biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.87
+                 R05556  trans,trans-Farnesyl diphosphate + n Isopentenyl diphosphate <=> ditrans,polycis-Polyprenyl diphosphate + n Diphosphate
+ORTHOLOGY   K11778  ditrans,polycis-polyprenyl diphosphate synthase [EC:2.5.1.87]
+            K19177  dehydrodolichyl diphosphate syntase complex subunit NUS1 [EC:2.5.1.87]
+DBLINKS     RHEA: 53011
+///

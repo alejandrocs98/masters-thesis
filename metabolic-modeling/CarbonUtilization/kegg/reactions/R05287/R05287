@@ -1,0 +1,30 @@
+ENTRY       R05287                      Reaction
+NAME        chloroacetic acid halidohydrolase
+DEFINITION  Chloroacetic acid + H2O <=> Glycolate + Hydrochloric acid
+EQUATION    C06755 + C00001 <=> C00160 + C01327
+RCLASS      RC00697  C00160_C06755
+ENZYME      3.8.1.2         3.8.1.3
+PATHWAY     rn00361  Chlorocyclohexane and chlorobenzene degradation
+            rn00625  Chloroalkane and chloroalkene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.8  Acting on halide bonds
+               3.8.1  In carbon-halide compounds
+                3.8.1.2
+                 R05287  Chloroacetic acid + H2O <=> Glycolate + Hydrochloric acid
+                3.8.1.3
+                 R05287  Chloroacetic acid + H2O <=> Glycolate + Hydrochloric acid
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.8.1.2
+               R03830  (S)-2-Haloacid <=> (R)-2-Hydroxyacid
+                R05287  Chloroacetic acid <=> Glycolate
+              3.8.1.3
+               R02336  Haloacetate <=> Halide
+                R05287  Chloroacetic acid <=> Hydrochloric acid
+ORTHOLOGY   K01560  2-haloacid dehalogenase [EC:3.8.1.2]
+            K01561  haloacetate dehalogenase [EC:3.8.1.3]
+DBLINKS     RHEA: 25192
+///

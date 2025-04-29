@@ -1,0 +1,20 @@
+ENTRY       R00021                      Reaction
+NAME        L-glutamate:ferredoxin oxidoreductase (transaminating)
+DEFINITION  2 L-Glutamate + 2 Oxidized ferredoxin <=> L-Glutamine + 2-Oxoglutarate + 2 Reduced ferredoxin + 2 H+
+EQUATION    2 C00025 + 2 C00139 <=> C00064 + C00026 + 2 C00138 + 2 C00080
+COMMENT     two-step reaction (see R00256+R10086)
+RCLASS      RC00006  C00025_C00026
+            RC00010  C00025_C00064
+ENZYME      1.4.7.1
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+            rn00910  Nitrogen metabolism
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.7  With an iron-sulfur protein as acceptor
+                1.4.7.1
+                 R00021  2 L-Glutamate + 2 Oxidized ferredoxin <=> L-Glutamine + 2-Oxoglutarate + 2 Reduced ferredoxin + 2 H+
+ORTHOLOGY   K00284  glutamate synthase (ferredoxin) [EC:1.4.7.1]
+DBLINKS     RHEA: 12131
+///

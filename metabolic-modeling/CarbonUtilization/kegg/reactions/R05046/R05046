@@ -1,0 +1,26 @@
+ENTRY       R05046                      Reaction
+NAME        formamidopyrimidine nucleoside triphosphate amidohydrolase
+DEFINITION  Formamidopyrimidine nucleoside triphosphate + H2O <=> 2,5-Diaminopyrimidine nucleoside triphosphate + Formate
+EQUATION    C05922 + C00001 <=> C05923 + C00058
+COMMENT     the second step of four-step reaction (see R00424, R00428+R05046+R05048+R04639)
+            following after R00428
+            subsequently R05048
+RCLASS      RC00263  C05922_C05923
+            RC00323  C00058_C05922
+ENZYME      3.5.4.16
+PATHWAY     rn00790  Folate biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00126  Tetrahydrofolate biosynthesis, GTP => THF
+            M00841  Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF
+            M00842  Tetrahydrobiopterin biosynthesis, GTP => BH4
+            M00843  L-threo-Tetrahydrobiopterin biosynthesis, GTP => L-threo-BH4
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.4  In cyclic amidines
+                3.5.4.16
+                 R05046  Formamidopyrimidine nucleoside triphosphate + H2O <=> 2,5-Diaminopyrimidine nucleoside triphosphate + Formate
+ORTHOLOGY   K01495  GTP cyclohydrolase IA [EC:3.5.4.16]
+            K09007  GTP cyclohydrolase IB [EC:3.5.4.16]
+            K22391  GTP cyclohydrolase I [EC:3.5.4.16]
+///

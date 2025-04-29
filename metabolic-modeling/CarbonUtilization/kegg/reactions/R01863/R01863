@@ -1,0 +1,27 @@
+ENTRY       R01863                      Reaction
+NAME        inosine:phosphate alpha-D-ribosyltransferase
+DEFINITION  Inosine + Orthophosphate <=> Hypoxanthine + alpha-D-Ribose 1-phosphate
+EQUATION    C00294 + C00009 <=> C00262 + C00620
+RCLASS      RC00063  C00262_C00294
+ENZYME      2.4.2.1
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00958  Adenine ribonucleotide degradation, AMP => Urate
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.2  Pentosyltransferases
+                2.4.2.1
+                 R01863  Inosine + Orthophosphate <=> Hypoxanthine + alpha-D-Ribose 1-phosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.2.1
+               R08368  N-D-Ribosylpurine <=> Purine
+                R01863  Inosine <=> Hypoxanthine
+ORTHOLOGY   K03783  purine-nucleoside phosphorylase [EC:2.4.2.1]
+            K03784  purine-nucleoside phosphorylase [EC:2.4.2.1]
+            K05810  purine-nucleoside/S-methyl-5'-thioadenosine phosphorylase / adenosine deaminase [EC:2.4.2.1 2.4.2.28 3.5.4.4]
+            K09913  purine/pyrimidine-nucleoside phosphorylase [EC:2.4.2.1 2.4.2.2]
+DBLINKS     RHEA: 27649
+///

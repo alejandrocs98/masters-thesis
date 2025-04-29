@@ -1,0 +1,17 @@
+ENTRY       R10717                      Reaction
+NAME        propane-1,2-diol:NAD+ 2-oxidoreductase
+DEFINITION  Propane-1,2-diol + NAD+ <=> Hydroxyacetone + NADH + H+
+EQUATION    C00583 + C00003 <=> C05235 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00117  C00583_C05235
+ENZYME      1.1.1.6
+PATHWAY     rn00640  Propanoate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.6
+                 R10717  Propane-1,2-diol + NAD+ <=> Hydroxyacetone + NADH + H+
+ORTHOLOGY   K00005  glycerol dehydrogenase [EC:1.1.1.6]
+///

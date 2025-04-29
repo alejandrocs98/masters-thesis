@@ -1,0 +1,25 @@
+ENTRY       R05235                      Reaction
+NAME        p-cumic aldehyde:NAD+ oxidoreductase
+DEFINITION  4-Isopropylbenzaldehyde + NAD+ + H2O <=> p-Cumate + NADH + H+
+EQUATION    C06577 + C00003 + C00001 <=> C06578 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00075  C06577_C06578
+ENZYME      1.2.1.29
+PATHWAY     rn00622  Xylene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00419  Cymene degradation, p-cymene => p-cumate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.29
+                 R05235  4-Isopropylbenzaldehyde + NAD+ + H2O <=> p-Cumate + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.29
+               R01486  Aromatic aldehyde <=> Aromatic acid
+                R05235  4-Isopropylbenzaldehyde <=> p-Cumate
+ORTHOLOGY   K10618  p-cumic aldehyde dehydrogenase
+///

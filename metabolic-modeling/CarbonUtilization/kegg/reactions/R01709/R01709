@@ -1,0 +1,26 @@
+ENTRY       R01709                      Reaction
+NAME        pyridoxal:oxygen 4-oxidoreductase
+DEFINITION  Pyridoxal + Oxygen + H2O <=> 4-Pyridoxate + Hydrogen peroxide
+EQUATION    C00250 + C00007 + C00001 <=> C00847 + C00027
+RCLASS      RC00075  C00250_C00847
+            RC02755  C00007_C00027
+ENZYME      1.2.3.1         1.2.3.8
+PATHWAY     rn00750  Vitamin B6 metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.3  With oxygen as acceptor
+                1.2.3.1
+                 R01709  Pyridoxal + Oxygen + H2O <=> 4-Pyridoxate + Hydrogen peroxide
+                1.2.3.8
+                 R01709  Pyridoxal + Oxygen + H2O <=> 4-Pyridoxate + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.3.1
+               R00635  Aldehyde <=> Carboxylate
+                R01709  Pyridoxal <=> 4-Pyridoxate
+ORTHOLOGY   K00157  aldehyde oxidase [EC:1.2.3.1]
+DBLINKS     RHEA: 23727
+///

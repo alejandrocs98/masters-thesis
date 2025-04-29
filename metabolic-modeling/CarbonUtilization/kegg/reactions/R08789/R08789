@@ -1,0 +1,24 @@
+ENTRY       R08789                      Reaction
+NAME        S-adenosyl-L-methionine:(S)-canadine N-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + (S)-Canadine <=> S-Adenosyl-L-homocysteine + (S)-cis-N-Methylcanadine
+EQUATION    C00019 + C03329 <=> C00021 + C02915
+RCLASS      RC00003  C00019_C00021
+            RC01197  C02915_C03329
+ENZYME      2.1.1.122
+PATHWAY     rn00950  Isoquinoline alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00946  Noscapine biosynthesis, (S)-reticuline => noscapine
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.122
+                 R08789  S-Adenosyl-L-methionine + (S)-Canadine <=> S-Adenosyl-L-homocysteine + (S)-cis-N-Methylcanadine
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.1.1.122
+               R04716  (S)-Tetrahydroprotoberberine <=> (S)-cis-N-Methyl-7,8,13,14-tetrahydroprotoberberine
+                R08789  (S)-Canadine <=> (S)-cis-N-Methylcanadine
+ORTHOLOGY   K13396  (S)-tetrahydroprotoberberine N-methyltransferase [EC:2.1.1.122]
+///

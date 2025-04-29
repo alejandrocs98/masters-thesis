@@ -1,0 +1,20 @@
+ENTRY       R01943                      Reaction
+NAME        caffeate:CoA ligase (AMP-forming);
+            3,4-dihydroxy-trans-cinnamate:CoA ligase (AMP-forming)
+DEFINITION  ATP + Caffeate + CoA <=> AMP + Diphosphate + Caffeoyl-CoA
+EQUATION    C00002 + C01197 + C00010 <=> C00020 + C00013 + C00323
+RCLASS      RC00004  C00010_C00323
+            RC00131  C00323_C01197
+ENZYME      6.2.1.12
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.12
+                 R01943  ATP + Caffeate + CoA <=> AMP + Diphosphate + Caffeoyl-CoA
+ORTHOLOGY   K01904  4-coumarate--CoA ligase [EC:6.2.1.12]
+DBLINKS     RHEA: 36302
+///

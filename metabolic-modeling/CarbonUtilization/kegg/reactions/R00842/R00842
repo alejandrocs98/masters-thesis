@@ -1,0 +1,22 @@
+ENTRY       R00842                      Reaction
+NAME        sn-glycerol-3-phosphate:NAD+ 2-oxidoreductase
+DEFINITION  sn-Glycerol 3-phosphate + NAD+ <=> Glycerone phosphate + NADH + H+
+EQUATION    C00093 + C00003 <=> C00111 + C00004 + C00080
+COMMENT     NADP+ (ec 1.1.1.94, see R00844)
+RCLASS      RC00001  C00003_C00004
+            RC00029  C00093_C00111
+ENZYME      1.1.1.8         1.1.1.94
+PATHWAY     rn00564  Glycerophospholipid metabolism
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.8
+                 R00842  sn-Glycerol 3-phosphate + NAD+ <=> Glycerone phosphate + NADH + H+
+                1.1.1.94
+                 R00842  sn-Glycerol 3-phosphate + NAD+ <=> Glycerone phosphate + NADH + H+
+ORTHOLOGY   K00006  glycerol-3-phosphate dehydrogenase (NAD+) [EC:1.1.1.8]
+            K00057  glycerol-3-phosphate dehydrogenase (NAD(P)+) [EC:1.1.1.94]
+DBLINKS     RHEA: 11095
+///

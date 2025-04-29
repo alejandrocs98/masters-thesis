@@ -1,0 +1,18 @@
+ENTRY       R05708                      Reaction
+NAME        N6-dimethylallyladenine:(acceptor) oxidoreductase
+DEFINITION  N6-(Delta2-Isopentenyl)-adenine + H2O + Acceptor <=> Adenine + 3-Methyl-2-butenal + Reduced acceptor
+EQUATION    C04083 + C00001 + C00028 <=> C00147 + C07330 + C00030
+RCLASS      RC00121  C00147_C04083
+            RC01455  C04083_C07330
+ENZYME      1.5.99.12
+PATHWAY     rn00908  Zeatin biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.99  With unknown physiological acceptors
+                1.5.99.12
+                 R05708  N6-(Delta2-Isopentenyl)-adenine + H2O + Acceptor <=> Adenine + 3-Methyl-2-butenal + Reduced acceptor
+ORTHOLOGY   K00279  cytokinin dehydrogenase [EC:1.5.99.12]
+DBLINKS     RHEA: 13628
+///

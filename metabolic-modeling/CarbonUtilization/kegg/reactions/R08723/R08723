@@ -1,0 +1,22 @@
+ENTRY       R08723                      Reaction
+NAME        cholest-5-ene-3beta,7alpha,25-triol:NAD+ 3-oxidoreductase
+DEFINITION  Cholest-5-ene-3beta,7alpha,25-triol + NAD+ <=> 7alpha,25-Dihydroxy-4-cholesten-3-one + NADH + H+
+EQUATION    C15520 + C00003 <=> C17332 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC01111  C15520_C17332
+ENZYME      1.1.1.181
+PATHWAY     rn00120  Primary bile acid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.181
+                 R08723  Cholest-5-ene-3beta,7alpha,25-triol + NAD+ <=> 7alpha,25-Dihydroxy-4-cholesten-3-one + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.181
+               R04263  7alpha-Hydroxycholesterol <=> 7alpha-Hydroxycholest-4-en-3-one
+                R08723  Cholest-5-ene-3beta,7alpha,25-triol <=> 7alpha,25-Dihydroxy-4-cholesten-3-one
+ORTHOLOGY   K12408  cholest-5-ene-3beta,7alpha-diol 3beta-dehydrogenase [EC:1.1.1.181]
+DBLINKS     RHEA: 47159
+///

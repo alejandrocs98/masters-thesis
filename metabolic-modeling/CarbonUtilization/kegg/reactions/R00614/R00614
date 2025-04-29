@@ -1,0 +1,22 @@
+ENTRY       R00614                      Reaction
+NAME        formaldehyde:formaldehyde oxidoreductase
+DEFINITION  2 Formaldehyde + H2O <=> Formate + Methanol
+EQUATION    2 C00067 + C00001 <=> C00058 + C00132
+RCLASS      RC00034  C00067_C00132
+            RC00188  C00058_C00067
+ENZYME      1.2.98.1
+PATHWAY     rn00625  Chloroalkane and chloroalkene degradation
+            rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.98  With other, known, physiological acceptors
+                1.2.98.1
+                 R00614  2 Formaldehyde + H2O <=> Formate + Methanol
+ORTHOLOGY   K17067  formaldehyde dismutase / methanol dehydrogenase [EC:1.2.98.1 1.1.99.37]
+            K17068  formaldehyde dismutase [EC:1.2.98.1]
+DBLINKS     RHEA: 19224
+///

@@ -1,0 +1,24 @@
+ENTRY       R02370                      Reaction
+NAME        cytidine 3'-phosphate phosphohydrolase
+DEFINITION  3'-CMP + H2O <=> Cytidine + Orthophosphate
+EQUATION    C05822 + C00001 <=> C00475 + C00009
+RCLASS      RC00078  C00475_C05822
+ENZYME      3.1.3.6
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.3  Phosphoric-monoester hydrolases
+                3.1.3.6
+                 R02370  3'-CMP + H2O <=> Cytidine + Orthophosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.1.3.6
+               R03060  3'-Ribonucleotide <=> Ribonucleoside
+                R02370  3'-CMP <=> Cytidine
+ORTHOLOGY   K01119  2',3'-cyclic-nucleotide 2'-phosphodiesterase / 3'-nucleotidase [EC:3.1.4.16 3.1.3.6]
+            K03787  5'/3'-nucleotidase [EC:3.1.3.5 3.1.3.6]
+            K08693  2',3'-cyclic-nucleotide 2'-phosphodiesterase / 3'-nucleotidase / 5'-nucleotidase [EC:3.1.4.16 3.1.3.6 3.1.3.5]
+DBLINKS     RHEA: 27897
+///

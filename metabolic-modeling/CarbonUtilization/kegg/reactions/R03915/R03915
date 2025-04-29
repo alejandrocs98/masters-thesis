@@ -1,0 +1,18 @@
+ENTRY       R03915                      Reaction
+NAME        glutathione:protein-disulfide oxidoreductase
+DEFINITION  Protein dithiol + Glutathione disulfide <=> Protein disulfide + 2 Glutathione
+EQUATION    C02315 + C00127 <=> C02582 + 2 C00051
+RCLASS      RC00011  C00051_C00127
+            RC00013  C02315_C02582
+ENZYME      1.8.4.2
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.4  With a disulfide as acceptor
+                1.8.4.2
+                 R03915  Protein dithiol + Glutathione disulfide <=> Protein disulfide + 2 Glutathione
+ORTHOLOGY   K05360  protein-disulfide reductase (glutathione) [EC:1.8.4.2]
+DBLINKS     RHEA: 21067
+///

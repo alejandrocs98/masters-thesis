@@ -1,0 +1,19 @@
+ENTRY       R01230                      Reaction
+NAME        xanthosine-5'-phosphate:ammonia ligase (AMP-forming)
+DEFINITION  ATP + Xanthosine 5'-phosphate + Ammonia <=> AMP + Diphosphate + GMP
+EQUATION    C00002 + C00655 + C00014 <=> C00020 + C00013 + C00144
+RCLASS      RC00204  C00144_C00655
+ENZYME      6.3.5.2
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00050  Guanine ribonucleotide biosynthesis, IMP => GDP,GTP
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.5  Carbon-nitrogen ligases with glutamine as amido-N-donor
+                6.3.5.2
+                 R01230  ATP + Xanthosine 5'-phosphate + Ammonia <=> AMP + Diphosphate + GMP
+ORTHOLOGY   K01951  GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]
+DBLINKS     RHEA: 18304
+///

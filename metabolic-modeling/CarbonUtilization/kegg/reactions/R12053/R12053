@@ -1,0 +1,18 @@
+ENTRY       R12053                      Reaction
+NAME        aurachin-B,NADH:oxygen oxidoreductase (2',3'-epoxidizing)
+DEFINITION  Aurachin B + NADH + H+ + Oxygen <=> Aurachin B epoxide + NAD+ + H2O
+EQUATION    C21140 + C00004 + C00080 + C00007 <=> C21874 + C00003 + C00001
+RCLASS      RC03133  C21140_C21874
+ENZYME      1.14.13.-
+PATHWAY     rn00998  Biosynthesis of various antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00848  Aurachin biosynthesis, anthranilate => aurachin A
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R12053  Aurachin B + NADH + H+ + Oxygen <=> Aurachin B epoxide + NAD+ + H2O
+ORTHOLOGY   K22801  aurachin B monooxygenase [EC:1.14.13.-]
+///

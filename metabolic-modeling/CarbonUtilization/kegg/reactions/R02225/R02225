@@ -1,0 +1,20 @@
+ENTRY       R02225                      Reaction
+NAME        ATP:streptomycin 6-phosphotransferase
+DEFINITION  ATP + Streptomycin <=> ADP + Streptomycin 6-phosphate
+EQUATION    C00002 + C00413 <=> C00008 + C01138
+RCLASS      RC00002  C00002_C00008
+            RC00078  C00413_C01138
+ENZYME      2.7.1.72
+PATHWAY     rn00521  Streptomycin biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.72
+                 R02225  ATP + Streptomycin <=> ADP + Streptomycin 6-phosphate
+ORTHOLOGY   K04343  streptomycin 6-kinase [EC:2.7.1.72]
+            K12570  streptomycin 6-kinase [EC:2.7.1.72]
+DBLINKS     RHEA: 22271
+///

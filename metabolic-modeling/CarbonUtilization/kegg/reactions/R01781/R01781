@@ -1,0 +1,22 @@
+ENTRY       R01781                      Reaction
+NAME        1,2-ethanediol:NAD+ oxidoreductase
+DEFINITION  Ethylene glycol + NAD+ <=> Glycolaldehyde + NADH + H+
+EQUATION    C01380 + C00003 <=> C00266 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00087  C00266_C01380
+ENZYME      1.1.1.77        1.1.1.-
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.77
+                 R01781  Ethylene glycol + NAD+ <=> Glycolaldehyde + NADH + H+
+                1.1.1.-
+                 R01781  Ethylene glycol + NAD+ <=> Glycolaldehyde + NADH + H+
+ORTHOLOGY   K00048  lactaldehyde reductase [EC:1.1.1.77]
+            K26209  glycolaldehyde reductase [EC:1.1.1.-]
+DBLINKS     RHEA: 27633
+///

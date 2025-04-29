@@ -1,0 +1,21 @@
+ENTRY       R12026                      Reaction
+NAME        NAD+:glycine ADP-D-ribosyltransferase (sulfide-adding)
+DEFINITION  NAD+ + Glycine + Hydrogen sulfide <=> Nicotinamide + ADP-5-ethyl-4-methylthiazole-2-carboxylate + 3 H2O
+EQUATION    C00003 + C00037 + C00283 <=> C00153 + C20784 + 3 C00001
+RCLASS      RC00033  C00003_C00153
+            RC03253  C00003_C20784
+            RC03254  C00037_C20784
+ENZYME      2.4.2.59
+PATHWAY     rn00730  Thiamine metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00896  Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.2  Pentosyltransferases
+                2.4.2.59
+                 R12026  NAD+ + Glycine + Hydrogen sulfide <=> Nicotinamide + ADP-5-ethyl-4-methylthiazole-2-carboxylate + 3 H2O
+ORTHOLOGY   K22699  sulfide-dependent adenosine diphosphate thiazole synthase [EC:2.4.2.59]
+DBLINKS     RHEA: 55707
+///

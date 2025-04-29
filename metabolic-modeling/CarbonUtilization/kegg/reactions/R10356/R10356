@@ -1,0 +1,19 @@
+ENTRY       R10356                      Reaction
+NAME        paspaline-B,NADPH:oxygen oxidoreductase
+DEFINITION  Paspaline B + NADPH + H+ + Oxygen <=> 12-Demethyl-11,12-dehydropaspaline + NADP+ + H2O + Formate
+EQUATION    C20587 + C00005 + C00080 + C00007 <=> C20534 + C00006 + C00001 + C00058
+COMMENT     cytochrome P450
+RCLASS      RC00001  C00005_C00006
+            RC03239  C20534_C20587
+ENZYME      1.14.13.-
+PATHWAY     rn00403  Indole diterpene alkaloid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R10356  Paspaline B + NADPH + H+ + Oxygen <=> 12-Demethyl-11,12-dehydropaspaline + NADP+ + H2O + Formate
+ORTHOLOGY   K18388  cytochrome P450 monooxygenase [EC:1.14.13.-]
+            K18392  cytochrome P450 monooxygenase [EC:1.14.13.-]
+///

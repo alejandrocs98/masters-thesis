@@ -1,0 +1,20 @@
+ENTRY       R00964                      Reaction
+NAME        ATP:uridine 5'-phosphotransferase
+DEFINITION  ATP + Uridine <=> ADP + UMP
+EQUATION    C00002 + C00299 <=> C00008 + C00105
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00105_C00299
+ENZYME      2.7.1.48        2.7.1.213
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.48
+                 R00964  ATP + Uridine <=> ADP + UMP
+                2.7.1.213
+                 R00964  ATP + Uridine <=> ADP + UMP
+ORTHOLOGY   K00876  uridine kinase [EC:2.7.1.48]
+DBLINKS     RHEA: 16828
+///

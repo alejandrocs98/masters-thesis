@@ -1,0 +1,21 @@
+ENTRY       R02858                      Reaction
+NAME        S-adenosyl-L-methionine:macrocin 3'''-O-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + Macrocin <=> S-Adenosyl-L-homocysteine + Tylosin
+EQUATION    C00019 + C00744 <=> C00021 + C01457
+COMMENT     macrocin-O-methyltransferase,TylF
+RCLASS      RC00003  C00019_C00021
+            RC00466  C00744_C01457
+ENZYME      2.1.1.101
+PATHWAY     rn00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00773  Tylosin biosynthesis, methylmalonyl-CoA + malonyl-CoA => tylactone => tylosin
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.101
+                 R02858  S-Adenosyl-L-methionine + Macrocin <=> S-Adenosyl-L-homocysteine + Tylosin
+ORTHOLOGY   K15996  macrocin O-methyltransferase [EC:2.1.1.101]
+DBLINKS     RHEA: 17272
+///

@@ -1,0 +1,56 @@
+ENTRY       K15907                      KO
+SYMBOL      ptlI, CYP183A
+NAME        pentalenene oxygenase [EC:1.14.15.32]
+PATHWAY     map00909  Sesquiterpenoid and triterpenoid biosynthesis
+            map00998  Biosynthesis of various antibiotics
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00819  Pentalenolactone biosynthesis, farnesyl-PP => pentalenolactone
+REACTION    R09814  pentalenene,reduced ferredoxin:oxygen 13-oxidoreductase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
+               00909 Sesquiterpenoid and triterpenoid biosynthesis
+                K15907  ptlI, CYP183A; pentalenene oxygenase
+              09110 Biosynthesis of other secondary metabolites
+               00998 Biosynthesis of various antibiotics
+                K15907  ptlI, CYP183A; pentalenene oxygenase
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               00199 Cytochrome P450
+                K15907  ptlI, CYP183A; pentalenene oxygenase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.15  With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.15.32  pentalenene oxygenase
+                 K15907  ptlI, CYP183A; pentalenene oxygenase
+            Cytochrome P450 [BR:ko00199]
+             Cytochrome P450, bacteria type
+              CYP183 family
+               K15907  ptlI, CYP183A; pentalenene oxygenase
+DBLINKS     COG: COG2124
+GENES       SMA: SAVERM_2999(ptlI)
+            SBH: SBI_09680(cyp48)
+            SDV: BN159_1442(ptlI)
+            SCI: B446_29700
+            SCW: TU94_27410
+            SLE: sle_13150(sle_13150)
+            SCLF: BB341_00225
+            SSIA: A7J05_09235
+            SALF: SMD44_00690(ptlI)
+            SALJ: SMD11_0076(ptlI) SMD11_6153(ptlI)
+            SFEU: IM697_14465
+            SGJ: IAG43_27160
+            SHK: J2N69_35800
+            SFP: QUY26_08865 QUY26_37035
+            SCT: SCAT_p0090(ptlI)
+            SCY: SCATT_p16540
+            KSK: KSE_03600
+REFERENCE   PMID:17017767 (CYP183A1)
+  AUTHORS   Quaderer R, Omura S, Ikeda H, Cane DE
+  TITLE     Pentalenolactone biosynthesis. Molecular cloning and assignment of biochemical function to PtlI, a cytochrome P450 of Streptomyces avermitilis.
+  JOURNAL   J Am Chem Soc 128:13036-7 (2006)
+            DOI:10.1021/ja0639214
+  SEQUENCE  [sma:SAVERM_2999]
+///

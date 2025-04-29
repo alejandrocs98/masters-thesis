@@ -1,0 +1,41 @@
+ENTRY       R00014                      Reaction
+NAME        pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating)
+DEFINITION  Pyruvate + Thiamin diphosphate <=> 2-(alpha-Hydroxyethyl)thiamine diphosphate + CO2
+EQUATION    C00022 + C00068 <=> C05125 + C00011
+COMMENT     2-oxoglutarate dehydrogenase complex: pyruvate dehydrogenase (see R01699), subsequently R03270
+            TPP-dependent enzymatic reaction (see R00006), subsequently R03050
+            TPP-dependent enzymatic reaction (see R00226), subsequently R04672
+            TPP-dependent enzymatic reaction (see R00224), subsequently R00755
+            TPP-dependent enzymatic reaction (see R08648), subsequently R04673
+RCLASS      RC00027  C00068_C05125
+            RC02744  C00022_C05125
+ENZYME      1.2.4.1         2.2.1.6         4.1.1.1
+PATHWAY     rn00010  Glycolysis / Gluconeogenesis
+            rn00020  Citrate cycle (TCA cycle)
+            rn00620  Pyruvate metabolism
+            rn00785  Lipoic acid metabolism
+MODULE      M00307  Pyruvate oxidation, pyruvate => acetyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.4  With a disulfide as acceptor
+                1.2.4.1
+                 R00014  Pyruvate + Thiamin diphosphate <=> 2-(alpha-Hydroxyethyl)thiamine diphosphate + CO2
+             2. Transferase reactions
+              2.2  Transferring aldehyde or ketonic groups
+               2.2.1  Transketolases and transaldolases
+                2.2.1.6
+                 R00014  Pyruvate + Thiamin diphosphate <=> 2-(alpha-Hydroxyethyl)thiamine diphosphate + CO2
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.1
+                 R00014  Pyruvate + Thiamin diphosphate <=> 2-(alpha-Hydroxyethyl)thiamine diphosphate + CO2
+ORTHOLOGY   K00161  pyruvate dehydrogenase E1 component subunit alpha [EC:1.2.4.1]
+            K00162  pyruvate dehydrogenase E1 component subunit beta [EC:1.2.4.1]
+            K00163  pyruvate dehydrogenase E1 component [EC:1.2.4.1]
+            K01568  pyruvate decarboxylase [EC:4.1.1.1]
+            K01652  acetolactate synthase I/II/III large subunit [EC:2.2.1.6]
+            K01653  acetolactate synthase I/III small subunit [EC:2.2.1.6]
+            K11258  acetolactate synthase II small subunit [EC:2.2.1.6]
+///

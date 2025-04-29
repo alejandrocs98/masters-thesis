@@ -1,0 +1,20 @@
+ENTRY       R04764                      Reaction
+DEFINITION  2-Hydroxyestradiol + S-Adenosyl-L-methionine <=> 2-Methoxy-17beta-estradiol + S-Adenosyl-L-homocysteine
+EQUATION    C05301 + C00019 <=> C05302 + C00021
+RCLASS      RC00003  C00019_C00021
+            RC00392  C05301_C05302
+ENZYME      2.1.1.6
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.6
+                 R04764  2-Hydroxyestradiol + S-Adenosyl-L-methionine <=> 2-Methoxy-17beta-estradiol + S-Adenosyl-L-homocysteine
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.1.1.6
+               R07330  Catechol <=> Guaiacol
+                R04764  2-Hydroxyestradiol <=> 2-Methoxy-17beta-estradiol
+ORTHOLOGY   K00545  catechol O-methyltransferase [EC:2.1.1.6]
+///

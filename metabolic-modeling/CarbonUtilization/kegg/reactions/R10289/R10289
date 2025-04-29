@@ -1,0 +1,18 @@
+ENTRY       R10289                      Reaction
+NAME        isochavicol:NADP+ oxidoreductase
+DEFINITION  Coumaryl acetate + NADPH + H+ <=> Isochavicol + Acetate + NADP+
+EQUATION    C20465 + C00005 + C00080 <=> C20464 + C00033 + C00006
+RCLASS      RC00001  C00005_C00006
+            RC00020  C00033_C20465
+            RC02845  C20464_C20465
+ENZYME      1.1.1.319
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.319
+                 R10289  Coumaryl acetate + NADPH + H+ <=> Isochavicol + Acetate + NADP+
+ORTHOLOGY   K17056  isoeugenol synthase [EC:1.1.1.319]
+///

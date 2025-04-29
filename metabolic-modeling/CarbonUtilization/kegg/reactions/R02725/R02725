@@ -1,0 +1,21 @@
+ENTRY       R02725                      Reaction
+NAME        androstenedione,reduced-adrenal-ferredoxin:oxygen oxidoreductase (11-hydroxylating)
+DEFINITION  2 Reduced adrenal ferredoxin + Androstenedione + Oxygen + 2 H+ <=> 11beta-Hydroxyandrost-4-ene-3,17-dione + 2 Oxidized adrenal ferredoxin + H2O
+EQUATION    2 C00662 + C00280 + C00007 + 2 C00080 <=> C05284 + 2 C00667 + C00001
+RCLASS      RC00661  C00280_C05284
+ENZYME      1.14.15.4
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.15  With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.15.4
+                 R02725  2 Reduced adrenal ferredoxin + Androstenedione + Oxygen + 2 H+ <=> 11beta-Hydroxyandrost-4-ene-3,17-dione + 2 Oxidized adrenal ferredoxin + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.15.4
+               R02726  Steroid <=> 11beta-Hydroxysteroid
+                R02725  Androstenedione <=> 11beta-Hydroxyandrost-4-ene-3,17-dione
+ORTHOLOGY   K00497  steroid 11beta-monooxygenase [EC:1.14.15.4]
+            K07433  steroid 11beta-monooxygenase / corticosterone 18-monooxygenase [EC:1.14.15.4 1.14.15.5]
+///

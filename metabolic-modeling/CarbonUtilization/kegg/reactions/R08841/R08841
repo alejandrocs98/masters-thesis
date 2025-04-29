@@ -1,0 +1,21 @@
+ENTRY       R08841                      Reaction
+NAME        typhasterol,NADPH---hemoprotein reductase:oxygen oxidoreductase (lactonizing, 7-oxatyphasterol-forming)
+DEFINITION  Typhasterol + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 7-Oxatyphasterol + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+EQUATION    C15793 + C03024 + C00007 <=> C17735 + C03161 + 2 C00001
+RCLASS      RC01504  C15793_C17735
+ENZYME      1.14.14.180
+PATHWAY     rn00905  Brassinosteroid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.180
+                 R08841  Typhasterol + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 7-Oxatyphasterol + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+ORTHOLOGY   K12640  brassinosteroid 6-oxygenase / brassinolide synthase [EC:1.14.14.179 1.14.14.180]
+REFERENCE   1  [PMID:18685225]
+  AUTHORS   Katsumata T, Hasegawa A, Fujiwara T, Komatsu T, Notomi M, Abe H, Natsume M, Kawaide H
+  TITLE     Arabidopsis CYP85A2 catalyzes lactonization reactions in the biosynthesis of 2-deoxy-7-oxalactone brassinosteroids.
+  JOURNAL   Biosci Biotechnol Biochem 72:2110-7 (2008)
+            DOI:10.1271/bbb.80192
+DBLINKS     RHEA: 70022
+///

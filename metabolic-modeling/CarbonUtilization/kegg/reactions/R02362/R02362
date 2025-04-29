@@ -1,0 +1,20 @@
+ENTRY       R02362                      Reaction
+NAME        pectin pectylhydrolase
+DEFINITION  Pectin + n H2O <=> n Methanol + Pectate
+EQUATION    C00714 + n C00001 <=> n C00132 + C00470
+REMARK      Same as: R06250
+RCLASS      RC00460  C00470_C00714
+            RC00461  C00132_C00714
+ENZYME      3.1.1.11
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn01100  Metabolic pathways
+MODULE      M00081  Pectin degradation
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.11
+                 R02362  Pectin + n H2O <=> n Methanol + Pectate
+ORTHOLOGY   K01051  pectinesterase [EC:3.1.1.11]
+DBLINKS     RHEA: 22383
+///

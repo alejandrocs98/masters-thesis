@@ -1,0 +1,26 @@
+ENTRY       R01763                      Reaction
+NAME        benzyl alcohol:NAD+ oxidoreductase
+DEFINITION  Benzyl alcohol + NAD+ <=> Benzaldehyde + NADH + H+
+EQUATION    C00556 + C00003 <=> C00261 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00116  C00261_C00556
+ENZYME      1.1.1.90
+PATHWAY     rn00623  Toluene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00538  Toluene degradation, toluene => benzoate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.90
+                 R01763  Benzyl alcohol + NAD+ <=> Benzaldehyde + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.90
+               R01487  Aromatic primary alcohol <=> Aromatic aldehyde
+                R01763  Benzyl alcohol <=> Benzaldehyde
+ORTHOLOGY   K00055  aryl-alcohol dehydrogenase [EC:1.1.1.90]
+DBLINKS     RHEA: 64699
+///

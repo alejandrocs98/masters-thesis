@@ -1,0 +1,17 @@
+ENTRY       R11712                      Reaction
+DEFINITION  2 L-Arginine + 2 Reduced flavodoxin + 2 Oxygen <=> 2 N(omega)-Hydroxyarginine + 2 Oxidized flavodoxin + 2 H2O
+EQUATION    2 C00062 + 2 C02745 + 2 C00007 <=> 2 C05933 + 2 C02869 + 2 C00001
+COMMENT     the first step of two-step reaction (see R11711, R11712+R11713)
+RCLASS      RC00330  C00062_C05933
+ENZYME      1.14.14.47
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.47
+                 R11712  2 L-Arginine + 2 Reduced flavodoxin + 2 Oxygen <=> 2 N(omega)-Hydroxyarginine + 2 Oxidized flavodoxin + 2 H2O
+ORTHOLOGY   K00491  nitric-oxide synthase, bacterial [EC:1.14.14.47]
+DBLINKS     RHEA: 52331
+///

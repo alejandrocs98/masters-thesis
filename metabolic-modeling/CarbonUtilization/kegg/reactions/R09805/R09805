@@ -1,0 +1,20 @@
+ENTRY       R09805                      Reaction
+NAME        L-aspartate-4-semialdehyde:NAD+ oxidoreductase
+DEFINITION  L-Aspartate 4-semialdehyde + NAD+ + H2O <=> L-Aspartate + NADH + H+
+EQUATION    C00441 + C00003 + C00001 <=> C00049 + C00004 + C00080
+COMMENT     aspartate-semialdehyde dehydrogenase
+RCLASS      RC00001  C00003_C00004
+            RC00080  C00049_C00441
+ENZYME      1.2.1.-
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00919  Ectoine degradation, ectoine => aspartate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.-
+                 R09805  L-Aspartate 4-semialdehyde + NAD+ + H2O <=> L-Aspartate + NADH + H+
+ORTHOLOGY   K15786  aspartate-semialdehyde dehydrogenase [EC:1.2.1.-]
+///

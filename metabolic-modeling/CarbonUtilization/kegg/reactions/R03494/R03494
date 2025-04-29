@@ -1,0 +1,30 @@
+ENTRY       R03494                      Reaction
+NAME        geranoyl-CoA:carbon-dioxide ligase (ADP-forming)
+DEFINITION  ATP + Geranoyl-CoA + HCO3- <=> ADP + Orthophosphate + 3-(4-Methylpent-3-en-1-yl)pent-2-enedioyl-CoA
+EQUATION    C00002 + C01920 + C00288 <=> C00008 + C00009 + C01291
+RCLASS      RC00002  C00002_C00008
+            RC00367  C00288_C01291
+            RC00942  C01291_C01920
+ENZYME      6.4.1.5
+PATHWAY     rn00907  Pinene, camphor and geraniol degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.4  Forming carbon-carbon bonds
+               6.4.1  Ligases that form carbon-carbon bonds (only sub-subclass identified to date)
+                6.4.1.5
+                 R03494  ATP + Geranoyl-CoA + HCO3- <=> ADP + Orthophosphate + 3-(4-Methylpent-3-en-1-yl)pent-2-enedioyl-CoA
+ORTHOLOGY   K13777  geranyl-CoA carboxylase alpha subunit [EC:6.4.1.5]
+            K13778  geranyl-CoA carboxylase beta subunit [EC:6.4.1.5]
+REFERENCE   1  [PMID:16820476]
+  AUTHORS   Forster-Fromme K, Hoschle B, Mack C, Bott M, Armbruster W, Jendrossek D
+  TITLE     Identification of genes and proteins necessary for catabolism of acyclic terpenes and leucine/isovalerate in Pseudomonas aeruginosa.
+  JOURNAL   Appl Environ Microbiol 72:4819-28 (2006)
+            DOI:10.1128/AEM.00853-06
+REFERENCE   2  [PMID:16272386]
+  AUTHORS   Hoschle B, Gnau V, Jendrossek D.
+  TITLE     Methylcrotonyl-CoA and geranyl-CoA carboxylases are involved in leucine/isovalerate utilization (Liu) and acyclic terpene utilization (Atu), and are encoded by liuB/liuD and atuC/atuF, in Pseudomonas aeruginosa.
+  JOURNAL   Microbiology 151:3649-56 (2005)
+            DOI:10.1099/mic.0.28260-0
+DBLINKS     RHEA: 17704
+///

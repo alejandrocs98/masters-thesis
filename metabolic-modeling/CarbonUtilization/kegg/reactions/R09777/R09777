@@ -1,0 +1,21 @@
+ENTRY       R09777                      Reaction
+NAME        LysW-gamma-L-alpha-aminoadipate 6-semialdehyde:NADP+ 6-oxidoreductase (phosphorylating)
+DEFINITION  LysW-gamma-L-alpha-aminoadipyl 6-phosphate + NADPH + H+ <=> LysW-gamma-L-alpha-aminoadipate 6-semialdehyde + NADP+ + Orthophosphate
+EQUATION    C19887 + C00005 + C00080 <=> C19888 + C00006 + C00009
+RCLASS      RC00001  C00005_C00006
+            RC00684  C19887_C19888
+ENZYME      1.2.1.103
+PATHWAY     rn00300  Lysine biosynthesis
+            rn01100  Metabolic pathways
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01230  Biosynthesis of amino acids
+MODULE      M00031  Lysine biosynthesis, mediated by LysW, 2-aminoadipate => lysine
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.103
+                 R09777  LysW-gamma-L-alpha-aminoadipyl 6-phosphate + NADPH + H+ <=> LysW-gamma-L-alpha-aminoadipate 6-semialdehyde + NADP+ + Orthophosphate
+ORTHOLOGY   K05829  [amino group carrier protein]-6-phospho-L-2-aminoadipate/5-phospho-L-glutamate reductase [EC:1.2.1.103 1.2.1.106]
+DBLINKS     RHEA: 41951
+///

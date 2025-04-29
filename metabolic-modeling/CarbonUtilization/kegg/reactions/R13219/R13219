@@ -1,0 +1,20 @@
+ENTRY       R13219                      Reaction
+NAME        androstan-3alpha,17beta-diol:NADP+ 17-oxidoreductase
+DEFINITION  Androsterone + NADPH + H+ <=> Androstan-3alpha,17beta-diol + NADP+
+EQUATION    C00523 + C00005 + C00080 <=> C03852 + C00006
+RCLASS      RC00127  C00523_C03852
+ENZYME      1.1.1.51        1.1.1.64
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00977  C19-Steroid hormone biosynthesis (androgen backdoor pathway), pregnenolone => androsterone => dihydrotestosterone
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.51
+                 R13219  Androsterone + NADPH + H+ <=> Androstan-3alpha,17beta-diol + NADP+
+                1.1.1.64
+                 R13219  Androsterone + NADPH + H+ <=> Androstan-3alpha,17beta-diol + NADP+
+ORTHOLOGY   K04119  aldo-keto reductase family 1 member C3 [EC:1.1.1.51 1.1.1.188 1.1.1.213 1.1.1.357]
+            K10207  testosterone 17beta-dehydrogenase (NADP+) [EC:1.1.1.64]
+///

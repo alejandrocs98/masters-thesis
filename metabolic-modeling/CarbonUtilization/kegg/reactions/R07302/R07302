@@ -1,0 +1,22 @@
+ENTRY       R07302                      Reaction
+NAME        adenosylcobyric acid:(R)-1-aminopropan-2-ol ligase (ADP-forming)
+DEFINITION  ATP + Adenosyl cobyrinate hexaamide + (R)-1-Aminopropan-2-ol <=> ADP + Orthophosphate + Adenosyl cobinamide
+EQUATION    C00002 + C06507 + C03194 <=> C00008 + C00009 + C06508
+RCLASS      RC00002  C00002_C00008
+            RC00090  C06507_C06508
+            RC00096  C03194_C06508
+ENZYME      6.3.1.10
+PATHWAY     rn00860  Porphyrin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00122  Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.1  Acid-D-ammonia (or amine) ligases (amide synthases)
+                6.3.1.10
+                 R07302  ATP + Adenosyl cobyrinate hexaamide + (R)-1-Aminopropan-2-ol <=> ADP + Orthophosphate + Adenosyl cobinamide
+ORTHOLOGY   K02225  cobalamin biosynthesis protein CobC
+            K02227  adenosylcobinamide-phosphate synthase [EC:6.3.1.10]
+DBLINKS     RHEA: 12575
+///

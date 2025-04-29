@@ -1,0 +1,24 @@
+ENTRY       R00935                      Reaction
+NAME        (S)-methylmalonate semialdehyde:NAD+ oxidoreductase (CoA-propanoylating)
+DEFINITION  (S)-Methylmalonate semialdehyde + CoA + NAD+ <=> Propanoyl-CoA + CO2 + NADH + H+
+EQUATION    C06002 + C00010 + C00003 <=> C00100 + C00011 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00004  C00010_C00100
+            RC02817  C00100_C06002
+ENZYME      1.2.1.27
+PATHWAY     rn00640  Propanoate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.27
+                 R00935  (S)-Methylmalonate semialdehyde + CoA + NAD+ <=> Propanoyl-CoA + CO2 + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.27
+               R00922  2-Methyl-3-oxopropanoate
+                R00935  (S)-Methylmalonate semialdehyde
+ORTHOLOGY   K00140  malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]
+DBLINKS     RHEA: 31050
+///

@@ -1,0 +1,19 @@
+ENTRY       R08312                      Reaction
+DEFINITION  Carbamazepine + NADPH + H+ + Oxygen <=> Carbamazepine-10,11-epoxide + NADP+ + H2O
+EQUATION    C06868 + C00005 + C00080 + C00007 <=> C07496 + C00006 + C00001
+COMMENT     CYP3A4, CYP2C8
+RCLASS      RC00001  C00005_C00006
+            RC02228  C06868_C07496
+ENZYME      1.14.14.1       1.14.14.-
+PATHWAY     rn00982  Drug metabolism - cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R08312  Carbamazepine + NADPH + H+ + Oxygen <=> Carbamazepine-10,11-epoxide + NADP+ + H2O
+                1.14.14.-
+                 R08312  Carbamazepine + NADPH + H+ + Oxygen <=> Carbamazepine-10,11-epoxide + NADP+ + H2O
+ORTHOLOGY   K17689  cytochrome P450 family 3 subfamily A4 [EC:1.14.13.32 1.14.14.55 1.14.14.56 1.14.14.57 1.14.14.73 1.14.14.-]
+            K17718  cytochrome P450 family 2 subfamily C8 [EC:1.14.14.1]
+///

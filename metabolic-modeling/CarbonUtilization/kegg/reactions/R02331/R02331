@@ -1,0 +1,26 @@
+ENTRY       R02331                      Reaction
+NAME        ATP:dUDP phosphotransferase
+DEFINITION  ATP + dUDP <=> ADP + dUTP
+EQUATION    C00002 + C01346 <=> C00008 + C00460
+RCLASS      RC00002  C00002_C00008  C00460_C01346
+ENZYME      2.7.4.6
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00053  Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP
+            M00938  Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.6
+                 R02331  ATP + dUDP <=> ADP + dUTP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.4.6
+               R00331  NDP <=> Nucleoside triphosphate
+                R02331  dUDP <=> dUTP
+ORTHOLOGY   K00940  nucleoside-diphosphate kinase [EC:2.7.4.6]
+            K18533  adenylate/nucleoside-diphosphate kinase [EC:2.7.4.3 2.7.4.6]
+DBLINKS     RHEA: 28585
+///

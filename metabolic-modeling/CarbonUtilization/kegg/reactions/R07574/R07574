@@ -1,0 +1,23 @@
+ENTRY       R07574                      Reaction
+NAME        UDP-glucose:zeaxanthin beta-D-glucosyltransferase
+DEFINITION  Zeaxanthin + 2 UDP-glucose <=> Zeaxanthin diglucoside + 2 UDP
+EQUATION    C06098 + 2 C00029 <=> C15969 + 2 C00015
+COMMENT     multistep reaction
+            Zeaxanthin glucosyl transferase(crtX)
+RCLASS      RC00005  C00015_C00029
+            RC01992  C06098_C15969
+ENZYME      2.4.1.276
+PATHWAY     rn00906  Carotenoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.276
+                 R07574  Zeaxanthin + 2 UDP-glucose <=> Zeaxanthin diglucoside + 2 UDP
+            Glycosyltransferase reactions [BR:br08203]
+             Glucosyltransferase reactions
+              R07574  Glc b1- Zeaxanthin
+ORTHOLOGY   K14596  zeaxanthin glucosyltransferase [EC:2.4.1.276]
+DBLINKS     RHEA: 31546
+///

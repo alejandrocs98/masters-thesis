@@ -1,0 +1,23 @@
+ENTRY       R00488                      Reaction
+NAME        N-acetyl-L-aspartate amidohydrolase
+DEFINITION  N-Acetyl-L-aspartate + H2O <=> Acetate + L-Aspartate
+EQUATION    C01042 + C00001 <=> C00033 + C00049
+RCLASS      RC00064  C00049_C01042
+            RC00300  C00033_C01042
+ENZYME      3.5.1.15
+PATHWAY     rn00250  Alanine, aspartate and glutamate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.15
+                 R00488  N-Acetyl-L-aspartate + H2O <=> Acetate + L-Aspartate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.5.1.15
+               R00546  N-Acyl-L-aspartate <=> Carboxylate
+                R00488  N-Acetyl-L-aspartate <=> Acetate
+ORTHOLOGY   K01437  aspartoacylase [EC:3.5.1.15]
+DBLINKS     RHEA: 59411
+///

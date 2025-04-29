@@ -1,0 +1,29 @@
+ENTRY       R03856                      Reaction
+NAME        trans-dodec-2-enoyl-CoA reductase
+DEFINITION  Lauroyl-CoA + NADP+ <=> 2-trans-Dodecenoyl-CoA + NADPH + H+
+EQUATION    C01832 + C00006 <=> C03221 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00052  C01832_C03221
+ENZYME      1.3.1.8         1.3.1.38
+PATHWAY     rn00062  Fatty acid elongation
+            rn01100  Metabolic pathways
+            rn01212  Fatty acid metabolism
+MODULE      M00085  Fatty acid elongation in mitochondria
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.8
+                 R03856  Lauroyl-CoA + NADP+ <=> 2-trans-Dodecenoyl-CoA + NADPH + H+
+                1.3.1.38
+                 R03856  Lauroyl-CoA + NADP+ <=> 2-trans-Dodecenoyl-CoA + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.3.1.8
+               R00385  Acyl-CoA <=> 2,3-Dehydroacyl-CoA
+                R03856  Lauroyl-CoA <=> 2-trans-Dodecenoyl-CoA
+              1.3.1.38
+               R07162  Acyl-CoA <=> trans-2,3-Dehydroacyl-CoA
+                R03856  Lauroyl-CoA <=> 2-trans-Dodecenoyl-CoA
+ORTHOLOGY   K07512  mitochondrial enoyl-[acyl-carrier protein] reductase / trans-2-enoyl-CoA reductase [EC:1.3.1.- 1.3.1.38]
+///

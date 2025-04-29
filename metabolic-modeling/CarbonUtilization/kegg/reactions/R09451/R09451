@@ -1,0 +1,26 @@
+ENTRY       R09451                      Reaction
+NAME        hexadecanoic acid:fatty acid omega-hydroxylase
+DEFINITION  Hexadecanoic acid + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 16-Hydroxypalmitate + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00249 + C03024 + C00007 <=> C18218 + C03161 + C00001
+RCLASS      RC00797  C00249_C18218
+ENZYME      1.14.14.80      1.14.-.-
+PATHWAY     rn00073  Cutin, suberine and wax biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.80
+                 R09451  Hexadecanoic acid + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 16-Hydroxypalmitate + [Oxidized NADPH---hemoprotein reductase] + H2O
+               1.14.-  Acting on paired donors, with incorporation or reduction of molecular oxygen
+                1.14.-.-
+                 R09451  Hexadecanoic acid + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 16-Hydroxypalmitate + [Oxidized NADPH---hemoprotein reductase] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.80
+               R12072  Long-chain fatty acid <=> omega-Hydroxy-long-chain fatty acid
+                R09451  Hexadecanoic acid <=> 16-Hydroxypalmitate
+ORTHOLOGY   K15398  fatty acid omega-hydroxylase [EC:1.14.-.-]
+            K20495  long-chain fatty acid omega-monooxygenase [EC:1.14.14.80]
+DBLINKS     RHEA: 40202
+///

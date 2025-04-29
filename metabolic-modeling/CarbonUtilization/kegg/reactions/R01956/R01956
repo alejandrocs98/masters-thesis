@@ -1,0 +1,20 @@
+ENTRY       R01956                      Reaction
+NAME        L-kynurenine:2-oxoglutarate aminotransferase
+DEFINITION  L-Kynurenine + 2-Oxoglutarate <=> 4-(2-Aminophenyl)-2,4-dioxobutanoate + L-Glutamate
+EQUATION    C00328 + C00026 <=> C01252 + C00025
+COMMENT     the first step of two-step reaction (see R12688, R01956+R03445)
+RCLASS      RC00006  C00025_C00026  C00328_C01252
+ENZYME      2.6.1.7
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.7
+                 R01956  L-Kynurenine + 2-Oxoglutarate <=> 4-(2-Aminophenyl)-2,4-dioxobutanoate + L-Glutamate
+ORTHOLOGY   K00816  kynurenine---oxoglutarate transaminase / cysteine-S-conjugate beta-lyase / glutamine---phenylpyruvate transaminase [EC:2.6.1.7 4.4.1.13 2.6.1.64]
+            K00825  kynurenine/2-aminoadipate aminotransferase [EC:2.6.1.7 2.6.1.39]
+            K14264  kynurenine aminotransferase [EC:2.6.1.7]
+DBLINKS     RHEA: 20967
+///

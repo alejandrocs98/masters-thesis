@@ -1,0 +1,22 @@
+ENTRY       R08384                      Reaction
+NAME        retinal:oxygen oxidoreductase
+DEFINITION  9-cis-Retinal + Oxygen + H2O <=> 9-cis-Retinoic acid + Hydrogen peroxide
+EQUATION    C16681 + C00007 + C00001 <=> C15493 + C00027
+RCLASS      RC00218  C15493_C16681
+            RC02755  C00007_C00027
+ENZYME      1.2.3.1
+PATHWAY     rn00830  Retinol metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.3  With oxygen as acceptor
+                1.2.3.1
+                 R08384  9-cis-Retinal + Oxygen + H2O <=> 9-cis-Retinoic acid + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.3.1
+               R00635  Aldehyde <=> Carboxylate
+                R08384  9-cis-Retinal <=> 9-cis-Retinoic acid
+ORTHOLOGY   K00157  aldehyde oxidase [EC:1.2.3.1]
+///

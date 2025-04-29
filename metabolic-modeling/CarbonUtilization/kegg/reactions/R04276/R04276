@@ -1,0 +1,25 @@
+ENTRY       R04276                      Reaction
+NAME        leucocyanidin,2-oxoglutarate:oxygen oxidoreductase
+DEFINITION  cis-3,4-Leucopelargonidin + 2-Oxoglutarate + Oxygen <=> Pelargonidin + Succinate + CO2 + 2 H2O
+EQUATION    C03648 + C00026 + C00007 <=> C05904 + C00042 + C00011 + 2 C00001
+COMMENT     Leucoanthocyanidin dioxygenase
+            acidification
+RCLASS      RC01114  C03648_C05904
+ENZYME      1.14.20.4
+PATHWAY     rn00941  Flavonoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00138  Flavonoid biosynthesis, naringenin => pelargonidin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.20  With 2-oxoglutarate as one donor, and the other dehydrogenated
+                1.14.20.4
+                 R04276  cis-3,4-Leucopelargonidin + 2-Oxoglutarate + Oxygen <=> Pelargonidin + Succinate + CO2 + 2 H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.20.4
+               R11993  (2R,3S,4S)-Leucoanthocyanidin <=> Anthocyanidin with a 3-hydroxy group
+                R04276  cis-3,4-Leucopelargonidin <=> Pelargonidin
+ORTHOLOGY   K05277  anthocyanidin synthase [EC:1.14.20.4]
+///

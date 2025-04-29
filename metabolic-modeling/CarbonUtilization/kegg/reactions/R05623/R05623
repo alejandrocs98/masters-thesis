@@ -1,0 +1,19 @@
+ENTRY       R05623                      Reaction
+NAME        N,N,N-trimethylamine,NADPH:oxygen oxidoreductase (N-oxide-forming)
+DEFINITION  Trimethylamine + NADPH + H+ + Oxygen <=> Trimethylamine N-oxide + NADP+ + H2O
+EQUATION    C00565 + C00005 + C00080 + C00007 <=> C01104 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00058  C00565_C01104
+ENZYME      1.14.13.148
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.148
+                 R05623  Trimethylamine + NADPH + H+ + Oxygen <=> Trimethylamine N-oxide + NADP+ + H2O
+ORTHOLOGY   K18277  trimethylamine monooxygenase [EC:1.14.13.148]
+DBLINKS     RHEA: 31982
+///

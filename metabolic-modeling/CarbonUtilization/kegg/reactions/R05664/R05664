@@ -1,0 +1,21 @@
+ENTRY       R05664                      Reaction
+DEFINITION  3-Methylbenzaldehyde + NADP+ + H2O <=> m-Methylbenzoate + NADPH + H+
+EQUATION    C07209 + C00006 + C00001 <=> C07211 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00075  C07209_C07211
+ENZYME      1.2.1.7         1.2.1.28
+PATHWAY     rn00622  Xylene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00537  Xylene degradation, xylene => methylbenzoate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.7
+                 R05664  3-Methylbenzaldehyde + NADP+ + H2O <=> m-Methylbenzoate + NADPH + H+
+                1.2.1.28
+                 R05664  3-Methylbenzaldehyde + NADP+ + H2O <=> m-Methylbenzoate + NADPH + H+
+ORTHOLOGY   K00141  benzaldehyde dehydrogenase (NAD) [EC:1.2.1.28]
+///

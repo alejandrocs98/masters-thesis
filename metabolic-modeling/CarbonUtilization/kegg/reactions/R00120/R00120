@@ -1,0 +1,17 @@
+ENTRY       R00120                      Reaction
+NAME        glutathione:oxygen oxidoreductase
+DEFINITION  Oxygen + 2 Glutathione <=> Glutathione disulfide + Hydrogen peroxide
+EQUATION    C00007 + 2 C00051 <=> C00127 + C00027
+RCLASS      RC00011  C00051_C00127
+            RC02755  C00007_C00027
+ENZYME      1.8.3.3
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.3  With oxygen as acceptor
+                1.8.3.3
+                 R00120  Oxygen + 2 Glutathione <=> Glutathione disulfide + Hydrogen peroxide
+DBLINKS     RHEA: 24115
+///

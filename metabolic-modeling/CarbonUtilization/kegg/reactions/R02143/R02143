@@ -1,0 +1,25 @@
+ENTRY       R02143                      Reaction
+NAME        xanthosine ribohydrolase
+DEFINITION  Xanthosine + H2O <=> Xanthine + D-Ribose
+EQUATION    C01762 + C00001 <=> C00385 + C00121
+RCLASS      RC00122  C00385_C01762
+            RC00318  C00121_C01762
+ENZYME      3.2.2.1
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.2  Glycosylases
+               3.2.2  Hydrolysing N-glycosyl compounds
+                3.2.2.1
+                 R02143  Xanthosine + H2O <=> Xanthine + D-Ribose
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.2.2.1
+               R02341  N-D-Ribosylpurine <=> Purine
+                R02143  Xanthosine <=> Xanthine
+ORTHOLOGY   K01239  purine nucleosidase [EC:3.2.2.1]
+DBLINKS     RHEA: 27997
+///

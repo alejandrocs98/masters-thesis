@@ -1,0 +1,20 @@
+ENTRY       R09931                      Reaction
+NAME        eugenol:NADP+ oxidoreductase (coniferyl acetate reducing)
+DEFINITION  Isoeugenol + Acetate + NADP+ <=> Coniferyl acetate + NADPH + H+
+EQUATION    C10469 + C00033 + C00006 <=> C20225 + C00005 + C00080
+COMMENT     multi-step reaction
+            intermediate (quinone methide [CPD:C20269])
+RCLASS      RC00001  C00005_C00006
+            RC00020  C00033_C20225
+            RC02845  C10469_C20225
+ENZYME      1.1.1.319
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.319
+                 R09931  Isoeugenol + Acetate + NADP+ <=> Coniferyl acetate + NADPH + H+
+ORTHOLOGY   K17056  isoeugenol synthase [EC:1.1.1.319]
+DBLINKS     RHEA: 24697
+///

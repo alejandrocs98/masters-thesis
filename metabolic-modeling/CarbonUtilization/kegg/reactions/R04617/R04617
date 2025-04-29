@@ -1,0 +1,22 @@
+ENTRY       R04617                      Reaction
+NAME        UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminoheptanedioate:D-alanyl-D-alanine ligase (ADP-forming)
+DEFINITION  ATP + UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimelate + D-Alanyl-D-alanine <=> ADP + Orthophosphate + UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-6-carboxy-L-lysyl-D-alanyl-D-alanine
+EQUATION    C00002 + C04877 + C00993 <=> C00008 + C00009 + C04882
+RCLASS      RC00002  C00002_C00008
+            RC00064  C00993_C04882
+            RC00141  C04877_C04882
+ENZYME      6.3.2.10
+PATHWAY     rn00300  Lysine biosynthesis
+            rn00550  Peptidoglycan biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.10
+                 R04617  ATP + UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimelate + D-Alanyl-D-alanine <=> ADP + Orthophosphate + UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-6-carboxy-L-lysyl-D-alanyl-D-alanine
+ORTHOLOGY   K01798  Alr-MurF fusion protein [EC:5.1.1.1 6.3.2.10]
+            K01929  UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [EC:6.3.2.10]
+            K15792  MurE/MurF fusion protein [EC:6.3.2.13 6.3.2.10]
+DBLINKS     RHEA: 28377
+///

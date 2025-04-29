@@ -1,0 +1,26 @@
+ENTRY       R01429                      Reaction
+NAME        D-xylose:NAD+ 1-oxidoreductase
+DEFINITION  D-Xylose + NAD+ <=> D-Xylonolactone + NADH + H+
+EQUATION    C00181 + C00003 <=> C02266 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00066  C00181_C02266
+ENZYME      1.1.1.121       1.1.1.175
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.121
+                 R01429  D-Xylose + NAD+ <=> D-Xylonolactone + NADH + H+
+                1.1.1.175
+                 R01429  D-Xylose + NAD+ <=> D-Xylonolactone + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.121
+               R02847  D-Aldose <=> D-Aldonolactone
+                R01429  D-Xylose <=> D-Xylonolactone
+ORTHOLOGY   K14273  D-xylose 1-dehydrogenase (NADP+, D-xylono-1,5-lactone-forming) [EC:1.1.1.179]
+            K22185  D-xylose 1-dehydrogenase [EC:1.1.1.175]
+DBLINKS     RHEA: 13864
+///

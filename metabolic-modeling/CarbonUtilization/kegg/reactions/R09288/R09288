@@ -1,0 +1,17 @@
+ENTRY       R09288                      Reaction
+NAME        3-hydroxyaminophenol:NAD+ oxidoreductase
+DEFINITION  3-Nitrophenol + 2 NADH + 2 H+ <=> 3-Hydroxyaminophenol + 2 NAD+ + H2O
+EQUATION    C14418 + 2 C00004 + 2 C00080 <=> C14602 + 2 C00003 + C00001
+COMMENT     3-nitrophenol nitroreductase
+RCLASS      RC00001  C00003_C00004
+            RC00250  C14418_C14602
+ENZYME      1.7.1.-
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.7  Acting on other nitrogenous compounds as donors
+               1.7.1  With NAD+ or NADP+ as acceptor
+                1.7.1.-
+                 R09288  3-Nitrophenol + 2 NADH + 2 H+ <=> 3-Hydroxyaminophenol + 2 NAD+ + H2O
+///

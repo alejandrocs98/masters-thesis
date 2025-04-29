@@ -1,0 +1,18 @@
+ENTRY       R03261                      Reaction
+NAME        (-)-trans-isopiperitenol:NAD+ oxidoreductase
+DEFINITION  (-)-trans-Isopiperitenol + NAD+ <=> (-)-Isopiperitenone + NADH + H+
+EQUATION    C01123 + C00003 <=> C02485 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00206  C01123_C02485
+ENZYME      1.1.1.223
+PATHWAY     rn00902  Monoterpenoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.223
+                 R03261  (-)-trans-Isopiperitenol + NAD+ <=> (-)-Isopiperitenone + NADH + H+
+ORTHOLOGY   K15090  isopiperitenol dehydrogenase [EC:1.1.1.223]
+DBLINKS     RHEA: 20863
+///

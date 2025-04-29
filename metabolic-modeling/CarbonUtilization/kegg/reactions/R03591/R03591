@@ -1,0 +1,20 @@
+ENTRY       R03591                      Reaction
+NAME        morphine:NAD+ 6-oxidoreductase
+DEFINITION  Morphine + NAD+ <=> Morphinone + NADH + H+
+EQUATION    C01516 + C00003 <=> C01735 + C00004 + C00080
+COMMENT     NADP+ (see R03592)
+RCLASS      RC00001  C00003_C00004
+            RC00206  C01516_C01735
+ENZYME      1.1.1.218
+PATHWAY     rn00950  Isoquinoline alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.218
+                 R03591  Morphine + NAD+ <=> Morphinone + NADH + H+
+ORTHOLOGY   K03378  morphine 6-dehydrogenase [EC:1.1.1.218]
+DBLINKS     RHEA: 14320
+///

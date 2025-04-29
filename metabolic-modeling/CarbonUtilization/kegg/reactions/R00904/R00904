@@ -1,0 +1,36 @@
+ENTRY       R00904                      Reaction
+NAME        3-aminopropanal:NAD+ oxidoreductase
+DEFINITION  3-Aminopropanal + NAD+ + H2O <=> beta-Alanine + NADH + H+
+EQUATION    C05665 + C00003 + C00001 <=> C00099 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00080  C00099_C05665
+ENZYME      1.2.1.3         1.2.1.5         1.2.1.19
+PATHWAY     rn00410  beta-Alanine metabolism
+            rn00770  Pantothenate and CoA biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00913  Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.3
+                 R00904  3-Aminopropanal + NAD+ + H2O <=> beta-Alanine + NADH + H+
+                1.2.1.5
+                 R00904  3-Aminopropanal + NAD+ + H2O <=> beta-Alanine + NADH + H+
+                1.2.1.19
+                 R00904  3-Aminopropanal + NAD+ + H2O <=> beta-Alanine + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.3
+               R00538  Aldehyde <=> Carboxylate
+                R00904  3-Aminopropanal <=> beta-Alanine
+              1.2.1.5
+               R00538  Aldehyde <=> Carboxylate
+                R00904  3-Aminopropanal <=> beta-Alanine
+ORTHOLOGY   K00128  aldehyde dehydrogenase (NAD+) [EC:1.2.1.3]
+            K00129  aldehyde dehydrogenase (NAD(P)+) [EC:1.2.1.5]
+            K00149  aldehyde dehydrogenase family 9 member A1 [EC:1.2.1.47 1.2.1.3]
+            K14085  aldehyde dehydrogenase family 7 member A1 [EC:1.2.1.31 1.2.1.8 1.2.1.3]
+DBLINKS     RHEA: 30698
+///

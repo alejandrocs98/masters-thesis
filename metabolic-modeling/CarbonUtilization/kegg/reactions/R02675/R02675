@@ -1,0 +1,20 @@
+ENTRY       R02675                      Reaction
+NAME        4-methylphenol:oxidized azurin oxidoreductase (methyl-hydroxylating)
+DEFINITION  4-Cresol + 4 Oxidized azurin + H2O <=> 4-Hydroxybenzaldehyde + 4 Reduced azurin + 4 H+
+EQUATION    C01468 + 4 C05357 + C00001 <=> C00633 + 4 C05358 + 4 C00080
+COMMENT     two-step reaction (see R12133+R12134)
+            possibly intermediates (quinone methide and 4-hydroxybenzyl alcohol)
+RCLASS      RC00769  C00633_C01468
+ENZYME      1.17.9.1
+PATHWAY     rn00623  Toluene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.17  Acting on CH or CH2 groups
+               1.17.9  With a copper protein as acceptor
+                1.17.9.1
+                 R02675  4-Cresol + 4 Oxidized azurin + H2O <=> 4-Hydroxybenzaldehyde + 4 Reduced azurin + 4 H+
+ORTHOLOGY   K05797  4-cresol dehydrogenase (hydroxylating) flavoprotein subunit [EC:1.17.9.1]
+            K20200  4-cresol dehydrogenase (hydroxylating) cytochrome subunit
+///

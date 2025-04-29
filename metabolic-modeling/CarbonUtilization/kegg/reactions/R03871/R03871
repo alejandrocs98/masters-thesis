@@ -1,0 +1,22 @@
+ENTRY       R03871                      Reaction
+NAME        (S)-methylmalonate semialdehyde:oxygen oxidoreductase
+DEFINITION  Methylmalonate + Hydrogen peroxide <=> (S)-Methylmalonate semialdehyde + Oxygen + H2O
+EQUATION    C02170 + C00027 <=> C06002 + C00007 + C00001
+RCLASS      RC00242  C02170_C06002
+            RC02755  C00007_C00027
+ENZYME      1.2.3.1
+PATHWAY     rn00280  Valine, leucine and isoleucine degradation
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.3  With oxygen as acceptor
+                1.2.3.1
+                 R03871  Methylmalonate + Hydrogen peroxide <=> (S)-Methylmalonate semialdehyde + Oxygen + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.3.1
+               R00635  Aldehyde <=> Carboxylate
+                R03871  (S)-Methylmalonate semialdehyde <=> Methylmalonate
+ORTHOLOGY   K00157  aldehyde oxidase [EC:1.2.3.1]
+///

@@ -1,0 +1,17 @@
+ENTRY       R05259                      Reaction
+NAME        parathion,NADPH---hemoprotein reductase:oxygen oxidoreductase (paraoxon-forming)
+DEFINITION  Parathion + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Paraoxon + [Oxidized NADPH---hemoprotein reductase] + Sulfur + H2O
+EQUATION    C06604 + C03024 + C00007 <=> C06606 + C03161 + C00087 + C00001
+COMMENT     The product sulfur is reactive (e.g. forming hydrodisulfide with cysteine residue)
+RCLASS      RC01311  C06604_C06606
+ENZYME      1.14.14.1
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R05259  Parathion + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Paraoxon + [Oxidized NADPH---hemoprotein reductase] + Sulfur + H2O
+ORTHOLOGY   K14338  cytochrome P450 / NADPH-cytochrome P450 reductase [EC:1.14.14.1 1.6.2.4]
+///

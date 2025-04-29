@@ -1,0 +1,19 @@
+ENTRY       R00073                      Reaction
+NAME        reduced acceptor:prostaglandin G2 oxidoreductase
+DEFINITION  Prostaglandin H2 + Acceptor + H2O <=> Prostaglandin G2 + Reduced acceptor
+EQUATION    C00427 + C00028 + C00001 <=> C05956 + C00030
+COMMENT     the latter part (peroxidase) of multi-step reaction (see R01599, R01590+R00073)
+            following after R01590
+RCLASS      RC00982  C00427_C05956
+ENZYME      1.14.99.1
+PATHWAY     rn00590  Arachidonic acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.99  Miscellaneous
+                1.14.99.1
+                 R00073  Prostaglandin H2 + Acceptor + H2O <=> Prostaglandin G2 + Reduced acceptor
+ORTHOLOGY   K00509  prostaglandin-endoperoxide synthase 1 [EC:1.14.99.1]
+            K11987  prostaglandin-endoperoxide synthase 2 [EC:1.14.99.1]
+///

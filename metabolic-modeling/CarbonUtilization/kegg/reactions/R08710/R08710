@@ -1,0 +1,20 @@
+ENTRY       R08710                      Reaction
+NAME        CDP-ascarylose:NADP+ 4-oxidoreductase
+DEFINITION  CDP-4-dehydro-3,6-dideoxy-D-glucose epimer + NADPH + H+ <=> CDP-ascarylose + NADP+
+EQUATION    C17326 + C00005 + C00080 <=> C17327 + C00006
+COMMENT     NADH (see R08709)
+RCLASS      RC00001  C00005_C00006
+            RC00154  C17326_C17327
+ENZYME      1.1.1.-
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  O-Antigen nucleotide sugar biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R08710  CDP-4-dehydro-3,6-dideoxy-D-glucose epimer + NADPH + H+ <=> CDP-ascarylose + NADP+
+ORTHOLOGY   K15858  CDP-3, 6-dideoxy-D-glycero-L-glycero-4-hexulose-4-reductase [EC:1.1.1.-]
+///

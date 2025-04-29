@@ -1,0 +1,20 @@
+ENTRY       R02677                      Reaction
+NAME        ADPmannose sugarphosphohydrolase
+DEFINITION  ADP-mannose + H2O <=> AMP + D-Mannose 1-phosphate
+EQUATION    C06192 + C00001 <=> C00020 + C00636
+RCLASS      RC00002  C00020_C06192  C00636_C06192
+ENZYME      3.6.1.21
+PATHWAY     rn00051  Fructose and mannose metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.21
+                 R02677  ADP-mannose + H2O <=> AMP + D-Mannose 1-phosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.6.1.21
+               R03570  ADP-sugar <=> alpha-D-Aldose 1-phosphate
+                R02677  ADP-mannose <=> D-Mannose 1-phosphate
+ORTHOLOGY   K18447  ADP-sugar diphosphatase [EC:3.6.1.21]
+///

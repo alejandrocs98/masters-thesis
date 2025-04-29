@@ -1,0 +1,21 @@
+ENTRY       R02611                      Reaction
+NAME        phenylethylalcohol:NAD+ oxidoreductase
+DEFINITION  Phenylethyl alcohol + NAD+ <=> Phenylacetaldehyde + NADH + H+
+EQUATION    C05853 + C00003 <=> C00601 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00087  C00601_C05853
+ENZYME      1.1.1.90
+PATHWAY     rn00360  Phenylalanine metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.90
+                 R02611  Phenylethyl alcohol + NAD+ <=> Phenylacetaldehyde + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.90
+               R01487  Aromatic primary alcohol <=> Aromatic aldehyde
+                R02611  Phenylethyl alcohol <=> Phenylacetaldehyde
+ORTHOLOGY   K00055  aryl-alcohol dehydrogenase [EC:1.1.1.90]
+///

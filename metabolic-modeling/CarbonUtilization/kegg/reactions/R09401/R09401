@@ -1,0 +1,20 @@
+ENTRY       R09401                      Reaction
+NAME        L-glutamate:coenzyme gamma-F420-2 (ADP-forming)
+DEFINITION  ATP + Coenzyme F420 + L-Glutamate <=> ADP + Coenzyme F420-3 + Orthophosphate
+EQUATION    C00002 + C00876 + C00025 <=> C00008 + C19151 + C00009
+RCLASS      RC00002  C00002_C00008
+            RC00064  C00025_C19151
+            RC00090  C00876_C19151
+ENZYME      6.3.2.32
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.32
+                 R09401  ATP + Coenzyme F420 + L-Glutamate <=> ADP + Coenzyme F420-3 + Orthophosphate
+ORTHOLOGY   K14940  gamma-F420-2:alpha-L-glutamate ligase [EC:6.3.2.32]
+DBLINKS     RHEA: 42335
+///

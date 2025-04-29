@@ -1,0 +1,21 @@
+ENTRY       R10164                      Reaction
+NAME        hydroxylamine:ferricytochrome-c oxidoreductase
+DEFINITION  Hydroxylamine + H2O + 4 Ferricytochrome c <=> Nitrite + 4 Ferrocytochrome c + 5 H+
+EQUATION    C00192 + C00001 + 4 C00125 <=> C00088 + 4 C00126 + 5 C00080
+RCLASS      RC00016  C00125_C00126
+            RC00383  C00088_C00192
+ENZYME      1.7.2.6
+PATHWAY     rn00910  Nitrogen metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00528  Nitrification, ammonia => nitrite
+            M00804  Complete nitrification, comammox, ammonia => nitrite => nitrate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.7  Acting on other nitrogenous compounds as donors
+               1.7.2  With a cytochrome as acceptor
+                1.7.2.6
+                 R10164  Hydroxylamine + H2O + 4 Ferricytochrome c <=> Nitrite + 4 Ferrocytochrome c + 5 H+
+ORTHOLOGY   K10535  hydroxylamine dehydrogenase [EC:1.7.2.6]
+DBLINKS     RHEA: 45035
+///

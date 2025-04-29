@@ -1,0 +1,102 @@
+ENTRY       K15036                      KO
+SYMBOL      K15036
+NAME        acetyl-CoA/propionyl-CoA carboxylase [EC:6.4.1.2 6.4.1.3 2.1.3.15]
+PATHWAY     map00280  Valine, leucine and isoleucine degradation
+            map00630  Glyoxylate and dicarboxylate metabolism
+            map00640  Propanoate metabolism
+            map00720  Carbon fixation pathways in prokaryotes
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+MODULE      M00375  Hydroxypropionate-hydroxybutylate cycle
+            M00741  Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA
+REACTION    R00742  acetyl-CoA:carbon-dioxide ligase (ADP-forming)
+            R01859  propanoyl-CoA:carbon-dioxide ligase (ADP-forming)
+            R04386  carboxybiotin-carboxyl-carrier-protein:acetyl-CoA carboxytransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00630 Glyoxylate and dicarboxylate metabolism
+                K15036  K15036; acetyl-CoA/propionyl-CoA carboxylase
+               00640 Propanoate metabolism
+                K15036  K15036; acetyl-CoA/propionyl-CoA carboxylase
+              09102 Energy metabolism
+               00720 Carbon fixation pathways in prokaryotes
+                K15036  K15036; acetyl-CoA/propionyl-CoA carboxylase
+              09105 Amino acid metabolism
+               00280 Valine, leucine and isoleucine degradation
+                K15036  K15036; acetyl-CoA/propionyl-CoA carboxylase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.1  Transferring one-carbon groups
+               2.1.3  Carboxy- and carbamoyltransferases
+                2.1.3.15  acetyl-CoA carboxytransferase
+                 K15036  K15036; acetyl-CoA/propionyl-CoA carboxylase
+             6. Ligases
+              6.4  Forming carbon-carbon bonds
+               6.4.1  Ligases that form carbon-carbon bonds (only sub-subclass identified to date)
+                6.4.1.2  acetyl-CoA carboxylase
+                 K15036  K15036; acetyl-CoA/propionyl-CoA carboxylase
+                6.4.1.3  propionyl-CoA carboxylase
+                 K15036  K15036; acetyl-CoA/propionyl-CoA carboxylase
+DBLINKS     COG: COG4799
+            GO: 0003989 0004658
+GENES       PARE: PYJP_04860
+            STO: STK_05910(pccB)
+            SOH: D1869_02815
+            SSO: SSO2463(ppcB)
+            SOL: Ssol_0268
+            SSOA: SULA_0258
+            SSOL: SULB_0260
+            SSOF: SULC_0258
+            SSHI: J5U23_01248
+            SCAS: SACC_18310
+            SAI: Saci_0262(pccB)
+            SACN: SacN8_01275
+            SACR: SacRon12I_01275
+            SACS: SUSAZ_01325
+            SIS: LS215_0283
+            SIA: M1425_0252
+            SIM: M1627_0252
+            SID: M164_0270
+            SIY: YG5714_0255
+            SIN: YN1551_2860
+            SII: LD85_0258
+            SIH: SiH_0259
+            SIR: SiRe_0252
+            SIC: SiL_0244
+            SULA: BFU36_10990
+            SULE: GFS03_02810
+            SULO: GFS33_08415
+            SULL: EWF20_04335
+            MSE: Msed_1375
+            MEMJ: MJ1HA_1587
+            MCN: Mcup_0858
+            MHK: DFR87_11880
+            MPRU: DFR88_11445
+            MTEN: GWK48_00695
+            MJN: MjAS7_2439
+            AHO: Ahos_2117
+            AMAN: B6F84_01830
+            ABRI: DFR85_05880
+            ASUL: DFR86_01815
+            AAMB: D1866_05585
+            ACIH: HS5_09320
+            SAZO: D1868_01180
+            CSTY: KN1_17410
+            STEP: IC006_0219
+            SMET: RQ359_001281
+            AG: BAC55869(pccB)
+REFERENCE   PMID:21169482
+  AUTHORS   Ramos-Vera WH, Weiss M, Strittmatter E, Kockelkorn D, Fuchs G
+  TITLE     Identification of missing genes and enzymes for autotrophic carbon fixation in crenarchaeota.
+  JOURNAL   J Bacteriol 193:1201-11 (2011)
+            DOI:10.1128/JB.01156-10
+REFERENCE   PMID:12533469
+  AUTHORS   Chuakrut S, Arai H, Ishii M, Igarashi Y
+  TITLE     Characterization of a bifunctional archaeal acyl coenzyme A carboxylase.
+  JOURNAL   J Bacteriol 185:938-47 (2003)
+            DOI:10.1128/JB.185.3.938-947.2003
+  SEQUENCE  [ag:BAC55869]
+///

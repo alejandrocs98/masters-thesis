@@ -1,0 +1,18 @@
+ENTRY       R09096                      Reaction
+DEFINITION  Acetyl-CoA + 5,6,7,8-Tetrahydromethanopterin <=> CoA + 5-Methyl-5,6,7,8-tetrahydromethanopterin + CO
+EQUATION    C00024 + C01217 <=> C00010 + C04488 + C00237
+COMMENT     acetyl-CoA decarbonylase/synthase (ACDS) complex
+RCLASS      RC00004  C00010_C00024
+            RC00113  C01217_C04488
+            RC02963  C00024_C00237
+            RC02977  C00024_C04488
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00357  Methanogenesis, acetate => methane
+            M00422  Acetyl-CoA pathway, CO2 => acetyl-CoA
+ORTHOLOGY   K00193  acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit beta [EC:2.3.1.169]
+            K00194  acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit delta [EC:2.1.1.245]
+            K00197  acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit gamma [EC:2.1.1.245]
+///

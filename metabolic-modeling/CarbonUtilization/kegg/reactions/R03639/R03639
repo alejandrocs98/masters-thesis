@@ -1,0 +1,25 @@
+ENTRY       R03639                      Reaction
+NAME        taxifolin,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase
+DEFINITION  Taxifolin + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Dihydromyricetin + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C01617 + C03024 + C00007 <=> C02906 + C03161 + C00001
+COMMENT     flavonoid 3',5'-hydroxylase
+            flavonoid 3',5'-monooxygenase
+            second step of two-step reaction (see R03125, R03124+R03639)
+RCLASS      RC00046  C01617_C02906
+ENZYME      1.14.14.81
+PATHWAY     rn00941  Flavonoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.81
+                 R03639  Taxifolin + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Dihydromyricetin + [Oxidized NADPH---hemoprotein reductase] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.81
+               R07370  3'-Hydroxyflavanone <=> 3',5'-Dihydroxyflavanone
+                R03639  Taxifolin <=> Dihydromyricetin
+ORTHOLOGY   K13083  flavonoid 3',5'-hydroxylase [EC:1.14.14.81]
+DBLINKS     RHEA: 61119
+///

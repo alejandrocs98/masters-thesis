@@ -1,0 +1,21 @@
+ENTRY       R05496                      Reaction
+NAME        reduced ferredoxin:acetylene oxidoreductase (ATP-hydrolysing)
+DEFINITION  Acetylene + Reduced ferredoxin + 2 H+ + ATP + H2O <=> Ethylene + Oxidized ferredoxin + ADP + Orthophosphate
+EQUATION    C01548 + C00138 + 2 C00080 + C00002 + C00001 <=> C06547 + C00139 + C00008 + C00009
+COMMENT     nitrogenase
+RCLASS      RC00002  C00002_C00008
+            RC01395  C01548_C06547
+ENZYME      1.18.6.1
+PATHWAY     rn00625  Chloroalkane and chloroalkene degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.18  Acting on iron-sulfur proteins as donors
+               1.18.6  With dinitrogen as acceptor
+                1.18.6.1
+                 R05496  Acetylene + Reduced ferredoxin + 2 H+ + ATP + H2O <=> Ethylene + Oxidized ferredoxin + ADP + Orthophosphate
+ORTHOLOGY   K00531  nitrogenase delta subunit [EC:1.18.6.1]
+            K02586  nitrogenase molybdenum-iron protein alpha chain [EC:1.18.6.1]
+            K02588  nitrogenase iron protein NifH
+            K02591  nitrogenase molybdenum-iron protein beta chain [EC:1.18.6.1]
+///

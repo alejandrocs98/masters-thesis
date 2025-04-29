@@ -1,0 +1,20 @@
+ENTRY       R02639                      Reaction
+NAME        3-dehydro-L-gulonate:NADP+ 2-oxidoreductase
+DEFINITION  3-Dehydro-L-gulonate + NADP+ <=> (4R,5S)-4,5,6-Trihydroxy-2,3-dioxohexanoate + NADPH + H+
+EQUATION    C00618 + C00006 <=> C04575 + C00005 + C00080
+COMMENT     NAD+ (see R02637)
+RCLASS      RC00001  C00005_C00006
+            RC00238  C00618_C04575
+ENZYME      1.1.1.130
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn00053  Ascorbate and aldarate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.130
+                 R02639  3-Dehydro-L-gulonate + NADP+ <=> (4R,5S)-4,5,6-Trihydroxy-2,3-dioxohexanoate + NADPH + H+
+ORTHOLOGY   K08092  3-dehydro-L-gulonate 2-dehydrogenase [EC:1.1.1.130]
+DBLINKS     RHEA: 21931
+///

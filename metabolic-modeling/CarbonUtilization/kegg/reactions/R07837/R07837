@@ -1,0 +1,17 @@
+ENTRY       R07837                      Reaction
+DEFINITION  Thiobenzamide S-oxide + NADPH + H+ + Oxygen <=> Thiobenzamide S,S-dioxide + NADP+ + H2O
+EQUATION    C16283 + C00005 + C00080 + C00007 <=> C16285 + C00006 + C00001
+COMMENT     monooxygenase: EthA
+RCLASS      RC00001  C00005_C00006
+            RC03121  C16283_C16285
+ENZYME      1.14.13.-
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R07837  Thiobenzamide S-oxide + NADPH + H+ + Oxygen <=> Thiobenzamide S,S-dioxide + NADP+ + H2O
+ORTHOLOGY   K10215  monooxygenase [EC:1.14.13.-]
+///

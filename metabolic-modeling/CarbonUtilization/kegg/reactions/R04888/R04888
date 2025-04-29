@@ -1,0 +1,23 @@
+ENTRY       R04888                      Reaction
+NAME        3-methoxy-4-hydroxyphenylacetaldehyde:NAD+ oxidoreductase
+DEFINITION  3-Methoxy-4-hydroxyphenylacetaldehyde + NAD+ + H2O <=> Homovanillate + NADH + H+
+EQUATION    C05581 + C00003 + C00001 <=> C05582 + C00004 + C00080
+COMMENT     see R04889 (NADPH)
+RCLASS      RC00001  C00003_C00004
+            RC00080  C05581_C05582
+ENZYME      1.2.1.5
+PATHWAY     rn00350  Tyrosine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.5
+                 R04888  3-Methoxy-4-hydroxyphenylacetaldehyde + NAD+ + H2O <=> Homovanillate + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.5
+               R00538  Aldehyde <=> Carboxylate
+                R04888  3,4-Dihydroxymandelaldehyde <=> Homovanillate
+ORTHOLOGY   K00129  aldehyde dehydrogenase (NAD(P)+) [EC:1.2.1.5]
+///

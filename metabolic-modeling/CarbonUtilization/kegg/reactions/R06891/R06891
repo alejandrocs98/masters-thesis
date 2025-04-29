@@ -1,0 +1,16 @@
+ENTRY       R06891                      Reaction
+DEFINITION  1-(4'-Hydroxyphenyl)ethanol + NAD+ <=> 4'-Hydroxyacetophenone + NADH + H+
+EQUATION    C13638 + C00003 <=> C10700 + C00004 + C00080
+COMMENT     1-(4'-hydroxyphenyl)ethanol dehydrogenase
+RCLASS      RC00001  C00003_C00004
+            RC01377  C10700_C13638
+ENZYME      1.1.1.-
+PATHWAY     rn00363  Bisphenol degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R06891  1-(4'-Hydroxyphenyl)ethanol + NAD+ <=> 4'-Hydroxyacetophenone + NADH + H+
+///

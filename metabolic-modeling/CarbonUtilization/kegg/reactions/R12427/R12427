@@ -1,0 +1,25 @@
+ENTRY       R12427                      Reaction
+NAME        octanoyl-[acp]:lipoyl-carrier-protein-E2 N-octanoyltransferase
+DEFINITION  Octanoyl-[acp] + Lipoyl-carrier protein E2 <=> [Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine + Acyl-carrier protein
+EQUATION    C05752 + C22158 <=> C22160 + C00229
+RCLASS      RC00039  C00229_C05752
+ENZYME      2.3.1.181
+PATHWAY     rn00785  Lipoic acid metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00881  Lipoic acid biosynthesis, plants and bacteria, octanoyl-ACP => dihydrolipoyl-E2/H
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.181
+                 R12427  Octanoyl-[acp] + Lipoyl-carrier protein E2 <=> [Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine + Acyl-carrier protein
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.181
+               R07766  [Lipoyl-carrier protein]-L-lysine <=> [Protein]-N6-(octanoyl)-L-lysine
+                R12427  Lipoyl-carrier protein E2 <=> [Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine
+ORTHOLOGY   K03801  lipoyl(octanoyl) transferase [EC:2.3.1.181]
+            K10105  lipoyltransferase 1
+            K23763  lipoyl-AMP:Nepsilon-lysine lipoyltransferase / lipoyl(octanoyl) transferase [EC:2.3.1.181]
+///

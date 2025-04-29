@@ -1,0 +1,30 @@
+ENTRY       R00927                      Reaction
+NAME        acetyl-CoA:propanoyl-CoA 2-C-acetyltransferase;
+            2-methylacetoacetyl-CoA thiolase
+DEFINITION  Propanoyl-CoA + Acetyl-CoA <=> CoA + 2-Methylacetoacetyl-CoA
+EQUATION    C00100 + C00024 <=> C00010 + C03344
+RCLASS      RC00004  C00010_C00024
+            RC00405  C00100_C03344
+ENZYME      2.3.1.9         2.3.1.16
+PATHWAY     rn00280  Valine, leucine and isoleucine degradation
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.9
+                 R00927  Propanoyl-CoA + Acetyl-CoA <=> CoA + 2-Methylacetoacetyl-CoA
+                2.3.1.16
+                 R00927  Propanoyl-CoA + Acetyl-CoA <=> CoA + 2-Methylacetoacetyl-CoA
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.16
+               R00391  Acyl-CoA <=> 3-Oxoacyl-CoA
+                R00927  Propanoyl-CoA <=> 2-Methylacetoacetyl-CoA
+ORTHOLOGY   K00632  acetyl-CoA acyltransferase [EC:2.3.1.16]
+            K07508  acetyl-CoA acyltransferase 2 [EC:2.3.1.16]
+            K07509  acetyl-CoA acyltransferase [EC:2.3.1.16]
+            K07513  acetyl-CoA acyltransferase 1 [EC:2.3.1.16]
+DBLINKS     RHEA: 30722
+///

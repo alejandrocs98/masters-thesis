@@ -1,0 +1,21 @@
+ENTRY       R02287                      Reaction
+NAME        5-formiminotetrahydrofolate:L-glutamate N-formiminotransferase
+DEFINITION  5-Formiminotetrahydrofolate + L-Glutamate <=> Tetrahydrofolate + N-Formimino-L-glutamate
+EQUATION    C00664 + C00025 <=> C00101 + C00439
+RCLASS      RC00221  C00025_C00439
+            RC00223  C00101_C00664
+ENZYME      2.1.2.5
+PATHWAY     rn00340  Histidine metabolism
+            rn00670  One carbon pool by folate
+            rn01100  Metabolic pathways
+MODULE      M00045  Histidine degradation, histidine => N-formiminoglutamate => glutamate
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.2  Hydroxymethyl-, formyl- and related transferases
+                2.1.2.5
+                 R02287  5-Formiminotetrahydrofolate + L-Glutamate <=> Tetrahydrofolate + N-Formimino-L-glutamate
+ORTHOLOGY   K00603  glutamate formiminotransferase / 5-formyltetrahydrofolate cyclo-ligase [EC:2.1.2.5 6.3.3.2]
+            K13990  glutamate formiminotransferase / formiminotetrahydrofolate cyclodeaminase [EC:2.1.2.5 4.3.1.4]
+DBLINKS     RHEA: 15100
+///

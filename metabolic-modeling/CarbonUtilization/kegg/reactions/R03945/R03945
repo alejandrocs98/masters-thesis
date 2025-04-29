@@ -1,0 +1,17 @@
+ENTRY       R03945                      Reaction
+NAME        perillyl-alcohol:NAD+ oxidoreductase
+DEFINITION  (-)-Perillyl alcohol + NAD+ <=> Perillyl aldehyde + NADH + H+
+EQUATION    C02452 + C00003 <=> C02576 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC01033  C02452_C02576
+ENZYME      1.1.1.144
+PATHWAY     rn00903  Limonene degradation
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.144
+                 R03945  (-)-Perillyl alcohol + NAD+ <=> Perillyl aldehyde + NADH + H+
+ORTHOLOGY   K14732  limonene hydroxylase [EC:1.14.14.51 1.14.14.52 1.1.1.243 1.1.1.144]
+DBLINKS     RHEA: 10667
+///

@@ -1,0 +1,24 @@
+ENTRY       R05728                      Reaction
+NAME        (E)-4-hydroxyphenylacetaldehyde oxime,[reduced NADPH-hemoprotein reductase]:oxygen oxidoreductase
+DEFINITION  (E)-4-Hydroxyphenylacetaldehyde oxime + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> (S)-4-Hydroxymandelonitrile + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+EQUATION    C04350 + C03024 + C00007 <=> C03742 + C03161 + 2 C00001
+COMMENT     three-step reaction (R11442+R04306+R02708)
+ENZYME      1.14.14.37
+PATHWAY     rn00460  Cyanoamino acid metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00369  Cyanogenic glycoside biosynthesis, tyrosine => dhurrin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.37
+                 R05728  (E)-4-Hydroxyphenylacetaldehyde oxime + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> (S)-4-Hydroxymandelonitrile + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+ORTHOLOGY   K13029  4-hydroxyphenylacetaldehyde oxime monooxygenase [EC:1.14.14.37]
+REFERENCE   1  [PMID:9484480]
+  AUTHORS   Bak S, Kahn RA, Nielsen HL, Moller BL, Halkier BA
+  TITLE     Cloning of three A-type cytochromes P450, CYP71E1, CYP98, and CYP99 from Sorghum bicolor (L.) Moench by a PCR approach and identification by expression in Escherichia coli of CYP71E1 as a multifunctional cytochrome P450 in the biosynthesis of the cyanogenic glucoside dhurrin.
+  JOURNAL   Plant Mol Biol 36:393-405 (1998)
+            DOI:10.1023/A:1005915507497
+DBLINKS     RHEA: 18404
+///

@@ -1,0 +1,19 @@
+ENTRY       R00279                      Reaction
+NAME        D-glutamate:oxygen oxidoreductase (deaminating)
+DEFINITION  D-Glutamate + H2O + Oxygen <=> 2-Oxoglutarate + Ammonia + Hydrogen peroxide
+EQUATION    C00217 + C00001 + C00007 <=> C00026 + C00014 + C00027
+RCLASS      RC00006  C00026_C00217
+            RC02755  C00007_C00027
+ENZYME      1.4.3.7         1.4.3.15
+PATHWAY     rn00470  D-Amino acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.7
+                 R00279  D-Glutamate + H2O + Oxygen <=> 2-Oxoglutarate + Ammonia + Hydrogen peroxide
+                1.4.3.15
+                 R00279  D-Glutamate + H2O + Oxygen <=> 2-Oxoglutarate + Ammonia + Hydrogen peroxide
+DBLINKS     RHEA: 10031
+///

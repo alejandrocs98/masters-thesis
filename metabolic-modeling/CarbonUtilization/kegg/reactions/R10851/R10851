@@ -1,0 +1,19 @@
+ENTRY       R10851                      Reaction
+NAME        L-allo-threonine:NADP+ 3-oxidoreductase
+DEFINITION  L-Allothreonine + NADP+ <=> L-2-Amino-3-oxobutanoic acid + NADPH + H+
+EQUATION    C05519 + C00006 <=> C03508 + C00005 + C00080
+COMMENT     first step of two-step reaction (see R10852, R10851+R03758)
+RCLASS      RC00001  C00005_C00006
+            RC00525  C03508_C05519
+ENZYME      1.1.1.381
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.381
+                 R10851  L-Allothreonine + NADP+ <=> L-2-Amino-3-oxobutanoic acid + NADPH + H+
+ORTHOLOGY   K16066  3-hydroxy acid dehydrogenase / malonic semialdehyde reductase [EC:1.1.1.381 1.1.1.-]
+DBLINKS     RHEA: 30058
+///

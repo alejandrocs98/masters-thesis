@@ -1,0 +1,19 @@
+ENTRY       R01524                      Reaction
+NAME        D-ribitol-5-phosphate:NAD+ 2-oxidoreductase
+DEFINITION  D-Ribitol 5-phosphate + NAD+ <=> D-Ribulose 5-phosphate + NADH + H+
+EQUATION    C01068 + C00003 <=> C00199 + C00004 + C00080
+COMMENT     NADP+ (see R01525)
+RCLASS      RC00001  C00003_C00004
+            RC00089  C00199_C01068
+ENZYME      1.1.1.137
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.137
+                 R01524  D-Ribitol 5-phosphate + NAD+ <=> D-Ribulose 5-phosphate + NADH + H+
+ORTHOLOGY   K21680  ribulose-5-phosphate 2-dehydrogenase [EC:1.1.1.137]
+DBLINKS     RHEA: 19928
+///

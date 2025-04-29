@@ -1,0 +1,17 @@
+ENTRY       R03329                      Reaction
+NAME        steroid,reduced-adrenal-ferredoxin:oxygen oxidoreductase (11-hydroxylating)
+DEFINITION  17alpha-Hydroxyprogesterone + 2 Reduced ferredoxin + Oxygen + 2 H+ <=> 21-Deoxycortisol + 2 Oxidized ferredoxin + H2O
+EQUATION    C01176 + 2 C00138 + C00007 + 2 C00080 <=> C05497 + 2 C00139 + C00001
+COMMENT     Oxidized ferredoxin is reduced by NADPH (see R01195)
+RCLASS      RC00661  C01176_C05497
+ENZYME      1.14.15.4
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.15  With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.15.4
+                 R03329  17alpha-Hydroxyprogesterone + 2 Reduced ferredoxin + Oxygen + 2 H+ <=> 21-Deoxycortisol + 2 Oxidized ferredoxin + H2O
+ORTHOLOGY   K00497  steroid 11beta-monooxygenase [EC:1.14.15.4]
+            K07433  steroid 11beta-monooxygenase / corticosterone 18-monooxygenase [EC:1.14.15.4 1.14.15.5]
+///

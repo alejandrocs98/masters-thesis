@@ -1,0 +1,26 @@
+ENTRY       R02767                      Reaction
+NAME        (3R)-3-hydroxyacyl-[acyl-carrier-protein]:NADP+ oxidoreductase
+DEFINITION  (3R)-3-Hydroxyacyl-[acyl-carrier protein] + NADP+ <=> 3-Oxoacyl-[acyl-carrier protein] + NADPH + H+
+EQUATION    C01271 + C00006 <=> C00685 + C00005 + C00080
+COMMENT     general reaction (see R04533, R04534, R04536, R04543, R04566, R04953, R04964 and R07763)
+RCLASS      RC00001  C00005_C00006
+            RC00103  C00685_C01271
+ENZYME      1.1.1.100       1.1.1.-
+PATHWAY     rn00061  Fatty acid biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.100
+                 R02767  (3R)-3-Hydroxyacyl-[acyl-carrier protein] + NADP+ <=> 3-Oxoacyl-[acyl-carrier protein] + NADPH + H+
+                1.1.1.-
+                 R02767  (3R)-3-Hydroxyacyl-[acyl-carrier protein] + NADP+ <=> 3-Oxoacyl-[acyl-carrier protein] + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.100
+               R02767  (3R)-3-Hydroxyacyl-[acyl-carrier protein] <=> 3-Oxoacyl-[acyl-carrier protein]
+ORTHOLOGY   K00059  3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]
+            K11539  carbonyl reductase 4 / 3-oxoacyl-[acyl-carrier protein] reductase beta subunit [EC:1.1.1.-]
+DBLINKS     RHEA: 17400
+///

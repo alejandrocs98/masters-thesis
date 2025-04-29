@@ -1,0 +1,25 @@
+ENTRY       R05936                      Reaction
+DEFINITION  UDP-N-acetyl-D-glucosamine + G00163 <=> UDP + G00164
+EQUATION    G10610 + G00163 <=> G10619 + G00164
+COMMENT     EXTL1, EXTL3
+ENZYME      2.4.1.224
+PATHWAY     rn00534  Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+            rn01100  Metabolic pathways
+MODULE      M00059  Glycosaminoglycan biosynthesis, heparan sulfate backbone
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.224
+                 R05936  UDP-N-acetyl-D-glucosamine + G00163 <=> UDP + G00164
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.1.224
+               R07334  beta-D-Glucuronosyl-(1->4)-N-acetyl-alpha-D-glucosaminylproteoglycan <=> N-Acetyl-alpha-D-glucosaminyl-(1->4)-beta-D-glucuronosyl-(1->4)-N-acetyl-alpha-D-glucosaminylproteoglycan
+                R05936
+            Glycosyltransferase reactions [BR:br08203]
+             N-Acetylglucosaminyltransferase reactions
+              R05936  GlcNAc a1-4 GlcA
+ORTHOLOGY   K02368  alpha-1,4-N-acetylglucosaminyltransferase EXTL1 [EC:2.4.1.224]
+            K02370  alpha-1,4-N-acetylglucosaminyltransferase EXTL3 [EC:2.4.1.223 2.4.1.224]
+///

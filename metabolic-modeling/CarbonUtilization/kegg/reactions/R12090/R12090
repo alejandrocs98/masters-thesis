@@ -1,0 +1,23 @@
+ENTRY       R12090                      Reaction
+NAME        chanoclavine-I aldehyde:NAD+ oxidoreductase
+DEFINITION  Dihydrochanoclavine-I aldehyde + NADP+ <=> Chanoclavine-I aldehyde + NADPH + H+
+EQUATION    C21897 + C00006 <=> C20379 + C00005 + C00080
+RCLASS      RC03527  C20379_C21897
+ENZYME      1.3.1.100
+PATHWAY     rn00901  Indole alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00964  Fumigaclavine biosynthesis, chanoclavine-I aldehyde => fumigaclavine C
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.100
+                 R12090  Dihydrochanoclavine-I aldehyde + NADP+ <=> Chanoclavine-I aldehyde + NADPH + H+
+ORTHOLOGY   K19182  chanoclavine-I aldehyde reductase [EC:1.3.1.100]
+REFERENCE   1  [PMID:20526482]
+  AUTHORS   Wallwey C, Matuschek M, Xie XL, Li SM
+  TITLE     Ergot alkaloid biosynthesis in Aspergillus fumigatus: Conversion of chanoclavine-I aldehyde to festuclavine by the festuclavine synthase FgaFS in the presence of the old yellow enzyme FgaOx3.
+  JOURNAL   Org Biomol Chem 8:3500-8 (2010)
+            DOI:10.1039/c003823g
+///

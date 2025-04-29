@@ -1,0 +1,21 @@
+ENTRY       R02354                      Reaction
+DEFINITION  Estrone + H+ + Oxygen + NADH <=> 2-Hydroxyestrone + NAD+ + H2O
+EQUATION    C00468 + C00080 + C00007 + C00004 <=> C05298 + C00003 + C00001
+COMMENT     NADPH (see R02355)
+RCLASS      RC00001  C00003_C00004
+            RC00046  C00468_C05298
+ENZYME      1.14.14.1
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R02354  Estrone + H+ + Oxygen + NADH <=> 2-Hydroxyestrone + NAD+ + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.1
+               R04122  Alkane <=> ROH
+                R02354  Estrone <=> 2-Hydroxyestrone
+ORTHOLOGY   K07408  cytochrome P450 family 1 subfamily A1 [EC:1.14.14.1]
+///

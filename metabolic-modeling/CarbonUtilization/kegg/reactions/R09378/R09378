@@ -1,0 +1,20 @@
+ENTRY       R09378                      Reaction
+NAME        ATP:(R)-pantoate 4-phosphotransferase
+DEFINITION  ATP + (R)-Pantoate <=> ADP + (R)-4-Phosphopantoate
+EQUATION    C00002 + C00522 <=> C00008 + C18911
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00522_C18911
+ENZYME      2.7.1.169
+PATHWAY     rn00770  Pantothenate and CoA biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00914  Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.169
+                 R09378  ATP + (R)-Pantoate <=> ADP + (R)-4-Phosphopantoate
+ORTHOLOGY   K06982  pantoate kinase [EC:2.7.1.169]
+DBLINKS     RHEA: 28249
+///

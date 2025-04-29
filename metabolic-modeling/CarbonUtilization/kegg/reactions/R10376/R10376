@@ -1,0 +1,18 @@
+ENTRY       R10376                      Reaction
+DEFINITION  Terpendole E + 4 NADPH + 4 Oxygen + 4 H+ <=> 13-Desoxyterpendole I + Formate + 4 NADP+ + 5 H2O
+EQUATION    C20536 + 4 C00005 + 4 C00007 + 4 C00080 <=> C20542 + C00058 + 4 C00006 + 5 C00001
+COMMENT     P450 monooxygenase, TerP
+            multi-step reaction
+RCLASS      RC00001  C00005_C00006
+            RC03143  C20536_C20542
+ENZYME      1.14.13.-
+PATHWAY     rn00403  Indole diterpene alkaloid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R10376  Terpendole E + 4 NADPH + 4 Oxygen + 4 H+ <=> 13-Desoxyterpendole I + Formate + 4 NADP+ + 5 H2O
+ORTHOLOGY   K18392  cytochrome P450 monooxygenase [EC:1.14.13.-]
+///

@@ -1,0 +1,27 @@
+ENTRY       R01326                      Reaction
+NAME        ATP:D-mannose 6-phosphotransferase
+DEFINITION  ATP + D-Mannose <=> ADP + D-Mannose 6-phosphate
+EQUATION    C00002 + C00159 <=> C00008 + C00275
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00159_C00275
+ENZYME      2.7.1.1         2.7.1.7
+PATHWAY     rn00051  Fructose and mannose metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.1
+                 R01326  ATP + D-Mannose <=> ADP + D-Mannose 6-phosphate
+                2.7.1.7
+                 R01326  ATP + D-Mannose <=> ADP + D-Mannose 6-phosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.1.1
+               R02848  D-Hexose <=> D-Hexose 6-phosphate
+                R01326  D-Mannose <=> D-Mannose 6-phosphate
+ORTHOLOGY   K00844  hexokinase [EC:2.7.1.1]
+DBLINKS     RHEA: 11031
+///

@@ -1,0 +1,23 @@
+ENTRY       R08168                      Reaction
+NAME        indole-3-acetaldehyde-oxime,NADPH:oxidoreductase
+DEFINITION  Indole-3-acetaldehyde oxime + L-Cysteine + NADPH + Oxygen + H+ <=> S-(Indolylmethylthiohydroximoyl)-L-cysteine + NADP+ + 2 H2O
+EQUATION    C02937 + C00097 + C00005 + C00007 + C00080 <=> C16518 + C00006 + 2 C00001
+COMMENT     two-step reaction (see R08607+R08608)
+RCLASS      RC00001  C00005_C00006
+            RC01705  C00097_C16518
+            RC02210  C02937_C16518
+ENZYME      1.14.14.45
+PATHWAY     rn00380  Tryptophan metabolism
+            rn00966  Glucosinolate biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01210  2-Oxocarboxylic acid metabolism
+MODULE      M00370  Glucosinolate biosynthesis, tryptophan => glucobrassicin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.45
+                 R08168  Indole-3-acetaldehyde oxime + L-Cysteine + NADPH + Oxygen + H+ <=> S-(Indolylmethylthiohydroximoyl)-L-cysteine + NADP+ + 2 H2O
+ORTHOLOGY   K11818  aromatic aldoxime N-monooxygenase [EC:1.14.14.45]
+///

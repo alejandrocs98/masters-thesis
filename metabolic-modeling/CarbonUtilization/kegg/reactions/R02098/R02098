@@ -1,0 +1,25 @@
+ENTRY       R02098                      Reaction
+NAME        ATP:dUMP phosphotransferase
+DEFINITION  ATP + dUMP <=> ADP + dUDP
+EQUATION    C00002 + C00365 <=> C00008 + C01346
+RCLASS      RC00002  C00002_C00008  C00365_C01346
+ENZYME      2.7.4.4         2.7.4.9
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.4
+                 R02098  ATP + dUMP <=> ADP + dUDP
+                2.7.4.9
+                 R02098  ATP + dUMP <=> ADP + dUDP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.4.4
+               R00334  NDP
+                R02098  dUMP <=> dUDP
+ORTHOLOGY   K00943  dTMP kinase [EC:2.7.4.9]
+DBLINKS     RHEA: 30658
+///

@@ -1,0 +1,16 @@
+ENTRY       R08727                      Reaction
+NAME        3beta-hydroxy-5-cholestenoate,NADPH:oxygen oxidoreductase (7alpha-hydroxylating)
+DEFINITION  3beta-Hydroxy-5-cholestenoate + Oxygen + NADPH + H+ <=> 3beta,7alpha-Dihydroxy-5-cholestenoate + NADP+ + H2O
+EQUATION    C17333 + C00007 + C00005 + C00080 <=> C17335 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00524  C17333_C17335
+ENZYME      1.14.14.29
+PATHWAY     rn00120  Primary bile acid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.29
+                 R08727  3beta-Hydroxy-5-cholestenoate + Oxygen + NADPH + H+ <=> 3beta,7alpha-Dihydroxy-5-cholestenoate + NADP+ + H2O
+ORTHOLOGY   K07430  25/26-hydroxycholesterol 7alpha-hydroxylase [EC:1.14.14.29]
+///

@@ -1,0 +1,26 @@
+ENTRY       R08967                      Reaction
+NAME        ATP:N-acetyl-D-galactosamine 1-phosphotransferase
+DEFINITION  N-Acetyl-D-galactosamine + ATP <=> N-Acetyl-alpha-D-galactosamine 1-phosphate + ADP
+EQUATION    C01132 + C00002 <=> C18060 + C00008
+RCLASS      RC00002  C00002_C00008
+            RC00078  C01132_C18060
+ENZYME      2.7.1.157       2.7.1.162
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.157
+                 R08967  N-Acetyl-D-galactosamine + ATP <=> N-Acetyl-alpha-D-galactosamine 1-phosphate + ADP
+                2.7.1.162
+                 R08967  N-Acetyl-D-galactosamine + ATP <=> N-Acetyl-alpha-D-galactosamine 1-phosphate + ADP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.1.162
+               R08962  N-Acetyl-D-hexosamine <=> N-Acetyl-alpha-D-hexosamine 1-phosphate
+                R08967  N-Acetyl-D-galactosamine <=> N-Acetyl-alpha-D-galactosamine 1-phosphate
+ORTHOLOGY   K18674  N-acetylgalactosamine kinase [EC:2.7.1.157]
+DBLINKS     RHEA: 12620
+///

@@ -1,0 +1,25 @@
+ENTRY       R01036                      Reaction
+NAME        glycerol:NAD+ oxidoreductase
+DEFINITION  Glycerol + NAD+ <=> D-Glyceraldehyde + NADH + H+
+EQUATION    C00116 + C00003 <=> C00577 + C00004 + C00080
+COMMENT     NADP+ (see R01041)
+RCLASS      RC00001  C00003_C00004
+            RC00099  C00116_C00577
+ENZYME      1.1.1.21        1.1.1.72
+PATHWAY     rn00561  Glycerolipid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.21
+                 R01036  Glycerol + NAD+ <=> D-Glyceraldehyde + NADH + H+
+                1.1.1.72
+                 R01036  Glycerol + NAD+ <=> D-Glyceraldehyde + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.21
+               R02819  Alditol <=> Aldose
+                R01036  Glycerol <=> D-Glyceraldehyde
+ORTHOLOGY   K00011  aldehyde reductase [EC:1.1.1.21]
+DBLINKS     RHEA: 30030
+///

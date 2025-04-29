@@ -1,0 +1,19 @@
+ENTRY       R01991                      Reaction
+NAME        L-histidine:4-aminobutanoate ligase (ADP-forming)
+DEFINITION  ATP + L-Histidine + 4-Aminobutanoate <=> ADP + Orthophosphate + Homocarnosine
+EQUATION    C00002 + C00135 + C00334 <=> C00008 + C00009 + C00884
+RCLASS      RC00002  C00002_C00008
+            RC00064  C00135_C00884
+            RC00090  C00334_C00884
+ENZYME      6.3.2.11
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.11
+                 R01991  ATP + L-Histidine + 4-Aminobutanoate <=> ADP + Orthophosphate + Homocarnosine
+ORTHOLOGY   K14755  carnosine synthase [EC:6.3.2.11]
+DBLINKS     RHEA: 59571
+///

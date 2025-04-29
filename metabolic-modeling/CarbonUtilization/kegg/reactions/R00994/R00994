@@ -1,0 +1,22 @@
+ENTRY       R00994                      Reaction
+NAME        (2R,3S)-3-methylmalate:NAD+ oxidoreductase
+DEFINITION  2-Oxobutanoate + CO2 + NADH + H+ <=> D-erythro-3-Methylmalate + NAD+
+EQUATION    C00109 + C00011 + C00004 + C00080 <=> C06032 + C00003
+RCLASS      RC00001  C00003_C00004
+            RC00417  C00109_C06032
+ENZYME      1.1.1.85
+PATHWAY     rn00290  Valine, leucine and isoleucine biosynthesis
+            rn00660  C5-Branched dibasic acid metabolism
+            rn01100  Metabolic pathways
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01230  Biosynthesis of amino acids
+MODULE      M00535  Isoleucine biosynthesis, pyruvate => 2-oxobutanoate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.85
+                 R00994  2-Oxobutanoate + CO2 + NADH + H+ <=> D-erythro-3-Methylmalate + NAD+
+ORTHOLOGY   K00052  3-isopropylmalate dehydrogenase [EC:1.1.1.85]
+DBLINKS     RHEA: 32718
+///

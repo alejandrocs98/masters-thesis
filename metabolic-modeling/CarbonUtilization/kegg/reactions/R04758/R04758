@@ -1,0 +1,21 @@
+ENTRY       R04758                      Reaction
+NAME        11beta-hydroxyandrost-4-ene-3,17-dione:NADP+ 11-oxidoreductase
+DEFINITION  11beta-Hydroxyandrost-4-ene-3,17-dione + NADP+ <=> Adrenosterone + NADPH + H+
+EQUATION    C05284 + C00006 <=> C05285 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00154  C05284_C05285
+ENZYME      1.1.1.146
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.146
+                 R04758  11beta-Hydroxyandrost-4-ene-3,17-dione + NADP+ <=> Adrenosterone + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.146
+               R03203  11beta-Hydroxysteroid <=> 11-Oxosteroid
+                R04758  11beta-Hydroxyandrost-4-ene-3,17-dione <=> Adrenosterone
+ORTHOLOGY   K15680  corticosteroid 11-beta-dehydrogenase isozyme 1 [EC:1.1.1.146]
+///

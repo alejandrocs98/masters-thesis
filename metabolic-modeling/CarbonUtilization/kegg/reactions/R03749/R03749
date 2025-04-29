@@ -1,0 +1,20 @@
+ENTRY       R03749                      Reaction
+NAME        (5-L-glutamyl)-L-amino-acid gamma-glutamyl cyclotransferase (5-oxoproline-forming)
+DEFINITION  (5-L-Glutamyl)-L-amino acid <=> 5-Oxoproline + L-Amino acid
+EQUATION    C03740 <=> C01879 + C00151
+COMMENT     general reaction (see R02743)
+RCLASS      RC00064  C00151_C03740
+            RC00777  C01879_C03740
+ENZYME      4.3.2.9
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.3  Carbon-nitrogen lyases
+               4.3.2  Amidine-lyases
+                4.3.2.9
+                 R03749  (5-L-Glutamyl)-L-amino acid <=> 5-Oxoproline + L-Amino acid
+ORTHOLOGY   K00682  gamma-glutamylcyclotransferase [EC:4.3.2.9]
+            K22596  gamma-glutamylcyclotransferase, plant [EC:4.3.2.9]
+DBLINKS     RHEA: 20508
+///

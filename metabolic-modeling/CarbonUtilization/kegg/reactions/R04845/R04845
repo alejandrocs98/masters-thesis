@@ -1,0 +1,22 @@
+ENTRY       R04845                      Reaction
+NAME        3alpha-hydroxy-5beta-pregnane-20-one:NAD+ oxidoreductase (B-specific)
+DEFINITION  Pregnanolone + NAD+ <=> 5beta-Pregnane-3,20-dione + NADH + H+
+EQUATION    C05480 + C00003 <=> C05479 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00144  C05479_C05480
+ENZYME      1.1.1.50
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.50
+                 R04845  Pregnanolone + NAD+ <=> 5beta-Pregnane-3,20-dione + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.50
+               R10422  3alpha-Hydroxysteroid <=> 3-Oxosteroid
+                R04845  Pregnanolone <=> 5beta-Pregnane-3,20-dione
+ORTHOLOGY   K00037  3alpha-hydroxysteroid 3-dehydrogenase / chlordecone reductase [EC:1.1.1.50 1.1.1.357 1.1.1.225]
+///

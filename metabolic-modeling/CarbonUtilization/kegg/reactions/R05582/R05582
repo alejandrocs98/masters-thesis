@@ -1,0 +1,20 @@
+ENTRY       R05582                      Reaction
+DEFINITION  2-Hydroxycyclohexane-1-carbonyl-CoA + NAD+ <=> 2-Oxocyclohexane-1-carbonyl-CoA + NADH + H+
+EQUATION    C09812 + C00003 <=> C09813 + C00004 + C00080
+COMMENT     BadH
+RCLASS      RC00001  C00003_C00004
+            RC00154  C09812_C09813
+ENZYME      1.1.1.-
+PATHWAY     rn00362  Benzoate degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00540  Benzoate degradation, cyclohexanecarboxylic acid =>pimeloyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R05582  2-Hydroxycyclohexane-1-carbonyl-CoA + NAD+ <=> 2-Oxocyclohexane-1-carbonyl-CoA + NADH + H+
+ORTHOLOGY   K07535  2-hydroxycyclohexanecarboxyl-CoA dehydrogenase [EC:1.1.1.-]
+///

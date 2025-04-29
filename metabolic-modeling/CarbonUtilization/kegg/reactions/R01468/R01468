@@ -1,0 +1,20 @@
+ENTRY       R01468                      Reaction
+NAME        ATP:ethanolamine O-phosphotransferase
+DEFINITION  ATP + Ethanolamine <=> ADP + Ethanolamine phosphate
+EQUATION    C00002 + C00189 <=> C00008 + C00346
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00189_C00346
+ENZYME      2.7.1.82
+PATHWAY     rn00564  Glycerophospholipid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00092  Phosphatidylethanolamine (PE) biosynthesis, ethanolamine => PE
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.82
+                 R01468  ATP + Ethanolamine <=> ADP + Ethanolamine phosphate
+ORTHOLOGY   K00894  ethanolamine kinase [EC:2.7.1.82]
+            K14156  choline/ethanolamine kinase [EC:2.7.1.32 2.7.1.82]
+DBLINKS     RHEA: 13072
+///

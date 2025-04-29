@@ -1,0 +1,23 @@
+ENTRY       R02367                      Reaction
+NAME        palmitoyl-CoA:retinol O-acyltransferase
+DEFINITION  Palmitoyl-CoA + Retinol <=> CoA + Retinyl palmitate
+EQUATION    C00154 + C00473 <=> C00010 + C02588
+RCLASS      RC00004  C00010_C00154
+            RC00041  C00473_C02588
+ENZYME      2.3.1.76
+PATHWAY     rn00830  Retinol metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.76
+                 R02367  Palmitoyl-CoA + Retinol <=> CoA + Retinyl palmitate
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.76
+               R02366  Acyl-CoA <=> Retinyl ester
+                R02367  Palmitoyl-CoA <=> Retinyl palmitate
+ORTHOLOGY   K11155  diacylglycerol O-acyltransferase 1 [EC:2.3.1.20 2.3.1.75 2.3.1.76]
+            K11156  diacylglycerol O-acyltransferase 2-like protein 4 [EC:2.3.1.75 2.3.1.76]
+///

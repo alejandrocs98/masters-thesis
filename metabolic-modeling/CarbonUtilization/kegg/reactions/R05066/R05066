@@ -1,0 +1,24 @@
+ENTRY       R05066                      Reaction
+NAME        3-hydroxy-2-methylpropanoate:NAD+ oxidoreductase
+DEFINITION  (S)-3-Hydroxyisobutyrate + NAD+ <=> (S)-Methylmalonate semialdehyde + NADH + H+
+EQUATION    C06001 + C00003 <=> C06002 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00099  C06001_C06002
+ENZYME      1.1.1.31
+PATHWAY     rn00280  Valine, leucine and isoleucine degradation
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.31
+                 R05066  (S)-3-Hydroxyisobutyrate + NAD+ <=> (S)-Methylmalonate semialdehyde + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.31
+               R02047  3-Hydroxy-2-methylpropanoate <=> 2-Methyl-3-oxopropanoate
+                R05066  (S)-3-Hydroxyisobutyrate <=> (S)-Methylmalonate semialdehyde
+ORTHOLOGY   K00020  3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31]
+            K23146  3-hydroxyisobutyrate/3-hydroxypropionate dehydrogenase [EC:1.1.1.31 1.1.1.59]
+DBLINKS     RHEA: 31278
+///

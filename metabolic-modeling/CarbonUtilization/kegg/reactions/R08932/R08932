@@ -1,0 +1,22 @@
+ENTRY       R08932                      Reaction
+NAME        S-adenosyl-L-methionine:dTDP-4-amino-2,3,4,6-tetradeoxy-D-glucose N,N-dimethyltransferase
+DEFINITION  dTDP-4-amino-2,3,4,6-tetradeoxy-D-glucose + 2 S-Adenosyl-L-methionine <=> dTDP-D-forosamine + 2 S-Adenosyl-L-homocysteine
+EQUATION    C18033 + 2 C00019 <=> C18034 + 2 C00021
+COMMENT     two-step reaction (see R11452+R11453)
+RCLASS      RC00003  C00019_C00021
+            RC01515  C18033_C18034
+ENZYME      2.1.1.324
+PATHWAY     rn00523  Polyketide sugar unit biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00802  dTDP-D-forosamine biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.324
+                 R08932  dTDP-4-amino-2,3,4,6-tetradeoxy-D-glucose + 2 S-Adenosyl-L-methionine <=> dTDP-D-forosamine + 2 S-Adenosyl-L-homocysteine
+ORTHOLOGY   K13330  dTDP-4-amino-2,3,4,6-tetradeoxy-D-glucose N,N-dimethyltransferase [EC:2.1.1.324]
+DBLINKS     RHEA: 49151
+///

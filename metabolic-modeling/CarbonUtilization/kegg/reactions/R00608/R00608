@@ -1,0 +1,24 @@
+ENTRY       R00608                      Reaction
+NAME        methanol:oxygen oxidereductase
+DEFINITION  Methanol + Oxygen <=> Formaldehyde + Hydrogen peroxide
+EQUATION    C00132 + C00007 <=> C00067 + C00027
+RCLASS      RC00034  C00067_C00132
+            RC02755  C00007_C00027
+ENZYME      1.1.3.13
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.3  With oxygen as acceptor
+                1.1.3.13
+                 R00608  Methanol + Oxygen <=> Formaldehyde + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.3.13
+               R00637  Primary alcohol <=> Aldehyde
+                R00608  Methanol <=> Formaldehyde
+ORTHOLOGY   K17066  alcohol oxidase [EC:1.1.3.13]
+///

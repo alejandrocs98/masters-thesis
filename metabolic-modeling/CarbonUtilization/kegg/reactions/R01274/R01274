@@ -1,0 +1,46 @@
+ENTRY       R01274                      Reaction
+NAME        palmitoyl-CoA hydrolase
+DEFINITION  Palmitoyl-CoA + H2O <=> CoA + Hexadecanoic acid
+EQUATION    C00154 + C00001 <=> C00010 + C00249
+RCLASS      RC00004  C00010_C00154
+            RC00014  C00154_C00249
+ENZYME      3.1.2.2         3.1.2.22        3.1.2.-
+PATHWAY     rn00062  Fatty acid elongation
+            rn01040  Biosynthesis of unsaturated fatty acids
+            rn01100  Metabolic pathways
+            rn01212  Fatty acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.2  Thioester hydrolases
+                3.1.2.2
+                 R01274  Palmitoyl-CoA + H2O <=> CoA + Hexadecanoic acid
+                3.1.2.22
+                 R01274  Palmitoyl-CoA + H2O <=> CoA + Hexadecanoic acid
+                3.1.2.-
+                 R01274  Palmitoyl-CoA + H2O <=> CoA + Hexadecanoic acid
+ORTHOLOGY   K01068  acyl-coenzyme A thioesterase 1/2/4 [EC:3.1.2.2]
+            K01074  palmitoyl-protein thioesterase [EC:3.1.2.22]
+            K10804  acyl-CoA thioesterase I [EC:3.1.2.- 3.1.2.2 3.1.1.2 3.1.1.5]
+            K10805  acyl-CoA thioesterase II [EC:3.1.2.-]
+            K10806  acyl-CoA thioesterase YciA [EC:3.1.2.-]
+            K17360  acyl-coenzyme A thioesterase 7 [EC:3.1.2.2]
+REFERENCE   1  [PMID:4871199]
+  AUTHORS   Barnes EM Jr, Wakil SJ
+  TITLE     Studies on the mechanism of fatty acid synthesis. XIX. Preparation and general properties of palmityl thioesterase.
+  JOURNAL   J Biol Chem 243:2955-62 (1968)
+REFERENCE   2  [PMID:4554913]
+  AUTHORS   Bonner WM, Bloch K.
+  TITLE     Purification and properties of fatty acyl thioesterase I from Escherichia coli.
+  JOURNAL   J Biol Chem 247:3123-33 (1972)
+REFERENCE   3  [PMID:235694]
+  AUTHORS   Barnes EM Jr.
+  TITLE     Long-chain fatty acyl thioesterases I and II from Escherichia coli.
+  JOURNAL   Methods Enzymol 35:102-9 (1975)
+            DOI:10.1016/0076-6879(75)35144-6
+REFERENCE   4  [PMID:4914740]
+  AUTHORS   Barnes EM Jr, Wakil SJ, Swindell AC.
+  TITLE     Purification and properties of a palmityl thioesterase II from Escherichia coli.
+  JOURNAL   J Biol Chem 245:3122-8 (1970)
+DBLINKS     RHEA: 16648
+///

@@ -1,0 +1,26 @@
+ENTRY       R00156                      Reaction
+NAME        ATP:UDP phosphotransferase
+DEFINITION  ATP + UDP <=> ADP + UTP
+EQUATION    C00002 + C00015 <=> C00008 + C00075
+RCLASS      RC00002  C00002_C00008  C00015_C00075
+ENZYME      2.7.4.6
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+            rn01240  Biosynthesis of cofactors
+MODULE      M00052  Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.6
+                 R00156  ATP + UDP <=> ADP + UTP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.4.6
+               R00331  NDP <=> Nucleoside triphosphate
+                R00156  UDP <=> UTP
+ORTHOLOGY   K00940  nucleoside-diphosphate kinase [EC:2.7.4.6]
+            K18533  adenylate/nucleoside-diphosphate kinase [EC:2.7.4.3 2.7.4.6]
+DBLINKS     RHEA: 25101
+///

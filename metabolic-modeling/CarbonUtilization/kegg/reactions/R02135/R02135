@@ -1,0 +1,37 @@
+ENTRY       R02135                      Reaction
+NAME        thiamin monophosphate phosphohydrolase
+DEFINITION  Thiamin monophosphate + H2O <=> Thiamine + Orthophosphate
+EQUATION    C01081 + C00001 <=> C00378 + C00009
+RCLASS      RC00017  C00378_C01081
+ENZYME      3.1.3.1         3.1.3.2         3.1.3.100
+PATHWAY     rn00730  Thiamine metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00897  Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP
+            M00898  Thiamine biosynthesis, pyridoxal-5P => TMP/thiamine/TPP
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.3  Phosphoric-monoester hydrolases
+                3.1.3.1
+                 R02135  Thiamin monophosphate + H2O <=> Thiamine + Orthophosphate
+                3.1.3.2
+                 R02135  Thiamin monophosphate + H2O <=> Thiamine + Orthophosphate
+                3.1.3.100
+                 R02135  Thiamin monophosphate + H2O <=> Thiamine + Orthophosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.1.3.1
+               R00626  Orthophosphoric monoester <=> Alcohol
+                R02135  Thiamin monophosphate <=> Thiamine
+              3.1.3.2
+               R00626  Orthophosphoric monoester <=> Alcohol
+                R02135  Thiamin monophosphate <=> Thiamine
+ORTHOLOGY   K01077  alkaline phosphatase [EC:3.1.3.1]
+            K01078  acid phosphatase [EC:3.1.3.2]
+            K06949  ribosome biogenesis GTPase / thiamine phosphate phosphatase [EC:3.6.1.- 3.1.3.100]
+            K14394  low molecular weight phosphotyrosine protein phosphatase [EC:3.1.3.2 3.1.3.48]
+            K22911  thiamine phosphate phosphatase / amino-HMP aminohydrolase [EC:3.1.3.100 3.5.99.-]
+            K23458  repressible acid phosphatase [EC:3.1.3.2]
+DBLINKS     RHEA: 47951
+///

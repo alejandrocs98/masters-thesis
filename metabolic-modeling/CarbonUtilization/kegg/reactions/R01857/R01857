@@ -1,0 +1,25 @@
+ENTRY       R01857                      Reaction
+NAME        ATP:dGDP phosphotransferase
+DEFINITION  ATP + dGDP <=> ADP + dGTP
+EQUATION    C00002 + C00361 <=> C00008 + C00286
+RCLASS      RC00002  C00002_C00008  C00286_C00361
+ENZYME      2.7.4.6
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00053  Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.6
+                 R01857  ATP + dGDP <=> ADP + dGTP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.4.6
+               R00331  NDP <=> Nucleoside triphosphate
+                R01857  dGDP <=> dGTP
+ORTHOLOGY   K00940  nucleoside-diphosphate kinase [EC:2.7.4.6]
+            K18533  adenylate/nucleoside-diphosphate kinase [EC:2.7.4.3 2.7.4.6]
+DBLINKS     RHEA: 27693
+///

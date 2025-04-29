@@ -1,0 +1,27 @@
+ENTRY       R01383                      Reaction
+NAME        UDPglucuronate beta-D-glucuronosyltransferase (acceptor-unspecific)
+DEFINITION  UDP-glucuronate + ROH <=> UDP + beta-D-Glucuronoside
+EQUATION    C00167 + C01335 <=> C00015 + C03033
+RCLASS      RC00005  C00015_C00167
+            RC00529  C01335_C03033
+            RC02748  C00167_C03033
+ENZYME      2.4.1.17
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn00053  Ascorbate and aldarate metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00014  Glucuronate pathway (uronate pathway)
+            M00129  Ascorbate biosynthesis, animals, glucose-1P => ascorbate
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.17
+                 R01383  UDP-glucuronate + ROH <=> UDP + beta-D-Glucuronoside
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.1.17
+               R09428  Acceptor <=> Acceptor beta-D-glucuronoside
+                R01383  ROH <=> beta-D-Glucuronoside
+ORTHOLOGY   K00699  glucuronosyltransferase [EC:2.4.1.17]
+///

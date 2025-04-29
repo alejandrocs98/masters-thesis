@@ -1,0 +1,20 @@
+ENTRY       R06716                      Reaction
+NAME        dTDP-D-olivose:premithramycinone D-olivosyltransferase
+DEFINITION  Premithramycinone + dTDP-D-olivose <=> Premithramycin A1 + dTDP
+EQUATION    C12383 + C11923 <=> C12384 + C00363
+COMMENT     glycosyltransferase, mtmGIV mtmTI mtmTII
+RCLASS      RC00005  C00363_C11923
+            RC00028  C12383_C12384
+ENZYME      2.4.1.-
+PATHWAY     rn01057  Biosynthesis of type II polyketide products
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00782  Mithramycin biosynthesis, 4-demethylpremithramycinone => mithramycin
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.-
+                 R06716  Premithramycinone + dTDP-D-olivose <=> Premithramycin A1 + dTDP
+ORTHOLOGY   K15960  glycosyltransferase [EC:2.4.1.-]
+///

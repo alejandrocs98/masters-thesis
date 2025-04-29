@@ -1,0 +1,30 @@
+ENTRY       R01967                      Reaction
+NAME        ATP:deoxyguanosine 5'-phosphotransferase
+DEFINITION  ATP + Deoxyguanosine <=> ADP + dGMP
+EQUATION    C00002 + C00330 <=> C00008 + C00362
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00330_C00362
+ENZYME      2.7.1.113       2.7.1.145
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.113
+                 R01967  ATP + Deoxyguanosine <=> ADP + dGMP
+                2.7.1.145
+                 R01967  ATP + Deoxyguanosine <=> ADP + dGMP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.1.145
+               R05806  Deoxynucleoside <=> Deoxynucleoside 5'-phosphate
+                R01967  Deoxyguanosine <=> dGMP
+ORTHOLOGY   K00893  deoxycitidine/deoxyadenosine/deoxyguanosine kinase [EC:2.7.1.74 2.7.1.76 2.7.1.113]
+            K00904  deoxyguanosine kinase [EC:2.7.1.113]
+            K05961  deoxynucleoside kinase [EC:2.7.1.145]
+            K15518  deoxyguanosine kinase [EC:2.7.1.113]
+            K25641  deoxyguanosine kinase [EC:2.7.1.113]
+DBLINKS     RHEA: 19204
+///

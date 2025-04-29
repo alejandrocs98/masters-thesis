@@ -1,0 +1,65 @@
+ENTRY       K16269            Tight     KO
+SYMBOL      todD, tcbB
+NAME        cis-1,2-dihydrobenzene-1,2-diol/chlorobenzene dihydrodiol dehydrogenase [EC:1.3.1.19 1.3.1.119]
+PATHWAY     map00361  Chlorocyclohexane and chlorobenzene degradation
+            map00362  Benzoate degradation
+            map00623  Toluene degradation
+            map00624  Polycyclic aromatic hydrocarbon degradation
+            map00643  Styrene degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00547  Benzene/toluene degradation, benzene => catechol / toluene => 3-methylcatechol
+REACTION    R00812  cis-1,2-dihydrobenzene-1,2-diol:NAD+ oxidoreductase
+            R04088  toluene-cis-1,2-dihydrodiol:NAD+ oxidoreductase
+            R05354  styrene cis-glycol:NAD+ oxidoreductase
+            R05397  3,6-dichloro-cis-1,2-dihydroxycyclohexa-3,5-diene:NAD+ oxidoreductase
+            R06832  3,4,6-trichloro-cis-1,2-dihydroxycyclohexa-3,5-diene:NAD+ oxidoreductase
+            R06857  (1R,2R)-3-chlorocyclohexa-3,5-diene-1,2-diol:NAD+ oxidoreductase
+            R07703  1,2-dihydrophthalic acid:NAD+ oxidoreductase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00362 Benzoate degradation
+                K16269  todD, tcbB; cis-1,2-dihydrobenzene-1,2-diol/chlorobenzene dihydrodiol dehydrogenase
+               00361 Chlorocyclohexane and chlorobenzene degradation
+                K16269  todD, tcbB; cis-1,2-dihydrobenzene-1,2-diol/chlorobenzene dihydrodiol dehydrogenase
+               00623 Toluene degradation
+                K16269  todD, tcbB; cis-1,2-dihydrobenzene-1,2-diol/chlorobenzene dihydrodiol dehydrogenase
+               00643 Styrene degradation
+                K16269  todD, tcbB; cis-1,2-dihydrobenzene-1,2-diol/chlorobenzene dihydrodiol dehydrogenase
+               00624 Polycyclic aromatic hydrocarbon degradation
+                K16269  todD, tcbB; cis-1,2-dihydrobenzene-1,2-diol/chlorobenzene dihydrodiol dehydrogenase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.19  cis-1,2-dihydrobenzene-1,2-diol dehydrogenase
+                 K16269  todD, tcbB; cis-1,2-dihydrobenzene-1,2-diol/chlorobenzene dihydrodiol dehydrogenase
+                1.3.1.119  chlorobenzene dihydrodiol dehydrogenase
+                 K16269  todD, tcbB; cis-1,2-dihydrobenzene-1,2-diol/chlorobenzene dihydrodiol dehydrogenase
+            Dioxygenases [br01602.html]
+             Dioxygenases in aromatic ring cleavage
+              K16269
+DBLINKS     COG: COG1028
+            GO: 0018504 0018501
+GENES       PPF: Pput_2877
+            PPX: T1E_4270(tobD)
+            PMON: X969_10950
+            PMOT: X970_10605
+            PASI: LG197_17470(bphB)
+            BPT: Bpet3742(hcaB)
+            ATEM: PQV96_18690(bphB)
+            AG: AAC43636(tcbB)
+REFERENCE   PMID:2670929
+  AUTHORS   Zylstra GJ, Gibson DT
+  TITLE     Toluene degradation by Pseudomonas putida F1. Nucleotide sequence of the todC1C2BADE genes and their expression in Escherichia coli.
+  JOURNAL   J Biol Chem 264:14940-6 (1989)
+  SEQUENCE  [ppf:Pput_2877]
+REFERENCE   PMID:8626733
+  AUTHORS   Werlen C, Kohler HP, van der Meer JR
+  TITLE     The broad substrate chlorobenzene dioxygenase and cis-chlorobenzene dihydrodiol dehydrogenase of Pseudomonas sp. strain P51 are linked evolutionarily to the enzymes for benzene and toluene degradation.
+  JOURNAL   J Biol Chem 271:4009-16 (1996)
+            DOI:10.1074/jbc.271.8.4009
+  SEQUENCE  [ag:AAC43636]
+///

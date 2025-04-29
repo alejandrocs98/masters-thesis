@@ -1,0 +1,24 @@
+ENTRY       R08571                      Reaction
+NAME        glyceraldehyde ferredoxin oxidoreductase
+DEFINITION  D-Glyceraldehyde + H2O + Oxidized ferredoxin <=> D-Glycerate + H+ + Reduced ferredoxin
+EQUATION    C00577 + C00001 + C00139 <=> C00258 + C00080 + C00138
+RCLASS      RC00242  C00258_C00577
+ENZYME      1.2.7.5
+PATHWAY     rn00030  Pentose phosphate pathway
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00309  Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.7  With an iron-sulfur protein as acceptor
+                1.2.7.5
+                 R08571  D-Glyceraldehyde + H2O + Oxidized ferredoxin <=> D-Glycerate + H+ + Reduced ferredoxin
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.7.5
+               R07158  Aldehyde <=> Carboxylate
+                R08571  D-Glyceraldehyde <=> D-Glycerate
+ORTHOLOGY   K03738  aldehyde:ferredoxin oxidoreductase [EC:1.2.7.5]
+///

@@ -1,0 +1,23 @@
+ENTRY       R12499                      Reaction
+DEFINITION  Cytidine 5'-({hydroxy[(S)-2-hydroxypropyl]phosphonoyl}phosphate) + H2O <=> (S)-2-Hydroxypropylphosphonate + CMP
+EQUATION    C22217 + C00001 <=> C06452 + C00055
+COMMENT     HPP-CMP hydrolase
+RCLASS      RC00002  C06452_C22217
+ENZYME      3.6.1.-
+PATHWAY     rn00998  Biosynthesis of various antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00903  Fosfomycin biosynthesis, phosphoenolpyruvate => fosfomycin
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.-
+                 R12499  Cytidine 5'-({hydroxy[(S)-2-hydroxypropyl]phosphonoyl}phosphate) + H2O <=> (S)-2-Hydroxypropylphosphonate + CMP
+ORTHOLOGY   K24000  HPP-CMP hydrolase [EC:3.6.1.-]
+REFERENCE   1  [PMID:29969250]
+  AUTHORS   McLaughlin MI, van der Donk WA.
+  TITLE     Stereospecific Radical-Mediated B12-Dependent Methyl Transfer by the Fosfomycin Biosynthesis Enzyme Fom3.
+  JOURNAL   Biochemistry 57:4967-4971 (2018)
+            DOI:10.1021/acs.biochem.8b00616
+///

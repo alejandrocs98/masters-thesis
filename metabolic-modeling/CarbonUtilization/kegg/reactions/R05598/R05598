@@ -1,0 +1,22 @@
+ENTRY       R05598                      Reaction
+NAME        benzylsuccinate fumarate-lyase
+DEFINITION  Toluene + Fumarate <=> Benzylsuccinate
+EQUATION    C01455 + C00122 <=> C09816
+COMMENT     BssA,BssB,BssC
+RCLASS      RC01433  C00122_C09816
+            RC01434  C01455_C09816
+ENZYME      4.1.99.11
+PATHWAY     rn00623  Toluene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00418  Toluene degradation, anaerobic, toluene => benzoyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.99  Other carbon-carbon lyases
+                4.1.99.11
+                 R05598  Toluene + Fumarate <=> Benzylsuccinate
+ORTHOLOGY   K07540  benzylsuccinate synthase [EC:4.1.99.11]
+DBLINKS     RHEA: 10419
+///

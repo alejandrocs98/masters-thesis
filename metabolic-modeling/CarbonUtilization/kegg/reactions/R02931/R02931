@@ -1,0 +1,23 @@
+ENTRY       R02931                      Reaction
+NAME        S-adenosyl-L-methionine: genistein 4'-O-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + Genistein <=> S-Adenosyl-L-homocysteine + Biochanin A
+EQUATION    C00019 + C06563 <=> C00021 + C00814
+RCLASS      RC00003  C00019_C00021
+            RC00392  C00814_C06563
+ENZYME      2.1.1.46
+PATHWAY     rn00943  Isoflavonoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.46
+                 R02931  S-Adenosyl-L-methionine + Genistein <=> S-Adenosyl-L-homocysteine + Biochanin A
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.1.1.46
+               R07331  4'-Hydroxyisoflavone <=> 4'-Methoxyisoflavone
+                R02931  Genistein <=> Biochanin A
+ORTHOLOGY   K13259  2,7,4'-trihydroxyisoflavanone 4'-O-methyltransferase / isoflavone 4'-O-methyltransferase [EC:2.1.1.212 2.1.1.46]
+///

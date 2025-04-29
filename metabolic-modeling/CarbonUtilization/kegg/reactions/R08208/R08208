@@ -1,0 +1,31 @@
+ENTRY       R08208                      Reaction
+NAME        tetrahydrobiopterin:NADP+ oxidoreductase (6-pyruvoyltetrahydropterin-forming)
+DEFINITION  Tetrahydrobiopterin + 2 NADP+ <=> 6-Pyruvoyltetrahydropterin + 2 NADPH + 2 H+
+EQUATION    C00272 + 2 C00006 <=> C03684 + 2 C00005 + 2 C00080
+COMMENT     three-step reaction (see R01813+R11762+R11763)
+RCLASS      RC00001  C00005_C00006
+            RC02162  C00272_C03684
+ENZYME      1.1.1.153
+PATHWAY     rn00790  Folate biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00842  Tetrahydrobiopterin biosynthesis, GTP => BH4
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.153
+                 R08208  Tetrahydrobiopterin + 2 NADP+ <=> 6-Pyruvoyltetrahydropterin + 2 NADPH + 2 H+
+ORTHOLOGY   K00072  sepiapterin reductase [EC:1.1.1.153]
+REFERENCE   1  [PMID:21867484]
+  AUTHORS   Werner ER, Blau N, Thony B
+  TITLE     Tetrahydrobiopterin: biochemistry and pathophysiology.
+  JOURNAL   Biochem J 438:397-414 (2011)
+            DOI:10.1042/BJ20110293
+REFERENCE   2  [PMID:9405351]
+  AUTHORS   Auerbach G, Herrmann A, Gutlich M, Fischer M, Jacob U, Bacher A, Huber R.
+  TITLE     The 1.25 A crystal structure of sepiapterin reductase reveals its binding mode to pterins and brain neurotransmitters.
+  JOURNAL   EMBO J 16:7219-30 (1997)
+            DOI:10.1093/emboj/16.24.7219
+DBLINKS     RHEA: 32630
+///

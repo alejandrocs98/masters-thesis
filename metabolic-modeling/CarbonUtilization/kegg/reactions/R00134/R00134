@@ -1,0 +1,26 @@
+ENTRY       R00134                      Reaction
+NAME        formate:NADP+ oxidoreductase
+DEFINITION  Formate + NADP+ <=> CO2 + NADPH + H+
+EQUATION    C00058 + C00006 <=> C00011 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC02796  C00011_C00058
+ENZYME      1.17.1.10
+PATHWAY     rn00680  Methane metabolism
+            rn00720  Carbon fixation pathways in prokaryotes
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00377  Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.17  Acting on CH or CH2 groups
+               1.17.1  With NAD+ or NADP+ as acceptor
+                1.17.1.10
+                 R00134  Formate + NADP+ <=> CO2 + NADPH + H+
+            Overall reaction [br08210.html]
+             Carbon fixation
+              R00134
+ORTHOLOGY   K05299  formate dehydrogenase (NADP+) alpha subunit [EC:1.17.1.10]
+            K15022  formate dehydrogenase (NADP+) beta subunit [EC:1.17.1.10]
+DBLINKS     RHEA: 12003
+///

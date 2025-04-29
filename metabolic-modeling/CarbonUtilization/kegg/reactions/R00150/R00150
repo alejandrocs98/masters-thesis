@@ -1,0 +1,22 @@
+ENTRY       R00150                      Reaction
+NAME        ATP:carbamate phosphotransferase
+DEFINITION  ATP + Ammonia + HCO3- <=> ADP + Carbamoyl phosphate + H2O
+EQUATION    C00002 + C00014 + C00288 <=> C00008 + C00169 + C00001
+COMMENT     two-step reaction (see R01395+R12185)
+RCLASS      RC00002  C00002_C00008
+            RC02804  C00014_C00169
+ENZYME      2.7.2.2
+PATHWAY     rn00220  Arginine biosynthesis
+            rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.2  Phosphotransferases with a carboxy group as acceptor
+                2.7.2.2
+                 R00150  ATP + Ammonia + HCO3- <=> ADP + Carbamoyl phosphate + H2O
+ORTHOLOGY   K00926  carbamate kinase [EC:2.7.2.2]
+DBLINKS     RHEA: 10155
+///

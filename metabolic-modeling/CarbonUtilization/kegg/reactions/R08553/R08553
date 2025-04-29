@@ -1,0 +1,26 @@
+ENTRY       R08553                      Reaction
+NAME        AMP,sulfite:acceptor oxidoreductase (adenosine-5'-phosphosulfate-forming)
+DEFINITION  AMP + Sulfite + FAD <=> Adenylyl sulfate + FADH2
+EQUATION    C00020 + C00094 + C00016 <=> C00224 + C01352
+RCLASS      RC00007  C00020_C00224
+            RC00126  C00016_C01352
+            RC02862  C00094_C00224
+ENZYME      1.8.99.2
+PATHWAY     rn00920  Sulfur metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00596  Dissimilatory sulfate reduction, sulfate => H2S
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.99  With unknown physiological acceptors
+                1.8.99.2
+                 R08553  AMP + Sulfite + FAD <=> Adenylyl sulfate + FADH2
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.8.99.2
+               R00860  Acceptor <=> Reduced acceptor
+                R08553  FAD <=> FADH2
+ORTHOLOGY   K00394  adenylylsulfate reductase, subunit A [EC:1.8.99.2]
+            K00395  adenylylsulfate reductase, subunit B [EC:1.8.99.2]
+///

@@ -1,0 +1,32 @@
+ENTRY       R04060                      Reaction
+NAME        anhydrotetracycline,NADPH:oxygen oxidoreductase (6-hydroxylating)
+DEFINITION  Anhydrotetracycline + Oxygen + NADPH + H+ <=> 5a,11a-Dehydrotetracycline + NADP+ + H2O
+EQUATION    C02811 + C00007 + C00005 + C00080 <=> C03206 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC01062  C02811_C03206
+ENZYME      1.14.13.38
+PATHWAY     rn00253  Tetracycline biosynthesis
+            rn01057  Biosynthesis of type II polyketide products
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00780  Tetracycline/oxytetracycline biosynthesis, pretetramide => tetracycline/oxytetracycline
+            M00823  Chlortetracycline biosynthesis, pretetramide => chlortetracycline
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.38
+                 R04060  Anhydrotetracycline + Oxygen + NADPH + H+ <=> 5a,11a-Dehydrotetracycline + NADP+ + H2O
+ORTHOLOGY   K14256  anhydrotetracycline 6-monooxygenase / 5a,11a-dehydrotetracycline 5-monooxygenase [EC:1.14.13.38 1.14.13.234]
+REFERENCE   1  [PMID:20522541]
+  AUTHORS   Pickens LB, Tang Y
+  TITLE     Oxytetracycline biosynthesis.
+  JOURNAL   J Biol Chem 285:27509-15 (2010)
+            DOI:10.1074/jbc.R110.130419
+REFERENCE   2  [PMID:16148009]
+  AUTHORS   Peric-Concha N, Borovicka B, Long PF, Hranueli D, Waterman PG, Hunter IS
+  TITLE     Ablation of the otcC gene encoding a post-polyketide hydroxylase from the oxytetracyline biosynthetic pathway in Streptomyces rimosus results in novel polyketides with altered chain length.
+  JOURNAL   J Biol Chem 280:37455-60 (2005)
+            DOI:10.1074/jbc.M503191200
+DBLINKS     RHEA: 11979
+///

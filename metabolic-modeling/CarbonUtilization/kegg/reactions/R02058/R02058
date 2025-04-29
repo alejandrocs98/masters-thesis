@@ -1,0 +1,20 @@
+ENTRY       R02058                      Reaction
+NAME        acetyl-CoA:D-glucosamine-6-phosphate N-acetyltransferase
+DEFINITION  Acetyl-CoA + D-Glucosamine 6-phosphate <=> CoA + N-Acetyl-D-glucosamine 6-phosphate
+EQUATION    C00024 + C00352 <=> C00010 + C00357
+RCLASS      RC00004  C00010_C00024
+            RC00166  C00352_C00357
+ENZYME      2.3.1.4
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00892  UDP-N-acetyl-D-glucosamine biosynthesis, eukaryotes, glucose => UDP-GlcNAc
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.4
+                 R02058  Acetyl-CoA + D-Glucosamine 6-phosphate <=> CoA + N-Acetyl-D-glucosamine 6-phosphate
+ORTHOLOGY   K00621  glucosamine-phosphate N-acetyltransferase [EC:2.3.1.4]
+DBLINKS     RHEA: 10295
+///

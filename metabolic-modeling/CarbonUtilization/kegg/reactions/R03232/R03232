@@ -1,0 +1,25 @@
+ENTRY       R03232                      Reaction
+NAME        protein-N(pi)-phosphohistidine:D-fructose 1-phosphotransferase
+DEFINITION  Protein N(pi)-phospho-L-histidine + D-Fructose <=> Protein histidine + D-Fructose 1-phosphate
+EQUATION    C04261 + C00095 <=> C00615 + C01094
+RCLASS      RC00017  C00095_C01094
+            RC03206  C00615_C04261
+ENZYME      2.7.1.202
+PATHWAY     rn00051  Fructose and mannose metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.202
+                 R03232  Protein N(pi)-phospho-L-histidine + D-Fructose <=> Protein histidine + D-Fructose 1-phosphate
+ORTHOLOGY   K02768  fructose PTS system EIIA component [EC:2.7.1.202]
+            K02769  fructose PTS system EIIB component [EC:2.7.1.202]
+            K02770  fructose PTS system EIIBC or EIIC component [EC:2.7.1.202]
+            K02771  fructose PTS system EIID component
+            K11194  fructose PTS system EIIA component [EC:2.7.1.202]
+            K11195  fructose PTS system EIIB component [EC:2.7.1.202]
+            K11196  fructose PTS system EIIC component
+DBLINKS     RHEA: 49255
+///

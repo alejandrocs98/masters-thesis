@@ -1,0 +1,32 @@
+ENTRY       R08034                      Reaction
+DEFINITION  2,4-Diamino-6-nitrotoluene <=> 2,4-Diamino-6-hydroxylaminotoluene
+EQUATION    C16396 <=> C16399
+COMMENT     hydrogenase, carbon-monoxide dehydrogenase, pyruvate:ferredoxin oxidoreductase
+RCLASS      RC00250  C16396_C16399
+ENZYME      1.2.7.1         1.2.7.4         1.12.99.6
+PATHWAY     rn00633  Nitrotoluene degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.7  With an iron-sulfur protein as acceptor
+                1.2.7.1
+                 R08034  2,4-Diamino-6-nitrotoluene <=> 2,4-Diamino-6-hydroxylaminotoluene
+                1.2.7.4
+                 R08034  2,4-Diamino-6-nitrotoluene <=> 2,4-Diamino-6-hydroxylaminotoluene
+              1.12  Acting on hydrogen as donor
+               1.12.99  With unknown physiological acceptors
+                1.12.99.6
+                 R08034  2,4-Diamino-6-nitrotoluene <=> 2,4-Diamino-6-hydroxylaminotoluene
+ORTHOLOGY   K00169  pyruvate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.1]
+            K00170  pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1]
+            K00171  pyruvate ferredoxin oxidoreductase delta subunit [EC:1.2.7.1]
+            K00172  pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.1]
+            K00189  2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.7 1.2.7.1]
+            K00196  anaerobic carbon-monoxide dehydrogenase iron sulfur subunit
+            K00198  anaerobic carbon-monoxide dehydrogenase catalytic subunit [EC:1.2.7.4]
+            K06281  hydrogenase large subunit [EC:1.12.99.6]
+            K06282  hydrogenase small subunit [EC:1.12.99.6]
+            K23548  uptake hydrogenase small subunit [EC:1.12.99.6]
+            K23549  uptake hydrogenase large subunit [EC:1.12.99.6]
+///

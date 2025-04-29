@@ -1,0 +1,23 @@
+ENTRY       R02941                      Reaction
+NAME        salicylaldehyde:NAD+ oxidoreductase
+DEFINITION  Salicylaldehyde + NAD+ + H2O <=> Salicylate + NADH + H+
+EQUATION    C06202 + C00003 + C00001 <=> C00805 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00075  C00805_C06202
+ENZYME      1.2.1.65        1.2.1.-
+PATHWAY     rn00626  Naphthalene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00534  Naphthalene degradation, naphthalene => salicylate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.65
+                 R02941  Salicylaldehyde + NAD+ + H2O <=> Salicylate + NADH + H+
+                1.2.1.-
+                 R02941  Salicylaldehyde + NAD+ + H2O <=> Salicylate + NADH + H+
+ORTHOLOGY   K00152  salicylaldehyde dehydrogenase [EC:1.2.1.65]
+DBLINKS     RHEA: 18540
+///

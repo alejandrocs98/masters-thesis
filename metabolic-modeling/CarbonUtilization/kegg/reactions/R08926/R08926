@@ -1,0 +1,23 @@
+ENTRY       R08926                      Reaction
+NAME        L-fucose:NAD+ 1-oxidoreductase
+DEFINITION  L-Fucose + NAD+ <=> L-Fucono-1,5-lactone + NADH + H+
+EQUATION    C01019 + C00003 <=> C18028 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00066  C01019_C18028
+ENZYME      1.1.1.122
+PATHWAY     rn00051  Fructose and mannose metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.122
+                 R08926  L-Fucose + NAD+ <=> L-Fucono-1,5-lactone + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.122
+               R07148  D-threo-Aldose <=> D-threo-Aldono-1,5-lactone
+                R08926  L-Fucose <=> L-Fucono-1,5-lactone
+ORTHOLOGY   K00064  D-threo-aldose 1-dehydrogenase [EC:1.1.1.122]
+///

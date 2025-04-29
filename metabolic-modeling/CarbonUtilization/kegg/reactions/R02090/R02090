@@ -1,0 +1,20 @@
+ENTRY       R02090                      Reaction
+NAME        ATP:dGMP phosphotransferase
+DEFINITION  ATP + dGMP <=> ADP + dGDP
+EQUATION    C00002 + C00362 <=> C00008 + C00361
+RCLASS      RC00002  C00002_C00008  C00361_C00362
+ENZYME      2.7.4.8         2.7.4.12
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.8
+                 R02090  ATP + dGMP <=> ADP + dGDP
+                2.7.4.12
+                 R02090  ATP + dGMP <=> ADP + dGDP
+ORTHOLOGY   K00942  guanylate kinase [EC:2.7.4.8]
+DBLINKS     RHEA: 12700
+///

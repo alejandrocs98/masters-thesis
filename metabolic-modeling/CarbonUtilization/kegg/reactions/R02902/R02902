@@ -1,0 +1,22 @@
+ENTRY       R02902                      Reaction
+DEFINITION  Retinoate + UDP-glucuronate <=> all-trans-Retinoyl-beta-glucuronide + UDP
+EQUATION    C00777 + C00167 <=> C11061 + C00015
+COMMENT     Ref:1. Biochim Biophys Acta 1996; 1289(2): 284-290
+            UGT2B7
+RCLASS      RC00005  C00015_C00167
+            RC00523  C00777_C11061
+ENZYME      2.4.1.17
+PATHWAY     rn00830  Retinol metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.17
+                 R02902  Retinoate + UDP-glucuronate <=> all-trans-Retinoyl-beta-glucuronide + UDP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.1.17
+               R09428  Acceptor <=> Acceptor beta-D-glucuronoside
+                R02902  Retinoate <=> all-trans-Retinoyl-beta-glucuronide
+ORTHOLOGY   K00699  glucuronosyltransferase [EC:2.4.1.17]
+///

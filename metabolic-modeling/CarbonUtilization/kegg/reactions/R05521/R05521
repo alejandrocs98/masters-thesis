@@ -1,0 +1,27 @@
+ENTRY       R05521                      Reaction
+NAME        erythromycin-B,NADPH:oxygen oxidoreductase (12-hydroxylating)
+DEFINITION  Erythromycin B + NADPH + H+ + Oxygen <=> Erythromycin + NADP+ + H2O
+EQUATION    C06653 + C00005 + C00080 + C00007 <=> C01912 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC01892  C01912_C06653
+ENZYME      1.14.13.154
+PATHWAY     rn00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.154
+                 R05521  Erythromycin B + NADPH + H+ + Oxygen <=> Erythromycin + NADP+ + H2O
+ORTHOLOGY   K14370  erythromycin 12 hydroxylase [EC:1.14.13.154]
+REFERENCE   1  [PMID:19625248]
+  AUTHORS   Savino C, Montemiglio LC, Sciara G, Miele AE, Kendrew SG, Jemth P, Gianni S, Vallone B
+  TITLE     Investigating the structural plasticity of a cytochrome P450: three-dimensional structures of P450 EryK and binding to its physiological substrate.
+  JOURNAL   J Biol Chem 284:29170-9 (2009)
+            DOI:10.1074/jbc.M109.003590
+REFERENCE   2  [PMID:8416893]
+  AUTHORS   Stassi D, Donadio S, Staver MJ, Katz L
+  TITLE     Identification of a Saccharopolyspora erythraea gene required for the final hydroxylation step in erythromycin biosynthesis.
+  JOURNAL   J Bacteriol 175:182-9 (1993)
+            DOI:10.1128/JB.175.1.182-189.1993
+///

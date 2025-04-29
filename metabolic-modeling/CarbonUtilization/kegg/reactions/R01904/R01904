@@ -1,0 +1,20 @@
+ENTRY       R01904                      Reaction
+NAME        xylitol:NADP+ 4-oxidoreductase (L-xylulose-forming)
+DEFINITION  Xylitol + NADP+ <=> L-Xylulose + NADPH + H+
+EQUATION    C00379 + C00006 <=> C00312 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00102  C00312_C00379
+ENZYME      1.1.1.10
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn01100  Metabolic pathways
+MODULE      M00014  Glucuronate pathway (uronate pathway)
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.10
+                 R01904  Xylitol + NADP+ <=> L-Xylulose + NADPH + H+
+ORTHOLOGY   K03331  L-xylulose reductase [EC:1.1.1.10]
+            K25879  L-xylulose reductase [EC:1.1.1.10]
+DBLINKS     RHEA: 17028
+///

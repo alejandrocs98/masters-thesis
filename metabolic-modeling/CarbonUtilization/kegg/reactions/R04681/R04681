@@ -1,0 +1,22 @@
+ENTRY       R04681                      Reaction
+NAME        estriol:NAD+ 17-oxidoreductase
+DEFINITION  Estriol + NAD+ <=> 16alpha-Hydroxyestrone + NADH + H+
+EQUATION    C05141 + C00003 <=> C05300 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00261  C05141_C05300
+ENZYME      1.1.1.62
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.62
+                 R04681  Estriol + NAD+ <=> 16alpha-Hydroxyestrone + NADH + H+
+ORTHOLOGY   K00044  17beta-estradiol 17-dehydrogenase [EC:1.1.1.62]
+            K10251  17beta-estradiol 17-dehydrogenase / very-long-chain 3-oxoacyl-CoA reductase [EC:1.1.1.62 1.1.1.330]
+            K13368  17beta-estradiol 17-dehydrogenase / 3alpha(17beta)-hydroxysteroid dehydrogenase (NAD+) [EC:1.1.1.62 1.1.1.239]
+            K13369  17beta-estradiol 17-dehydrogenase / all-trans-retinol dehydrogenase (NAD+) / 3alpha(17beta)-hydroxysteroid dehydrogenase (NAD+) [EC:1.1.1.62 1.1.1.105 1.1.1.239]
+            K13370  17beta-estradiol 17-dehydrogenase / 3alpha(17beta)-hydroxysteroid dehydrogenase (NAD+) / 3-oxoacyl-[acyl-carrier protein] reductase alpha subunit [EC:1.1.1.62 1.1.1.239]
+            K13373  17beta-estradiol 17-dehydrogenase / 3beta-hydroxysteroid 3-dehydrogenase [EC:1.1.1.62 1.1.1.270]
+///

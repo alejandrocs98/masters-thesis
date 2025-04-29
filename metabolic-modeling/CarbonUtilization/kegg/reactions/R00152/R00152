@@ -1,0 +1,18 @@
+ENTRY       R00152                      Reaction
+NAME        hydrogen cyanide aminohydrolase
+DEFINITION  Hydrogen cyanide + 2 H2O <=> Ammonia + Formate
+EQUATION    C01326 + 2 C00001 <=> C00014 + C00058
+COMMENT     cyanide dihydratase, CynD
+RCLASS      RC03209  C00014_C01326
+            RC03210  C00058_C01326
+ENZYME      3.5.5.-
+PATHWAY     rn00460  Cyanoamino acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.5  In nitriles
+                3.5.5.-
+                 R00152  Hydrogen cyanide + 2 H2O <=> Ammonia + Formate
+ORTHOLOGY   K18282  cyanide dihydratase [EC:3.5.5.-]
+///

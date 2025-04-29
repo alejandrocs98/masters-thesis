@@ -1,0 +1,23 @@
+ENTRY       R02908                      Reaction
+NAME        5-hydroxytryptamine:oxygen oxidoreductase(deaminating)(flavin-containing)
+DEFINITION  Serotonin + H2O + Oxygen <=> 5-Hydroxyindoleacetaldehyde + Ammonia + Hydrogen peroxide
+EQUATION    C00780 + C00001 + C00007 <=> C05634 + C00014 + C00027
+RCLASS      RC00062  C00780_C05634
+            RC02755  C00007_C00027
+ENZYME      1.4.3.4
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.4
+                 R02908  Serotonin + H2O + Oxygen <=> 5-Hydroxyindoleacetaldehyde + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.4
+               R11354  RCH2NHR' <=> Aldehyde
+                R02908  Serotonin <=> 5-Hydroxyindoleacetaldehyde
+ORTHOLOGY   K00274  monoamine oxidase [EC:1.4.3.4]
+DBLINKS     RHEA: 69075
+///

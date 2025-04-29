@@ -1,0 +1,18 @@
+ENTRY       R05417                      Reaction
+DEFINITION  Styrene + Oxygen + NADH + H+ <=> Styrene-cis-2,3-dihydrodiol + NAD+
+EQUATION    C07083 + C00007 + C00004 + C00080 <=> C07084 + C00003
+COMMENT     styrene dioxygenase
+RCLASS      RC00001  C00003_C00004
+            RC00098  C07083_C07084
+ENZYME      1.14.12.-
+PATHWAY     rn00643  Styrene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.12  With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into the other donor
+                1.14.12.-
+                 R05417  Styrene + Oxygen + NADH + H+ <=> Styrene-cis-2,3-dihydrodiol + NAD+
+///

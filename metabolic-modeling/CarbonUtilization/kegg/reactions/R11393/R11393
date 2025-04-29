@@ -1,0 +1,19 @@
+ENTRY       R11393                      Reaction
+NAME        (R)-2-aza-beta-tyrosyl-[pcp]:FADH2 oxidoreductase
+DEFINITION  (R)-2-Aza-beta-tyrosyl-[pcp] + FADH2 + Cl- + Oxygen + H+ <=> (R)-2-Aza-3-chloro-beta-tyrosyl-[pcp] + FAD + 2 H2O
+EQUATION    C21327 + C01352 + C00698 + C00007 + C00080 <=> C21328 + C00016 + 2 C00001
+RCLASS      RC03431  C21327_C21328
+ENZYME      1.14.19.-
+PATHWAY     rn01059  Biosynthesis of enediyne antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00832  Kedarcidin 2-aza-3-chloro-beta-tyrosine moiety biosynthesis, azatyrosine => 2-aza-3-chloro-beta-tyrosyl-PCP
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.-
+                 R11393  (R)-2-Aza-beta-tyrosyl-[pcp] + FADH2 + Cl- + Oxygen + H+ <=> (R)-2-Aza-3-chloro-beta-tyrosyl-[pcp] + FAD + 2 H2O
+ORTHOLOGY   K16431  FAD-dependent halogenase [EC:1.14.19.-]
+            K21185  flavin reductase
+///

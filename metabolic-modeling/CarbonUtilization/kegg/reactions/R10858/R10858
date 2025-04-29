@@ -1,0 +1,19 @@
+ENTRY       R10858                      Reaction
+NAME        5-(hydroxymethyl)furfural:oxygen oxidoreductase
+DEFINITION  5-Hydroxymethyl-2-furaldehyde + 3 Oxygen + 2 H2O <=> 2,5-Furandicarboxylate + 3 Hydrogen peroxide
+EQUATION    C11101 + 3 C00007 + 2 C00001 <=> C20450 + 3 C00027
+COMMENT     multi-step reaction (see R10853+R10854+R10855+R10856+R10857)
+RCLASS      RC02755  C00007_C00027
+            RC03291  C11101_C20450
+ENZYME      1.1.3.47
+PATHWAY     rn00365  Furfural degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.3  With oxygen as acceptor
+                1.1.3.47
+                 R10858  5-Hydroxymethyl-2-furaldehyde + 3 Oxygen + 2 H2O <=> 2,5-Furandicarboxylate + 3 Hydrogen peroxide
+ORTHOLOGY   K16873  5-(hydroxymethyl)furfural/furfural oxidase [EC:1.1.3.47 1.1.3.-]
+DBLINKS     RHEA: 32686
+///

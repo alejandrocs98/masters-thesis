@@ -1,0 +1,19 @@
+ENTRY       R00859                      Reaction
+NAME        hydrogen-sulfide:ferredoxin oxidoreductase
+DEFINITION  Hydrogen sulfide + 6 Oxidized ferredoxin + 3 H2O <=> Sulfite + 6 Reduced ferredoxin + 6 H+
+EQUATION    C00283 + 6 C00139 + 3 C00001 <=> C00094 + 6 C00138 + 6 C00080
+RCLASS      RC00065  C00094_C00283
+ENZYME      1.8.7.1
+PATHWAY     rn00920  Sulfur metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00176  Assimilatory sulfate reduction, sulfate => H2S
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.7  With an iron-sulfur protein as acceptor
+                1.8.7.1
+                 R00859  Hydrogen sulfide + 6 Oxidized ferredoxin + 3 H2O <=> Sulfite + 6 Reduced ferredoxin + 6 H+
+ORTHOLOGY   K00392  sulfite reductase (ferredoxin) [EC:1.8.7.1]
+DBLINKS     RHEA: 23135
+///

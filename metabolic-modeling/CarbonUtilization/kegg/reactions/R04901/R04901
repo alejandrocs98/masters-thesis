@@ -1,0 +1,24 @@
+ENTRY       R04901                      Reaction
+NAME        (2S)-flavan-4-ol:NADP+ 4-oxidoreductase;
+            cis-3,4-leucopelargonidin:NADP+ 4-oxidoreductase
+DEFINITION  Luteoforol + NADP+ <=> Eriodictyol + NADPH + H+
+EQUATION    C05907 + C00006 <=> C05631 + C00005 + C00080
+COMMENT     flavanone 4-reductase
+            dihydroflavonol 4-reductase
+RCLASS      RC00001  C00005_C00006
+            RC00234  C05631_C05907
+ENZYME      1.1.1.234
+PATHWAY     rn00941  Flavonoid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.234
+                 R04901  Luteoforol + NADP+ <=> Eriodictyol + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.234
+               R03827  (2S)-Flavan-4-ol <=> (2S)-Flavanone
+                R04901  Luteoforol <=> Eriodictyol
+ORTHOLOGY   K13082  bifunctional dihydroflavonol 4-reductase/flavanone 4-reductase [EC:1.1.1.219 1.1.1.234]
+///

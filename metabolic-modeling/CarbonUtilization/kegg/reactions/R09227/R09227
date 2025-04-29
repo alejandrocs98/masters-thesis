@@ -1,0 +1,23 @@
+ENTRY       R09227                      Reaction
+DEFINITION  Phthalate + Oxygen + NADH + H+ <=> Phthalate 3,4-cis-dihydrodiol + NAD+
+EQUATION    C01606 + C00007 + C00004 + C00080 <=> C18314 + C00003
+COMMENT     phthalate 3,4-dioxygenase
+RCLASS      RC00001  C00003_C00004
+            RC00098  C01606_C18314
+ENZYME      1.14.12.-
+PATHWAY     rn00624  Polycyclic aromatic hydrocarbon degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00636  Phthalate degradation, phthalate => protocatechuate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.12  With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into the other donor
+                1.14.12.-
+                 R09227  Phthalate + Oxygen + NADH + H+ <=> Phthalate 3,4-cis-dihydrodiol + NAD+
+ORTHOLOGY   K18251  phthalate 3,4-dioxygenase subunit alpha [EC:1.14.12.-]
+            K18252  phthalate 3,4-dioxygenase subunit beta [EC:1.14.12.-]
+            K18253  phthalate 3,4-dioxygenase ferredoxin component
+            K18254  phthalate 3,4-dioxygenase ferredoxin reductase component [EC:1.18.1.3]
+///

@@ -1,0 +1,26 @@
+ENTRY       R12328                      Reaction
+NAME        acyl-CoA:malonyl-CoA C-acyltransferase (decarboxylating, oxoacyl- and enoyl-reducing, NADH)
+DEFINITION  Acetyl-CoA + n Malonyl-CoA + n NADPH + n NADH + 2n H+ <=> Long-chain acyl-CoA + n CoA + n CO2 + n NADP+ + n NAD+ + n H2O
+EQUATION    C00024 + n C00083 + n C00005 + n C00004 + 2n C00080 <=> C02843 + n C00010 + n C00011 + n C00006 + n C00003 + n C00001
+COMMENT     Type I fatty acid synthase, bacteria type
+            multi-step reaction (see map00061)
+ENZYME      2.3.1.-
+PATHWAY     rn00061  Fatty acid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.-
+                 R12328  Acetyl-CoA + n Malonyl-CoA + n NADPH + n NADH + 2n H+ <=> Long-chain acyl-CoA + n CoA + n CO2 + n NADP+ + n NAD+ + n H2O
+ORTHOLOGY   K11533  fatty acid synthase, bacteria type [EC:2.3.1.-]
+REFERENCE   1  [PMID:21204864]
+  AUTHORS   Gago G, Diacovich L, Arabolaza A, Tsai SC, Gramajo H.
+  TITLE     Fatty acid biosynthesis in actinomycetes.
+  JOURNAL   FEMS Microbiol Rev 35:475-97 (2011)
+            DOI:10.1111/j.1574-6976.2010.00259.x
+REFERENCE   2  [PMID:15353567]
+  AUTHORS   Schweizer E, Hofmann J.
+  TITLE     Microbial type I fatty acid synthases (FAS): major players in a network of cellular FAS systems.
+  JOURNAL   Microbiol Mol Biol Rev 68:501-17, table of contents (2004)
+            DOI:10.1128/MMBR.68.3.501-517.2004
+///

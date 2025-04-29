@@ -1,0 +1,16 @@
+ENTRY       R02218                      Reaction
+NAME        progesterone,reduced ferredoxin:oxygen oxidoreductase (11-hydroxylating)
+DEFINITION  Progesterone + 2 Reduced ferredoxin + Oxygen + 2 H+ <=> 11beta-Hydroxyprogesterone + 2 Oxidized ferredoxin + H2O
+EQUATION    C00410 + 2 C00138 + C00007 + 2 C00080 <=> C05498 + 2 C00139 + C00001
+RCLASS      RC00661  C00410_C05498
+ENZYME      1.14.15.4
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.15  With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.15.4
+                 R02218  Progesterone + 2 Reduced ferredoxin + Oxygen + 2 H+ <=> 11beta-Hydroxyprogesterone + 2 Oxidized ferredoxin + H2O
+ORTHOLOGY   K00497  steroid 11beta-monooxygenase [EC:1.14.15.4]
+            K07433  steroid 11beta-monooxygenase / corticosterone 18-monooxygenase [EC:1.14.15.4 1.14.15.5]
+///

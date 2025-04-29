@@ -1,0 +1,17 @@
+ENTRY       R10504                      Reaction
+NAME        meso-2,3-butanediol:NAD+ oxidoreductase [(S)-acetoin forming]
+DEFINITION  meso-2,3-Butanediol + NAD+ <=> (S)-Acetoin + NADH + H+
+EQUATION    C20657 + C00003 <=> C01769 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00525  C01769_C20657
+ENZYME      1.1.1.-
+PATHWAY     rn00650  Butanoate metabolism
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R10504  meso-2,3-Butanediol + NAD+ <=> (S)-Acetoin + NADH + H+
+ORTHOLOGY   K00004  (R,R)-butanediol dehydrogenase / meso-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1.4 1.1.1.- 1.1.1.303]
+///

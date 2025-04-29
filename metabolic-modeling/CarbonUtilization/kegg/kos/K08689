@@ -1,0 +1,60 @@
+ENTRY       K08689                      KO
+SYMBOL      bphAa, bphA1, bphA
+NAME        biphenyl 2,3-dioxygenase subunit alpha [EC:1.14.12.18]
+PATHWAY     map00621  Dioxin degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00543  Biphenyl degradation, biphenyl => 2-oxopent-4-enoate + benzoate
+REACTION    R05261  biphenyl,NADH:oxygen oxidoreductase (2,3-hydroxylating)
+            R05262  
+            R05263  biphenyl,NADH2:oxygen oxidoreductase (2,3-hydroxylating)
+            R05264  biphenyl,NADH:oxygen oxidoreductase (2,3-hydroxylating)
+            R05475  
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00621 Dioxin degradation
+                K08689  bphAa, bphA1, bphA; biphenyl 2,3-dioxygenase subunit alpha
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.12  With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into the other donor
+                1.14.12.18  biphenyl 2,3-dioxygenase
+                 K08689  bphAa, bphA1, bphA; biphenyl 2,3-dioxygenase subunit alpha
+            Dioxygenases [br01602.html]
+             Dioxygenases in aromatic ring cleavage
+              K08689
+DBLINKS     COG: COG4638
+            GO: 0018687
+GENES       PSD: DSC_08755 DSC_09320
+            PFUW: KF707C_16330(bphA1)
+            PALL: UYA_07100
+            BXE: Bxe_C1197(bphA1)
+            BXB: DR64_8608(bphA)
+            PNA: Pnap_4152
+            ACK: C380_15925(bphA1)
+            CTES: O987_08255
+            ABRE: pbN1_20470
+            NPM: QEO92_31485
+            MAAD: AZF01_18230
+            CID: P73_0346
+            CON: TQ29_19170
+            PGV: SL003B_4095(bphAa)
+            RHA: RHA1_ro08060(bphAa)
+            ROP: ROP_pROB02-01580(bnzA1)
+            ROZ: CBI38_14145
+            RPSK: JWS13_01600(bphA1)
+            AG: BAM76236(bphAa)
+REFERENCE   PMID:7592331
+  AUTHORS   Haddock JD, Gibson DT
+  TITLE     Purification and characterization of the oxygenase component of biphenyl 2,3-dioxygenase from Pseudomonas sp. strain LB400.
+  JOURNAL   J Bacteriol 177:5834-9 (1995)
+            DOI:10.1128/JB.177.20.5834-5839.1995
+  SEQUENCE  [bxe:Bxe_C1197]
+REFERENCE   PMID:17142386
+  AUTHORS   Vezina J, Barriault D, Sylvestre M
+  TITLE     Family shuffling of soil DNA to change the regiospecificity of Burkholderia xenovorans LB400 biphenyl dioxygenase.
+  JOURNAL   J Bacteriol 189:779-88 (2007)
+            DOI:10.1128/JB.01267-06
+///

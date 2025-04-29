@@ -1,0 +1,25 @@
+ENTRY       R04558                      Reaction
+NAME        5-[(5-phospho-1-deoxy-D-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide D-erythro-1-(imidazol-4-yl)glycerol 3-phosphate-lyase (L-glutamine-hydrolysing; 5-amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide-forming)
+DEFINITION  N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide + L-Glutamine <=> D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate + 1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide + L-Glutamate
+EQUATION    C04916 + C00064 <=> C04666 + C04677 + C00025
+COMMENT     two-step reaction (see R00256+R12152)
+RCLASS      RC00010  C00025_C00064
+            RC01190  C04677_C04916
+            RC01943  C04666_C04916
+ENZYME      4.3.2.10
+PATHWAY     rn00340  Histidine metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01230  Biosynthesis of amino acids
+MODULE      M00026  Histidine biosynthesis, PRPP => histidine
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.3  Carbon-nitrogen lyases
+               4.3.2  Amidine-lyases
+                4.3.2.10
+                 R04558  N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide + L-Glutamine <=> D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate + 1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide + L-Glutamate
+ORTHOLOGY   K01663  imidazole glycerol-phosphate synthase [EC:4.3.2.10]
+            K02500  imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]
+            K02501  imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]
+DBLINKS     RHEA: 24796
+///

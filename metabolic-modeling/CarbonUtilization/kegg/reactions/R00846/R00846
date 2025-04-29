@@ -1,0 +1,18 @@
+ENTRY       R00846                      Reaction
+NAME        sn-glycerol-3-phosphate:oxygen 2-oxidoreductase
+DEFINITION  sn-Glycerol 3-phosphate + Oxygen <=> Glycerone phosphate + Hydrogen peroxide
+EQUATION    C00093 + C00007 <=> C00111 + C00027
+RCLASS      RC00029  C00093_C00111
+            RC02755  C00007_C00027
+ENZYME      1.1.3.21
+PATHWAY     rn00564  Glycerophospholipid metabolism
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.3  With oxygen as acceptor
+                1.1.3.21
+                 R00846  sn-Glycerol 3-phosphate + Oxygen <=> Glycerone phosphate + Hydrogen peroxide
+ORTHOLOGY   K00105  alpha-glycerophosphate oxidase [EC:1.1.3.21]
+DBLINKS     RHEA: 18372
+///

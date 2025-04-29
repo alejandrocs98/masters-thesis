@@ -1,0 +1,19 @@
+ENTRY       R05030                      Reaction
+NAME        beta-D-GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphospho-ditrans,octacis-undecaprenol:L-glutamine amidoligase (ADP-forming)
+DEFINITION  ATP + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine + Ammonia <=> ADP + Orthophosphate + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-D-alanyl-D-alanine
+EQUATION    C00002 + C05893 + C00014 <=> C00008 + C00009 + C05894
+COMMENT     multi-step reaction (see R00256+R12330+R12331)
+RCLASS      RC00002  C00002_C00008
+            RC00358  C05893_C05894
+ENZYME      6.3.5.13
+PATHWAY     rn00550  Peptidoglycan biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.5  Carbon-nitrogen ligases with glutamine as amido-N-donor
+                6.3.5.13
+                 R05030  ATP + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine + Ammonia <=> ADP + Orthophosphate + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-D-alanyl-D-alanine
+ORTHOLOGY   K07009  lipid II isoglutaminyl synthase (glutamine-hydrolysing) [EC:6.3.5.13]
+            K23393  lipid II isoglutaminyl synthase (glutamine-hydrolysing) [EC:6.3.5.13]
+///

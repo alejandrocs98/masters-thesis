@@ -1,0 +1,27 @@
+ENTRY       R04811                      Reaction
+NAME        propanoyl-CoA:acetyl-CoA C-acyltransferase;
+            3alpha,7alpha-dihydroxy-5beta-cholanoyl-CoA:propanoyl-CoA;
+            C-acyltransferase
+DEFINITION  Propanoyl-CoA + Chenodeoxycholoyl-CoA <=> CoA + 3alpha,7alpha-Dihydroxy-5beta-24-oxocholestanoyl-CoA
+EQUATION    C00100 + C05337 <=> C00010 + C05449
+RCLASS      RC00004  C00010_C05337
+            RC00405  C00100_C05449
+            RC02725  C05337_C05449
+ENZYME      2.3.1.176
+PATHWAY     rn00120  Primary bile acid biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00104  Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate
+            M00862  beta-Oxidation, peroxisome, tri/dihydroxycholestanoyl-CoA => choloyl/chenodeoxycholoyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.176
+                 R04811  Propanoyl-CoA + Chenodeoxycholoyl-CoA <=> CoA + 3alpha,7alpha-Dihydroxy-5beta-24-oxocholestanoyl-CoA
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.176
+               R03719  Choloyl-CoA <=> 3alpha,7alpha,12alpha-Trihydroxy-5beta-24-oxocholestanoyl-CoA
+                R04811  Chenodeoxycholoyl-CoA <=> 3alpha,7alpha-Dihydroxy-5beta-24-oxocholestanoyl-CoA
+ORTHOLOGY   K08764  sterol carrier protein 2 [EC:2.3.1.176]
+///

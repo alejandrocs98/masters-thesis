@@ -1,0 +1,24 @@
+ENTRY       R00980                      Reaction
+NAME        anthranilate,NADPH:oxygen oxidoreductase (3-hydroxylating, deaminating)
+DEFINITION  Anthranilate + Oxygen + NADPH + H+ <=> 2,3-Dihydroxybenzoate + Ammonia + NADP+
+EQUATION    C00108 + C00007 + C00005 + C00080 <=> C00196 + C00014 + C00006
+COMMENT     the oxygen atom at the 3-position of the product, 2,3-
+            dihydroxybenzoate, originates from O2, while that at the 2-position 
+            is derived from H2O.
+RCLASS      RC00001  C00005_C00006
+            RC00412  C00108_C00196
+ENZYME      1.14.13.35
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.35
+                 R00980  Anthranilate + Oxygen + NADPH + H+ <=> 2,3-Dihydroxybenzoate + Ammonia + NADP+
+REFERENCE   1  [PMID:3793735]
+  AUTHORS   Powlowski JB, Dagley S, Massey V, Ballou DP.
+  TITLE     Properties of anthranilate hydroxylase (deaminating), a flavoprotein from Trichosporon cutaneum.
+  JOURNAL   J Biol Chem 262:69-74 (1987)
+DBLINKS     RHEA: 21239
+///

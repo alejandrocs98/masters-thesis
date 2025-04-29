@@ -1,0 +1,32 @@
+ENTRY       R03300                      Reaction
+NAME        3,4-dihydroxyphenylacetaldehyde:NAD+ oxidoreductase
+DEFINITION  3,4-Dihydroxyphenylacetaldehyde + NAD+ + H2O <=> 3,4-Dihydroxyphenylacetate + NADH + H+
+EQUATION    C04043 + C00003 + C00001 <=> C01161 + C00004 + C00080
+COMMENT     NADP+ (see R03302)
+RCLASS      RC00001  C00003_C00004
+            RC00080  C01161_C04043
+ENZYME      1.2.1.5         1.2.1.29        1.2.1.39
+PATHWAY     rn00350  Tyrosine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.5
+                 R03300  3,4-Dihydroxyphenylacetaldehyde + NAD+ + H2O <=> 3,4-Dihydroxyphenylacetate + NADH + H+
+                1.2.1.29
+                 R03300  3,4-Dihydroxyphenylacetaldehyde + NAD+ + H2O <=> 3,4-Dihydroxyphenylacetate + NADH + H+
+                1.2.1.39
+                 R03300  3,4-Dihydroxyphenylacetaldehyde + NAD+ + H2O <=> 3,4-Dihydroxyphenylacetate + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.5
+               R00538  Aldehyde <=> Carboxylate
+                R03300  3,4-Dihydroxyphenylacetaldehyde <=> 3,4-Dihydroxyphenylacetate
+              1.2.1.29
+               R01486  Aromatic aldehyde <=> Aromatic acid
+                R03300  3,4-Dihydroxyphenylacetaldehyde <=> 3,4-Dihydroxyphenylacetate
+ORTHOLOGY   K00129  aldehyde dehydrogenase (NAD(P)+) [EC:1.2.1.5]
+            K00146  phenylacetaldehyde dehydrogenase [EC:1.2.1.39]
+DBLINKS     RHEA: 69083
+///

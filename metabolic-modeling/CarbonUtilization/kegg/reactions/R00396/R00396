@@ -1,0 +1,20 @@
+ENTRY       R00396                      Reaction
+NAME        L-alanine:NAD+ oxidoreductase (deaminating)
+DEFINITION  L-Alanine + NAD+ + H2O <=> Pyruvate + Ammonia + NADH + H+
+EQUATION    C00041 + C00003 + C00001 <=> C00022 + C00014 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00008  C00022_C00041
+ENZYME      1.4.1.1
+PATHWAY     rn00250  Alanine, aspartate and glutamate metabolism
+            rn00430  Taurine and hypotaurine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.1  With NAD+ or NADP+ as acceptor
+                1.4.1.1
+                 R00396  L-Alanine + NAD+ + H2O <=> Pyruvate + Ammonia + NADH + H+
+ORTHOLOGY   K00259  alanine dehydrogenase [EC:1.4.1.1]
+            K19244  alanine dehydrogenase [EC:1.4.1.1]
+DBLINKS     RHEA: 18408
+///

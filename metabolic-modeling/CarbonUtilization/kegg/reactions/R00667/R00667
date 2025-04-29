@@ -1,0 +1,26 @@
+ENTRY       R00667                      Reaction
+NAME        L-ornithine:2-oxo-acid aminotransferase
+DEFINITION  L-Ornithine + 2-Oxoglutarate <=> L-Glutamate 5-semialdehyde + L-Glutamate
+EQUATION    C00077 + C00026 <=> C01165 + C00025
+RCLASS      RC00006  C00025_C00026
+            RC00062  C00077_C01165
+ENZYME      2.6.1.13
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00015  Proline biosynthesis, glutamate => proline
+            M00972  Proline metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.13
+                 R00667  L-Ornithine + 2-Oxoglutarate <=> L-Glutamate 5-semialdehyde + L-Glutamate
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.6.1.13
+               R01343  2-Oxo acid <=> L-Amino acid
+                R00667  2-Oxoglutarate <=> L-Glutamate
+ORTHOLOGY   K00819  ornithine--oxo-acid transaminase [EC:2.6.1.13]
+DBLINKS     RHEA: 25163
+///

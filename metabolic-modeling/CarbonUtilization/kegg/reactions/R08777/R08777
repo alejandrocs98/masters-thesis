@@ -1,0 +1,19 @@
+ENTRY       R08777                      Reaction
+NAME        glycyl-tRNA:undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-(glycyl)-D-alanyl-D-alanine glycyltransferase
+DEFINITION  2 Glycyl-tRNA(Gly) + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-(glycyl)-D-alanyl-D-alanine <=> 2 tRNA(Gly) + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-(glycyl)3-D-alanyl-D-alanine
+EQUATION    2 C02412 + C17541 <=> 2 C01642 + C17542
+COMMENT     two-step reaction
+RCLASS      RC00055  C01642_C02412
+            RC00096  C17541_C17542
+ENZYME      2.3.2.17
+PATHWAY     rn00550  Peptidoglycan biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.2  Aminoacyltransferases
+                2.3.2.17
+                 R08777  2 Glycyl-tRNA(Gly) + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-(glycyl)-D-alanyl-D-alanine <=> 2 tRNA(Gly) + Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-(glycyl)3-D-alanyl-D-alanine
+ORTHOLOGY   K11694  peptidoglycan pentaglycine glycine transferase (the second and third glycine) [EC:2.3.2.17]
+DBLINKS     RHEA: 30442
+///

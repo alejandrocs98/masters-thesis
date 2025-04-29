@@ -1,0 +1,22 @@
+ENTRY       R09152                      Reaction
+NAME        trichloroethene,NADH:oxygen oxidoreductase (formate-forming)
+DEFINITION  Trichloroethene + Oxygen + 2 H2O + NADH + H+ <=> 2 Formate + 3 Hydrochloric acid + NAD+
+EQUATION    C06790 + C00007 + 2 C00001 + C00004 + C00080 <=> 2 C00058 + 3 C01327 + C00003
+COMMENT     dioxygenase (distinct from R09141+R09145)
+            requiring ferredoxin and ferredoxin reductase (ec 1.18.1.3)
+RCLASS      RC03012  C00058_C06790
+            RC03013  C00058_C06790
+ENZYME      1.14.12.11
+PATHWAY     rn00625  Chloroalkane and chloroalkene degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.12  With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into the other donor
+                1.14.12.11
+                 R09152  Trichloroethene + Oxygen + 2 H2O + NADH + H+ <=> 2 Formate + 3 Hydrochloric acid + NAD+
+ORTHOLOGY   K03268  benzene/toluene/chlorobenzene dioxygenase subunit alpha [EC:1.14.12.3 1.14.12.11 1.14.12.26]
+            K16268  benzene/toluene/chlorobenzene dioxygenase subunit beta [EC:1.14.12.3 1.14.12.11 1.14.12.26]
+            K18089  benzene/toluene/chlorobenzene dioxygenase ferredoxin component
+            K18090  benzene/toluene/chlorobenzene dioxygenase ferredoxin reductase component [EC:1.18.1.3 1.18.1.-]
+///

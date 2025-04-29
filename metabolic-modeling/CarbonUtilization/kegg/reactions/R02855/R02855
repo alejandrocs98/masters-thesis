@@ -1,0 +1,17 @@
+ENTRY       R02855                      Reaction
+NAME        (R)-acetoin:NAD+ oxidoreductase
+DEFINITION  (R)-Acetoin + NAD+ <=> Diacetyl + NADH + H+
+EQUATION    C00810 + C00003 <=> C00741 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00205  C00741_C00810
+ENZYME      1.1.1.303
+PATHWAY     rn00650  Butanoate metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.303
+                 R02855  (R)-Acetoin + NAD+ <=> Diacetyl + NADH + H+
+ORTHOLOGY   K00004  (R,R)-butanediol dehydrogenase / meso-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1.4 1.1.1.- 1.1.1.303]
+            K03366  meso-butanediol dehydrogenase / (S,S)-butanediol dehydrogenase / diacetyl reductase [EC:1.1.1.- 1.1.1.76 1.1.1.304]
+///

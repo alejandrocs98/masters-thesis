@@ -1,0 +1,19 @@
+ENTRY       R08806                      Reaction
+NAME        feruloyl-CoA:malonyl-CoA C-feruloyltransferase (decarboxylating)
+DEFINITION  Feruloyl-CoA + Malonyl-CoA <=> Feruloyl-diketide-CoA + CoA + CO2
+EQUATION    C00406 + C00083 <=> C17741 + C00010 + C00011
+COMMENT     diketide-CoA synthase (DCS)
+RCLASS      RC00004  C00010_C00406
+            RC02955  C00406_C17741
+ENZYME      2.3.1.218
+PATHWAY     rn00945  Stilbenoid, diarylheptanoid and gingerol biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.218
+                 R08806  Feruloyl-CoA + Malonyl-CoA <=> Feruloyl-diketide-CoA + CoA + CO2
+ORTHOLOGY   K13233  phenylpropanoylacetyl-CoA synthase [EC:2.3.1.218]
+DBLINKS     RHEA: 35118
+///

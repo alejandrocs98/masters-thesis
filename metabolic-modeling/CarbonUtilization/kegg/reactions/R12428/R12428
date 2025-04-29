@@ -1,0 +1,27 @@
+ENTRY       R12428                      Reaction
+NAME        octanoyl-[acp]:glycine-cleavage-system-H N-octanoyltransferase
+DEFINITION  Octanoyl-[acp] + Glycine cleavage system H <=> [Glycine cleavage system H]-N6-octanoyl-L-lysine + Acyl-carrier protein
+EQUATION    C05752 + C22157 <=> C22159 + C00229
+RCLASS      RC00039  C00229_C05752
+ENZYME      2.3.1.181
+PATHWAY     rn00785  Lipoic acid metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00881  Lipoic acid biosynthesis, plants and bacteria, octanoyl-ACP => dihydrolipoyl-E2/H
+            M00882  Lipoic acid biosynthesis, eukaryotes, octanoyl-ACP => dihydrolipoyl-H
+            M00883  Lipoic acid biosynthesis, animals and bacteria, octanoyl-ACP => dihydrolipoyl-H => dihydrolipoyl-E2
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.181
+                 R12428  Octanoyl-[acp] + Glycine cleavage system H <=> [Glycine cleavage system H]-N6-octanoyl-L-lysine + Acyl-carrier protein
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.181
+               R07766  [Lipoyl-carrier protein]-L-lysine <=> [Protein]-N6-(octanoyl)-L-lysine
+                R12428  Glycine cleavage system H <=> [Glycine cleavage system H]-N6-octanoyl-L-lysine
+ORTHOLOGY   K03801  lipoyl(octanoyl) transferase [EC:2.3.1.181]
+            K23734  lipoyl(octanoyl) transferase [EC:2.3.1.181]
+            K23735  lipoyl(octanoyl) transferase 2 [EC:2.3.1.181]
+///

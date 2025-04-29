@@ -1,0 +1,20 @@
+ENTRY       R13028                      Reaction
+NAME        N,N-dimethylglycine:ferredoxin oxidoreductase (demethylating)
+DEFINITION  N,N-Dimethylglycine + 2 Oxidized ferredoxin + H2O <=> Sarcosine + Formaldehyde + 2 Reduced ferredoxin + 2 H+
+EQUATION    C01026 + 2 C00139 + C00001 <=> C00213 + C00067 + 2 C00138 + 2 C00080
+RCLASS      RC00181  C00213_C01026
+ENZYME      1.5.7.3
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+MODULE      M00975  Betaine degradation, bacteria, betaine => pyruvate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.7  With an iron-sulfur protein as acceptor
+                1.5.7.3
+                 R13028  N,N-Dimethylglycine + 2 Oxidized ferredoxin + H2O <=> Sarcosine + Formaldehyde + 2 Reduced ferredoxin + 2 H+
+ORTHOLOGY   K21833  N,N-dimethylglycine/sarcosine dehydrogenase [EC:1.5.7.3]
+            K21834  N,N-dimethylglycine/sarcosine dehydrogenase ferredoxin subunit
+            K25960  N,N-dimethylglycine/sarcosine catabolism electron transfer flavoprotein subunit alpha
+            K25961  N,N-dimethylglycine/sarcosine catabolism electron transfer flavoprotein subunit beta
+///

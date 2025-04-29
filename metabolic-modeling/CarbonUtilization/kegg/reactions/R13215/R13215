@@ -1,0 +1,22 @@
+ENTRY       R13215                      Reaction
+NAME        5alpha-pregnan-17alpha-ol-3,20-dione:NADP+ Delta4-oxidoreductase
+DEFINITION  5alpha-Pregnan-17alpha-ol-3,20-dione + NADP+ <=> 17alpha-Hydroxyprogesterone + NADPH + H+
+EQUATION    C22831 + C00006 <=> C01176 + C00005 + C00080
+RCLASS      RC00145  C01176_C22831
+ENZYME      1.3.1.22
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00977  C19-Steroid hormone biosynthesis (androgen backdoor pathway), pregnenolone => androsterone => dihydrotestosterone
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.22
+                 R13215  5alpha-Pregnan-17alpha-ol-3,20-dione + NADP+ <=> 17alpha-Hydroxyprogesterone + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.3.1.22
+               R13214  3-Oxo-5alpha-steroid <=> 3-Oxo-Delta4-steroid
+                R13215  5alpha-Pregnan-17alpha-ol-3,20-dione <=> 17alpha-Hydroxyprogesterone
+ORTHOLOGY   K12343  3-oxo-5-alpha-steroid 4-dehydrogenase 1 [EC:1.3.1.22]
+///

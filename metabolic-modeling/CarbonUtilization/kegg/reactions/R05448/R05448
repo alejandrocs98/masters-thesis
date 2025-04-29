@@ -1,0 +1,17 @@
+ENTRY       R05448                      Reaction
+DEFINITION  2,6-Dichlorophenol + Oxygen + NADH + H+ <=> 2,6-Dichlorohydroquinone + NAD+ + H2O
+EQUATION    C07096 + C00007 + C00004 + C00080 <=> C07097 + C00003 + C00001
+COMMENT     chlorophenol 4-monooxygenase
+RCLASS      RC00001  C00003_C00004
+            RC00490  C07096_C07097
+ENZYME      1.14.13.-
+PATHWAY     rn00361  Chlorocyclohexane and chlorobenzene degradation
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R05448  2,6-Dichlorophenol + Oxygen + NADH + H+ <=> 2,6-Dichlorohydroquinone + NAD+ + H2O
+///

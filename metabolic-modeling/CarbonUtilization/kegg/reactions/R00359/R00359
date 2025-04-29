@@ -1,0 +1,22 @@
+ENTRY       R00359                      Reaction
+NAME        D-aspartate:oxygen oxidoreductase (deaminating)
+DEFINITION  D-Aspartate + H2O + Oxygen <=> Oxaloacetate + Ammonia + Hydrogen peroxide
+EQUATION    C00402 + C00001 + C00007 <=> C00036 + C00014 + C00027
+COMMENT     see R00357
+RCLASS      RC00006  C00036_C00402
+            RC02755  C00007_C00027
+ENZYME      1.4.3.1         1.4.3.15
+PATHWAY     rn00250  Alanine, aspartate and glutamate metabolism
+            rn00470  D-Amino acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.1
+                 R00359  D-Aspartate + H2O + Oxygen <=> Oxaloacetate + Ammonia + Hydrogen peroxide
+                1.4.3.15
+                 R00359  D-Aspartate + H2O + Oxygen <=> Oxaloacetate + Ammonia + Hydrogen peroxide
+ORTHOLOGY   K00272  D-aspartate oxidase [EC:1.4.3.1]
+DBLINKS     RHEA: 12515
+///

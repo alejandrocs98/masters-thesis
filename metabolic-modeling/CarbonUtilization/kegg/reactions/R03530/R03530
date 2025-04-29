@@ -1,0 +1,23 @@
+ENTRY       R03530                      Reaction
+NAME        ATP:dIDP phosphotransferase
+DEFINITION  ATP + dIDP <=> ADP + dITP
+EQUATION    C00002 + C01344 <=> C00008 + C01345
+RCLASS      RC00002  C00002_C00008  C01344_C01345
+ENZYME      2.7.4.6
+PATHWAY     rn00230  Purine metabolism
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.6
+                 R03530  ATP + dIDP <=> ADP + dITP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.4.6
+               R00331  NDP <=> Nucleoside triphosphate
+                R03530  dIDP <=> dITP
+ORTHOLOGY   K00940  nucleoside-diphosphate kinase [EC:2.7.4.6]
+            K18533  adenylate/nucleoside-diphosphate kinase [EC:2.7.4.3 2.7.4.6]
+DBLINKS     RHEA: 30942
+///

@@ -1,0 +1,23 @@
+ENTRY       R00551                      Reaction
+NAME        L-arginine amidinohydrolase
+DEFINITION  L-Arginine + H2O <=> L-Ornithine + Urea
+EQUATION    C00062 + C00001 <=> C00077 + C00086
+RCLASS      RC00024  C00062_C00077
+            RC00329  C00062_C00086
+ENZYME      3.5.3.1
+PATHWAY     rn00220  Arginine biosynthesis
+            rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01230  Biosynthesis of amino acids
+MODULE      M00029  Urea cycle
+            M00134  Polyamine biosynthesis, arginine => ornithine => putrescine
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.3  In linear amidines
+                3.5.3.1
+                 R00551  L-Arginine + H2O <=> L-Ornithine + Urea
+ORTHOLOGY   K01476  arginase [EC:3.5.3.1]
+DBLINKS     RHEA: 20572
+///

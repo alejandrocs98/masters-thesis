@@ -1,0 +1,29 @@
+ENTRY       R09124                      Reaction
+NAME        trimethylamine:coenzyme M methyltransferase
+DEFINITION  Trimethylamine + Coenzyme M <=> 2-(Methylthio)ethanesulfonate + Dimethylamine
+EQUATION    C00565 + C03576 <=> C03920 + C00543
+COMMENT     methylcobamide:CoM methyltransferase: mtbA
+            trimethylamine methyltransferase: mttB
+            trimethylamine corrinoid protein: mttC
+            two-step reaction (see R10016+R10000)
+RCLASS      RC00035  C03576_C03920
+            RC00732  C00543_C00565
+            RC02984  C00565_C03920
+ENZYME      2.1.1.247       2.1.1.250
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00563  Methanogenesis, methylamine/dimethylamine/trimethylamine => methane
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.247
+                 R09124  Trimethylamine + Coenzyme M <=> 2-(Methylthio)ethanesulfonate + Dimethylamine
+                2.1.1.250
+                 R09124  Trimethylamine + Coenzyme M <=> 2-(Methylthio)ethanesulfonate + Dimethylamine
+ORTHOLOGY   K14082  [methyl-Co(III) methylamine-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.247]
+            K14083  trimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.250]
+            K14084  trimethylamine corrinoid protein
+///

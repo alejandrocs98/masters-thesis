@@ -1,0 +1,24 @@
+ENTRY       R01095                      Reaction
+NAME        galactitol:NADP+ 1-oxidoreductase
+DEFINITION  D-Galactose + NADPH + H+ <=> Galactitol + NADP+
+EQUATION    C00124 + C00005 + C00080 <=> C01697 + C00006
+COMMENT     NADH (see R01093)
+RCLASS      RC00001  C00005_C00006
+            RC00108  C00124_C01697
+ENZYME      1.1.1.21
+PATHWAY     rn00052  Galactose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.21
+                 R01095  D-Galactose + NADPH + H+ <=> Galactitol + NADP+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.21
+               R02820  Alditol <=> Aldose
+                R01095  Galactitol <=> D-Galactose
+ORTHOLOGY   K00011  aldehyde reductase [EC:1.1.1.21]
+DBLINKS     RHEA: 37970
+///

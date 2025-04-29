@@ -1,0 +1,18 @@
+ENTRY       R00815                      Reaction
+NAME        phenol,NADPH:oxogen oxidoreductase (2-hydroxylating)
+DEFINITION  Phenol + Oxygen + NADPH + H+ <=> Catechol + NADP+ + H2O
+EQUATION    C00146 + C00007 + C00005 + C00080 <=> C00090 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00046  C00090_C00146
+ENZYME      1.14.13.7
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.7
+                 R00815  Phenol + Oxygen + NADPH + H+ <=> Catechol + NADP+ + H2O
+ORTHOLOGY   K03380  phenol 2-monooxygenase (NADPH) [EC:1.14.13.7]
+DBLINKS     RHEA: 17064
+///

@@ -1,0 +1,19 @@
+ENTRY       R01292                      Reaction
+NAME        glutathione:homocystine oxidoreductase
+DEFINITION  L-Homocystine + 2 Glutathione <=> 2 L-Homocysteine + Glutathione disulfide
+EQUATION    C01817 + 2 C00051 <=> 2 C00155 + C00127
+RCLASS      RC00011  C00051_C00127  C00155_C01817
+ENZYME      1.8.4.1
+PATHWAY     rn00270  Cysteine and methionine metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.4  With a disulfide as acceptor
+                1.8.4.1
+                 R01292  L-Homocystine + 2 Glutathione <=> 2 L-Homocysteine + Glutathione disulfide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.8.4.1
+               R01110  Homocystine <=> Homocysteine
+                R01292  L-Homocystine <=> L-Homocysteine
+///

@@ -1,0 +1,29 @@
+ENTRY       R01096                      Reaction
+NAME        D-galactose:NADP+ 1-oxidoreductase
+DEFINITION  D-Galactose + NADP+ <=> D-Galactono-1,5-lactone + NADPH + H+
+EQUATION    C00124 + C00006 <=> C02669 + C00005 + C00080
+COMMENT     NAD+ (ec 1.1.1.48, see R08544)
+RCLASS      RC00001  C00005_C00006
+            RC00066  C00124_C02669
+ENZYME      1.1.1.48        1.1.1.120       1.1.1.359       1.1.1.360
+PATHWAY     rn00052  Galactose metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.48
+                 R01096  D-Galactose + NADP+ <=> D-Galactono-1,5-lactone + NADPH + H+
+                1.1.1.120
+                 R01096  D-Galactose + NADP+ <=> D-Galactono-1,5-lactone + NADPH + H+
+                1.1.1.359
+                 R01096  D-Galactose + NADP+ <=> D-Galactono-1,5-lactone + NADPH + H+
+                1.1.1.360
+                 R01096  D-Galactose + NADP+ <=> D-Galactono-1,5-lactone + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.359
+               R10429  Aldopyranose <=> Aldono-1,5-lactone
+                R01096  D-Galactose <=> D-Galactono-1,5-lactone
+ORTHOLOGY   K18124  glucose/galactose 1-dehydrogenase (NADP+) [EC:1.1.1.360]
+            K18125  aldose 1-dehydrogenase [NAD(P)+] [EC:1.1.1.359]
+///

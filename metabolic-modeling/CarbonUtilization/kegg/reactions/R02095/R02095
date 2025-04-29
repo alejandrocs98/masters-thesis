@@ -1,0 +1,27 @@
+ENTRY       R02095                      Reaction
+NAME        dTTP nucleotidohydrolase
+DEFINITION  dTTP + H2O <=> dTDP + Orthophosphate
+EQUATION    C00459 + C00001 <=> C00363 + C00009
+RCLASS      RC00002  C00363_C00459
+ENZYME      3.6.1.5         3.6.1.39
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.5
+                 R02095  dTTP + H2O <=> dTDP + Orthophosphate
+                3.6.1.39
+                 R02095  dTTP + H2O <=> dTDP + Orthophosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.6.1.5
+               R02319  Nucleoside triphosphate <=> NDP
+                R02095  dTTP <=> dTDP
+ORTHOLOGY   K01510  apyrase [EC:3.6.1.5]
+            K14641  apyrase [EC:3.6.1.5]
+            K14642  golgi apyrase [EC:3.6.1.5]
+DBLINKS     RHEA: 19016
+///

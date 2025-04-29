@@ -1,0 +1,19 @@
+ENTRY       R09578                      Reaction
+NAME        L-phenylalanine,NADPH:oxygen oxidoreductase (N-hydroxylating)
+DEFINITION  L-Phenylalanine + 2 Oxygen + 2 [Reduced NADPH---hemoprotein reductase] <=> (E)-Phenylacetaldoxime + 2 [Oxidized NADPH---hemoprotein reductase] + CO2 + 3 H2O
+EQUATION    C00079 + 2 C00007 + 2 C03024 <=> C19714 + 2 C03161 + C00011 + 3 C00001
+COMMENT     three-step reaction (see R09579+R09580+R09581)
+RCLASS      RC00001  C00005_C00006
+            RC02295  C00079_C19714
+ENZYME      1.14.14.40
+PATHWAY     rn00966  Glucosinolate biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+            rn01210  2-Oxocarboxylic acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.40
+                 R09578  L-Phenylalanine + 2 Oxygen + 2 [Reduced NADPH---hemoprotein reductase] <=> (E)-Phenylacetaldoxime + 2 [Oxidized NADPH---hemoprotein reductase] + CO2 + 3 H2O
+ORTHOLOGY   K12153  phenylalanine N-monooxygenase [EC:1.14.14.40]
+///

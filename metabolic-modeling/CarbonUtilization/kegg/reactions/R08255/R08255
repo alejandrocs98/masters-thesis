@@ -1,0 +1,22 @@
+ENTRY       R08255                      Reaction
+DEFINITION  Irinotecan + H2O <=> SN-38 + 1,4'-Bipiperidine-1'-carboxylic acid
+EQUATION    C16641 + C00001 <=> C11173 + C16836
+COMMENT     carboxylesterase
+RCLASS      RC00475  C16641_C16836
+            RC00476  C11173_C16641
+ENZYME      3.1.1.1
+PATHWAY     rn00983  Drug metabolism - other enzymes
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.1
+                 R08255  Irinotecan + H2O <=> SN-38 + 1,4'-Bipiperidine-1'-carboxylic acid
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.1.1.1
+               R00630  Ester <=> Alcohol
+                R08255  Irinotecan <=> SN-38
+ORTHOLOGY   K01044  carboxylesterase 1 [EC:3.1.1.1]
+            K03927  carboxylesterase 2 [EC:3.1.1.1 3.1.1.84 3.1.1.56]
+///

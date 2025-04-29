@@ -1,0 +1,32 @@
+ENTRY       R00939                      Reaction
+NAME        5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase
+DEFINITION  Tetrahydrofolate + NADP+ <=> Dihydrofolate + NADPH + H+
+EQUATION    C00101 + C00006 <=> C00415 + C00005 + C00080
+COMMENT     NADH (see R00936)
+RCLASS      RC00001  C00005_C00006
+            RC00109  C00101_C00415
+ENZYME      1.5.1.3
+PATHWAY     rn00670  One carbon pool by folate
+            rn00790  Folate biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00126  Tetrahydrofolate biosynthesis, GTP => THF
+            M00840  Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF
+            M00841  Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.3
+                 R00939  Tetrahydrofolate + NADP+ <=> Dihydrofolate + NADPH + H+
+ORTHOLOGY   K00287  dihydrofolate reductase [EC:1.5.1.3]
+            K13938  dihydromonapterin reductase / dihydrofolate reductase [EC:1.5.1.50 1.5.1.3]
+            K13998  dihydrofolate reductase / thymidylate synthase [EC:1.5.1.3 2.1.1.45]
+            K18589  dihydrofolate reductase (trimethoprim resistance protein) [EC:1.5.1.3]
+            K18590  dihydrofolate reductase (trimethoprim resistance protein) [EC:1.5.1.3]
+            K18591  dihydrofolate reductase (trimethoprim resistance protein) [EC:1.5.1.3]
+            K19643  dihydrofolate reductase (trimethoprim resistance protein) [EC:1.5.1.3]
+            K19644  dihydrofolate reductase (trimethoprim resistance protein) [EC:1.5.1.3]
+            K19645  dihydrofolate reductase (trimethoprim resistance protein) [EC:1.5.1.3]
+DBLINKS     RHEA: 15012
+///

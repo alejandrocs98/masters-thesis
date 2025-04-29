@@ -1,0 +1,22 @@
+ENTRY       R07133                      Reaction
+NAME        D-sorbitol-6-phosphate:NAD+ 2-oxidoreductase
+DEFINITION  Sorbitol 6-phosphate + NAD+ <=> D-Fructose 6-phosphate + NADH + H+
+EQUATION    C01096 + C00003 <=> C00085 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00085  C00085_C01096
+ENZYME      1.1.1.140
+PATHWAY     rn00051  Fructose and mannose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.140
+                 R07133  Sorbitol 6-phosphate + NAD+ <=> D-Fructose 6-phosphate + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.140
+               R07133  D-Fructose 6-phosphate
+ORTHOLOGY   K00068  sorbitol-6-phosphate 2-dehydrogenase [EC:1.1.1.140]
+DBLINKS     RHEA: 19840
+///

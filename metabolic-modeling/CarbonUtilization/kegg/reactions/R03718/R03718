@@ -1,0 +1,20 @@
+ENTRY       R03718                      Reaction
+NAME        choloyl-CoA:glycine N-choloyltransferase
+DEFINITION  Choloyl-CoA + Glycine <=> CoA + Glycocholate
+EQUATION    C01794 + C00037 <=> C00010 + C01921
+RCLASS      RC00004  C00010_C01794
+            RC00096  C00037_C01921
+            RC02867  C01794_C01921
+ENZYME      2.3.1.65
+PATHWAY     rn00120  Primary bile acid biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00106  Conjugated bile acid biosynthesis, cholate => taurocholate/glycocholate
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.65
+                 R03718  Choloyl-CoA + Glycine <=> CoA + Glycocholate
+ORTHOLOGY   K00659  bile acid-CoA:amino acid N-acyltransferase [EC:2.3.1.65 3.1.2.2]
+DBLINKS     RHEA: 14004
+///

@@ -1,0 +1,19 @@
+ENTRY       R02468                      Reaction
+NAME        (S)-limonene,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (6-hydroxylating)
+DEFINITION  (S)-Limonene + Oxygen + [Reduced NADPH---hemoprotein reductase] <=> (-)-trans-Carveol + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00521 + C00007 + C03024 <=> C00964 + C03161 + C00001
+RCLASS      RC00723  C00521_C00964
+ENZYME      1.14.14.51
+PATHWAY     rn00902  Monoterpenoid biosynthesis
+            rn00903  Limonene degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.51
+                 R02468  (S)-Limonene + Oxygen + [Reduced NADPH---hemoprotein reductase] <=> (-)-trans-Carveol + [Oxidized NADPH---hemoprotein reductase] + H2O
+ORTHOLOGY   K07381  (S)-limonene 6-monooxygenase [EC:1.14.14.51]
+            K14732  limonene hydroxylase [EC:1.14.14.51 1.14.14.52 1.1.1.243 1.1.1.144]
+DBLINKS     RHEA: 17948
+///

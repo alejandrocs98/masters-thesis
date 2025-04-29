@@ -1,0 +1,21 @@
+ENTRY       R06436                      Reaction
+NAME        dTDP-L-mycarose:NADP+ 4-oxidoreductase
+DEFINITION  dTDP-3-methyl-4-oxo-2,6-dideoxy-L-allose + NADPH + H+ <=> dTDP-L-mycarose + NADP+
+EQUATION    C11915 + C00005 + C00080 <=> C11916 + C00006
+COMMENT     4-oxoreductase,EryB4 TylC4
+RCLASS      RC00001  C00005_C00006
+            RC00261  C11915_C11916
+ENZYME      1.1.1.-
+PATHWAY     rn00523  Polyketide sugar unit biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00798  dTDP-L-mycarose biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R06436  dTDP-3-methyl-4-oxo-2,6-dideoxy-L-allose + NADPH + H+ <=> dTDP-L-mycarose + NADP+
+ORTHOLOGY   K13318  dTDP-4-keto-6-deoxy-L-hexose 4-reductase [EC:1.1.1.-]
+///

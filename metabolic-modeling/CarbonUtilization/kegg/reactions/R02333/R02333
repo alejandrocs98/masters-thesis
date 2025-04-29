@@ -1,0 +1,20 @@
+ENTRY       R02333                      Reaction
+NAME        chitin amidohydrolase
+DEFINITION  Chitin + n H2O <=> Chitosan + n Acetate
+EQUATION    C00461 + n C00001 <=> C00734 + n C00033
+REMARK      Same as: R06241
+COMMENT     Acetylation is non specific.
+RCLASS      RC00166  C00461_C00734
+            RC00300  C00033_C00461
+ENZYME      3.5.1.41
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.41
+                 R02333  Chitin + n H2O <=> Chitosan + n Acetate
+ORTHOLOGY   K01452  chitin deacetylase [EC:3.5.1.41]
+DBLINKS     RHEA: 10467
+///

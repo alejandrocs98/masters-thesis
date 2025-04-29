@@ -1,0 +1,21 @@
+ENTRY       R09570                      Reaction
+NAME        L-tryptophan:FADH2 oxidoreductase (7-halogenating)
+DEFINITION  L-Tryptophan + FADH2 + Cl- + Oxygen + H+ <=> 7-Chloro-L-tryptophan + FAD + 2 H2O
+EQUATION    C00078 + C01352 + C00698 + C00007 + C00080 <=> C19687 + C00016 + 2 C00001
+RCLASS      RC00126  C00016_C01352
+            RC00949  C00078_C19687
+ENZYME      1.14.19.9
+PATHWAY     rn00404  Staurosporine biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00789  Rebeccamycin biosynthesis, tryptophan => rebeccamycin
+            M00790  Pyrrolnitrin biosynthesis, tryptophan => pyrrolnitrin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.9
+                 R09570  L-Tryptophan + FADH2 + Cl- + Oxygen + H+ <=> 7-Chloro-L-tryptophan + FAD + 2 H2O
+ORTHOLOGY   K14266  tryptophan 7-halogenase [EC:1.14.19.9]
+DBLINKS     RHEA: 26497
+///

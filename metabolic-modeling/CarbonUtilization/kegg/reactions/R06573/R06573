@@ -1,0 +1,17 @@
+ENTRY       R06573                      Reaction
+DEFINITION  Coniferyl alcohol + NADPH + H+ + Oxygen <=> 5-Hydroxyconiferyl alcohol + NADP+ + H2O
+EQUATION    C00590 + C00005 + C00080 + C00007 <=> C12205 + C00006 + C00001
+COMMENT     ferulate 5-hydroxylase
+RCLASS      RC00001  C00005_C00006
+            RC00046  C00590_C12205
+ENZYME      1.14.13.-
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R06573  Coniferyl alcohol + NADPH + H+ + Oxygen <=> 5-Hydroxyconiferyl alcohol + NADP+ + H2O
+ORTHOLOGY   K09755  ferulate-5-hydroxylase [EC:1.14.-.-]
+///

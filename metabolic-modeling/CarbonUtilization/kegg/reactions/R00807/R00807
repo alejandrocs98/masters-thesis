@@ -1,0 +1,21 @@
+ENTRY       R00807                      Reaction
+NAME        sucrose:(acceptor) 3-oxidoreductase
+DEFINITION  Sucrose + FAD <=> 3-Ketosucrose + FADH2
+EQUATION    C00089 + C00016 <=> C05731 + C01352
+REMARK      Same as: R06233
+RCLASS      RC00126  C00016_C01352
+            RC00182  C00089_C05731
+ENZYME      1.1.99.13
+PATHWAY     rn00500  Starch and sucrose metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.99  With unknown physiological acceptors
+                1.1.99.13
+                 R00807  Sucrose + FAD <=> 3-Ketosucrose + FADH2
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.99.13
+               R00808  Acceptor <=> Reduced acceptor
+                R00807  FAD <=> FADH2
+///

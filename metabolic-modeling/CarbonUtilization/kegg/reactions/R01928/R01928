@@ -1,0 +1,36 @@
+ENTRY       R01928                      Reaction
+NAME        UDP-alpha-D-galactose:sphingosine 1-beta-galactosyltransferase
+DEFINITION  UDP-alpha-D-galactose + Sphingosine <=> UDP + Psychosine
+EQUATION    C00052 + C00319 <=> C00015 + C01747
+RCLASS      RC00005  C00015_C00052
+            RC00059  C00319_C01747
+ENZYME      2.4.1.23        2.4.1.47
+PATHWAY     rn00600  Sphingolipid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.23
+                 R01928  UDP-alpha-D-galactose + Sphingosine <=> UDP + Psychosine
+                2.4.1.47
+                 R01928  UDP-alpha-D-galactose + Sphingosine <=> UDP + Psychosine
+            Glycosyltransferase reactions [BR:br08203]
+             Galactosyltransferase reactions
+              R01928  Gal b1- sphingosine
+ORTHOLOGY   K04628  ceramide galactosyltransferase [EC:2.4.1.47]
+REFERENCE   1  [PMID:27638608]
+  AUTHORS   Sands SA, LeVine SM.
+  TITLE     Substrate reduction therapy for Krabbe's disease.
+  JOURNAL   J Neurosci Res 94:1261-72 (2016)
+            DOI:10.1002/jnr.23791
+REFERENCE   2  [PMID:2512514]
+  AUTHORS   Mitsuo K, Kobayashi T, Shinnoh N, Goto I.
+  TITLE     Biosynthesis of galactosylsphingosine (psychosine) in the twitcher mouse.
+  JOURNAL   Neurochem Res 14:899-903 (1989)
+REFERENCE   3  [PMID:13810623]
+  AUTHORS   CLELAND WW, KENNEDY EP.
+  TITLE     The enzymatic synthesis of psychosine.
+  JOURNAL   J Biol Chem 235:45-51 (1960)
+DBLINKS     RHEA: 19488
+///

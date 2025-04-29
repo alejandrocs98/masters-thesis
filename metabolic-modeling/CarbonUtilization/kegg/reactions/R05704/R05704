@@ -1,0 +1,24 @@
+ENTRY       R05704                      Reaction
+NAME        glycine:acceptor oxidoreductase (hydrogen-cyanide-forming)
+DEFINITION  Glycine + 2 Acceptor <=> Hydrogen cyanide + CO2 + 2 Reduced acceptor
+EQUATION    C00037 + 2 C00028 <=> C01326 + C00011 + 2 C00030
+RCLASS      RC02808  C00037_C01326
+ENZYME      1.4.99.5
+PATHWAY     rn00460  Cyanoamino acid metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.99  With unknown physiological acceptors
+                1.4.99.5
+                 R05704  Glycine + 2 Acceptor <=> Hydrogen cyanide + CO2 + 2 Reduced acceptor
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.99.5
+               R05704  Hydrogen cyanide
+ORTHOLOGY   K10814  hydrogen cyanide synthase HcnA [EC:1.4.99.5]
+            K10815  hydrogen cyanide synthase HcnB [EC:1.4.99.5]
+            K10816  hydrogen cyanide synthase HcnC [EC:1.4.99.5]
+DBLINKS     RHEA: 15824
+///

@@ -1,0 +1,19 @@
+ENTRY       R03544                      Reaction
+DEFINITION  Butanal + NADH + H+ <=> 1-Butanol + NAD+
+EQUATION    C01412 + C00004 + C00080 <=> C06142 + C00003
+COMMENT     NADPH (see R03545)
+RCLASS      RC00001  C00003_C00004
+            RC00087  C01412_C06142
+ENZYME      1.1.1.-
+PATHWAY     rn00650  Butanoate metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R03544  Butanal + NADH + H+ <=> 1-Butanol + NAD+
+ORTHOLOGY   K00100  butanol dehydrogenase [EC:1.1.1.-]
+DBLINKS     RHEA: 33202
+///

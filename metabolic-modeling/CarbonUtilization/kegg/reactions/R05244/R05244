@@ -1,0 +1,18 @@
+ENTRY       R05244                      Reaction
+NAME        NADPH:p-benzoquinone oxidoreductase
+DEFINITION  p-Benzoquinone + NADPH + H+ <=> Hydroquinone + NADP+
+EQUATION    C00472 + C00005 + C00080 <=> C00530 + C00006
+RCLASS      RC00001  C00005_C00006
+            RC00150  C00472_C00530
+ENZYME      1.6.5.6
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.6  Acting on NADH or NADPH
+               1.6.5  With a quinone or similar compound as acceptor
+                1.6.5.6
+                 R05244  p-Benzoquinone + NADPH + H+ <=> Hydroquinone + NADP+
+ORTHOLOGY   K23528  p-benzoquinone reductase (NADPH) [EC:1.6.5.6]
+DBLINKS     RHEA: 23491
+///

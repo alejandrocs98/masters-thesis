@@ -1,0 +1,19 @@
+ENTRY       R06267                      Reaction
+NAME        magnesium-protoporphyrin-IX 13-monomethyl ester,NADPH:oxygen oxidoreductase (hydroxylating)
+DEFINITION  13(1)-Oxo-magnesium-protoporphyrin IX 13-monomethyl ester + NADPH + H+ + Oxygen <=> Divinylprotochlorophyllide + NADP+ + 2 H2O
+EQUATION    C11830 + C00005 + C00080 + C00007 <=> C11831 + C00006 + 2 C00001
+COMMENT     last step of three-step reaction (see R10068, R06265+R06266+R06267)
+RCLASS      RC00001  C00005_C00006
+            RC01492  C11830_C11831
+ENZYME      1.14.13.81
+PATHWAY     rn00860  Porphyrin metabolism
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.81
+                 R06267  13(1)-Oxo-magnesium-protoporphyrin IX 13-monomethyl ester + NADPH + H+ + Oxygen <=> Divinylprotochlorophyllide + NADP+ + 2 H2O
+ORTHOLOGY   K04035  magnesium-protoporphyrin IX monomethyl ester (oxidative) cyclase [EC:1.14.13.81]
+DBLINKS     RHEA: 16756
+///

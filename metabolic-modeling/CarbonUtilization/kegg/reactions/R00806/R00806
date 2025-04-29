@@ -1,0 +1,26 @@
+ENTRY       R00806                      Reaction
+NAME        UDP-glucose:D-fructose 2-alpha-D-glucosyltransferase
+DEFINITION  UDP-glucose + D-Fructose <=> UDP + Sucrose
+EQUATION    C00029 + C00095 <=> C00015 + C00089
+REMARK      Same as: R06036
+RCLASS      RC00005  C00015_C00029
+            RC00028  C00089_C00095
+            RC02748  C00029_C00089
+ENZYME      2.4.1.13
+PATHWAY     rn00500  Starch and sucrose metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.13
+                 R00806  UDP-glucose + D-Fructose <=> UDP + Sucrose
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.1.13
+               R07256  NDP-glucose <=> NDP
+                R00806  UDP-glucose <=> UDP
+ORTHOLOGY   K00695  sucrose synthase [EC:2.4.1.13]
+DBLINKS     RHEA: 55095
+///

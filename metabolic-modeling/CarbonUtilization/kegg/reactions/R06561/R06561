@@ -1,0 +1,20 @@
+ENTRY       R06561                      Reaction
+NAME        biochanin A,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (2'-hydroxylating)
+DEFINITION  Biochanin A + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 2'-Hydroxybiochanin A + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00814 + C03024 + C00007 <=> C12135 + C03161 + C00001
+RCLASS      RC00046  C00814_C12135
+ENZYME      1.14.14.90
+PATHWAY     rn00943  Isoflavonoid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.90
+                 R06561  Biochanin A + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 2'-Hydroxybiochanin A + [Oxidized NADPH---hemoprotein reductase] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.90
+               R07371  Isoflavone <=> 2'-Hydroxyisoflavone
+                R06561  Biochanin A <=> 2'-Hydroxybiochanin A
+ORTHOLOGY   K13260  isoflavone/4'-methoxyisoflavone 2'-hydroxylase [EC:1.14.14.90 1.14.14.89]
+///

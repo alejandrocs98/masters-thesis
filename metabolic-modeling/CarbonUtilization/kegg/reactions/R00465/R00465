@@ -1,0 +1,23 @@
+ENTRY       R00465                      Reaction
+NAME        glycolate:NADP+ oxidoreductase
+DEFINITION  Glycolate + NADP+ <=> Glyoxylate + NADPH + H+
+EQUATION    C00160 + C00006 <=> C00048 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00042  C00048_C00160
+ENZYME      1.1.1.79
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.79
+                 R00465  Glycolate + NADP+ <=> Glyoxylate + NADPH + H+
+ORTHOLOGY   K00049  glyoxylate/hydroxypyruvate reductase [EC:1.1.1.79 1.1.1.81]
+            K00090  glyoxylate/hydroxypyruvate/2-ketogluconate reductase [EC:1.1.1.79 1.1.1.81 1.1.1.215]
+            K12972  glyoxylate/hydroxypyruvate reductase [EC:1.1.1.79 1.1.1.81]
+            K15919  glyoxylate/hydroxypyruvate reductase [EC:1.1.1.79 1.1.1.81]
+            K18121  glyoxylate/succinic semialdehyde reductase [EC:1.1.1.79 1.1.1.-]
+DBLINKS     RHEA: 10995
+///

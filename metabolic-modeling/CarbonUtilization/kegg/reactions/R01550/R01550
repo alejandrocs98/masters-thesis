@@ -1,0 +1,18 @@
+ENTRY       R01550                      Reaction
+NAME        propan-2-ol:NADP+ oxidoreductase
+DEFINITION  Acetone + NADPH + H+ <=> Propan-2-ol + NADP+
+EQUATION    C00207 + C00005 + C00080 <=> C01845 + C00006
+RCLASS      RC00001  C00005_C00006
+            RC00545  C00207_C01845
+ENZYME      1.1.1.80
+PATHWAY     rn00650  Butanoate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.80
+                 R01550  Acetone + NADPH + H+ <=> Propan-2-ol + NADP+
+ORTHOLOGY   K23259  isopropanol dehydrogenase (NADP+) [EC:1.1.1.80]
+DBLINKS     RHEA: 21795
+///

@@ -1,0 +1,24 @@
+ENTRY       R00861                      Reaction
+NAME        [DsrC protein]-trisulfide,NAD+ oxidoreductase (sulfite-forming)
+DEFINITION  Protein-trisulfide + NAD+ + 3 H2O <=> Protein dithiol + Sulfite + NADH + H+
+EQUATION    C22834 + C00003 + 3 C00001 <=> C02315 + C00094 + C00004 + C00080
+ENZYME      1.8.1.22
+PATHWAY     rn00920  Sulfur metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00596  Dissimilatory sulfate reduction, sulfate => H2S
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.1  With NAD+ or NADP+ as acceptor
+                1.8.1.22
+                 R00861  Protein-trisulfide + NAD+ + 3 H2O <=> Protein dithiol + Sulfite + NADH + H+
+ORTHOLOGY   K11180  dissimilatory sulfite reductase alpha subunit [EC:1.8.1.22]
+            K11181  dissimilatory sulfite reductase beta subunit [EC:1.8.1.22]
+            K27196  dissimilatory sulfite reductase flavoprotein subunit
+REFERENCE   1  [PMID:9695921]
+  AUTHORS   Pott AS, Dahl C
+  TITLE     Sirohaem sulfite reductase and other proteins encoded by genes at the dsr locus of Chromatium vinosum are involved in the oxidation of intracellular sulfur.
+  JOURNAL   Microbiology 144 ( Pt 7):1881-94 (1998)
+            DOI:10.1099/00221287-144-7-1881
+///

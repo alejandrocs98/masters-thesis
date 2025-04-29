@@ -1,0 +1,18 @@
+ENTRY       R02030                      Reaction
+NAME        CDP-diacylglycerol:phosphatidylglycerol 3-phosphatidyltransferase
+DEFINITION  Phosphatidylglycerol + CDP-diacylglycerol <=> Cardiolipin + CMP
+EQUATION    C00344 + C00269 <=> C05980 + C00055
+RCLASS      RC00002  C00055_C00269
+            RC00017  C00344_C05980
+ENZYME      2.7.8.41
+PATHWAY     rn00564  Glycerophospholipid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.8  Transferases for other substituted phosphate groups
+                2.7.8.41
+                 R02030  Phosphatidylglycerol + CDP-diacylglycerol <=> Cardiolipin + CMP
+ORTHOLOGY   K08744  cardiolipin synthase (CMP-forming) [EC:2.7.8.41]
+DBLINKS     RHEA: 32934
+///

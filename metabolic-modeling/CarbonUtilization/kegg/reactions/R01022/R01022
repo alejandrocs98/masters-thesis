@@ -1,0 +1,21 @@
+ENTRY       R01022                      Reaction
+NAME        choline:oxygen 1-oxidoreductase
+DEFINITION  Choline + Oxygen <=> Betaine aldehyde + Hydrogen peroxide
+EQUATION    C00114 + C00007 <=> C00576 + C00027
+COMMENT     first step of two-step reaction (see R08212, R01022+R08211)
+            subsequently  R08211
+RCLASS      RC00087  C00114_C00576
+            RC02755  C00007_C00027
+ENZYME      1.1.3.17
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+MODULE      M00555  Betaine biosynthesis, choline => betaine
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.3  With oxygen as acceptor
+                1.1.3.17
+                 R01022  Choline + Oxygen <=> Betaine aldehyde + Hydrogen peroxide
+ORTHOLOGY   K17755  choline oxidase [EC:1.1.3.17]
+DBLINKS     RHEA: 13508
+///

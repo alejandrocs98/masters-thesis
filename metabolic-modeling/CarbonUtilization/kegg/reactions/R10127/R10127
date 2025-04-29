@@ -1,0 +1,18 @@
+ENTRY       R10127                      Reaction
+NAME        biotin:NADP+ S-oxidoreductase (biotin S-oxide-forming)
+DEFINITION  Biotin sulfoxide + NADPH + H+ <=> Biotin + NADP+ + H2O
+EQUATION    C20386 + C00005 + C00080 <=> C00120 + C00006 + C00001
+COMMENT     biotin d-sulfoxide reductase
+RCLASS      RC00001  C00005_C00006
+            RC03056  C00120_C20386
+ENZYME      1.-.-.-
+PATHWAY     rn00780  Biotin metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.-  
+               1.-.-  
+                1.-.-.-
+                 R10127  Biotin sulfoxide + NADPH + H+ <=> Biotin + NADP+ + H2O
+ORTHOLOGY   K08351  biotin/methionine sulfoxide reductase [EC:1.-.-.-]
+///

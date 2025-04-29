@@ -1,0 +1,22 @@
+ENTRY       R09472                      Reaction
+NAME        4-(6-hydroxypyridin-3-yl)-4-oxobutanoate,NADH:oxygen oxidoreductase (3-hydroxylating, succinate semialdehyde releasing)
+DEFINITION  6-Hydroxy-3-succinoylpyridine + 2 NADH + 2 H+ + Oxygen <=> 2,5-Dihydroxypyridine + Succinate semialdehyde + 2 NAD+ + H2O
+EQUATION    C19631 + 2 C00004 + 2 C00080 + C00007 <=> C01059 + C00232 + 2 C00003 + C00001
+RCLASS      RC00001  C00003_C00004
+            RC03005  C01059_C19631
+            RC03006  C00232_C19631
+ENZYME      1.14.13.163
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00811  Nicotine degradation, pyrrolidine pathway, nicotine => succinate semialdehyde
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.163
+                 R09472  6-Hydroxy-3-succinoylpyridine + 2 NADH + 2 H+ + Oxygen <=> 2,5-Dihydroxypyridine + Succinate semialdehyde + 2 NAD+ + H2O
+ORTHOLOGY   K15359  6-hydroxy-3-succinoylpyridine 3-monooxygenase [EC:1.14.13.163]
+            K18276  6-hydroxy-3-succinoylpyridine 3-monooxygenase [EC:1.14.13.163]
+DBLINKS     RHEA: 33930
+///

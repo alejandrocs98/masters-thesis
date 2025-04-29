@@ -1,0 +1,10 @@
+ENTRY       R08796                      Reaction
+DEFINITION  p-Coumaroyl-CoA + Malonyl-CoA + Hexanoyl-CoA + H2O <=> 1-(4-Hydroxyphenyl)-1-decene-3,5-dione + 3 CoA + 2 CO2
+EQUATION    C00223 + C00083 + C05270 + C00001 <=> C17744 + 3 C00010 + 2 C00011
+COMMENT     several steps reaction
+            polyketide synthase(s)
+RCLASS      RC00004  C00010_C00083  C00010_C00223  C00010_C05270
+            RC02969  C00223_C17744
+PATHWAY     rn00945  Stilbenoid, diarylheptanoid and gingerol biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+///

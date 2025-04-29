@@ -1,0 +1,25 @@
+ENTRY       R03139                      Reaction
+NAME        primary-amine oxidase
+DEFINITION  1,3-Diaminopropane + Oxygen + H2O <=> 3-Aminopropanal + Ammonia + Hydrogen peroxide
+EQUATION    C00986 + C00007 + C00001 <=> C05665 + C00014 + C00027
+RCLASS      RC00062  C00986_C05665
+            RC02755  C00007_C00027
+ENZYME      1.4.3.21        1.4.3.22
+PATHWAY     rn00410  beta-Alanine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.21
+                 R03139  1,3-Diaminopropane + Oxygen + H2O <=> 3-Aminopropanal + Ammonia + Hydrogen peroxide
+                1.4.3.22
+                 R03139  1,3-Diaminopropane + Oxygen + H2O <=> 3-Aminopropanal + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.21
+               R01853  RCH2NH2 <=> Aldehyde
+                R03139  1,3-Diaminopropane <=> 3-Aminopropanal
+ORTHOLOGY   K00276  primary-amine oxidase [EC:1.4.3.21]
+DBLINKS     RHEA: 30898
+///

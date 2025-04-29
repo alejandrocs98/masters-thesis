@@ -1,0 +1,18 @@
+ENTRY       R03406                      Reaction
+NAME        androst-5-ene-3beta,17beta-diol:NAD+ oxidoreductase
+DEFINITION  Androstenediol + NAD+ <=> Dehydroepiandrosterone + NADH + H+
+EQUATION    C04295 + C00003 <=> C01227 + C00004 + C00080
+COMMENT     NADP+ (see R03407)
+RCLASS      RC00001  C00003_C00004
+            RC00127  C01227_C04295
+ENZYME      1.1.1.51
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.51
+                 R03406  Androstenediol + NAD+ <=> Dehydroepiandrosterone + NADH + H+
+ORTHOLOGY   K04119  aldo-keto reductase family 1 member C3 [EC:1.1.1.51 1.1.1.188 1.1.1.213 1.1.1.357]
+///

@@ -1,0 +1,18 @@
+ENTRY       R11711                      Reaction
+NAME        L-arginine,reduced-flavodoxin:oxygen oxidoreductase (nitric-oxide-forming)
+DEFINITION  2 L-Arginine + 3 Reduced flavodoxin + 4 Oxygen <=> 2 L-Citrulline + 2 Nitric oxide + 3 Oxidized flavodoxin + 4 H2O
+EQUATION    2 C00062 + 3 C02745 + 4 C00007 <=> 2 C00327 + 2 C00533 + 3 C02869 + 4 C00001
+COMMENT     two-step reaction (see R11712+R11713)
+RCLASS      RC00177  C00062_C00327
+ENZYME      1.14.14.47
+PATHWAY     rn00220  Arginine biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.47
+                 R11711  2 L-Arginine + 3 Reduced flavodoxin + 4 Oxygen <=> 2 L-Citrulline + 2 Nitric oxide + 3 Oxidized flavodoxin + 4 H2O
+ORTHOLOGY   K00491  nitric-oxide synthase, bacterial [EC:1.14.14.47]
+DBLINKS     RHEA: 52327
+///

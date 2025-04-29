@@ -1,0 +1,32 @@
+ENTRY       R04966                      Reaction
+NAME        tetradecanoyl-[acp]:NAD+ trans-2-oxidoreductase
+DEFINITION  Tetradecanoyl-[acp] + NAD+ <=> trans-Tetradec-2-enoyl-[acp] + NADH + H+
+EQUATION    C05761 + C00003 <=> C05760 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00052  C05760_C05761
+ENZYME      1.3.1.9         2.3.1.-
+PATHWAY     rn00061  Fatty acid biosynthesis
+            rn01100  Metabolic pathways
+            rn01212  Fatty acid metabolism
+MODULE      M00083  Fatty acid biosynthesis, elongation
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.9
+                 R04966  Tetradecanoyl-[acp] + NAD+ <=> trans-Tetradec-2-enoyl-[acp] + NADH + H+
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.-
+                 R04966  Tetradecanoyl-[acp] + NAD+ <=> trans-Tetradec-2-enoyl-[acp] + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.3.1.9
+               R01403  Acyl-[acyl-carrier protein] <=> trans-2,3-Dehydroacyl-[acyl-carrier protein]
+                R04966  Tetradecanoyl-[acp] <=> trans-Tetradec-2-enoyl-[acp]
+ORTHOLOGY   K00208  enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]
+            K00209  enoyl-[acyl-carrier protein] reductase / trans-2-enoyl-CoA reductase (NAD+) [EC:1.3.1.9 1.3.1.44]
+            K02371  enoyl-[acyl-carrier protein] reductase II [EC:1.3.1.9]
+            K11533  fatty acid synthase, bacteria type [EC:2.3.1.-]
+///

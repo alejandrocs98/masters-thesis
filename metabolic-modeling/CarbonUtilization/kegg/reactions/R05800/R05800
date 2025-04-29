@@ -1,0 +1,18 @@
+ENTRY       R05800                      Reaction
+NAME        ATP:1D-myo-inositol-1,4,5-trisphosphate 6-phosphotransferase
+DEFINITION  ATP + D-myo-Inositol 1,4,5-trisphosphate <=> ADP + 1D-myo-Inositol 1,4,5,6-tetrakisphosphate
+EQUATION    C00002 + C01245 <=> C00008 + C11555
+RCLASS      RC00002  C00002_C00008
+            RC00078  C01245_C11555
+ENZYME      2.7.1.151
+PATHWAY     rn00562  Inositol phosphate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.151
+                 R05800  ATP + D-myo-Inositol 1,4,5-trisphosphate <=> ADP + 1D-myo-Inositol 1,4,5,6-tetrakisphosphate
+ORTHOLOGY   K00915  inositol-polyphosphate multikinase [EC:2.7.1.140 2.7.1.151]
+DBLINKS     RHEA: 17720
+///

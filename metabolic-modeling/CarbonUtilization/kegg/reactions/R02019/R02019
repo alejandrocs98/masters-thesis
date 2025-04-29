@@ -1,0 +1,28 @@
+ENTRY       R02019                      Reaction
+NAME        2'-deoxyguanosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase
+DEFINITION  dGDP + Thioredoxin disulfide + H2O <=> GDP + Thioredoxin
+EQUATION    C00361 + C00343 + C00001 <=> C00035 + C00342
+RCLASS      RC00013  C00342_C00343
+            RC00613  C00035_C00361
+ENZYME      1.17.4.1
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00053  Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.17  Acting on CH or CH2 groups
+               1.17.4  With a disulfide as acceptor
+                1.17.4.1
+                 R02019  dGDP + Thioredoxin disulfide + H2O <=> GDP + Thioredoxin
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.17.4.1
+               R04294  2'-Deoxyribonucleoside diphosphate <=> Ribonucleoside diphosphate
+                R02019  dGDP <=> GDP
+ORTHOLOGY   K00525  ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]
+            K00526  ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]
+            K10807  ribonucleoside-diphosphate reductase subunit M1 [EC:1.17.4.1]
+            K10808  ribonucleoside-diphosphate reductase subunit M2 [EC:1.17.4.1]
+DBLINKS     RHEA: 28033
+///

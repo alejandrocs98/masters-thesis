@@ -1,0 +1,18 @@
+ENTRY       R08925                      Reaction
+NAME        (-)-menthone,NADPH:oxygen oxidoreductase
+DEFINITION  (-)-Menthone + NADPH + H+ + Oxygen <=> (4R,7S)-7-Isopropyl-4-methyloxepan-2-one + NADP+ + H2O
+EQUATION    C00843 + C00005 + C00080 + C00007 <=> C18027 + C00006 + C00001
+COMMENT     Baeyer-Villiger monooxygenase
+RCLASS      RC00001  C00005_C00006
+            RC02383  C00843_C18027
+ENZYME      1.14.13.105
+PATHWAY     rn00902  Monoterpenoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.105
+                 R08925  (-)-Menthone + NADPH + H+ + Oxygen <=> (4R,7S)-7-Isopropyl-4-methyloxepan-2-one + NADP+ + H2O
+DBLINKS     RHEA: 32434
+///

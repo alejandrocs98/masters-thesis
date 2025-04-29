@@ -1,0 +1,21 @@
+ENTRY       R08261                      Reaction
+DEFINITION  UDP-glucuronate + Codeine <=> UDP + Codeine-6-glucuronide
+EQUATION    C00167 + C06174 <=> C00015 + C16577
+COMMENT     UGT2B7
+RCLASS      RC00005  C00015_C00167
+            RC00049  C06174_C16577
+ENZYME      2.4.1.17
+PATHWAY     rn00982  Drug metabolism - cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.17
+                 R08261  UDP-glucuronate + Codeine <=> UDP + Codeine-6-glucuronide
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.1.17
+               R09428  Acceptor <=> Acceptor beta-D-glucuronoside
+                R08261  Codeine <=> Codeine-6-glucuronide
+ORTHOLOGY   K00699  glucuronosyltransferase [EC:2.4.1.17]
+///

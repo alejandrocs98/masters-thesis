@@ -1,0 +1,20 @@
+ENTRY       R11416                      Reaction
+NAME        S-adenosyl-L-methionine:3-hydroxy-5-iodo-2-methoxyorsellinate-[acp] O-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + 3-Hydroxy-5-iodo-2-methoxyorsellinate-[acp] <=> S-Adenosyl-L-homocysteine + 5-Iodo-2,3-dimethoxyorsellinate-[acp]
+EQUATION    C00019 + C21346 <=> C00021 + C21347
+RCLASS      RC00003  C00019_C00021
+            RC00392  C21346_C21347
+ENZYME      2.1.1.-
+PATHWAY     rn01059  Biosynthesis of enediyne antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00833  Calicheamicin biosynthesis, calicheamicinone => calicheamicin
+            M00834  Calicheamicin orsellinate moiety biosynthesis, malonyl-CoA => orsellinate-ACP => 5-iodo-2,3-dimethoxyorsellinate-ACP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.-
+                 R11416  S-Adenosyl-L-methionine + 3-Hydroxy-5-iodo-2-methoxyorsellinate-[acp] <=> S-Adenosyl-L-homocysteine + 5-Iodo-2,3-dimethoxyorsellinate-[acp]
+ORTHOLOGY   K21258  orsellinic acid C3-O-methyltransferase [EC:2.1.1.-]
+///

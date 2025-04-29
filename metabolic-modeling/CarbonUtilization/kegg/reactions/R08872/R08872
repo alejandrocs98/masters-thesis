@@ -1,0 +1,14 @@
+ENTRY       R08872                      Reaction
+NAME        N-acetyldemethylphosphinothricin:L-alanine:L-alanine ligase (AMP-forming)
+DEFINITION  N-Acetyldemethylphosphinothricin + 2 L-Alanine + 3 ATP + H2O <=> N-Acetyldemethylphosphinothricin tripeptide + 3 AMP + 3 Diphosphate
+EQUATION    C17949 + 2 C00041 + 3 C00002 + C00001 <=> C17950 + 3 C00020 + 3 C00013
+COMMENT     nonribosomal peptide synthetase
+RCLASS      RC00064  C00041_C17950
+            RC00141  C17949_C17950
+            RC01227  C00041_C17950
+PATHWAY     rn00440  Phosphonate and phosphinate metabolism
+            rn01110  Biosynthesis of secondary metabolites
+ORTHOLOGY   K12911  phosphinothricin tripeptide synthetase PhsA
+            K12912  phosphinothricin tripeptide synthetase phsB [EC:6.2.1.67]
+            K12913  phosphinothricin tripeptide synthetase PhsC
+///

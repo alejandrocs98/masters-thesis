@@ -1,0 +1,24 @@
+ENTRY       R08570                      Reaction
+NAME        2-dehydro-3-deoxy-D-gluconate D-glyceraldehyde-lyase (pyruvate-forming)
+DEFINITION  2-Dehydro-3-deoxy-D-gluconate <=> D-Glyceraldehyde + Pyruvate
+EQUATION    C00204 <=> C00577 + C00022
+RCLASS      RC00307  C00022_C00204
+            RC00435  C00204_C00577
+ENZYME      4.1.2.51        4.1.2.55
+PATHWAY     rn00030  Pentose phosphate pathway
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00309  Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.2  Aldehyde-lyases
+                4.1.2.51
+                 R08570  2-Dehydro-3-deoxy-D-gluconate <=> D-Glyceraldehyde + Pyruvate
+                4.1.2.55
+                 R08570  2-Dehydro-3-deoxy-D-gluconate <=> D-Glyceraldehyde + Pyruvate
+ORTHOLOGY   K11395  2-dehydro-3-deoxy-phosphogluconate/2-dehydro-3-deoxy-6-phosphogalactonate aldolase [EC:4.1.2.55]
+            K18127  2-dehydro-3-deoxy-D-gluconate aldolase [EC:4.1.2.51]
+DBLINKS     RHEA: 35586
+///

@@ -1,0 +1,22 @@
+ENTRY       R00421                      Reaction
+NAME        UDP-N-acetyl-D-glucosamine:NAD+ 6-oxidoreductase
+DEFINITION  UDP-N-acetyl-alpha-D-glucosamine + 2 NAD+ + H2O <=> UDP-N-acetyl-2-amino-2-deoxy-D-glucuronate + 2 NADH + 2 H+
+EQUATION    C00043 + 2 C00003 + C00001 <=> C04573 + 2 C00004 + 2 C00080
+RCLASS      RC00001  C00003_C00004
+            RC00291  C00043_C04573
+ENZYME      1.1.1.136
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  O-Antigen nucleotide sugar biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.136
+                 R00421  UDP-N-acetyl-alpha-D-glucosamine + 2 NAD+ + H2O <=> UDP-N-acetyl-2-amino-2-deoxy-D-glucuronate + 2 NADH + 2 H+
+ORTHOLOGY   K02474  UDP-N-acetyl-D-glucosamine/UDP-N-acetyl-D-galactosamine dehydrogenase [EC:1.1.1.136 1.1.1.-]
+            K13015  UDP-N-acetyl-D-glucosamine dehydrogenase [EC:1.1.1.136]
+            K22926  UDP-N-acetylglucosamine 6-dehydrogenase [EC:1.1.1.136]
+DBLINKS     RHEA: 13328
+///

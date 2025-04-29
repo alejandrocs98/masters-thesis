@@ -1,0 +1,436 @@
+ENTRY       K16306                      KO
+SYMBOL      K16306
+NAME        fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase [EC:4.1.2.13 2.2.1.10]
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00030  Pentose phosphate pathway
+            map00051  Fructose and mannose metabolism
+            map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map00680  Methane metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+            map01230  Biosynthesis of amino acids
+MODULE      M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate
+REACTION    R01068  D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
+            R01070  beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
+            R02568  D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase
+            R08568  L-aspartate 4-semialdehyde:1-deoxy-D-threo-hexo-2,5-diulose 6-phosphate methylglyoxaltransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00010 Glycolysis / Gluconeogenesis
+                K16306  K16306; fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase
+               00030 Pentose phosphate pathway
+                K16306  K16306; fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase
+               00051 Fructose and mannose metabolism
+                K16306  K16306; fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase
+              09102 Energy metabolism
+               00680 Methane metabolism
+                K16306  K16306; fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase
+              09105 Amino acid metabolism
+               00400 Phenylalanine, tyrosine and tryptophan biosynthesis
+                K16306  K16306; fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.2  Transferring aldehyde or ketonic groups
+               2.2.1  Transketolases and transaldolases
+                2.2.1.10  2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase
+                 K16306  K16306; fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase
+             4. Lyases
+              4.1  Carbon-carbon lyases
+               4.1.2  Aldehyde-lyases
+                4.1.2.13  fructose-bisphosphate aldolase
+                 K16306  K16306; fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase
+DBLINKS     COG: COG1830
+            GO: 0004332
+GENES       PAKH: B0X70_03095
+            PLUI: CE143_03080
+            PTW: TUM18999_11980
+            PSOA: PSm6_31320
+            MANC: IV454_17575
+            HTQ: FRZ44_21680
+            HADH: FRZ61_25400
+            DDS: Ddes_0338
+            DFI: AXF13_12000
+            DPG: DESPIGER_2218
+            DEF: CNY67_12565
+            DTR: RSDT_0006(fbaB)
+            DFL: DFE_1897 DFE_3005
+            PSYF: N1030_15290 N1030_15295
+            DSB: LN040_08755 LN040_08760
+            DMA: DMR_05370 DMR_19010
+            DCB: C3Y92_08785 C3Y92_17720
+            DGG: DGI_0591(fbaB) DGI_0592(fbaB2)
+            DDE: Dde_3489 Dde_3490
+            DMS: E8L03_13380 E8L03_13385
+            DSA: Desal_3065
+            DHY: DESAM_21548
+            DAF: Desaf_1881 Desaf_2585 Desaf_2868
+            DAS: Daes_0956 Daes_2038
+            DPI: BN4_10049 BN4_11436
+            DEJ: AWY79_10300 AWY79_15685
+            PPRF: DPRO_0054(aroA) DPRO_2850(aroA)
+            PSEL: GM415_01295 GM415_12265
+            DDN: DND132_0792 DND132_3203
+            PSEF: PSDVSF_08020(aroA'_1) PSDVSF_32840(aroA'_3)
+            PPOR: JCM14722_05550(aroA'_1) JCM14722_26380(aroA'_3)
+            PNW: SYK_09670(aroA'_1) SYK_31790(aroA'_3)
+            PTHE: LF599_04815 LF599_11165
+            DSX: GD604_03180 GD604_07375
+            DSD: GD606_01860 GD606_15915
+            PBIZ: LWC08_08350 LWC08_10800
+            DVU: DVU_0460
+            DVL: Dvul_2477
+            DVM: DvMF_1751
+            DVG: Deval_0421
+            CLIH: KPS_001997
+            TMUR: JBF11_09505
+            DBA: Dbac_2807
+            DOA: AXF15_05895
+            DESU: NLA06_14000
+            THEW: TDMWS_00170(aroA') TDMWS_03230
+            DRT: Dret_0114
+            DOL: Dole_1952 Dole_3187
+            DAL: Dalk_1758 Dalk_5262
+            DMM: dnm_037710(aroA2) dnm_078980(aroA')
+            DEK: DSLASN_18980(aroA'_1) DSLASN_40230(aroA'_2)
+            DAO: Desac_0652
+            MRM: A7982_01287
+            BMET: BMMGA3_07340
+            BWH: A9C19_08410
+            MEKU: HUW50_25365
+            MLIT: KDJ21_015690
+            MENL: MVE64_03145
+            MEBZ: LPC09_15055
+            PTJ: JRJ22_24810
+            CCE: Ccel_2373
+            DDL: Desdi_3051
+            HMO: HM1_1787
+            SINT: K5I26_08870
+            FCZ: IMF26_04705
+            MHEV: MHEL_37860
+            NIE: KV110_32290
+            RKO: JWS14_15760 JWS14_20865
+            GOI: LK459_04835
+            GMG: NWF22_16005
+            GSI: P5P27_03650
+            SRW: TUE45_01349(lsrF)
+            PSIC: J4E96_11100
+            MPRO: BJP34_11730
+            PSUB: Pelsub_P0311 Pelsub_P1007
+            AAE: aq_1554
+            HYA: HY04AAS1_1586
+            HHO: HydHO_1566
+            HYS: HydSN_1610
+            HTH: HTH_0010
+            HTE: Hydth_0011
+            TAL: Thal_0539
+            TRD: THERU_03185
+            SUL: SYO3AOP1_0914
+            SAF: SULAZ_0629
+            PMX: PERMA_1749
+            TAM: Theam_0441
+            DTE: Dester_0321
+            TTK: TST_1080
+            MINF: MESINF_1405
+            MJA: MJ_0400
+            MFE: Mefer_1187
+            MVU: Metvu_1437
+            MFS: MFS40622_1668
+            MIF: Metin_0016
+            MJH: JH146_1314
+            MESG: MLAUSG7_1335(aroA)
+            MESA: MLASG1_0944(aroA)
+            MIG: Metig_0643
+            MMP: MMP0686
+            MMQ: MmarC5_0890
+            MMX: MmarC6_0201
+            MMZ: MmarC7_1710
+            MMD: GYY_02835
+            MMAK: MMKA1_07380
+            MMAO: MMOS7_07320
+            MMAD: MMJJ_02920(griI)
+            MAE: Maeo_0316
+            MVN: Mevan_1506
+            MVO: Mvol_0365
+            MOK: Metok_1495
+            METF: CFE53_05110
+            MTH: MTH_579
+            MMG: MTBMA_c09600(fbaB)
+            MWO: MWSIV6_0939(aroA')
+            MTEE: MTTB_10050
+            METC: MTCT_0503
+            METE: tca_00548(griI)
+            METZ: METMT2_0849
+            METK: FVF72_08665
+            MTHM: FZP57_04495
+            METJ: FZP68_04960
+            MST: Msp_0091
+            METB: AW729_06715
+            MEIS: PXD04_04260
+            MRU: mru_0997
+            MSI: Msm_0056
+            MEB: Abm4_0656
+            MMIL: sm9_1016
+            MEYE: TL18_05340
+            MOL: YLM1_0540
+            MARO: MarbSA_04640
+            METV: K4897_00700
+            MEL: Metbo_1361
+            MEW: MSWAN_0907
+            METH: MBMB1_1070
+            MFC: BRM9_1272
+            MFI: DSM1535_1956
+            MCUB: MCBB_0939(aroA')
+            MSUB: BK009_02850
+            METN: BK008_10575
+            METT: CIT01_09455
+            METO: CIT02_02135
+            MEME: HYG87_09830
+            MFEG: GCM10025860_20010
+            MFV: Mfer_0600
+            MKA: MK1409(fbaB)
+            AFU: AF_0108
+            AFG: AFULGI_00001050
+            APO: Arcpr_0817
+            AVE: Arcve_1168
+            AST: Asulf_00941
+            FPL: Ferp_0600
+            GAC: GACE_1261
+            GAH: GAH_01502
+            MBA: Mbar_A0753 Mbar_A0920
+            MBY: MSBRM_0075 MSBRM_0291
+            MBW: MSBRW_0078 MSBRW_0247
+            MBAR: MSBR2_2087 MSBR2_2305
+            MBAK: MSBR3_2087 MSBR3_2364
+            MAC: MA_0439 MA_4591(deoC)
+            MMA: MM_1271 MM_1627
+            MMAZ: MmTuc01_1317 MmTuc01_1701
+            MMJ: MSMAS_0045 MSMAS_3044
+            MMAC: MSMAC_0045 MSMAC_1391
+            MVC: MSVAZ_0309 MSVAZ_3439
+            MEK: MSKOL_0292 MSKOL_3399
+            MLS: MSLAZ_0044 MSLAZ_0176
+            METM: MSMTP_0060 MSMTP_2943
+            MEF: MSWH1_0053 MSWH1_0299
+            MEQ: MSWHS_0056 MSWHS_0301
+            MSJ: MSSAC_0062 MSSAC_0390
+            MSZ: MSSIH_0055 MSSIH_0359
+            MSW: MSSIT_0055 MSSIT_0365
+            MTHR: MSTHT_1780 MSTHT_2145
+            MTHE: MSTHC_1138 MSTHC_1506
+            MHOR: MSHOH_0050 MSHOH_3760
+            MFZ: AOB57_005170 AOB57_008125
+            MBU: Mbur_0917 Mbur_2001
+            MMET: MCMEM_0229 MCMEM_1419
+            MELO: J7W08_05825 J7W08_11215
+            MMH: Mmah_0241 Mmah_0691
+            MHAZ: BHR79_02305 BHR79_10150
+            MPOT: BKM01_06045 BKM01_09850
+            MEV: Metev_1692 Metev_1714
+            MZH: Mzhil_0254 Mzhil_0268
+            MPY: Mpsy_1418 Mpsy_1446
+            MZI: HWN40_01580 HWN40_01705
+            MMAV: RE476_08610 RE476_08705
+            MSEB: RE474_05170 RE474_05260
+            MHZ: Metho_0254 Metho_0268
+            MEHF: MmiHf6_11930(griI)
+            MEES: MmiEs2_14760(griI)
+            MTP: Mthe_0532 Mthe_0617
+            MCJ: MCON_1478 MCON_3321
+            MHI: Mhar_1906 Mhar_2111
+            MHU: Mhun_1035 Mhun_1036
+            MRTJ: KHC33_11765 KHC33_11770
+            MLA: Mlab_0600 Mlab_1654
+            MEM: Memar_1302 Memar_1303
+            MBG: BN140_2035(fbaA1) BN140_2036(fbaA3)
+            MEMA: MMAB1_2640 MMAB1_2641
+            MCHK: MchiMG62_14880 MchiMG62_14890
+            MSUM: OH143_00745 OH143_00750
+            MRC: R6Y96_03100 R6Y96_03105
+            MPI: Mpet_2705 Mpet_2706
+            MEND: L6E24_08060 L6E24_08065
+            MEFW: F1737_11240 F1737_11245
+            MAQE: RJ40_08670 RJ40_08675
+            MFK: E2N92_08845 E2N92_08850
+            MOU: OU421_03445 OU421_03450
+            MESB: L1S32_07045 L1S32_07050
+            MANQ: L1994_00985 L1994_00990
+            MBN: Mboo_1557 Mboo_1558
+            MFO: Metfor_1589 Metfor_1590
+            MPL: Mpal_2610 Mpal_2611
+            MPD: MCP_1367 MCP_1669
+            MEZ: Mtc_1383(aroF) Mtc_1667
+            RCI: RRC153(aroF)
+            HAL: VNG_0309C
+            HSL: OE_1472F(fba2)
+            HANR: LJ422_01350
+            HDL: HALDL1_05725
+            HHB: Hhub_1454
+            HAGS: JT689_02635
+            HABO: JRZ79_01140
+            HNO: LT974_02305
+            HLU: LT972_11245
+            HALH: HTSR_1439(fba2)
+            HHSR: HSR6_1511(fba2)
+            HSU: HLASF_0623(fba1)
+            HSF: HLASA_0619(fba1)
+            HAHS: HSRCO_0970
+            SALR: FQU85_02205
+            HALR: EFA46_006155
+            HJE: HacjB3_14310
+            HDO: MUK72_03645
+            HALX: M0R89_11070
+            HAXZ: M0R88_11525
+            HAYC: NGM10_05020
+            HAXY: NGM07_17085
+            SALI: L593_00075
+            SAIM: K0C01_01385
+            HARA: AArcS_2621
+            HMA: rrnAC1881(deoC2)
+            HHI: HAH_2396(fbaB2)
+            HHN: HISP_12200
+            HAB: SG26_04510
+            HTA: BVU17_11665
+            HALJ: G9465_07475
+            HSIN: KDQ40_01440
+            NPH: NP_3160A(fba2)
+            NMO: Nmlp_1197(fba2)
+            NHO: HWV23_11585
+            NSAL: HWV07_13660
+            HUT: Huta_1178
+            HTI: HTIA_1098
+            HALA: Hrd1104_09430
+            HASV: SVXHr_0435
+            HABN: HBNXHr_0421
+            HMU: Hmuk_3036
+            HALZ: E5139_02445
+            HALL: LC1Hm_2379
+            HAZP: GBQ70_02445
+            HALI: BV210_04645
+            HSN: DV733_05035
+            HDS: HSR122_0656
+            HRR: HZS55_09305
+            HPEL: HZS54_13385
+            HLT: I7X12_04925
+            HARC: HARCEL1_00665
+            SSAI: N0B31_02060
+            HAAD: MW046_10360
+            HWA: HQ_1156A(fba2)
+            HWC: Hqrw_1193(fba2)
+            HVO: HVO_0790(fba2)
+            HME: HFX_0749(fbaB)
+            HGI: ABY42_03765
+            HALE: G3A49_03975
+            HLS: KU306_08485
+            HLN: SVXHx_0749
+            HBO: Hbor_24270
+            HAQ: DU484_08625
+            HAJ: DU500_08665
+            HAER: DU502_05965
+            HRA: EI982_07830
+            HLM: DV707_12100
+            HALM: FCF25_10565
+            HLA: Hlac_1274
+            HALP: DOS48_06125
+            HALB: EKH57_03855
+            HEZZ: EO776_07625
+            HALQ: Hrr1229_015385
+            HSS: J7656_08775
+            HSAI: HPS36_14190
+            HAZZ: KI388_05335
+            SRUB: C2R22_04735
+            HAE: halTADL_0575
+            HALN: B4589_008625
+            HALG: HUG10_01095
+            HALU: HUG12_16500
+            HMP: K6T50_14120
+            HRE: K6T36_14065
+            HRM: K6T25_02715
+            HACB: Hbl1158_05910
+            HDF: AArcSl_0487
+            HAH: Halar_3168
+            HTU: Htur_0853
+            HSAL: JMJ58_04710
+            HAKZ: J0X25_11090
+            NMG: Nmag_2815
+            HXA: Halxa_4013
+            NAT: NJ7G_4134
+            NPE: Natpe_3297
+            NVR: FEJ81_15780
+            NPL: FGF80_14890
+            NAY: HYG81_12485
+            HALY: HYG82_17225
+            HJT: DVR14_06585
+            HLO: J0X27_10770
+            NGE: Natgr_0761
+            HRU: Halru_2303
+            SAWL: NGM29_18115
+            HALV: NGM15_09285
+            NOU: Natoc_0637
+            HLR: HALLA_07800
+            HLC: CHINAEXTREME00240
+            NAJ: B1756_17155
+            NAG: AArcMg_1455
+            NAN: AArc1_2141
+            NARA: QQ977_03435
+            NBG: DV706_03245
+            NAS: GCU68_10270
+            HDA: BB347_01155
+            MELU: MTLP_01120
+            MEAM: MU439_07195
+            MEAE: QEN48_03025
+            TAR: TALC_00560 TALC_00670
+            MAX: MMALV_05100
+            MER: MMINT_14400
+            MEAR: Mpt1_c09850(aroA'1) Mpt1_c10430(aroA'2)
+            MEUZ: KRP56_01775 KRP56_03645
+            MARC: AR505_0508 AR505_0932
+            SACD: HS1genome_2052
+            THB: N186_00460
+            TCB: TCARB_0208 TCARB_1172
+            THF: MA03_02210 MA03_05420
+            THEL: IG193_03385
+            NMR: Nmar_0553
+            NIR: NSED_02805
+            NKR: NKOR_02865
+            NID: NPIRD3C_1721(aroA)
+            NIN: NADRNF5_1625(aroA)
+            NIW: Nisw_02100
+            NCL: C5F47_02845
+            NOX: C5F49_03025
+            NUE: C5F50_04220
+            NIP: NsoK4_05575
+            NZT: NZOSNM25_001459
+            NCT: NMSP_1118(aroA'_2)
+            NIC: DSQ20_03075
+            NGA: Ngar_c16210(aroGFH)
+            NVN: NVIE_005850(aroGFH)
+            NEV: NTE_01960
+            TAA: NMY3_02544(griI)
+            NFN: NFRAN_0128(aroA)
+            NCV: NCAV_0390(aroGFH)
+            CSY: CENSYa_0200
+            CSU: CSUB_C0867 CSUB_C0895
+            NBV: T478_0480
+            TAH: SU86_003320
+            NIU: DSQ19_02830
+            NDV: NDEV_0554(aroA)
+            CCAI: NAS2_0559
+            KCR: Kcr_0249
+            BARB: AOA66_0830(aroA')
+            LOKI: Lokiarch_06380(aroA'_1) Lokiarch_41970(aroA'_2)
+REFERENCE   PMID:18318840
+  AUTHORS   Samland AK, Wang M, Sprenger GA
+  TITLE     MJ0400 from Methanocaldococcus jannaschii exhibits fructose-1,6-bisphosphate aldolase activity.
+  JOURNAL   FEMS Microbiol Lett 281:36-41 (2008)
+            DOI:10.1111/j.1574-6968.2008.01079.x
+  SEQUENCE  [mja:MJ_0400]
+REFERENCE   PMID:15182204
+  AUTHORS   White RH
+  TITLE     L-Aspartate semialdehyde and a 6-deoxy-5-ketohexose 1-phosphate are the precursors to the aromatic amino acids in Methanocaldococcus jannaschii.
+  JOURNAL   Biochemistry 43:7618-27 (2004)
+            DOI:10.1021/bi0495127
+  SEQUENCE  [mja:MJ_0400]
+///

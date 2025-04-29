@@ -1,0 +1,23 @@
+ENTRY       R05148                      Reaction
+NAME        benzene-1,4-dicarboxylate,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+DEFINITION  Terephthalate + Oxygen + NADH + H+ <=> (3S,4R)-3,4-Dihydroxycyclohexa-1,5-diene-1,4-dicarboxylate + NAD+
+EQUATION    C06337 + C00007 + C00004 + C00080 <=> C06318 + C00003
+RCLASS      RC00001  C00003_C00004
+            RC00270  C06318_C06337
+ENZYME      1.14.12.15
+PATHWAY     rn00624  Polycyclic aromatic hydrocarbon degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00624  Terephthalate degradation, terephthalate => 3,4-dihydroxybenzoate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.12  With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into the other donor
+                1.14.12.15
+                 R05148  Terephthalate + Oxygen + NADH + H+ <=> (3S,4R)-3,4-Dihydroxycyclohexa-1,5-diene-1,4-dicarboxylate + NAD+
+ORTHOLOGY   K18074  terephthalate 1,2-dioxygenase oxygenase component alpha subunit [EC:1.14.12.15]
+            K18075  terephthalate 1,2-dioxygenase oxygenase component beta subunit [EC:1.14.12.15]
+            K18077  terephthalate 1,2-dioxygenase reductase component [EC:1.18.1.-]
+DBLINKS     RHEA: 10315
+///

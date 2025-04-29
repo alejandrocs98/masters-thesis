@@ -1,0 +1,19 @@
+ENTRY       R01685                      Reaction
+NAME        taurine:ferricytochrome-c oxidoreductase (deaminating)
+DEFINITION  Taurine + H2O + 2 Ferricytochrome c <=> Sulfoacetaldehyde + Ammonia + 2 Ferrocytochrome c + 2 H+
+EQUATION    C00245 + C00001 + 2 C00125 <=> C00593 + C00014 + 2 C00126 + 2 C00080
+COMMENT     EC1.4.99.2: probably EC1.4.2.-, TauXY
+RCLASS      RC00016  C00125_C00126
+            RC00062  C00245_C00593
+ENZYME      1.4.2.-
+PATHWAY     rn00430  Taurine and hypotaurine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.2  With a cytochrome as acceptor
+                1.4.2.-
+                 R01685  Taurine + H2O + 2 Ferricytochrome c <=> Sulfoacetaldehyde + Ammonia + 2 Ferrocytochrome c + 2 H+
+ORTHOLOGY   K07255  taurine dehydrogenase small subunit [EC:1.4.2.-]
+            K07256  taurine dehydrogenase large subunit [EC:1.4.2.-]
+///

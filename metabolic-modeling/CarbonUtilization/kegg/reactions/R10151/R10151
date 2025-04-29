@@ -1,0 +1,19 @@
+ENTRY       R10151                      Reaction
+DEFINITION  Thiosulfate + 5 H2O + 8 Ferricytochrome c <=> 2 Sulfate + 8 Ferrocytochrome c + 10 H+
+EQUATION    C00320 + 5 C00001 + 8 C00125 <=> 2 C00059 + 8 C00126 + 10 C00080
+COMMENT     Sox enzyme system
+RCLASS      RC00016  C00125_C00126
+            RC03151  C00059_C00320
+            RC03152  C00059_C00320
+PATHWAY     rn00920  Sulfur metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00595  Thiosulfate oxidation by SOX complex, thiosulfate => sulfate
+ORTHOLOGY   K17222  L-cysteine S-thiosulfotransferase [EC:2.8.5.2]
+            K17223  L-cysteine S-thiosulfotransferase [EC:2.8.5.2]
+            K17224  S-sulfosulfanyl-L-cysteine sulfohydrolase [EC:3.1.6.20]
+            K17225  sulfane dehydrogenase subunit SoxC
+            K17226  sulfur-oxidizing protein SoxY
+            K17227  sulfur-oxidizing protein SoxZ
+            K22622  S-disulfanyl-L-cysteine oxidoreductase SoxD [EC:1.8.2.6]
+///

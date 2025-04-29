@@ -1,0 +1,19 @@
+ENTRY       R01333                      Reaction
+NAME        glycolaldehyde:NAD+ oxidoreductase
+DEFINITION  Glycolaldehyde + NAD+ + H2O <=> Glycolate + NADH + H+
+EQUATION    C00266 + C00003 + C00001 <=> C00160 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00080  C00160_C00266
+ENZYME      1.2.1.21
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.21
+                 R01333  Glycolaldehyde + NAD+ + H2O <=> Glycolate + NADH + H+
+ORTHOLOGY   K07248  lactaldehyde dehydrogenase / glycolaldehyde dehydrogenase [EC:1.2.1.22 1.2.1.21]
+DBLINKS     RHEA: 20004
+///

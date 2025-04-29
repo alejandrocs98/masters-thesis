@@ -1,0 +1,21 @@
+ENTRY       R06594                      Reaction
+NAME        UDP-glucose:NAD+ 3-oxidoreductase
+DEFINITION  UDP-glucose + NAD+ <=> UDP-3-ketoglucose + NADH + H+
+EQUATION    C00029 + C00003 <=> C12210 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00182  C00029_C12210
+ENZYME      1.1.1.-
+PATHWAY     rn00524  Neomycin, kanamycin and gentamicin biosynthesis
+            rn01051  Biosynthesis of ansamycins
+            rn01110  Biosynthesis of secondary metabolites
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R06594  UDP-glucose + NAD+ <=> UDP-3-ketoglucose + NADH + H+
+ORTHOLOGY   K16015  oxidoreductase [EC:1.1.1.-]
+            K20571  dehydrogenase [EC:1.1.1.-]
+DBLINKS     RHEA: 35758
+///

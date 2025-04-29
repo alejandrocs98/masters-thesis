@@ -1,0 +1,18 @@
+ENTRY       R03650                      Reaction
+NAME        L-cysteine:tRNA(Cys) ligase (AMP-forming)
+DEFINITION  ATP + L-Cysteine + tRNA(Cys) <=> AMP + Diphosphate + L-Cysteinyl-tRNA(Cys)
+EQUATION    C00002 + C00097 + C01639 <=> C00020 + C00013 + C03125
+RCLASS      RC00055  C01639_C03125
+            RC00523  C00097_C03125
+ENZYME      6.1.1.16
+PATHWAY     rn00970  Aminoacyl-tRNA biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.1  Forming carbon-oxygen bonds
+               6.1.1  Ligases forming aminoacyl-tRNA and related compounds
+                6.1.1.16
+                 R03650  ATP + L-Cysteine + tRNA(Cys) <=> AMP + Diphosphate + L-Cysteinyl-tRNA(Cys)
+ORTHOLOGY   K01883  cysteinyl-tRNA synthetase [EC:6.1.1.16]
+            K01884  cysteinyl-tRNA synthetase, unknown class [EC:6.1.1.16]
+DBLINKS     RHEA: 17776
+///

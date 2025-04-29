@@ -1,0 +1,56 @@
+ENTRY       K00089                      KO
+SYMBOL      AKR1C2
+NAME        3alpha-hydroxysteroid 3-dehydrogenase [EC:1.1.1.213 1.1.1.357]
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map01100  Metabolic pathways
+            map05204  Chemical carcinogenesis - DNA adducts
+            map05208  Chemical carcinogenesis - reactive oxygen species
+MODULE      M00977  C19-Steroid hormone biosynthesis (androgen backdoor pathway), pregnenolone => androsterone => dihydrotestosterone
+REACTION    R02476  androsterone:NAD+ oxidoreductase
+            R02477  androsterone:NADP+ oxidoreductase
+            R04330  androstan-3alpha,17beta-diol:NAD+ oxidoreductase
+            R08955  3alpha,21-dihydroxy-5alpha-pregnan-20-one:NADP+ 3-oxidoreductase (A-specific)
+            R08957  3alpha-hydroxy-5alpha-pregnan-20-one:NADP+ 3-oxidoreductase (A-specific)
+            R08960  5alpha-pregnane-3alpha,20alpha-diol:NADP+ oxidoreductase (A-specific)
+            R08963  androstan-3alpha,17beta-diol:NADP+ oxidoreductase
+            R13216  5alpha-pregnane-3alpha,17alpha-diol-20-one:NAD+ oxidoreductase
+            R13217  5alpha-pregnane-3alpha,17alpha-diol-20-one:NADP+ 3-oxidoreductase
+DISEASE     H00607  46,XY gonadal dysgenesis
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09103 Lipid metabolism
+               00140 Steroid hormone biosynthesis
+                K00089  AKR1C2; 3alpha-hydroxysteroid 3-dehydrogenase
+             09160 Human Diseases
+              09161 Cancer: overview
+               05204 Chemical carcinogenesis - DNA adducts
+                K00089  AKR1C2; 3alpha-hydroxysteroid 3-dehydrogenase
+               05208 Chemical carcinogenesis - reactive oxygen species
+                K00089  AKR1C2; 3alpha-hydroxysteroid 3-dehydrogenase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.213  3alpha-hydroxysteroid 3-dehydrogenase (Re-specific)
+                 K00089  AKR1C2; 3alpha-hydroxysteroid 3-dehydrogenase
+                1.1.1.357  3alpha-hydroxysteroid 3-dehydrogenase
+                 K00089  AKR1C2; 3alpha-hydroxysteroid 3-dehydrogenase
+DBLINKS     GO: 0047026
+GENES       HSA: 1646(AKR1C2)
+            PTR: 100612191(AKR1C2)
+            PPS: 103783188
+            NLE: 100603603
+            HMH: 116457046
+            DNM: 101429786
+REFERENCE   PMID:7998972
+  AUTHORS   Del Bello B, Maellaro E, Sugherini L, Santucci A, Comporti M, Casini AF
+  TITLE     Purification of NADPH-dependent dehydroascorbate reductase from rat liver and its identification with 3 alpha-hydroxysteroid dehydrogenase.
+  JOURNAL   Biochem J 304 ( Pt 2):385-90 (1994)
+            DOI:10.1042/bj3040385
+REFERENCE   PMID:8274401
+  AUTHORS   Qin KN, New MI, Cheng KC
+  TITLE     Molecular cloning of multiple cDNAs encoding human enzymes structurally related to 3 alpha-hydroxysteroid dehydrogenase.
+  JOURNAL   J Steroid Biochem Mol Biol 46:673-9 (1993)
+            DOI:10.1016/0960-0760(93)90308-j
+  SEQUENCE  [hsa:1646]
+///

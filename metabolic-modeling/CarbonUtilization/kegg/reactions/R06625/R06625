@@ -1,0 +1,23 @@
+ENTRY       R06625                      Reaction
+NAME        malonyl-CoA:malonyl-CoA malonyltransferase (3,5-dihydroxyphenylacetyl-CoA-forming)
+DEFINITION  4 Malonyl-CoA <=> 3,5-Dihydroxyphenylacetyl-CoA + 3 CoA + 4 CO2 + H2O
+EQUATION    4 C00083 <=> C12324 + 3 C00010 + 4 C00011 + C00001
+COMMENT     typeIII polyketide synthase, DpgA
+            dehydratase/isomerase, DpgB+DpgD
+            multi-step reaction
+RCLASS      RC00004  C00010_C00083
+            RC02933  C00083_C12324
+ENZYME      2.3.1.246
+PATHWAY     rn01055  Biosynthesis of vancomycin group antibiotics
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.246
+                 R06625  4 Malonyl-CoA <=> 3,5-Dihydroxyphenylacetyl-CoA + 3 CoA + 4 CO2 + H2O
+ORTHOLOGY   K16424  3,5-dihydroxyphenylacetyl-CoA synthase [EC:2.3.1.246]
+            K16425  isomerase DpgB
+            K16426  dehydration protein DpgD
+DBLINKS     RHEA: 44747
+///

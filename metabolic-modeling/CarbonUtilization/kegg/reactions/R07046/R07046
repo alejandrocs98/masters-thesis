@@ -1,0 +1,25 @@
+ENTRY       R07046                      Reaction
+DEFINITION  Arachidonate + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 19(S)-HETE + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00219 + C03024 + C00007 <=> C14749 + C03161 + C00001
+COMMENT     CYP2E1, CYP2J9, CYP2U1, CYP1A2, CYP2C19, CYP3A5, CYP4A11, CYP4F8
+RCLASS      RC01710  C00219_C14749
+ENZYME      1.14.14.1       1.14.14.80      1.14.14.-
+PATHWAY     rn00590  Arachidonic acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R07046  Arachidonate + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 19(S)-HETE + [Oxidized NADPH---hemoprotein reductase] + H2O
+                1.14.14.80
+                 R07046  Arachidonate + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 19(S)-HETE + [Oxidized NADPH---hemoprotein reductase] + H2O
+                1.14.14.-
+                 R07046  Arachidonate + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 19(S)-HETE + [Oxidized NADPH---hemoprotein reductase] + H2O
+ORTHOLOGY   K07415  cytochrome P450 family 2 subfamily E1 [EC:1.14.14.-]
+            K07418  cytochrome P450 family 2 subfamily J [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            K07422  long-chain fatty acid omega-monooxygenase [EC:1.14.14.80]
+            K07425  long-chain fatty acid omega-monooxygenase [EC:1.14.14.80]
+            K17721  cytochrome P450 family 2 subfamily C19 [EC:1.14.14.51 1.14.14.52 1.14.14.53 1.14.14.75 1.14.14.-]
+            K17728  cytochrome P450 family 4 subfamily F8 [EC:1.14.14.1]
+///

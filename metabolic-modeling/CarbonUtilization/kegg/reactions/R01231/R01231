@@ -1,0 +1,20 @@
+ENTRY       R01231                      Reaction
+NAME        xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming)
+DEFINITION  ATP + Xanthosine 5'-phosphate + L-Glutamine + H2O <=> AMP + Diphosphate + GMP + L-Glutamate
+EQUATION    C00002 + C00655 + C00064 + C00001 <=> C00020 + C00013 + C00144 + C00025
+RCLASS      RC00010  C00025_C00064
+            RC00204  C00144_C00655
+ENZYME      6.3.5.2
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00050  Guanine ribonucleotide biosynthesis, IMP => GDP,GTP
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.5  Carbon-nitrogen ligases with glutamine as amido-N-donor
+                6.3.5.2
+                 R01231  ATP + Xanthosine 5'-phosphate + L-Glutamine + H2O <=> AMP + Diphosphate + GMP + L-Glutamate
+ORTHOLOGY   K01951  GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]
+DBLINKS     RHEA: 11683
+///

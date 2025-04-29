@@ -1,0 +1,22 @@
+ENTRY       R08259                      Reaction
+DEFINITION  SN-38 + UDP-glucuronate <=> SN38 glucuronide + UDP
+EQUATION    C11173 + C00167 <=> C11376 + C00015
+COMMENT     UGT1A1
+RCLASS      RC00005  C00015_C00167
+            RC00171  C11173_C11376
+ENZYME      2.4.1.17
+PATHWAY     rn00983  Drug metabolism - other enzymes
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.17
+                 R08259  SN-38 + UDP-glucuronate <=> SN38 glucuronide + UDP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.1.17
+               R09428  Acceptor <=> Acceptor beta-D-glucuronoside
+                R08259  SN-38 <=> SN38 glucuronide
+ORTHOLOGY   K00699  glucuronosyltransferase [EC:2.4.1.17]
+DBLINKS     RHEA: 63699
+///

@@ -1,0 +1,19 @@
+ENTRY       R08815                      Reaction
+NAME        cinnamoyl-CoA,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (4-hydroxylating)
+DEFINITION  Cinnamoyl-CoA + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> p-Coumaroyl-CoA + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00540 + C03024 + C00007 <=> C00223 + C03161 + C00001
+RCLASS      RC00490  C00223_C00540
+ENZYME      1.14.14.91
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn00941  Flavonoid biosynthesis
+            rn00945  Stilbenoid, diarylheptanoid and gingerol biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.91
+                 R08815  Cinnamoyl-CoA + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> p-Coumaroyl-CoA + [Oxidized NADPH---hemoprotein reductase] + H2O
+ORTHOLOGY   K00487  trans-cinnamate 4-monooxygenase [EC:1.14.14.91]
+///

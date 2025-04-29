@@ -1,0 +1,26 @@
+ENTRY       R02689                      Reaction
+NAME        UDP-alpha-D-glucose:1,2-diacyl-sn-glycerol 3-beta-D-glucosyltransferase
+DEFINITION  UDP-glucose + 1,2-Diacyl-sn-glycerol <=> UDP + 3-D-Glucosyl-1,2-diacylglycerol
+EQUATION    C00029 + C00641 <=> C00015 + C04046
+REMARK      Same as: R12898
+RCLASS      RC00005  C00015_C00029
+            RC00059  C00641_C04046
+ENZYME      2.4.1.315       2.4.1.336
+PATHWAY     rn00561  Glycerolipid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.315
+                 R02689  UDP-glucose + 1,2-Diacyl-sn-glycerol <=> UDP + 3-D-Glucosyl-1,2-diacylglycerol
+                2.4.1.336
+                 R02689  UDP-glucose + 1,2-Diacyl-sn-glycerol <=> UDP + 3-D-Glucosyl-1,2-diacylglycerol
+            Glycosyltransferase reactions [BR:br08203]
+             Glucosyltransferase reactions
+              R02689  Glc b1-3 1,2-diacylglycerol
+ORTHOLOGY   K03429  processive 1,2-diacylglycerol beta-glucosyltransferase [EC:2.4.1.315]
+            K19003  1,2-diacylglycerol 3-beta-glucosyltransferase [EC:2.4.1.336]
+            K19004  processive 1,2-diacylglycerol beta-glycosyltransferase [EC:2.4.1.315 2.4.1.-]
+DBLINKS     RHEA: 17288
+///

@@ -1,0 +1,22 @@
+ENTRY       R01834                      Reaction
+NAME        3-oxo-5alpha-steroid:(acceptor) delta4-oxidoreductase
+DEFINITION  5alpha-Androstane-3,17-dione + Acceptor <=> Androstenedione + Reduced acceptor
+EQUATION    C00674 + C00028 <=> C00280 + C00030
+RCLASS      RC00145  C00280_C00674
+ENZYME      1.3.99.5
+PATHWAY     rn00984  Steroid degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.99  With unknown physiological acceptors
+                1.3.99.5
+                 R01834  5alpha-Androstane-3,17-dione + Acceptor <=> Androstenedione + Reduced acceptor
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.3.99.5
+               R02643  3-Oxo-5alpha-steroid <=> 3-Oxo-Delta4-steroid
+                R01834  5alpha-Androstane-3,17-dione <=> Androstenedione
+ORTHOLOGY   K16051  3-oxo-5alpha-steroid 4-dehydrogenase [EC:1.3.99.5]
+DBLINKS     RHEA: 51051
+///

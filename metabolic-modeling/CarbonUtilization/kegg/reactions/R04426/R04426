@@ -1,0 +1,23 @@
+ENTRY       R04426                      Reaction
+NAME        (2R,3S)-3-isopropylmalate:NAD+ oxidoreductase
+DEFINITION  (2R,3S)-3-Isopropylmalate + NAD+ <=> (2S)-2-Isopropyl-3-oxosuccinate + NADH + H+
+EQUATION    C04411 + C00003 <=> C04236 + C00004 + C00080
+COMMENT     subsequently R01652
+RCLASS      RC00001  C00003_C00004
+            RC00084  C04236_C04411
+ENZYME      1.1.1.85
+PATHWAY     rn00290  Valine, leucine and isoleucine biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01210  2-Oxocarboxylic acid metabolism
+MODULE      M00432  Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.85
+                 R04426  (2R,3S)-3-Isopropylmalate + NAD+ <=> (2S)-2-Isopropyl-3-oxosuccinate + NADH + H+
+ORTHOLOGY   K00052  3-isopropylmalate dehydrogenase [EC:1.1.1.85]
+            K21360  3-isopropylmalate/methylthioalkylmalate dehydrogenase [EC:1.1.1.85 1.1.1.-]
+DBLINKS     RHEA: 10895
+///

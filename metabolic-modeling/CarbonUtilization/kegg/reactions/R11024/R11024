@@ -1,0 +1,20 @@
+ENTRY       R11024                      Reaction
+NAME        ATP:N-acetyl-D-muramate 1-phosphotransferase
+DEFINITION  N-Acetylmuramate + ATP <=> N-Acetylmuramic acid alpha-1-phosphate + ADP
+EQUATION    C02713 + C00002 <=> C21027 + C00008
+COMMENT     MurNAc kinase
+RCLASS      RC00002  C00002_C00008
+            RC00078  C02713_C21027
+ENZYME      2.7.1.221
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.221
+                 R11024  N-Acetylmuramate + ATP <=> N-Acetylmuramic acid alpha-1-phosphate + ADP
+ORTHOLOGY   K07102  N-acetylmuramate 1-kinase [EC:2.7.1.221]
+DBLINKS     RHEA: 53723
+///

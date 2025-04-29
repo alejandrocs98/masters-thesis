@@ -1,0 +1,21 @@
+ENTRY       R10758                      Reaction
+NAME        4-hydroxybutanoate:CoA ligase (ADP-forming)
+DEFINITION  4-Hydroxybutanoic acid + ATP + CoA <=> 4-Hydroxybutyryl-CoA + ADP + Orthophosphate
+EQUATION    C00989 + C00002 + C00010 <=> C11062 + C00008 + C00009
+COMMENT     4-hydroxybutyryl-CoA synthetase (ADP-forming)
+RCLASS      RC00002  C00002_C00008
+            RC00004  C00010_C11062
+            RC00014  C00989_C11062
+ENZYME      6.2.1.56
+PATHWAY     rn00720  Carbon fixation pathways in prokaryotes
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.56
+                 R10758  4-Hydroxybutanoic acid + ATP + CoA <=> 4-Hydroxybutyryl-CoA + ADP + Orthophosphate
+ORTHOLOGY   K18593  4-hydroxybutyrate---CoA ligase (ADP-forming) [EC:6.2.1.56]
+DBLINKS     RHEA: 58899
+///

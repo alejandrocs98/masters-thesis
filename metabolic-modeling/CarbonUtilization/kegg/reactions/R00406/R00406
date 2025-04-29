@@ -1,0 +1,29 @@
+ENTRY       R00406                      Reaction
+NAME        succinyl-CoA:(S)-malate CoA-transferase
+DEFINITION  Succinyl-CoA + (S)-Malate <=> Succinate + L-Malyl-CoA
+EQUATION    C00091 + C00149 <=> C00042 + C04348
+RCLASS      RC00014  C00042_C00091  C00149_C04348
+ENZYME      2.8.3.22
+PATHWAY     rn00720  Carbon fixation pathways in prokaryotes
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00376  3-Hydroxypropionate bi-cycle
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.8  Transferring sulfur-containing groups
+               2.8.3  CoA-transferases
+                2.8.3.22
+                 R00406  Succinyl-CoA + (S)-Malate <=> Succinate + L-Malyl-CoA
+            Overall reaction [br08210.html]
+             Carbon fixation
+              R00406
+ORTHOLOGY   K14471  succinyl-CoA:(S)-malate CoA-transferase subunit A [EC:2.8.3.22]
+            K14472  succinyl-CoA:(S)-malate CoA-transferase subunit B [EC:2.8.3.22]
+REFERENCE   1  [PMID:16547052]
+  AUTHORS   Friedmann S, Steindorf A, Alber BE, Fuchs G
+  TITLE     Properties of succinyl-coenzyme A:L-malate coenzyme A transferase and its role in the autotrophic 3-hydroxypropionate cycle of Chloroflexus aurantiacus.
+  JOURNAL   J Bacteriol 188:2646-55 (2006)
+            DOI:10.1128/JB.188.7.2646-2655.2006
+DBLINKS     RHEA: 38258
+///

@@ -1,0 +1,16 @@
+ENTRY       R02680                      Reaction
+NAME        indole-3-ethanol:NADP+ oxidoreductase
+DEFINITION  Indole-3-ethanol + NADP+ <=> Indole-3-acetaldehyde + NADPH + H+
+EQUATION    C00955 + C00006 <=> C00637 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00087  C00637_C00955
+ENZYME      1.1.1.191
+PATHWAY     rn00380  Tryptophan metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.191
+                 R02680  Indole-3-ethanol + NADP+ <=> Indole-3-acetaldehyde + NADPH + H+
+DBLINKS     RHEA: 17040
+///

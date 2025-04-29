@@ -1,0 +1,17 @@
+ENTRY       R04517                      Reaction
+NAME        (15S)-15-hydroxy-5,8,11-cis-13-trans-icosatetraenoate:NAD+ 15-oxidoreductase
+DEFINITION  (15S)-15-Hydroxy-5,8,11-cis-13-trans-eicosatetraenoate + NAD+ <=> 15-OxoETE + NADH + H+
+EQUATION    C04742 + C00003 <=> C04577 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00241  C04577_C04742
+ENZYME      1.1.1.232
+PATHWAY     rn00590  Arachidonic acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.232
+                 R04517  (15S)-15-Hydroxy-5,8,11-cis-13-trans-eicosatetraenoate + NAD+ <=> 15-OxoETE + NADH + H+
+DBLINKS     RHEA: 23263
+///

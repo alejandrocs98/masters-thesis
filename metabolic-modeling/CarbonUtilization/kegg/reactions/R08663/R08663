@@ -1,0 +1,22 @@
+ENTRY       R08663                      Reaction
+NAME        L-valine,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (N-hydroxylating)
+DEFINITION  L-Valine + 2 Oxygen + 2 [Reduced NADPH---hemoprotein reductase] <=> (E)-2-Methylpropanal oxime + 2 [Oxidized NADPH---hemoprotein reductase] + CO2 + 3 H2O
+EQUATION    C00183 + 2 C00007 + 2 C03024 <=> C03219 + 2 C03161 + C00011 + 3 C00001
+COMMENT     three-step reaction (see R10031+R10032+R10033)
+            The enzyme can also accept L-isoleucine as substrate, with a lower activity.(1.14.14.39)
+            3step reaction (similar to R00730+R04460+R07190)
+RCLASS      RC00001  C00005_C00006
+            RC02339  C00183_C03219
+ENZYME      1.14.14.38
+PATHWAY     rn00966  Glucosinolate biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+            rn01210  2-Oxocarboxylic acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.38
+                 R08663  L-Valine + 2 Oxygen + 2 [Reduced NADPH---hemoprotein reductase] <=> (E)-2-Methylpropanal oxime + 2 [Oxidized NADPH---hemoprotein reductase] + CO2 + 3 H2O
+ORTHOLOGY   K13401  valine N-monooxygenase [EC:1.14.14.38]
+DBLINKS     RHEA: 28609
+///

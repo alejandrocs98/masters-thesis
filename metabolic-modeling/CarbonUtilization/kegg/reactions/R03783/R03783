@@ -1,0 +1,34 @@
+ENTRY       R03783                      Reaction
+NAME        pregnenolone,NADPH-hemoprotein reductase:oxygen oxidoreductase (17alpha-hydroxylating)
+DEFINITION  Pregnenolone + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 17alpha-Hydroxypregnenolone + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C01953 + C03024 + C00007 <=> C05138 + C03161 + C00001
+RCLASS      RC00660  C01953_C05138
+ENZYME      1.14.14.19
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00110  C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone
+            M00976  C19-Steroid hormone biosynthesis, pregnenolone => testosterone => dihydrotestosterone
+            M00977  C19-Steroid hormone biosynthesis (androgen backdoor pathway), pregnenolone => androsterone => dihydrotestosterone
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.19
+                 R03783  Pregnenolone + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 17alpha-Hydroxypregnenolone + [Oxidized NADPH---hemoprotein reductase] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.19
+               R02131  Steroid <=> 17alpha-Hydroxysteroid
+                R03783  Pregnenolone <=> 17alpha-Hydroxypregnenolone
+ORTHOLOGY   K00512  steroid 17alpha-monooxygenase / 17alpha-hydroxyprogesterone deacetylase [EC:1.14.14.19 1.14.14.32]
+REFERENCE   1  [PMID:6971291]
+  AUTHORS   Nakajin S, Hall PF.
+  TITLE     Microsomal cytochrome P-450 from neonatal pig testis. Purification and properties of A C21 steroid side-chain cleavage system (17 alpha-hydroxylase-C17,20 lyase).
+  JOURNAL   J Biol Chem 256:3871-6 (1981)
+REFERENCE   2  [PMID:12693981]
+  AUTHORS   Gilep AA, Estabrook RW, Usanov SA
+  TITLE     Molecular cloning and heterologous expression in E. coli of cytochrome P45017alpha. Comparison of structural and functional properties of substrate-specific cytochromes P450 from different species.
+  JOURNAL   Biochemistry (Mosc) 68:86-98 (2003)
+            DOI:10.1023/a:1022101703670
+DBLINKS     RHEA: 50239
+///

@@ -1,0 +1,28 @@
+ENTRY       R00357                      Reaction
+NAME        L-aspartic acid:oxygen oxidoreductase (deaminating)
+DEFINITION  L-Aspartate + H2O + Oxygen <=> Oxaloacetate + Ammonia + Hydrogen peroxide
+EQUATION    C00049 + C00001 + C00007 <=> C00036 + C00014 + C00027
+COMMENT     see R00359
+RCLASS      RC00006  C00036_C00049
+            RC02755  C00007_C00027
+            RC02799  C00014_C00049
+ENZYME      1.4.3.2         1.4.3.16
+PATHWAY     rn00250  Alanine, aspartate and glutamate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.2
+                 R00357  L-Aspartate + H2O + Oxygen <=> Oxaloacetate + Ammonia + Hydrogen peroxide
+                1.4.3.16
+                 R00357  L-Aspartate + H2O + Oxygen <=> Oxaloacetate + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.2
+               R01259  L-Amino acid <=> 2-Oxo acid
+                R00357  L-Aspartate <=> Oxaloacetate
+ORTHOLOGY   K00278  L-aspartate oxidase [EC:1.4.3.16]
+            K03334  L-amino-acid oxidase [EC:1.4.3.2]
+DBLINKS     RHEA: 19028
+///

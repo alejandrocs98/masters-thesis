@@ -1,0 +1,19 @@
+ENTRY       R01019                      Reaction
+NAME        acetaldehyde:pyrroloquinoline-quinone oxidoreductase
+DEFINITION  PQQ + Acetaldehyde + H2O <=> PQQH2 + Acetate
+EQUATION    C00113 + C00084 + C00001 <=> C01359 + C00033
+RCLASS      RC00047  C00033_C00084
+ENZYME      1.2.5.2
+PATHWAY     rn00620  Pyruvate metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.5  With a quinone or similar compound as acceptor
+                1.2.5.2
+                 R01019  PQQ + Acetaldehyde + H2O <=> PQQH2 + Acetate
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.5.2
+               R10911  Aldehyde <=> Carboxylate
+                R01019  Acetaldehyde <=> Acetate
+///

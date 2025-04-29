@@ -1,0 +1,28 @@
+ENTRY       R01381                      Reaction
+NAME        UTP:1-phospho-alpha-D-glucuronate uridylyltransferase
+DEFINITION  UTP + D-Glucuronate 1-phosphate <=> Diphosphate + UDP-glucuronate
+EQUATION    C00075 + C05385 <=> C00013 + C00167
+RCLASS      RC00002  C00167_C05385
+ENZYME      2.7.7.44        2.7.7.64
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn00053  Ascorbate and aldarate metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00014  Glucuronate pathway (uronate pathway)
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.7  Nucleotidyltransferases
+                2.7.7.44
+                 R01381  UTP + D-Glucuronate 1-phosphate <=> Diphosphate + UDP-glucuronate
+                2.7.7.64
+                 R01381  UTP + D-Glucuronate 1-phosphate <=> Diphosphate + UDP-glucuronate
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.7.64
+               R08845  alpha-D-Aldose 1-phosphate <=> UDP-sugar
+                R01381  D-Glucuronate 1-phosphate <=> UDP-glucuronate
+ORTHOLOGY   K12447  UDP-sugar pyrophosphorylase [EC:2.7.7.64]
+DBLINKS     RHEA: 16328
+///

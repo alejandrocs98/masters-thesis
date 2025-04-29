@@ -1,0 +1,17 @@
+ENTRY       R00755                      Reaction
+DEFINITION  Acetaldehyde + Thiamin diphosphate <=> 2-(alpha-Hydroxyethyl)thiamine diphosphate
+EQUATION    C00084 + C00068 <=> C05125
+COMMENT     TPP-dependent enzymatic reaction (see R00224), following after R00014
+RCLASS      RC00027  C00068_C05125
+            RC00375  C00084_C05125
+ENZYME      4.1.1.1
+PATHWAY     rn00010  Glycolysis / Gluconeogenesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.1
+                 R00755  Acetaldehyde + Thiamin diphosphate <=> 2-(alpha-Hydroxyethyl)thiamine diphosphate
+ORTHOLOGY   K01568  pyruvate decarboxylase [EC:4.1.1.1]
+///

@@ -1,0 +1,25 @@
+ENTRY       R07676                      Reaction
+NAME        L-galactonate:NADP+ oxidoreductase
+DEFINITION  L-Galactonate + NADP+ <=> D-Galacturonate + NADPH + H+
+EQUATION    C15930 + C00006 <=> C00333 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00108  C00333_C15930
+ENZYME      1.1.1.365       1.1.1.-
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn00053  Ascorbate and aldarate metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00630  D-Galacturonate degradation (fungi), D-galacturonate => glycerol
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.365
+                 R07676  L-Galactonate + NADP+ <=> D-Galacturonate + NADPH + H+
+                1.1.1.-
+                 R07676  L-Galactonate + NADP+ <=> D-Galacturonate + NADPH + H+
+ORTHOLOGY   K18106  D-galacturonate reductase [EC:1.1.1.-]
+            K19634  D-galacturonate reductase [EC:1.1.1.365]
+            K19642  D-galacturonate reductase [EC:1.1.1.365]
+DBLINKS     RHEA: 26348
+///

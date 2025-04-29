@@ -1,0 +1,21 @@
+ENTRY       R02107                      Reaction
+NAME        xanthine:oxygen oxidoreductase
+DEFINITION  Xanthine + H2O + Oxygen <=> Urate + Hydrogen peroxide
+EQUATION    C00385 + C00001 + C00007 <=> C00366 + C00027
+RCLASS      RC00143  C00366_C00385
+            RC02755  C00007_C00027
+ENZYME      1.17.3.2
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+MODULE      M00546  Purine degradation, xanthine => urea
+            M00958  Adenine ribonucleotide degradation, AMP => Urate
+            M00959  Guanine ribonucleotide degradation, GMP => Urate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.17  Acting on CH or CH2 groups
+               1.17.3  With oxygen as acceptor
+                1.17.3.2
+                 R02107  Xanthine + H2O + Oxygen <=> Urate + Hydrogen peroxide
+ORTHOLOGY   K00106  xanthine dehydrogenase/oxidase [EC:1.17.1.4 1.17.3.2]
+DBLINKS     RHEA: 21135
+///

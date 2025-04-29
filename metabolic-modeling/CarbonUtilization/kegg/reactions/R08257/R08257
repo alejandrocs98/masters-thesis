@@ -1,0 +1,16 @@
+ENTRY       R08257                      Reaction
+DEFINITION  Irinotecan + 2 [Reduced NADPH---hemoprotein reductase] + 2 Oxygen <=> NPC + Glutaral + 2 [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+EQUATION    C16641 + 2 C03024 + 2 C00007 <=> C16543 + C12518 + 2 C03161 + 2 C00001
+COMMENT     CYP3A4
+RCLASS      RC02267  C16543_C16641
+            RC02298  C12518_C16641
+ENZYME      1.14.14.-
+PATHWAY     rn00983  Drug metabolism - other enzymes
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.-
+                 R08257  Irinotecan + 2 [Reduced NADPH---hemoprotein reductase] + 2 Oxygen <=> NPC + Glutaral + 2 [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+ORTHOLOGY   K17689  cytochrome P450 family 3 subfamily A4 [EC:1.14.13.32 1.14.14.55 1.14.14.56 1.14.14.57 1.14.14.73 1.14.14.-]
+///

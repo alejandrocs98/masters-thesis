@@ -1,0 +1,17 @@
+ENTRY       R12237                      Reaction
+NAME        staphylopine:NADP+ oxidoreductase [(2S)-2-amino-4-{[(1R)-1-carboxy-2-(1H-imidazol-4-yl)ethyl]amino}butanoate]-forming
+DEFINITION  Staphylopine + NADP+ + H2O <=> (2S)-2-Amino-4-{[(1R)-1-carboxy-2-(1H-imidazol-4-yl)ethyl]amino}butanoate + Pyruvate + NADPH + H+
+EQUATION    C22024 + C00006 + C00001 <=> C22025 + C00022 + C00005 + C00080
+RCLASS      RC00283  C22024_C22025
+ENZYME      1.5.1.52
+PATHWAY     rn00470  D-Amino acid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00949  Staphylopine biosynthesis, L-histidine => staphylopine
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.52
+                 R12237  Staphylopine + NADP+ + H2O <=> (2S)-2-Amino-4-{[(1R)-1-carboxy-2-(1H-imidazol-4-yl)ethyl]amino}butanoate + Pyruvate + NADPH + H+
+ORTHOLOGY   K23122  staphylopine/pseudopaline/yersinopine synthase [EC:1.5.1.52 1.5.1.-]
+///

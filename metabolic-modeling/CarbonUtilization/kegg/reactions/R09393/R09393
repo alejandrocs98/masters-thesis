@@ -1,0 +1,18 @@
+ENTRY       R09393                      Reaction
+NAME        limonene,NADPH:oxygen oxidoreductase
+DEFINITION  (R)-Limonene + NADPH + Oxygen + H+ <=> Limonene-1,2-epoxide + NADP+ + H2O
+EQUATION    C06099 + C00005 + C00007 + C00080 <=> C07271 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC01506  C06099_C07271
+ENZYME      1.14.13.107
+PATHWAY     rn00903  Limonene degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.107
+                 R09393  (R)-Limonene + NADPH + Oxygen + H+ <=> Limonene-1,2-epoxide + NADP+ + H2O
+ORTHOLOGY   K14733  limonene 1,2-monooxygenase [EC:1.14.13.107]
+DBLINKS     RHEA: 26100
+///

@@ -1,0 +1,27 @@
+ENTRY       R08711                      Reaction
+NAME        CDP-abequose:NADP+ 4-oxidoreductase
+DEFINITION  CDP-4-dehydro-3,6-dideoxy-D-glucose + NADPH + H+ <=> CDP-abequose + NADP+
+EQUATION    C04297 + C00005 + C00080 <=> C01788 + C00006
+COMMENT     abequose synthase
+RCLASS      RC00001  C00005_C00006
+            RC00154  C01788_C04297
+ENZYME      1.1.1.341       4.2.1.-
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  O-Antigen nucleotide sugar biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.341
+                 R08711  CDP-4-dehydro-3,6-dideoxy-D-glucose + NADPH + H+ <=> CDP-abequose + NADP+
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.-
+                 R08711  CDP-4-dehydro-3,6-dideoxy-D-glucose + NADPH + H+ <=> CDP-abequose + NADP+
+ORTHOLOGY   K12455  CDP-abequose synthase [EC:1.1.1.341]
+            K19632  CDP-abequose synthase [EC:1.1.1.341]
+DBLINKS     RHEA: 34566
+///

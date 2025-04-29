@@ -1,0 +1,25 @@
+ENTRY       R02093                      Reaction
+NAME        ATP:dTDP phosphotransferase
+DEFINITION  ATP + dTDP <=> ADP + dTTP
+EQUATION    C00002 + C00363 <=> C00008 + C00459
+RCLASS      RC00002  C00002_C00008  C00363_C00459
+ENZYME      2.7.4.6
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00938  Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.6
+                 R02093  ATP + dTDP <=> ADP + dTTP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.4.6
+               R00331  NDP <=> Nucleoside triphosphate
+                R02093  dTDP <=> dTTP
+ORTHOLOGY   K00940  nucleoside-diphosphate kinase [EC:2.7.4.6]
+            K18533  adenylate/nucleoside-diphosphate kinase [EC:2.7.4.3 2.7.4.6]
+DBLINKS     RHEA: 27685
+///

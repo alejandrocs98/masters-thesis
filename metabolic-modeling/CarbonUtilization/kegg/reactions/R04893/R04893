@@ -1,0 +1,22 @@
+ENTRY       R04893                      Reaction
+NAME        L-normetanephrine:oxygen oxidoreductase (deaminating) (copper-containing)
+DEFINITION  L-Normetanephrine + H2O + Oxygen <=> 3-Methoxy-4-hydroxyphenylglycolaldehyde + Ammonia + Hydrogen peroxide
+EQUATION    C05589 + C00001 + C00007 <=> C05583 + C00014 + C00027
+RCLASS      RC00160  C05583_C05589
+            RC02755  C00007_C00027
+ENZYME      1.4.3.4
+PATHWAY     rn00350  Tyrosine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.4
+                 R04893  L-Normetanephrine + H2O + Oxygen <=> 3-Methoxy-4-hydroxyphenylglycolaldehyde + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.4
+               R11354  RCH2NHR' <=> Aldehyde
+                R04893  L-Normetanephrine <=> 3-Methoxy-4-hydroxyphenylglycolaldehyde
+ORTHOLOGY   K00274  monoamine oxidase [EC:1.4.3.4]
+///

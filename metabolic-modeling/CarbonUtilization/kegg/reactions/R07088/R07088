@@ -1,0 +1,17 @@
+ENTRY       R07088                      Reaction
+NAME        1,1-dichloroethylene,NADPH:oxygen oxidoreductase (RH-hydroxylating or -epoxidizing)
+DEFINITION  1,1-Dichloroethylene + NADPH + Oxygen + H+ <=> 2,2-Dichloroacetaldehyde + NADP+ + H2O
+EQUATION    C14039 + C00005 + C00007 + C00080 <=> C14858 + C00006 + C00001
+COMMENT     CYP2E1, CYP2F2/3/4
+RCLASS      RC00001  C00005_C00006
+            RC01750  C14039_C14858
+ENZYME      1.14.14.-
+PATHWAY     rn00980  Metabolism of xenobiotics by cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.-
+                 R07088  1,1-Dichloroethylene + NADPH + Oxygen + H+ <=> 2,2-Dichloroacetaldehyde + NADP+ + H2O
+ORTHOLOGY   K07415  cytochrome P450 family 2 subfamily E1 [EC:1.14.14.-]
+///

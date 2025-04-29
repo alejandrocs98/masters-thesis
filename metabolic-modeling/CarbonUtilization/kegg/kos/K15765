@@ -1,0 +1,131 @@
+ENTRY       K15765                      KO
+SYMBOL      tmoF, tbuC, touF
+NAME        toluene monooxygenase electron transfer component [EC:1.18.1.3]
+PATHWAY     map00623  Toluene degradation
+            map00920  Sulfur metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00538  Toluene degradation, toluene => benzoate
+REACTION    R02550  toluene,ferredoxin:oxygen oxidoreductase (methyl-hydroxylating)
+            R03562  toluene,NADPH:oxogen oxidoreductase (3-hydroxylating)
+            R05666  toluene,NADH:oxygen oxidoreductase (4-hydroxylating)
+            R09513  methanesulfonate,NADH:oxygen oxidoreductase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09102 Energy metabolism
+               00920 Sulfur metabolism
+                K15765  tmoF, tbuC, touF; toluene monooxygenase electron transfer component
+              09111 Xenobiotics biodegradation and metabolism
+               00623 Toluene degradation
+                K15765  tmoF, tbuC, touF; toluene monooxygenase electron transfer component
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.18  Acting on iron-sulfur proteins as donors
+               1.18.1  With NAD+ or NADP+ as acceptor
+                1.18.1.3  ferredoxin---NAD+ reductase
+                 K15765  tmoF, tbuC, touF; toluene monooxygenase electron transfer component
+GENES       PSD: DSC_04380
+            PPSE: BN5_3604
+            MBS: MRBBS_1308(tmoF)
+            MSR: AU15_20760
+            CYQ: Q91_2220
+            CZA: CYCME_2538
+            CYY: CPC19_01700
+            THIS: HZT40_03300
+            TBN: TBH_C0920
+            APAC: S7S_13335
+            MGEO: CFI10_14575 CFI10_17775
+            SINI: GT972_13815
+            GBI: PG2T_00920
+            VFF: VITFI_CDS2835
+            RPI: Rpic_4637
+            RPF: Rpic12D_3561
+            CNC: CNE_BB1p12310(tmoF)
+            CUH: BJN34_09360 BJN34_22330
+            REU: Reut_B5674
+            RME: Rmet_1311
+            CCUP: BKK81_02070
+            CUU: BKK79_10805
+            CCAX: KZ686_10045
+            BCT: GEM_5810
+            BCON: NL30_24560
+            BUG: BC1001_PA6405(tmoF)
+            BYI: BYI23_D008210
+            BUE: BRPE67_DCDS10130 BRPE67_FCDS01810
+            BUQ: AC233_11115
+            PARB: CJU94_38165
+            PGP: CUJ91_31715
+            PACS: FAZ98_33525
+            PPK: U875_01850 U875_05305
+            PPNO: DA70_22375
+            PRB: X636_04295 X636_07620
+            BUO: BRPE64_DCDS03530
+            BPE: BP0066
+            BPC: BPTD_0064
+            BPER: BN118_3398
+            BPET: B1917_0069
+            BPEU: Q425_690
+            BPA: BPP0517
+            BBH: BN112_2899
+            BBR: BB0522
+            BBM: BN115_0501
+            BBX: BBS798_0515
+            BTRM: SAMEA390648701722(dmpP_1)
+            PUT: PT7_2459
+            NARM: N7E01_11140
+            ACID: CBP33_05305
+            ACIP: CBP36_05755
+            ACIN: CBP34_05140
+            ACIS: CBP35_13190
+            DEL: DelCs14_1741
+            LIM: L103DPR2_00189(carAd)
+            HPSE: HPF_01780(tmoF)
+            HTN: KI616_01900
+            DIH: G7047_13310
+            MPT: Mpe_A0819(tbuC) Mpe_A0921(msmD)
+            METP: C1M51_13805 C1M51_16300
+            MASW: AM586_27385 AM586_27565
+            RBU: PG1C_04260
+            SPLB: SFPGR_26180
+            DAR: Daro_3815
+            DEY: HYN24_09705
+            DDEN: KI615_16990
+            FLE: KI610_08760
+            AZD: CDA09_10220
+            AZR: CJ010_11495
+            THAU: C4PIVTH_0961
+            THK: CCZ27_06365
+            EMX: FKV68_30105
+            BBT: BBta_1593
+            AOL: S58_10620
+            BRO: BRAD285_2997
+            OCA: OCAR_6789
+            OCG: OCA5_c12870
+            OCO: OCA4_c12870
+            MNO: Mnod_2710 Mnod_8367
+            FIL: BN1229_v1_3546(msmD)
+            FIY: BN1229_v1_2377(msmD)
+            HDI: HDIA_4247(carAd)
+            SGI: SGRAN_2803(thnA4)
+            CNA: AB433_10445
+            BTS: Btus_2064
+            NFR: ERS450000_00316(tmoF)
+            ROA: Pd630_LPD03567
+            PHW: G7075_19670
+            AMYC: CU254_12395
+            PBRO: HOP40_29380
+            TRO: trd_A0924
+            AG: AAA26004(tmoF)
+REFERENCE   PMID:1885512
+  AUTHORS   Yen KM, Karl MR, Blatt LM, Simon MJ, Winter RB, Fausset PR, Lu HS, Harcourt AA, Chen KK
+  TITLE     Cloning and characterization of a Pseudomonas mendocina KR1 gene cluster encoding toluene-4-monooxygenase.
+  JOURNAL   J Bacteriol 173:5315-27 (1991)
+            DOI:10.1128/JB.173.17.5315-5327.1991
+REFERENCE   PMID:1429451
+  AUTHORS   Yen KM, Karl MR
+  TITLE     Identification of a new gene, tmoF, in the Pseudomonas mendocina KR1 gene cluster encoding toluene-4-monooxygenase.
+  JOURNAL   J Bacteriol 174:7253-61 (1992)
+            DOI:10.1128/JB.174.22.7253-7261.1992
+  SEQUENCE  [ag:AAA26004]
+///

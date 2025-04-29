@@ -1,0 +1,16 @@
+ENTRY       R04844                      Reaction
+NAME        3alpha,20alpha,21-trihydroxy-5beta-pregnane-11-one:NAD+ oxidoreductase
+DEFINITION  3alpha,20alpha,21-Trihydroxy-5beta-pregnan-11-one + NAD+ <=> 3alpha,21-Dihydroxy-5beta-pregnane-11,20-dione + NADH + H+
+EQUATION    C05483 + C00003 <=> C05478 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC01220  C05478_C05483
+ENZYME      1.1.1.53
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.53
+                 R04844  3alpha,20alpha,21-Trihydroxy-5beta-pregnan-11-one + NAD+ <=> 3alpha,21-Dihydroxy-5beta-pregnane-11,20-dione + NADH + H+
+ORTHOLOGY   K00038  3alpha(or 20beta)-hydroxysteroid dehydrogenase [EC:1.1.1.53]
+///

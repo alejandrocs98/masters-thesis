@@ -1,0 +1,21 @@
+ENTRY       R04830                      Reaction
+NAME        urocortisone:NADP+ oxidoreductase (B-specific)
+DEFINITION  Tetrahydrocortisone + NADP+ <=> 17alpha,21-Dihydroxy-5beta-pregnane-3,11,20-trione + NADPH + H+
+EQUATION    C05470 + C00006 <=> C05469 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00144  C05469_C05470
+ENZYME      1.1.1.50
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.50
+                 R04830  Tetrahydrocortisone + NADP+ <=> 17alpha,21-Dihydroxy-5beta-pregnane-3,11,20-trione + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.50
+               R10423  3alpha-Hydroxysteroid <=> 3-Oxosteroid
+                R04830  Tetrahydrocortisone <=> 17alpha,21-Dihydroxy-5beta-pregnane-3,11,20-trione
+ORTHOLOGY   K00037  3alpha-hydroxysteroid 3-dehydrogenase / chlordecone reductase [EC:1.1.1.50 1.1.1.357 1.1.1.225]
+///

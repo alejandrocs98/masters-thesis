@@ -1,0 +1,23 @@
+ENTRY       R03018                      Reaction
+NAME        ATP:pantothenate 4'-phosphotransferase
+DEFINITION  ATP + Pantothenate <=> ADP + D-4'-Phosphopantothenate
+EQUATION    C00002 + C00864 <=> C00008 + C03492
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00864_C03492
+ENZYME      2.7.1.33
+PATHWAY     rn00770  Pantothenate and CoA biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00120  Coenzyme A biosynthesis, pantothenate => CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.33
+                 R03018  ATP + Pantothenate <=> ADP + D-4'-Phosphopantothenate
+ORTHOLOGY   K00867  type I pantothenate kinase [EC:2.7.1.33]
+            K01947  biotin---[acetyl-CoA-carboxylase] ligase / type III pantothenate kinase [EC:6.3.4.15 2.7.1.33]
+            K03525  type III pantothenate kinase [EC:2.7.1.33]
+            K09680  type II pantothenate kinase [EC:2.7.1.33]
+DBLINKS     RHEA: 16376
+///

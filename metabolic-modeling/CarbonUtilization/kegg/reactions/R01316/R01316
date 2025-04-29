@@ -1,0 +1,25 @@
+ENTRY       R01316                      Reaction
+NAME        phosphatidylcholine 1-acylhydrolase
+DEFINITION  Phosphatidylcholine + H2O <=> 2-Acyl-sn-glycero-3-phosphocholine + Fatty acid
+EQUATION    C00157 + C00001 <=> C04233 + C00162
+RCLASS      RC00020  C00157_C00162
+            RC00041  C00157_C04233
+ENZYME      3.1.1.32
+PATHWAY     rn00564  Glycerophospholipid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.32
+                 R01316  Phosphatidylcholine + H2O <=> 2-Acyl-sn-glycero-3-phosphocholine + Fatty acid
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.1.1.32
+               R01314  Carboxylate
+                R01316  Fatty acid
+ORTHOLOGY   K01058  phospholipase A1/A2 [EC:3.1.1.32 3.1.1.4]
+            K06900  cGAMP-activated phospholipase [EC:3.1.1.32 3.1.1.-]
+            K16817  HRAS-like suppressor 3 [EC:3.1.1.32 3.1.1.4]
+            K16818  phospholipase A1 [EC:3.1.1.32]
+            K22389  phospholipase A1 [EC:3.1.1.32]
+///

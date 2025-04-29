@@ -1,0 +1,798 @@
+ENTRY       K11779                      KO
+SYMBOL      fbiC
+NAME        FO synthase [EC:2.5.1.147 4.3.1.32]
+PATHWAY     map00680  Methane metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R12161  5-amino-6-(D-ribitylamino)uracil:L-tyrosine 4-hydroxybenzyltransferase
+            R12162  5-amino-5-(4-hydroxybenzyl)-6-(D-ribitylimino)-5,6-dihydrouracil ammonia-lyase (7,8-didemethyl-8-hydroxy-5-deazariboflavin-forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09102 Energy metabolism
+               00680 Methane metabolism
+                K11779  fbiC; FO synthase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.147  5-amino-6-(D-ribitylamino)uracil---L-tyrosine 4-hydroxyphenyl transferase
+                 K11779  fbiC; FO synthase
+             4. Lyases
+              4.3  Carbon-nitrogen lyases
+               4.3.1  Ammonia-lyases
+                4.3.1.32  7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase
+                 K11779  fbiC; FO synthase
+DBLINKS     COG: COG1060
+            GO: 0044689
+GENES       VAQ: FIV01_04135(bioB1) FIV01_04140(mqnE)
+            PPHA: BVH74_17775(fbiC)
+            CPS: CPS_4048 CPS_4049
+            ALT: ambt_18390(cofG) ambt_18395
+            AAL: EP13_00575 EP13_00580
+            AAUS: EP12_00555
+            ASP: AOR13_3368 AOR13_3369
+            ASQ: AVL57_01940 AVL57_01945
+            AAW: AVL56_00750 AVL56_00755
+            ALE: AV939_00755 AV939_00760
+            ALZ: AV940_00755 AV940_00760
+            SNAN: I6N98_04750(cofH)
+            ZAL: AZF00_12035(fbiC)
+            OSG: BST96_15205
+            MAGA: Mag101_11125(fbiC)
+            HJA: BST95_09655
+            HALC: EY643_13155(cofH)
+            KIM: G3T16_02855(cofH)
+            MPC: Mar181_0278 Mar181_0279
+            MPRI: MP3633_0352(cofG) MP3633_0353(cofH)
+            MFOI: JSY38_07525(cofH) JSY38_07530(cofG)
+            MRHI: KDW99_18330(cofH) KDW99_18335(cofG)
+            MPON: MACH16_28810 MACH16_28820
+            MARS: A8C75_03565 A8C75_03570
+            MRZ: KDW95_12775(cofH) KDW95_12780(cofG)
+            SDF: ACG33_00245(fbiC)
+            BPY: Bphyt_4251 Bphyt_4252
+            PSPW: BJG93_33610(cofH)
+            BRH: RBRH_02551
+            APES: FOC84_15060(cofH)
+            PUD: G9Q38_02370(cofH)
+            DOE: DENOEST_1265(fbiC) DENOEST_3709(fbiC)
+            EBA: p2A350
+            AZI: AzCIB_1481
+            AZD: CDA09_09830(fbiC)
+            TAK: Tharo_0194
+            THAG: CKCBHOJB_02347(fbiC_1) CKCBHOJB_02385(fbiC_2)
+            MESP: C1M53_21080(cofH) C1M53_21085(cofG)
+            ANJ: AMD1_0564(fbiC)
+            SMEG: C770_GR4pC0061
+            ARUI: G6M88_23510(cofH)
+            KAI: K32_16310(fbiC)
+            BRK: CWS35_20200(fbiC)
+            BQB: J4P68_0009780(cofH)
+            BRAZ: LRP30_33420(cofH)
+            RPB: RPB_4423
+            OCA: OCAR_5007
+            OCG: OCA5_c29510(fbiC)
+            STAR: G3545_06785(cofH)
+            LNE: FZC33_07430(cofH)
+            SNO: Snov_4230
+            APRA: G3A50_01690(cofH)
+            MOG: MMB17_16620(cofH)
+            HMC: HYPMC_3547(fbiC)
+            METG: HT051_05445(cofH) HT051_12625(cofH)
+            RBM: TEF_20090(fbiC)
+            PSF: PSE_2792(fbiC) PSE_2793(fbiC)
+            PZU: PHZ_c2536
+            LMD: METH_04450 METH_04455
+            LAQU: R2C4_00575(cofH) R2C4_00580(cofG)
+            LCAE: K3721_20520(cofH) K3721_20525(cofG)
+            PDE: Pden_1114 Pden_1115
+            PALP: JHW40_21090(cofH) JHW40_21095(cofG)
+            RMB: K529_001420 K529_001425
+            THAS: C6Y53_09640(cofH) C6Y53_09645(cofG)
+            LVR: T8T21_15005(cofH) T8T21_15010(cofG)
+            NPN: JI59_17370(fbiC)
+            NRE: BES08_02715(fbiC) BES08_26705(fbiC)
+            NOV: TQ38_007750(fbiC)
+            SPHO: C3E99_13050(fbiC)
+            SPHU: SPPYR_1437(fbiC)
+            SWI: Swit_0717
+            SPHD: HY78_17635(fbiC) HY78_23110(fbiC)
+            RDI: CMV14_13670(fbiC)
+            SPHM: G432_01225(fbiC)
+            SPKC: KC8_02690 KC8_06240
+            SBIN: SBA_ch2_0980(fbiC)
+            SNAP: PQ455_18695(cofH)
+            SCH: Sphch_0610 Sphch_2129
+            SYB: TZ53_17125(fbiC) TZ53_18465(fbiC)
+            SBD: ATN00_17480(fbiC)
+            SPMI: K663_16861(fbiC)
+            SPHB: EP837_03073(fbiC)
+            SPHT: K426_12255(fbiC) K426_23844(fbiC)
+            SHYD: CJD35_15490(fbiC)
+            SYA: A6768_05840(fbiC)
+            SCLO: SCLO_1006370
+            SUFL: FIL70_06835(cofH)
+            SBAR: H5V43_00775(cofH) H5V43_05145(cofH)
+            SPPH: KFK14_07095(cofH)
+            BLAS: BSY18_2471(cofG)
+            SPHJ: BSL82_04895(fbiC) BSL82_08920(fbiC)
+            CMAN: A9D14_14800(fbiC)
+            NTD: EGO55_02465(cofH)
+            CAEN: K5X80_05825(cofH)
+            KHA: IFJ82_10850(cofH)
+            PAUU: E8A73_035595(cofG)
+            HOH: Hoch_0059
+            BBEV: BBEV_1716(cofG) BBEV_1717(fbiC)
+            BSE: Bsel_1864 Bsel_1865
+            ERZ: ER308_14055
+            EUZ: DVS28_a4427
+            MTU: Rv1173(fbiC)
+            MTV: RVBD_1173
+            MTC: MT1210
+            MRA: MRA_1184(fbiC)
+            MTF: TBFG_11198
+            MTB: TBMG_02808
+            MTK: TBSG_02822
+            MTZ: TBXG_002788
+            MTG: MRGA327_07395(fbiC)
+            MTE: CCDC5079_1085
+            MTUR: CFBS_1252(fbiC)
+            MTL: CCDC5180_1078
+            MTO: MTCTRI2_1205(fbiC)
+            MTD: UDA_1173(fbiC)
+            MTN: ERDMAN_1316(fbiC)
+            MTJ: J112_06345(fbiC)
+            MTUB: MT7199_1203
+            MTUE: J114_06345(fbiC)
+            MTX: M943_06155(fbiC)
+            MTUL: TBHG_01157
+            MTUT: HKBT1_1250(fbiC)
+            MTUU: HKBT2_1256(fbiC)
+            MTQ: HKBS1_1254(fbiC)
+            MBO: BQ2027_MB1206(fbiC)
+            MBB: BCG_1236(fbiC)
+            MBT: JTY_1209(fbiC)
+            MBM: BCGMEX_1208(fbiC)
+            MBK: K60_012660
+            MBX: BCGT_1005
+            MAF: MAF_11920(fbiC)
+            MMIC: RN08_1318
+            MCE: MCAN_11841(fbiC)
+            MCQ: BN44_11312(fbiC)
+            MCV: BN43_30241(fbiC)
+            MCX: BN42_21039(fbiC)
+            MCZ: BN45_30234(fbiC)
+            MORY: MO_001264
+            MLE: ML1492
+            MLB: MLBr01492
+            MPA: MAP_2611c
+            MAO: MAP4_1207
+            MAVI: RC58_05980(fbiC)
+            MAVU: RE97_05975(fbiC)
+            MAV: MAV_1312
+            MIT: OCO_12230
+            MIA: OCU_12190
+            MID: MIP_01953
+            MYO: OEM_12380
+            MCHI: AN480_07165(fbiC)
+            MIR: OCQ_12250 OCQ_17070
+            MMAL: CKJ54_05940(fbiC)
+            MLP: MLM_1243
+            MMAN: MMAN_27770(fbiC)
+            MSA: Mycsm_04923
+            MUL: MUL_1020(fbiC)
+            MMI: MMAR_4279(fbiC)
+            MMAE: MMARE11_40940(fbiC)
+            MLI: MULP_04464(fbiC)
+            MPSE: MPSD_44060(fbiC)
+            MSHO: MSHO_14720(fbiC)
+            MMC: Mmcs_4032
+            MKM: Mkms_4107
+            MJL: Mjls_4262
+            MMM: W7S_05970(fbiC)
+            MKN: MKAN_07265(fbiC)
+            MYV: G155_22255(fbiC)
+            MYE: AB431_23285(fbiC)
+            MHAD: B586_07415(fbiC)
+            MDX: BTO20_08855(fbiC)
+            MSHG: MSG_03833(fbiC)
+            MFJ: MFLOJ_48330(fbiC)
+            MSTO: MSTO_52240(fbiC)
+            MSIM: MSIM_38270(fbiC)
+            MSAK: MSAS_21160(fbiC)
+            MKU: I2456_20125
+            MLW: MJO58_21010
+            MXE: MYXE_14930(fbiC)
+            MNV: MNVI_05210(fbiC)
+            MPAG: C0J29_23420(fbiC)
+            MNM: MNVM_06740(fbiC)
+            MGOR: H0P51_21610
+            MCOO: MCOO_19510(fbiC)
+            MBAI: MB901379_03732
+            MSEO: MSEO_26110(fbiC)
+            MHEK: JMUB5695_01421(fbiC)
+            MGAU: MGALJ_28990(fbiC)
+            MLJ: MLAC_07790(fbiC)
+            MBRD: MBRA_28580(fbiC)
+            MSHJ: MSHI_03820(fbiC)
+            MMAM: K3U93_18445
+            MSPG: F6B93_17105
+            MOT: LTS72_03905
+            MLM: MLPF_2144(fbiC)
+            MPAA: MKK62_06105
+            MMEH: M5I08_20060
+            MKY: IWGMT90018_48980(fbiC)
+            MADI: A7U43_09785(fbiC)
+            MWU: PT015_11255
+            MSM: MSMEG_5126
+            MSG: MSMEI_4998(fbiC)
+            MSB: LJ00_25350(fbiC)
+            MSN: LI99_25355(fbiC)
+            MSH: LI98_25360(fbiC)
+            MVA: Mvan_4533
+            MGI: Mflv_2167
+            MSP: Mspyr1_15990
+            MCB: Mycch_3937
+            MNE: D174_20945(fbiC)
+            MYN: MyAD_20555(fbiC)
+            MFT: XA26_45380
+            MPHL: MPHLCCUG_04074(mqnE)
+            MVQ: MYVA_4308(fbiC)
+            MLL: B1R94_06840(fbiC)
+            MRH: MycrhN_3645
+            MTHN: 4412656_03414
+            MHAS: MHAS_02879(fbiC)
+            MDU: MDUV_01960(fbiC)
+            MCHT: MCHIJ_26390(fbiC)
+            MDR: MDOR_28370(fbiC)
+            MAUU: NCTC10437_04265
+            MMAG: MMAD_41900(fbiC)
+            MMOR: MMOR_20550(fbiC)
+            MFX: MFAL_38670(fbiC)
+            MAIC: MAIC_42080(fbiC)
+            MIJ: MINS_37690(fbiC)
+            MALV: MALV_49400(fbiC)
+            MTY: MTOK_03550 MTOK_55600(fbiC)
+            MPSC: MPSYJ_23260(fbiC)
+            MARZ: MARA_55100(fbiC)
+            MGAD: MGAD_53420(fbiC)
+            MHEV: MHEL_08660(fbiC)
+            MSAR: MSAR_27780(fbiC)
+            MANY: MANY_25620(fbiC)
+            MAUB: MAUB_44400(fbiC)
+            MPOF: MPOR_45990(fbiC)
+            MPHU: MPHO_24960(fbiC)
+            MMUC: C1S78_005905
+            MMAT: MMAGJ_04430(fbiC)
+            MBOK: MBOE_28340(fbiC)
+            MFG: K6L26_09515
+            MSEI: MSEDJ_54070(fbiC)
+            MFLV: NCTC10271_01195
+            MCEE: MCEL_45020(fbiC)
+            MBRM: L2Z93_000870
+            MMON: EWR22_21865
+            MGO: AFA91_14910(fbiC)
+            MHOL: K3U96_06440
+            MSEN: K3U95_21350
+            MPAE: K0O64_22840
+            MRF: MJO55_20460
+            MDF: K0O62_21950
+            MCRO: MI149_23265
+            MGRO: FZ046_26035
+            MKR: MKOR_00500(fbiC)
+            MAB: MAB_1319
+            MMV: MYCMA_0695(fbiC)
+            MABB: MASS_1319(fbiC)
+            MABL: MMASJCM_1346
+            MIZ: BAB75_07105(fbiC)
+            MSTE: MSTE_01287
+            MSAO: MYCSP_05810(fbiC)
+            MSAL: DSM43276_01185(mqnE)
+            MJD: JDM601_1161(fbiC)
+            MTER: 4434518_01112(fbiC)
+            MMIN: MMIN_27930(fbiC)
+            MHIB: MHIB_06830(fbiC)
+            MHER: K3U94_06425
+            MVM: MJO54_06595
+            ASD: AS9A_3366(fbiC)
+            NFA: NFA_47520
+            NFR: ERS450000_05176
+            NCY: NOCYR_4499(fbiC)
+            NBR: O3I_035915(fbiC)
+            NNO: NONO_c64550(fbiC)
+            NSL: BOX37_25530(fbiC)
+            NSR: NS506_01897(fbiC)
+            NTP: CRH09_33525(fbiC)
+            NOZ: DMB37_14595(fbiC)
+            NOD: FOH10_02850
+            NAH: F5544_37870
+            NAD: NCTC11293_06076
+            NWL: NWFMUON74_12070
+            NIE: KV110_34935
+            NTC: KHQ06_12095(cofG)
+            NHU: H0264_11435
+            NYA: LTV02_21365
+            NGP: LTT66_19030
+            NSPU: IFM12276_07970
+            NYU: D7D52_01405
+            RHA: RHA1_ro05944 RHA1_ro11041
+            RER: RER_41830(fbiC)
+            REY: O5Y_19555(fbiC)
+            REB: XU06_19700(fbiC)
+            RQI: C1M55_20650(fbiC)
+            ROP: ROP_60060(fbiC)
+            ROA: Pd630_LPD02578
+            RPY: Y013_22830(fbiC)
+            RBY: CEJ39_09030(fbiC)
+            RHB: NY08_5017
+            RAV: AAT18_08315(fbiC)
+            RFA: A3L23_03076(fbiC)
+            RHS: A3Q41_00251(fbiC)
+            RHW: BFN03_02640(fbiC)
+            RRZ: CS378_23345(fbiC)
+            RHU: A3Q40_02330(fbiC)
+            RHQ: IM25_12240(fbiC)
+            RHOD: AOT96_01090(fbiC)
+            RRT: 4535765_01329
+            RCR: NCTC10994_01473
+            RTM: G4H71_03820
+            RKO: JWS14_25800 JWS14_32470
+            RGO: KYT97_28070
+            ROZ: CBI38_21010(fbiC)
+            RPSK: JWS13_11460 JWS13_28415(cofH)
+            RGOR: NMQ04_05840
+            RANT: RHODO2019_12410
+            RHOP: D8W71_24065
+            REQ: REQ_14170
+            WHR: OG579_06020
+            GBR: Gbro_3324 Gbro_3326
+            GPO: GPOL_c31220(fbiC1) GPOL_c31240(fbiC2)
+            GOR: KTR9_3363 KTR9_3365
+            GOQ: ACH46_05885(fbiC)
+            GTA: BCM27_17075 BCM27_17085
+            GOC: CXX93_08415(fbiC)
+            GIT: C6V83_14745(fbiC)
+            GRU: GCWB2_17295 GCWB2_17305(mqnE)
+            GOM: D7316_05361(fbiC_1) D7316_05363(fbiC_2)
+            GAV: C5O27_10895 C5O27_10905(cofG)
+            GOD: GKZ92_16225(cofG) GKZ92_16235
+            GAM: GII34_16115(cofG) GII34_16125
+            GPD: GII33_15575(cofG) GII33_15585
+            GJI: H1R19_16160(cofG) H1R19_16170
+            GOI: LK459_17770(cofG)
+            GHN: MVF96_16540(cofG) MVF96_16550
+            GAMI: IHQ52_20080(cofG) IHQ52_20090
+            GMG: NWF22_01595(cofG)
+            GSI: P5P27_13840
+            SPIN: KV203_14900
+            TPR: Tpau_1148
+            TSM: ASU32_06460(fbiC)
+            TPUL: TPB0596_34700
+            TSD: MTP03_12000
+            SRT: Srot_0835
+            DTM: BJL86_2044
+            DIT: C3V38_15800(fbiC)
+            DIZ: CT688_09915(fbiC)
+            DPC: A6048_10140(fbiC)
+            DLU: A6035_09660(fbiC)
+            DKN: NHB83_09505
+            TOY: FO059_07605
+            SCO: SCO4429(fbiC)
+            SALB: XNR_2222
+            SMA: SAVERM_3794(cofG)
+            SGR: SGR_4235
+            SGB: WQO_14275(fbiC)
+            SFI: SFUL_2886
+            SANL: KZO11_14740
+            SGRF: SGFS_053720
+            SCYE: R2B67_21015
+            SCB: SCAB_52181(fbiC)
+            SSX: SACTE_2687
+            SVL: Strvi_1011
+            SHY: SHJG_4710
+            SHO: SHJGH_4472
+            SRC: M271_20760(fbiC) M271_38995(fbiC)
+            SMAL: SMALA_4583 SMALA_6223
+            SSOI: I1A49_26975 I1A49_34955
+            SFA: Sfla_3633
+            SBH: SBI_06333(fbiC)
+            SVE: SVEN_3084
+            SDV: BN159_5026(fbiC)
+            SALS: SLNWT_4334
+            STRP: F750_3084
+            SCI: B446_16865(fbiC)
+            SLV: SLIV_16290(fbiC)
+            SGU: SGLAU_14900(fbiC)
+            SVT: SVTN_16080(fbiC)
+            STRE: GZL_05186
+            SCW: TU94_14370(fbiC)
+            SLD: T261_4807
+            SLC: SL103_02830(fbiC)
+            SXI: SXIM_33060
+            STRM: M444_15375(fbiC)
+            STRC: AA958_12800(fbiC)
+            SAMB: SAM23877_3304(fbiC)
+            SPRI: SPRI_4317
+            SCZ: ABE83_21500(fbiC)
+            SCX: AS200_26105(fbiC)
+            SRW: TUE45_04323(mqnE_1)
+            STRF: ASR50_19115(fbiC)
+            SLE: sle_40200(sle_40200)
+            SRN: A4G23_02305(mqnE_1)
+            SPAV: Spa2297_14305(fbiC)
+            STRT: A8713_13345(fbiC)
+            SCLF: BB341_11230(fbiC)
+            SGS: AVL59_44175(fbiC)
+            STSI: A4E84_17315(fbiC)
+            SKY: D0C37_12855
+            SALW: CP975_15010
+            SGM: GCM10017557_35530(fbiC)
+            SCAD: DN051_22345(fbiC)
+            SPHW: NFX46_37170
+            SLS: SLINC_3698
+            SNR: SNOUR_23810(fbiC)
+            SALU: DC74_3703
+            SALL: SAZ_19675(fbiC)
+            SPLU: LK06_018940(fbiC)
+            STRD: NI25_22395(fbiC)
+            SNW: BBN63_19680(fbiC)
+            SAUO: BV401_26765(fbiC) BV401_35045(fbiC)
+            SSIA: A7J05_20325(fbiC)
+            SVU: B1H20_13635(fbiC)
+            SPUN: BFF78_24080(fbiC)
+            SGV: B1H19_17935(fbiC)
+            SLAU: SLA_3135
+            SALF: SMD44_03660(fbiC)
+            SALJ: SMD11_3959(fbiC)
+            SLX: SLAV_16495(mqnE2)
+            STRO: STRMOE7_16995(fbiC)
+            SFK: KY5_3501c
+            SNZ: DC008_14780(fbiC)
+            SGE: DWG14_04813(fbiC)
+            SRJ: SRO_4209
+            SLK: SLUN_16960(fbiC)
+            SDX: C4B68_22925(fbiC)
+            SGD: ELQ87_22200
+            SQZ: FQU76_13045
+            SCYA: EJ357_19745
+            SAST: CD934_19070(fbiC)
+            SNQ: CP978_15160
+            STIR: DDW44_12900(fbiC)
+            SKA: CP970_24850
+            SGZ: C0216_28065(fbiC)
+            SVN: CP980_19530
+            SNK: CP967_19890
+            SHAW: CEB94_17765(fbiC)
+            SRK: FGW37_13610
+            SFIC: EIZ62_19010
+            SGAL: CP966_15640
+            SSPO: DDQ41_12865(fbiC)
+            SVR: CP971_13825
+            SPAD: DVK44_19985
+            SFY: GFH48_04685 GFH48_23250
+            SAQU: EJC51_21990
+            SGF: HEP81_04381
+            SCAV: CVT27_13110(fbiC)
+            SSEO: D0Z67_12435
+            SBY: H7H31_12565
+            SRIM: CP984_22985
+            SSUB: CP968_19360
+            SPHV: F9278_20425
+            SCIN: CP977_14980
+            SFUG: CNQ36_15020(fbiC)
+            SPAC: B1H29_21215(fbiC)
+            STSU: B7R87_12590(fbiC)
+            SCHA: CP983_24350
+            SGX: H4W23_17365
+            SCOE: CP976_19180
+            SBAT: G4Z16_19750
+            SSPB: CP982_19215
+            SNF: JYK04_03838(fbiC)
+            SPLA: CP981_16730
+            SBRO: GQF42_20285
+            STUI: GCM10017668_29810(fbiC)
+            SATA: C5746_17895(fbiC)
+            SCHF: IPT68_15990
+            SHUN: DWB77_04425(fbiC)
+            SHAR: HUT13_16975
+            SCYG: S1361_17510(mqnE1)
+            SFEU: IM697_04550
+            SLIA: HA039_20010
+            SDW: K7C20_15990
+            SCAL: I6J39_13895
+            SAUH: SU9_014230
+            SFB: CP974_12675
+            SMOB: J7W19_13420
+            SPRA: CP972_15785
+            SPEU: CGZ69_15300(fbiC)
+            SROI: IAG44_23535
+            SXN: IAG42_20105
+            SGJ: IAG43_13245
+            SHK: J2N69_15415
+            SANU: K7396_20810
+            SDD: D9753_20105
+            SACT: DMT42_17110(fbiC)
+            SMAO: CAG99_16115(fbiC)
+            SGOB: test1122_09690
+            SINE: KI385_19785
+            SLF: JEQ17_20290
+            SDEC: L3078_19665
+            SAOV: G3H79_21110
+            SDUR: M4V62_24300
+            SYAN: NRK68_14460
+            SRUG: F0345_17100
+            SAKB: K1J60_25135
+            STAA: LDH80_23135
+            SNIG: HEK616_00550(fbiC)
+            SVIO: HWN34_11700
+            SCAE: IHE65_25655
+            STUB: MMF93_14250
+            SSPN: LXH13_23380
+            SCIR: STRCI_003624
+            SXT: KPP03845_103369(fbiC)
+            SLON: LGI35_20770
+            SDRZ: NEH16_18230
+            STUD: STRTU_004112
+            STEE: F3L20_29425
+            SENG: OJ254_11855
+            SGK: PET44_14130
+            SANT: QR300_18265 QR300_34400
+            SYUN: MOV08_24245
+            SARG: HKX69_19635
+            SJN: RI060_24320
+            SCYN: N8I84_18200
+            SOV: QZH56_20860
+            SFIY: F0344_20995
+            SHAU: K9S39_25675
+            SKG: KJK29_21620
+            SCOA: QU709_24225
+            SROC: RGF97_19325
+            SFP: QUY26_22730
+            SCHG: NRO40_12830
+            STTN: BSL84_14230(fbiC)
+            SINN: ABB07_21615(fbiC)
+            STRZ: OYE22_12340
+            SCT: SCAT_2338(fbiC)
+            SCY: SCATT_23240
+            KSK: KSE_45370(fbiC)
+            KAB: B7C62_13575(fbiC)
+            KAU: B6264_08870(fbiC)
+            KIT: CFP65_4503
+            KIS: HUT16_20905
+            STRI: C7M71_018075 C7M71_029935
+            YIA: LO772_20335
+            STRH: GXP74_04320
+            ABRY: NYE86_04115
+            AGLA: OIE69_23170
+            MTS: MTES_1880
+            MCW: A8L33_02330(fbiC)
+            MIH: BJP65_10345(fbiC)
+            MLV: CVS47_03051(fbiC)
+            MWA: E4K62_17115(cofG)
+            MPRT: ET475_03910(cofG)
+            MSED: E3O41_12525(cofG)
+            MSF: IT882_14560(cofG)
+            MCAW: F6J84_13710(cofG)
+            MLZ: F6J85_16135(cofG)
+            MBIN: LXM64_14320(cofG)
+            MTEC: OAU46_00565(cofG)
+            MRG: SM116_03190(cofG)
+            MINV: T9R20_15320(cofG)
+            MOJ: D7D94_11955(cofG)
+            RTN: A6122_2036
+            RRY: C1O28_02855(cofG)
+            RIA: C7V51_08340(cofG)
+            RFS: C1I64_01800(cofG)
+            RTE: GSU10_11030(cofG)
+            ROE: Q0F99_01835(cofG)
+            FSB: GCM10025867_09910(fbiC)
+            AMAU: DSM26151_01330(fbiC)
+            CPHY: B5808_13295
+            CHRE: IE160_09580
+            MHUM: NNL39_01305
+            MDB: OVN18_01215
+            HUM: DVJ78_07475(cofG)
+            HUW: FPZ11_07345
+            GRY: D7I44_06910(cofG)
+            HEA: HL652_10815
+            GLN: F1C58_11635(cofG)
+            AGX: AGREI_2251(fbiC)
+            SUBA: LQ955_13810(cofG)
+            AOG: LH407_06225(cofG)
+            LMOI: VV02_14120(fbiC)
+            BEI: GCM100_11710(fbiC)
+            SKE: Sked_13970
+            ARS: ADJ73_02705(fbiC)
+            TED: U5C87_00695(cofG)
+            NCA: Noca_0814 Noca_0863 Noca_3619
+            NDK: I601_0314(mqnE)
+            NOY: EXE57_07410
+            NOO: FE634_06500
+            NSN: EXE58_11165
+            NBE: Back2_26860(fbiC)
+            NANO: G5V58_03040
+            NARO: CFH99_19185(fbiC) CFH99_24610(fbiC)
+            NAQU: ENKNEFLB_01161(fbiC)
+            NRO: K8W59_12810
+            NOQ: LN652_12940
+            NPC: KUV85_09375
+            NMAR: HPC71_17040
+            PSIM: KR76_06880
+            AEF: GEV26_03330
+            ASEZ: H9L21_12180(cofG)
+            ADB: NP095_12130(cofG)
+            AWN: NQV15_14405
+            MUZ: H4N58_04665
+            NBT: KLP28_08780
+            KFL: Kfla_6490
+            KQI: F1D05_17210
+            KSL: OG809_08315
+            TFU: Tfu_2519
+            THAO: NI17_015405
+            TALX: FOF52_12875
+            NDA: Ndas_3771
+            NAL: B005_0949(cofG)
+            NGV: CDO52_24260(fbiC)
+            NEX: NE857_28345
+            NAKE: KGD83_06355
+            NCG: KGD84_05625
+            STRR: EKD16_20105(mqnE)
+            SNAH: OUQ99_05220
+            SAIU: J4H86_12310
+            TCU: Tcur_4075
+            ACTW: F7P10_11805
+            AGRA: AGRA3207_002960
+            AMAZ: LUW76_18155
+            ACIR: OG979_24040
+            SPIQ: OHA34_18505
+            ACTQ: OG417_07100
+            SRO: Sros_1376
+            NOA: BKM31_38790(fbiC)
+            NOW: GBF35_06580
+            NCX: Nocox_05935(mqnE)
+            NGN: LCN96_06620
+            NFS: OIE67_40380
+            TBI: Tbis_0746
+            MHAI: OHB01_17490
+            FRA: Francci3_0745
+            FRE: Franean1_5865
+            FAL: FRAAL1263
+            FSY: FsymDg_1082
+            FRI: FraEuI1c_6068
+            ACE: Acel_0769
+            NML: Namu_4262
+            NAK: EH165_03525
+            NAKA: H7F38_14650
+            GOB: Gobs_1483
+            BSD: BLASA_1295(fbiC)
+            BLAP: MVA48_07520 MVA48_08880
+            MMAR: MODMU_1466(fbiC)
+            KRA: Krad_3629 Krad_3632
+            SEN: SACE_6594
+            SACG: FDZ84_07940
+            AMD: AMED_6904(fbiC)
+            AMN: RAM_35420(fbiC)
+            AMM: AMES_6798(fbiC)
+            AMZ: B737_6798(fbiC)
+            AOI: AORI_1815(fbiC)
+            AJA: AJAP_30405(fbiC)
+            AMQ: AMETH_5642(fbiC)
+            AMYC: CU254_27985(fbiC)
+            AMYB: BKN51_01275(fbiC)
+            AAB: A4R43_34635(fbiC)
+            AMYY: YIM_43415(mqnE)
+            AORI: SD37_32150(fbiC)
+            AACD: LWP59_32540
+            APRT: MUY14_02010
+            AROO: NQK81_13895
+            ATHM: L1857_31135
+            ARHD: VSH64_23995
+            PDX: Psed_5307
+            PSEA: WY02_11900(fbiC)
+            PSEE: FRP1_02325(fbiC)
+            PSEH: XF36_01695(fbiC)
+            PSEQ: AD006_09945(fbiC)
+            PECQ: AD017_17775(fbiC)
+            PHH: AFB00_15685(fbiC)
+            PAUT: Pdca_57260(fbiC)
+            PBRO: HOP40_12740
+            PPEL: H6H00_12765
+            APRE: CNX65_31760(fbiC)
+            AMI: Amir_6472
+            SESP: BN6_77580(fbiC)
+            SSYI: EKG83_43130
+            KAL: KALB_8047
+            KUT: JJ691_85780(fbiC)
+            KBU: Q4V64_22495
+            KPHY: AOZ06_48880(fbiC)
+            LED: BBK82_18465(fbiC)
+            AHM: TL08_13605
+            ACTI: UA75_18405
+            ACAD: UA74_17915
+            AHG: AHOG_15900(mqnE)
+            ACTA: C1701_18075(fbiC)
+            ALO: CRK57346
+            PMAD: BAY61_03415(fbiC)
+            SACE: GIY23_19430
+            ACTU: Actkin_03687
+            CROS: N8J89_04080
+            UME: RM788_21350
+            STP: Strop_0946
+            SAQ: Sare_0888
+            MAU: Micau_0954
+            MIL: ML5_1202
+            MICB: MicB006_1000
+            MTUA: CSH63_19720(fbiC)
+            MICH: FJK98_05060
+            MTEM: GCE86_30280
+            MCAB: HXZ27_05710
+            MSAG: GCM10017556_35230(fbiC)
+            VMA: VAB18032_09475(fbiC)
+            MCRA: ID554_08055
+            VER: HUT12_05635
+            MENO: Jiend_19020(fbiC)
+            MCHL: PVK74_26035
+            MFEU: H1D33_11390
+            MPRN: Q3V37_02275
+            MHAW: RMN56_06860
+            ASE: ACPL_1050(fbiC)
+            AMS: AMIS_34700 AMIS_8560
+            ACTN: L083_1155(fbiC)
+            AFS: AFR_05660(fbiC)
+            ACTS: ACWT_0932
+            AIH: Aiant_52230(fbiC)
+            ACTR: Asp14428_35930(fbiC)
+            ACTL: L3i22_009090(fbiC)
+            ASIC: Q0Z83_079550
+            AOU: ACTOB_000877
+            PLAB: C6361_20395(fbiC)
+            PLAT: C6W10_23365(fbiC)
+            PFLA: Pflav_062050 Pflav_062060
+            PSUU: Psuf_023990 Psuf_024000
+            PRY: Prubr_13790(fbiC)
+            CATI: CS0771_04600(fbiC)
+            DVC: Dvina_48720
+            DFU: Dfulv_43300
+            DROS: Drose_33150
+            DAUR: Daura_46955
+            DMAT: Dmats_43260
+            NHY: JQS43_20520
+            CCAZ: COUCH_33970
+            CAI: Caci_8766
+            AEY: CDG81_19075(fbiC)
+            EKE: EK0264_11715
+            JTL: M6D93_14695
+            JCY: M6B22_08540
+            ABAI: IMCC26256_111175
+            RXY: Rxyl_0975
+            RRD: RradSPS_0884
+            RUB: GBA63_07155(cofH)
+            RMAR: GBA65_08975(cofH)
+            BSOL: FSW04_11700(cofH)
+            BALA: DSM104299_01943(fbiC)
+            CWO: Cwoe_4090 Cwoe_4147 Cwoe_4165
+            PARN: NBH00_07350(cofH)
+            SBAE: DSM104329_01345(fbiC_1) DSM104329_02932(fbiC_2)
+            PBAJ: LRS13_14345(cofH)
+            TALU: JDY09_03360(cofH)
+            AFO: Afer_0900
+            AYM: YM304_13120(fbiC)
+            ATQ: GH723_13920(cofH)
+            AQZ: KSP35_04415(cofH)
+            IAM: HC251_10875
+            IMA: PO878_10650
+            DHI: LH044_02515
+            KBS: EPA93_00450(cofH)
+            KBB: ccbrp13_11350(fbiC)
+            TBH: Tbon_00585(cofH)
+            TFLA: O0235_13590(cofH)
+            TTR: Tter_2623
+            TRO: trd_A0899(cofH) trd_A0900(cofG)
+            MICA: P0L94_12405(cofG)
+REFERENCE   PMID:11948155
+  AUTHORS   Choi KP, Kendrick N, Daniels L
+  TITLE     Demonstration that fbiC is required by Mycobacterium bovis BCG for coenzyme F(420) and FO biosynthesis.
+  JOURNAL   J Bacteriol 184:2420-8 (2002)
+            DOI:10.1128/JB.184.9.2420-2428.2002
+  SEQUENCE  [mbo:BQ2027_MB1206]
+///

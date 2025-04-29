@@ -1,0 +1,18 @@
+ENTRY       R13016                      Reaction
+NAME        glycine betaine,NADH:oxygen oxidoreductase (demethylating)
+DEFINITION  Betaine + NADH + H+ + Oxygen <=> N,N-Dimethylglycine + NAD+ + Formaldehyde + H2O
+EQUATION    C00719 + C00004 + C00080 + C00007 <=> C01026 + C00003 + C00067 + C00001
+RCLASS      RC00496  C00719_C01026
+ENZYME      1.14.13.251
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+MODULE      M00975  Betaine degradation, bacteria, betaine => pyruvate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.251
+                 R13016  Betaine + NADH + H+ + Oxygen <=> N,N-Dimethylglycine + NAD+ + Formaldehyde + H2O
+ORTHOLOGY   K00479  glycine betaine monooxygenase A [EC:1.14.13.251]
+            K21832  glycine betaine monooxygenase B [EC:1.14.13.251]
+///

@@ -1,0 +1,18 @@
+ENTRY       R12608                      Reaction
+NAME        GTP:3'-dephospho-CoA 3'-phosphotransferase
+DEFINITION  GTP + Dephospho-CoA <=> GDP + CoA
+EQUATION    C00044 + C00882 <=> C00035 + C00010
+RCLASS      RC00002  C00035_C00044
+            RC00078  C00010_C00882
+ENZYME      2.7.1.237
+PATHWAY     rn00770  Pantothenate and CoA biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00914  Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.237
+                 R12608  GTP + Dephospho-CoA <=> GDP + CoA
+ORTHOLOGY   K09735  GTP-dependent dephospho-CoA kinase [EC:2.7.1.237]
+///

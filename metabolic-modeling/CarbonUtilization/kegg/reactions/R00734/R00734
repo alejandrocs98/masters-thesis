@@ -1,0 +1,53 @@
+ENTRY       R00734                      Reaction
+NAME        L-tyrosine:2-oxoglutarate aminotransferase
+DEFINITION  L-Tyrosine + 2-Oxoglutarate <=> 3-(4-Hydroxyphenyl)pyruvate + L-Glutamate
+EQUATION    C00082 + C00026 <=> C01179 + C00025
+RCLASS      RC00006  C00025_C00026  C00082_C01179
+ENZYME      2.6.1.1         2.6.1.5         2.6.1.9         2.6.1.57
+PATHWAY     rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn00350  Tyrosine metabolism
+            rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn00401  Novobiocin biosynthesis
+            rn00950  Isoquinoline alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01230  Biosynthesis of amino acids
+MODULE      M00025  Tyrosine biosynthesis, chorismate => HPP => tyrosine
+            M00044  Tyrosine degradation, tyrosine => homogentisate
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.1
+                 R00734  L-Tyrosine + 2-Oxoglutarate <=> 3-(4-Hydroxyphenyl)pyruvate + L-Glutamate
+                2.6.1.5
+                 R00734  L-Tyrosine + 2-Oxoglutarate <=> 3-(4-Hydroxyphenyl)pyruvate + L-Glutamate
+                2.6.1.9
+                 R00734  L-Tyrosine + 2-Oxoglutarate <=> 3-(4-Hydroxyphenyl)pyruvate + L-Glutamate
+                2.6.1.57
+                 R00734  L-Tyrosine + 2-Oxoglutarate <=> 3-(4-Hydroxyphenyl)pyruvate + L-Glutamate
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.6.1.57
+               R03120  Aromatic amino acid <=> Aromatic oxo acid
+                R00734  L-Tyrosine <=> 3-(4-Hydroxyphenyl)pyruvate
+ORTHOLOGY   K00811  aspartate aminotransferase, chloroplastic [EC:2.6.1.1]
+            K00812  aspartate aminotransferase [EC:2.6.1.1]
+            K00813  aspartate aminotransferase [EC:2.6.1.1]
+            K00815  tyrosine aminotransferase [EC:2.6.1.5]
+            K00817  histidinol-phosphate aminotransferase [EC:2.6.1.9]
+            K00832  aromatic-amino-acid transaminase [EC:2.6.1.57]
+            K00838  aromatic amino acid aminotransferase I / 2-aminoadipate transaminase [EC:2.6.1.57 2.6.1.39 2.6.1.27 2.6.1.5]
+            K05821  aromatic amino acid aminotransferase II [EC:2.6.1.58 2.6.1.28]
+            K11358  aspartate aminotransferase [EC:2.6.1.1]
+            K14454  aspartate aminotransferase, cytoplasmic [EC:2.6.1.1]
+            K14455  aspartate aminotransferase, mitochondrial [EC:2.6.1.1]
+            K15849  bifunctional aspartate aminotransferase and glutamate/aspartate-prephenate aminotransferase [EC:2.6.1.1 2.6.1.78 2.6.1.79]
+REFERENCE   1  [PMID:11583838]
+  AUTHORS   Meganathan R
+  TITLE     Ubiquinone biosynthesis in microorganisms.
+  JOURNAL   FEMS Microbiol Lett 203:131-9 (2001)
+            DOI:10.1111/j.1574-6968.2001.tb10831.x
+DBLINKS     RHEA: 15096
+///

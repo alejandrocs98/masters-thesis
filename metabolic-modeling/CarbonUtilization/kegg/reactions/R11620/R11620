@@ -1,0 +1,20 @@
+ENTRY       R11620                      Reaction
+NAME        D-sorbitol:oxygen oxidoreductase
+DEFINITION  D-Sorbitol + Oxygen <=> alpha-D-Glucose + Hydrogen peroxide
+EQUATION    C00794 + C00007 <=> C00267 + C00027
+RCLASS      RC00108  C00267_C00794
+ENZYME      1.1.3.41
+PATHWAY     rn00051  Fructose and mannose metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.3  With oxygen as acceptor
+                1.1.3.41
+                 R11620  D-Sorbitol + Oxygen <=> alpha-D-Glucose + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.3.41
+               R11618  Alditol <=> Aldose
+                R11620  D-Sorbitol <=> alpha-D-Glucose
+ORTHOLOGY   K00594  alditol oxidase [EC:1.1.3.41]
+///

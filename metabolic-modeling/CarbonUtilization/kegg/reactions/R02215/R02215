@@ -1,0 +1,21 @@
+ENTRY       R02215                      Reaction
+NAME        5beta-pregnane-3,20-dione:(acceptor) delta4-oxidoreductase
+DEFINITION  5beta-Pregnane-3,20-dione + Acceptor <=> Progesterone + Reduced acceptor
+EQUATION    C05479 + C00028 <=> C00410 + C00030
+RCLASS      RC00145  C00410_C05479
+ENZYME      1.3.99.6
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.99  With unknown physiological acceptors
+                1.3.99.6
+                 R02215  5beta-Pregnane-3,20-dione + Acceptor <=> Progesterone + Reduced acceptor
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.3.99.6
+               R02642  3-Oxo-5beta-steroid <=> Acceptor
+                R02215  5beta-Pregnane-3,20-dione <=> Progesterone
+ORTHOLOGY   K00251  3-oxo-5-beta-steroid 4-dehydrogenase [EC:1.3.1.3]
+///

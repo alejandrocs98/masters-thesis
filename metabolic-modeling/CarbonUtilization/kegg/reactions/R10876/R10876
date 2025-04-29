@@ -1,0 +1,20 @@
+ENTRY       R10876                      Reaction
+NAME        dTDP-3-dimethylamino-3,4,6-trideoxy-alpha-D-glucopyranose:protomycinolide-IV 5-O-(3-dimethylamino-3,4,6-trideoxy-beta-D-glucosyl)transferase;
+            dTDP-D-desosamine:protomycinolide-IV 5-O-beta-D-desosaminyltransferase
+DEFINITION  dTDP-D-desosamine + Protomycinolide IV <=> Mycinamicin VIII + dTDP
+EQUATION    C11911 + C15685 <=> C15684 + C00363
+RCLASS      RC00005  C00363_C11911
+            RC00049  C15684_C15685
+ENZYME      2.4.1.-
+PATHWAY     rn00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00934  Mycinamicin biosynthesis, malonyl-CoA + methylmalonyl-CoA => protomycinolide IV => mycinamicin II
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.-
+                 R10876  dTDP-D-desosamine + Protomycinolide IV <=> Mycinamicin VIII + dTDP
+ORTHOLOGY   K24529  protomycinolide IV desosaminyltransferase [EC:2.4.1.-]
+///

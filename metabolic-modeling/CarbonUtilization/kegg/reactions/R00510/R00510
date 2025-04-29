@@ -1,0 +1,24 @@
+ENTRY       R00510                      Reaction
+NAME        cytidine-5'-monophosphate phosphoribohydrolase
+DEFINITION  CMP + H2O <=> Cytosine + D-Ribose 5-phosphate
+EQUATION    C00055 + C00001 <=> C00380 + C00117
+RCLASS      RC00063  C00055_C00380
+            RC00318  C00055_C00117
+ENZYME      3.2.2.10
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.2  Glycosylases
+               3.2.2  Hydrolysing N-glycosyl compounds
+                3.2.2.10
+                 R00510  CMP + H2O <=> Cytosine + D-Ribose 5-phosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.2.2.10
+               R02171  Pyrimidine 5'-nucleotide <=> Pyrimidine
+                R00510  CMP <=> Cytosine
+ORTHOLOGY   K06966  pyrimidine/purine-5'-nucleotide nucleosidase [EC:3.2.2.10 3.2.2.-]
+DBLINKS     RHEA: 30078
+///

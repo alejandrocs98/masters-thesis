@@ -1,0 +1,16 @@
+ENTRY       R09148                      Reaction
+DEFINITION  1,1,1-Trichloroethane + NADH + H+ + Oxygen <=> Trichloroethanol + NAD+ + H2O
+EQUATION    C18246 + C00004 + C00080 + C00007 <=> C07490 + C00003 + C00001
+COMMENT     soluble methane monooxygenase
+RCLASS      RC00001  C00003_C00004
+            RC01693  C07490_C18246
+ENZYME      1.14.13.25
+PATHWAY     rn00625  Chloroalkane and chloroalkene degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.25
+                 R09148  1,1,1-Trichloroethane + NADH + H+ + Oxygen <=> Trichloroethanol + NAD+ + H2O
+///

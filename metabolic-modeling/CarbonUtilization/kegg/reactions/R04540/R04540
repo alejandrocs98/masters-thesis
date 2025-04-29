@@ -1,0 +1,25 @@
+ENTRY       R04540                      Reaction
+NAME        coenzyme B:coenzyme M:methanophenazine oxidoreductase
+DEFINITION  Coenzyme M 7-mercaptoheptanoylthreonine-phosphate heterodisulfide + Dihydromethanophenazine <=> Coenzyme B + Coenzyme M + Methanophenazine
+EQUATION    C04832 + C11904 <=> C04628 + C03576 + C11903
+RCLASS      RC00011  C03576_C04832  C04628_C04832
+            RC02502  C11903_C11904
+ENZYME      1.8.98.1
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00356  Methanogenesis, methanol => methane
+            M00357  Methanogenesis, acetate => methane
+            M00563  Methanogenesis, methylamine/dimethylamine/trimethylamine => methane
+            M00567  Methanogenesis, CO2 => methane
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.98  With other, known, physiological acceptors
+                1.8.98.1
+                 R04540  Coenzyme M 7-mercaptoheptanoylthreonine-phosphate heterodisulfide + Dihydromethanophenazine <=> Coenzyme B + Coenzyme M + Methanophenazine
+ORTHOLOGY   K08264  heterodisulfide reductase subunit D [EC:1.8.98.1]
+            K08265  heterodisulfide reductase subunit E [EC:1.8.98.1]
+DBLINKS     RHEA: 18088
+///

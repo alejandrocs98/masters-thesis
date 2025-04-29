@@ -1,0 +1,23 @@
+ENTRY       R10929                      Reaction
+NAME        LysW:L-glutamate ligase (ADP-forming)
+DEFINITION  L-Glutamate + alpha-Aminoadipate carrier protein LysW + ATP <=> LysW-L-glutamate + ADP + Orthophosphate
+EQUATION    C00025 + C19885 + C00002 <=> C20948 + C00008 + C00009
+RCLASS      RC00002  C00002_C00008
+            RC00064  C00025_C20948
+            RC00090  C19885_C20948
+ENZYME      6.3.2.60
+PATHWAY     rn00220  Arginine biosynthesis
+            rn01100  Metabolic pathways
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01230  Biosynthesis of amino acids
+MODULE      M00763  Ornithine biosynthesis, mediated by LysW, glutamate => ornithine
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.60
+                 R10929  L-Glutamate + alpha-Aminoadipate carrier protein LysW + ATP <=> LysW-L-glutamate + ADP + Orthophosphate
+ORTHOLOGY   K19412  glutamate---[amino group carrier protein] ligase [EC:6.3.2.60]
+            K25032  alpha-aminoadipate-LysW ligase/glutamate-LysW ligase [EC:6.3.2.43 6.3.2.60]
+DBLINKS     RHEA: 52627
+///

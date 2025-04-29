@@ -1,0 +1,20 @@
+ENTRY       R05418                      Reaction
+DEFINITION  2,4,5-Trichlorophenoxyacetic acid + Oxygen + NADH + H+ <=> 2,4,5-Trichlorophenol + Glyoxylate + NAD+ + H2O
+EQUATION    C07100 + C00007 + C00004 + C00080 <=> C07101 + C00048 + C00003 + C00001
+COMMENT     2,4,5-trichlorophenoxyacetic acid oxygenase
+RCLASS      RC00001  C00003_C00004
+            RC01371  C00048_C07100
+            RC01372  C07100_C07101
+ENZYME      1.14.13.-
+PATHWAY     rn00361  Chlorocyclohexane and chlorobenzene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R05418  2,4,5-Trichlorophenoxyacetic acid + Oxygen + NADH + H+ <=> 2,4,5-Trichlorophenol + Glyoxylate + NAD+ + H2O
+ORTHOLOGY   K15243  2,4,5-trichlorophenoxyacetic acid oxygenase 1 [EC:1.14.13.-]
+            K15244  2,4,5-trichlorophenoxyacetic acid oxygenase 2 [EC:1.14.13.-]
+///

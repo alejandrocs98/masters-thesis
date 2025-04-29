@@ -1,0 +1,762 @@
+ENTRY       K05549                      KO
+SYMBOL      benA-xylX
+NAME        benzoate/toluate 1,2-dioxygenase subunit alpha [EC:1.14.12.10 1.14.12.-]
+PATHWAY     map00362  Benzoate degradation
+            map00364  Fluorobenzoate degradation
+            map00622  Xylene degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00551  Benzoate degradation, benzoate => catechol / methylbenzoate => methylcatechol
+REACTION    R05290  
+            R05291  
+            R05428  
+            R05621  
+            R05622  
+            R05665  
+            R08100  2-fluorobenzoate,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R08101  2-fluorobenzoate,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R08108  3-fluorobenzoate,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R08109  3-fluorobenzoate,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R08110  4-fluorobenzoate,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00362 Benzoate degradation
+                K05549  benA-xylX; benzoate/toluate 1,2-dioxygenase subunit alpha
+               00364 Fluorobenzoate degradation
+                K05549  benA-xylX; benzoate/toluate 1,2-dioxygenase subunit alpha
+               00622 Xylene degradation
+                K05549  benA-xylX; benzoate/toluate 1,2-dioxygenase subunit alpha
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.12  With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into the other donor
+                1.14.12.10  benzoate 1,2-dioxygenase
+                 K05549  benA-xylX; benzoate/toluate 1,2-dioxygenase subunit alpha
+            Dioxygenases [br01602.html]
+             Dioxygenases in aromatic ring cleavage
+              K05549
+DBLINKS     COG: COG4638
+            GO: 0018623 0018611
+GENES       EFE: EFER_1482(benA)
+            KPN: KPN_01872
+            KPU: KP1_2937(hcaE)
+            KPM: KPHS_28420
+            KPP: A79E_2373
+            KPH: KPNIH24_14195
+            KPZ: KPNIH27_13585
+            KPV: KPNIH29_14255
+            KPW: KPNIH30_14520
+            KPY: KPNIH31_13535
+            KPG: KPNIH32_14415
+            KPC: KPNIH10_14055
+            KPQ: KPR0928_14035
+            KPT: VK055_0611(cbdA)
+            KPO: KPN2242_12280
+            KPR: KPR_2937
+            KPJ: N559_2418
+            KPI: D364_09600
+            KPA: KPNJ1_02605
+            KPS: KPNJ2_02560
+            KPX: PMK1_04213(cbdA_2)
+            KPB: FH42_05435
+            KPNE: KU54_012100
+            KPNU: LI86_12035
+            KPNK: BN49_2972(benA)
+            KVA: Kvar_2432
+            KPE: KPK_2484(cbeA)
+            KPK: A593_24225
+            KVD: KR75_22160
+            KVQ: SP68_02905
+            KOC: AB185_22220
+            KQU: AVR78_18395
+            EAE: EAE_19895
+            EAR: CCG29901
+            KQV: B8P98_13145
+            KAR: LGL98_11640
+            KGR: JJJ10_14650
+            KLM: BWI76_13705
+            ROR: RORB6_06770
+            RON: TE10_13815
+            RPLN: B1209_13875
+            RAO: DSD31_13390
+            RTG: NCTC13098_03818(cbdA)
+            CSED: JY391_11100
+            CAF: AL524_15070
+            CFAR: CI104_13190
+            CIR: C2U53_22235
+            CTEL: GBC03_17300
+            EBT: EBL_c18130
+            PGE: LG71_16195
+            BUF: D8682_03290
+            IZH: FEM41_18125
+            PSGC: G163CM_11620(cbdA)
+            EBF: D782_2130
+            EBU: CUC76_01760
+            SMW: SMWW4_v1c30570(hcaE)
+            SMAF: D781_2847
+            SRZ: AXX16_2222
+            SERM: CLM71_14580
+            SFJ: SAMEA4384070_3087(cbdA)
+            SSUR: ATE40_011835
+            SRHZ: FO014_19080
+            SENP: KHA73_15005
+            SNEM: NLX84_15345
+            RBAD: H2866_19730
+            XSA: SB85_10155
+            PSD: DSC_14925
+            PWI: MWN52_14995
+            RBD: ALSL_1094 ALSL_1850
+            VNA: PN96_18350
+            VEJ: VEJY3_17911
+            VJP: NP165_16965
+            PAE: PA2518(xylX)
+            PAEV: N297_2589(benA)
+            PAEI: N296_2589(benA)
+            PAU: PA14_32080(xylX)
+            PAP: PSPA7_2719(benA)
+            PAG: PLES_27771(xylX)
+            PAF: PAM18_2521(xylX)
+            PNC: NCGM2_3523(xylX)
+            PAEB: NCGM1900_4009(xylX)
+            PDK: PADK2_12655
+            PSG: G655_12435
+            PRP: M062_13090
+            PAEP: PA1S_13055
+            PAER: PA1R_gp0312
+            PAEM: U769_12635
+            PAEL: T223_14255
+            PAES: SCV20265_2791
+            PAEU: BN889_02742(xylX)
+            PAEG: AI22_20865
+            PAEC: M802_2586(benA)
+            PAEO: M801_2454(benA)
+            PMK: MDS_4170
+            PRE: PCA10_30940(benA)
+            PFUW: KF707C_15490(bzaA1) KF707C_28470
+            PCQ: PcP3B5_23330(cbdA)
+            PNT: G5B91_12935(benA) G5B91_33225(benA)
+            PPAA: B7D75_12585(benA)
+            PPU: PP_3161(benA)
+            PPF: Pput_2554
+            PPG: PputGB1_2688
+            PPW: PputW619_2710
+            PPT: PPS_2765
+            PPB: PPUBIRD1_2572(benA)
+            PPI: YSA_10646
+            PPX: T1E_1063(benA)
+            PPUH: B479_13475
+            PPUT: L483_17660
+            PPUN: PP4_25370(benA) PP4_48210(benA)
+            PPUD: DW66_3025
+            PFV: Psefu_2023
+            PMON: X969_13175
+            PMOT: X970_12820
+            PPJ: RK21_01911
+            PALD: LU682_014720(benA)
+            PIX: RIN61_25030(benA)
+            PFL: PFL_3858(xylX)
+            PPRC: PFLCHA0_c39160(xylX2)
+            PPRO: PPC_3954
+            PFE: PSF113_2897(benA)
+            PFN: HZ99_02905
+            PFO: Pfl01_2321 Pfl01_2968(benA)
+            PMAN: OU5_6164
+            PAZO: AYR47_21830
+            PMUD: NCTC8068_02085(benA)
+            PFX: A7318_13930
+            PEN: PSEEN3143(benA)
+            PLUL: FOB45_00430
+            PBA: PSEBR_a2879
+            PPUU: PputUW4_03257(benA)
+            PDR: H681_11350
+            PSV: PVLB_12215(benA)
+            PKC: PKB_2100(xylX)
+            PCH: EY04_20410
+            PCZ: PCL1606_21630
+            PCP: JM49_10810
+            PCHP: C4K32_4173
+            PFZ: AV641_09785
+            PLQ: AA042_19035
+            PALK: PSAKL28_52420
+            PSES: PSCI_4809
+            PSEM: TO66_21105
+            PPSY: AOC04_06630
+            PSOS: POS17_3979
+            PFK: PFAS1_22845
+            PPSL: BJP27_02350
+            PSET: THL1_2892
+            PSIL: PMA3_10975
+            PYM: AK972_2993
+            PALL: UYA_06680 UYA_20420
+            PUM: HGP31_18605(benA)
+            PPSH: G5J76_17170(benA)
+            PGY: AWU82_15495(benA)
+            PLAL: FXN65_12605(benA)
+            PEZ: HWQ56_13950(benA)
+            PDW: BV82_2266(benA)
+            PZE: HU754_016985(benA)
+            PSEP: C4K39_5812
+            PPII: QL104_20260(benA)
+            PTZ: HU718_017535(benA)
+            PSHH: HU773_013505
+            PANH: HU763_012280(benA)
+            PAZE: KSS91_10635(benA)
+            PORY: EJA05_13835(benA)
+            PWZ: J7655_17900(benA)
+            PTK: EXN22_01385(benA)
+            PTW: TUM18999_29720(xylX)
+            PTAE: NCTC10697_02703(cbdA)
+            PGF: J0G10_14045(benA)
+            PCAV: D3880_08555(benA)
+            PPHN: HU825_11430(benA)
+            PIZ: LAB08_R37370(benA)
+            PSIH: LOY51_13775(benA)
+            PFIT: KJY40_13360(benA)
+            PASI: LG197_19400(benA)
+            PKM: PZ739_13770(benA)
+            PNB: NK667_09045(benA)
+            PSOA: PSm6_53140(xylX)
+            PTAI: ICN73_19830(benA)
+            PKK: QQ992_13235(benA)
+            PKJ: Q1W70_24425(benA)
+            PHYG: JTY93_12515
+            PHOM: KJF94_14055(benA)
+            PCHE: QYM18_03990(benA)
+            PCUC: PSH97_17080(benA)
+            PTRL: OU419_12600(benA)
+            PSJY: AA098_13765
+            PSA: PST_1667(benA)
+            PSZ: PSTAB_1578(benA)
+            PSR: PSTAA_1695(benA)
+            PSC: A458_09155
+            PSJ: PSJM300_08865
+            PSH: Psest_2699
+            PSTU: UIB01_13645
+            PSED: DM292_11240(benA)
+            PCHL: LLJ08_12945(benA)
+            PKG: LW136_09515(benA)
+            SDEG: GOM96_16675(benA)
+            AVN: Avin_08590(benA)
+            AVL: AvCA_08590(benA)
+            AVD: AvCA6_08590(benA)
+            ACX: Achr_32840(benA)
+            HPEG: EAO82_00595(benA)
+            PDEN: F1C79_04585(benA)
+            PBAU: OS670_01840(benA)
+            MHC: MARHY0278
+            MAD: HP15_1106
+            MSR: AU15_22115
+            MPQ: ABA45_01240
+            MARI: ACP86_11985
+            MANP: EHN06_02080
+            PCR: Pcryo_1267
+            PSO: PSYCG_06680
+            PALI: A3K91_1584
+            PSPG: AK823_05000
+            PSYG: AK825_05015
+            PSYP: E5677_05465(benA)
+            ACB: A1S_1215
+            ABM: ABSDF1497(benA)
+            ABY: ABAYE2555(benA)
+            ABC: ACICU_01192
+            ABN: AB57_1350
+            ABB: ABBFA_02333(cbdA)
+            ABX: ABK1_1647
+            ABZ: ABZJ_01351(benA)
+            ABR: ABTJ_02514
+            ABD: ABTW07_1379(benA)
+            ABH: M3Q_1571
+            ABAD: ABD1_12240(benA)
+            ABJ: BJAB07104_01362
+            ABAB: BJAB0715_01374
+            ABAJ: BJAB0868_01310
+            ABAZ: P795_11415
+            ABK: LX00_05850
+            ABAU: IX87_04575
+            ABAA: IX88_08145
+            ABW: BL01_13760
+            ACC: BDGL_000466(benA)
+            ANO: RR32_12255
+            ALC: OTEC02_12985
+            ACAL: BUM88_05795
+            ASEI: I8T81_13000(benA)
+            ACD: AOLE_13335
+            ACI: ACIAD1436(benA)
+            ATT: AMQ28_00615
+            AEI: AOY20_11300
+            AJO: RZ95_08900
+            ACW: A0J50_11635
+            ACV: AMD27_07860
+            AJN: BVL33_09960
+            ASOL: BEN76_06780
+            ASJ: AsACE_CH01474(benA)
+            AID: CTZ23_07115(benA)
+            ADV: DJ533_10805(benA)
+            ARJ: DOM24_07520(benA)
+            AWU: BEN71_06065(benA)
+            ACUM: C9E88_012195(benA)
+            AGU: AS4_23670(benA)
+            ALW: FOB21_01925(benA)
+            ADS: FPL17_10290(benA)
+            ABER: BSR55_11555
+            ATN: FM020_08950(benA)
+            ALJ: G8D99_08460(benA)
+            ATG: J4G44_08910(benA)
+            AVB: RYU24_15370(benA)
+            ABOU: ACBO_16020(benA)
+            AGYL: FPL18_02690(benA)
+            AVZ: HWI77_08280(benA)
+            ATZ: M5E07_08980(benA)
+            APRL: PY247_10085(benA)
+            AVIV: LF296_04300(benA)
+            ACIE: KIP84_12165(benA)
+            MOI: MOVS_09480
+            MNJ: LU290_09635(benA)
+            MHAC: LU276_00885(benA)
+            AMG: AMEC673_15515
+            ALR: DS731_05520
+            SPOI: IMCC21906_00399
+            CYQ: Q91_0500(benA) Q91_0968
+            CZA: CYCME_1636 CYCME_2119
+            CYY: CPC19_07890 CPC19_10555
+            CCAG: SR908_06650
+            HAK: KO116_00232 KO116_03899
+            HHU: AR456_17695
+            HSI: BOX17_05800 BOX17_05825
+            HHH: CLM76_07025 CLM76_07055
+            HBE: BEI_1516 BEI_1523
+            HSV: HNO53_19090
+            HPRO: LMS44_22945
+            HQD: K1Y77_14490
+            HBH: E4T21_01735
+            HASO: B2G49_18155
+            HPIZ: GYM47_16260 GYM47_16290
+            HNP: SR894_21515 SR894_21545
+            HCAM: I4484_18815
+            HSX: HNO51_18770
+            HTX: EKK97_21110
+            APAC: S7S_06960
+            MME: Marme_1561
+            MARS: A8C75_10495
+            MGEO: CFI10_04825(benA)
+            MSEC: LN244_11370(benA)
+            MRZ: KDW95_03770
+            ASIM: FE240_08785
+            OCE: GU3_01760
+            OPE: PU634_15415
+            ZDF: AN401_00180
+            GBI: PG2T_01050 PG2T_01260 PG2T_02300 PG2T_03675 PG2T_05405 PG2T_08365 PG2T_08590 PG2T_10265 PG2T_10535 PG2T_11060 PG2T_11240 PG2T_11245 PG2T_12130 PG2T_12865 PG2T_13075 PG2T_13080 PG2T_13175 PG2T_13345 PG2T_14885
+            VMS: LVJ82_06070(benA)
+            USU: LVJ78_07350(benA)
+            UTE: LVJ83_07945(benA)
+            PSE: NH8B_1750(benA)
+            RSC: RCFBP_11862(benA)
+            RSL: RPSI07_1887(benA)
+            RSN: RSPO_c01861
+            RSY: RSUY_19260(cbdA)
+            RSG: JK151_11730(benA)
+            RPI: Rpic_1364
+            RPF: Rpic12D_1428
+            RPJ: N234_37285
+            RMN: TK49_11680
+            RIN: ACS15_1757
+            RWE: KOL96_15095
+            REH: H16_A1963(benA)
+            CNC: CNE_1c19330(benA)
+            CUH: BJN34_08560(benA)
+            REU: Reut_B4403
+            RME: Rmet_4882(benA)
+            CBW: RR42_s0557
+            CCUP: BKK81_23205
+            CUP: BKK80_33085
+            CUU: BKK79_23970
+            CPAU: EHF44_23080
+            COX: E0W60_32250
+            CUK: KB879_22070(benA)
+            BMA: BMAA0187(benA)
+            BMV: BMASAVP1_1360(benA)
+            BML: BMA10229_1555(benA)
+            BMN: BMA10247_A0215(benA)
+            BMAL: DM55_3531(benA)
+            BMAE: DM78_4626(benA)
+            BMAQ: DM76_4228(benA)
+            BMAI: DM57_14440
+            BMAF: DM51_3938(benA)
+            BMAZ: BM44_3493(benA)
+            BMAB: BM45_4329(benA)
+            BPS: BPSS1903(benA)
+            BPL: BURPS1106A_A2581(benA)
+            BPD: BURPS668_A2725(benA)
+            BPSE: BDL_5309(benA)
+            BPSM: BBQ_4227(benA)
+            BPSU: BBN_5368(benA)
+            BPSD: BBX_4474(benA)
+            BPZ: BP1026B_II2043(benA)
+            BPQ: BPC006_II2544
+            BPK: BBK_4642(benA)
+            BPSH: DR55_5831(benA)
+            BPSA: BBU_4106(benA)
+            BPSO: X996_5629(benA)
+            BUT: X994_5192(benA)
+            BTE: BTH_II0473
+            BTQ: BTQ_3766(benA)
+            BTJ: BTJ_4797(benA)
+            BTZ: BTL_5583(benA)
+            BTD: BTI_5087(benA)
+            BTV: BTHA_4618(benA)
+            BTHE: BTN_5254(benA)
+            BTHM: BTRA_5524(benA)
+            BTHA: DR62_5383
+            BTHL: BG87_5599(benA)
+            BOK: DM82_6193(benA)
+            BOC: BG90_4471(benA)
+            BUU: WS70_27000
+            BSAV: WS86_28710
+            BHG: I6G56_27535(benA)
+            BUD: AQ610_29980
+            BVI: Bcep1808_5825
+            BVE: AK36_5308
+            BUR: Bcep18194_C7046
+            BCM: Bcenmc03_6131
+            BCH: Bcen2424_6524
+            BCJ: BCAS0496(benA)
+            BCEN: DM39_5091(cbdA)
+            BCEW: DM40_5135(cbdA)
+            BCEO: I35_7540(benA)
+            BAM: Bamb_6584
+            BAC: BamMC406_6299
+            BMJ: BMULJ_05287(benA)
+            BMU: Bmul_3238
+            BMK: DM80_4617(cbdA)
+            BMUL: NP80_3316
+            BCED: DM42_7060(cbdA)
+            BCEP: APZ15_36360
+            BDL: AK34_5718(cbdA)
+            BPYR: ABD05_32055
+            BCON: NL30_37465
+            BUB: BW23_4428(benA)
+            BDF: WI26_27665
+            BLAT: WK25_16355
+            BTEI: WS51_27250
+            BSEM: WJ12_16760
+            BPSL: WS57_00495
+            BMEC: WJ16_18195
+            BSTG: WT74_22625
+            BSTL: BBJ41_36450
+            BARI: NLX30_38115
+            BAEN: L3V59_35280
+            BUG: BC1001_1341
+            BGO: BM43_5501(cbdA)
+            BYI: BYI23_D002150
+            BUK: MYA_5338
+            BUE: BRPE67_DCDS03900
+            BUL: BW21_4622(benA)
+            BUQ: AC233_11090
+            BUM: AXG89_16430
+            BUI: AX768_26140
+            BURK: DM992_37895
+            BXE: Bxe_B0915(benA)
+            BXB: DR64_6236(benA)
+            BPH: Bphy_5352
+            BGE: BC1002_6180
+            BPX: BUPH_01848
+            BPY: Bphyt_1591
+            BUZ: AYM40_25990
+            BCAI: K788_0005749
+            PSPW: BJG93_32085(benA)
+            PARB: CJU94_35230 CJU94_37910
+            PHS: C2L64_29840 C2L64_48530
+            PTER: C2L65_18560
+            PCJ: CUJ87_08355
+            PTS: CUJ90_10095
+            PCAF: DSC91_002406
+            PTRO: G5S35_36195
+            PGIS: I6I06_20435
+            PACP: FAZ97_31375
+            PACS: FAZ98_17680
+            PDIO: PDMSB3_2243.1(benA)
+            PSAA: QEN71_10460(benA)
+            PKF: RW095_28355
+            PPAI: E1956_38625
+            PWU: A8O14_09105
+            PAND: DRB87_17045
+            CABA: SBC2_79720(cbdA)
+            BUO: BRPE64_DCDS08480
+            CABK: NK8_62360(cbeA)
+            TVL: FAZ95_35070(benA)
+            TCAR: U0034_22870(benA)
+            BPT: Bpet1399(benA)
+            ACHR: C2U31_10465
+            AFA: UZ73_17865
+            AFQ: AFA_08560
+            AAQU: D3M96_09780
+            AAMM: FE795_07775
+            OUR: CEQ07_11080
+            OUE: I6G29_06995
+            PIG: EGT29_00200 EGT29_23185 EGT29_24465
+            PNA: Pnap_2112
+            ACRA: BSY15_1219
+            CSER: CCO03_07055
+            CODO: LAD35_11970
+            DIH: G7047_12835
+            JAS: FJQ89_23195(benA)
+            HSE: Hsero_1308(cbeA)
+            HSZ: ACP92_06545
+            HRB: Hrubri_1093(cbeA2) Hrubri_1134(cbeA)
+            HHF: E2K99_06460
+            HFR: G5S34_06725
+            MASW: AM586_16555
+            MVAR: MasN3_08560(benA)
+            MLIR: LPB04_18860(benA)
+            MALI: EYF70_17215(benA)
+            MUM: FCL38_01205(benA)
+            TMJ: P0M04_19635(benA)
+            GLC: JQN73_16195(benA)
+            AON: DEH84_15060(benA)
+            RBU: PG1C_04385 PG1C_05650 PG1C_11580
+            DAR: Daro_2778
+            DDEN: KI615_11375(benA)
+            TMZ: Tmz1t_3096
+            THK: CCZ27_03200 CCZ27_06680 CCZ27_16255(benA)
+            THAG: CKCBHOJB_01557(cbdA)
+            AMIH: CO731_00669(cbdA)
+            ANJ: AMD1_0691(benA)
+            PHT: BLM14_21535
+            PLA: Plav_1761
+            SFH: SFHH103_03578
+            SFD: USDA257_c54450(cbdA)
+            SINO: SS05631_c27090
+            ESJ: SJ05684_b58690
+            EAK: EKH55_4344
+            EGI: PZN02_004571
+            STEG: QA637_26200
+            EAD: OV14_a1477
+            EAH: FA04_27045
+            ENP: JVX98_05230
+            AVF: RvVAR031_pl03310
+            RHK: Kim5_CH01088(benA)
+            RSUL: N2599_31275
+            ARA: Arad_12209
+            BRK: CWS35_34845
+            BGQ: X265_06285
+            BBET: F8237_17735
+            BEL: BE61_33710(benA)
+            BSEP: HAP48_0026140
+            BQB: J4P68_0009900
+            BAUT: QA635_12140
+            BBRA: QA636_11270
+            BPAH: QA639_32640
+            RPX: Rpdx1_0607
+            TALZ: RPMA_26275
+            BOS: BSY19_2044(benA)
+            XAU: Xaut_1134
+            LNE: FZC33_07210
+            MET: M446_1324
+            MNO: Mnod_2368
+            MEE: DA075_16985(benA)
+            MTEA: DK419_08700(benA)
+            MIND: mvi_57230(benA)
+            RUT: FIU92_22575(cbdA)
+            CMAR: IMCC12053_2586
+            CEH: CEW89_02905
+            SULD: B5M07_19105
+            RMM: ROSMUCSMR3_03739(cbdA)
+            ROK: RAK1035_2578
+            ROT: FIV09_19515(cbdA)
+            RMAI: MACH21_04280(benA)
+            PDE: Pden_1177
+            PCON: B0A89_14325
+            PZH: CX676_12375(benA)
+            PPAN: ESD82_01820
+            PLIA: E4191_03935(benA)
+            PALP: JHW40_08085
+            PFEO: E3U26_15385
+            TEC: AKL02_003780
+            LVR: T8T21_16910(benA)
+            NAR: Saro_0538 Saro_1680 Saro_3864
+            NPP: PP1Y_AT15610 PP1Y_AT31674 PP1Y_Mpl8190
+            NRE: BES08_19590(benA) BES08_30344
+            NOT: C7W88_11110
+            NOR: FA702_19330
+            NOG: GKE62_05145
+            NDR: HT578_08805
+            NHUM: PQ457_18330 PQ457_19790
+            SMAG: AN936_24270 AN936_25115
+            SMAZ: LH19_27465
+            SWI: Swit_2634
+            SPHD: HY78_12345
+            RDI: CMV14_15895
+            SPHM: G432_15100
+            SPHI: TS85_21695
+            SECH: B18_24665
+            SNAP: PQ455_02550 PQ455_03745
+            SSAG: KV697_00115
+            SSY: SLG_16640
+            SPHR: BSY17_107
+            SPHT: K426_21234
+            SYA: A6768_16790
+            SBAR: H5V43_22280
+            SPHY: CHN51_06915
+            BLAS: BSY18_3476 BSY18_3983
+            BFW: B5J99_01000 B5J99_08175
+            ACOB: P0Y56_15140
+            ALB: AEB_P2437
+            CNA: AB433_18180
+            ERY: CP97_14170
+            RGI: RGI145_20880
+            RMUC: FOB66_02965(benA)
+            AZL: AZL_a07340(benA)
+            AZM: DM194_25875(benA)
+            AZS: E6C72_15485(benA)
+            SMUC: JL100_027650(benA)
+            SROE: JL101_026005(benA)
+            PARH: I5S86_15045(benA)
+            MMC: Mmcs_1373
+            MKM: Mkms_1391
+            MJL: Mjls_1407
+            MDX: BTO20_25635
+            MSM: MSMEG_1908
+            MSG: MSMEI_1868
+            MSB: LJ00_09525
+            MSN: LI99_09525
+            MSH: LI98_09525
+            MGI: Mflv_1355
+            MSP: Mspyr1_48230
+            MCB: Mycch_0295
+            MVQ: MYVA_5335
+            MDU: MDUV_39980
+            MCHT: MCHIJ_49640
+            MPSC: MPSYJ_05840
+            MMAT: MMAGJ_48130
+            MFG: K6L26_22880(benA)
+            MMON: EWR22_07285(benA)
+            MHOL: K3U96_19000
+            MTER: 4434518_02877(cbdA)
+            CGL: Cgl2404(Cgl2404)
+            CGB: cg2637(benA)
+            CGU: WA5_2320(BenA)
+            CGT: cgR_2285
+            CGS: C624_11670
+            CGG: C629_11680
+            CGM: cgp_2637(benA)
+            CGJ: AR0_11510
+            CGQ: CGLAR1_11360
+            CGX: SB89_11165
+            CEF: CE2305
+            CHN: A605_11125
+            CCN: H924_10120
+            CMD: B841_10250
+            CII: CIMIT_11030
+            CMQ: B840_09740(benA)
+            CDX: CDES_10930(benA)
+            CSTA: CSTAT_12765
+            CCJZ: ccrud_10700
+            CAMG: CAMM_12500
+            CSUR: N24_2474
+            CCYS: SAMEA4530656_0418(cbdA)
+            CYZ: C3B44_09170(benA)
+            CCOE: CETAM_10385(cbdA)
+            COK: COCCU_10765(cbdA)
+            CCYC: SCMU_25410
+            CPOY: GP475_09395(benA)
+            CHIN: J5O04_00810(benA)
+            CFAC: CFAEC_10580(cbdA)
+            CATR: CATRI_09840(cbdA)
+            CGF: CGUA_10460(cbdA)
+            CSUE: QP029_00460(benA)
+            CBRE: QP027_08650(benA)
+            BFV: C628_11650
+            RHA: RHA1_ro02384(benA)
+            RQI: C1M55_27395(benA)
+            ROP: ROP_20980(benA)
+            ROA: Pd630_LPD06580
+            RPY: Y013_13585
+            RBY: CEJ39_00965(benA)
+            RAV: AAT18_24435
+            RRZ: CS378_14015(benA)
+            RHU: A3Q40_00992(cbdA)
+            RHQ: IM25_04930
+            RHOD: AOT96_07365
+            RRT: 4535765_04641(benA)
+            RCR: NCTC10994_02861(benA)
+            RKO: JWS14_12405(benA)
+            RGO: KYT97_17185(benA)
+            ROZ: CBI38_27115
+            RPSK: JWS13_33435(benA)
+            RGOR: NMQ04_19725(benA)
+            RHOP: D8W71_17905(benA)
+            GBR: Gbro_4158
+            GPO: GPOL_c38890(benA)
+            GOR: KTR9_4088
+            GTA: BCM27_21590
+            GOC: CXX93_01335(benA)
+            GRU: GCWB2_11195(cbdA2) GCWB2_20665(cbdA4)
+            GOM: D7316_01918(cbdA_1)
+            GAV: C5O27_07365(benA)
+            GOD: GKZ92_19830(benA)
+            GJI: H1R19_19990(benA)
+            GHN: MVF96_20355(benA)
+            GAMI: IHQ52_00435(benA)
+            GMG: NWF22_17225(benA)
+            GSI: P5P27_00385(benA)
+            TSM: ASU32_06540
+            DTM: BJL86_1205
+            DPC: A6048_05520
+            DLU: A6035_05585
+            DKN: NHB83_05185(benA)
+            SQZ: FQU76_02765(benA)
+            STSU: B7R87_02860
+            SVD: CP969_02135(benA)
+            ARU: ASPU41_14640
+            ARN: CGK93_10495(benA)
+            ACRY: AC20117_04375 AC20117_04970
+            ARTP: E5206_02250(benA)
+            AOD: Q8Z05_21360(benA)
+            APN: Asphe3_35160
+            PSUL: AU252_22725
+            PSNI: NIBR502771_06625(benA)
+            PSEY: GU243_07200(benA)
+            PDEL: JCQ34_18060(benA)
+            POK: SMD14_09420(benA)
+            GLU: F0M17_16135(benA)
+            KPL: KPaMU14_10920
+            KFV: AS188_00010
+            KRS: EQG70_04360(benA)
+            SATK: SA2016_0096
+            CIG: E7744_08345(benA)
+            PAEY: KUF55_15610(benA)
+            BEI: GCM100_37030
+            NRO: K8W59_01930(benA)
+            NPC: KUV85_12100(benA)
+            GOB: Gobs_1297
+            SEN: SACE_4379(benA)
+            AMQ: AMETH_2178(benA)
+            AMYC: CU254_24150(benA)
+            ATHM: L1857_13580(benA)
+            PSEE: FRP1_13045
+            PSEQ: AD006_20725
+            PECQ: AD017_00305
+            SACE: GIY23_06605(benA)
+            ACTY: OG774_04010(benA)
+            SHT: KO02_15960
+            FSE: DI487_06990
+            FAG: K5I29_09285
+            CSAL: NBC122_01819(cbdA)
+            CHRC: QGN23_05725
+            SSHI: J5U23_01786 J5U23_01796
+            SULO: GFS33_09955 GFS33_10010
+            AG: AAA26047(xylX)
+REFERENCE   PMID:1740120
+  AUTHORS   Neidle E, Hartnett C, Ornston LN, Bairoch A, Rekik M, Harayama S
+  TITLE     cis-diol dehydrogenases encoded by the TOL pWW0 plasmid xylL gene and the Acinetobacter calcoaceticus chromosomal benD gene are members of the short-chain alcohol dehydrogenase superfamily.
+  JOURNAL   Eur J Biochem 204:113-20 (1992)
+            DOI:10.1111/j.1432-1033.1992.tb16612.x
+  SEQUENCE  [ag:AAA26047]
+REFERENCE   PMID:1938949
+  AUTHORS   Harayama S, Rekik M, Bairoch A, Neidle EL, Ornston LN
+  TITLE     Potential DNA slippage structures acquired during evolutionary divergence of Acinetobacter calcoaceticus chromosomal benABC and Pseudomonas putida TOL pWW0 plasmid xylXYZ, genes encoding benzoate dioxygenases.
+  JOURNAL   J Bacteriol 173:7540-8 (1991)
+            DOI:10.1128/JB.173.23.7540-7548.1991
+///

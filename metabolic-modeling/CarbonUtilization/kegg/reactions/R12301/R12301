@@ -1,0 +1,17 @@
+ENTRY       R12301                      Reaction
+DEFINITION  o-Methoxyphenol + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Catechol + [Oxidized NADPH---hemoprotein reductase] + Formaldehyde + H2O
+EQUATION    C01502 + C03024 + C00007 <=> C00090 + C03161 + C00067 + C00001
+COMMENT     guaiacol O-demethylase
+RCLASS      RC00392  C00090_C01502
+ENZYME      1.14.14.-
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.-
+                 R12301  o-Methoxyphenol + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Catechol + [Oxidized NADPH---hemoprotein reductase] + Formaldehyde + H2O
+ORTHOLOGY   K23526  aromatic O-demethylase, cytochrome P450 subunit [EC:1.14.14.-]
+            K23527  aromatic O-demethylase, reductase subunit [EC:1.6.2.-]
+///

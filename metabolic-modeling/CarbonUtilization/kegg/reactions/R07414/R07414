@@ -1,0 +1,20 @@
+ENTRY       R07414                      Reaction
+NAME        glutamate putrescine ligase
+DEFINITION  ATP + L-Glutamate + Putrescine <=> ADP + Orthophosphate + gamma-L-Glutamylputrescine
+EQUATION    C00002 + C00025 + C00134 <=> C00008 + C00009 + C15699
+RCLASS      RC00002  C00002_C00008
+            RC00090  C00025_C15699
+            RC00096  C00134_C15699
+ENZYME      6.3.1.11
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+MODULE      M00136  GABA biosynthesis, prokaryotes, putrescine => GABA
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.1  Acid-D-ammonia (or amine) ligases (amide synthases)
+                6.3.1.11
+                 R07414  ATP + L-Glutamate + Putrescine <=> ADP + Orthophosphate + gamma-L-Glutamylputrescine
+ORTHOLOGY   K09470  gamma-glutamylputrescine synthase [EC:6.3.1.11]
+DBLINKS     RHEA: 13636
+///

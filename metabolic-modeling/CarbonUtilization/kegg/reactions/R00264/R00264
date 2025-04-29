@@ -1,0 +1,25 @@
+ENTRY       R00264                      Reaction
+NAME        2,5-dioxopentanoate:NADP+ 5-oxidoreductase
+DEFINITION  2,5-Dioxopentanoate + NADP+ + H2O <=> 2-Oxoglutarate + NADPH + H+
+EQUATION    C00433 + C00006 + C00001 <=> C00026 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00080  C00026_C00433
+ENZYME      1.2.1.3         1.2.1.26
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn00053  Ascorbate and aldarate metabolism
+            rn00470  D-Amino acid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00948  Hydroxyproline degradation, trans-4-hydroxy-L-proline => 2-oxoglutarate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.3
+                 R00264  2,5-Dioxopentanoate + NADP+ + H2O <=> 2-Oxoglutarate + NADPH + H+
+                1.2.1.26
+                 R00264  2,5-Dioxopentanoate + NADP+ + H2O <=> 2-Oxoglutarate + NADPH + H+
+ORTHOLOGY   K00128  aldehyde dehydrogenase (NAD+) [EC:1.2.1.3]
+            K13877  2,5-dioxopentanoate dehydrogenase [EC:1.2.1.26]
+            K19588  2,5-dioxopentanoate dehydrogenase [EC:1.2.1.26]
+DBLINKS     RHEA: 11299
+///

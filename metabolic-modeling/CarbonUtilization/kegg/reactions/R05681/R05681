@@ -1,0 +1,21 @@
+ENTRY       R05681                      Reaction
+NAME        NAD-dependent threonine 4-phosphate dehydrogenase
+DEFINITION  O-Phospho-4-hydroxy-L-threonine + NAD+ <=> 2-Amino-3-oxo-4-phosphonooxybutyrate + NADH + H+
+EQUATION    C06055 + C00003 <=> C07335 + C00004 + C00080
+COMMENT     first step of two-step reaction (see R05837, R05681+R07406)
+RCLASS      RC00001  C00003_C00004
+            RC00089  C06055_C07335
+ENZYME      1.1.1.262
+PATHWAY     rn00750  Vitamin B6 metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00124  Pyridoxal-P biosynthesis, erythrose-4P => pyridoxal-P
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.262
+                 R05681  O-Phospho-4-hydroxy-L-threonine + NAD+ <=> 2-Amino-3-oxo-4-phosphonooxybutyrate + NADH + H+
+ORTHOLOGY   K00097  4-hydroxythreonine-4-phosphate dehydrogenase [EC:1.1.1.262]
+DBLINKS     RHEA: 14456
+///

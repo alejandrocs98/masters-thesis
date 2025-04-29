@@ -1,0 +1,21 @@
+ENTRY       R00458                      Reaction
+NAME        N6-acetyl-L-lysine amidohydrolase
+DEFINITION  N6-Acetyl-L-lysine + H2O <=> Acetate + L-Lysine
+EQUATION    C02727 + C00001 <=> C00033 + C00047
+RCLASS      RC00096  C00047_C02727
+            RC00300  C00033_C02727
+ENZYME      3.5.1.17
+PATHWAY     rn00310  Lysine degradation
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.17
+                 R00458  N6-Acetyl-L-lysine + H2O <=> Acetate + L-Lysine
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.5.1.17
+               R00545  N6-Acyl-L-lysine <=> Carboxylate
+                R00458  N6-Acetyl-L-lysine <=> Acetate
+///

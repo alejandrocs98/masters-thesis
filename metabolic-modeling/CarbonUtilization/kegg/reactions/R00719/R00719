@@ -1,0 +1,28 @@
+ENTRY       R00719                      Reaction
+NAME        ITP phosphohydrolase
+DEFINITION  ITP + H2O <=> IDP + Orthophosphate
+EQUATION    C00081 + C00001 <=> C00104 + C00009
+RCLASS      RC00002  C00081_C00104
+ENZYME      3.6.1.5         3.6.1.73
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.5
+                 R00719  ITP + H2O <=> IDP + Orthophosphate
+                3.6.1.73
+                 R00719  ITP + H2O <=> IDP + Orthophosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.6.1.5
+               R02319  Nucleoside triphosphate <=> NDP
+                R00719  ITP <=> IDP
+ORTHOLOGY   K01510  apyrase [EC:3.6.1.5]
+            K01529  inosine/xanthosine triphosphatase [EC:3.6.1.73]
+            K14641  apyrase [EC:3.6.1.5]
+            K14642  golgi apyrase [EC:3.6.1.5]
+DBLINKS     RHEA: 28333
+///

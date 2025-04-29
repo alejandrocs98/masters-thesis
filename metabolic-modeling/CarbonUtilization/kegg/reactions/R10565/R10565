@@ -1,0 +1,18 @@
+ENTRY       R10565                      Reaction
+NAME        L-galactonate:NAD+ oxidoreductase
+DEFINITION  L-Galactonate + NAD+ <=> D-Galacturonate + NADH + H+
+EQUATION    C15930 + C00003 <=> C00333 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00108  C00333_C15930
+ENZYME      1.1.1.-
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn01100  Metabolic pathways
+MODULE      M00630  D-Galacturonate degradation (fungi), D-galacturonate => glycerol
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R10565  L-Galactonate + NAD+ <=> D-Galacturonate + NADH + H+
+ORTHOLOGY   K18106  D-galacturonate reductase [EC:1.1.1.-]
+///

@@ -1,0 +1,17 @@
+ENTRY       R04907                      Reaction
+NAME        3-hydroxykynurenamine:oxygen oxidoreductase(deaminating)(flavin-containing)
+DEFINITION  3-Hydroxykynurenamine + Oxygen <=> 4,8-Dihydroxyquinoline + Ammonia + Hydrogen peroxide
+EQUATION    C05636 + C00007 <=> C05637 + C00014 + C00027
+COMMENT     possibly intermediate
+RCLASS      RC02713  C05636_C05637
+            RC02755  C00007_C00027
+ENZYME      1.4.3.4
+PATHWAY     rn00380  Tryptophan metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.4
+                 R04907  3-Hydroxykynurenamine + Oxygen <=> 4,8-Dihydroxyquinoline + Ammonia + Hydrogen peroxide
+ORTHOLOGY   K00274  monoamine oxidase [EC:1.4.3.4]
+///

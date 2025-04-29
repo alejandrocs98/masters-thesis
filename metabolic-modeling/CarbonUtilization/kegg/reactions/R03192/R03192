@@ -1,0 +1,21 @@
+ENTRY       R03192                      Reaction
+NAME        UDP-N-acetylmuramate:NADP+ oxidoreductase
+DEFINITION  UDP-N-acetylmuramate + NADP+ <=> UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine + NADPH + H+
+EQUATION    C01050 + C00006 <=> C04631 + C00005 + C00080
+COMMENT     NAD+ (see R03191)
+RCLASS      RC00001  C00005_C00006
+            RC02639  C01050_C04631
+ENZYME      1.3.1.98
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00550  Peptidoglycan biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.98
+                 R03192  UDP-N-acetylmuramate + NADP+ <=> UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine + NADPH + H+
+ORTHOLOGY   K00075  UDP-N-acetylmuramate dehydrogenase [EC:1.3.1.98]
+DBLINKS     RHEA: 12251
+///

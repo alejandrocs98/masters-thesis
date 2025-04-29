@@ -1,0 +1,19 @@
+ENTRY       R00562                      Reaction
+NAME        N2-(D-1-carboxyethyl)-L-arginine:NAD+ oxidoreductase (L-arginine-forming)
+DEFINITION  Octopine + NAD+ + H2O <=> L-Arginine + Pyruvate + NADH + H+
+EQUATION    C04137 + C00003 + C00001 <=> C00062 + C00022 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00283  C00062_C04137
+            RC00581  C00022_C04137
+ENZYME      1.5.1.11
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.11
+                 R00562  Octopine + NAD+ + H2O <=> L-Arginine + Pyruvate + NADH + H+
+ORTHOLOGY   K23233  D-octopine dehydrogenase [EC:1.5.1.11]
+DBLINKS     RHEA: 16288
+///

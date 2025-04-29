@@ -1,0 +1,22 @@
+ENTRY       R00366                      Reaction
+NAME        glycine:oxygen oxidoreductase (deaminating);
+            aminoacetic acid:oxygen oxidoreductase (deaminating)
+DEFINITION  Glycine + H2O + Oxygen <=> Glyoxylate + Ammonia + Hydrogen peroxide
+EQUATION    C00037 + C00001 + C00007 <=> C00048 + C00014 + C00027
+RCLASS      RC00018  C00037_C00048
+            RC02755  C00007_C00027
+            RC02834  C00014_C00037
+ENZYME      1.4.3.3         1.4.3.19
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.3
+                 R00366  Glycine + H2O + Oxygen <=> Glyoxylate + Ammonia + Hydrogen peroxide
+                1.4.3.19
+                 R00366  Glycine + H2O + Oxygen <=> Glyoxylate + Ammonia + Hydrogen peroxide
+ORTHOLOGY   K00273  D-amino-acid oxidase [EC:1.4.3.3]
+DBLINKS     RHEA: 11535
+///

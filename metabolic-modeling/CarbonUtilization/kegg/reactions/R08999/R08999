@@ -1,0 +1,26 @@
+ENTRY       R08999                      Reaction
+DEFINITION  Psoralen + NADPH + Oxygen + H+ <=> Xanthotoxol + NADP+ + H2O
+EQUATION    C09305 + C00005 + C00007 + C00080 <=> C00841 + C00006 + C00001
+COMMENT     psoralen 8-monooxygenase
+RCLASS      RC00001  C00005_C00006
+ENZYME      1.14.14.-
+PATHWAY     rn00999  Biosynthesis of various plant secondary metabolites
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.-
+                 R08999  Psoralen + NADPH + Oxygen + H+ <=> Xanthotoxol + NADP+ + H2O
+ORTHOLOGY   K25523  cytochrome P450 family 71 subfamily AZ [EC:1.14.14.-]
+REFERENCE   1  [PMID:19098286]
+  AUTHORS   Larbat R, Hehn A, Hans J, Schneider S, Jugde H, Schneider B, Matern U, Bourgaud F
+  TITLE     Isolation and functional characterization of CYP71AJ4 encoding for the first P450 monooxygenase of angular furanocoumarin biosynthesis.
+  JOURNAL   J Biol Chem 284:4776-85 (2009)
+            DOI:10.1074/jbc.M807351200
+REFERENCE   2  [PMID:29971079]
+  AUTHORS   Krieger C, Roselli S, Kellner-Thielmann S, Galati G, Schneider B, Grosjean J, Olry A, Ritchie D, Matern U, Bourgaud F, Hehn A.
+  TITLE     The CYP71AZ P450 Subfamily: A Driving Factor for the Diversification of Coumarin  Biosynthesis in Apiaceous Plants.
+  JOURNAL   Front Plant Sci 9:820 (2018)
+            DOI:10.3389/fpls.2018.00820
+///

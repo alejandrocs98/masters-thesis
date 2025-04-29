@@ -1,0 +1,48 @@
+ENTRY       R04965                      Reaction
+NAME        (3R)-3-hydroxydodecanoyl-[acyl-carrier-protein] hydro-lyase
+DEFINITION  (3R)-3-Hydroxydodecanoyl-[acyl-carrier protein] <=> trans-Dodec-2-enoyl-[acp] + H2O
+EQUATION    C05757 <=> C05758 + C00001
+RCLASS      RC01095  C05757_C05758
+ENZYME      2.3.1.85        2.3.1.86        2.3.1.-         4.2.1.59        
+            4.2.1.-
+PATHWAY     rn00061  Fatty acid biosynthesis
+            rn01100  Metabolic pathways
+            rn01212  Fatty acid metabolism
+MODULE      M00083  Fatty acid biosynthesis, elongation
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.85
+                 R04965  (3R)-3-Hydroxydodecanoyl-[acyl-carrier protein] <=> trans-Dodec-2-enoyl-[acp] + H2O
+                2.3.1.86
+                 R04965  (3R)-3-Hydroxydodecanoyl-[acyl-carrier protein] <=> trans-Dodec-2-enoyl-[acp] + H2O
+                2.3.1.-
+                 R04965  (3R)-3-Hydroxydodecanoyl-[acyl-carrier protein] <=> trans-Dodec-2-enoyl-[acp] + H2O
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.59
+                 R04965  (3R)-3-Hydroxydodecanoyl-[acyl-carrier protein] <=> trans-Dodec-2-enoyl-[acp] + H2O
+                4.2.1.-
+                 R04965  (3R)-3-Hydroxydodecanoyl-[acyl-carrier protein] <=> trans-Dodec-2-enoyl-[acp] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             4. Lyase reactions
+              4.2.1.59
+               R10208  (3R)-3-Hydroxyacyl-[acyl-carrier protein] <=> trans-2,3-Dehydroacyl-[acyl-carrier protein]
+                R04965  (3R)-3-Hydroxydodecanoyl-[acyl-carrier protein] <=> trans-Dodec-2-enoyl-[acp]
+ORTHOLOGY   K00665  fatty acid synthase, animal type [EC:2.3.1.85]
+            K00668  fatty acid synthase subunit beta, fungi type [EC:2.3.1.86]
+            K01716  3-hydroxyacyl-[acyl-carrier protein] dehydratase / trans-2-decenoyl-[acyl-carrier protein] isomerase [EC:4.2.1.59 5.3.3.14]
+            K02372  3-hydroxyacyl-[acyl-carrier-protein] dehydratase [EC:4.2.1.59]
+            K11533  fatty acid synthase, bacteria type [EC:2.3.1.-]
+            K16363  UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase / 3-hydroxyacyl-[acyl-carrier-protein] dehydratase [EC:3.5.1.108 4.2.1.59]
+            K22540  3-hydroxyacyl-thioester dehydratase, animal type [EC:4.2.1.-]
+            K22541  3-hydroxyacyl-thioester dehydratase, fungi type [EC:4.2.1.-]
+REFERENCE   1  [PMID:27553474]
+  AUTHORS   Kastaniotis AJ, Autio KJ, Keratar JM, Monteuuis G, Makela AM, Nair RR, Pietikainen LP, Shvetsova A, Chen Z, Hiltunen JK
+  TITLE     Mitochondrial fatty acid synthesis, fatty acids and mitochondrial physiology.
+  JOURNAL   Biochim Biophys Acta Mol Cell Biol Lipids 1862:39-48 (2017)
+            DOI:10.1016/j.bbalip.2016.08.011
+DBLINKS     RHEA: 41879
+///

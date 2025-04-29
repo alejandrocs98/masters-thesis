@@ -1,0 +1,20 @@
+ENTRY       R02032                      Reaction
+NAME        6-phospho-2-dehydro-D-gluconate:NAD+ 2-oxidoreductase
+DEFINITION  6-Phospho-D-gluconate + NAD+ <=> 6-Phospho-2-dehydro-D-gluconate + NADH + H+
+EQUATION    C00345 + C00003 <=> C01218 + C00004 + C00080
+COMMENT     NADP+ (see R02034)
+RCLASS      RC00001  C00003_C00004
+            RC00084  C00345_C01218
+ENZYME      1.1.1.43
+PATHWAY     rn00030  Pentose phosphate pathway
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.43
+                 R02032  6-Phospho-D-gluconate + NAD+ <=> 6-Phospho-2-dehydro-D-gluconate + NADH + H+
+ORTHOLOGY   K00032  phosphogluconate 2-dehydrogenase [EC:1.1.1.43]
+DBLINKS     RHEA: 16824
+///

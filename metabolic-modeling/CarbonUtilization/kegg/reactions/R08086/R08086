@@ -1,0 +1,22 @@
+ENTRY       R08086                      Reaction
+NAME        geranial:NAD+ oxidoreductase
+DEFINITION  Geranial + NAD+ + H2O <=> Geranic acid + NADH + H+
+EQUATION    C01499 + C00003 + C00001 <=> C16461 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00218  C01499_C16461
+ENZYME      1.2.1.86
+PATHWAY     rn00907  Pinene, camphor and geraniol degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.86
+                 R08086  Geranial + NAD+ + H2O <=> Geranic acid + NADH + H+
+ORTHOLOGY   K17832  geranial dehydrogenase [EC:1.2.1.86]
+REFERENCE   1  [PMID:16272386]
+  AUTHORS   Hoschle B, Gnau V, Jendrossek D.
+  TITLE     Methylcrotonyl-CoA and geranyl-CoA carboxylases are involved in leucine/isovalerate utilization (Liu) and acyclic terpene utilization (Atu), and are encoded by liuB/liuD and atuC/atuF, in Pseudomonas aeruginosa.
+  JOURNAL   Microbiology 151:3649-56 (2005)
+            DOI:10.1099/mic.0.28260-0
+///

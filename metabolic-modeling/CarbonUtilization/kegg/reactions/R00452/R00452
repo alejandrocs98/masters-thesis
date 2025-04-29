@@ -1,0 +1,17 @@
+ENTRY       R00452                      Reaction
+NAME        N2-(D-1-carboxylethyl)-L-lysine:NADP+ oxidoreductase (L-lysine-forming)
+DEFINITION  D-Lysopine + NADP+ + H2O <=> L-Lysine + Pyruvate + NADPH + H+
+EQUATION    C04020 + C00006 + C00001 <=> C00047 + C00022 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00283  C00047_C04020
+            RC00581  C00022_C04020
+ENZYME      1.5.1.16
+PATHWAY     rn00310  Lysine degradation
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.16
+                 R00452  D-Lysopine + NADP+ + H2O <=> L-Lysine + Pyruvate + NADPH + H+
+DBLINKS     RHEA: 17628
+///

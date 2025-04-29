@@ -1,0 +1,23 @@
+ENTRY       R05586                      Reaction
+DEFINITION  3-Oxopimeloyl-CoA + CoA <=> Glutaryl-CoA + Acetyl-CoA
+EQUATION    C06715 + C00010 <=> C00527 + C00024
+RCLASS      RC00004  C00010_C00527
+            RC00326  C00024_C06715
+            RC02728  C00527_C06715
+ENZYME      2.3.1.16
+PATHWAY     rn00362  Benzoate degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.16
+                 R05586  3-Oxopimeloyl-CoA + CoA <=> Glutaryl-CoA + Acetyl-CoA
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.16
+               R00391  Acyl-CoA <=> 3-Oxoacyl-CoA
+                R05586  Glutaryl-CoA <=> 3-Oxopimeloyl-CoA
+ORTHOLOGY   K00632  acetyl-CoA acyltransferase [EC:2.3.1.16]
+///

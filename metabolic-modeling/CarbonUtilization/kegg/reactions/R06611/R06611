@@ -1,0 +1,26 @@
+ENTRY       R06611                      Reaction
+NAME        UDPglucose:flavonol 3-O-D-glucosyltransferase
+DEFINITION  Kaempferol + UDP-glucose <=> Kaempferol 3-O-glucoside + UDP
+EQUATION    C05903 + C00029 <=> C12249 + C00015
+COMMENT     flavonol 3-O-glucosyltransferase
+RCLASS      RC00005  C00015_C00029
+            RC00171  C05903_C12249
+ENZYME      2.4.1.91
+PATHWAY     rn00944  Flavone and flavonol biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.91
+                 R06611  Kaempferol + UDP-glucose <=> Kaempferol 3-O-glucoside + UDP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.1.91
+               R03267  Flavonol <=> Flavonol 3-O-beta-D-glucoside
+                R06611  Kaempferol <=> Kaempferol 3-O-glucoside
+            Glycosyltransferase reactions [BR:br08203]
+             Glucosyltransferase reactions
+              R06611  Glc b1- Kaempferol
+ORTHOLOGY   K10757  flavonol 3-O-glucosyltransferase [EC:2.4.1.91]
+///

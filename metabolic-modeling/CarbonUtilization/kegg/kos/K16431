@@ -1,0 +1,109 @@
+ENTRY       K16431                      KO
+SYMBOL      cepH, sgcC3, mdpC3, kedY3
+NAME        FAD-dependent halogenase [EC:1.14.19.-]
+PATHWAY     map01055  Biosynthesis of vancomycin group antibiotics
+            map01059  Biosynthesis of enediyne antibiotics
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00827  C-1027 beta-amino acid moiety biosynthesis, tyrosine => 3-chloro-4,5-dihydroxy-beta-phenylalanyl-PCP
+            M00832  Kedarcidin 2-aza-3-chloro-beta-tyrosine moiety biosynthesis, azatyrosine => 2-aza-3-chloro-beta-tyrosyl-PCP
+REACTION    R11368  (S)-beta-tyrosyl-[pcp]:FADH2 oxidoreductase
+            R11393  (R)-2-aza-beta-tyrosyl-[pcp]:FADH2 oxidoreductase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
+               01059 Biosynthesis of enediyne antibiotics
+                K16431  cepH, sgcC3, mdpC3, kedY3; FAD-dependent halogenase
+               01055 Biosynthesis of vancomycin group antibiotics
+                K16431  cepH, sgcC3, mdpC3, kedY3; FAD-dependent halogenase
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01008 Polyketide biosynthesis proteins
+                K16431  cepH, sgcC3, mdpC3, kedY3; FAD-dependent halogenase
+            Polyketide biosynthesis proteins [BR:ko01008]
+             Polyketide tailoring proteins
+              Halogenase
+               K16431  cepH, sgcC3, mdpC3, kedY3; FAD-dependent halogenase
+DBLINKS     COG: COG0644
+GENES       PPII: QL104_15920(cmlS)
+            SCU: SCE1572_25035
+            CCRO: CMC5_053240 CMC5_053840
+            PAUU: E8A73_042155
+            NANN: O0S08_10660
+            MBAI: MB901379_01065
+            NTP: CRH09_30915
+            NOZ: DMB37_37155
+            GPO: GPOL_c23630
+            GOM: D7316_00962(lodB)
+            GOI: LK459_21680
+            SGB: WQO_33760
+            SGRF: SGFS_011860
+            SRC: M271_00350 M271_09130
+            SMAL: SMALA_7763
+            SSOI: I1A49_42655
+            SBH: SBI_00676
+            STRE: GZL_07290
+            SPAV: Spa2297_32975
+            STRT: A8713_00440
+            SALW: CP975_22835 CP975_34455
+            SLS: SLINC_7264
+            SPLU: LK06_002690
+            SFK: KY5_1050c
+            SCYA: EJ357_01705 EJ357_41000
+            SVR: CP971_08125
+            SAQU: EJC51_07485
+            SRIM: CP984_06525
+            SFUG: CNQ36_25600
+            SCHA: CP983_01470 CP983_41755
+            SCOE: CP976_03650
+            SCYG: S1361_05250(lodB2_1)
+            SDUR: M4V62_39070
+            SAKB: K1J60_39795
+            SSPN: LXH13_04640
+            SYUN: MOV08_33755
+            SJN: RI060_39175
+            SKG: KJK29_36055
+            SCOA: QU709_04175
+            STRR: EKD16_14345(lodB)
+            AMAZ: LUW76_44530 LUW76_44640
+            NOA: BKM31_54195
+            NCX: Nocox_13395(noc24)
+            NGN: LCN96_07830
+            FRA: Francci3_2465
+            AOI: AORI_1485 AORI_5364
+            AJA: AJAP_16200 AJAP_22795
+            AMYY: YIM_16050(lodB)
+            AORI: SD37_16625 SD37_23460 SD37_33695
+            AROO: NQK81_11520
+            KUT: JJ691_30220
+            KBU: Q4V64_49195
+            ACTI: UA75_18105
+            ACAD: UA74_17580
+            ACTA: C1701_26510
+            SAQ: Sare_2119
+            AMS: AMIS_32430
+            ACTR: Asp14428_14200
+            ACTL: L3i22_035490
+            AOU: ACTOB_006402 ACTOB_006470 ACTOB_006472
+            PLK: CIK06_16755
+            DVC: Dvina_18580
+            DFU: Dfulv_14710
+            AG: ABY66006(mdpC3) AFV52210(kedY3)
+REFERENCE   PMID:24884615
+  AUTHORS   Xu L, Huang H, Wei W, Zhong Y, Tang B, Yuan H, Zhu L, Huang W, Ge M, Yang S, Zheng H, Jiang W, Chen D, Zhao GP, Zhao W
+  TITLE     Complete genome sequence and comparative genomic analyses of the vancomycin-producing Amycolatopsis orientalis.
+  JOURNAL   BMC Genomics 15:363 (2014)
+            DOI:10.1186/1471-2164-15-363
+  SEQUENCE  [aoi:AORI_1485]
+REFERENCE   PMID:17887753
+  AUTHORS   Lin S, Van Lanen SG, Shen B
+  TITLE     Regiospecific chlorination of (S)-beta-tyrosyl-S-carrier protein catalyzed by SgcC3 in the biosynthesis of the enediyne antitumor antibiotic C-1027.
+  JOURNAL   J Am Chem Soc 129:12432-8 (2007)
+            DOI:10.1021/ja072311g
+REFERENCE   PMID:12183628 (sgcC3)
+  AUTHORS   Liu W, Christenson SD, Standage S, Shen B
+  TITLE     Biosynthesis of the enediyne antitumor antibiotic C-1027.
+  JOURNAL   Science 297:1170-3 (2002)
+            DOI:10.1126/science.1072110
+  SEQUENCE  [sgb:WQO_33760]
+///

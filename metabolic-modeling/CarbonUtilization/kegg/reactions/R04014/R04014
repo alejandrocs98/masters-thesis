@@ -1,0 +1,25 @@
+ENTRY       R04014                      Reaction
+NAME        dodecanoyl-[acyl-carrier-protein] hydrolase
+DEFINITION  Dodecanoyl-[acyl-carrier protein] + H2O <=> Acyl-carrier protein + Dodecanoic acid
+EQUATION    C05223 + C00001 <=> C00229 + C02679
+RCLASS      RC00014  C02679_C05223
+            RC00039  C00229_C05223
+ENZYME      3.1.2.14        3.1.2.21
+PATHWAY     rn00061  Fatty acid biosynthesis
+            rn00333  Prodigiosin biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00838  Undecylprodigiosin biosynthesis, L-proline => undecylprodigiosin
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.2  Thioester hydrolases
+                3.1.2.14
+                 R04014  Dodecanoyl-[acyl-carrier protein] + H2O <=> Acyl-carrier protein + Dodecanoic acid
+                3.1.2.21
+                 R04014  Dodecanoyl-[acyl-carrier protein] + H2O <=> Acyl-carrier protein + Dodecanoic acid
+ORTHOLOGY   K01071  medium-chain acyl-[acyl-carrier-protein] hydrolase [EC:3.1.2.21]
+            K10781  fatty acyl-ACP thioesterase B [EC:3.1.2.14 3.1.2.21]
+            K21791  thioesterase
+DBLINKS     RHEA: 30122
+///

@@ -1,0 +1,19 @@
+ENTRY       R11371                      Reaction
+NAME        S-adenosyl-L-methionine:6-methylsalicylyl-CoA 3-C-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + 6-Methylsalicylyl-CoA <=> S-Adenosyl-L-homocysteine + 3,6-Dimethylsalicylyl-CoA
+EQUATION    C00019 + C21312 <=> C00021 + C21313
+RCLASS      RC00003  C00019_C00021
+            RC00332  C21312_C21313
+ENZYME      2.1.1.-
+PATHWAY     rn01059  Biosynthesis of enediyne antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00829  3,6-Dimethylsalicylyl-CoA biosynthesis, malonyl-CoA => 6-methylsalicylate => 3,6-dimethylsalicylyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.-
+                 R11371  S-Adenosyl-L-methionine + 6-Methylsalicylyl-CoA <=> S-Adenosyl-L-homocysteine + 3,6-Dimethylsalicylyl-CoA
+ORTHOLOGY   K21192  methyltransferase [EC:2.1.1.-]
+///

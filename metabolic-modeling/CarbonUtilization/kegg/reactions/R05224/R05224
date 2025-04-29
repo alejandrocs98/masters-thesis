@@ -1,0 +1,21 @@
+ENTRY       R05224                      Reaction
+DEFINITION  Hydrogenobyrinate + 2 L-Glutamine + 2 ATP + 2 H2O <=> Hydrogenobyrinate a,c diamide + 2 Orthophosphate + 2 L-Glutamate + 2 ADP
+EQUATION    C06399 + 2 C00064 + 2 C00002 + 2 C00001 <=> C06503 + 2 C00009 + 2 C00025 + 2 C00008
+COMMENT     multi-step reaction
+RCLASS      RC00002  C00002_C00008
+            RC00010  C00025_C00064
+            RC01301  C06399_C06503
+ENZYME      6.3.5.9
+PATHWAY     rn00860  Porphyrin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00925  Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.5  Carbon-nitrogen ligases with glutamine as amido-N-donor
+                6.3.5.9
+                 R05224  Hydrogenobyrinate + 2 L-Glutamine + 2 ATP + 2 H2O <=> Hydrogenobyrinate a,c diamide + 2 Orthophosphate + 2 L-Glutamate + 2 ADP
+ORTHOLOGY   K02224  cobyrinic acid a,c-diamide synthase [EC:6.3.5.9 6.3.5.11]
+DBLINKS     RHEA: 12547
+///

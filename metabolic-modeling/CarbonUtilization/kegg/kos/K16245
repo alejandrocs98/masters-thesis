@@ -1,0 +1,251 @@
+ENTRY       K16245                      KO
+SYMBOL      dmpO, poxE, tomA4
+NAME        phenol/toluene 2-monooxygenase (NADH) P4/A4 [EC:1.14.13.244 1.14.13.243]
+PATHWAY     map00361  Chlorocyclohexane and chlorobenzene degradation
+            map00362  Benzoate degradation
+            map00623  Toluene degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00548  Benzene degradation, benzene => catechol
+REACTION    R03560  toluene,NADH:oxygen oxidoreductase (2,3-dihydroxylating)
+            R03608  o-cresol,NADH:oxygen oxidoreductase (2,3-dihydroxylating)
+            R10042  benzene,NADH:oxygen oxidoreductase
+            R10043  phenol,NADH:oxygen oxidoreductase (2-hydroxylating)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00362 Benzoate degradation
+                K16245  dmpO, poxE, tomA4; phenol/toluene 2-monooxygenase (NADH) P4/A4
+               00361 Chlorocyclohexane and chlorobenzene degradation
+                K16245  dmpO, poxE, tomA4; phenol/toluene 2-monooxygenase (NADH) P4/A4
+               00623 Toluene degradation
+                K16245  dmpO, poxE, tomA4; phenol/toluene 2-monooxygenase (NADH) P4/A4
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.243  toluene 2-monooxygenase
+                 K16245  dmpO, poxE, tomA4; phenol/toluene 2-monooxygenase (NADH) P4/A4
+                1.14.13.244  phenol 2-monooxygenase (NADH)
+                 K16245  dmpO, poxE, tomA4; phenol/toluene 2-monooxygenase (NADH) P4/A4
+GENES       PSD: DSC_04420
+            RTH: LRK53_10155
+            RBD: ALSL_0897
+            PRE: PCA10_07000(dmpO)
+            PFUW: KF707C_6730(dmpO)
+            PCQ: PcP3B5_25340
+            PPG: PputGB1_3307
+            PPJ: RK21_04243
+            PVR: PverR02_14675
+            PKC: PKB_1745
+            PALK: PSAKL28_05910
+            PALL: UYA_20185
+            PUM: HGP31_14985
+            PLAL: FXN65_03430
+            PPHN: HU825_05000
+            PIZ: LAB08_R22520
+            PKM: PZ739_17295
+            PKK: QQ992_10230
+            PTRL: OU419_14780
+            AVN: Avin_08820(dmpO) Avin_30720(lapO)
+            AVL: AvCA_08820(dmpO) AvCA_30720(lapO)
+            AVD: AvCA6_08820(dmpO) AvCA6_30720(lapO)
+            HPEG: EAO82_09395
+            HAES: LO767_17640
+            PPHA: BVH74_06125
+            MAD: HP15_4028
+            MSR: AU15_20695
+            MLQ: ASQ50_09245
+            MSQ: BKP64_13880
+            MARJ: MARI_05370
+            MALL: PBN92_01640
+            MSHE: MAALD49_03370(mphO) MAALD49_03800(mphO)
+            MANP: EHN06_02415
+            PSPG: AK823_07305
+            PSYG: AK825_07400
+            ABK: LX00_05870
+            ABAU: IX87_04555
+            ACC: BDGL_000471(mphO)
+            ALC: OTEC02_12960
+            ASEI: I8T81_12975
+            ACD: AOLE_13315
+            AJO: RZ95_18645
+            ACW: A0J50_11615
+            ALA: BFG52_11015
+            ADV: DJ533_01820 DJ533_11010
+            AWU: BEN71_12700
+            AGU: AS4_16420(dsoE)
+            ABER: BSR55_16105
+            ACHI: CDG60_14315
+            ATG: J4G44_06380
+            ACIU: A3K93_13810
+            ACIE: KIP84_12140
+            AFUS: EYZ66_02630
+            CZA: CYCME_2108
+            BLEP: AL038_01330
+            THIS: HZT40_13290
+            TBN: TBH_C0909
+            MARS: A8C75_10410
+            MGEO: CFI10_13965
+            MSEC: LN244_11605
+            MRZ: KDW95_03650
+            NCU: F0U83_03020
+            NJP: NEJAP_0666(dmpO)
+            NIK: F5I99_10135
+            AJP: AMJAP_3007(dmpO)
+            SINI: GT972_13695
+            NZO: SAMEA4504057_0441
+            NCI: NCTC10296_00920
+            NWD: H3L96_04790
+            NDU: LVJ88_00565
+            VFF: VITFI_CDS1385
+            PTES: JQU52_04835
+            USU: LVJ78_03635
+            AQL: BXU06_12770 BXU06_16835
+            RPI: Rpic_4627
+            RPF: Rpic12D_3551
+            RPJ: N234_08125
+            REH: H16_B0543(poxE)
+            CNC: CNE_2c04890(poxE)
+            REU: Reut_A1703 Reut_B5684
+            RME: Rmet_1327(tomA4) Rmet_1783(phyD)
+            CBW: RR42_s2489
+            CCUP: BKK81_27065
+            CUP: BKK80_29255
+            CUU: BKK79_35205
+            COX: E0W60_07750
+            CCAX: KZ686_09960
+            CUK: KB879_20165
+            CNAN: A2G96_22745
+            BVI: Bcep1808_7597
+            BUR: Bcep18194_B2967
+            BCEN: DM39_4840(phO)
+            BCT: GEM_5409
+            BCED: DM42_4999(phO)
+            BCON: NL30_24630
+            BDF: WI26_15955
+            BTEI: WS51_00530
+            BPSL: WS57_12195
+            BSTL: BBJ41_10480
+            BANN: JFN94_19095
+            BAEN: L3V59_30365
+            BYI: BYI23_C000530
+            BUE: BRPE67_CCDS12540
+            BUZ: AYM40_16200
+            PARB: CJU94_38085
+            PTER: C2L65_07825
+            PPAI: E1956_29235
+            PPK: U875_01930
+            PRB: X636_07540
+            CABK: NK8_49970
+            LIMN: HKT17_03885
+            BOJ: CBF45_04545
+            APES: FOC84_00360
+            CDN: BN940_04346
+            AFA: UZ73_17850
+            AFQ: AFA_08535
+            AAQU: D3M96_09755
+            AAMM: FE795_07750
+            PIG: EGT29_26540
+            KGY: EHF36_04930
+            AJS: Ajs_0210
+            ACID: CBP33_01055
+            ACIP: CBP36_01155
+            ACIN: CBP34_01065
+            ACIS: CBP35_17795
+            AMON: H9L24_14240
+            VEI: Veis_2792
+            CTT: CtCNB1_3158
+            COF: FOZ74_08270
+            ADN: Alide_0327
+            ADK: Alide2_0274
+            OTD: J1M35_00085
+            HYL: LPB072_18145
+            HPSE: HPF_01910(tbuD)
+            HYN: F9K07_02715
+            HTN: KI616_02000
+            DIH: G7047_01710
+            DRG: H9K76_11605
+            SIMP: C6571_13585
+            MELA: C6568_07890
+            MJE: LVC68_00970
+            STHM: IS481_10495
+            SAQA: OMP39_09075
+            MPT: Mpe_A2281(dmpO) Mpe_A3305(dmpO)
+            METP: C1M51_06255 C1M51_06280 C1M51_15440
+            SNN: EWH46_19250
+            IDC: LRM40_19530
+            LCH: Lcho_3359
+            MASW: AM586_18625
+            MLIR: LPB04_16100
+            TMJ: P0M04_30690
+            RBU: PG1C_06890
+            DAR: Daro_3793
+            DEY: HYN24_14140 HYN24_14255
+            DDEN: KI615_16925
+            DECH: GBK02_02795
+            QAU: KI612_13865
+            FLE: KI610_15390 KI610_15505
+            AZO: azo1849(lapO) azo2440(poxE)
+            AOA: dqs_1999 dqs_2584
+            AZD: CDA09_10270 CDA09_10425
+            AZR: CJ010_12210 CJ010_15250
+            TMZ: Tmz1t_3112
+            THU: AC731_001780
+            THAU: C4PIVTH_2796(dmpO)
+            THK: CCZ27_10680 CCZ27_10785
+            THAG: CKCBHOJB_01542
+            AZQ: G3580_00485 G3580_01310 G3580_08225
+            MTUN: MTUNDRAET4_3885
+            MAAD: AZF01_11215
+            MLUT: JET14_11660
+            SMY: BJP26_18685
+            SHAN: PPZ50_08290
+            SJP: SJA_C1-12020(tomA4)
+            SINB: SIDU_08255
+            SYB: TZ53_09085
+            SUFL: FIL70_18930
+            SBAR: H5V43_20580
+            ACIB: ACBT_0276(dmpO)
+            AFC: AFAEC_1854(dmpO)
+            AAQI: AAQM_0973(dmpO)
+            ACLO: ACLO_a0151(dmpO)
+            ADZ: ADFLV_2565(dmpO)
+            ARC: ABLL_2456
+            AROS: NJU99_01610
+            ALK: ALEK_0374(dmpO)
+            AANA: AANAER_1249(dmpO)
+            SAY: TPY_0631
+            SAP: Sulac_3008
+            MSA: Mycsm_01967
+            MLL: B1R94_25100
+            GOQ: ACH46_03540
+            GOC: CXX93_06745
+            GAM: GII34_22045
+            GSI: P5P27_15495
+            TOY: FO059_13980
+            JTE: ASJ30_00075
+            JLI: EXU32_15390
+            JME: EEW87_015380
+            JCR: O9K63_12560
+            PHW: G7075_13210
+            AUS: IPK37_11625
+            TCU: Tcur_0527
+            AACD: LWP59_26110 LWP59_38100
+            ARHD: VSH64_31595
+            PDX: Psed_0767
+            AG: BAA23334(dsoE)
+REFERENCE   PMID:2254258
+  AUTHORS   Nordlund I, Powlowski J, Shingler V
+  TITLE     Complete nucleotide sequence and polypeptide analysis of multicomponent phenol hydroxylase from Pseudomonas sp. strain CF600.
+  JOURNAL   J Bacteriol 172:6826-33 (1990)
+            DOI:10.1128/jb.172.12.6826-6833.1990
+  SEQUENCE  [ppj:RK21_04243]
+REFERENCE   PMID:11751810
+  AUTHORS   Canada KA, Iwashita S, Shim H, Wood TK
+  TITLE     Directed evolution of toluene ortho-monooxygenase for enhanced 1-naphthol synthesis and chlorinated ethene degradation.
+  JOURNAL   J Bacteriol 184:344-9 (2002)
+            DOI:10.1128/jb.184.2.344-349.2002
+  SEQUENCE  [bvi:Bcep1808_7597]
+///

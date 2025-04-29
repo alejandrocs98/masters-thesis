@@ -1,0 +1,16 @@
+ENTRY       R08295                      Reaction
+NAME        monoethylglycinexylidide amidohydrolase
+DEFINITION  Monoethylglycinexylidide + H2O <=> 2,6-Dimethylaniline + N-Ethylglycine
+EQUATION    C16561 + C00001 <=> C11004 + C11735
+COMMENT     carboxylesterases (ec 3.1.1.1) also have some amidohydrolase activities
+RCLASS      RC00090  C11735_C16561
+            RC00416  C11004_C16561
+ENZYME      3.1.1.1
+PATHWAY     rn00982  Drug metabolism - cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.1
+                 R08295  Monoethylglycinexylidide + H2O <=> 2,6-Dimethylaniline + N-Ethylglycine
+///

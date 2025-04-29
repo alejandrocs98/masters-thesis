@@ -1,0 +1,20 @@
+ENTRY       R07667                      Reaction
+NAME        3-hydroxybenzaldehyde:NAD+ oxidoreductase
+DEFINITION  3-Hydroxybenzaldehyde + NAD+ + H2O <=> 3-Hydroxybenzoate + NADH + H+
+EQUATION    C03067 + C00003 + C00001 <=> C00587 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00075  C00587_C03067
+ENZYME      1.2.1.28        1.2.1.64
+PATHWAY     rn00623  Toluene degradation
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.28
+                 R07667  3-Hydroxybenzaldehyde + NAD+ + H2O <=> 3-Hydroxybenzoate + NADH + H+
+                1.2.1.64
+                 R07667  3-Hydroxybenzaldehyde + NAD+ + H2O <=> 3-Hydroxybenzoate + NADH + H+
+ORTHOLOGY   K00141  benzaldehyde dehydrogenase (NAD) [EC:1.2.1.28]
+///

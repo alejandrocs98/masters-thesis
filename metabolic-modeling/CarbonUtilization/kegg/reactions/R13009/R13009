@@ -1,0 +1,17 @@
+ENTRY       R13009                      Reaction
+NAME        isethionate:NAD+ oxidoreductase
+DEFINITION  2-Hydroxyethanesulfonate + NAD+ <=> Sulfoacetaldehyde + NADH + H+
+EQUATION    C05123 + C00003 <=> C00593 + C00004 + C00080
+COMMENT     NADPH (see R02600)
+RCLASS      RC00087  C00593_C05123
+ENZYME      1.1.1.433
+PATHWAY     rn00430  Taurine and hypotaurine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.433
+                 R13009  2-Hydroxyethanesulfonate + NAD+ <=> Sulfoacetaldehyde + NADH + H+
+ORTHOLOGY   K25985  sulfoacetaldehyde reductase (NADH) [EC:1.1.1.433]
+///

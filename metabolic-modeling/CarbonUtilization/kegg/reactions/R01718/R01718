@@ -1,0 +1,20 @@
+ENTRY       R01718                      Reaction
+NAME        isomaltose 6-alpha-D-glucanohydrolase
+DEFINITION  Isomaltose + H2O <=> alpha-D-Glucose + D-Glucose
+EQUATION    C00252 + C00001 <=> C00267 + C00031
+REMARK      Same as: R06080
+RCLASS      RC00059  C00031_C00252
+            RC00451  C00252_C00267
+ENZYME      3.2.1.10
+PATHWAY     rn00500  Starch and sucrose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.2  Glycosylases
+               3.2.1  Glycosidases, i.e. enzymes that hydrolyse O- and S-glycosyl compounds
+                3.2.1.10
+                 R01718  Isomaltose + H2O <=> alpha-D-Glucose + D-Glucose
+ORTHOLOGY   K01182  oligo-1,6-glucosidase [EC:3.2.1.10]
+            K01203  sucrase-isomaltase [EC:3.2.1.48 3.2.1.10]
+DBLINKS     RHEA: 68867
+///

@@ -1,0 +1,198 @@
+ENTRY       K14126                      KO
+SYMBOL      mvhA, vhuA, vhcA
+NAME        F420-non-reducing hydrogenase large subunit [EC:1.12.99.- 1.8.98.5]
+PATHWAY     map00680  Methane metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+MODULE      M00356  Methanogenesis, methanol => methane
+            M00357  Methanogenesis, acetate => methane
+            M00563  Methanogenesis, methylamine/dimethylamine/trimethylamine => methane
+            M00567  Methanogenesis, CO2 => methane
+REACTION    R00019  hydrogen:ferredoxin oxidoreductase
+            R11943  CoB,CoM,ferredoxin:H2 oxidoreductase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09102 Energy metabolism
+               00680 Methane metabolism
+                K14126  mvhA, vhuA, vhcA; F420-non-reducing hydrogenase large subunit
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.8  Acting on a sulfur group of donors
+               1.8.98  With other, known, physiological acceptors
+                1.8.98.5  H2:CoB-CoM heterodisulfide,ferredoxin reductase
+                 K14126  mvhA, vhuA, vhcA; F420-non-reducing hydrogenase large subunit
+DBLINKS     COG: COG3259
+GENES       CBX: Cenrod_2145(mvhA)
+            GSU: GSU2419(mvhL)
+            GSK: KN400_2367(mvhL)
+            GME: Gmet_3320(mvhL)
+            GAO: A2G06_05470
+            GBZ: JZM60_04505
+            GEM: GM21_3972
+            GEF: FO488_01245
+            GLO: Glov_1553
+            GBM: Gbem_3884(mvhL)
+            GBN: GEOBRER4_05360 GEOBRER4_37760(mvhL)
+            GPL: M1B72_04115
+            DAF: Desaf_1384
+            DSX: GD604_09550
+            DSD: GD606_02930
+            DRT: Dret_2258
+            DPS: DP1013
+            DLM: DPPLL_00630(mvhL) DPPLL_28970
+            DPR: Despr_0013 Despr_1744
+            DOG: HP555_09610
+            DBK: DGMP_00110(mvhL) DGMP_27970
+            DDU: GF1_18140
+            DAL: Dalk_4962
+            DAT: HRM2_11740(mvhA)
+            DWD: DSCW_36800 DSCW_39820
+            DEK: DSLASN_24080
+            SFU: Sfum_1791 Sfum_2221 Sfum_3537 Sfum_3954
+            TID: Thein_1784
+            TCM: HL41_09220
+            THET: F1847_06825 F1847_06855
+            TMAI: FVE67_04840
+            ADE: Adeh_4162
+            ACP: A2cp1_4314
+            AFW: Anae109_4306
+            ANK: AnaeK_4292
+            AORY: AMOR_22710
+            DAU: Daud_1651
+            TFR: BR63_10520
+            AACX: DEACI_0911
+            DGI: Desgi_1166
+            ADG: Adeg_2013
+            DET: DET0615
+            DEH: cbdbA597
+            DEB: DehaBAV1_0588
+            DEV: DhcVS_553(vhuA)
+            DEG: DehalGT_0550
+            DMC: btf_575(vhcA)
+            DMD: dcmb_621(vhcA)
+            DMG: GY50_0541(mvhA)
+            DMX: X792_02990
+            DMY: X793_02735
+            DMZ: X794_02475
+            DUC: UCH007_05370
+            DLY: Dehly_0726
+            DEW: DGWBC_1414
+            DFO: Dform_00937(mvhA|vhcA)
+            DETH: HX448_06315
+            PSUB: Pelsub_P0582
+            THUG: KNN16_08310
+            TNR: Thena_1327
+            TACI: TDSAC_1304
+            OTE: Oter_3680
+            TTF: THTE_4313
+            MSEA: METESE_06140
+            DTE: Dester_0375
+            CABY: Cabys_1914
+            TYE: THEYE_A1365
+            DTP: JZK55_01260
+            BANA: BARAN1_0335(mvhA)
+            BIH: BIP78_0151
+            SCHV: BRCON_0017
+            MJA: MJ_1192
+            MFE: Mefer_0240
+            MVU: Metvu_0716 Metvu_1488
+            MFS: MFS40622_0211 MFS40622_0823
+            MIF: Metin_0384
+            MJH: JH146_0651
+            MESG: MLAUSG7_1062(vhuA)
+            MESA: MLASG1_0718(vhuA)
+            MIG: Metig_0929 Metig_1197
+            MMP: MMP0823(vhcA) MMP1694(vhuA)
+            MMQ: MmarC5_0652 MmarC5_1712
+            MMX: MmarC6_0977
+            MMZ: MmarC7_0969
+            MMD: GYY_04775 GYY_09335
+            MMAK: MMKA1_09080(vhcA) MMKA1_19280(vhuA)
+            MMAO: MMOS7_08860(vhcA) MMOS7_18090(vhuA)
+            MMAD: MMJJ_01740(vhcA) MMJJ_11350(vhuA)
+            MAE: Maeo_0097 Maeo_1215
+            MVN: Mevan_0070 Mevan_0996
+            MVO: Mvol_0584 Mvol_1266
+            MOK: Metok_0183 Metok_0821
+            METF: CFE53_06775
+            MTH: MTH_1134
+            MMG: MTBMA_c15170(mvhA)
+            MWO: MWSIV6_1526(mvhA)
+            MTEE: MTTB_02840
+            METC: MTCT_1027
+            METE: tca_01090(hoxH)
+            METZ: METMT2_1146
+            METK: FVF72_05915
+            MTHM: FZP57_07305
+            METJ: FZP68_03370
+            MST: Msp_0316(mvhA)
+            METB: AW729_05505
+            MEIS: PXD04_05380
+            MRU: mru_1906(mvhA)
+            MSI: Msm_0999
+            MEB: Abm4_1510(mvhA)
+            MMIL: sm9_2011(mvhA)
+            MEYE: TL18_09240
+            MOL: YLM1_1362
+            MARO: MarbSA_15640
+            METV: K4897_06470
+            MEL: Metbo_0370 Metbo_0639
+            MEW: MSWAN_1717 MSWAN_2038
+            METH: MBMB1_1340(mvhA1) MBMB1_1661(mvhA3)
+            MFC: BRM9_0563(mvhA1) BRM9_0913(mvhA2)
+            MFI: DSM1535_0544(vhcA) DSM1535_0881(mvhA)
+            MCUB: MCBB_1580(vhcA) MCBB_1966(mvhA)
+            MSUB: BK009_05685 BK009_07305
+            METN: BK008_01230 BK008_02955
+            METT: CIT01_03550 CIT01_08175
+            METO: CIT02_09590 CIT02_11280
+            MEME: HYG87_04845 HYG87_10360
+            MFEG: GCM10025860_02570 GCM10025860_27250
+            MFV: Mfer_0729
+            MKA: MK0178 MK0266
+            AFU: AF_1372
+            AFG: AFULGI_00014840
+            APO: Arcpr_1550
+            AVE: Arcve_1570 Arcve_1855
+            AST: Asulf_01076
+            FPL: Ferp_0841
+            GAC: GACE_0711
+            GAH: GAH_02038
+            MEM: Memar_1007
+            MBG: BN140_1835(mvhA)
+            MEMA: MMAB1_2368(vhcA)
+            MCHK: MchiMG62_11310
+            MSUM: OH143_11760
+            MRC: R6Y96_08405
+            MPI: Mpet_2718
+            MEFW: F1737_11000
+            MAQE: RJ40_04300
+            MFK: E2N92_04465
+            MANQ: L1994_11490
+            MPD: MCP_2492(mvhA-1) MCP_2774(mvhA-2)
+            MEZ: Mtc_0109(mvhA-1) Mtc_2479(mvhA-2)
+            RCI: RCIX473(mvhA-1) RCIX590(mvhA-2)
+            NGE: Natgr_2863
+            TAR: TALC_00335
+            MAX: MMALV_03060
+            MER: MMINT_04840
+            MEAR: Mpt1_c10550(mvhA)
+            MEUZ: KRP56_01605
+            MARC: AR505_1476
+            PFM: Pyrfu_0271
+            PDL: Pyrde_1299
+            PABI: PABY_11740
+            KCR: Kcr_1119
+            BARC: AOA65_1722 AOA65_1885(mvhA)
+            BARB: AOA66_1505(mvhA_2)
+            LOKI: Lokiarch_45490
+            LOB: NEF87_001639
+            PSYT: DSAG12_03951(vhcA)
+REFERENCE   PMID:12856108
+  AUTHORS   Stojanowic A, Mander GJ, Duin EC, Hedderich R
+  TITLE     Physiological role of the F420-non-reducing hydrogenase (Mvh) from Methanothermobacter marburgensis.
+  JOURNAL   Arch Microbiol 180:194-203 (2003)
+            DOI:10.1007/s00203-003-0577-9
+  SEQUENCE  [mmg:MTBMA_c15170]
+///

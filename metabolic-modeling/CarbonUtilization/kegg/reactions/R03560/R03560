@@ -1,0 +1,24 @@
+ENTRY       R03560                      Reaction
+NAME        toluene,NADH:oxygen oxidoreductase (2,3-dihydroxylating)
+DEFINITION  Toluene + Oxygen + NADH + H+ <=> o-Cresol + NAD+ + H2O
+EQUATION    C01455 + C00007 + C00004 + C00080 <=> C01542 + C00003 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00046  C01455_C01542
+ENZYME      1.14.13.243
+PATHWAY     rn00623  Toluene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.243
+                 R03560  Toluene + Oxygen + NADH + H+ <=> o-Cresol + NAD+ + H2O
+ORTHOLOGY   K16242  phenol/toluene 2-monooxygenase (NADH) P3/A3 [EC:1.14.13.244 1.14.13.243]
+            K16243  phenol/toluene 2-monooxygenase (NADH) P1/A1 [EC:1.14.13.244 1.14.13.243]
+            K16244  phenol/toluene 2-monooxygenase (NADH) P2/A2 [EC:1.14.13.244 1.14.13.243]
+            K16245  phenol/toluene 2-monooxygenase (NADH) P4/A4 [EC:1.14.13.244 1.14.13.243]
+            K16246  phenol/toluene 2-monooxygenase (NADH) P5/A5 [EC:1.14.13.244 1.14.13.243]
+            K16249  phenol/toluene 2-monooxygenase (NADH) P0/A0
+///

@@ -1,0 +1,22 @@
+ENTRY       R05180                      Reaction
+NAME        S-adenosyl-L-methionine:precorrin-3B C17-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + Precorrin 3B <=> S-Adenosyl-L-homocysteine + Precorrin 4
+EQUATION    C00019 + C06406 <=> C00021 + C06407
+RCLASS      RC00003  C00019_C00021
+            RC01293  C06406_C06407
+ENZYME      2.1.1.131
+PATHWAY     rn00860  Porphyrin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00925  Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.131
+                 R05180  S-Adenosyl-L-methionine + Precorrin 3B <=> S-Adenosyl-L-homocysteine + Precorrin 4
+ORTHOLOGY   K05934  precorrin-3B C17-methyltransferase / cobalt-factor III methyltransferase [EC:2.1.1.131 2.1.1.272]
+            K13540  precorrin-2 C20-methyltransferase / precorrin-3B C17-methyltransferase [EC:2.1.1.130 2.1.1.131]
+            K13541  cobalt-precorrin 5A hydrolase / cobalt-factor III methyltransferase / precorrin-3B C17-methyltransferase [EC:3.7.1.12 2.1.1.272 2.1.1.131]
+DBLINKS     RHEA: 12764
+///

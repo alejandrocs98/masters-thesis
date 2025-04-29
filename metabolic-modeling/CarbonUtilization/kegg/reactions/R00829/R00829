@@ -1,0 +1,31 @@
+ENTRY       R00829                      Reaction
+NAME        succinyl-CoA:acetyl-CoA C-acyltransferase;
+            beta-ketoadipyl-CoA thiolase
+DEFINITION  Succinyl-CoA + Acetyl-CoA <=> CoA + 3-Oxoadipyl-CoA
+EQUATION    C00091 + C00024 <=> C00010 + C02232
+RCLASS      RC00004  C00010_C00091
+            RC00326  C00024_C02232
+ENZYME      2.3.1.16        2.3.1.174
+PATHWAY     rn00360  Phenylalanine metabolism
+            rn00362  Benzoate degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00878  Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.16
+                 R00829  Succinyl-CoA + Acetyl-CoA <=> CoA + 3-Oxoadipyl-CoA
+                2.3.1.174
+                 R00829  Succinyl-CoA + Acetyl-CoA <=> CoA + 3-Oxoadipyl-CoA
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.16
+               R00391  Acyl-CoA <=> 3-Oxoacyl-CoA
+                R00829  Succinyl-CoA <=> 3-Oxoadipyl-CoA
+ORTHOLOGY   K00632  acetyl-CoA acyltransferase [EC:2.3.1.16]
+            K02615  3-oxo-5,6-didehydrosuberyl-CoA/3-oxoadipyl-CoA thiolase [EC:2.3.1.223 2.3.1.174]
+            K07823  3-oxoadipyl-CoA thiolase [EC:2.3.1.174]
+DBLINKS     RHEA: 19484
+///

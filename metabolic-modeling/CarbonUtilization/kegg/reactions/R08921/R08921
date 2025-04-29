@@ -1,0 +1,18 @@
+ENTRY       R08921                      Reaction
+NAME        pheophorbide-a,ferredoxin:oxygen oxidoreductase (biladiene-forming)
+DEFINITION  Pheophorbide a + 2 Reduced ferredoxin + 2 H+ + Oxygen <=> Red chlorophyll catabolite + 2 Oxidized ferredoxin
+EQUATION    C18021 + 2 C00138 + 2 C00080 + C00007 <=> C18022 + 2 C00139
+COMMENT     two-step reaction (see R11227+R11228)
+RCLASS      RC03394  C18021_C18022
+ENZYME      1.14.15.17
+PATHWAY     rn00860  Porphyrin metabolism
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.15  With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.15.17
+                 R08921  Pheophorbide a + 2 Reduced ferredoxin + 2 H+ + Oxygen <=> Red chlorophyll catabolite + 2 Oxidized ferredoxin
+ORTHOLOGY   K13071  pheophorbide a oxygenase [EC:1.14.15.17]
+DBLINKS     RHEA: 48143
+///

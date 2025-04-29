@@ -1,0 +1,18 @@
+ENTRY       R07441                      Reaction
+NAME        sinapoyl aldehyde:NAD oxidoreductase
+DEFINITION  Sinapoyl aldehyde + NAD+ + H2O <=> Sinapate + NADH + H+
+EQUATION    C05610 + C00003 + C00001 <=> C00482 + C00004 + C00080
+COMMENT     see R07442 (NADP)
+RCLASS      RC00001  C00003_C00004
+            RC00218  C00482_C05610
+ENZYME      1.2.1.68
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.68
+                 R07441  Sinapoyl aldehyde + NAD+ + H2O <=> Sinapate + NADH + H+
+ORTHOLOGY   K12355  coniferyl-aldehyde dehydrogenase [EC:1.2.1.68]
+///

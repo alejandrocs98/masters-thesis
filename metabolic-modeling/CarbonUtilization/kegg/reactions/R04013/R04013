@@ -1,0 +1,22 @@
+ENTRY       R04013                      Reaction
+NAME        S-adenosyl-L-methionine:16-methoxy-2,3-dihydro-3-hydroxytabersonine N-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + 16-Methoxy-2,3-dihydro-3-hydroxytabersonine <=> S-Adenosyl-L-homocysteine + Desacetoxyvindoline
+EQUATION    C00019 + C04578 <=> C00021 + C02673
+COMMENT     irreversible
+            Ref:1. DEVLIN Biochemistry 5th, p.805
+RCLASS      RC00003  C00019_C00021
+            RC00113  C02673_C04578
+ENZYME      2.1.1.99
+PATHWAY     rn00901  Indole alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00965  Vindoline biosynthesis, tabersonine => vindoline
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.99
+                 R04013  S-Adenosyl-L-methionine + 16-Methoxy-2,3-dihydro-3-hydroxytabersonine <=> S-Adenosyl-L-homocysteine + Desacetoxyvindoline
+ORTHOLOGY   K21896  3-hydroxy-16-methoxy-2,3-dihydrotabersonine N-methyltransferase [EC:2.1.1.99]
+DBLINKS     RHEA: 11339
+///

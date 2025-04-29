@@ -1,0 +1,19 @@
+ENTRY       R01812                      Reaction
+NAME        5,6,7,8-tetrahydrobiopterin:NADP+ oxidoreductase
+DEFINITION  Tetrahydrobiopterin + 2 NADP+ <=> Biopterin + 2 NADPH + 2 H+
+EQUATION    C00272 + 2 C00006 <=> C06313 + 2 C00005 + 2 C00080
+RCLASS      RC00001  C00005_C00006
+            RC00601  C00272_C06313
+ENZYME      1.5.1.33
+PATHWAY     rn00790  Folate biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.33
+                 R01812  Tetrahydrobiopterin + 2 NADP+ <=> Biopterin + 2 NADPH + 2 H+
+ORTHOLOGY   K03793  pteridine reductase [EC:1.5.1.33]
+DBLINKS     RHEA: 19512
+///

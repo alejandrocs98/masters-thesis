@@ -1,0 +1,19 @@
+ENTRY       R09872                      Reaction
+NAME        S-adenosyl-L-methionine:trans-resveratrol 3,5-O-dimethyltransferase
+DEFINITION  2 S-Adenosyl-L-methionine + Resveratrol <=> 2 S-Adenosyl-L-homocysteine + Pterostilbene
+EQUATION    2 C00019 + C03582 <=> 2 C00021 + C10287
+COMMENT     two-step reaction (see R09870+R09871)
+RCLASS      RC00003  C00019_C00021
+            RC01558  C03582_C10287
+ENZYME      2.1.1.240
+PATHWAY     rn00945  Stilbenoid, diarylheptanoid and gingerol biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.240
+                 R09872  2 S-Adenosyl-L-methionine + Resveratrol <=> 2 S-Adenosyl-L-homocysteine + Pterostilbene
+ORTHOLOGY   K16040  trans-resveratrol di-O-methyltransferase [EC:2.1.1.240]
+DBLINKS     RHEA: 32106
+///

@@ -1,0 +1,17 @@
+ENTRY       R07727                      Reaction
+DEFINITION  o-Nitrobenzoate + 2 NADPH + 2 H+ <=> o-Hydroxylaminobenzoate + 2 NADP+ + H2O
+EQUATION    C16234 + 2 C00005 + 2 C00080 <=> C16235 + 2 C00006 + C00001
+COMMENT     nitrobenzoate nitroreductase: NbaA
+RCLASS      RC00001  C00005_C00006
+            RC00250  C16234_C16235
+ENZYME      1.7.1.-
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.7  Acting on other nitrogenous compounds as donors
+               1.7.1  With NAD+ or NADP+ as acceptor
+                1.7.1.-
+                 R07727  o-Nitrobenzoate + 2 NADPH + 2 H+ <=> o-Hydroxylaminobenzoate + 2 NADP+ + H2O
+ORTHOLOGY   K15055  2-nitrobenzoate nitroreductase [EC:1.7.1.-]
+///

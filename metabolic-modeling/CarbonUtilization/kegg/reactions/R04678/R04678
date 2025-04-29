@@ -1,0 +1,23 @@
+ENTRY       R04678                      Reaction
+NAME        16alpha-hydroxyandrost-4-ene-3,17-dione delta5-delat4-isomerase;
+            16alpha-hydroxydehydroepiandrosterone:NAD+ 3-oxidoreductase
+DEFINITION  16alpha-Hydroxyandrost-4-ene-3,17-dione + H+ + NADH <=> 16alpha-Hydroxydehydroepiandrosterone + NAD+
+EQUATION    C05140 + C00080 + C00004 <=> C05139 + C00003
+COMMENT     multi-step reaction (see R03176+R02644)
+RCLASS      RC00001  C00003_C00004
+            RC00146  C05139_C05140
+ENZYME      1.1.1.145       5.3.3.1
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.145
+                 R04678  16alpha-Hydroxyandrost-4-ene-3,17-dione + H+ + NADH <=> 16alpha-Hydroxydehydroepiandrosterone + NAD+
+             5. Isomerase reactions
+              5.3  Intramolecular oxidoreductases
+               5.3.3  Transposing C=C bonds
+                5.3.3.1
+                 R04678  16alpha-Hydroxyandrost-4-ene-3,17-dione + H+ + NADH <=> 16alpha-Hydroxydehydroepiandrosterone + NAD+
+ORTHOLOGY   K00070  3beta-hydroxy-Delta5-steroid dehydrogenase / steroid Delta-isomerase [EC:1.1.1.145 5.3.3.1]
+///

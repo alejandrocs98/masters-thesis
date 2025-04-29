@@ -1,0 +1,19 @@
+ENTRY       R05190                      Reaction
+NAME        acyl-CoA:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)
+DEFINITION  Acetyl-CoA + n Malonyl-CoA + 2n NADPH + 4n H+ <=> Long-chain acyl-CoA + n CoA + n CO2 + 2n NADP+ + n H2O
+EQUATION    C00024 + n C00083 + 2n C00005 + 4n C00080 <=> C02843 + n C00010 + n C00011 + 2n C00006 + n C00001
+COMMENT     multi-step reaction (see map00061)
+RCLASS      RC00001  C00005_C00006
+            RC00004  C00010_C00024
+ENZYME      2.3.1.86
+PATHWAY     rn00061  Fatty acid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.86
+                 R05190  Acetyl-CoA + n Malonyl-CoA + 2n NADPH + 4n H+ <=> Long-chain acyl-CoA + n CoA + n CO2 + 2n NADP+ + n H2O
+ORTHOLOGY   K00667  fatty acid synthase subunit alpha, fungi type [EC:2.3.1.86]
+            K00668  fatty acid synthase subunit beta, fungi type [EC:2.3.1.86]
+DBLINKS     RHEA: 22899
+///

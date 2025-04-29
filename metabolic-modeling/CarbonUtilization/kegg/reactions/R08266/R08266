@@ -1,0 +1,17 @@
+ENTRY       R08266                      Reaction
+NAME        tamoxifen,NADPH:oxygen oxidoreductase (N-oxide-forming)
+DEFINITION  Tamoxifen + Oxygen + NADPH + H+ <=> Tamoxifen N-oxide + NADP+ + H2O
+EQUATION    C07108 + C00007 + C00005 + C00080 <=> C16545 + C00006 + C00001
+COMMENT     FMO1,FMO3
+RCLASS      RC00001  C00005_C00006
+            RC02233  C07108_C16545
+ENZYME      1.14.13.8
+PATHWAY     rn00982  Drug metabolism - cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.8
+                 R08266  Tamoxifen + Oxygen + NADPH + H+ <=> Tamoxifen N-oxide + NADP+ + H2O
+ORTHOLOGY   K00485  dimethylaniline monooxygenase (N-oxide forming) / hypotaurine monooxygenase [EC:1.14.13.8 1.8.1.-]
+///

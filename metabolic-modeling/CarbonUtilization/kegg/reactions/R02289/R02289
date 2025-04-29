@@ -1,0 +1,31 @@
+ENTRY       R02289                      Reaction
+NAME        5-methyltetrahydrofolate:corrinoid/iron-sulfur protein methyltransferase;
+            [methyl-Co(III) glycine betaine-specific corrinoid protein]:tetrahydrofolate N-methyltransferase
+DEFINITION  5-Methyltetrahydrofolate + Co(I) corrinoid protein + H+ <=> Methyl-Co(III) corrinoid protein + Tetrahydrofolate
+EQUATION    C00440 + C06021 + C00080 <=> C06020 + C00101
+RCLASS      RC00113  C00101_C00440
+            RC01144  C06020_C06021
+            RC02871  C00440_C06020
+ENZYME      2.1.1.258       2.1.1.378       2.1.1.385       2.1.1.389
+PATHWAY     rn00670  One carbon pool by folate
+            rn00720  Carbon fixation pathways in prokaryotes
+            rn01100  Metabolic pathways
+MODULE      M00377  Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.258
+                 R02289  5-Methyltetrahydrofolate + Co(I) corrinoid protein + H+ <=> Methyl-Co(III) corrinoid protein + Tetrahydrofolate
+                2.1.1.378
+                 R02289  5-Methyltetrahydrofolate + Co(I) corrinoid protein + H+ <=> Methyl-Co(III) corrinoid protein + Tetrahydrofolate
+                2.1.1.385
+                 R02289  5-Methyltetrahydrofolate + Co(I) corrinoid protein + H+ <=> Methyl-Co(III) corrinoid protein + Tetrahydrofolate
+                2.1.1.389
+                 R02289  5-Methyltetrahydrofolate + Co(I) corrinoid protein + H+ <=> Methyl-Co(III) corrinoid protein + Tetrahydrofolate
+ORTHOLOGY   K15023  5-methyltetrahydrofolate corrinoid/iron sulfur protein methyltransferase [EC:2.1.1.258]
+            K25221  [methyl-Co(III) glycine betaine-specific corrinoid protein]---tetrahydrofolate methyltransferase [EC:2.1.1.378]
+            K25915  [methyl-Co(III) methoxylated-aromatic-compound-specific corrinoid protein]---tetrahydrofolate methyltransferase [EC:2.1.1.385]
+            K26930  [methyl-Co(III) quaternary-amine-specific corrinoid protein]---tetrahydrofolate methyltransferase [EC:2.1.1.389]
+DBLINKS     RHEA: 45203 66003
+///

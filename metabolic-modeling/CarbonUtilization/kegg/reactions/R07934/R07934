@@ -1,0 +1,24 @@
+ENTRY       R07934                      Reaction
+NAME        (6Z,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoyl-CoA:oxygen 2-oxidoreductase
+DEFINITION  (6Z,9Z,12Z,15Z,18Z,21Z)-Tetracosahexaenoyl-CoA + Oxygen <=> (2E,6Z,9Z,12Z,15Z,18Z,21Z)-Tetracosaheptaenoyl-CoA + Hydrogen peroxide
+EQUATION    C16168 + C00007 <=> C16374 + C00027
+RCLASS      RC00052  C16168_C16374
+            RC00126  C00016_C01352
+ENZYME      1.3.3.6
+PATHWAY     rn01040  Biosynthesis of unsaturated fatty acids
+            rn01100  Metabolic pathways
+            rn01212  Fatty acid metabolism
+MODULE      M00861  beta-Oxidation, peroxisome, VLCFA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.3  With oxygen as acceptor
+                1.3.3.6
+                 R07934  (6Z,9Z,12Z,15Z,18Z,21Z)-Tetracosahexaenoyl-CoA + Oxygen <=> (2E,6Z,9Z,12Z,15Z,18Z,21Z)-Tetracosaheptaenoyl-CoA + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.3.3.6
+               R00388  Acyl-CoA <=> trans-2,3-Dehydroacyl-CoA
+                R07934  (6Z,9Z,12Z,15Z,18Z,21Z)-Tetracosahexaenoyl-CoA <=> (2E,6Z,9Z,12Z,15Z,18Z,21Z)-Tetracosaheptaenoyl-CoA
+ORTHOLOGY   K00232  acyl-CoA oxidase [EC:1.3.3.6]
+///

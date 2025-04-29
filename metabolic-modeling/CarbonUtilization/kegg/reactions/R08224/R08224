@@ -1,0 +1,21 @@
+ENTRY       R08224                      Reaction
+NAME        selenophosphate:O-phospho-L-seryl-tRNA(Sec) selenium transferase
+DEFINITION  O-Phosphoseryl-tRNA(Sec) + Selenophosphoric acid + H2O <=> L-Selenocysteinyl-tRNA(Sec) + 2 Orthophosphate
+EQUATION    C16638 + C05172 + C00001 <=> C06482 + 2 C00009
+COMMENT     O-Phosphoseryl-tRNA:selenocysteinyl-tRNA synthase
+            multi-step reaction
+RCLASS      RC02965  C05172_C06482
+            RC02966  C06482_C16638
+ENZYME      2.9.1.2
+PATHWAY     rn00450  Selenocompound metabolism
+            rn00970  Aminoacyl-tRNA biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.9  Transferring selenium-containing groups
+               2.9.1  Selenotransferases
+                2.9.1.2
+                 R08224  O-Phosphoseryl-tRNA(Sec) + Selenophosphoric acid + H2O <=> L-Selenocysteinyl-tRNA(Sec) + 2 Orthophosphate
+ORTHOLOGY   K03341  O-phospho-L-seryl-tRNASec:L-selenocysteinyl-tRNA synthase [EC:2.9.1.2]
+DBLINKS     RHEA: 25044
+///

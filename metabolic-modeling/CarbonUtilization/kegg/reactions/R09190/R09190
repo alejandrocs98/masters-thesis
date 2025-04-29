@@ -1,0 +1,24 @@
+ENTRY       R09190                      Reaction
+NAME        6-methylpretetramide,NADPH:oxygen oxidoreductase (4,12a-hydroxylating)
+DEFINITION  6-Methylpretetramide + 2 NADPH + 2 H+ + 2 Oxygen <=> 4-Keto-anhydrotetracycline + 2 NADP+ + 2 H2O
+EQUATION    C06629 + 2 C00005 + 2 C00080 + 2 C00007 <=> C06627 + 2 C00006 + 2 C00001
+COMMENT     two-step reaction (see R05463+R05462)
+            bifunctional enzyme, OxyL
+RCLASS      RC00001  C00005_C00006
+            RC02460  C06627_C06629
+ENZYME      1.14.13.232     1.14.13.233
+PATHWAY     rn00253  Tetracycline biosynthesis
+            rn01057  Biosynthesis of type II polyketide products
+            rn01100  Metabolic pathways
+MODULE      M00780  Tetracycline/oxytetracycline biosynthesis, pretetramide => tetracycline/oxytetracycline
+            M00823  Chlortetracycline biosynthesis, pretetramide => chlortetracycline
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.232
+                 R09190  6-Methylpretetramide + 2 NADPH + 2 H+ + 2 Oxygen <=> 4-Keto-anhydrotetracycline + 2 NADP+ + 2 H2O
+                1.14.13.233
+                 R09190  6-Methylpretetramide + 2 NADPH + 2 H+ + 2 Oxygen <=> 4-Keto-anhydrotetracycline + 2 NADP+ + 2 H2O
+ORTHOLOGY   K14252  6-methylpretetramide 4-monooxygenase / 4-hydroxy-6-methylpretetramide 12a-monooxygenase [EC:1.14.13.232 1.14.13.233]
+///

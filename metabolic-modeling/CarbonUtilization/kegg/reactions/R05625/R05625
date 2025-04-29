@@ -1,0 +1,31 @@
+ENTRY       R05625                      Reaction
+NAME        ATP:phenol phosphotransferase (AMP-forming)
+DEFINITION  Phenol + ATP + H2O <=> Phenolic phosphate + AMP + Orthophosphate
+EQUATION    C00146 + C00002 + C00001 <=> C02734 + C00020 + C00009
+COMMENT     multi-step reaction
+            forming protein phosphohistidine intermediate
+RCLASS      RC00002  C00002_C00020
+            RC00151  C00146_C02734
+ENZYME      2.7.1.238
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.238
+                 R05625  Phenol + ATP + H2O <=> Phenolic phosphate + AMP + Orthophosphate
+ORTHOLOGY   K25936  phenol phosphorylase subunit alpha [EC:2.7.1.238]
+            K25937  phenol phosphorylase subunit beta [EC:2.7.1.238]
+            K25938  phenol phosphorylase subunit delta gamma [EC:2.7.1.238]
+REFERENCE   1  [PMID:18156265]
+  AUTHORS   Ding B, Schmeling S, Fuchs G.
+  TITLE     Anaerobic metabolism of catechol by the denitrifying bacterium Thauera aromatica--a result of promiscuous enzymes and regulators?
+  JOURNAL   J Bacteriol 190:1620-30 (2008)
+            DOI:10.1128/JB.01221-07
+REFERENCE   2  [PMID:16980461]
+  AUTHORS   Narmandakh A, Gad'on N, Drepper F, Knapp B, Haehnel W, Fuchs G.
+  TITLE     Phosphorylation of phenol by phenylphosphate synthase: role of histidine phosphate in catalysis.
+  JOURNAL   J Bacteriol 188:7815-22 (2006)
+            DOI:10.1128/JB.00785-06
+///

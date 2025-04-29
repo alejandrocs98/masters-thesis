@@ -1,0 +1,23 @@
+ENTRY       R02197                      Reaction
+NAME        L-isoleucine:oxygen oxidoreductase (deaminating)
+DEFINITION  L-Isoleucine + H2O + Oxygen <=> (S)-3-Methyl-2-oxopentanoic acid + Ammonia + Hydrogen peroxide
+EQUATION    C00407 + C00001 + C00007 <=> C00671 + C00014 + C00027
+RCLASS      RC00036  C00407_C00671
+            RC02755  C00007_C00027
+ENZYME      1.4.3.2
+PATHWAY     rn00280  Valine, leucine and isoleucine degradation
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.2
+                 R02197  L-Isoleucine + H2O + Oxygen <=> (S)-3-Methyl-2-oxopentanoic acid + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.2
+               R01259  L-Amino acid <=> 2-Oxo acid
+                R02197  L-Isoleucine <=> (S)-3-Methyl-2-oxopentanoic acid
+ORTHOLOGY   K03334  L-amino-acid oxidase [EC:1.4.3.2]
+DBLINKS     RHEA: 61235
+///

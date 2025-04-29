@@ -1,0 +1,19 @@
+ENTRY       R02555                      Reaction
+NAME        D-altronate:NAD+ 3-oxidoreductase
+DEFINITION  D-Altronate + NAD+ <=> D-Tagaturonate + NADH + H+
+EQUATION    C00817 + C00003 <=> C00558 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00085  C00558_C00817
+ENZYME      1.1.1.58
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn01100  Metabolic pathways
+MODULE      M00631  D-Galacturonate degradation (bacteria), D-galacturonate => pyruvate + D-glyceraldehyde 3P
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.58
+                 R02555  D-Altronate + NAD+ <=> D-Tagaturonate + NADH + H+
+ORTHOLOGY   K00041  tagaturonate reductase [EC:1.1.1.58]
+DBLINKS     RHEA: 17816
+///

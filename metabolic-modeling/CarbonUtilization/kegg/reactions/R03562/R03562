@@ -1,0 +1,23 @@
+ENTRY       R03562                      Reaction
+NAME        toluene,NADPH:oxogen oxidoreductase (3-hydroxylating)
+DEFINITION  Toluene + Oxygen + NADPH + H+ <=> 3-Cresol + NADP+ + H2O
+EQUATION    C01455 + C00007 + C00005 + C00080 <=> C01467 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00490  C01455_C01467
+ENZYME      1.14.13.-
+PATHWAY     rn00623  Toluene degradation
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R03562  Toluene + Oxygen + NADPH + H+ <=> 3-Cresol + NADP+ + H2O
+ORTHOLOGY   K15760  toluene monooxygenase system protein A [EC:1.14.13.236 1.14.13.-]
+            K15761  toluene monooxygenase system protein B [EC:1.14.13.236 1.14.13.-]
+            K15762  toluene monooxygenase system ferredoxin subunit
+            K15763  toluene monooxygenase system protein D [EC:1.14.13.236 1.14.13.-]
+            K15764  toluene monooxygenase system protein E [EC:1.14.13.236 1.14.13.-]
+            K15765  toluene monooxygenase electron transfer component [EC:1.18.1.3]
+///

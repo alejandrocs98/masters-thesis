@@ -1,0 +1,20 @@
+ENTRY       R05775                      Reaction
+NAME        UDP-6-sulfo-6-deoxyglucose sulfohydrolase
+DEFINITION  UDP-glucose + Sulfite <=> UDP-6-sulfoquinovose + H2O
+EQUATION    C00029 + C00094 <=> C11521 + C00001
+COMMENT     Requires NAD+, multi-step reaction
+RCLASS      RC01469  C00029_C11521
+ENZYME      3.13.1.1
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00561  Glycerolipid metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.13  Acting on carbon-sulfur bonds
+               3.13.1  Acting on carbon-sulfur bonds
+                3.13.1.1
+                 R05775  UDP-glucose + Sulfite <=> UDP-6-sulfoquinovose + H2O
+ORTHOLOGY   K06118  UDP-sulfoquinovose synthase [EC:3.13.1.1]
+DBLINKS     RHEA: 13200
+///

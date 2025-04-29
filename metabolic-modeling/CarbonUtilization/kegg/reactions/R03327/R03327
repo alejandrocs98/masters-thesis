@@ -1,0 +1,25 @@
+ENTRY       R03327                      Reaction
+NAME        17alpha-hydroxypregnenolone:NAD+ 3-oxidoreductase
+DEFINITION  17alpha-Hydroxypregnenolone + NAD+ <=> 17alpha-Hydroxyprogesterone + NADH + H+
+EQUATION    C05138 + C00003 <=> C01176 + C00004 + C00080
+COMMENT     NADP+ (see R03328)
+            multi-step reaction (see R03176+R02644)
+RCLASS      RC00001  C00003_C00004
+            RC00146  C01176_C05138
+ENZYME      1.1.1.145       5.3.3.1
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00977  C19-Steroid hormone biosynthesis (androgen backdoor pathway), pregnenolone => androsterone => dihydrotestosterone
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.145
+                 R03327  17alpha-Hydroxypregnenolone + NAD+ <=> 17alpha-Hydroxyprogesterone + NADH + H+
+             5. Isomerase reactions
+              5.3  Intramolecular oxidoreductases
+               5.3.3  Transposing C=C bonds
+                5.3.3.1
+                 R03327  17alpha-Hydroxypregnenolone + NAD+ <=> 17alpha-Hydroxyprogesterone + NADH + H+
+ORTHOLOGY   K00070  3beta-hydroxy-Delta5-steroid dehydrogenase / steroid Delta-isomerase [EC:1.1.1.145 5.3.3.1]
+///

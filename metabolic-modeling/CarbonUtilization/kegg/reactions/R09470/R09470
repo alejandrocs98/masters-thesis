@@ -1,0 +1,18 @@
+ENTRY       R09470                      Reaction
+NAME        long-chain-primary-alcohol:NADP+ oxidoreductase (CoA-acylating)
+DEFINITION  Long-chain acyl-CoA + 2 NADPH + 2 H+ <=> Primary alcohol + 2 NADP+ + CoA
+EQUATION    C02843 + 2 C00005 + 2 C00080 <=> C00226 + 2 C00006 + C00010
+COMMENT     fatty acyl-CoA reductase (alcohol-forming)
+RCLASS      RC00001  C00005_C00006
+            RC00004  C00010_C02843
+ENZYME      1.2.1.84
+PATHWAY     rn00073  Cutin, suberine and wax biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.84
+                 R09470  Long-chain acyl-CoA + 2 NADPH + 2 H+ <=> Primary alcohol + 2 NADP+ + CoA
+ORTHOLOGY   K13356  alcohol-forming fatty acyl-CoA reductase [EC:1.2.1.84]
+DBLINKS     RHEA: 36306
+///

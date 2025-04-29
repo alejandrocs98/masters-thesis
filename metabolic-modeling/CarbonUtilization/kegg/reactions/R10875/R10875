@@ -1,0 +1,20 @@
+ENTRY       R10875                      Reaction
+NAME        mycinamicin-VIII,NADPH:oxygen oxidoreductase (21-hydroxylating)
+DEFINITION  Mycinamicin VIII + NADPH + Oxygen + H+ <=> Mycinamicin VII + NADP+ + H2O
+EQUATION    C15684 + C00005 + C00007 + C00080 <=> C15683 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC03228  C15683_C15684
+ENZYME      1.14.13.-
+PATHWAY     rn00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00934  Mycinamicin biosynthesis, malonyl-CoA + methylmalonyl-CoA => protomycinolide IV => mycinamicin II
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R10875  Mycinamicin VIII + NADPH + Oxygen + H+ <=> Mycinamicin VII + NADP+ + H2O
+ORTHOLOGY   K24292  mycinamicin VIII C21 methyl hydroxylase [EC:1.14.-.-]
+            K24530  ferredoxin
+///

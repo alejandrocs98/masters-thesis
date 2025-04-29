@@ -1,0 +1,81 @@
+ENTRY       K15017                      KO
+SYMBOL      K15017
+NAME        malonyl-CoA/succinyl-CoA reductase (NADPH) [EC:1.2.1.75 1.2.1.76]
+PATHWAY     map00720  Carbon fixation pathways in prokaryotes
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+MODULE      M00374  Dicarboxylate-hydroxybutyrate cycle
+            M00375  Hydroxypropionate-hydroxybutylate cycle
+REACTION    R00740  3-oxopropanoate:NADP+ oxidoreductase (CoA-malonylating)
+            R09280  succinate-semialdehyde:NADP+ oxidoreductase (CoA-acylating)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09102 Energy metabolism
+               00720 Carbon fixation pathways in prokaryotes
+                K15017  K15017; malonyl-CoA/succinyl-CoA reductase (NADPH)
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.75  malonyl-CoA reductase (malonate semialdehyde-forming)
+                 K15017  K15017; malonyl-CoA/succinyl-CoA reductase (NADPH)
+                1.2.1.76  succinate-semialdehyde dehydrogenase (acylating)
+                 K15017  K15017; malonyl-CoA/succinyl-CoA reductase (NADPH)
+DBLINKS     COG: COG0136
+GENES       STO: STK_21710(mcr_scr)
+            SOH: D1869_11875(asd)
+            SSO: SSO2178(asd-2)
+            SOL: Ssol_2908
+            SSOA: SULA_2921(asd)
+            SSOL: SULB_2921(asd)
+            SSOF: SULC_2918(asd)
+            SSHI: J5U23_00989
+            SCAS: SACC_21720
+            SAI: Saci_2147 Saci_2370
+            SACN: SacN8_10450 SacN8_11535
+            SACR: SacRon12I_10705 SacRon12I_11780
+            SACS: SUSAZ_09800 SUSAZ_11160
+            SIS: LS215_2961
+            SIA: M1425_2796
+            SIM: M1627_2848
+            SID: M164_2777
+            SIY: YG5714_2976
+            SIN: YN1551_3167
+            SII: LD85_3126
+            SIH: SiH_2755
+            SIR: SiRe_2691
+            SIC: SiL_2637
+            SULA: BFU36_10310
+            SULE: GFS03_01510(asd)
+            SULO: GFS33_06710(asd)
+            SULL: EWF20_13035(asd)
+            MSE: Msed_0709
+            MEMJ: MJ1HA_0819
+            MCN: Mcup_1427
+            MHK: DFR87_03300(asd)
+            MPRU: DFR88_03035(asd)
+            MTEN: GWK48_08305(asd)
+            MJN: MjAS7_1475
+            AHO: Ahos_2348
+            AMAN: B6F84_02355
+            ABRI: DFR85_01565(asd)
+            ASUL: DFR86_02340(asd)
+            AAMB: D1866_06835(asd)
+            ACIH: HS5_12500
+            SAZO: D1868_09095(asd)
+            CSTY: KN1_05910
+            STEP: IC006_0038
+            SMET: RQ359_001521(asd)
+REFERENCE   PMID:18079405
+  AUTHORS   Berg IA, Kockelkorn D, Buckel W, Fuchs G
+  TITLE     A 3-hydroxypropionate/4-hydroxybutyrate autotrophic carbon dioxide assimilation pathway in Archaea.
+  JOURNAL   Science 318:1782-6 (2007)
+            DOI:10.1126/science.1149976
+  SEQUENCE  [mse:Msed_0709]
+REFERENCE   PMID:21169482
+  AUTHORS   Ramos-Vera WH, Weiss M, Strittmatter E, Kockelkorn D, Fuchs G
+  TITLE     Identification of missing genes and enzymes for autotrophic carbon fixation in crenarchaeota.
+  JOURNAL   J Bacteriol 193:1201-11 (2011)
+            DOI:10.1128/JB.01156-10
+///

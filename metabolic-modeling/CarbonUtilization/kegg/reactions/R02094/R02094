@@ -1,0 +1,21 @@
+ENTRY       R02094                      Reaction
+NAME        ATP:dTMP phosphotransferase
+DEFINITION  ATP + dTMP <=> ADP + dTDP
+EQUATION    C00002 + C00364 <=> C00008 + C00363
+RCLASS      RC00002  C00002_C00008  C00363_C00364
+ENZYME      2.7.4.9         2.7.4.12
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00938  Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.9
+                 R02094  ATP + dTMP <=> ADP + dTDP
+                2.7.4.12
+                 R02094  ATP + dTMP <=> ADP + dTDP
+ORTHOLOGY   K00943  dTMP kinase [EC:2.7.4.9]
+DBLINKS     RHEA: 13520
+///

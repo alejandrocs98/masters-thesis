@@ -1,0 +1,21 @@
+ENTRY       R07279                      Reaction
+NAME        ATP:1D-myo-inositol 3-phosphotransferase;
+            ATP:1L-myo-inositol 1-phosphotransferase
+DEFINITION  ATP + myo-Inositol <=> ADP + 1D-myo-Inositol 3-phosphate
+EQUATION    C00002 + C00137 <=> C00008 + C04006
+COMMENT     also called "ATP:myo-inositol 1-phosphotransferase" on old nomenclature system of inositol numbering
+RCLASS      RC00002  C00002_C00008
+            RC00078  C00137_C04006
+ENZYME      2.7.1.64
+PATHWAY     rn00562  Inositol phosphate metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.64
+                 R07279  ATP + myo-Inositol <=> ADP + 1D-myo-Inositol 3-phosphate
+ORTHOLOGY   K19517  1D-myo-inositol 3-kinase [EC:2.7.1.64]
+DBLINKS     RHEA: 21807
+///

@@ -1,0 +1,19 @@
+ENTRY       R02196                      Reaction
+NAME        L-isoleucine:NAD+ oxidoreductase(deaminating)
+DEFINITION  L-Isoleucine + NAD+ + H2O <=> (S)-3-Methyl-2-oxopentanoic acid + Ammonia + NADH + H+
+EQUATION    C00407 + C00003 + C00001 <=> C00671 + C00014 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00036  C00407_C00671
+ENZYME      1.4.1.9
+PATHWAY     rn00290  Valine, leucine and isoleucine biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.1  With NAD+ or NADP+ as acceptor
+                1.4.1.9
+                 R02196  L-Isoleucine + NAD+ + H2O <=> (S)-3-Methyl-2-oxopentanoic acid + Ammonia + NADH + H+
+ORTHOLOGY   K00263  leucine dehydrogenase [EC:1.4.1.9]
+DBLINKS     RHEA: 32962
+///

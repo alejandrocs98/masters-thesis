@@ -1,0 +1,20 @@
+ENTRY       R00528                      Reaction
+NAME        sulfite:ferricytochrome-c oxidoreductase
+DEFINITION  Sulfite + H2O + 2 Ferricytochrome c <=> Sulfate + 2 Ferrocytochrome c + 2 H+
+EQUATION    C00094 + C00001 + 2 C00125 <=> C00059 + 2 C00126 + 2 C00080
+RCLASS      RC00016  C00125_C00126
+            RC00168  C00059_C00094
+ENZYME      1.8.2.1
+PATHWAY     rn00920  Sulfur metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.2  With a cytochrome as acceptor
+                1.8.2.1
+                 R00528  Sulfite + H2O + 2 Ferricytochrome c <=> Sulfate + 2 Ferrocytochrome c + 2 H+
+ORTHOLOGY   K00386  sulfite dehydrogenase (cytochrome) subunit B [EC:1.8.2.1]
+            K05301  sulfite dehydrogenase (cytochrome) subunit A [EC:1.8.2.1]
+DBLINKS     RHEA: 14284
+///

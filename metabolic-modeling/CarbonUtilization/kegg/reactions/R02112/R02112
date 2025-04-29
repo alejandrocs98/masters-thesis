@@ -1,0 +1,27 @@
+ENTRY       R02112                      Reaction
+NAME        1,4-alpha-D-glucan maltohydrolase
+DEFINITION  Starch <=> Dextrin + Maltose
+EQUATION    C00369 <=> C00721 + C00208
+COMMENT     ec 3.2.1.1 and 3.2.1.133 form alpha-maltose [CPD:C00897]
+            ec 3.2.1.2 forms beta-maltose [CPD:C01971]
+ENZYME      3.2.1.1         3.2.1.2         3.2.1.133
+PATHWAY     rn00500  Starch and sucrose metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.2  Glycosylases
+               3.2.1  Glycosidases, i.e. enzymes that hydrolyse O- and S-glycosyl compounds
+                3.2.1.1
+                 R02112  Starch <=> Dextrin + Maltose
+                3.2.1.2
+                 R02112  Starch <=> Dextrin + Maltose
+                3.2.1.133
+                 R02112  Starch <=> Dextrin + Maltose
+ORTHOLOGY   K01176  alpha-amylase [EC:3.2.1.1]
+            K01177  beta-amylase [EC:3.2.1.2]
+            K01208  cyclomaltodextrinase / maltogenic alpha-amylase / neopullulanase [EC:3.2.1.54 3.2.1.133 3.2.1.135]
+            K05343  maltose alpha-D-glucosyltransferase / alpha-amylase [EC:5.4.99.16 3.2.1.1]
+            K05992  maltogenic alpha-amylase [EC:3.2.1.133]
+            K07405  alpha-amylase [EC:3.2.1.1]
+///

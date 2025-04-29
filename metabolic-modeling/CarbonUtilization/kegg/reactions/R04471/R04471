@@ -1,0 +1,17 @@
+ENTRY       R04471                      Reaction
+NAME        1,2-diacyl-3-beta-D-galactosyl-sn-glycerol acylhydrolase
+DEFINITION  3-beta-D-Galactosyl-sn-glycerol + 2 Fatty acid <=> 1,2-Diacyl-3-beta-D-galactosyl-sn-glycerol + 2 H2O
+EQUATION    C05401 + 2 C00162 <=> C03692 + 2 C00001
+COMMENT     two-step reaction
+RCLASS      RC00020  C00162_C03692
+            RC00094  C00162_C03692
+            RC00495  C03692_C05401
+ENZYME      3.1.1.26
+PATHWAY     rn00561  Glycerolipid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.26
+                 R04471  3-beta-D-Galactosyl-sn-glycerol + 2 Fatty acid <=> 1,2-Diacyl-3-beta-D-galactosyl-sn-glycerol + 2 H2O
+///

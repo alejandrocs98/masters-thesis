@@ -1,0 +1,26 @@
+ENTRY       R01837                      Reaction
+NAME        3beta-hydroxyandrost-5-en-17-one:NAD+ 3-oxidoreductase/delta5-delta-4 isomerase
+DEFINITION  Dehydroepiandrosterone + NAD+ <=> Androstenedione + NADH + H+
+EQUATION    C01227 + C00003 <=> C00280 + C00004 + C00080
+COMMENT     NADP+ (see R01839)
+RCLASS      RC00001  C00003_C00004
+            RC00146  C00280_C01227
+ENZYME      1.1.1.145       5.3.3.1
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00110  C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone
+            M00976  C19-Steroid hormone biosynthesis, pregnenolone => testosterone => dihydrotestosterone
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.145
+                 R01837  Dehydroepiandrosterone + NAD+ <=> Androstenedione + NADH + H+
+             5. Isomerase reactions
+              5.3  Intramolecular oxidoreductases
+               5.3.3  Transposing C=C bonds
+                5.3.3.1
+                 R01837  Dehydroepiandrosterone + NAD+ <=> Androstenedione + NADH + H+
+ORTHOLOGY   K00070  3beta-hydroxy-Delta5-steroid dehydrogenase / steroid Delta-isomerase [EC:1.1.1.145 5.3.3.1]
+DBLINKS     RHEA: 43935
+///

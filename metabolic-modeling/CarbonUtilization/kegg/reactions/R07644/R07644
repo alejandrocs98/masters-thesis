@@ -1,0 +1,22 @@
+ENTRY       R07644                      Reaction
+NAME        2,3-dihydroxybenzoate:L-serine ligase
+DEFINITION  6 ATP + 3 2,3-Dihydroxybenzoate + 3 L-Serine <=> Enterochelin + 6 AMP + 6 Diphosphate
+EQUATION    6 C00002 + 3 C00196 + 3 C00065 <=> C05821 + 6 C00020 + 6 C00013
+COMMENT     multi-step reaction
+RCLASS      RC00162  C00196_C05821
+            RC03046  C00065_C05821
+ENZYME      6.3.2.14
+PATHWAY     rn01053  Biosynthesis of siderophore group nonribosomal peptides
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.14
+                 R07644  6 ATP + 3 2,3-Dihydroxybenzoate + 3 L-Serine <=> Enterochelin + 6 AMP + 6 Diphosphate
+ORTHOLOGY   K01252  bifunctional isochorismate lyase / aryl carrier protein [EC:3.3.2.1 6.3.2.14]
+            K02362  enterobactin synthetase component D [EC:6.3.2.14 2.7.8.-]
+            K02363  2,3-dihydroxybenzoate---[aryl-carrier protein] ligase [EC:6.3.2.14 6.2.1.71]
+            K02364  L-serine---[L-seryl-carrier protein] ligase [EC:6.3.2.14 6.2.1.72]
+DBLINKS     RHEA: 30574
+///

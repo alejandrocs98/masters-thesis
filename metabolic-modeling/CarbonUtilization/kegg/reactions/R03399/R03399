@@ -1,0 +1,24 @@
+ENTRY       R03399                      Reaction
+NAME        GDP-6-deoxy-D-mannose:NADP+ 4-oxidoreductase
+DEFINITION  GDP-6-deoxy-D-mannose + NADP+ <=> GDP-4-dehydro-6-deoxy-D-mannose + NADPH + H+
+EQUATION    C03117 + C00006 <=> C01222 + C00005 + C00080
+COMMENT     NAD+ (see R03397)
+RCLASS      RC00001  C00005_C00006
+            RC00182  C01222_C03117
+ENZYME      1.1.1.187       1.1.1.281
+PATHWAY     rn00051  Fructose and mannose metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  O-Antigen nucleotide sugar biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.187
+                 R03399  GDP-6-deoxy-D-mannose + NADP+ <=> GDP-4-dehydro-6-deoxy-D-mannose + NADPH + H+
+                1.1.1.281
+                 R03399  GDP-6-deoxy-D-mannose + NADP+ <=> GDP-4-dehydro-6-deoxy-D-mannose + NADPH + H+
+ORTHOLOGY   K15856  GDP-4-dehydro-6-deoxy-D-mannose reductase [EC:1.1.1.281]
+DBLINKS     RHEA: 13832
+///

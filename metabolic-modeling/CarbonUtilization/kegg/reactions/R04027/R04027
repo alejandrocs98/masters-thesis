@@ -1,0 +1,19 @@
+ENTRY       R04027                      Reaction
+DEFINITION  N-Methylputrescine + Oxygen + H+ <=> 1-Methylpyrrolinium + Hydrogen peroxide + Ammonia
+EQUATION    C02723 + C00007 + C00080 <=> C06178 + C00027 + C00014
+COMMENT     two-step reaction (see R05334 + R05335)
+            see 1.4.3.10
+RCLASS      RC01052  C02723_C06178
+            RC02755  C00007_C00027
+ENZYME      1.4.3.21
+PATHWAY     rn00960  Tropane, piperidine and pyridine alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.21
+                 R04027  N-Methylputrescine + Oxygen + H+ <=> 1-Methylpyrrolinium + Hydrogen peroxide + Ammonia
+ORTHOLOGY   K00276  primary-amine oxidase [EC:1.4.3.21]
+///

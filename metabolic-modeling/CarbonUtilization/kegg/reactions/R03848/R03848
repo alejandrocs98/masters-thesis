@@ -1,0 +1,22 @@
+ENTRY       R03848                      Reaction
+NAME        corticosterone:NADP+ 11-oxidoreductase
+DEFINITION  Corticosterone + NADP+ <=> 11-Dehydrocorticosterone + NADPH + H+
+EQUATION    C02140 + C00006 <=> C05490 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00154  C02140_C05490
+ENZYME      1.1.1.146
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.146
+                 R03848  Corticosterone + NADP+ <=> 11-Dehydrocorticosterone + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.146
+               R03203  11beta-Hydroxysteroid <=> 11-Oxosteroid
+                R03848  Corticosterone <=> 11-Dehydrocorticosterone
+ORTHOLOGY   K15680  corticosteroid 11-beta-dehydrogenase isozyme 1 [EC:1.1.1.146]
+DBLINKS     RHEA: 42203
+///

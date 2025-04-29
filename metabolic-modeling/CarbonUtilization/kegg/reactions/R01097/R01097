@@ -1,0 +1,22 @@
+ENTRY       R01097                      Reaction
+NAME        D-galactose:NADP+ 1-oxidoreductase
+DEFINITION  D-Galactose + NADP+ <=> D-Galactono-1,4-lactone + NADPH + H+
+EQUATION    C00124 + C00006 <=> C03383 + C00005 + C00080
+COMMENT     NAD+ (ec 1.1.1.48, see R01094)
+            possibly two-step reaction (R01096+intramolecular rearrangement)
+RCLASS      RC00001  C00005_C00006
+            RC00161  C00124_C03383
+ENZYME      1.1.1.48        1.1.1.120
+PATHWAY     rn00052  Galactose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.48
+                 R01097  D-Galactose + NADP+ <=> D-Galactono-1,4-lactone + NADPH + H+
+                1.1.1.120
+                 R01097  D-Galactose + NADP+ <=> D-Galactono-1,4-lactone + NADPH + H+
+ORTHOLOGY   K00035  D-galactose 1-dehydrogenase [EC:1.1.1.48]
+            K22215  galactose dehydrogenase [EC:1.1.1.48 1.1.1.120]
+///

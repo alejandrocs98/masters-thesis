@@ -1,0 +1,23 @@
+ENTRY       R07664                      Reaction
+NAME        (S)-2-hydroxy-2-phenylacetate:acceptor 2-oxidoreductase
+DEFINITION  (S)-Mandelate + FMN <=> alpha-Oxo-benzeneacetic acid + Reduced FMN
+EQUATION    C01984 + C00061 <=> C02137 + C01847
+COMMENT     MdlB
+RCLASS      RC00126  C00061_C01847
+            RC00240  C01984_C02137
+ENZYME      1.1.99.31
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.99  With unknown physiological acceptors
+                1.1.99.31
+                 R07664  (S)-Mandelate + FMN <=> alpha-Oxo-benzeneacetic acid + Reduced FMN
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.99.31
+               R03793  Acceptor <=> Reduced acceptor
+                R07664  FMN <=> Reduced FMN
+ORTHOLOGY   K15054  (S)-mandelate dehydrogenase [EC:1.1.99.31]
+///

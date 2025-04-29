@@ -1,0 +1,31 @@
+ENTRY       R00897                      Reaction
+NAME        O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase;
+            O3-acetyl-L-serine acetate-lyase (adding hydrogen sulfide)
+DEFINITION  O-Acetyl-L-serine + Hydrogen sulfide <=> L-Cysteine + Acetate
+EQUATION    C00979 + C00283 <=> C00097 + C00033
+RCLASS      RC00020  C00033_C00979
+            RC02814  C00097_C00283
+            RC02821  C00097_C00979
+ENZYME      2.5.1.47        2.5.1.65
+PATHWAY     rn00270  Cysteine and methionine metabolism
+            rn00920  Sulfur metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+            rn01230  Biosynthesis of amino acids
+MODULE      M00021  Cysteine biosynthesis, serine => cysteine
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.47
+                 R00897  O-Acetyl-L-serine + Hydrogen sulfide <=> L-Cysteine + Acetate
+                2.5.1.65
+                 R00897  O-Acetyl-L-serine + Hydrogen sulfide <=> L-Cysteine + Acetate
+ORTHOLOGY   K01738  cysteine synthase [EC:2.5.1.47]
+            K10150  cysteine synthase / O-phosphoserine sulfhydrylase / cystathionine beta-synthase [EC:2.5.1.47 2.5.1.65 4.2.1.22]
+            K13034  L-3-cyanoalanine synthase/ cysteine synthase [EC:2.5.1.47 4.4.1.9]
+            K17069  O-acetylhomoserine/O-acetylserine sulfhydrylase [EC:2.5.1.49 2.5.1.47]
+DBLINKS     RHEA: 14832
+///

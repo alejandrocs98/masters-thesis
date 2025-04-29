@@ -1,0 +1,20 @@
+ENTRY       R02936                      Reaction
+NAME        (S)-ureidoglycolate:NADP+ oxidoreductase
+DEFINITION  (S)-Ureidoglycolate + NADP+ <=> Oxalureate + NADPH + H+
+EQUATION    C00603 + C00006 <=> C00802 + C00005 + C00080
+COMMENT     NAD+ (see R02935)
+RCLASS      RC00001  C00005_C00006
+            RC00169  C00603_C00802
+ENZYME      1.1.1.154
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.154
+                 R02936  (S)-Ureidoglycolate + NADP+ <=> Oxalureate + NADPH + H+
+ORTHOLOGY   K00073  ureidoglycolate dehydrogenase (NAD+) [EC:1.1.1.350]
+DBLINKS     RHEA: 15336
+///

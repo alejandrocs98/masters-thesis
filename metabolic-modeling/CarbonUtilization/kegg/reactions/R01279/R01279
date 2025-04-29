@@ -1,0 +1,48 @@
+ENTRY       R01279                      Reaction
+NAME        palmitoyl-CoA:electron-transfer flavoprotein 2,3-oxidoreductase
+DEFINITION  Palmitoyl-CoA + FAD <=> trans-Hexadec-2-enoyl-CoA + FADH2
+EQUATION    C00154 + C00016 <=> C05272 + C01352
+RCLASS      RC00052  C00154_C05272
+            RC00126  C00016_C01352
+ENZYME      1.3.3.6         1.3.8.7         1.3.8.8         1.3.8.9         
+            1.3.99.-
+PATHWAY     rn00071  Fatty acid degradation
+            rn01100  Metabolic pathways
+            rn01212  Fatty acid metabolism
+MODULE      M00087  beta-Oxidation
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.3  With oxygen as acceptor
+                1.3.3.6
+                 R01279  Palmitoyl-CoA + FAD <=> trans-Hexadec-2-enoyl-CoA + FADH2
+               1.3.8  With a flavin as acceptor
+                1.3.8.7
+                 R01279  Palmitoyl-CoA + FAD <=> trans-Hexadec-2-enoyl-CoA + FADH2
+                1.3.8.8
+                 R01279  Palmitoyl-CoA + FAD <=> trans-Hexadec-2-enoyl-CoA + FADH2
+                1.3.8.9
+                 R01279  Palmitoyl-CoA + FAD <=> trans-Hexadec-2-enoyl-CoA + FADH2
+               1.3.99  With unknown physiological acceptors
+                1.3.99.-
+                 R01279  Palmitoyl-CoA + FAD <=> trans-Hexadec-2-enoyl-CoA + FADH2
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.3.8.7
+               R00392  Acyl-CoA <=> Electron-transferring flavoprotein
+                R01279  Palmitoyl-CoA <=> FAD
+              1.3.8.8
+               R00392  Acyl-CoA <=> Electron-transferring flavoprotein
+                R01279  Palmitoyl-CoA <=> FAD
+ORTHOLOGY   K00232  acyl-CoA oxidase [EC:1.3.3.6]
+            K00249  acyl-CoA dehydrogenase [EC:1.3.8.7]
+            K00255  long-chain-acyl-CoA dehydrogenase [EC:1.3.8.8]
+            K06445  acyl-CoA dehydrogenase [EC:1.3.99.-]
+            K09479  very long chain acyl-CoA dehydrogenase [EC:1.3.8.9]
+REFERENCE   1  [PMID:12057976]
+  AUTHORS   Campbell JW, Cronan JE Jr.
+  TITLE     The enigmatic Escherichia coli fadE gene is yafH.
+  JOURNAL   J Bacteriol 184:3759-64 (2002)
+            DOI:10.1128/JB.184.13.3759-3764.2002
+DBLINKS     RHEA: 30750
+///

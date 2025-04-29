@@ -1,0 +1,23 @@
+ENTRY       R08091                      Reaction
+NAME        7-methyl-3-oxo-6-octenoyl-CoA:acetyl-CoA C-acyltransferase
+DEFINITION  7-Methyl-3-oxo-6-octenoyl-CoA + CoA <=> 5-Methylhex-4-enoyl-CoA + Acetyl-CoA
+EQUATION    C16466 + C00010 <=> C16470 + C00024
+RCLASS      RC00004  C00010_C16470
+            RC00326  C00024_C16466
+            RC02728  C16466_C16470
+ENZYME      2.3.1.16
+PATHWAY     rn00907  Pinene, camphor and geraniol degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.16
+                 R08091  7-Methyl-3-oxo-6-octenoyl-CoA + CoA <=> 5-Methylhex-4-enoyl-CoA + Acetyl-CoA
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.16
+               R00391  Acyl-CoA <=> 3-Oxoacyl-CoA
+                R08091  5-Methylhex-4-enoyl-CoA <=> 7-Methyl-3-oxo-6-octenoyl-CoA
+ORTHOLOGY   K00632  acetyl-CoA acyltransferase [EC:2.3.1.16]
+///

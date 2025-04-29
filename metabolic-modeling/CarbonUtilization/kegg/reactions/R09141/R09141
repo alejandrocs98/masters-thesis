@@ -1,0 +1,20 @@
+ENTRY       R09141                      Reaction
+DEFINITION  Trichloroethene + NADH + H+ + Oxygen <=> TCE epoxide + NAD+ + H2O
+EQUATION    C06790 + C00004 + C00080 + C00007 <=> C11148 + C00003 + C00001
+COMMENT     toluene 2-monooxygenase (ec 1.14.13.-)
+            Soluble methane monooxygenase (ec 1.14.13.25)
+            NADPH (ec 1.14.13.25, see R07098)
+RCLASS      RC00001  C00003_C00004
+            RC01732  C06790_C11148
+ENZYME      1.14.13.25      1.14.13.-
+PATHWAY     rn00625  Chloroalkane and chloroalkene degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.25
+                 R09141  Trichloroethene + NADH + H+ + Oxygen <=> TCE epoxide + NAD+ + H2O
+                1.14.13.-
+                 R09141  Trichloroethene + NADH + H+ + Oxygen <=> TCE epoxide + NAD+ + H2O
+///

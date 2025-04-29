@@ -1,0 +1,21 @@
+ENTRY       R12553                      Reaction
+DEFINITION  UDP-2-acetamido-2,6-dideoxy-beta-L-arabino-hexos-4-ulose <=> UDP-2-acetamido-2,6-dideoxy-beta-L-lyxo-4-hexulose
+EQUATION    C19823 <=> C20769
+COMMENT     the first step of two-step reaction (see R10665, R12553+R12552)
+RCLASS      RC01519  C19823_C20769
+ENZYME      1.1.1.367       1.1.1.-
+PATHWAY     rn00541  O-Antigen nucleotide sugar biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00923  UDP-L-FucNAm biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.367
+                 R12553  UDP-2-acetamido-2,6-dideoxy-beta-L-arabino-hexos-4-ulose <=> UDP-2-acetamido-2,6-dideoxy-beta-L-lyxo-4-hexulose
+                1.1.1.-
+                 R12553  UDP-2-acetamido-2,6-dideoxy-beta-L-arabino-hexos-4-ulose <=> UDP-2-acetamido-2,6-dideoxy-beta-L-lyxo-4-hexulose
+ORTHOLOGY   K19068  UDP-2-acetamido-2,6-beta-L-arabino-hexul-4-ose reductase [EC:1.1.1.367]
+            K24252  UDP-6-deoxy-4-keto-L-IdoNAc 3-epimerase / UDP-4-keto-L-RhaNAc 4-reductase [EC:1.1.1.-]
+///

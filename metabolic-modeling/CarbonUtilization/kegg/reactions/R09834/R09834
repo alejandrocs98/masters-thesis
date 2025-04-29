@@ -1,0 +1,22 @@
+ENTRY       R09834                      Reaction
+NAME        UDP-2,4-bis(acetamido)-2,4,6-trideoxy-beta-L-altropyranose hydrolase
+DEFINITION  UDP-2,4-bis(acetamido)-2,4,6-trideoxy-beta-L-altropyranose + H2O <=> 2,4-Bis(acetamido)-2,4,6-trideoxy-beta-L-altropyranose + UDP
+EQUATION    C19971 + C00001 <=> C19972 + C00015
+COMMENT     possibly intermediate (2,4-bis(acetamido)-2,4,6-trideoxy-alpha-L-altropyranose)
+            multi-step reaction (inverting glycoside hydrolysis and non-enzymatic epimerization)
+RCLASS      RC00005  C00015_C19971
+            RC00078  C19971_C19972
+ENZYME      3.6.1.57
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  O-Antigen nucleotide sugar biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.57
+                 R09834  UDP-2,4-bis(acetamido)-2,4,6-trideoxy-beta-L-altropyranose + H2O <=> 2,4-Bis(acetamido)-2,4,6-trideoxy-beta-L-altropyranose + UDP
+ORTHOLOGY   K15897  UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase [EC:3.6.1.57]
+DBLINKS     RHEA: 31806
+///

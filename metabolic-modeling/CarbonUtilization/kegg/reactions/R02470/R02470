@@ -1,0 +1,20 @@
+ENTRY       R02470                      Reaction
+NAME        (S)-limonene,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (7-hydroxylating)
+DEFINITION  (S)-Limonene + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> (-)-Perillyl alcohol + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00521 + C03024 + C00007 <=> C02452 + C03161 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00724  C00521_C02452
+ENZYME      1.14.14.52
+PATHWAY     rn00902  Monoterpenoid biosynthesis
+            rn00903  Limonene degradation
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.52
+                 R02470  (S)-Limonene + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> (-)-Perillyl alcohol + [Oxidized NADPH---hemoprotein reductase] + H2O
+ORTHOLOGY   K07382  (S)-limonene 7-monooxygenase [EC:1.14.14.52]
+            K14732  limonene hydroxylase [EC:1.14.14.51 1.14.14.52 1.1.1.243 1.1.1.144]
+DBLINKS     RHEA: 23435
+///

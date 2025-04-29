@@ -1,0 +1,26 @@
+ENTRY       R00122                      Reaction
+NAME        ADP phosphohydrolase
+DEFINITION  ADP + H2O <=> AMP + Orthophosphate
+EQUATION    C00008 + C00001 <=> C00020 + C00009
+RCLASS      RC00002  C00008_C00020
+ENZYME      3.6.1.5
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.5
+                 R00122  ADP + H2O <=> AMP + Orthophosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.6.1.5
+               R10442  NDP <=> Nucleoside 5'-phosphate
+                R00122  ADP <=> AMP
+ORTHOLOGY   K01510  apyrase [EC:3.6.1.5]
+            K14641  apyrase [EC:3.6.1.5]
+            K14642  golgi apyrase [EC:3.6.1.5]
+DBLINKS     RHEA: 61439
+///

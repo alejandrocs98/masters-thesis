@@ -1,0 +1,19 @@
+ENTRY       R03822                      Reaction
+NAME        glutathionylspermidine:glutathione ligase (ADP-forming)
+DEFINITION  ATP + Glutathionylspermidine + Glutathione <=> ADP + Orthophosphate + Trypanothione
+EQUATION    C00002 + C05730 + C00051 <=> C00008 + C00009 + C02090
+RCLASS      RC00002  C00002_C00008
+            RC00090  C00051_C02090
+            RC00096  C02090_C05730
+ENZYME      6.3.1.9
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.1  Acid-D-ammonia (or amine) ligases (amide synthases)
+                6.3.1.9
+                 R03822  ATP + Glutathionylspermidine + Glutathione <=> ADP + Orthophosphate + Trypanothione
+ORTHOLOGY   K01833  trypanothione synthetase/amidase [EC:6.3.1.9 3.5.1.-]
+DBLINKS     RHEA: 21535
+///

@@ -1,0 +1,17 @@
+ENTRY       R04773                      Reaction
+NAME        selenomethionine:tRNAMet ligase (AMP-forming)
+DEFINITION  ATP + L-Selenomethionine + tRNA(Met) <=> AMP + Diphosphate + Selenomethionyl-tRNA(Met)
+EQUATION    C00002 + C05335 + C01647 <=> C00020 + C00013 + C05336
+RCLASS      RC00055  C01647_C05336
+            RC00523  C05335_C05336
+ENZYME      6.1.1.10
+PATHWAY     rn00450  Selenocompound metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.1  Forming carbon-oxygen bonds
+               6.1.1  Ligases forming aminoacyl-tRNA and related compounds
+                6.1.1.10
+                 R04773  ATP + L-Selenomethionine + tRNA(Met) <=> AMP + Diphosphate + Selenomethionyl-tRNA(Met)
+ORTHOLOGY   K01874  methionyl-tRNA synthetase [EC:6.1.1.10]
+///

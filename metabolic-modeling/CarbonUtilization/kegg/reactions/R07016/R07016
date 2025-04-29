@@ -1,0 +1,9 @@
+ENTRY       R07016                      Reaction
+NAME        1,2-dihydronaphthalene-1,2-diol,NADPH:oxygen oxidoreductase (RH-hydroxylating or -epoxidizing)
+DEFINITION  1,2-Dihydronaphthalene-1,2-diol + NADPH + Oxygen + H+ <=> 1,2-Dihydroxy-3,4-epoxy-1,2,3,4-tetrahydronaphthalene + NADP+ + H2O
+EQUATION    C06205 + C00005 + C00007 + C00080 <=> C14784 + C00006 + C00001
+COMMENT     cytochrome P450
+RCLASS      RC00001  C00005_C00006
+            RC01727  C06205_C14784
+PATHWAY     rn00980  Metabolism of xenobiotics by cytochrome P450
+///

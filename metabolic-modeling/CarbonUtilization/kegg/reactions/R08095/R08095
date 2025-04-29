@@ -1,0 +1,23 @@
+ENTRY       R08095                      Reaction
+NAME        3-methylcrotonyl-CoA:acetyl-CoA C-acyltransferase
+DEFINITION  5-Methyl-3-oxo-4-hexenoyl-CoA + CoA <=> 3-Methylcrotonyl-CoA + Acetyl-CoA
+EQUATION    C16471 + C00010 <=> C03069 + C00024
+RCLASS      RC00004  C00010_C03069
+            RC00326  C00024_C16471
+            RC02955  C03069_C16471
+ENZYME      2.3.1.16
+PATHWAY     rn00907  Pinene, camphor and geraniol degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.16
+                 R08095  5-Methyl-3-oxo-4-hexenoyl-CoA + CoA <=> 3-Methylcrotonyl-CoA + Acetyl-CoA
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.16
+               R00391  Acyl-CoA <=> 3-Oxoacyl-CoA
+                R08095  3-Methylcrotonyl-CoA <=> 5-Methyl-3-oxo-4-hexenoyl-CoA
+ORTHOLOGY   K00632  acetyl-CoA acyltransferase [EC:2.3.1.16]
+///

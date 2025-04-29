@@ -1,0 +1,17 @@
+ENTRY       R01000                      Reaction
+NAME        2-hydroxybutyrate:NAD+ oxidoreductase
+DEFINITION  2-Hydroxybutanoic acid + NAD+ <=> 2-Oxobutanoate + NADH + H+
+EQUATION    C05984 + C00003 <=> C00109 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00031  C00109_C05984
+ENZYME      1.1.1.27
+PATHWAY     rn00640  Propanoate metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.27
+                 R01000  2-Hydroxybutanoic acid + NAD+ <=> 2-Oxobutanoate + NADH + H+
+ORTHOLOGY   K00016  L-lactate dehydrogenase [EC:1.1.1.27]
+DBLINKS     RHEA: 36374
+///

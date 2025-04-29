@@ -1,0 +1,27 @@
+ENTRY       R02099                      Reaction
+NAME        ATP:deoxyuridine 5'-phosphotransferase
+DEFINITION  ATP + Deoxyuridine <=> ADP + dUMP
+EQUATION    C00002 + C00526 <=> C00008 + C00365
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00365_C00526
+ENZYME      2.7.1.21        2.7.1.145
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.21
+                 R02099  ATP + Deoxyuridine <=> ADP + dUMP
+                2.7.1.145
+                 R02099  ATP + Deoxyuridine <=> ADP + dUMP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.1.145
+               R05806  Deoxynucleoside <=> Deoxynucleoside 5'-phosphate
+                R02099  Deoxyuridine <=> dUMP
+ORTHOLOGY   K00857  thymidine kinase [EC:2.7.1.21]
+            K05961  deoxynucleoside kinase [EC:2.7.1.145]
+DBLINKS     RHEA: 28209
+///

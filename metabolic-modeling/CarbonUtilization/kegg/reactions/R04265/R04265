@@ -1,0 +1,20 @@
+ENTRY       R04265                      Reaction
+NAME        CDP-alpha-D-paratose:NADP+ 4-oxidoreductase
+DEFINITION  CDP-3,6-dideoxy-D-glucose + NADP+ <=> CDP-4-dehydro-3,6-dideoxy-D-glucose + NADPH + H+
+EQUATION    C03598 + C00006 <=> C04297 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00154  C03598_C04297
+ENZYME      1.1.1.342
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  O-Antigen nucleotide sugar biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.342
+                 R04265  CDP-3,6-dideoxy-D-glucose + NADP+ <=> CDP-4-dehydro-3,6-dideoxy-D-glucose + NADPH + H+
+ORTHOLOGY   K12453  CDP-paratose synthetase [EC:1.1.1.342]
+DBLINKS     RHEA: 34570
+///

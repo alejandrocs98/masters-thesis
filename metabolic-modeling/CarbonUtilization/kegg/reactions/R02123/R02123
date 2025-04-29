@@ -1,0 +1,18 @@
+ENTRY       R02123                      Reaction
+NAME        retinal:NAD+ oxidoreductase
+DEFINITION  Retinal + NAD+ + H2O <=> Retinoate + NADH + H+
+EQUATION    C00376 + C00003 + C00001 <=> C00777 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00218  C00376_C00777
+ENZYME      1.2.1.36
+PATHWAY     rn00830  Retinol metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.36
+                 R02123  Retinal + NAD+ + H2O <=> Retinoate + NADH + H+
+ORTHOLOGY   K07249  retinal dehydrogenase [EC:1.2.1.36]
+DBLINKS     RHEA: 42083
+///

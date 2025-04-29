@@ -1,0 +1,19 @@
+ENTRY       R08974                      Reaction
+NAME        pheophorbide-a hydrolase (decarboxylating)
+DEFINITION  Pheophorbide a + H2O <=> Pyropheophorbide a + Methanol + CO2
+EQUATION    C18021 + C00001 <=> C18064 + C00132 + C00011
+COMMENT     two-step reaction (R08975+R08976)
+RCLASS      RC00461  C00132_C18021
+            RC02390  C18021_C18064
+ENZYME      3.1.1.82
+PATHWAY     rn00860  Porphyrin metabolism
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.82
+                 R08974  Pheophorbide a + H2O <=> Pyropheophorbide a + Methanol + CO2
+ORTHOLOGY   K13544  pheophorbidase [EC:3.1.1.82]
+DBLINKS     RHEA: 32486
+///

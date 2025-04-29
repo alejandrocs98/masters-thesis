@@ -1,0 +1,18 @@
+ENTRY       R01463                      Reaction
+NAME        cholesterol,NADPH-hemoprotein reductase:oxygen oxidoreductase (7alpha-hydroxylating)
+DEFINITION  Cholesterol + Oxygen + [Reduced NADPH---hemoprotein reductase] <=> 7alpha-Hydroxycholesterol + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00187 + C00007 + C03024 <=> C03594 + C03161 + C00001
+RCLASS      RC00524  C00187_C03594
+ENZYME      1.14.14.23
+PATHWAY     rn00120  Primary bile acid biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00104  Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.23
+                 R01463  Cholesterol + Oxygen + [Reduced NADPH---hemoprotein reductase] <=> 7alpha-Hydroxycholesterol + [Oxidized NADPH---hemoprotein reductase] + H2O
+ORTHOLOGY   K00489  cholesterol 7alpha-monooxygenase [EC:1.14.14.23]
+DBLINKS     RHEA: 21815
+///

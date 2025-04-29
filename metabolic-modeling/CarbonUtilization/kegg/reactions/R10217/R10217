@@ -1,0 +1,16 @@
+ENTRY       R10217                      Reaction
+DEFINITION  Furfural + NADH + H+ <=> Furfuryl alcohol + NAD+
+EQUATION    C14279 + C00004 + C00080 <=> C20441 + C00003
+COMMENT     furfuryl alcohol dehydrogenase
+RCLASS      RC00001  C00003_C00004
+            RC00116  C14279_C20441
+ENZYME      1.1.1.-
+PATHWAY     rn00365  Furfural degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R10217  Furfural + NADH + H+ <=> Furfuryl alcohol + NAD+
+///

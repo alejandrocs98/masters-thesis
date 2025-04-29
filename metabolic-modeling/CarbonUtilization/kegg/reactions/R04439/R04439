@@ -1,0 +1,22 @@
+ENTRY       R04439                      Reaction
+NAME        (R)-2,3-dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
+DEFINITION  (R)-2,3-Dihydroxy-3-methylbutanoate + NADP+ <=> (S)-2-Acetolactate + NADPH + H+
+EQUATION    C04272 + C00006 <=> C06010 + C00005 + C00080
+COMMENT     NAD+ (see R10916)
+RCLASS      RC00001  C00005_C00006
+            RC00836  C04272_C06010
+ENZYME      1.1.1.86        1.1.1.383
+PATHWAY     rn00770  Pantothenate and CoA biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00019  Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.86
+                 R04439  (R)-2,3-Dihydroxy-3-methylbutanoate + NADP+ <=> (S)-2-Acetolactate + NADPH + H+
+                1.1.1.383
+                 R04439  (R)-2,3-Dihydroxy-3-methylbutanoate + NADP+ <=> (S)-2-Acetolactate + NADPH + H+
+ORTHOLOGY   K00053  ketol-acid reductoisomerase [EC:1.1.1.86]
+DBLINKS     RHEA: 22071
+///

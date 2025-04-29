@@ -1,0 +1,26 @@
+ENTRY       R01030                      Reaction
+NAME        sn-glycero-3-phosphocholine glycerophosphohydrolase
+DEFINITION  sn-Glycero-3-phosphocholine + H2O <=> Choline + sn-Glycerol 3-phosphate
+EQUATION    C00670 + C00001 <=> C00114 + C00093
+RCLASS      RC00017  C00114_C00670
+            RC00425  C00093_C00670
+ENZYME      3.1.4.2         3.1.4.46
+PATHWAY     rn00564  Glycerophospholipid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.4  Phosphoric-diester hydrolases
+                3.1.4.2
+                 R01030  sn-Glycero-3-phosphocholine + H2O <=> Choline + sn-Glycerol 3-phosphate
+                3.1.4.46
+                 R01030  sn-Glycero-3-phosphocholine + H2O <=> Choline + sn-Glycerol 3-phosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.1.4.46
+               R00857  Glycerophosphodiester <=> Alcohol
+                R01030  sn-Glycero-3-phosphocholine <=> Choline
+ORTHOLOGY   K01126  glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]
+            K18695  glycerophosphocholine phosphodiesterase GPCPD1 [EC:3.1.4.2]
+            K18696  glycerophosphodiester phosphodiesterase [EC:3.1.4.46]
+DBLINKS     RHEA: 16064
+///

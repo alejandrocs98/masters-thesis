@@ -1,0 +1,18 @@
+ENTRY       R11981                      Reaction
+NAME        ent-cassa-12,15-diene,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (ent-3beta-hydroxycassa-12,15-dien-2-one forming)
+DEFINITION  ent-Cassa-12,15-diene + 3 [Reduced NADPH---hemoprotein reductase] + 3 Oxygen <=> ent-3beta-Hydroxycassa-12,15-dien-2-one + 3 [Oxidized NADPH---hemoprotein reductase] + 4 H2O
+EQUATION    C18226 + 3 C03024 + 3 C00007 <=> C21826 + 3 C03161 + 4 C00001
+COMMENT     three-step reaction (see R11982+R11983+R11984, R11982+R11985+R11986)
+RCLASS      RC03513  C18226_C21826
+ENZYME      1.14.14.69
+PATHWAY     rn00904  Diterpenoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.69
+                 R11981  ent-Cassa-12,15-diene + 3 [Reduced NADPH---hemoprotein reductase] + 3 Oxygen <=> ent-3beta-Hydroxycassa-12,15-dien-2-one + 3 [Oxidized NADPH---hemoprotein reductase] + 4 H2O
+ORTHOLOGY   K21291  ent-cassadiene hydroxylase [EC:1.14.14.69]
+DBLINKS     RHEA: 55483
+///

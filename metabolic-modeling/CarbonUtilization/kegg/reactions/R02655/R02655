@@ -1,0 +1,22 @@
+ENTRY       R02655                      Reaction
+NAME        gentisate aldehyde:NAD+ oxidoreductase
+DEFINITION  Gentisate aldehyde + NAD+ + H2O <=> 2,5-Dihydroxybenzoate + NADH + H+
+EQUATION    C05585 + C00003 + C00001 <=> C00628 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00075  C00628_C05585
+ENZYME      1.2.1.29
+PATHWAY     rn00350  Tyrosine metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.29
+                 R02655  Gentisate aldehyde + NAD+ + H2O <=> 2,5-Dihydroxybenzoate + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.29
+               R01486  Aromatic aldehyde <=> Aromatic acid
+                R02655  Gentisate aldehyde <=> 2,5-Dihydroxybenzoate
+///

@@ -1,0 +1,22 @@
+ENTRY       R08249                      Reaction
+NAME        N-acetylisoniazid amidohydrolase
+DEFINITION  N-Acetylisoniazid + H2O <=> Acetylhydrazine + Isonicotinic acid
+EQUATION    C07585 + C00001 <=> C07447 + C07446
+COMMENT     hepatic amidase
+            carboxylesterases (ec 3.1.1.1) also have some amidohydrolase activities
+RCLASS      RC00162  C07446_C07585
+            RC00962  C07447_C07585
+ENZYME      3.1.1.1         3.5.1.-
+PATHWAY     rn00983  Drug metabolism - other enzymes
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.1
+                 R08249  N-Acetylisoniazid + H2O <=> Acetylhydrazine + Isonicotinic acid
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.-
+                 R08249  N-Acetylisoniazid + H2O <=> Acetylhydrazine + Isonicotinic acid
+ORTHOLOGY   K01044  carboxylesterase 1 [EC:3.1.1.1]
+///

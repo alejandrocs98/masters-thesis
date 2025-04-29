@@ -1,0 +1,15 @@
+ENTRY       R08265                      Reaction
+DEFINITION  Morphine + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Normorphine + Formaldehyde + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C01516 + C03024 + C00007 <=> C11785 + C00067 + C03161 + C00001
+COMMENT     P450:N-demethylation
+RCLASS      RC01198  C01516_C11785
+            RC02299  C00067_C01516
+ENZYME      1.14.14.1
+PATHWAY     rn00982  Drug metabolism - cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R08265  Morphine + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Normorphine + Formaldehyde + [Oxidized NADPH---hemoprotein reductase] + H2O
+///

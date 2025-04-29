@@ -1,0 +1,21 @@
+ENTRY       R08348                      Reaction
+NAME        didemethylcitalopram:oxygen oxidoreductase(deaminating)(flavin-containing)
+DEFINITION  Didemethylcitalopram + H2O + Oxygen <=> Citalopram aldehyde + Ammonia + Hydrogen peroxide
+EQUATION    C16609 + C00001 + C00007 <=> C16612 + C00014 + C00027
+RCLASS      RC00062  C16609_C16612
+            RC02755  C00007_C00027
+ENZYME      1.4.3.4
+PATHWAY     rn00982  Drug metabolism - cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.4
+                 R08348  Didemethylcitalopram + H2O + Oxygen <=> Citalopram aldehyde + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.4
+               R11354  RCH2NHR' <=> Aldehyde
+                R08348  Didemethylcitalopram <=> Citalopram aldehyde
+ORTHOLOGY   K00274  monoamine oxidase [EC:1.4.3.4]
+///

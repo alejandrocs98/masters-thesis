@@ -1,0 +1,25 @@
+ENTRY       R10149                      Reaction
+DEFINITION  Thiosulfate + Menaquinol <=> HSO3- + Hydrogen sulfide + Menaquinone
+EQUATION    C00320 + C05819 <=> C11481 + C00283 + C00828
+COMMENT     thiosulfate reductase
+RCLASS      RC00819  C00828_C05819
+            RC02823  C00283_C00320
+ENZYME      1.8.5.5
+PATHWAY     rn00920  Sulfur metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.5  With a quinone or similar compound as acceptor
+                1.8.5.5
+                 R10149  Thiosulfate + Menaquinol <=> HSO3- + Hydrogen sulfide + Menaquinone
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.8.5.5
+               R11488  Quinone <=> Hydroquinone
+                R10149  Menaquinone <=> Menaquinol
+ORTHOLOGY   K08352  thiosulfate reductase / polysulfide reductase chain A [EC:1.8.5.5]
+            K08353  thiosulfate reductase electron transport protein
+            K08354  thiosulfate reductase cytochrome b subunit
+///

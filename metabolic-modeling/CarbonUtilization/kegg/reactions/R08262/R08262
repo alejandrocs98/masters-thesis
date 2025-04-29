@@ -1,0 +1,21 @@
+ENTRY       R08262                      Reaction
+DEFINITION  Morphine + UDP-glucuronate <=> Morphine-3-glucuronide + UDP
+EQUATION    C01516 + C00167 <=> C16643 + C00015
+COMMENT     UGT2B7
+RCLASS      RC00005  C00015_C00167
+            RC00171  C01516_C16643
+ENZYME      2.4.1.17
+PATHWAY     rn00982  Drug metabolism - cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.17
+                 R08262  Morphine + UDP-glucuronate <=> Morphine-3-glucuronide + UDP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.1.17
+               R09428  Acceptor <=> Acceptor beta-D-glucuronoside
+                R08262  Morphine <=> Morphine-3-glucuronide
+ORTHOLOGY   K00699  glucuronosyltransferase [EC:2.4.1.17]
+///

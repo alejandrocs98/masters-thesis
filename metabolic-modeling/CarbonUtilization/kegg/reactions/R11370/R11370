@@ -1,0 +1,19 @@
+ENTRY       R11370                      Reaction
+NAME        6-methylsalicylate:CoA ligase (AMP-forming)
+DEFINITION  ATP + 6-Methylsalicylate + CoA <=> AMP + Diphosphate + 6-Methylsalicylyl-CoA
+EQUATION    C00002 + C02657 + C00010 <=> C00020 + C00013 + C21312
+RCLASS      RC00004  C00010_C21312
+            RC00174  C02657_C21312
+ENZYME      6.2.1.-
+PATHWAY     rn01059  Biosynthesis of enediyne antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00829  3,6-Dimethylsalicylyl-CoA biosynthesis, malonyl-CoA => 6-methylsalicylate => 3,6-dimethylsalicylyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.-
+                 R11370  ATP + 6-Methylsalicylate + CoA <=> AMP + Diphosphate + 6-Methylsalicylyl-CoA
+ORTHOLOGY   K21191  CoA ligase [EC:6.2.1.-]
+///

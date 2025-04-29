@@ -1,0 +1,21 @@
+ENTRY       R10931                      Reaction
+NAME        LysW-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphorylating)
+DEFINITION  LysW-L-glutamyl 5-phosphate + NADPH + H+ <=> LysW-L-glutamate 5-semialdehyde + NADP+ + Orthophosphate
+EQUATION    C20949 + C00005 + C00080 <=> C20950 + C00006 + C00009
+RCLASS      RC00001  C00005_C00006
+            RC00684  C20949_C20950
+ENZYME      1.2.1.106
+PATHWAY     rn00220  Arginine biosynthesis
+            rn01100  Metabolic pathways
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01230  Biosynthesis of amino acids
+MODULE      M00763  Ornithine biosynthesis, mediated by LysW, glutamate => ornithine
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.106
+                 R10931  LysW-L-glutamyl 5-phosphate + NADPH + H+ <=> LysW-L-glutamate 5-semialdehyde + NADP+ + Orthophosphate
+ORTHOLOGY   K05829  [amino group carrier protein]-6-phospho-L-2-aminoadipate/5-phospho-L-glutamate reductase [EC:1.2.1.103 1.2.1.106]
+DBLINKS     RHEA: 52671
+///

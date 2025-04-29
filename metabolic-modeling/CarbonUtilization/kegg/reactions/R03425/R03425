@@ -1,0 +1,24 @@
+ENTRY       R03425                      Reaction
+NAME        glycine:lipoylprotein oxidoreductase (decarboxylating and acceptor-aminomethylating)
+DEFINITION  Glycine + Lipoylprotein <=> [Protein]-S8-aminomethyldihydrolipoyllysine + CO2
+EQUATION    C00037 + C02051 <=> C01242 + C00011
+COMMENT     a part step of glycine cleavage system (see R01221, R03425+R04125+R03815)
+RCLASS      RC00929  C01242_C02051
+            RC02880  C00037_C01242
+ENZYME      1.4.4.2
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn00785  Lipoic acid metabolism
+            rn01100  Metabolic pathways
+            rn01200  Carbon metabolism
+MODULE      M00621  Glycine cleavage system
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.4  With a disulfide as acceptor
+                1.4.4.2
+                 R03425  Glycine + Lipoylprotein <=> [Protein]-S8-aminomethyldihydrolipoyllysine + CO2
+ORTHOLOGY   K00281  glycine cleavage system P protein (glycine dehydrogenase) [EC:1.4.4.2]
+            K00282  glycine cleavage system P protein (glycine dehydrogenase) subunit 1 [EC:1.4.4.2]
+            K00283  glycine cleavage system P protein (glycine dehydrogenase) subunit 2 [EC:1.4.4.2]
+DBLINKS     RHEA: 24307
+///

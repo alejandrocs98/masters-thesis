@@ -1,0 +1,24 @@
+ENTRY       R02537                      Reaction
+NAME        aldehyde:NADP+ oxidoreductase
+DEFINITION  Phenylacetaldehyde + NADP+ + H2O <=> Phenylacetic acid + NADPH + H+
+EQUATION    C00601 + C00006 + C00001 <=> C07086 + C00005 + C00080
+COMMENT     NAD+ (see R02536)
+RCLASS      RC00001  C00005_C00006
+            RC00080  C00601_C07086
+ENZYME      1.2.1.5
+PATHWAY     rn00360  Phenylalanine metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.5
+                 R02537  Phenylacetaldehyde + NADP+ + H2O <=> Phenylacetic acid + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.5
+               R00634  Aldehyde <=> Carboxylate
+                R02537  Phenylacetaldehyde <=> Phenylacetic acid
+ORTHOLOGY   K00129  aldehyde dehydrogenase (NAD(P)+) [EC:1.2.1.5]
+///

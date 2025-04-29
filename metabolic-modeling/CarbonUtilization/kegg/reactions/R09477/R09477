@@ -1,0 +1,21 @@
+ENTRY       R09477                      Reaction
+NAME        xylitol:NAD+ oxidoreductase
+DEFINITION  Xylitol + NAD+ <=> D-Xylose + NADH + H+
+EQUATION    C00379 + C00003 <=> C00181 + C00004 + C00080
+COMMENT     NADP+ (see R01431)
+RCLASS      RC00001  C00003_C00004
+            RC00133  C00181_C00379
+ENZYME      1.1.1.307       1.1.1.430
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.307
+                 R09477  Xylitol + NAD+ <=> D-Xylose + NADH + H+
+                1.1.1.430
+                 R09477  Xylitol + NAD+ <=> D-Xylose + NADH + H+
+ORTHOLOGY   K17743  D-xylose reductase [EC:1.1.1.307 1.1.1.430 1.1.1.431]
+DBLINKS     RHEA: 27444
+///

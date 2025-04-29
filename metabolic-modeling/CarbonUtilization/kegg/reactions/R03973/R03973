@@ -1,0 +1,18 @@
+ENTRY       R03973                      Reaction
+DEFINITION  Hydroiodic acid + 3,5-Diiodo-L-tyrosine <=> 3-Iodo-L-tyrosine + Iodine
+EQUATION    C05590 + C01060 <=> C02515 + C01382
+COMMENT     thyroid peroxidase, TPO
+            reaction on thyroglobulin [KO:K10809] (see R08521)
+RCLASS      RC00949  C01060_C02515
+ENZYME      1.11.1.8
+PATHWAY     rn00350  Tyrosine metabolism
+            rn01100  Metabolic pathways
+MODULE      M00043  Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.11  Acting on a peroxide as acceptor
+               1.11.1  Peroxidases
+                1.11.1.8
+                 R03973  Hydroiodic acid + 3,5-Diiodo-L-tyrosine <=> 3-Iodo-L-tyrosine + Iodine
+ORTHOLOGY   K00431  thyroid peroxidase [EC:1.11.1.8]
+///

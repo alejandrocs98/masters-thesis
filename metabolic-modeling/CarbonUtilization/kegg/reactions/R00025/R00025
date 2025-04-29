@@ -1,0 +1,20 @@
+ENTRY       R00025                      Reaction
+NAME        ethylnitronate:oxygen 2-oxidoreductase (nitrite-forming)
+DEFINITION  Ethylnitronate + Oxygen + Reduced FMN <=> Acetaldehyde + Nitrite + FMN + H2O
+EQUATION    C18091 + C00007 + C01847 <=> C00084 + C00088 + C00061 + C00001
+COMMENT     Previously classified as 2-nitropropane dioxygenase (EC 1.13.11.32).
+RCLASS      RC00126  C00061_C01847
+            RC02541  C00084_C18091
+            RC02759  C00088_C18091
+ENZYME      1.13.12.16
+PATHWAY     rn00910  Nitrogen metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.13  Acting on single donors with incorporation of molecular oxygen (oxygenases)
+               1.13.12  With incorporation of one atom of oxygen (internal monooxygenases or internal mixed-function oxidases)
+                1.13.12.16
+                 R00025  Ethylnitronate + Oxygen + Reduced FMN <=> Acetaldehyde + Nitrite + FMN + H2O
+ORTHOLOGY   K00459  nitronate monooxygenase [EC:1.13.12.16]
+DBLINKS     RHEA: 26461
+///

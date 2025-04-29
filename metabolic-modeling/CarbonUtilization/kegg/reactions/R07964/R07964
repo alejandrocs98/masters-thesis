@@ -1,0 +1,17 @@
+ENTRY       R07964                      Reaction
+DEFINITION  Theobromine + NADPH + H+ + Oxygen <=> 3-Methylxanthine + NADP+ + Formaldehyde + H2O
+EQUATION    C07480 + C00005 + C00080 + C00007 <=> C16357 + C00006 + C00067 + C00001
+COMMENT     theobromine demethylase
+RCLASS      RC00001  C00005_C00006
+            RC01797  C00067_C07480
+            RC01827  C07480_C16357
+ENZYME      1.13.12.-
+PATHWAY     rn00232  Caffeine metabolism
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.13  Acting on single donors with incorporation of molecular oxygen (oxygenases)
+               1.13.12  With incorporation of one atom of oxygen (internal monooxygenases or internal mixed-function oxidases)
+                1.13.12.-
+                 R07964  Theobromine + NADPH + H+ + Oxygen <=> 3-Methylxanthine + NADP+ + Formaldehyde + H2O
+///

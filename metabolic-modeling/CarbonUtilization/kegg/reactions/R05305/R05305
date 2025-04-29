@@ -1,0 +1,23 @@
+ENTRY       R05305                      Reaction
+NAME        3-hydroxypimeloyl-CoA:NAD+ oxidoreductase
+DEFINITION  3-Hydroxypimeloyl-CoA + NAD+ <=> 3-Oxopimeloyl-CoA + NADH + H+
+EQUATION    C06714 + C00003 <=> C06715 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00029  C06714_C06715
+ENZYME      1.1.1.35        1.1.1.259
+PATHWAY     rn00362  Benzoate degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.35
+                 R05305  3-Hydroxypimeloyl-CoA + NAD+ <=> 3-Oxopimeloyl-CoA + NADH + H+
+                1.1.1.259
+                 R05305  3-Hydroxypimeloyl-CoA + NAD+ <=> 3-Oxopimeloyl-CoA + NADH + H+
+ORTHOLOGY   K01782  3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase [EC:1.1.1.35 4.2.1.17 5.1.2.3]
+            K01825  3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase / enoyl-CoA isomerase [EC:1.1.1.35 4.2.1.17 5.1.2.3 5.3.3.8]
+            K07516  3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35]
+DBLINKS     RHEA: 11171
+///

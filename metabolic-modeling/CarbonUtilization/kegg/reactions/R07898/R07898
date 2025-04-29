@@ -1,0 +1,28 @@
+ENTRY       R07898                      Reaction
+DEFINITION  3-Hydroxy-OPC4-CoA + NAD+ <=> 3-Oxo-OPC4-CoA + NADH + H+
+EQUATION    C16337 + C00003 <=> C16338 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00029  C16337_C16338
+ENZYME      1.1.1.35        1.1.1.211
+PATHWAY     rn00592  alpha-Linolenic acid metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00113  Jasmonic acid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.35
+                 R07898  3-Hydroxy-OPC4-CoA + NAD+ <=> 3-Oxo-OPC4-CoA + NADH + H+
+                1.1.1.211
+                 R07898  3-Hydroxy-OPC4-CoA + NAD+ <=> 3-Oxo-OPC4-CoA + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.35
+               R01778  (3S)-3-Hydroxyacyl-CoA <=> 3-Oxoacyl-CoA
+                R07898  3-Hydroxy-OPC4-CoA <=> 3-Oxo-OPC4-CoA
+              1.1.1.211
+               R01778  (3S)-3-Hydroxyacyl-CoA <=> 3-Oxoacyl-CoA
+                R07898  3-Hydroxy-OPC4-CoA <=> 3-Oxo-OPC4-CoA
+ORTHOLOGY   K10527  enoyl-CoA hydratase/3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35 1.1.1.211]
+///

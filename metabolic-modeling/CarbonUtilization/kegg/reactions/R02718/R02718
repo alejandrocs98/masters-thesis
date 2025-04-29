@@ -1,0 +1,19 @@
+ENTRY       R02718                      Reaction
+NAME        D-alanine:poly(ribitol phosphate) ligase (AMP-forming)
+DEFINITION  ATP + D-Alanine + Poly(ribitol phosphate) <=> AMP + Diphosphate + O-D-Alanyl-poly(ribitol phosphate)
+EQUATION    C00002 + C00133 + C00653 <=> C00020 + C00013 + C04260
+COMMENT     possibly intermediate (D-alanyl-[acp])
+RCLASS      RC00037  C00653_C04260
+            RC00094  C00133_C04260
+ENZYME      6.1.1.13
+PATHWAY     rn00470  D-Amino acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.1  Forming carbon-oxygen bonds
+               6.1.1  Ligases forming aminoacyl-tRNA and related compounds
+                6.1.1.13
+                 R02718  ATP + D-Alanine + Poly(ribitol phosphate) <=> AMP + Diphosphate + O-D-Alanyl-poly(ribitol phosphate)
+ORTHOLOGY   K03367  D-alanine--poly(phosphoribitol) ligase subunit 1 [EC:6.1.1.13]
+            K14188  D-alanine--poly(phosphoribitol) ligase subunit 2 [EC:6.1.1.13]
+///

@@ -1,0 +1,31 @@
+ENTRY       R03124                      Reaction
+NAME        dihydrokaempferol,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (3'-hydroxylating)
+DEFINITION  Dihydrokaempferol + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Taxifolin + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00974 + C03024 + C00007 <=> C01617 + C03161 + C00001
+COMMENT     first step of two-step reaction (see R03125, R03124+R03639)
+            subsequently R03639, catalyzed by flavonoid 3',5'-hydroxylase (ec 1.14.13.88)
+RCLASS      RC00046  C00974_C01617
+ENZYME      1.14.14.81      1.14.14.82
+PATHWAY     rn00941  Flavonoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.81
+                 R03124  Dihydrokaempferol + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Taxifolin + [Oxidized NADPH---hemoprotein reductase] + H2O
+                1.14.14.82
+                 R03124  Dihydrokaempferol + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Taxifolin + [Oxidized NADPH---hemoprotein reductase] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.81
+               R07369  Flavanone <=> 3'-Hydroxyflavanone
+                R03124  Dihydrokaempferol <=> Taxifolin
+              1.14.14.82
+               R03615  Flavonoid <=> 3'-Hydroxyflavonoid
+                R03124  Dihydrokaempferol <=> Taxifolin
+ORTHOLOGY   K05280  flavonoid 3'-monooxygenase [EC:1.14.14.82]
+            K13083  flavonoid 3',5'-hydroxylase [EC:1.14.14.81]
+DBLINKS     RHEA: 61115
+///

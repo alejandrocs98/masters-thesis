@@ -1,0 +1,26 @@
+ENTRY       R00308                      Reaction
+NAME        1,3-beta-D-glucan glucanohydrolase
+DEFINITION  1,3-beta-D-Glucan + H2O <=> D-Glucose + 1,3-beta-D-Glucan
+EQUATION    C00965 + C00001 <=> C00031 + C00965
+REMARK      Same as: R06204
+COMMENT     endo-type cleavage (ec 3.2.1.39)
+            exo-type cleavage (ec 3.2.1.58)
+            ec 3.2.1.58 forms alpha-D-Glucose (see R03115)
+RCLASS      RC00467  C00031_C00965
+ENZYME      3.2.1.39        3.2.1.58
+PATHWAY     rn00500  Starch and sucrose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.2  Glycosylases
+               3.2.1  Glycosidases, i.e. enzymes that hydrolyse O- and S-glycosyl compounds
+                3.2.1.39
+                 R00308  1,3-beta-D-Glucan + H2O <=> D-Glucose + 1,3-beta-D-Glucan
+                3.2.1.58
+                 R00308  1,3-beta-D-Glucan + H2O <=> D-Glucose + 1,3-beta-D-Glucan
+ORTHOLOGY   K01199  glucan endo-1,3-beta-D-glucosidase [EC:3.2.1.39]
+            K01210  glucan 1,3-beta-glucosidase [EC:3.2.1.58]
+            K19891  glucan endo-1,3-beta-glucosidase 1/2/3 [EC:3.2.1.39]
+            K19892  glucan endo-1,3-beta-glucosidase 4 [EC:3.2.1.39]
+            K19893  glucan endo-1,3-beta-glucosidase 5/6 [EC:3.2.1.39]
+///

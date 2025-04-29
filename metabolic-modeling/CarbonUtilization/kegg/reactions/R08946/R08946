@@ -1,0 +1,23 @@
+ENTRY       R08946                      Reaction
+NAME        ADP-glucose: D-glucose 1-alpha-D-glucosyltransferase
+DEFINITION  ADP-glucose + D-Glucose <=> alpha,alpha-Trehalose + ADP
+EQUATION    C00498 + C00031 <=> C01083 + C00008
+RCLASS      RC00005  C00008_C00498
+            RC00049  C00031_C01083
+ENZYME      2.4.1.245
+PATHWAY     rn00500  Starch and sucrose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.245
+                 R08946  ADP-glucose + D-Glucose <=> alpha,alpha-Trehalose + ADP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.1.245
+               R10525  NDP-glucose <=> alpha,alpha-Trehalose
+                R08946  ADP-glucose <=> alpha,alpha-Trehalose
+ORTHOLOGY   K13057  trehalose synthase [EC:2.4.1.245]
+DBLINKS     RHEA: 25411
+///

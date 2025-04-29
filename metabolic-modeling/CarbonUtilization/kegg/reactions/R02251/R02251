@@ -1,0 +1,29 @@
+ENTRY       R02251                      Reaction
+NAME        acyl-CoA:1,2-diacyl-sn-glycerol O-acyltransferase
+DEFINITION  Triacylglycerol + CoA <=> 1,2-Diacyl-sn-glycerol + Acyl-CoA
+EQUATION    C00422 + C00010 <=> C00641 + C00040
+RCLASS      RC00004  C00010_C00040
+            RC00041  C00422_C00641
+ENZYME      2.3.1.20
+PATHWAY     rn00561  Glycerolipid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00089  Triacylglycerol biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.20
+                 R02251  Triacylglycerol + CoA <=> 1,2-Diacyl-sn-glycerol + Acyl-CoA
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.20
+               R02251  Acyl-CoA
+ORTHOLOGY   K00635  diacylglycerol O-acyltransferase / wax synthase [EC:2.3.1.20 2.3.1.75]
+            K11155  diacylglycerol O-acyltransferase 1 [EC:2.3.1.20 2.3.1.75 2.3.1.76]
+            K11160  diacylglycerol O-acyltransferase 2 [EC:2.3.1.20 2.3.1.75]
+            K14456  2-acylglycerol O-acyltransferase 3 [EC:2.3.1.20 2.3.1.22]
+            K18851  diacylglycerol O-acyltransferase / trehalose O-mycolyltransferase [EC:2.3.1.20 2.3.1.122]
+            K22848  diacylglycerol O-acyltransferase 2, plant [EC:2.3.1.20]
+            K22849  diacylglycerol O-acyltransferase 3, plant [EC:2.3.1.20]
+DBLINKS     RHEA: 10871
+///

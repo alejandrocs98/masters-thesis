@@ -1,0 +1,19 @@
+ENTRY       R05441                      Reaction
+NAME        4-chlorophenol,NADPH:oxygen oxidoreductase (6-hydroxylating)
+DEFINITION  4-Chlorophenol + Oxygen + NADPH + H+ <=> 4-Chlorocatechol + NADP+ + H2O
+EQUATION    C02124 + C00007 + C00005 + C00080 <=> C02375 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00046  C02124_C02375
+ENZYME      1.14.13.20
+PATHWAY     rn00361  Chlorocyclohexane and chlorobenzene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.20
+                 R05441  4-Chlorophenol + Oxygen + NADPH + H+ <=> 4-Chlorocatechol + NADP+ + H2O
+ORTHOLOGY   K10676  2,4-dichlorophenol 6-monooxygenase [EC:1.14.13.20]
+///

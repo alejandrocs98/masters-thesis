@@ -1,0 +1,18 @@
+ENTRY       R08923                      Reaction
+NAME        (+)-pulegone,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (9-hydroxylating)
+DEFINITION  Pulegone + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> (+)-Menthofuran + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+EQUATION    C09893 + C03024 + C00007 <=> C18025 + C03161 + 2 C00001
+COMMENT     multi-step reaction (9-hydroxylation, cyclization and dehydration)
+RCLASS      RC02978  C09893_C18025
+ENZYME      1.14.14.143
+PATHWAY     rn00902  Monoterpenoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.143
+                 R08923  Pulegone + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> (+)-Menthofuran + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+ORTHOLOGY   K15093  (+)-menthofuran synthase [EC:1.14.14.143]
+DBLINKS     RHEA: 25661
+///

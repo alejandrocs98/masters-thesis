@@ -1,0 +1,31 @@
+ENTRY       R01221                      Reaction
+NAME        glycine:NAD+ 2-oxidoreductase (tetrahydrofolate-methylene-adding);
+            glycine cleavage system
+DEFINITION  Glycine + Tetrahydrofolate + NAD+ <=> 5,10-Methylenetetrahydrofolate + Ammonia + CO2 + NADH + H+
+EQUATION    C00037 + C00101 + C00003 <=> C00143 + C00014 + C00011 + C00004 + C00080
+COMMENT     multienzyme system
+            multi-step reaction (see R03425+R04125+R03815)
+RCLASS      RC00001  C00003_C00004
+            RC00022  C00101_C00143
+            RC02834  C00014_C00037
+ENZYME      1.4.1.27
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01200  Carbon metabolism
+MODULE      M00532  Photorespiration
+            M00621  Glycine cleavage system
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.1  With NAD+ or NADP+ as acceptor
+                1.4.1.27
+                 R01221  Glycine + Tetrahydrofolate + NAD+ <=> 5,10-Methylenetetrahydrofolate + Ammonia + CO2 + NADH + H+
+ORTHOLOGY   K00281  glycine cleavage system P protein (glycine dehydrogenase) [EC:1.4.4.2]
+            K00282  glycine cleavage system P protein (glycine dehydrogenase) subunit 1 [EC:1.4.4.2]
+            K00283  glycine cleavage system P protein (glycine dehydrogenase) subunit 2 [EC:1.4.4.2]
+            K00382  dihydrolipoyl dehydrogenase [EC:1.8.1.4]
+            K00605  glycine cleavage system T protein (aminomethyltransferase) [EC:2.1.2.10]
+            K02437  glycine cleavage system H protein
+DBLINKS     RHEA: 27761
+///

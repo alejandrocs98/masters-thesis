@@ -1,0 +1,18 @@
+ENTRY       R08744                      Reaction
+NAME        3alpha,7alpha-dihydroxy-5beta-cholanoyl-CoA:glycine N-choloyltransferase;
+            chenodeoxycholoyl-CoA:glycine N-chenodeoxycholoyltransferase
+DEFINITION  Chenodeoxycholoyl-CoA + Glycine <=> Glycochenodeoxycholate + CoA
+EQUATION    C05337 + C00037 <=> C05466 + C00010
+RCLASS      RC00004  C00010_C05337
+            RC00096  C00037_C05466
+ENZYME      2.3.1.65
+PATHWAY     rn00120  Primary bile acid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.65
+                 R08744  Chenodeoxycholoyl-CoA + Glycine <=> Glycochenodeoxycholate + CoA
+ORTHOLOGY   K00659  bile acid-CoA:amino acid N-acyltransferase [EC:2.3.1.65 3.1.2.2]
+DBLINKS     RHEA: 49791
+///

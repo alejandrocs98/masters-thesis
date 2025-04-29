@@ -1,0 +1,23 @@
+ENTRY       R02630                      Reaction
+NAME        protein-N(pi)-phosphohistidine:D-mannose 6-phosphotransferase
+DEFINITION  Protein N(pi)-phospho-L-histidine + D-Mannose <=> Protein histidine + D-Mannose 6-phosphate
+EQUATION    C04261 + C00159 <=> C00615 + C00275
+RCLASS      RC00017  C00159_C00275
+            RC03206  C00615_C04261
+ENZYME      2.7.1.191
+PATHWAY     rn00051  Fructose and mannose metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.191
+                 R02630  Protein N(pi)-phospho-L-histidine + D-Mannose <=> Protein histidine + D-Mannose 6-phosphate
+ORTHOLOGY   K02793  mannose PTS system EIIA component [EC:2.7.1.191]
+            K02794  mannose PTS system EIIAB component [EC:2.7.1.191]
+            K02795  mannose PTS system EIIC component
+            K02796  mannose PTS system EIID component
+            K25814  mannose PTS system EIIBCA component [EC:2.7.1.191]
+DBLINKS     RHEA: 49235
+///

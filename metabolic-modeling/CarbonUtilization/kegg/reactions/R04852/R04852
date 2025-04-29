@@ -1,0 +1,20 @@
+ENTRY       R04852                      Reaction
+NAME        11beta-hydroxyprogesterone,NADPH-hemoprotein reductase:oxygen oxidoreductase (17alpha-hydroxylating)
+DEFINITION  21-Deoxycortisol + [Oxidized NADPH---hemoprotein reductase] + H2O <=> 11beta-Hydroxyprogesterone + [Reduced NADPH---hemoprotein reductase] + Oxygen
+EQUATION    C05497 + C03161 + C00001 <=> C05498 + C03024 + C00007
+RCLASS      RC00660  C05497_C05498
+ENZYME      1.14.14.19
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.19
+                 R04852  21-Deoxycortisol + [Oxidized NADPH---hemoprotein reductase] + H2O <=> 11beta-Hydroxyprogesterone + [Reduced NADPH---hemoprotein reductase] + Oxygen
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.19
+               R02131  Steroid <=> 17alpha-Hydroxysteroid
+                R04852  11beta-Hydroxyprogesterone <=> 21-Deoxycortisol
+ORTHOLOGY   K00512  steroid 17alpha-monooxygenase / 17alpha-hydroxyprogesterone deacetylase [EC:1.14.14.19 1.14.14.32]
+///

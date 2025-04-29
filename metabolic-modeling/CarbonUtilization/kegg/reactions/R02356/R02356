@@ -1,0 +1,35 @@
+ENTRY       R02356                      Reaction
+DEFINITION  Estrone + H+ + Oxygen + NADPH <=> 16alpha-Hydroxyestrone + NADP+ + H2O
+EQUATION    C00468 + C00080 + C00007 + C00005 <=> C05300 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00704  C00468_C05300
+ENZYME      1.14.14.1       1.14.14.-
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R02356  Estrone + H+ + Oxygen + NADPH <=> 16alpha-Hydroxyestrone + NADP+ + H2O
+                1.14.14.-
+                 R02356  Estrone + H+ + Oxygen + NADPH <=> 16alpha-Hydroxyestrone + NADP+ + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.1
+               R04122  Alkane <=> ROH
+                R02356  Estrone <=> 16alpha-Hydroxyestrone
+ORTHOLOGY   K07424  cytochrome P450 family 3 subfamily A [EC:1.14.14.1]
+            K17689  cytochrome P450 family 3 subfamily A4 [EC:1.14.13.32 1.14.14.55 1.14.14.56 1.14.14.57 1.14.14.73 1.14.14.-]
+            K17690  cytochrome P450 family 3 subfamily A5 [EC:1.14.14.1]
+REFERENCE   1  [PMID:11861789]
+  AUTHORS   Lee AJ, Mills LH, Kosh JW, Conney AH, Zhu BT.
+  TITLE     NADPH-dependent metabolism of estrone by human liver microsomes.
+  JOURNAL   J Pharmacol Exp Ther 300:838-49 (2002)
+            DOI:10.1124/jpet.300.3.838
+REFERENCE   2  [PMID:9635876]
+  AUTHORS   Huang Z, Guengerich FP, Kaminsky LS.
+  TITLE     16Alpha-hydroxylation of estrone by human cytochrome P4503A4/5.
+  JOURNAL   Carcinogenesis 19:867-72 (1998)
+            DOI:10.1093/carcin/19.5.867
+///

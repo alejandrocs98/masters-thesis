@@ -1,0 +1,19 @@
+ENTRY       R04171                      Reaction
+NAME        3-hydroxy-L-kynurenine:2-oxoglutarate aminotransferase
+DEFINITION  3-Hydroxy-L-kynurenine + 2-Oxoglutarate <=> 4-(2-Amino-3-hydroxyphenyl)-2,4-dioxobutanoate + L-Glutamate
+EQUATION    C03227 + C00026 <=> C05645 + C00025
+COMMENT     the first step of two-step reaction (see R04171+R03954)
+RCLASS      RC00006  C00025_C00026  C03227_C05645
+ENZYME      2.6.1.7
+PATHWAY     rn00380  Tryptophan metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.7
+                 R04171  3-Hydroxy-L-kynurenine + 2-Oxoglutarate <=> 4-(2-Amino-3-hydroxyphenyl)-2,4-dioxobutanoate + L-Glutamate
+ORTHOLOGY   K00816  kynurenine---oxoglutarate transaminase / cysteine-S-conjugate beta-lyase / glutamine---phenylpyruvate transaminase [EC:2.6.1.7 4.4.1.13 2.6.1.64]
+            K00825  kynurenine/2-aminoadipate aminotransferase [EC:2.6.1.7 2.6.1.39]
+            K14264  kynurenine aminotransferase [EC:2.6.1.7]
+DBLINKS     RHEA: 65891
+///

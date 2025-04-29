@@ -1,0 +1,27 @@
+ENTRY       R01541                      Reaction
+NAME        ATP:2-dehydro-3-deoxy-D-gluconate 6-phosphotransferase
+DEFINITION  ATP + 2-Dehydro-3-deoxy-D-gluconate <=> ADP + 2-Dehydro-3-deoxy-6-phospho-D-gluconate
+EQUATION    C00002 + C00204 <=> C00008 + C04442
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00204_C04442
+ENZYME      2.7.1.45        2.7.1.178
+PATHWAY     rn00030  Pentose phosphate pathway
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00061  D-Glucuronate degradation, D-glucuronate => pyruvate + D-glyceraldehyde 3P
+            M00308  Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P
+            M00631  D-Galacturonate degradation (bacteria), D-galacturonate => pyruvate + D-glyceraldehyde 3P
+            M00633  Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.45
+                 R01541  ATP + 2-Dehydro-3-deoxy-D-gluconate <=> ADP + 2-Dehydro-3-deoxy-6-phospho-D-gluconate
+                2.7.1.178
+                 R01541  ATP + 2-Dehydro-3-deoxy-D-gluconate <=> ADP + 2-Dehydro-3-deoxy-6-phospho-D-gluconate
+ORTHOLOGY   K00874  2-dehydro-3-deoxygluconokinase [EC:2.7.1.45]
+            K18126  2-dehydro-3-deoxygluconokinase / 2-dehydro-3-deoxygalactonokinase [EC:2.7.1.178]
+DBLINKS     RHEA: 14800
+///

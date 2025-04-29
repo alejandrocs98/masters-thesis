@@ -1,0 +1,19 @@
+ENTRY       R08916                      Reaction
+NAME        3beta-hydroxy-9beta-pimara-7,15-diene-19,6beta-olide:NAD+ oxidoreductase
+DEFINITION  3beta-Hydroxy-9beta-pimara-7,15-diene-19,6beta-olide + NAD+ <=> Momilactone A + NADH + H+
+EQUATION    C18016 + C00003 <=> C18015 + C00004 + C00080
+COMMENT     NADP+ (less effective, see R08917)
+RCLASS      RC00001  C00003_C00004
+            RC00127  C18015_C18016
+ENZYME      1.1.1.295
+PATHWAY     rn00904  Diterpenoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.295
+                 R08916  3beta-Hydroxy-9beta-pimara-7,15-diene-19,6beta-olide + NAD+ <=> Momilactone A + NADH + H+
+ORTHOLOGY   K13070  momilactone-A synthase [EC:1.1.1.295]
+DBLINKS     RHEA: 25366
+///

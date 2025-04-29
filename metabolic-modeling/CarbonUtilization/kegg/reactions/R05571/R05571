@@ -1,0 +1,18 @@
+ENTRY       R05571                      Reaction
+NAME        galactitol-1-phosphate:NAD oxidoreductase
+DEFINITION  Galactitol 1-phosphate + NAD+ <=> D-Tagatose 6-phosphate + NADH + H+
+EQUATION    C06311 + C00003 <=> C01097 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00085  C01097_C06311
+ENZYME      1.1.1.251
+PATHWAY     rn00052  Galactose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.251
+                 R05571  Galactitol 1-phosphate + NAD+ <=> D-Tagatose 6-phosphate + NADH + H+
+ORTHOLOGY   K00094  galactitol-1-phosphate 5-dehydrogenase [EC:1.1.1.251]
+DBLINKS     RHEA: 28109
+///

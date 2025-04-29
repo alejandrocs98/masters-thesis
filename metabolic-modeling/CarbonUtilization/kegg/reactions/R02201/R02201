@@ -1,0 +1,21 @@
+ENTRY       R02201                      Reaction
+NAME        L-pipecolate:NAD+ 2-oxidoreductase
+DEFINITION  L-Pipecolate + NAD+ <=> Delta1-Piperideine-2-carboxylate + NADH + H+
+EQUATION    C00408 + C00003 <=> C04092 + C00004 + C00080
+COMMENT     NADPH (see R02203)
+RCLASS      RC00001  C00003_C00004
+            RC00135  C00408_C04092
+ENZYME      1.5.1.1
+PATHWAY     rn00310  Lysine degradation
+            rn00960  Tropane, piperidine and pyridine alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.1
+                 R02201  L-Pipecolate + NAD+ <=> Delta1-Piperideine-2-carboxylate + NADH + H+
+ORTHOLOGY   K19743  1-piperideine-2-carboxylate/1-pyrroline-2-carboxylate reductase [NAD(P)H] [EC:1.5.1.1]
+DBLINKS     RHEA: 30810
+///

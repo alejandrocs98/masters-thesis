@@ -1,0 +1,27 @@
+ENTRY       R08215                      Reaction
+NAME        (-)-threo-iso(homo)3-citrate:NAD+ oxidoreductase (decarboxylating)
+DEFINITION  (-)-threo-Iso(homo)3-citrate + NAD+ <=> 2-Oxosuberate + CO2 + NADH + H+
+EQUATION    C16600 + C00003 <=> C16589 + C00011 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00114  C16589_C16600
+ENZYME      1.1.1.-
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01240  Biosynthesis of cofactors
+MODULE      M00608  2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R08215  (-)-threo-Iso(homo)3-citrate + NAD+ <=> 2-Oxosuberate + CO2 + NADH + H+
+ORTHOLOGY   K10978  methanogen homoisocitrate dehydrogenase [EC:1.1.1.87 1.1.1.-]
+REFERENCE   1  [PMID:10940051]
+  AUTHORS   Howell DM, Graupner M, Xu H, White RH
+  TITLE     Identification of enzymes homologous to isocitrate dehydrogenase that are involved in coenzyme B and leucine biosynthesis in methanoarchaea.
+  JOURNAL   J Bacteriol 182:5013-6 (2000)
+            DOI:10.1128/JB.182.17.5013-5016.2000
+DBLINKS     RHEA: 68411
+///

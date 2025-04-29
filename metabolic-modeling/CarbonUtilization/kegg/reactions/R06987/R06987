@@ -1,0 +1,24 @@
+ENTRY       R06987                      Reaction
+NAME        propanoyl-CoA:formate C-propanoyltransferase
+DEFINITION  2-Oxobutanoate + CoA <=> Propanoyl-CoA + Formate
+EQUATION    C00109 + C00010 <=> C00100 + C00058
+RCLASS      RC00004  C00010_C00100
+            RC01181  C00058_C00109
+            RC02833  C00100_C00109
+ENZYME      2.3.1.54
+PATHWAY     rn00640  Propanoate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.54
+                 R06987  2-Oxobutanoate + CoA <=> Propanoyl-CoA + Formate
+ORTHOLOGY   K00656  formate C-acetyltransferase [EC:2.3.1.54]
+REFERENCE   1  [PMID:9484901]
+  AUTHORS   Hesslinger C, Fairhurst SA, Sawers G
+  TITLE     Novel keto acid formate-lyase and propionate kinase enzymes are components of an anaerobic pathway in Escherichia coli that degrades L-threonine to propionate.
+  JOURNAL   Mol Microbiol 27:477-92 (1998)
+            DOI:10.1046/j.1365-2958.1998.00696.x
+DBLINKS     RHEA: 28057
+///

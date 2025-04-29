@@ -1,0 +1,29 @@
+ENTRY       R02018                      Reaction
+NAME        2'-deoxyuridine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase
+DEFINITION  dUDP + Thioredoxin disulfide + H2O <=> Thioredoxin + UDP
+EQUATION    C01346 + C00343 + C00001 <=> C00342 + C00015
+RCLASS      RC00013  C00342_C00343
+            RC00613  C00015_C01346
+ENZYME      1.17.4.1
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00053  Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP
+            M00938  Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.17  Acting on CH or CH2 groups
+               1.17.4  With a disulfide as acceptor
+                1.17.4.1
+                 R02018  dUDP + Thioredoxin disulfide + H2O <=> Thioredoxin + UDP
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.17.4.1
+               R04294  2'-Deoxyribonucleoside diphosphate <=> Ribonucleoside diphosphate
+                R02018  dUDP <=> UDP
+ORTHOLOGY   K00525  ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]
+            K00526  ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]
+            K10807  ribonucleoside-diphosphate reductase subunit M1 [EC:1.17.4.1]
+            K10808  ribonucleoside-diphosphate reductase subunit M2 [EC:1.17.4.1]
+DBLINKS     RHEA: 28029
+///

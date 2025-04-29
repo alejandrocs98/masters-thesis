@@ -1,0 +1,30 @@
+ENTRY       R01146                      Reaction
+NAME        methanol:ferricytochrome-c oxidoreductase;
+            methanol dehydrogenase
+DEFINITION  Methanol + 2 Ferricytochrome cL <=> Formaldehyde + 2 Ferrocytochrome cL + 2 H+
+EQUATION    C00132 + 2 C18233 <=> C00067 + 2 C18234 + 2 C00080
+RCLASS      RC00034  C00067_C00132
+ENZYME      1.1.2.7         1.1.2.10
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00174  Methane oxidation, methanotroph, methane => formaldehyde
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.2  With a cytochrome as acceptor
+                1.1.2.7
+                 R01146  Methanol + 2 Ferricytochrome cL <=> Formaldehyde + 2 Ferrocytochrome cL + 2 H+
+                1.1.2.10
+                 R01146  Methanol + 2 Ferricytochrome cL <=> Formaldehyde + 2 Ferrocytochrome cL + 2 H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.2.7
+               R10713  Primary alcohol <=> Aldehyde
+                R01146  Methanol <=> Formaldehyde
+ORTHOLOGY   K14028  methanol dehydrogenase (cytochrome c) subunit 1 [EC:1.1.2.7]
+            K14029  methanol dehydrogenase (cytochrome c) subunit 2 [EC:1.1.2.7]
+            K23995  lanthanide-dependent methanol dehydrogenase [EC:1.1.2.10]
+DBLINKS     RHEA: 51011
+///

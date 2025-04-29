@@ -1,0 +1,20 @@
+ENTRY       R03111                      Reaction
+NAME        S-adenosyl-L-methionine:sterigmatocystin 8-O-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + Sterigmatocystin <=> S-Adenosyl-L-homocysteine + O-Methylsterigmatocystin
+EQUATION    C00019 + C00961 <=> C00021 + C03686
+RCLASS      RC00003  C00019_C00021
+            RC00392  C00961_C03686
+ENZYME      2.1.1.110
+PATHWAY     rn00254  Aflatoxin biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00937  Aflatoxin biosynthesis, malonyl-CoA => aflatoxin B1
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.110
+                 R03111  S-Adenosyl-L-methionine + Sterigmatocystin <=> S-Adenosyl-L-homocysteine + O-Methylsterigmatocystin
+ORTHOLOGY   K17650  sterigmatocystin 8-O-methyltransferase [EC:2.1.1.110]
+DBLINKS     RHEA: 15564
+///

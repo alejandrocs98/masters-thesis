@@ -1,0 +1,274 @@
+ENTRY       K16319                      KO
+SYMBOL      andAc
+NAME        anthranilate 1,2-dioxygenase large subunit [EC:1.14.12.1]
+PATHWAY     map00627  Aminobenzoate degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+MODULE      M00637  Anthranilate degradation, anthranilate => catechol
+REACTION    R00823  anthranilate,NADH:oxygen oxidoreductase (1,2-hydroxylating, deaminating, decarboxylating)
+            R00825  anthranilate,NADPH:oxygen oxidoreductase (1,2-hydroxylating, deaminating, decarboxylating)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00627 Aminobenzoate degradation
+                K16319  andAc; anthranilate 1,2-dioxygenase large subunit
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.12  With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into the other donor
+                1.14.12.1  anthranilate 1,2-dioxygenase (deaminating, decarboxylating)
+                 K16319  andAc; anthranilate 1,2-dioxygenase large subunit
+            Dioxygenases [br01602.html]
+             Dioxygenases in aromatic ring cleavage
+              K16319
+DBLINKS     COG: COG4638
+            GO: 0018618
+GENES       PSD: DSC_14475 DSC_14605 DSC_14835
+            RBD: ALSL_0883
+            VNP: KW548_11570
+            PMAN: OU5_1638(tpaAa)
+            PKC: PKB_3279(andac1) PKB_3628(andac3)
+            PALL: UYA_06915
+            KIM: G3T16_00435 G3T16_00480
+            CYQ: Q91_0875 Q91_0964(andAc) Q91_1468 Q91_2196 Q91_2231 Q91_2233
+            CZA: CYCME_0225 CYCME_0996 CYCME_1640 CYCME_2549 CYCME_2551
+            CYY: CPC19_01635 CPC19_01645 CPC19_01665 CPC19_01820 CPC19_05465 CPC19_07910
+            GBI: PG2T_01270 PG2T_02205 PG2T_04125 PG2T_08580 PG2T_09520 PG2T_09595 PG2T_09810 PG2T_11115 PG2T_11295 PG2T_11405 PG2T_12540 PG2T_13530 PG2T_14465 PG2T_14530
+            RPJ: N234_24830
+            REH: H16_B0801(h16_B0801)
+            CNC: CNE_2c07490(bphA) CNE_BB1p12630(hcaE)
+            CUH: BJN34_18175 BJN34_29480
+            REU: Reut_B3776
+            CBW: RR42_s1160
+            COX: E0W60_08900
+            CUK: KB879_08725
+            BMA: BMAA0203
+            BMV: BMASAVP1_1378
+            BML: BMA10229_1574
+            BMN: BMA10247_A0234
+            BMAL: DM55_3514
+            BMAE: DM78_4643
+            BMAQ: DM76_4211
+            BMAI: DM57_14365
+            BMAF: DM51_3955
+            BMAZ: BM44_3476
+            BMAB: BM45_4312
+            BPS: BPSS1888
+            BPM: BURPS1710b_A0983
+            BPL: BURPS1106A_A2563
+            BPD: BURPS668_A2707
+            BPR: GBP346_A0961
+            BPSE: BDL_5293
+            BPSM: BBQ_4243
+            BPSU: BBN_5352
+            BPSD: BBX_4458
+            BPZ: BP1026B_II2027
+            BPQ: BPC006_II2525
+            BPK: BBK_4626
+            BPSH: DR55_5847
+            BPSA: BBU_4122
+            BPSO: X996_5645
+            BUT: X994_5208
+            BTE: BTH_II0488
+            BTQ: BTQ_3780
+            BTJ: BTJ_4811
+            BTZ: BTL_5597
+            BTD: BTI_5102
+            BTV: BTHA_4604
+            BTHE: BTN_5268
+            BTHM: BTRA_5538
+            BTHA: DR62_5397
+            BTHL: BG87_5613
+            BOK: DM82_6177
+            BOC: BG90_4487
+            BUU: WS70_26920
+            BSAV: WS86_28590
+            BHG: I6G56_27440
+            BUD: AQ610_29900
+            BVI: Bcep1808_4162
+            BVE: AK36_4533
+            BUR: Bcep18194_B2325
+            BCM: Bcenmc03_3748
+            BCH: Bcen2424_3775
+            BCJ: BCAM0810
+            BCEN: DM39_4371 DM39_6336
+            BCEW: DM40_3782
+            BCEO: I35_4708
+            BAM: Bamb_5502
+            BAC: BamMC406_3667
+            BMJ: BMULJ_03557(andAc)
+            BMU: Bmul_4957
+            BMK: DM80_4129
+            BMUL: NP80_3763
+            BCT: GEM_4990
+            BCED: DM42_4276
+            BCEP: APZ15_20380
+            BDL: AK34_4634
+            BPYR: ABD05_17740
+            BCON: NL30_21760
+            BUB: BW23_4531
+            BDF: WI26_17655
+            BLAT: WK25_21490
+            BTEI: WS51_02340
+            BSEM: WJ12_24045
+            BPSL: WS57_10010
+            BMEC: WJ16_23025
+            BSTG: WT74_23090
+            BSTL: BBJ41_31700
+            BANN: JFN94_21560 JFN94_25215
+            BARI: NLX30_18615 NLX30_38945
+            BAEN: L3V59_33840
+            BGD: bgla_2g22330
+            BGO: BM43_5907 BM43_6961
+            BYI: BYI23_D006360 BYI23_D010470
+            BUK: MYA_3862
+            BUE: BRPE67_DCDS08180 BRPE67_DCDS12560
+            BUL: BW21_4639
+            BUQ: AC233_11105 AC233_11150
+            BUM: AXG89_32060
+            BURK: DM992_29670
+            BXE: Bxe_A1102 Bxe_A1107(ohbB) Bxe_B1108 Bxe_B2348 Bxe_B2752 Bxe_C0941 Bxe_C1121(andAc)
+            BXB: DR64_3266 DR64_3271 DR64_4680 DR64_5085 DR64_6426 DR64_7509 DR64_8679
+            PARA: BTO02_23405
+            PARB: CJU94_37820 CJU94_37845
+            PHS: C2L64_23750 C2L64_41775
+            PTER: C2L65_26820 C2L65_38790
+            PACS: FAZ98_30600
+            PEW: KZJ38_24835
+            PDIO: PDMSB3_0305.1(tphA2I) PDMSB3_0743.1(tphA2I)
+            PPAI: E1956_29620 E1956_33560
+            PSPU: NA29_13015
+            CABA: SBC2_53610(nagG)
+            BUO: BRPE64_DCDS05860 BRPE64_DCDS11810
+            CABK: NK8_58550 NK8_82500
+            TVL: FAZ95_22310
+            BPE: BP0584
+            BPC: BPTD_0593
+            BPER: BN118_3483
+            BPET: B1917_3470
+            BPEU: Q425_35650
+            BPAR: BN117_0272
+            BPA: BPP0274
+            BBH: BN112_1865 BN112_3140
+            BBR: BB0277 BB1591
+            BBM: BN115_0262 BN115_1545
+            BBX: BBS798_0272 BBS798_1550
+            BPT: Bpet1540 Bpet3743
+            BAV: BAV0658 BAV1583
+            BBRO: BAU06_12310
+            BFZ: BAU07_14170
+            BPDZ: BBN53_17795
+            BOH: AKI39_11530 AKI39_17215
+            BGM: CAL15_12565
+            BGV: CAL12_12845
+            AXY: AXYL_02469 AXYL_03917 AXYL_06587
+            AXN: AX27061_2911
+            AXX: ERS451415_02889(andAc_2)
+            ADT: APT56_13985
+            AIS: BUW96_02625 BUW96_09070
+            ASW: CVS48_18685
+            ACHR: C2U31_20015 C2U31_23355
+            ACHB: DVB37_13600
+            APES: FOC84_00555
+            AAEG: RA224_13525 RA224_20470
+            PUD: G9Q38_04195 G9Q38_04440
+            PUS: CKA81_17055
+            AKA: TKWG_00630
+            AFA: UZ73_14580
+            AFQ: AFA_15120(picB3)
+            AAQU: D3M96_16055
+            AAMM: FE795_13985
+            PIG: EGT29_02425 EGT29_02765 EGT29_04660 EGT29_12115 EGT29_26485 EGT29_27770
+            PARK: LSG25_10225 LSG25_11510
+            RHF: EUB48_07875
+            ACIO: EAG14_07270
+            VEI: Veis_4605
+            VAP: Vapar_4290
+            VAM: C4F17_28010
+            HYR: BSY239_2678
+            HYB: Q5W_07050
+            HYN: F9K07_01515 F9K07_07620
+            HGR: DW355_10990
+            ATER: MW290_07460
+            HSE: Hsero_3664(nagG)
+            HSZ: ACP92_18265
+            HEE: hmeg3_01305
+            HHF: E2K99_18545
+            HFR: G5S34_19775 G5S34_23585
+            CARE: LT85_0142(ohbB)
+            CPRA: CPter91_0140
+            DZO: SR858_26475(andAc)
+            XYK: GT347_17935
+            XYG: R9X41_02955
+            RBU: PG1C_04550 PG1C_04565 PG1C_06425 PG1C_06440 PG1C_11565
+            AZR: CJ010_02320
+            BVZ: BRAD3257_1703(tphA2I) BRAD3257_1795(tphA2I)
+            BBRA: QA636_05060
+            BPAH: QA639_37060
+            MSL: Msil_1468
+            RHZ: RHPLAN_45720 RHPLAN_48830
+            PHL: KKY_2641
+            PSIN: CAK95_02105
+            PALS: PAF20_18165
+            CMAG: CBW24_16340
+            NAR: Saro_3835 Saro_3868
+            NPP: PP1Y_AT15578 PP1Y_AT15854 PP1Y_AT31241 PP1Y_AT31645 PP1Y_AT31705
+            NPN: JI59_24560 JI59_24595 JI59_24695
+            NOG: GKE62_05030 GKE62_05130 GKE62_05265
+            SINA: KNJ79_21095
+            SWI: Swit_0896
+            SPHD: HY78_22210
+            SJP: SJA_C1-25220(andAc)
+            SBAR: H5V43_22260 H5V43_22295 H5V43_22425
+            SPHY: CHN51_06895 CHN51_06930 CHN51_07060
+            SPHJ: BSL82_17605
+            CNA: AB433_18065 AB433_18165 AB433_18200
+            ERY: CP97_14150 CP97_14185 CP97_14270
+            NTD: EGO55_05295
+            KRE: GWK63_07845
+            KOI: LV478_14475
+            SRF: LHU95_16455
+            AZL: AZL_a06710
+            ALI: AZOLI_p11024
+            AZS: E6C72_25335
+            AGE: AA314_01015
+            MBD: MEBOL_002895
+            PNP: IJ22_13890
+            AFAS: NZD89_23475
+            MMC: Mmcs_1646
+            MKM: Mkms_1672 Mkms_5630
+            MJL: Mjls_1621 Mjls_2233
+            MYE: AB431_15600
+            MGAU: MGALJ_00150
+            MVA: Mvan_0492
+            MGI: Mflv_0563 Mflv_0658
+            MSP: Mspyr1_01660
+            MRH: MycrhN_3163
+            MTHN: 4412656_02481(andAc)
+            MGAD: MGAD_32110
+            MMON: EWR22_08390
+            MPAE: K0O64_27525
+            MCRO: MI149_00730
+            NFR: ERS450000_00309(andAc)
+            RHA: RHA1_ro08176(tpaAa) RHA1_ro10199(tpaAa)
+            ROZ: CBI38_31565
+            STUI: GCM10017668_58060
+            ACRY: AC20117_22180
+            AAU: AAur_pTC10253
+            GMY: XH9_09125
+            AGRA: AGRA3207_003635
+            AACD: LWP59_20415
+            ARHD: VSH64_24045
+            AG: AAO83639(andAc)
+REFERENCE   PMID:20368802
+  AUTHORS   Gai Z, Wang X, Liu X, Tai C, Tang H, He X, Wu G, Deng Z, Xu P
+  TITLE     The genes coding for the conversion of carbazole to catechol are flanked by IS6100 elements in Sphingomonas sp. strain XLDN2-5.
+  JOURNAL   PLoS One 5:e10018 (2010)
+            DOI:10.1371/journal.pone.0010018
+REFERENCE   PMID:13129960
+  AUTHORS   Chang HK, Mohseni P, Zylstra GJ
+  TITLE     Characterization and regulation of the genes for a novel anthranilate 1,2-dioxygenase from Burkholderia cepacia DBO1.
+  JOURNAL   J Bacteriol 185:5871-81 (2003)
+            DOI:10.1128/JB.185.19.5871-5881.2003
+  SEQUENCE  [ag:AAO83639]
+///

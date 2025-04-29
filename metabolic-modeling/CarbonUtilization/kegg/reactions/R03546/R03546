@@ -1,0 +1,31 @@
+ENTRY       R03546                      Reaction
+NAME        carbamate hydro-lyase;
+            cyanate hydratase;
+            cyanate C-N-lyase
+DEFINITION  Cyanate + H+ + HCO3- <=> CO2 + Carbamate
+EQUATION    C01417 + C00080 + C00288 <=> C00011 + C01563
+COMMENT     first step of two-step reaction (see R10079, R03546+R07316)
+            bicarbonate is recycled (see R10092)
+RCLASS      RC00952  C01417_C01563
+            RC02807  C00011_C00288
+ENZYME      4.2.1.104
+PATHWAY     rn00910  Nitrogen metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.104
+                 R03546  Cyanate + H+ + HCO3- <=> CO2 + Carbamate
+ORTHOLOGY   K01725  cyanate lyase [EC:4.2.1.104]
+REFERENCE   1  [PMID:3110153]
+  AUTHORS   Johnson WV, Anderson PM.
+  TITLE     Bicarbonate is a recycling substrate for cyanase.
+  JOURNAL   J Biol Chem 262:9021-5 (1987)
+REFERENCE   2  [PMID:7947823]
+  AUTHORS   Anderson PM, Korte JJ, Holcomb TA.
+  TITLE     Reaction of the N-terminal methionine residues in cyanase with diethylpyrocarbonate.
+  JOURNAL   Biochemistry 33:14121-5 (1994)
+            DOI:10.1021/bi00251a022
+DBLINKS     RHEA: 17404 18492
+///

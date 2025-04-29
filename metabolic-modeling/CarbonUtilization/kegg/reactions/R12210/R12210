@@ -1,0 +1,16 @@
+ENTRY       R12210                      Reaction
+NAME        KDO2-lipid-A,2-oxoglutarate:oxygen oxidoreductase (ester-linked acyl 2-hydroxylase)
+DEFINITION  KDO2-lipid A + 2-Oxoglutarate + Oxygen <=> (S)-2-Hydroxymyristate-modified lipid A + Succinate + CO2
+EQUATION    C06026 + C00026 + C00007 <=> C22003 + C00042 + C00011
+COMMENT     a type of Fe2+/alpha-ketoglutarate-dependent reaction
+RCLASS      RC03566  C06026_C22003
+ENZYME      1.14.11.-
+PATHWAY     rn00540  Lipopolysaccharide biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.11  With 2-oxoglutarate as one donor, and incorporation of one atom of oxygen into each donor
+                1.14.11.-
+                 R12210  KDO2-lipid A + 2-Oxoglutarate + Oxygen <=> (S)-2-Hydroxymyristate-modified lipid A + Succinate + CO2
+ORTHOLOGY   K12979  beta-hydroxylase [EC:1.14.11.-]
+///

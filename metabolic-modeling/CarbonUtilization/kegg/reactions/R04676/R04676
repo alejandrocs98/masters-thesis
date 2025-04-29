@@ -1,0 +1,17 @@
+ENTRY       R04676                      Reaction
+NAME        17alpha,20alpha-dihydroxycholesterol:oxygen oxidoreductase (side-chain-cleaving)
+DEFINITION  17alpha,20alpha-Dihydroxycholesterol + 2 Oxygen + 4 H+ + 4 Reduced adrenal ferredoxin <=> 17alpha-Hydroxypregnenolone + 4-Methylpentanal + 3 H2O + 4 Oxidized adrenal ferredoxin
+EQUATION    C05499 + 2 C00007 + 4 C00080 + 4 C00662 <=> C05138 + C02373 + 3 C00001 + 4 C00667
+COMMENT     two-step reaction (similar to R04854+R03933)
+RCLASS      RC01193  C05138_C05499
+            RC01543  C02373_C05499
+ENZYME      1.14.15.6
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.15  With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.15.6
+                 R04676  17alpha,20alpha-Dihydroxycholesterol + 2 Oxygen + 4 H+ + 4 Reduced adrenal ferredoxin <=> 17alpha-Hydroxypregnenolone + 4-Methylpentanal + 3 H2O + 4 Oxidized adrenal ferredoxin
+ORTHOLOGY   K00498  cholesterol monooxygenase (side-chain-cleaving) [EC:1.14.15.6]
+///

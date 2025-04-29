@@ -1,0 +1,444 @@
+ENTRY       K12407                      KO
+SYMBOL      GCK
+NAME        glucokinase [EC:2.7.1.2]
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00052  Galactose metabolism
+            map00500  Starch and sucrose metabolism
+            map00520  Amino sugar and nucleotide sugar metabolism
+            map00521  Streptomycin biosynthesis
+            map00524  Neomycin, kanamycin and gentamicin biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+            map01250  Biosynthesis of nucleotide sugars
+            map04910  Insulin signaling pathway
+            map04911  Insulin secretion
+            map04917  Prolactin signaling pathway
+            map04922  Glucagon signaling pathway
+            map04930  Type II diabetes mellitus
+            map04950  Maturity onset diabetes of the young
+            map05230  Central carbon metabolism in cancer
+MODULE      M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate
+            M00549  Nucleotide sugar biosynthesis, glucose => UDP-glucose
+            M00892  UDP-N-acetyl-D-glucosamine biosynthesis, eukaryotes, glucose => UDP-GlcNAc
+REACTION    R00299  ATP:D-glucose 6-phosphotransferase
+            R01600  ATP:beta-D-glucose 6-phosphotransferase
+            R01786  ATP:alpha-D-glucose 6-phosphotransferase
+DISEASE     H00410  Maturity onset diabetes of the young (MODY)
+            H00512  Permanent neonatal diabetes mellitus
+            H01267  Familial hyperinsulinemic hypoglycemia
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00010 Glycolysis / Gluconeogenesis
+                K12407  GCK; glucokinase
+               00052 Galactose metabolism
+                K12407  GCK; glucokinase
+               00500 Starch and sucrose metabolism
+                K12407  GCK; glucokinase
+               00520 Amino sugar and nucleotide sugar metabolism
+                K12407  GCK; glucokinase
+              09110 Biosynthesis of other secondary metabolites
+               00521 Streptomycin biosynthesis
+                K12407  GCK; glucokinase
+               00524 Neomycin, kanamycin and gentamicin biosynthesis
+                K12407  GCK; glucokinase
+             09150 Organismal Systems
+              09152 Endocrine system
+               04911 Insulin secretion
+                K12407  GCK; glucokinase
+               04910 Insulin signaling pathway
+                K12407  GCK; glucokinase
+               04922 Glucagon signaling pathway
+                K12407  GCK; glucokinase
+               04917 Prolactin signaling pathway
+                K12407  GCK; glucokinase
+             09160 Human Diseases
+              09161 Cancer: overview
+               05230 Central carbon metabolism in cancer
+                K12407  GCK; glucokinase
+              09167 Endocrine and metabolic disease
+               04930 Type II diabetes mellitus
+                K12407  GCK; glucokinase
+               04950 Maturity onset diabetes of the young
+                K12407  GCK; glucokinase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.2  glucokinase
+                 K12407  GCK; glucokinase
+DBLINKS     GO: 0004340
+GENES       HSA: 2645(GCK)
+            PTR: 737923(GCK)
+            PPS: 100979621(GCK)
+            GGO: 101138839(GCK)
+            PON: 100459152(GCK)
+            NLE: 100591653(GCK)
+            HMH: 116812491(GCK)
+            MCC: 699728(GCK)
+            MCF: 102127599(GCK)
+            MTHB: 126950167
+            MNI: 105494211(GCK)
+            CSAB: 103226145(GCK)
+            CATY: 105596912(GCK)
+            PANU: 101010803(GCK)
+            TGE: 112620869(GCK)
+            MLEU: 105541943(GCK)
+            RRO: 104671144(GCK)
+            RBB: 108544024(GCK)
+            TFN: 117073299(GCK)
+            PTEH: 111552288(GCK)
+            CANG: 105515056(GCK)
+            CJC: 100409392(GCK)
+            SBQ: 101027980(GCK)
+            CIMI: 108293813(GCK)
+            CSYR: 103259589(GCK)
+            MMUR: 105858409(GCK)
+            LCAT: 123647605(GCK)
+            PCOQ: 105812466(GCK)
+            OGA: 100954843(GCK)
+            MMU: 103988(Gck)
+            MCAL: 110305090(Gck)
+            MPAH: 110330598(Gck)
+            RNO: 24385(Gck)
+            MCOC: 116068614(Gck)
+            ANU: 117712800(Gck)
+            MUN: 110546096(Gck)
+            CGE: 100763110(Gck)
+            MAUA: 101839629(Gck)
+            PROB: 127233921(Gck)
+            PLEU: 114693980(Gck)
+            MORG: 121459576(Gck)
+            MFOT: 126500978
+            AAMP: 119820164(Gck)
+            NGI: 103734982(Gck)
+            HGL: 101721664(Gck)
+            CPOC: 100717630(Gck)
+            CCAN: 109685901(Gck)
+            DORD: 105998283(Gck)
+            DSP: 122128065(Gck)
+            PLOP: 125345524(Gck)
+            NCAR: 124990937
+            MMMA: 107146217(Gck)
+            OCU: 100341946
+            OPI: 101521696(GCK)
+            TUP: 102492140(GCK)
+            GVR: 103592964(GCK)
+            CFA: 606490(GCK)
+            CLUD: 112650698(GCK)
+            VVP: 112911707(GCK)
+            VLG: 121489105(GCK)
+            NPO: 129515614(GCK)
+            AML: 100475738(GCK)
+            UMR: 103674684(GCK)
+            UAH: 113257909(GCK)
+            UAR: 123789458(GCK)
+            ELK: 111157017 111157022
+            LLV: 125081245
+            MPUF: 101680613(GCK)
+            MNP: 132016358(GCK)
+            NVS: 122905382(GCK)
+            ORO: 101383256(GCK)
+            EJU: 114202278(GCK)
+            ZCA: 113911462(GCK)
+            MLX: 118024577(GCK)
+            NSU: 110592634(GCK)
+            LWW: 102732079(GCK)
+            FCA: 100037406(GCK)
+            PYU: 121016941(GCK)
+            PBG: 122487627(GCK)
+            PVIV: 125153345(GCK)
+            LRUF: 124524269
+            PTG: 102965436(GCK)
+            PPAD: 109267871(GCK)
+            PUC: 125929733
+            AJU: 106968236
+            HHV: 120238910(GCK)
+            BTA: 616576(GCK)
+            BOM: 102277785(GCK)
+            BIU: 109557544(GCK)
+            BBUB: 102398970(GCK)
+            BBIS: 104980380(GCK)
+            CHX: 102185429(GCK)
+            OAS: 101117412(GCK)
+            BTAX: 128046290(GCK)
+            ODA: 120877500(GCK)
+            CCAD: 122438530(GCK)
+            MBEZ: 129552565(GCK)
+            SSC: 100514142(GCK)
+            CFR: 102506850(GCK)
+            CBAI: 105080693(GCK)
+            CDK: 105092330(GCK)
+            VPC: 102535882(GCK)
+            BACU: 103004735(GCK)
+            BMUS: 118901272(GCK)
+            LVE: 103074175(GCK)
+            OOR: 101286839(GCK)
+            DLE: 111184513(GCK)
+            PCAD: 102974757(GCK)
+            PSIU: 116759611(GCK)
+            NASI: 112401344(GCK)
+            ECB: 100051836
+            EPZ: 103554943(GCK)
+            EAI: 106822865
+            MYB: 102261259(GCK)
+            MYD: 102757162(GCK)
+            MMYO: 118665862(GCK)
+            MLF: 102436756(GCK)
+            PKL: 118717989(GCK)
+            EFUS: 103303605(GCK)
+            MNA: 107542054(GCK)
+            DRO: 112306978(GCK)
+            SHON: 118983459(GCK)
+            AJM: 119052877
+            PDIC: 114490225(GCK)
+            PHAS: 123811692(GCK)
+            MMF: 118619794(GCK)
+            PPAM: 129068867(GCK)
+            HAI: 109373004(GCK)
+            RFQ: 117012405(GCK)
+            PALE: 102884319(GCK)
+            PGIG: 120589556(GCK)
+            PVP: 105308746(GCK)
+            RAY: 107512383(GCK)
+            MJV: 108394025(GCK)
+            TOD: 119253142(GCK)
+            SARA: 101537755(GCK)
+            SETR: 126031378(GCK)
+            LAV: 100658238(GCK)
+            TMU: 101346854
+            ETF: 101638924
+            DNM: 101429195(GCK)
+            MDO: 100030125(GCK)
+            GAS: 123235027(GCK)
+            SHR: 100918168(GCK)
+            AFZ: 127548834
+            PCW: 110206409(GCK)
+            OAA: 100091176 114815128
+            GGA: 430370(GCK)
+            PCOC: 116231330(GCK)
+            MGP: 100546168(GCK)
+            CJO: 107323664(GCK)
+            TPAI: 128090214(GCK)
+            LMUT: 125685174(GCK)
+            NMEL: 110387119(GCK)
+            APLA: 119715227(GCK)
+            ACYG: 125180994(GCK)
+            CATA: 118260953(GCK)
+            TGU: 100222236(GCK)
+            LSR: 110478293(GCK)
+            SCAN: 108963196(GCK)
+            PMOA: 120504999(GCK)
+            OTC: 121346673(GCK)
+            PRUF: 121359823(GCK)
+            GFR: 102040748(GCK)
+            FAB: 101821944(GCK)
+            OMA: 130261867(GCK)
+            PHI: 102105464(GCK)
+            PMAJ: 107213875(GCK)
+            CCAE: 111938902(GCK)
+            CCW: 104683184(GCK)
+            CBRC: 103620169(GCK)
+            ETL: 114071694(GCK)
+            ZAB: 102060530
+            ACHL: 103801984(GCK)
+            SVG: 106862426(GCK)
+            MMEA: 130585276(GCK)
+            HRT: 120764125(GCK)
+            FPG: 101920472(GCK)
+            FCH: 102058018(GCK)
+            CLV: 102084067(GCK)
+            EGZ: 104122939(GCK)
+            NNI: 104022603(GCK)
+            PLET: 104626588(GCK)
+            TALA: 104368397(GCK)
+            AFOR: 103904193(GCK)
+            ACHC: 115349907(GCK)
+            AGEN: 126051542
+            GCL: 127028242
+            CCRI: 104166344(GCK)
+            SHAB: 115618479(GCK)
+            DPUB: 104305272(GCK)
+            CPEA: 104391564(GCK)
+            CVF: 104285069(GCK)
+            RTD: 128919625(GCK)
+            CUCA: 104067003(GCK)
+            AAM: 106494575(GCK)
+            AROW: 112971124(GCK)
+            NPD: 112950360(GCK)
+            TGT: 104576790(GCK)
+            DNE: 112995687(GCK)
+            SCAM: 104148918(GCK)
+            ASN: 102373336(GCK)
+            AMJ: 102558588(GCK)
+            PSS: 102457711(GCK)
+            CMY: 102932759(GCK)
+            CCAY: 125626430(GCK)
+            DCC: 119848667(GCK)
+            CPIC: 101935155(GCK)
+            TST: 117872865(GCK)
+            CABI: 116815260(GCK)
+            MRV: 120399219(GCK)
+            ACS: 100554306(gck)
+            ASAO: 132782762(GCK)
+            PVT: 110084342(GCK)
+            SUND: 121934329(GCK)
+            PBI: 103062255(GCK)
+            PMUR: 107286239(GCK)
+            CTIG: 120313940(GCK)
+            TSR: 106547695(GCK)
+            PGUT: 117677051(GCK)
+            APRI: 131203815(GCK)
+            PTEX: 113447689(GCK)
+            NSS: 113414477(GCK)
+            VKO: 123027051(GCK)
+            PMUA: 114585937(GCK)
+            PRAF: 128403174(GCK)
+            ZVI: 118096834(GCK)
+            HCG: 128333931(GCK)
+            GJA: 107117392(GCK)
+            STOW: 125442282(GCK)
+            EMC: 129342642(GCK)
+            XLA: 108712732(gck.S) 378602(gck.L)
+            XTR: 100124905(gck)
+            NPR: 108796074(GCK)
+            RTEM: 120933060(GCK)
+            BBUF: 120986169(GCK)
+            BGAR: 122929466(GCK)
+            MUO: 115469274(GCK)
+            GSH: 117362228(GCK)
+            DRE: 751668(gck)
+            SRX: 107712466 107753094
+            SANH: 107657322 107703174
+            SGH: 107550933 107554418
+            CCAR: 109100786 109100787
+            CAUA: 113070762 113107749
+            CGIB: 127964237 128018420
+            PTET: 122350055(gck)
+            LROH: 127169121(gck)
+            PPRM: 120473515(gck)
+            RKG: 130081876(gck)
+            MAMB: 125280380(gck)
+            CIDE: 127518029
+            MASI: 127415142 127424638
+            TROS: 130567946(gck)
+            TDW: 130440187(gck)
+            MANU: 129414448(gck)
+            IPU: 108265751
+            IFU: 128607372(gck)
+            PHYP: 113546126(gck)
+            SMEO: 124399852(gck)
+            TFD: 113645911(gck)
+            TVC: 132853816(gck)
+            TRN: 134318454(gck)
+            AMEX: 103039737(gck)
+            CMAO: 118813216(gck)
+            EEE: 113588677(gck)
+            CHAR: 105903589(gck)
+            TRU: 101063910(gck)
+            TFS: 130525356(gck)
+            TNG: GSTEN00029591G001
+            LCO: 104922970(gck)
+            NCC: 104956790(gck)
+            TBEN: 117472657(gck)
+            CGOB: 115013132(gck)
+            PGEO: 117452731(gck)
+            GACU: 117560230(gck)
+            EMAC: 134873291(gck)
+            ELY: 117252119(gck)
+            EFO: 125890055(gck)
+            PLEP: 121944522(gck)
+            SLUC: 116054258(gck)
+            ECRA: 117945488(gck)
+            ESP: 116689629(gck)
+            PFLV: 114555604(gck)
+            GAT: 120830946(gck)
+            PPUG: 119225324(gck)
+            AFB: 129101072(gck)
+            CLUM: 117736413
+            PSWI: 130197289(gck)
+            MSAM: 119891486(gck)
+            SCHU: 122876290(gck)
+            ALAT: 119019390(gck)
+            MZE: 101465626(gck)
+            ONL: 100695414(gck)
+            OAU: 116310976(gck)
+            OLA: 101168372(gck)
+            OML: 112148443(gck)
+            CSAI: 133450701(gck)
+            XMA: 102229323(gck)
+            XCO: 114154034(gck)
+            XHE: 116729225(gck)
+            PRET: 103470005(gck)
+            PFOR: 103145883(gck)
+            PLAI: 106962841(gck)
+            PMEI: 106929044(gck)
+            GAF: 122828774(gck)
+            PPRL: 129365946(gck)
+            CVG: 107089653(gck)
+            CTUL: 119778162(gck)
+            GMU: 124878136(gck)
+            NFU: 107394278(gck)
+            KMR: 108233647(gck)
+            ALIM: 106519906(gck)
+            NWH: 119413856(gck)
+            AOCE: 111567820(gck)
+            MCEP: 125012328(gck)
+            CSEM: 103397747(gck)
+            POV: 109637065(gck)
+            SSEN: 122769013(gck)
+            HHIP: 117767207(gck)
+            HSP: 118115140(gck)
+            PPLT: 128438522(gck)
+            SMAU: 118313627(gck)
+            LCF: 108881204
+            SDU: 111236443(gck)
+            SLAL: 111654902(gck)
+            XGL: 120805335(gck)
+            HCQ: 109526325(gck)
+            SSCV: 125994079
+            SBIA: 133498866(gck)
+            PEE: 133400604(gck)
+            PTAO: 133475114(gck)
+            BPEC: 110153979(gck)
+            MALB: 109956568(gck)
+            BSPL: 114862260(gck)
+            SJO: 128365387(gck)
+            SASA: 106580581(gk) 106585167
+            STRU: 115164221 115200421
+            OTW: 112248784 112262625
+            OMY: 100135866(gk) 110536311
+            OGO: 124034107 124036534
+            ONE: 115111839 115140290
+            OKI: 109882794 109896132
+            OKE: 118373264 118393457
+            SALP: 111957731 111974003(gck)
+            SNH: 120055478 120063382
+            CCLU: 121581863 121585089
+            ELS: 105014407(gck)
+            SFM: 108932222 108940338(gck)
+            PKI: 111861171(gck)
+            AANG: 118206764(gck) 118212896
+            LOC: 102694132(gck)
+            PSPA: 121302068 121303104
+            ARUT: 117397918(gck)
+            PSEX: 120538964(gck)
+            LCM: 102364718(GCK)
+            CMK: 103187782(gck)
+            CPLA: 122543099(gck)
+            HOC: 132836906(gck)
+            LERI: 129713266(gck)
+            PMRN: 116940633(GCK)
+            LRJ: 133343469(GCK)
+            TDA: 119677820
+            ECOE: 129949262
+            API: 103310688
+            NAI: NECAME_13387
+REFERENCE   PMID:18726182
+  AUTHORS   Iynedjian PB
+  TITLE     Molecular physiology of mammalian glucokinase.
+  JOURNAL   Cell Mol Life Sci 66:27-42 (2009)
+            DOI:10.1007/s00018-008-8322-9
+///

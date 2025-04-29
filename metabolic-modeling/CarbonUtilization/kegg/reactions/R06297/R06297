@@ -1,0 +1,20 @@
+ENTRY       R06297                      Reaction
+NAME        ent-kaur-16-en-19-oate,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (hydroxylating)
+DEFINITION  Gibberellin A12 aldehyde + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Gibberellin A12 + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C06093 + C03024 + C00007 <=> C11857 + C03161 + C00001
+COMMENT     the last step of three-step reaction (see R10067, R06294+R06295+R06297)
+RCLASS      RC01453  C06093_C11857
+ENZYME      1.14.14.107
+PATHWAY     rn00904  Diterpenoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00927  Gibberellin A12 biosynthesis, GAPP => GA12
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.107
+                 R06297  Gibberellin A12 aldehyde + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Gibberellin A12 + [Oxidized NADPH---hemoprotein reductase] + H2O
+ORTHOLOGY   K04123  ent-kaurenoic acid monooxygenase [EC:1.14.14.107]
+DBLINKS     RHEA: 22703
+///

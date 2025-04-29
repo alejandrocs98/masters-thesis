@@ -1,0 +1,28 @@
+ENTRY       R04812                      Reaction
+NAME        (24R,25R)-3alpha,7alpha,12alpha,24-tetrahydroxy-5beta-cholestanoyl-CoA:NAD+ oxidoreductase
+DEFINITION  (24R,25R)-3alpha,7alpha,12alpha,24-Tetrahydroxy-5beta-cholestanoyl-CoA + NAD+ <=> 3alpha,7alpha,12alpha-Trihydroxy-5beta-24-oxocholestanoyl-CoA + NADH + H+
+EQUATION    C15614 + C00003 <=> C05467 + C00004 + C00080
+RCLASS      RC00089  C05467_C15614
+ENZYME      1.1.1.-
+PATHWAY     rn00120  Primary bile acid biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00104  Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate
+            M00862  beta-Oxidation, peroxisome, tri/dihydroxycholestanoyl-CoA => choloyl/chenodeoxycholoyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R04812  (24R,25R)-3alpha,7alpha,12alpha,24-Tetrahydroxy-5beta-cholestanoyl-CoA + NAD+ <=> 3alpha,7alpha,12alpha-Trihydroxy-5beta-24-oxocholestanoyl-CoA + NADH + H+
+ORTHOLOGY   K12405  (3R)-3-hydroxyacyl-CoA dehydrogenase / 3a,7a,12a-trihydroxy-5b-cholest-24-enoyl-CoA hydratase / enoyl-CoA hydratase 2 [EC:1.1.1.- 4.2.1.107 4.2.1.119]
+REFERENCE   1  [PMID:12543708]
+  AUTHORS   Russell DW
+  TITLE     The enzymes, regulation, and genetics of bile acid synthesis.
+  JOURNAL   Annu Rev Biochem 72:137-74 (2003)
+            DOI:10.1146/annurev.biochem.72.121801.161712
+REFERENCE   2  [PMID:11146090]
+  AUTHORS   Kurosawa T, Sato M, Nakano H, Fujiwara M, Murai T, Yoshimura T, Hashimoto T.
+  TITLE     Conjugation reactions catalyzed by bifunctional proteins related to beta-oxidation in bile acid biosynthesis.
+  JOURNAL   Steroids 66:107-14 (2001)
+            DOI:10.1016/S0039-128X(00)00217-8
+///

@@ -1,0 +1,25 @@
+ENTRY       R01741                      Reaction
+NAME        D-gluconate:(acceptor) 2-oxidoreductase
+DEFINITION  D-Gluconic acid + FAD <=> 2-Keto-D-gluconic acid + FADH2
+EQUATION    C00257 + C00016 <=> C06473 + C01352
+RCLASS      RC00084  C00257_C06473
+            RC00126  C00016_C01352
+ENZYME      1.1.99.3
+PATHWAY     rn00030  Pentose phosphate pathway
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.99  With unknown physiological acceptors
+                1.1.99.3
+                 R01741  D-Gluconic acid + FAD <=> 2-Keto-D-gluconic acid + FADH2
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.99.3
+               R01742  Acceptor <=> Reduced acceptor
+                R01741  FAD <=> FADH2
+ORTHOLOGY   K06151  gluconate 2-dehydrogenase alpha chain [EC:1.1.99.3]
+            K06152  gluconate 2-dehydrogenase gamma chain [EC:1.1.99.3]
+DBLINKS     RHEA: 30782
+///

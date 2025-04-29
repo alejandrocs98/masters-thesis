@@ -1,0 +1,19 @@
+ENTRY       R10671                      Reaction
+NAME        L-tyrosine,[reduced NADPH-hemoprotein reductase]:oxygen oxidoreductase (N-hydroxylating)
+DEFINITION  L-Tyrosine + 2 Oxygen + 2 [Reduced NADPH---hemoprotein reductase] <=> (E)-4-Hydroxyphenylacetaldehyde oxime + 2 [Oxidized NADPH---hemoprotein reductase] + 3 H2O + CO2
+EQUATION    C00082 + 2 C00007 + 2 C03024 <=> C04350 + 2 C03161 + 3 C00001 + C00011
+COMMENT     three-step reaction (see R00730+R04460+R07190, similar to R09578, R09579+R09580+R09581)
+RCLASS      RC02295  C00082_C04350
+ENZYME      1.14.14.36
+PATHWAY     rn00966  Glucosinolate biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+            rn01210  2-Oxocarboxylic acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.36
+                 R10671  L-Tyrosine + 2 Oxygen + 2 [Reduced NADPH---hemoprotein reductase] <=> (E)-4-Hydroxyphenylacetaldehyde oxime + 2 [Oxidized NADPH---hemoprotein reductase] + 3 H2O + CO2
+ORTHOLOGY   K13027  tyrosine N-monooxygenase [EC:1.14.14.36]
+DBLINKS     RHEA: 32314
+///

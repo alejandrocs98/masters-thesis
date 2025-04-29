@@ -1,0 +1,42 @@
+ENTRY       R01934                      Reaction
+NAME        (1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (decarboxylating);
+            homoisocitrate:NAD+ oxidoreductase (decarboxylating)
+DEFINITION  Homoisocitrate + NAD+ <=> 2-Oxoadipate + CO2 + NADH + H+
+EQUATION    C05662 + C00003 <=> C00322 + C00011 + C00004 + C00080
+COMMENT     two-step reaction (see R04862+R01936), reversible
+RCLASS      RC00001  C00003_C00004
+            RC00114  C00322_C05662
+ENZYME      1.1.1.87        1.1.1.286
+PATHWAY     rn00300  Lysine biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01230  Biosynthesis of amino acids
+            rn01240  Biosynthesis of cofactors
+MODULE      M00030  Lysine biosynthesis, AAA pathway, 2-oxoglutarate => 2-aminoadipate => lysine
+            M00433  Lysine biosynthesis, 2-oxoglutarate => 2-oxoadipate
+            M00608  2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.87
+                 R01934  Homoisocitrate + NAD+ <=> 2-Oxoadipate + CO2 + NADH + H+
+                1.1.1.286
+                 R01934  Homoisocitrate + NAD+ <=> 2-Oxoadipate + CO2 + NADH + H+
+ORTHOLOGY   K05824  homoisocitrate dehydrogenase [EC:1.1.1.87]
+            K10978  methanogen homoisocitrate dehydrogenase [EC:1.1.1.87 1.1.1.-]
+            K17753  isocitrate--homoisocitrate dehydrogenase [EC:1.1.1.286]
+REFERENCE   1  [PMID:4395693]
+  AUTHORS   Rowley B, Tucci AF
+  TITLE     Homoisocitric dehydrogenase from yeast.
+  JOURNAL   Arch Biochem Biophys 141:499-510 (1970)
+            DOI:10.1016/0003-9861(70)90167-0
+REFERENCE   2  [PMID:5808337]
+  AUTHORS   Chilina K, Thomas U, Tucci AF, McMichael KD, Stevens CM.
+  TITLE     Synthesis and absolute configuration of the isomers of homoisocitric acid (1-hydroxy-1,2,4-butanetricarboxylic acid) and the stereochemistry of lysine biosynthesis.
+  JOURNAL   Biochemistry 8:2846-55 (1969)
+            DOI:10.1021/bi00835a023
+DBLINKS     RHEA: 11903
+///

@@ -1,0 +1,17 @@
+ENTRY       R08354                      Reaction
+NAME        glutathione:aminopropylcadaverine ligase (ADP-forming)
+DEFINITION  ATP + Glutathione + Aminopropylcadaverine <=> ADP + Orthophosphate + Glutathionylaminopropylcadaverine
+EQUATION    C00002 + C00051 + C16565 <=> C00008 + C00009 + C16566
+RCLASS      RC00002  C00002_C00008
+            RC00090  C00051_C16566
+            RC00096  C16565_C16566
+ENZYME      6.3.1.9
+PATHWAY     rn00480  Glutathione metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.1  Acid-D-ammonia (or amine) ligases (amide synthases)
+                6.3.1.9
+                 R08354  ATP + Glutathione + Aminopropylcadaverine <=> ADP + Orthophosphate + Glutathionylaminopropylcadaverine
+ORTHOLOGY   K01833  trypanothione synthetase/amidase [EC:6.3.1.9 3.5.1.-]
+///

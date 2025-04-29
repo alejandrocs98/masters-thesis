@@ -1,0 +1,27 @@
+ENTRY       R02911                      Reaction
+NAME        acetyl-CoA:aralkylamine N-acetyltransferase
+DEFINITION  Acetyl-CoA + Serotonin <=> CoA + N-Acetylserotonin
+EQUATION    C00024 + C00780 <=> C00010 + C00978
+RCLASS      RC00004  C00010_C00024
+            RC00096  C00780_C00978
+ENZYME      2.3.1.87
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00037  Melatonin biosynthesis, animals, tryptophan => serotonin => melatonin
+            M00936  Melatonin biosynthesis, plants, tryptophan => serotonin => melatonin
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.87
+                 R02911  Acetyl-CoA + Serotonin <=> CoA + N-Acetylserotonin
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.87
+               R03760  2-Arylethylamine <=> N-Acetyl-2-arylethylamine
+                R02911  Serotonin <=> N-Acetylserotonin
+ORTHOLOGY   K00669  arylalkylamine N-acetyltransferase [EC:2.3.1.87]
+            K22450  aralkylamine N-acetyltransferase [EC:2.3.1.87]
+DBLINKS     RHEA: 25220
+///

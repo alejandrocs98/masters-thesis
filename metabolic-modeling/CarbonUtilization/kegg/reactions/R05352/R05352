@@ -1,0 +1,19 @@
+ENTRY       R05352                      Reaction
+NAME        (S)-1-phenylethanol:NAD+ oxidoreductase
+DEFINITION  (S)-1-Phenylethanol + NAD+ <=> Acetophenone + NADH + H+
+EQUATION    C11348 + C00003 <=> C07113 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC01377  C07113_C11348
+ENZYME      1.1.1.311
+PATHWAY     rn00642  Ethylbenzene degradation
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.311
+                 R05352  (S)-1-Phenylethanol + NAD+ <=> Acetophenone + NADH + H+
+ORTHOLOGY   K14746  (S)-1-phenylethanol dehydrogenase [EC:1.1.1.311]
+DBLINKS     RHEA: 28201
+///

@@ -1,0 +1,27 @@
+ENTRY       R00159                      Reaction
+NAME        UTP phosphohydrolase
+DEFINITION  UTP + H2O <=> UDP + Orthophosphate
+EQUATION    C00075 + C00001 <=> C00015 + C00009
+RCLASS      RC00002  C00015_C00075
+ENZYME      3.6.1.5         3.6.1.39
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.5
+                 R00159  UTP + H2O <=> UDP + Orthophosphate
+                3.6.1.39
+                 R00159  UTP + H2O <=> UDP + Orthophosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.6.1.5
+               R02319  Nucleoside triphosphate <=> NDP
+                R00159  UTP <=> UDP
+ORTHOLOGY   K01510  apyrase [EC:3.6.1.5]
+            K14641  apyrase [EC:3.6.1.5]
+            K14642  golgi apyrase [EC:3.6.1.5]
+DBLINKS     RHEA: 64903
+///

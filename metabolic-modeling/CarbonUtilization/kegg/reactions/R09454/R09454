@@ -1,0 +1,17 @@
+ENTRY       R09454                      Reaction
+NAME        docosanoate,NADPH:oxygen oxidoreductase (22-hydroxylating)
+DEFINITION  Docosanoic acid + NADPH + Oxygen + H+ <=> 22-Hydroxydocosanoate + NADP+ + H2O
+EQUATION    C08281 + C00005 + C00007 + C00080 <=> C19623 + C00006 + C00001
+COMMENT     fatty acid omega-hydroxylase
+RCLASS      RC00001  C00005_C00006
+            RC00797  C08281_C19623
+ENZYME      1.14.-.-
+PATHWAY     rn00073  Cutin, suberine and wax biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.-  Acting on paired donors, with incorporation or reduction of molecular oxygen
+                1.14.-.-
+                 R09454  Docosanoic acid + NADPH + Oxygen + H+ <=> 22-Hydroxydocosanoate + NADP+ + H2O
+ORTHOLOGY   K15402  fatty acid omega-hydroxylase [EC:1.14.-.-]
+///

@@ -1,0 +1,437 @@
+ENTRY       K07434                      KO
+SYMBOL      CYP19A
+NAME        aromatase [EC:1.14.14.14]
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map01100  Metabolic pathways
+            map04913  Ovarian steroidogenesis
+MODULE      M00110  C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone
+REACTION    R01840  androstenedione,NADPH---hemoprotein reductase:oxygen oxidoreductase (19-hydroxylating)
+            R02351  19-oxoandrostenedione,NADPH---hemoprotein reductase:oxygen oxidoreductase (aromatizing, formate-forming)
+            R02501  testosterone,NADPH---hemoprotein reductase:oxygen oxidoreductase (19-hydroxylating)
+            R03087  19-oxotestosterone,NADPH---hemoprotein reductase:oxygen oxidoreductase (aromatizing, formate-forming)
+            R04759  19-hydroxyandrostenedione,NADPH---hemoprotein reductase:oxygen 19-oxidoreductase
+            R04761  19-hydroxytestosterone,NADPH---hemoprotein reductase:oxygen 19-oxidoreductase
+DISEASE     H00794  Aromatase excess syndrome
+            H02020  Aromatase deficiency
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09103 Lipid metabolism
+               00140 Steroid hormone biosynthesis
+                K07434  CYP19A; aromatase
+             09150 Organismal Systems
+              09152 Endocrine system
+               04913 Ovarian steroidogenesis
+                K07434  CYP19A; aromatase
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               00199 Cytochrome P450
+                K07434  CYP19A; aromatase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.14  aromatase
+                 K07434  CYP19A; aromatase
+            Cytochrome P450 [BR:ko00199]
+             Cytochrome P450, animal type
+              CYP19 family
+               K07434  CYP19A; aromatase
+GENES       HSA: 1588(CYP19A1)
+            PTR: 453433(CYP19A1)
+            PPS: 100984744(CYP19A1)
+            GGO: 101137192
+            PON: 100439777
+            NLE: 100589061
+            HMH: 116481527
+            MCC: 678697(CYP19A1)
+            MCF: 102117886(CYP19A1)
+            MTHB: 126959039
+            MNI: 105490390
+            CSAB: 103245629(CYP19A1)
+            CATY: 105588232
+            PANU: 100997810 116272542
+            TGE: 112627390
+            MLEU: 105550746
+            RRO: 104656901
+            RBB: 108544828
+            TFN: 117070662
+            PTEH: 111552757
+            CANG: 105502210
+            CJC: 100411557(CYP19A1)
+            SBQ: 101051393
+            CIMI: 108286664(CYP19A1)
+            CSYR: 103274056
+            MMUR: 105870707
+            LCAT: 123622663
+            PCOQ: 105821381
+            OGA: 100950881
+            MMU: 13075(Cyp19a1)
+            MCAL: 110301208
+            MPAH: 110328587
+            RNO: 25147(Cyp19a1)
+            MCOC: 116073015
+            ANU: 117699489
+            MUN: 110549466
+            CGE: 100769024
+            MAUA: 101836523
+            PROB: 127231762
+            PLEU: 114690371
+            MORG: 121438190
+            MFOT: 126486960
+            AAMP: 119810788
+            NGI: 103731396
+            HGL: 101702005
+            CPOC: 100721069
+            CCAN: 109675669 109679172
+            DORD: 105981070
+            DSP: 122114579
+            PLOP: 125340435
+            NCAR: 124977775
+            MMMA: 107138103
+            OCU: 100328545(CYP19A1)
+            OPI: 101518265
+            TUP: 102503106
+            GVR: 103597966
+            CFA: 494003(CYP19A1)
+            CLUD: 112675933
+            VVP: 112920063
+            VLG: 121484563
+            NPO: 129506221
+            AML: 100464417
+            UMR: 103676745
+            UAH: 113269623
+            UAR: 123801876
+            ELK: 111138628
+            LLV: 125105151
+            MPUF: 101687608
+            MNP: 131998732
+            MLK: 131836281
+            NVS: 122893076
+            ORO: 101383271
+            EJU: 114206510
+            ZCA: 113910201
+            MLX: 118003757
+            NSU: 110583928
+            LWW: 102731614
+            FCA: 101094932(CYP19A1)
+            PYU: 121041697
+            PCOO: 112855925
+            PBG: 122468647
+            PVIV: 125169100
+            LRUF: 124508055
+            PTG: 102962141
+            PPAD: 109262992
+            PUC: 125909993
+            AJU: 106967273
+            HHV: 120234998
+            BTA: 281740(CYP19A1)
+            BOM: 102277416
+            BIU: 109565118
+            BBUB: 102392019
+            BBIS: 104988240
+            CHX: 100861413(CYP19A1) 102172726
+            OAS: 100144423(CYP19)
+            BTAX: 128054322 128054328
+            ODA: 120852986 120853641
+            CCAD: 122443608
+            MBEZ: 129562964
+            SSC: 403331(CYP19A1) 403332(CYP19A2) 403333(CYP19A3)
+            CFR: 102519005 116664105
+            CBAI: 105067585
+            CDK: 105086637 105106135 116153434
+            VPC: 102526537
+            BACU: 103011787 103012080
+            BMUS: 118890681 118890682 118890683
+            LVE: 103080853 103081312
+            OOR: 101270659 101283540
+            DLE: 111170860 111170861 111171015
+            PCAD: 102982383 102982657 102995165
+            PSIU: 116749060 116749147
+            NASI: 112397422 112397499
+            ECB: 100009712(CYP19A1)
+            EPZ: 103546924
+            EAI: 106838329
+            MYB: 102253564
+            MYD: 102753728
+            MMYO: 118664564
+            MLF: 102420943
+            PKL: 118721269
+            EFUS: 103287429
+            MNA: 107546547
+            DRO: 112311730
+            SHON: 118992519
+            AJM: 119047586
+            PDIC: 114493114
+            PHAS: 123808544
+            MMF: 118640532
+            PPAM: 129063733
+            HAI: 109394298
+            RFQ: 117023688
+            PALE: 102884354
+            PGIG: 120623102
+            PVP: 105288748
+            RAY: 107519739
+            MJV: 108388392
+            TOD: 119238620
+            SARA: 101552379
+            SETR: 126015455
+            LAV: 100669426
+            TMU: 101350058
+            ETF: 101657950
+            DNM: 101411338
+            MDO: 100031295
+            GAS: 123234102
+            SHR: 100929873
+            AFZ: 127547116
+            PCW: 110207989
+            OAA: 100078619
+            GGA: 414854(CYP19A1)
+            PCOC: 116244696
+            MGP: 100549427
+            CJO: 107318718
+            TPAI: 128075313
+            LMUT: 125698403
+            NMEL: 110403699
+            APLA: 101791068
+            ACYG: 106033779
+            CATA: 118251648
+            AFUL: 116493626
+            TGU: 751777(CYP19A1)
+            LSR: 110474232
+            SCAN: 103816009
+            PMOA: 120508816
+            OTC: 121343497
+            PRUF: 121354453
+            GFR: 102039345
+            FAB: 101821137
+            OMA: 130257251
+            PHI: 102100785
+            PMAJ: 117244929
+            CCW: 104684007
+            CBRC: 103621248
+            ETL: 114057141
+            ZAB: 102064981
+            ACHL: 103808252
+            SVG: 106851780
+            MMEA: 130575817
+            HRT: 120758590
+            FPG: 101920378
+            FCH: 102056433
+            CLV: 102090413
+            EGZ: 104130907
+            NNI: 104017141
+            PCRI: 104038312
+            PLET: 104619051
+            EHS: 104503710
+            PCAO: 104042374
+            ACUN: 113484084
+            TALA: 104362311
+            PADL: 103922757
+            AFOR: 103896611
+            ACHC: 115341655
+            HALD: 104317717
+            HLE: 104834489
+            AGEN: 126043912
+            GCL: 127020633
+            CCRI: 104155487
+            CSTI: 104550673
+            CMAC: 104474080
+            MUI: 104536501
+            BREG: 104630739
+            FGA: 104075899
+            GSTE: 104256103
+            LDI: 104351247
+            MNB: 103772445
+            OHA: 104334585
+            NNT: 104404179
+            SHAB: 115612630
+            DPUB: 104297321
+            PGUU: 104459145
+            ACAR: 104519269
+            CPEA: 104385920
+            AVIT: 104280735
+            CVF: 104287055
+            RTD: 128914969
+            CUCA: 104054910
+            TEO: 104380156
+            BRHI: 104488415
+            AAM: 106496434
+            AROW: 112963461
+            NPD: 112952883
+            TGT: 104565160
+            DNE: 112981439
+            SCAM: 104148271
+            ASN: 102378511
+            AMJ: 102566432(CYP19A1)
+            CPOO: 109309026
+            GGN: 109288602
+            PSS: 102459111
+            CMY: 102946653
+            CCAY: 125644127
+            DCC: 119863027
+            CPIC: 101943325
+            TST: 117884452
+            CABI: 116823795
+            MRV: 120373635
+            ACS: 100565397(cyp19a1)
+            ASAO: 132762372
+            PVT: 110077216
+            SUND: 121934532
+            PBI: 103056596
+            PMUR: 107300116
+            CTIG: 120315257
+            PGUT: 117674538
+            APRI: 131184543
+            PTEX: 113442239
+            NSS: 113418339
+            VKO: 123027699
+            PRAF: 128402012
+            ZVI: 118092454
+            HCG: 128335161
+            GJA: 107122388
+            STOW: 125424557
+            EMC: 129345447
+            XLA: 373656(cyp19a1.L)
+            XTR: 100036594(cyp19a1)
+            NPR: 108799589
+            RTEM: 120931338
+            BBUF: 120985817 120985818
+            BGAR: 122927630 122927631
+            MUO: 115461704
+            GSH: 117348369
+            DRE: 30390(cyp19a1a) 60640(cyp19a1b)
+            SRX: 107746936 107748317
+            SANH: 107674832 107700584
+            SGH: 107571340 107588541
+            CCAR: 109051432 109068452 109072133
+            CAUA: 113042873 113061867 113082814 113118576
+            CGIB: 127934323 127977536 128014519
+            PTET: 122330655 122362496
+            LROH: 127156350 127181253
+            OMC: 131524768 131534839
+            PPRM: 120477771 120485850
+            RKG: 130089396 130106434
+            MAMB: 125246945 125254507
+            CIDE: 127500194 127507121
+            MASI: 127436251 127456148
+            TROS: 130549838 130551793
+            TDW: 130413969 130435397
+            MANU: 129419642 129433099
+            IPU: 100304581 108264511
+            IFU: 128607126 128618683
+            PHYP: 113530142 113534440
+            SMEO: 124392156 124395700
+            TFD: 113640941
+            TVC: 132851508 132856826
+            TRN: 134311698 134323481
+            AMEX: 103033668 103038449
+            CMAO: 118804009 118811907
+            EEE: 113577298 113584485
+            CHAR: 105889015 105892489
+            TRU: 100379639(pfcyp19b-tstr) 101076508(pfcyp19a)
+            TFS: 130514159 130535683
+            TNG: GSTEN00018058G001 GSTEN00025591G001
+            LCO: 104920192 104932825
+            NCC: 104960111 104962728
+            TBEN: 117471655 117491915
+            CGOB: 115009664 115024369
+            PGEO: 117447765
+            GACU: 117538803 117549393
+            EMAC: 134863227 134877208
+            ELY: 117258936 117261795
+            EFO: 125886862 125904127
+            PLEP: 121947240 121949866
+            SLUC: 116038508 116054646
+            ECRA: 117939964 117949645
+            ESP: 116691016 116693877
+            PFLV: 114557236 114559505
+            GAT: 120808695 120811580
+            PPUG: 119196278 119197603
+            AFB: 129105323 129108358
+            CLUM: 117732474 117750439
+            PSWI: 130194975
+            MSAM: 119890709 119893898
+            SCHU: 122875290 122875399
+            CUD: 121515762 121524971
+            ALAT: 119017644 119023827
+            MZE: 101468629 106675461 112431276
+            ONL: 100534396 100708217
+            OAU: 116311653 116326742
+            OLA: 100125815(cyp19b) 101174651
+            OML: 112152291 112161048
+            CSAI: 133444884 133456348
+            XMA: 102231498 102236527
+            XCO: 114142484 114159678
+            XHE: 116718071 116736226
+            PRET: 103462065 103466459
+            PFOR: 103143597 103156494
+            PLAI: 106947725 106960953
+            PMEI: 106912224 106932411
+            GAF: 122835378 122841295
+            PPRL: 129369686 129370875
+            CVG: 107085369 107096869
+            CTUL: 119782422 119792512
+            GMU: 124867322 124881651
+            NFU: 107373024 107388638
+            KMR: 108230104 108250266
+            ALIM: 106521145 106530933 106536387
+            NWH: 119416354 119423009
+            AOCE: 111565746 111577263
+            MCEP: 125005804 125014725
+            CSEM: 103378914 103380488
+            POV: 109624148 109624967
+            SSEN: 122772648 122776510
+            HHIP: 117754230 117762605 117778658
+            HSP: 118103743 118109472 118122615 124851147
+            PPLT: 128440846 128444440
+            SMAU: 118301847 118315259
+            LCF: 108876685 108887913
+            SDU: 111223187 111229564
+            SLAL: 111656853 111666923
+            XGL: 120793548 120794915
+            HCQ: 109507515 109525752
+            SSCV: 125967127 125970121
+            SBIA: 133497695 133502032
+            PEE: 133399339 133402410
+            PTAO: 133467229 133478541
+            BPEC: 110169315 110172912
+            MALB: 109963333 109974150
+            BSPL: 114852301 114857594
+            SJO: 128359247 128361936
+            SASA: 106562534 106584746(CYP19B) 106587170(CYP19)
+            STRU: 115166948 115192897 115203363
+            OTW: 112241217 112264373
+            OMY: 110506809 110506810 110521201
+            OGO: 124017811 124037481
+            ONE: 115116861 115144680
+            OKI: 109895311 109897677
+            OKE: 118359379 118382159
+            SALP: 112068480 112073830
+            SNH: 120048793 120048801 120052328
+            CCLU: 121540733 121579689
+            ELS: 105018178 105022679
+            SFM: 108942040
+            PKI: 111846707
+            AANG: 118215725
+            LOC: 102685592
+            PSPA: 121294903 121299384
+            ARUT: 117428169 117429562
+            PSEX: 120539946
+            LCM: 102348763
+            CMK: 103186779
+            RTP: 109931474
+            CPLA: 122540976
+            HOC: 132834197
+            LERI: 129712588
+            PMRN: 116938464
+            BFO: 118411241 118413506
+            BBEL: 109471188 109481437
+            BCOO: 119082474
+            HSY: 130613325
+REFERENCE   PMID:2973313 (CYP19A1)
+  AUTHORS   Harada N
+  TITLE     Cloning of a complete cDNA encoding human aromatase: immunochemical identification and sequence analysis.
+  JOURNAL   Biochem Biophys Res Commun 156:725-32 (1988)
+            DOI:10.1016/S0006-291X(88)80903-3
+  SEQUENCE  [hsa:1588]
+///

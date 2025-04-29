@@ -1,0 +1,17 @@
+ENTRY       R09236                      Reaction
+DEFINITION  2-Hydroxy-5-methylquinone + NADH + H+ <=> 2,4,5-Trihydroxytoluene + NAD+
+EQUATION    C18316 + C00004 + C00080 <=> C18317 + C00003
+COMMENT     2-hydroxy-5-methylquinone reductase
+RCLASS      RC00001  C00003_C00004
+            RC03021  C18316_C18317
+ENZYME      1.1.1.-
+PATHWAY     rn00633  Nitrotoluene degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R09236  2-Hydroxy-5-methylquinone + NADH + H+ <=> 2,4,5-Trihydroxytoluene + NAD+
+DBLINKS     RHEA: 48019
+///

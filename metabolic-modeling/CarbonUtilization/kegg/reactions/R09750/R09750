@@ -1,0 +1,29 @@
+ENTRY       R09750                      Reaction
+NAME        reduced-riboflavin:NAD+ oxidoreductase
+DEFINITION  Reduced riboflavin + NAD+ <=> Riboflavin + NADH + H+
+EQUATION    C01007 + C00003 <=> C00255 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00126  C00255_C01007
+ENZYME      1.5.1.36        1.5.1.41
+PATHWAY     rn00740  Riboflavin metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.36
+                 R09750  Reduced riboflavin + NAD+ <=> Riboflavin + NADH + H+
+                1.5.1.41
+                 R09750  Reduced riboflavin + NAD+ <=> Riboflavin + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.5.1.36
+               R09662  Reduced flavin <=> Flavin
+                R09750  O-Acetyl-L-homoserine <=> Riboflavin
+ORTHOLOGY   K00484  flavin reductase (NADH) [EC:1.5.1.36]
+            K05368  NAD(P)H-flavin reductase [EC:1.5.1.41]
+            K22393  flavin reductase (NADH) subunit 1 [EC:1.5.1.36]
+            K22394  flavin reductase (NADH) subunit 2 [EC:1.5.1.36]
+            K23470  4-hydroxyphenylacetate 3-hydroxylase, reductase component [EC:1.5.1.36]
+DBLINKS     RHEA: 31458
+///

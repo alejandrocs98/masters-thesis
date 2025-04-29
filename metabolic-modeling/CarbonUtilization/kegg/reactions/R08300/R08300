@@ -1,0 +1,16 @@
+ENTRY       R08300                      Reaction
+NAME        lidocaine amidohydrolase
+DEFINITION  Lidocaine + H2O <=> 2,6-Dimethylaniline + N,N-Diethylglycine
+EQUATION    C07073 + C00001 <=> C11004 + C16647
+COMMENT     carboxylesterases (ec 3.1.1.1) also have some amidohydrolase activities
+RCLASS      RC00090  C07073_C16647
+            RC00416  C07073_C11004
+ENZYME      3.1.1.1
+PATHWAY     rn00982  Drug metabolism - cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.1
+                 R08300  Lidocaine + H2O <=> 2,6-Dimethylaniline + N,N-Diethylglycine
+///

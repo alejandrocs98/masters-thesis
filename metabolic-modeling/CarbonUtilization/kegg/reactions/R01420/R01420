@@ -1,0 +1,19 @@
+ENTRY       R01420                      Reaction
+NAME        benzaldehyde:NADP+ oxidoreductase
+DEFINITION  Benzaldehyde + NADP+ + H2O <=> Benzoate + NADPH + H+
+EQUATION    C00261 + C00006 + C00001 <=> C00180 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00075  C00180_C00261
+ENZYME      1.2.1.7
+PATHWAY     rn00623  Toluene degradation
+            rn00627  Aminobenzoate degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.7
+                 R01420  Benzaldehyde + NADP+ + H2O <=> Benzoate + NADPH + H+
+DBLINKS     RHEA: 21663
+///

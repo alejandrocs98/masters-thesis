@@ -1,0 +1,254 @@
+ENTRY       K04119                      KO
+SYMBOL      AKR1C3
+NAME        aldo-keto reductase family 1 member C3 [EC:1.1.1.51 1.1.1.188 1.1.1.213 1.1.1.357]
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map00590  Arachidonic acid metabolism
+            map00790  Folate biosynthesis
+            map01100  Metabolic pathways
+            map04913  Ovarian steroidogenesis
+            map05208  Chemical carcinogenesis - reactive oxygen species
+MODULE      M00976  C19-Steroid hormone biosynthesis, pregnenolone => testosterone => dihydrotestosterone
+            M00977  C19-Steroid hormone biosynthesis (androgen backdoor pathway), pregnenolone => androsterone => dihydrotestosterone
+REACTION    R01836  testosterone:NAD+ 17-oxidoreductase
+            R01838  testosterone:NADP+ 17-oxidoreductase
+            R02352  estradiol-17beta:NAD+ 17-oxidoreductase
+            R02353  estradiol-17beta:NADP+ 17-oxidoreductase
+            R02799  11-epi-prostaglandin F2alpha:NADP+ 11-oxidoreductase
+            R03406  androst-5-ene-3beta,17beta-diol:NAD+ oxidoreductase
+            R03407  androst-5-ene-3beta,17beta-diol:NADP+ oxidoreductase
+            R08955  3alpha,21-dihydroxy-5alpha-pregnan-20-one:NADP+ 3-oxidoreductase (A-specific)
+            R08957  3alpha-hydroxy-5alpha-pregnan-20-one:NADP+ 3-oxidoreductase (A-specific)
+            R08960  5alpha-pregnane-3alpha,20alpha-diol:NADP+ oxidoreductase (A-specific)
+            R11763  6-(1'-hydroxy-2'-oxopropyl)-tetrahydropterin:NADP+ oxidoreductase
+            R13039  
+            R13219  androstan-3alpha,17beta-diol:NADP+ 17-oxidoreductase
+            R13220  dihydrotestosterone:NADP+ 17-oxidoreductase
+            R13221  dihydrotestosterone:NAD+ 17-oxidoreductase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09103 Lipid metabolism
+               00140 Steroid hormone biosynthesis
+                K04119  AKR1C3; aldo-keto reductase family 1 member C3
+               00590 Arachidonic acid metabolism
+                K04119  AKR1C3; aldo-keto reductase family 1 member C3
+              09108 Metabolism of cofactors and vitamins
+               00790 Folate biosynthesis
+                K04119  AKR1C3; aldo-keto reductase family 1 member C3
+             09150 Organismal Systems
+              09152 Endocrine system
+               04913 Ovarian steroidogenesis
+                K04119  AKR1C3; aldo-keto reductase family 1 member C3
+             09160 Human Diseases
+              09161 Cancer: overview
+               05208 Chemical carcinogenesis - reactive oxygen species
+                K04119  AKR1C3; aldo-keto reductase family 1 member C3
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.51  3(or 17)beta-hydroxysteroid dehydrogenase
+                 K04119  AKR1C3; aldo-keto reductase family 1 member C3
+                1.1.1.188  prostaglandin-F synthase
+                 K04119  AKR1C3; aldo-keto reductase family 1 member C3
+                1.1.1.213  3alpha-hydroxysteroid 3-dehydrogenase (Re-specific)
+                 K04119  AKR1C3; aldo-keto reductase family 1 member C3
+                1.1.1.357  3alpha-hydroxysteroid 3-dehydrogenase
+                 K04119  AKR1C3; aldo-keto reductase family 1 member C3
+DBLINKS     GO: 0030283 0047017 0047026
+GENES       HSA: 8644(AKR1C3)
+            PTR: 100612718(AKR1C3) 100612887 746545
+            PPS: 100986388 100987632 100988315
+            GGO: 101144878 101147265 101152195
+            PON: 100174617(AKR1C3) 100432652 100461633 100462259
+            NLE: 100593325 100604844 100606512
+            HMH: 116457717 116460197(AKR1C8)
+            MCC: 100430336 711440 722485 722496
+            MCF: 102116465 102142023(HSD17B5) 102143072 102144231
+            MTHB: 126963005 126963008 126963422
+            MNI: 105490778 105490780 105490783 105494391 112428206
+            CSAB: 103237812 103237813 103237816
+            CATY: 105587690 105597446 105597481
+            PANU: 100997485 101022585 101024707
+            TGE: 112631307 112631750
+            MLEU: 105532496 105535734 105535762
+            RRO: 104674747 104678924
+            RBB: 108521036 108532990
+            TFN: 117082052 117082118 117083437
+            PTEH: 111528130 111528985 113224919
+            CANG: 105521700 105521704
+            CJC: 100406962 100409025 100409384
+            SBQ: 101041594 101042225 101049957
+            CIMI: 108285106 108292323 108292357
+            CSYR: 103261879 103261880 103261882 103261883 103263298 103263300
+            MMUR: 105858219 105858220 105858221 105858224
+            LCAT: 123623042 123623043 123623044 123623047
+            PCOQ: 105826891 105826910 105826913
+            OGA: 100942491 100967071
+            MCAL: 110308148
+            MPAH: 110333839 110333848
+            RNO: 361267(Akr1c15)
+            MCOC: 116081731
+            ANU: 117713832
+            MUN: 110560700
+            CGE: 100768090 100768376
+            MAUA: 101841267
+            PROB: 127229800
+            PLEU: 114708096
+            MORG: 121432600 121432606 121432658 121432668
+            MFOT: 126501679 126501680 126501681 126506800
+            AAMP: 119816160 119816243 119826549
+            NGI: 103725884 103725890 103725892 103746652
+            HGL: 101702106
+            CPOC: 100727454
+            CCAN: 109678869 109680334 109680990
+            DSP: 122113031
+            PLOP: 125366785
+            NCAR: 124961142 124961655
+            OCU: 108176284
+            OPI: 101524567 101525842 101526664 101526901 101527313 101527569 101527977
+            TUP: 102478063 102478495 102491222 102491650
+            GVR: 103602898 103610229 103610426
+            CFA: 497070(AKR1C3)
+            CLUD: 112658979
+            VVP: 112933725
+            VLG: 121496638
+            NPO: 129514265
+            AML: 100483758
+            UMR: 103676234
+            UAH: 113241124
+            UAR: 123802294(AKR1C8)
+            ELK: 111158636
+            LLV: 125107753
+            MPUF: 101678776
+            MNP: 132020017
+            MLK: 131838054
+            NVS: 122891768(AKR1C4)
+            ORO: 101377633 101379669
+            EJU: 114217720
+            ZCA: 113921662
+            MLX: 118021623 118021905
+            LWW: 102748666 102748964
+            FCA: 100510801(AKR1C3)
+            PYU: 121014878
+            PCOO: 112867557
+            PBG: 122473163
+            PVIV: 125169528
+            LRUF: 124502362
+            PTG: 102963188
+            PPAD: 109273789
+            PUC: 125918575
+            AJU: 106988139
+            HHV: 120237198
+            BTA: 100139386(20ALPHA-HSD) 112441538 112449293 282138(AKR1C4) 506594 527068 538060 617917(AKR1C3) 782884
+            BOM: 102267155 102269337 102271453 102271733 102272308 102272594 102272882 102273443 102283454 102284205
+            BIU: 109567627 109568074 109568076 109568077 109568079 109568080 109568087
+            BBUB: 102389138 102395293 102395635 102396460 102396772 102400645 102404780 102415234 102416534
+            BBIS: 104985980 104985985 104985990 104985991 104985992 104985994 104985995 104985998 104985999 104986133
+            CHX: 102176340 102176622 102177638 102186942 102187204 102187504 102187932 102188418 102188684 102189109 102189495 102190498
+            OAS: 101107119 101107541 101107809 101109111 101109377 101110434 101110693 105614315 106990122 114108656
+            BTAX: 128058197 128058202 128058203 128058208 128058211 128058212 128058213 128058216
+            ODA: 120860627 120868601 120869467 120869469 120869471
+            CCAD: 122447956 122447958 122447959 122448269 122448454 122448455 122448456 122448511 122448512
+            MBEZ: 129547517 129555459 129559457 129559483 129559564 129559569 129559578 129559602 129559618 129559630 129559646
+            SSC: 654406(AKR1CL1) 733634(AKR1C1) 733635 733694(AKR1C1)
+            CFR: 102511678 116656624 116661570
+            CBAI: 105074137 105074417 105074427 105074728
+            CDK: 105104488 105104489 105105880
+            VPC: 102531609 102541232 102541486
+            BACU: 103002145 103003050
+            BMUS: 118891073 118891271
+            LVE: 103069218
+            OOR: 101273575 101281536
+            DLE: 111170128 111170129
+            PCAD: 102978533
+            PSIU: 116748968 116749098
+            NASI: 112407550 112407551
+            ECB: 100057212 100070491 100070501 100070509 100070616 111771771 111771772
+            EPZ: 103541472 103541473 103542048
+            EAI: 106824650 106827241 106827468 106846832 106846833 106846834 123281999
+            MYB: 102254990 102255491
+            MYD: 102751586 102763642
+            MMYO: 118672630 118672665
+            MLF: 102421358 102428982
+            PKL: 118702292 118702295
+            EFUS: 103300835 103300840
+            MNA: 107542430 107542432
+            DRO: 112321159 112323007
+            SHON: 118977133
+            AJM: 119057712
+            PDIC: 114492418
+            PHAS: 123824859 123831227(AKR1C8)
+            MMF: 118632067 118632135
+            PPAM: 129084610 129084627
+            HAI: 109378613
+            PALE: 102889546
+            PGIG: 120608988
+            PVP: 105299187
+            MJV: 108384939 108393830 108407235 108407237 108407238
+            TOD: 119244650 119245260
+            SARA: 101543981 101545704 101551007 101551999 101555320 101555749
+            SETR: 126013285
+            LAV: 100659630 100659914
+            TMU: 101342771 101360332
+            ETF: 101653259 101653576
+            DNM: 101428157 101433437
+            OAA: 100085065 100085983
+            PSS: 102446010 102446253 102446483
+            CMY: 102946053 119563672
+            CCAY: 125625831
+            DCC: 119843778 119849865
+            CPIC: 101940001 101940260 101940524
+            TST: 117882842
+            CABI: 116815619
+            MRV: 120395343 120395491 120395494 120395542
+            PVT: 110070400 110071420 110088827
+            PMUA: 114590236 114604979 114604980 114604981 114605230 114605592
+            PRAF: 128421905 128421906 128421907 128421908 128421909 128422029
+            ZVI: 118090693 118090694 118090915
+            GJA: 107108026
+            EMC: 129335705
+            XLA: 100049750(XB5895996.L) 443571(akr1c3.L)
+            XTR: 100127714(akr1c1) 100490956 100494522 101733893 116406435 116409681 734139 779627(akr1c3)
+            NPR: 108789947 108789949 108799287 108799288 108799289 108799290 108799291
+            RTEM: 120921832 120932840
+            CPLA: 122559456
+            HOC: 132825023
+            PPYR: 116168970
+            DMK: 116918341
+            PMEO: 129593135
+            PVUL: 126823863 130010387
+            PMAX: 117329343 117329344 117331065
+            MCAF: 127727738
+            MMER: 123536211
+REFERENCE   PMID:7650035
+  AUTHORS   Khanna M, Qin KN, Wang RW, Cheng KC
+  TITLE     Substrate specificity, gene structure, and tissue-specific distribution of multiple human 3 alpha-hydroxysteroid dehydrogenases.
+  JOURNAL   J Biol Chem 270:20162-8 (1995)
+            DOI:10.1074/jbc.270.34.20162
+  SEQUENCE  [hsa:8644]
+REFERENCE   PMID:15087468
+  AUTHORS   Qiu W, Zhou M, Labrie F, Lin SX
+  TITLE     Crystal structures of the multispecific 17beta-hydroxysteroid dehydrogenase type 5: critical androgen regulation in human peripheral tissues.
+  JOURNAL   Mol Endocrinol 18:1798-807 (2004)
+            DOI:10.1210/me.2004-0032
+REFERENCE   PMID:14979715
+  AUTHORS   Komoto J, Yamada T, Watanabe K, Takusagawa F
+  TITLE     Crystal structure of human prostaglandin F synthase (AKR1C3).
+  JOURNAL   Biochemistry 43:2188-98 (2004)
+            DOI:10.1021/bi036046x
+REFERENCE   PMID:11165022
+  AUTHORS   Penning TM, Burczynski ME, Jez JM, Lin HK, Ma H, Moore M, Ratnam K, Palackal N
+  TITLE     Structure-function aspects and inhibitor design of type 5 17beta-hydroxysteroid dehydrogenase (AKR1C3).
+  JOURNAL   Mol Cell Endocrinol 171:137-49 (2001)
+            DOI:10.1016/S0303-7207(00)00426-3
+REFERENCE   PMID:20186052
+  AUTHORS   Penning TM
+  TITLE     New frontiers in androgen biosynthesis and metabolism.
+  JOURNAL   Curr Opin Endocrinol Diabetes Obes 17:233-9 (2010)
+            DOI:10.1097/MED.0b013e3283381a31
+REFERENCE   PMID:24189185
+  AUTHORS   Rizner TL, Penning TM
+  TITLE     Role of aldo-keto reductase family 1 (AKR1) enzymes in human steroid metabolism.
+  JOURNAL   Steroids 79:49-63 (2014)
+            DOI:10.1016/j.steroids.2013.10.012
+///

@@ -1,0 +1,17 @@
+ENTRY       R03281                      Reaction
+NAME        2-hydroxycyclohexan-1-one,NADPH:oxygen 2-oxidoreductase (1,2-lactonizing)
+DEFINITION  2-Hydroxycyclohexan-1-one + Oxygen + NADPH + H+ <=> 6-Hydroxyhexan-6-olide + NADP+ + H2O
+EQUATION    C01147 + C00007 + C00005 + C00080 <=> C03241 + C00006 + C00001
+COMMENT     subsequently R05098
+RCLASS      RC00001  C00005_C00006
+            RC00898  C01147_C03241
+ENZYME      1.14.13.66
+PATHWAY     rn00930  Caprolactam degradation
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.66
+                 R03281  2-Hydroxycyclohexan-1-one + Oxygen + NADPH + H+ <=> 6-Hydroxyhexan-6-olide + NADP+ + H2O
+DBLINKS     RHEA: 10651
+///

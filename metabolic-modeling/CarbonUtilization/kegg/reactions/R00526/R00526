@@ -1,0 +1,26 @@
+ENTRY       R00526                      Reaction
+NAME        N-formyl-L-aspartate amidohydrolase
+DEFINITION  N-Formyl-L-aspartate + H2O <=> Formate + L-Aspartate
+EQUATION    C01044 + C00001 <=> C00058 + C00049
+RCLASS      RC00165  C00049_C01044
+            RC00323  C00058_C01044
+ENZYME      3.5.1.8         3.5.1.15
+PATHWAY     rn00340  Histidine metabolism
+            rn00630  Glyoxylate and dicarboxylate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.8
+                 R00526  N-Formyl-L-aspartate + H2O <=> Formate + L-Aspartate
+                3.5.1.15
+                 R00526  N-Formyl-L-aspartate + H2O <=> Formate + L-Aspartate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.5.1.15
+               R00546  N-Acyl-L-aspartate <=> Carboxylate
+                R00526  N-Formyl-L-aspartate <=> Formate
+ORTHOLOGY   K01437  aspartoacylase [EC:3.5.1.15]
+DBLINKS     RHEA: 22043
+///

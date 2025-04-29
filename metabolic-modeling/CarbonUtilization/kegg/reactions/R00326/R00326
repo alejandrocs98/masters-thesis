@@ -1,0 +1,19 @@
+ENTRY       R00326                      Reaction
+NAME        acetaldehyde:acceptor oxidoreductase
+DEFINITION  Acetaldehyde + Acceptor + H2O <=> Acetate + Reduced acceptor
+EQUATION    C00084 + C00028 + C00001 <=> C00033 + C00030
+RCLASS      RC00047  C00033_C00084
+ENZYME      1.2.99.6
+PATHWAY     rn00620  Pyruvate metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.99  With unknown physiological acceptors
+                1.2.99.6
+                 R00326  Acetaldehyde + Acceptor + H2O <=> Acetate + Reduced acceptor
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.99.6
+               R00544  Aldehyde <=> Carboxylate
+                R00326  Acetaldehyde <=> Acetate
+///

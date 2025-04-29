@@ -1,0 +1,25 @@
+ENTRY       R05123                      Reaction
+NAME        S-adenosyl-L-methionine:(RS)-norcoclaurine 6-O-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + (S)-Norcoclaurine <=> S-Adenosyl-L-homocysteine + (S)-Coclaurine
+EQUATION    C00019 + C06160 <=> C00021 + C06161
+RCLASS      RC00003  C00019_C00021
+            RC00392  C06160_C06161
+ENZYME      2.1.1.128
+PATHWAY     rn00950  Isoquinoline alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00943  Reticuline biosynthesis, dopamine + 4HPAA => (S)-reticuline
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.128
+                 R05123  S-Adenosyl-L-methionine + (S)-Norcoclaurine <=> S-Adenosyl-L-homocysteine + (S)-Coclaurine
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.1.1.128
+               R05162  (R,S)-Norcoclaurine <=> (R,S)-Coclaurine
+                R05123  (S)-Norcoclaurine <=> (S)-Coclaurine
+ORTHOLOGY   K13383  (RS)-norcoclaurine 6-O-methyltransferase [EC:2.1.1.128]
+DBLINKS     RHEA: 31910
+///

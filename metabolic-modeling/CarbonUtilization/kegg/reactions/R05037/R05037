@@ -1,0 +1,23 @@
+ENTRY       R05037                      Reaction
+NAME        leucocyanidin,2-oxoglutarate:oxygen oxidoreductase
+DEFINITION  Delphinidin + Succinate + CO2 + 2 H2O <=> Leucodelphinidin + 2-Oxoglutarate + Oxygen + H+
+EQUATION    C05908 + C00042 + C00011 + 2 C00001 <=> C05909 + C00026 + C00007 + C00080
+COMMENT     Leucoanthocyanidin dioxygenase
+            acidification
+RCLASS      RC01114  C05908_C05909
+ENZYME      1.14.20.4
+PATHWAY     rn00941  Flavonoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.20  With 2-oxoglutarate as one donor, and the other dehydrogenated
+                1.14.20.4
+                 R05037  Delphinidin + Succinate + CO2 + 2 H2O <=> Leucodelphinidin + 2-Oxoglutarate + Oxygen + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.20.4
+               R11993  (2R,3S,4S)-Leucoanthocyanidin <=> Anthocyanidin with a 3-hydroxy group
+                R05037  Leucodelphinidin <=> Delphinidin
+ORTHOLOGY   K05277  anthocyanidin synthase [EC:1.14.20.4]
+///

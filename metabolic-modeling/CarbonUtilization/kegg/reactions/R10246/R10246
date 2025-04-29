@@ -1,0 +1,22 @@
+ENTRY       R10246                      Reaction
+NAME        L-tyrosine 4-methylphenol-lyase (2-iminoacetate-forming)
+DEFINITION  L-Tyrosine + S-Adenosyl-L-methionine + Reduced acceptor <=> Iminoglycine + 4-Cresol + 5'-Deoxyadenosine + L-Methionine + Acceptor
+EQUATION    C00082 + C00019 + C00030 <=> C15809 + C01468 + C05198 + C00073 + C00028
+COMMENT     radical SAM
+RCLASS      RC00021  C00019_C00073
+            RC01434  C00082_C01468
+            RC03095  C00082_C15809
+ENZYME      4.1.99.19
+PATHWAY     rn00730  Thiamine metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00127  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.99  Other carbon-carbon lyases
+                4.1.99.19
+                 R10246  L-Tyrosine + S-Adenosyl-L-methionine + Reduced acceptor <=> Iminoglycine + 4-Cresol + 5'-Deoxyadenosine + L-Methionine + Acceptor
+ORTHOLOGY   K03150  2-iminoacetate synthase [EC:4.1.99.19]
+DBLINKS     RHEA: 26364
+///

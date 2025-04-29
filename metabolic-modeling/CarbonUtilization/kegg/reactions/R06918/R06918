@@ -1,0 +1,17 @@
+ENTRY       R06918                      Reaction
+DEFINITION  1-Naphthaldehyde + NAD+ + H2O <=> 1-Naphthoic acid + NADH + H+
+EQUATION    C14090 + C00003 + C00001 <=> C14091 + C00004 + C00080
+COMMENT     1-naphthaldehyde dehydrogenase
+RCLASS      RC00001  C00003_C00004
+            RC00075  C14090_C14091
+ENZYME      1.2.1.-
+PATHWAY     rn00626  Naphthalene degradation
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.-
+                 R06918  1-Naphthaldehyde + NAD+ + H2O <=> 1-Naphthoic acid + NADH + H+
+///

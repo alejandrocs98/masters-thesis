@@ -1,0 +1,19 @@
+ENTRY       R05446                      Reaction
+DEFINITION  2,5-Dichlorohydroquinone + FADH2 + Oxygen <=> 5-Chloro-2-hydroxy-p-benzoquinone + FAD + H2O + Cl-
+EQUATION    C06600 + C01352 + C00007 <=> C21105 + C00016 + C00001 + C00698
+COMMENT     chlorophenol 4-monooxygenase
+RCLASS      RC00126  C00016_C01352
+            RC03350  C06600_C21105
+ENZYME      1.14.14.-
+PATHWAY     rn00361  Chlorocyclohexane and chlorobenzene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.-
+                 R05446  2,5-Dichlorohydroquinone + FADH2 + Oxygen <=> 5-Chloro-2-hydroxy-p-benzoquinone + FAD + H2O + Cl-
+ORTHOLOGY   K15245  flavin reductase [EC:1.5.1.37]
+            K15246  chlorophenol-4-monooxygenase [EC:1.14.14.173 1.14.14.-]
+///

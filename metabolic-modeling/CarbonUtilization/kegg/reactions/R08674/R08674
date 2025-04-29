@@ -1,0 +1,24 @@
+ENTRY       R08674                      Reaction
+NAME        pentahomomethionine,[NADPH---hemoprotein reductase]:oxygen oxidoreductase
+DEFINITION  Pentahomomethionine + 2 [Reduced NADPH---hemoprotein reductase] + 2 Oxygen <=> 8-Methylthiooctanaldoxime + 2 [Oxidized NADPH---hemoprotein reductase] + CO2 + 3 H2O
+EQUATION    C17229 + 2 C03024 + 2 C00007 <=> C17251 + 2 C03161 + C00011 + 3 C00001
+COMMENT     multi-step reaction (similar to R10671, R00730+R04460+R07190)
+RCLASS      RC02295  C17229_C17251
+ENZYME      1.14.14.42
+PATHWAY     rn00966  Glucosinolate biosynthesis
+            rn01210  2-Oxocarboxylic acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.42
+                 R08674  Pentahomomethionine + 2 [Reduced NADPH---hemoprotein reductase] + 2 Oxygen <=> 8-Methylthiooctanaldoxime + 2 [Oxidized NADPH---hemoprotein reductase] + CO2 + 3 H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.42
+               R11646  L-Polyhomomethionine <=> omega-(Methylthio)-(E)-alkanal oxime
+                R08674  Pentahomomethionine <=> 8-Methylthiooctanaldoxime
+ORTHOLOGY   K12154  homomethionine N-monooxygenase [EC:1.14.14.42]
+            K12155  homomethionine N-monooxygenase [EC:1.14.14.42]
+DBLINKS     RHEA: 33294
+///

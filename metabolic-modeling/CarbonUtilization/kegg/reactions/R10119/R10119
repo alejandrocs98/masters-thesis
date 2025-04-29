@@ -1,0 +1,23 @@
+ENTRY       R10119                      Reaction
+NAME        glutaryl-[acp]-methyl-ester:malonyl-[acyl-carrier protein] C-acyltransferase (decarboxylating)
+DEFINITION  Glutaryl-[acp] methyl ester + Malonyl-[acyl-carrier protein] <=> 3-Ketopimeloyl-[acp] methyl ester + CO2 + Acyl-carrier protein
+EQUATION    C20375 + C01209 <=> C20376 + C00011 + C00229
+RCLASS      RC00039  C00229_C20375
+            RC02728  C20375_C20376
+            RC02888  C01209_C20376
+ENZYME      2.3.1.41        2.3.1.179
+PATHWAY     rn00780  Biotin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00572  Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.41
+                 R10119  Glutaryl-[acp] methyl ester + Malonyl-[acyl-carrier protein] <=> 3-Ketopimeloyl-[acp] methyl ester + CO2 + Acyl-carrier protein
+                2.3.1.179
+                 R10119  Glutaryl-[acp] methyl ester + Malonyl-[acyl-carrier protein] <=> 3-Ketopimeloyl-[acp] methyl ester + CO2 + Acyl-carrier protein
+ORTHOLOGY   K00647  3-oxoacyl-[acyl-carrier-protein] synthase I [EC:2.3.1.41]
+            K09458  3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179]
+///

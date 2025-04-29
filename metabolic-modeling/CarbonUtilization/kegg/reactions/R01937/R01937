@@ -1,0 +1,22 @@
+ENTRY       R01937                      Reaction
+DEFINITION  2-Oxoadipate + Ammonia + NAD+ <=> 2-Aminomuconate + NADH + H+ + H2O
+EQUATION    C00322 + C00014 + C00003 <=> C02220 + C00004 + C00080 + C00001
+COMMENT     NADPH (see R01938)
+            possibly multi-step reaction
+RCLASS      RC00001  C00003_C00004
+            RC00208  C00322_C02220
+ENZYME      1.5.1.-
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.-
+                 R01937  2-Oxoadipate + Ammonia + NAD+ <=> 2-Aminomuconate + NADH + H+ + H2O
+REFERENCE   1  [PMID:14275129]
+  AUTHORS   NISHIZUKA Y, ICHIYAMA A, GHOLSON RK, HAYAISHI O.
+  TITLE     STUDIES ON THE METABOLISM OF THE BENZENE RING OF TRYPTOPHAN IN MAMMALIAN TISSUES. I. ENZYMIC FORMATION OF GLUTARIC ACID FROM 3-HYDROXYANTHRANILIC ACID.
+  JOURNAL   J Biol Chem 240:733-9 (1965)
+            DOI:10.1016/S0021-9258(17)45237-9
+///

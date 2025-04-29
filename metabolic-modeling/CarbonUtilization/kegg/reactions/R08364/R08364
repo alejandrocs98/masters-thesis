@@ -1,0 +1,18 @@
+ENTRY       R08364                      Reaction
+NAME        2'-deoxyribonucleoside-diphosphate:trypanothione-disulfide 2'-oxidoreductase
+DEFINITION  2'-Deoxyribonucleoside diphosphate + Trypanothione disulfide + H2O <=> Ribonucleoside diphosphate + Trypanothione
+EQUATION    C04232 + C03170 + C00001 <=> C03723 + C02090
+COMMENT     intermediate (Tryparedoxin [CPD:C16663], see R08361+R08363)
+RCLASS      RC00613  C03723_C04232
+            RC01003  C02090_C03170
+ENZYME      1.17.4.1
+PATHWAY     rn00480  Glutathione metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.17  Acting on CH or CH2 groups
+               1.17.4  With a disulfide as acceptor
+                1.17.4.1
+                 R08364  2'-Deoxyribonucleoside diphosphate + Trypanothione disulfide + H2O <=> Ribonucleoside diphosphate + Trypanothione
+ORTHOLOGY   K10807  ribonucleoside-diphosphate reductase subunit M1 [EC:1.17.4.1]
+            K10808  ribonucleoside-diphosphate reductase subunit M2 [EC:1.17.4.1]
+///

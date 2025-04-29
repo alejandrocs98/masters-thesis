@@ -1,0 +1,21 @@
+ENTRY       R04456                      Reaction
+NAME        5,10-methylenetetrahydromethanopterin:coenzyme-F420 oxidoreductase
+DEFINITION  5,10-Methylenetetrahydromethanopterin + Coenzyme F420 + H+ <=> 5,10-Methenyltetrahydromethanopterin + Reduced coenzyme F420
+EQUATION    C04377 + C00876 + C00080 <=> C04330 + C01080
+RCLASS      RC00202  C04330_C04377
+            RC02628  C00876_C01080
+ENZYME      1.5.98.1
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00567  Methanogenesis, CO2 => methane
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.98  With other, known, physiological acceptors
+                1.5.98.1
+                 R04456  5,10-Methylenetetrahydromethanopterin + Coenzyme F420 + H+ <=> 5,10-Methenyltetrahydromethanopterin + Reduced coenzyme F420
+ORTHOLOGY   K00319  methylenetetrahydromethanopterin dehydrogenase [EC:1.5.98.1]
+DBLINKS     RHEA: 16724
+///

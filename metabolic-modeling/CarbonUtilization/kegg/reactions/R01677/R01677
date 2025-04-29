@@ -1,0 +1,24 @@
+ENTRY       R01677                      Reaction
+NAME        guanosine ribohydrolase
+DEFINITION  Guanosine + H2O <=> Guanine + D-Ribose
+EQUATION    C00387 + C00001 <=> C00242 + C00121
+RCLASS      RC00063  C00242_C00387
+            RC00318  C00121_C00387
+ENZYME      3.2.2.1
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.2  Glycosylases
+               3.2.2  Hydrolysing N-glycosyl compounds
+                3.2.2.1
+                 R01677  Guanosine + H2O <=> Guanine + D-Ribose
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.2.2.1
+               R02341  N-D-Ribosylpurine <=> Purine
+                R01677  Guanosine <=> Guanine
+ORTHOLOGY   K01239  purine nucleosidase [EC:3.2.2.1]
+DBLINKS     RHEA: 30774
+///

@@ -1,0 +1,22 @@
+ENTRY       R03339                      Reaction
+NAME        (R)-3-(4-hydroxyphenyl)lactate:NADP+ 2-oxidoreductase
+DEFINITION  (R)-3-(4-Hydroxyphenyl)lactate + NADP+ <=> 3-(4-Hydroxyphenyl)pyruvate + NADPH + H+
+EQUATION    C03964 + C00006 <=> C01179 + C00005 + C00080
+COMMENT     NAD+ (see R03337)
+RCLASS      RC00001  C00005_C00006
+            RC00031  C01179_C03964
+ENZYME      1.1.1.237
+PATHWAY     rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn00350  Tyrosine metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.237
+                 R03339  (R)-3-(4-Hydroxyphenyl)lactate + NADP+ <=> 3-(4-Hydroxyphenyl)pyruvate + NADPH + H+
+ORTHOLOGY   K13574  hydroxycarboxylate dehydrogenase B [EC:1.1.1.237 1.1.1.-]
+            K18606  hydroxyphenylpyruvate reductase [EC:1.1.1.237]
+DBLINKS     RHEA: 10779
+///

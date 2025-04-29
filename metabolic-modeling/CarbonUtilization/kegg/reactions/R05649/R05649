@@ -1,0 +1,19 @@
+ENTRY       R05649                      Reaction
+DEFINITION  1-Hydroxy-2-naphthaldehyde + NAD+ + H2O <=> 1-Hydroxy-2-naphthoate + NADH + H+
+EQUATION    C11427 + C00003 + C00001 <=> C03203 + C00004 + C00080
+COMMENT     PhdH
+RCLASS      RC00001  C00003_C00004
+            RC00075  C03203_C11427
+ENZYME      1.2.1.-
+PATHWAY     rn00624  Polycyclic aromatic hydrocarbon degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.-
+                 R05649  1-Hydroxy-2-naphthaldehyde + NAD+ + H2O <=> 1-Hydroxy-2-naphthoate + NADH + H+
+ORTHOLOGY   K11947  aldehyde dehydrogenase [EC:1.2.1.-]
+///

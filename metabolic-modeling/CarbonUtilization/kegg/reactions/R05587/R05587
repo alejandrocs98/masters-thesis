@@ -1,0 +1,22 @@
+ENTRY       R05587                      Reaction
+DEFINITION  (S)-2-Benzoylsuccinyl-CoA + CoA <=> Benzoyl-CoA + Succinyl-CoA
+EQUATION    C09820 + C00010 <=> C00512 + C00091
+COMMENT     BbsB
+RCLASS      RC00004  C00010_C00512
+            RC01428  C00091_C09820
+            RC02904  C00512_C09820
+ENZYME      2.3.1.310
+PATHWAY     rn00623  Toluene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00418  Toluene degradation, anaerobic, toluene => benzoyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.310
+                 R05587  (S)-2-Benzoylsuccinyl-CoA + CoA <=> Benzoyl-CoA + Succinyl-CoA
+ORTHOLOGY   K07549  benzoylsuccinyl-CoA thiolase BbsA subunit [EC:2.3.1.310]
+            K07550  benzoylsuccinyl-CoA thiolase BbsB subunit [EC:2.3.1.310]
+///

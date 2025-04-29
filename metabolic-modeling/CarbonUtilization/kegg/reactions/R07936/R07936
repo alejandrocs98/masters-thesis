@@ -1,0 +1,19 @@
+ENTRY       R07936                      Reaction
+NAME        (3R,6Z,9Z,12Z,15Z,18Z,21Z)-3-hydroxytetracosahexaenoyl-CoA:NAD+ oxidoreductase
+DEFINITION  (3R,6Z,9Z,12Z,15Z,18Z,21Z)-3-Hydroxytetracosahexaenoyl-CoA + NAD+ <=> (6Z,9Z,12Z,15Z,18Z,21Z)-3-Oxotetracosahexaenoyl-CoA + NADH + H+
+EQUATION    C16375 + C00003 <=> C16376 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00029  C16375_C16376
+ENZYME      1.1.1.-
+PATHWAY     rn01040  Biosynthesis of unsaturated fatty acids
+            rn01100  Metabolic pathways
+            rn01212  Fatty acid metabolism
+MODULE      M00861  beta-Oxidation, peroxisome, VLCFA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R07936  (3R,6Z,9Z,12Z,15Z,18Z,21Z)-3-Hydroxytetracosahexaenoyl-CoA + NAD+ <=> (6Z,9Z,12Z,15Z,18Z,21Z)-3-Oxotetracosahexaenoyl-CoA + NADH + H+
+ORTHOLOGY   K12405  (3R)-3-hydroxyacyl-CoA dehydrogenase / 3a,7a,12a-trihydroxy-5b-cholest-24-enoyl-CoA hydratase / enoyl-CoA hydratase 2 [EC:1.1.1.- 4.2.1.107 4.2.1.119]
+///

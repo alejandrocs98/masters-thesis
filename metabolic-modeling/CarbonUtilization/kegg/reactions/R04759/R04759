@@ -1,0 +1,21 @@
+ENTRY       R04759                      Reaction
+NAME        19-hydroxyandrostenedione,NADPH---hemoprotein reductase:oxygen 19-oxidoreductase
+DEFINITION  19-Hydroxyandrost-4-ene-3,17-dione + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 19-Oxoandrost-4-ene-3,17-dione + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+EQUATION    C05290 + C03024 + C00007 <=> C05297 + C03161 + 2 C00001
+COMMENT     aromatase, ARO
+            following after R01840
+            subsequently R02351
+RCLASS      RC00893  C05290_C05297
+ENZYME      1.14.14.14
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00110  C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.14
+                 R04759  19-Hydroxyandrost-4-ene-3,17-dione + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 19-Oxoandrost-4-ene-3,17-dione + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+ORTHOLOGY   K07434  aromatase [EC:1.14.14.14]
+DBLINKS     RHEA: 38206
+///

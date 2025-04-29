@@ -1,0 +1,16 @@
+ENTRY       R07104                      Reaction
+NAME        chloral:NAD(P)+ oxidoreductase
+DEFINITION  Chloral hydrate + NAD+ <=> Trichloroacetate + NADH + H+
+EQUATION    C06899 + C00003 <=> C11150 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC01735  C06899_C11150
+ENZYME      1.2.1.5
+PATHWAY     rn00980  Metabolism of xenobiotics by cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.5
+                 R07104  Chloral hydrate + NAD+ <=> Trichloroacetate + NADH + H+
+ORTHOLOGY   K00129  aldehyde dehydrogenase (NAD(P)+) [EC:1.2.1.5]
+///

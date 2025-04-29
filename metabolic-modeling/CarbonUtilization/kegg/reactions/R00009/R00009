@@ -1,0 +1,21 @@
+ENTRY       R00009                      Reaction
+NAME        hydrogen-peroxide:hydrogen-peroxide oxidoreductase
+DEFINITION  2 Hydrogen peroxide <=> Oxygen + 2 H2O
+EQUATION    2 C00027 <=> C00007 + 2 C00001
+RCLASS      RC02755  C00007_C00027
+ENZYME      1.11.1.6        1.11.1.21
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+            rn01110  Biosynthesis of secondary metabolites
+            rn01200  Carbon metabolism
+MODULE      M00532  Photorespiration
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.11  Acting on a peroxide as acceptor
+               1.11.1  Peroxidases
+                1.11.1.6
+                 R00009  2 Hydrogen peroxide <=> Oxygen + 2 H2O
+                1.11.1.21
+                 R00009  2 Hydrogen peroxide <=> Oxygen + 2 H2O
+ORTHOLOGY   K03781  catalase [EC:1.11.1.6]
+DBLINKS     RHEA: 20312
+///

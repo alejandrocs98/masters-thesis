@@ -1,0 +1,19 @@
+ENTRY       R03984                      Reaction
+NAME        pyrimidodiazepine:glutathione-disulfide oxidoreductase (ring-opening, cyclizing)
+DEFINITION  Pyrimidodiazepine + Glutathione disulfide + H2O <=> 6-Pyruvoyltetrahydropterin + 2 Glutathione
+EQUATION    C02587 + C00127 + C00001 <=> C03684 + 2 C00051
+RCLASS      RC00011  C00051_C00127
+            RC01043  C02587_C03684
+ENZYME      1.5.4.1
+PATHWAY     rn00480  Glutathione metabolism
+            rn00790  Folate biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.4  With a disulfide as acceptor
+                1.5.4.1
+                 R03984  Pyrimidodiazepine + Glutathione disulfide + H2O <=> 6-Pyruvoyltetrahydropterin + 2 Glutathione
+ORTHOLOGY   K00310  pyrimidodiazepine synthase [EC:1.5.4.1]
+DBLINKS     RHEA: 10723
+///

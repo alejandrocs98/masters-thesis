@@ -1,0 +1,19 @@
+ENTRY       R02681                      Reaction
+NAME        indole-3-acetaldehyde:oxygen oxidoreductase
+DEFINITION  Indole-3-acetaldehyde + Oxygen + H2O <=> Indole-3-acetate + Hydrogen peroxide
+EQUATION    C00637 + C00007 + C00001 <=> C00954 + C00027
+RCLASS      RC00080  C00637_C00954
+            RC02755  C00007_C00027
+ENZYME      1.2.3.7
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.3  With oxygen as acceptor
+                1.2.3.7
+                 R02681  Indole-3-acetaldehyde + Oxygen + H2O <=> Indole-3-acetate + Hydrogen peroxide
+ORTHOLOGY   K11817  indole-3-acetaldehyde oxidase [EC:1.2.3.7]
+            K22417  benzaldehyde dehydrogenase (NAD+) / indole-3-acetaldehyde oxidase [EC:1.2.1.28 1.2.3.7]
+DBLINKS     RHEA: 16280
+///

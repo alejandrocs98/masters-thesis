@@ -1,0 +1,223 @@
+ENTRY       K00668                      KO
+SYMBOL      FAS1
+NAME        fatty acid synthase subunit beta, fungi type [EC:2.3.1.86]
+PATHWAY     map00061  Fatty acid biosynthesis
+            map01100  Metabolic pathways
+            map01212  Fatty acid metabolism
+MODULE      M00082  Fatty acid biosynthesis, initiation
+            M00083  Fatty acid biosynthesis, elongation
+REACTION    R01404  acyl-[acyl-carrier protein]:NADP+ oxidoreductase
+            R01624  acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase
+            R01626  malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase
+            R04428  (3R)-3-hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
+            R04430  butyryl-[acp]:NADP+ trans-2-oxidoreductase
+            R04535  (3R)-3-hydroxydecanoyl-[acyl-carrier-protein] hydro-lyase
+            R04537  (3R)-3-hydroxyoctanoyl-[acyl-carrier-protein] hydro-lyase
+            R04544  (3R)-3-hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase
+            R04568  (3R)-3-hydroxytetradecanoyl-[acyl-carrier-protein] hydro-lyase
+            R04725  dodecanoyl-[acp]:NADP+ trans-2-oxidoreductase
+            R04954  (3R)-3-hydroxyhexanoyl-[acyl-carrier-protein] hydro-lyase
+            R04956  hexanoyl-[acp]:NADP+ trans-2-oxidoreductase
+            R04959  octanoyl-[acp]:NADP+ trans-2-oxidoreductase
+            R04962  decanoyl-[acp]:NADP+ trans-2-oxidoreductase
+            R04965  (3R)-3-hydroxydodecanoyl-[acyl-carrier-protein] hydro-lyase
+            R04967  tetradecanoyl-[acp]:NADP+ trans-2-oxidoreductase
+            R04970  hexadecanoyl-[acp]:NADP+ trans-2-oxidoreductase
+            R05190  acyl-CoA:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)
+            R10700  palmitoyl-[acp]:CoA S-palmitoyltransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09103 Lipid metabolism
+               00061 Fatty acid biosynthesis
+                K00668  FAS1; fatty acid synthase subunit beta, fungi type
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01004 Lipid biosynthesis proteins
+                K00668  FAS1; fatty acid synthase subunit beta, fungi type
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.86  fatty-acyl-CoA synthase system
+                 K00668  FAS1; fatty acid synthase subunit beta, fungi type
+            Lipid biosynthesis proteins [BR:ko01004]
+             Fatty acid synthase
+              Yeast type
+               K00668  FAS1; fatty acid synthase subunit beta, fungi type
+DBLINKS     GO: 0004321
+GENES       SCE: YKL182W(FAS1)
+            SEUB: DI49_3200
+            SPAO: SPAR_K00390
+            AGO: AGOS_AER085C
+            ERC: Ecym_3239
+            KLA: KLLA0_B02717g
+            KMX: KLMA_40526(FAS1)
+            LTH: KLTH0D15070g
+            VPO: Kpol_1055p60
+            ZRO: ZYRO0B13068g
+            CGR: CAGL0D00528g
+            NCS: NCAS_0J01680(NCAS0J01680)
+            NDI: NDAI_0J02670(NDAI0J02670)
+            TPF: TPHA_0B02040(TPHA0B02040)
+            TBL: TBLA_0I03120(TBLA0I03120)
+            TGB: HG536_0E02010
+            TDL: TDEL_0E00900(TDEL0E00900)
+            KAF: KAFR_0A05730(KAFR0A05730)
+            KNG: KNAG_0B06300(KNAG0B06300)
+            ZMK: HG535_0B06760
+            PPA: PAS_chr1-1_0008
+            DHA: DEHA2B08140g
+            PIC: PICST_85125(FAS1)
+            PGU: PGUG_02173
+            SPAA: SPAPADRAFT_138494
+            LEL: PVL30_004679(FAS1)
+            CAL: CAALFM_C500190CA(FAS1)
+            CTP: CTRG_05241
+            COT: CORT_0E04830
+            CDU: CD36_50220(FAS1)
+            CTEN: CANTEDRAFT_107026
+            YLI: YALI0B15059g
+            CLU: CLUG_03422
+            CLUS: A9F13_01g07634
+            CAUR: CJI96_0001346
+            SLB: AWJ20_861(FAS1)
+            PKZ: C5L36_0A10650
+            BNN: FOA43_003644(FAS1)
+            BBRX: BRETT_004505(FAS1_1) BRETT_004531(FAS1_2)
+            OPA: HPODL_04992
+            SLUD: SCDLUD_004286
+            NCR: NCU07307(cel-2)
+            NTE: NEUTE1DRAFT61255(NEUTE1DRAFT_61255)
+            SMP: SMAC_00840
+            PAN: PODANSg3685 PODANSg8559
+            PBEL: QC761_123300(FAS1_1) QC761_207300
+            PPSD: QC762_123300(FAS1_1) QC762_207300
+            PPSP: QC763_123300(FAS1_1) QC763_207300
+            PPSA: QC764_123300(FAS1_1) QC764_207300
+            TTT: THITE_2122457
+            MTM: MYCTH_2310228
+            CTHR: CTHT_0037750
+            MGR: MGG_04118
+            PPEI: PpBr36_04604
+            PGRI: PgNI_05164 PgNI_06784
+            TMN: UCRPA7_6807
+            SSCK: SPSK_04790
+            FGR: FGSG_05322 FGSG_11656
+            FPU: FPSE_07168 FPSE_07818
+            FPOA: FPOAC1_008361
+            FVN: FVRRES_08932
+            FVR: FVEG_04242
+            FOX: FOXG_06392 FOXG_14342 FOXG_15138
+            NHE: NECHADRAFT_64009
+            FFC: NCS54_01273000 NCS54_01495800
+            FKR: NCS57_01236400
+            FMU: J7337_004245
+            TRE: TRIREDRAFT_78591
+            TRR: M419DRAFT_98783
+            MAW: MAC_02878 MAC_06765
+            MAJ: MAA_01138
+            PCHM: VFPPC_03576
+            CMT: CCM_02997
+            AMUS: LMH87_006937
+            PLJ: VFPFJ_00702
+            PTKZ: JDV02_007947(FAS1_2)
+            VAL: VDBG_01018
+            VDA: VDAG_00631
+            CFJ: CFIO01_03118
+            CLUP: CLUP02_17680
+            CHIG: CH63R_09768 CH63R_13998
+            SAPO: SAPIO_CDS7371
+            ELA: UCREL1_2864 UCREL1_3666
+            PFY: PFICI_02555 PFICI_04683 PFICI_09703
+            SSL: SS1G_13073
+            BFU: BCIN_01g00450
+            MBE: MBM_00559
+            PSCO: LY89DRAFT_624908 LY89DRAFT_784300
+            GLZ: GLAREA_01152 GLAREA_08470
+            ANI: ANIA_03381 ANIA_07814 ANIA_07873 ANIA_09408
+            AFM: AFUA_3G04220
+            ACT: ACLA_060580 ACLA_093760
+            NFI: NFIA_006490
+            AOR: AO090010000108 AO090010000156 AO090011000040 AO090026000013 AO090124000084
+            ANG: An01g00050 An08g10860 An09g01740 An10g00650 An12g01990
+            AFV: AFLA_006307 AFLA_007399 AFLA_009127 AFLA_013646 AFLA_013700
+            ALUC: AKAW2_20202A(FAS1) AKAW2_40150S AKAW2_52045S AKAW2_71015A AKAW2_81152S
+            ACHE: ACHE_40272A(FAS1)
+            APUU: APUU_20049S APUU_31411A APUU_50289S(FAS1)
+            PCS: N7525_000072 N7525_007667
+            PDP: PDIP_67930 PDIP_87680
+            POU: POX_c04753 POX_e06170 POX_g09186
+            TMF: EYB26_005505 EYB26_006384 EYB26_007408 EYB26_009147
+            TRG: TRUGW13939_07283 TRUGW13939_10098
+            CIM: CIMG_08479 CIMG_08565
+            CPW: CPC735_061460 CPC735_062230
+            URE: UREG_02554 UREG_04458
+            PBL: PAAG_01524
+            PBN: PADG_00255
+            ABE: ARB_02752 ARB_06046
+            TVE: TRV_06188 TRV_06922
+            AJE: HCAG_07637
+            BGH: BDBG_09189
+            PNO: SNOG_01108 SNOG_02167 SNOG_09091
+            PTE: PTT_02058 PTT_10815
+            BZE: COCCADRAFT_113337 COCCADRAFT_7010
+            BSC: COCSADRAFT_235908
+            BOR: COCMIDRAFT_1000
+            AALT: CC77DRAFT_928877
+            ARAB: EKO05_0004891
+            ZTR: MYCGRDRAFT_69244
+            PFJ: MYCFIDRAFT_53243
+            FFU: CLAFUR5_10726 CLAFUR5_14276
+            CBET: CB0940_02992 CB0940_06562
+            BCOM: BAUCODRAFT_151421 BAUCODRAFT_62139
+            NPA: UCRNP2_2698 UCRNP2_7996
+            SPO: SPAC926.09c(fas1)
+            SOM: SOMG_04610(fas1)
+            CNE: CNE04370
+            CNB: CNBE4370
+            CNG: CNAG_02099
+            CGI: CGB_E5660W
+            TMS: TREMEDRAFT_40511
+            TASA: A1Q1_06630
+            CCAC: CcaHIS019_0211180(CcaverHIS019_0211180)
+            TVS: TRAVEDRAFT_149581 TRAVEDRAFT_41081
+            DSQ: DICSQDRAFT_80488
+            PCO: PHACADRAFT_206686
+            SHS: STEHIDRAFT_165793
+            HIR: HETIRDRAFT_433870
+            PSQ: PUNSTDRAFT_137436 PUNSTDRAFT_143350
+            ADL: AURDEDRAFT_112733
+            FME: FOMMEDRAFT_17335
+            GTR: GLOTRDRAFT_112049
+            RSX: RhiXN_03112
+            LBC: LACBIDRAFT_296983(FAS-2)
+            CCI: CC1G_07064
+            ABP: AGABI1DRAFT61049(AGABI1DRAFT_61049)
+            ABV: AGABI2DRAFT217954(AGABI2DRAFT_217954)
+            PCUB: JR316_0005820
+            MRR: Moror_12902
+            MORE: E1B28_011100
+            SCM: SCHCO_01176814(SCHCODRAFT_01176814) SCHCO_0235165(SCHCODRAFT_0235165) SCHCO_02627311(SCHCODRAFT_02627311)
+            CPUT: CONPUDRAFT_71103
+            SLA: SERLADRAFT_449191
+            WSE: WALSEDRAFT_31561
+            WIC: J056_004245
+            UMA: UMAG_06460 UMAG_10339
+            PFP: PFL1_00007(fas2) PFL1_04986
+            SGRA: EX895_002632 EX895_005623
+            PGR: PGTG_06184 PGTG_06788
+            PTRC: PtA15_8A197
+            PSTR: Pst134EA_015299 Pst134EA_015306
+            MLR: MELLADRAFT_115404 MELLADRAFT_79679
+            ACAN: ACA1_069690
+            PIF: PITG_10922 PITG_10926 PITG_18025
+            PSOJ: PHYSODRAFT_324166 PHYSODRAFT_341458 PHYSODRAFT_478148 PHYSODRAFT_556584
+            SPAR: SPRG_21373
+            LKM: EFP84_19320
+REFERENCE   PMID:3528750
+  AUTHORS   Schweizer M, Roberts LM, Holtke HJ, Takabayashi K, Hollerer E, Hoffmann B, Muller G, Kottig H, Schweizer E
+  TITLE     The pentafunctional FAS1 gene of yeast: its nucleotide sequence and order of the catalytic domains.
+  JOURNAL   Mol Gen Genet 203:479-86 (1986)
+            DOI:10.1007/BF00422073
+  SEQUENCE  [sce:YKL182W]
+///

@@ -1,0 +1,22 @@
+ENTRY       R05039                      Reaction
+NAME        flavanone,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)
+DEFINITION  Pentahydroxyflavanone + 2-Oxoglutarate + Oxygen <=> Dihydromyricetin + Succinate + CO2
+EQUATION    C05911 + C00026 + C00007 <=> C02906 + C00042 + C00011
+COMMENT     flavanone 3beta-hydroxylase
+RCLASS      RC00230  C02906_C05911
+ENZYME      1.14.11.9
+PATHWAY     rn00941  Flavonoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.11  With 2-oxoglutarate as one donor, and incorporation of one atom of oxygen into each donor
+                1.14.11.9
+                 R05039  Pentahydroxyflavanone + 2-Oxoglutarate + Oxygen <=> Dihydromyricetin + Succinate + CO2
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.11.9
+               R07329  (2S)-Flavanone <=> (2R,3R)-Dihydroflavonol
+                R05039  Pentahydroxyflavanone <=> Dihydromyricetin
+ORTHOLOGY   K00475  naringenin 3-dioxygenase [EC:1.14.11.9]
+///

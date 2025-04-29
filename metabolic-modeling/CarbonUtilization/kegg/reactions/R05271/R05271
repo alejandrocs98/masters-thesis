@@ -1,0 +1,19 @@
+ENTRY       R05271                      Reaction
+NAME        4-(hydroxymethyl)benzenesulfonate:NAD+ oxidoreductase
+DEFINITION  4-Sulfobenzyl alcohol + NAD+ <=> 4-Sulfobenzaldehyde + NADH + H+
+EQUATION    C06678 + C00003 <=> C06679 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00116  C06678_C06679
+ENZYME      1.1.1.257
+PATHWAY     rn00623  Toluene degradation
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.257
+                 R05271  4-Sulfobenzyl alcohol + NAD+ <=> 4-Sulfobenzaldehyde + NADH + H+
+ORTHOLOGY   K19629  4-(hydroxymethyl)benzenesulfonate dehydrogenase [EC:1.1.1.257]
+DBLINKS     RHEA: 24415
+///

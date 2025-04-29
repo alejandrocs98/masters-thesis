@@ -1,0 +1,22 @@
+ENTRY       R01021                      Reaction
+NAME        ATP:choline phosphotransferase
+DEFINITION  ATP + Choline <=> ADP + Choline phosphate
+EQUATION    C00002 + C00114 <=> C00008 + C00588
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00114_C00588
+ENZYME      2.7.1.32
+PATHWAY     rn00552  Teichoic acid biosynthesis
+            rn00564  Glycerophospholipid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00090  Phosphatidylcholine (PC) biosynthesis, choline => PC
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.32
+                 R01021  ATP + Choline <=> ADP + Choline phosphate
+ORTHOLOGY   K00866  choline kinase [EC:2.7.1.32]
+            K14156  choline/ethanolamine kinase [EC:2.7.1.32 2.7.1.82]
+            K25657  choline kinase [EC:2.7.1.32]
+DBLINKS     RHEA: 12840
+///

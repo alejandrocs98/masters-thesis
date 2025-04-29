@@ -1,0 +1,18 @@
+ENTRY       R12007                      Reaction
+NAME        cucurbitadienol,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (11-oxocucurbitadienol forming)
+DEFINITION  Cucurbitadienol + 2 [Reduced NADPH---hemoprotein reductase] + 2 Oxygen <=> 11-Oxocucurbitadienol + 2 [Oxidized NADPH---hemoprotein reductase] + 3 H2O
+EQUATION    C19819 + 2 C03024 + 2 C00007 <=> C21841 + 2 C03161 + 3 C00001
+COMMENT     two-step reaction (see R12008+R12009)
+RCLASS      RC03494  C19819_C21841
+ENZYME      1.14.14.71
+PATHWAY     rn00996  Biosynthesis of various alkaloids
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.71
+                 R12007  Cucurbitadienol + 2 [Reduced NADPH---hemoprotein reductase] + 2 Oxygen <=> 11-Oxocucurbitadienol + 2 [Oxidized NADPH---hemoprotein reductase] + 3 H2O
+ORTHOLOGY   K25060  cucurbitadienol 11-hydroxylase / 11-oxocucurbitadienol 20-hydroxylase [EC:1.14.14.71 1.14.14.-]
+DBLINKS     RHEA: 55511
+///

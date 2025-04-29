@@ -1,0 +1,49 @@
+ENTRY       R03026                      Reaction
+NAME        (S)-3-hydroxybutanoyl-CoA hydro-lyase
+DEFINITION  (S)-3-Hydroxybutanoyl-CoA <=> Crotonoyl-CoA + H2O
+EQUATION    C01144 <=> C00877 + C00001
+RCLASS      RC00831  C00877_C01144
+ENZYME      4.2.1.17
+PATHWAY     rn00071  Fatty acid degradation
+            rn00310  Lysine degradation
+            rn00362  Benzoate degradation
+            rn00380  Tryptophan metabolism
+            rn00627  Aminobenzoate degradation
+            rn00650  Butanoate metabolism
+            rn00720  Carbon fixation pathways in prokaryotes
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+            rn01212  Fatty acid metabolism
+MODULE      M00032  Lysine degradation, lysine => saccharopine => acetoacetyl-CoA
+            M00087  beta-Oxidation
+            M00374  Dicarboxylate-hydroxybutyrate cycle
+            M00375  Hydroxypropionate-hydroxybutylate cycle
+            M00957  Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.17
+                 R03026  (S)-3-Hydroxybutanoyl-CoA <=> Crotonoyl-CoA + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             4. Lyase reactions
+              4.2.1.17
+               R02685  (3S)-3-Hydroxyacyl-CoA <=> trans-2,3-Dehydroacyl-CoA
+                R03026  (S)-3-Hydroxybutanoyl-CoA <=> Crotonoyl-CoA
+            Overall reaction [br08210.html]
+             Carbon fixation
+              R03026
+ORTHOLOGY   K01692  enoyl-CoA hydratase [EC:4.2.1.17]
+            K01715  enoyl-CoA hydratase [EC:4.2.1.17]
+            K01782  3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase [EC:1.1.1.35 4.2.1.17 5.1.2.3]
+            K01825  3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase / enoyl-CoA isomerase [EC:1.1.1.35 4.2.1.17 5.1.2.3 5.3.3.8]
+            K07511  enoyl-CoA hydratase [EC:4.2.1.17]
+            K07514  enoyl-CoA hydratase / 3-hydroxyacyl-CoA dehydrogenase / 3,2-trans-enoyl-CoA isomerase [EC:4.2.1.17 1.1.1.35 5.3.3.8]
+            K07515  enoyl-CoA hydratase / long-chain 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.211]
+            K10527  enoyl-CoA hydratase/3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35 1.1.1.211]
+            K13767  enoyl-CoA hydratase [EC:4.2.1.17]
+            K15016  enoyl-CoA hydratase / 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35]
+DBLINKS     RHEA: 26561
+///

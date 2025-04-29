@@ -1,0 +1,28 @@
+ENTRY       R10712                      Reaction
+NAME        2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase
+DEFINITION  4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate + 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate <=> Thiamin monophosphate + Diphosphate + CO2
+EQUATION    C04752 + C20247 <=> C01081 + C00013 + C00011
+RCLASS      RC03255  C01081_C20247
+            RC03397  C01081_C04752
+ENZYME      2.5.1.3
+PATHWAY     rn00730  Thiamine metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00127  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP
+            M00895  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP
+            M00896  Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP
+            M00897  Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP
+            M00898  Thiamine biosynthesis, pyridoxal-5P => TMP/thiamine/TPP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.3
+                 R10712  4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate + 2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate <=> Thiamin monophosphate + Diphosphate + CO2
+ORTHOLOGY   K00788  thiamine-phosphate pyrophosphorylase [EC:2.5.1.3]
+            K14153  hydroxymethylpyrimidine kinase / phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase [EC:2.7.1.49 2.7.4.7 2.5.1.3]
+            K14154  thiamine-phosphate diphosphorylase / hydroxyethylthiazole kinase [EC:2.5.1.3 2.7.1.50]
+            K21219  hydroxymethylpyrimidine kinase / phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase [EC:2.7.1.49 2.7.4.7 2.5.1.3]
+            K21220  thiamine-phosphate diphosphorylase [EC:2.5.1.3]
+DBLINKS     RHEA: 47851
+///

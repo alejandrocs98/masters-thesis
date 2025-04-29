@@ -1,0 +1,33 @@
+ENTRY       R01939                      Reaction
+NAME        L-2-aminoadipate:2-oxoglutarate aminotransferase
+DEFINITION  L-2-Aminoadipate + 2-Oxoglutarate <=> 2-Oxoadipate + L-Glutamate
+EQUATION    C00956 + C00026 <=> C00322 + C00025
+RCLASS      RC00006  C00025_C00026  C00322_C00956
+ENZYME      2.6.1.39
+PATHWAY     rn00300  Lysine biosynthesis
+            rn00310  Lysine degradation
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01230  Biosynthesis of amino acids
+MODULE      M00030  Lysine biosynthesis, AAA pathway, 2-oxoglutarate => 2-aminoadipate => lysine
+            M00032  Lysine degradation, lysine => saccharopine => acetoacetyl-CoA
+            M00960  Lysine degradation, bacteria, L-lysine => D-lysine => succinate
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.39
+                 R01939  L-2-Aminoadipate + 2-Oxoglutarate <=> 2-Oxoadipate + L-Glutamate
+ORTHOLOGY   K00825  kynurenine/2-aminoadipate aminotransferase [EC:2.6.1.7 2.6.1.39]
+            K00838  aromatic amino acid aminotransferase I / 2-aminoadipate transaminase [EC:2.6.1.57 2.6.1.39 2.6.1.27 2.6.1.5]
+            K05825  2-aminoadipate transaminase [EC:2.6.1.-]
+            K26062  2-aminoadipate transaminase [EC:2.6.1.39]
+REFERENCE   1  [PMID:15256574]
+  AUTHORS   Miyazaki T, Miyazaki J, Yamane H, Nishiyama M.
+  TITLE     alpha-Aminoadipate aminotransferase from an extremely thermophilic bacterium, Thermus thermophilus.
+  JOURNAL   Microbiology 150:2327-34 (2004)
+            DOI:10.1099/mic.0.27037-0
+DBLINKS     RHEA: 12604
+///

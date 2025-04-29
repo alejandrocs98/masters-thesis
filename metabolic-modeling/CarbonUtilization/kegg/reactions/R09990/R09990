@@ -1,0 +1,20 @@
+ENTRY       R09990                      Reaction
+NAME        L-threo-tetrahydrobiopterin:NADP+ oxidoreductase
+DEFINITION  L-threo-Tetrahydrobiopterin + 2 NADP+ <=> 6-Pyruvoyltetrahydropterin + 2 NADPH + 2 H+
+EQUATION    C20264 + 2 C00006 <=> C03684 + 2 C00005 + 2 C00080
+RCLASS      RC00001  C00005_C00006
+            RC02162  C03684_C20264
+ENZYME      1.1.1.325
+PATHWAY     rn00790  Folate biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00843  L-threo-Tetrahydrobiopterin biosynthesis, GTP => L-threo-BH4
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.325
+                 R09990  L-threo-Tetrahydrobiopterin + 2 NADP+ <=> 6-Pyruvoyltetrahydropterin + 2 NADPH + 2 H+
+ORTHOLOGY   K17745  sepiapterin reductase [EC:1.1.1.325]
+DBLINKS     RHEA: 32626
+///

@@ -1,0 +1,23 @@
+ENTRY       R12657                      Reaction
+NAME        S-adenosyl-L-methionine:3-demethylubiquinol 3-O-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + 3-Demethylubiquinol <=> S-Adenosyl-L-homocysteine + Ubiquinol
+EQUATION    C00019 + C21860 <=> C00021 + C00390
+COMMENT     general reaction
+RCLASS      RC00003  C00019_C00021
+            RC00392  C00390_C21860
+ENZYME      2.1.1.64
+PATHWAY     rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01240  Biosynthesis of cofactors
+MODULE      M00117  Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol
+            M00128  Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate + polyprenyl-PP => ubiquinol
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.64
+                 R12657  S-Adenosyl-L-methionine + 3-Demethylubiquinol <=> S-Adenosyl-L-homocysteine + Ubiquinol
+ORTHOLOGY   K00568  2-polyprenyl-6-hydroxyphenyl methylase / 3-demethylubiquinone-9 3-methyltransferase [EC:2.1.1.222 2.1.1.64]
+            K00591  polyprenyldihydroxybenzoate methyltransferase / 3-demethylubiquinol 3-O-methyltransferase [EC:2.1.1.114 2.1.1.64]
+///

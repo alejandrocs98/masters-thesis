@@ -1,0 +1,27 @@
+ENTRY       R03815                      Reaction
+NAME        dihydrolipoylprotein:NAD+ oxidoreductase
+DEFINITION  Dihydrolipoylprotein + NAD+ <=> Lipoylprotein + NADH + H+
+EQUATION    C02972 + C00003 <=> C02051 + C00004 + C00080
+COMMENT     a part step of glycine cleavage system (see R01221, R03425+R04125+R03815)
+RCLASS      RC00001  C00003_C00004
+            RC00583  C02051_C02972
+ENZYME      1.8.1.4
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn00785  Lipoic acid metabolism
+            rn01100  Metabolic pathways
+            rn01200  Carbon metabolism
+MODULE      M00621  Glycine cleavage system
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.1  With NAD+ or NADP+ as acceptor
+                1.8.1.4
+                 R03815  Dihydrolipoylprotein + NAD+ <=> Lipoylprotein + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.8.1.4
+               R08550  [Protein]-N6-[(R)-dihydrolipoyl]-L-lysine <=> Protein N6-(lipoyl)lysine
+                R03815  Dihydrolipoylprotein <=> Lipoylprotein
+ORTHOLOGY   K00382  dihydrolipoyl dehydrogenase [EC:1.8.1.4]
+DBLINKS     RHEA: 15048
+///

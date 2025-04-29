@@ -1,0 +1,20 @@
+ENTRY       R00322                      Reaction
+NAME        5'-acetylphosphoadenosine acetylhydrolase
+DEFINITION  Acetyl adenylate + H2O <=> AMP + Acetate
+EQUATION    C05993 + C00001 <=> C00020 + C00033
+RCLASS      RC00043  C00033_C05993
+            RC00070  C00020_C05993
+ENZYME      3.6.1.20
+PATHWAY     rn00230  Purine metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.20
+                 R00322  Acetyl adenylate + H2O <=> AMP + Acetate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.6.1.20
+               R00542  5'-Acylphosphoadenosine <=> Carboxylate
+                R00322  Acetate
+///

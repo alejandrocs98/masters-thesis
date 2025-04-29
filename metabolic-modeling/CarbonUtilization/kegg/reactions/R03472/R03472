@@ -1,0 +1,24 @@
+ENTRY       R03472                      Reaction
+NAME        5-amino-1-(5-phospho-D-ribosyl)imidazole formate-lyase (decarboxylating, 4-amino-2-methyl-5-phosphomethylpyrimidine-forming)
+DEFINITION  Aminoimidazole ribotide + S-Adenosyl-L-methionine <=> 4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine + 5'-Deoxyadenosine + L-Methionine + Formate + CO
+EQUATION    C03373 + C00019 <=> C04556 + C05198 + C00073 + C00058 + C00237
+RCLASS      RC00021  C00019_C00073
+            RC03251  C03373_C04556
+            RC03252  C00058_C03373
+ENZYME      4.1.99.17
+PATHWAY     rn00730  Thiamine metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00127  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP
+            M00895  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP
+            M00896  Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP
+            M00897  Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.99  Other carbon-carbon lyases
+                4.1.99.17
+                 R03472  Aminoimidazole ribotide + S-Adenosyl-L-methionine <=> 4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine + 5'-Deoxyadenosine + L-Methionine + Formate + CO
+ORTHOLOGY   K03147  phosphomethylpyrimidine synthase [EC:4.1.99.17]
+DBLINKS     RHEA: 24843
+///

@@ -1,0 +1,20 @@
+ENTRY       R01446                      Reaction
+NAME        (S)-lactaldehyde:NAD+ oxidoreductase
+DEFINITION  (S)-Lactaldehyde + NAD+ + H2O <=> (S)-Lactate + NADH + H+
+EQUATION    C00424 + C00003 + C00001 <=> C00186 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00242  C00186_C00424
+ENZYME      1.2.1.22
+PATHWAY     rn00620  Pyruvate metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.22
+                 R01446  (S)-Lactaldehyde + NAD+ + H2O <=> (S)-Lactate + NADH + H+
+ORTHOLOGY   K07248  lactaldehyde dehydrogenase / glycolaldehyde dehydrogenase [EC:1.2.1.22 1.2.1.21]
+            K19266  lactaldehyde dehydrogenase [EC:1.2.1.22]
+DBLINKS     RHEA: 14280
+///

@@ -1,0 +1,22 @@
+ENTRY       R10129                      Reaction
+NAME        (-)-secoisolariciresinol:NAD+ oxidoreductase
+DEFINITION  Secoisolariciresinol + 2 NAD+ <=> Matairesinol + 2 NADH + 2 H+
+EQUATION    C18167 + 2 C00003 <=> C10682 + 2 C00004 + 2 C00080
+COMMENT     multi-step reaction
+            intermediate (cyclic hemiacetal)
+RCLASS      RC00001  C00003_C00004
+            RC03052  C10682_C18167
+ENZYME      1.1.1.331
+PATHWAY     rn00999  Biosynthesis of various plant secondary metabolites
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00902  Podophyllotoxin biosynthesis, coniferyl alcohol => podophyllotoxin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.331
+                 R10129  Secoisolariciresinol + 2 NAD+ <=> Matairesinol + 2 NADH + 2 H+
+ORTHOLOGY   K19650  secoisolariciresinol dehydrogenase [EC:1.1.1.331]
+DBLINKS     RHEA: 33890
+///

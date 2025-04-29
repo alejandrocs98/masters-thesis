@@ -1,0 +1,21 @@
+ENTRY       R00448                      Reaction
+NAME        L-lysine,NADPH:oxygen oxidoreductase (6-hydroxylating)
+DEFINITION  L-Lysine + Oxygen + NADPH + H+ <=> N6-Hydroxy-L-lysine + NADP+ + H2O
+EQUATION    C00047 + C00007 + C00005 + C00080 <=> C01028 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00298  C00047_C01028
+ENZYME      1.14.13.59
+PATHWAY     rn00997  Biosynthesis of various other secondary metabolites
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00918  Aerobactin biosynthesis, lysine => aerobactin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.59
+                 R00448  L-Lysine + Oxygen + NADPH + H+ <=> N6-Hydroxy-L-lysine + NADP+ + H2O
+ORTHOLOGY   K03897  lysine N6-hydroxylase [EC:1.14.13.59]
+DBLINKS     RHEA: 23231
+///

@@ -1,0 +1,24 @@
+ENTRY       R00343                      Reaction
+NAME        (S)-malate:NADP+ oxidoreductase
+DEFINITION  (S)-Malate + NADP+ <=> Oxaloacetate + NADPH + H+
+EQUATION    C00149 + C00006 <=> C00036 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00031  C00036_C00149
+ENZYME      1.1.1.82        1.1.1.299
+PATHWAY     rn00620  Pyruvate metabolism
+            rn00710  Carbon fixation in photosynthetic organisms
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00172  C4-dicarboxylic acid cycle, NADP - malic enzyme type
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.82
+                 R00343  (S)-Malate + NADP+ <=> Oxaloacetate + NADPH + H+
+                1.1.1.299
+                 R00343  (S)-Malate + NADP+ <=> Oxaloacetate + NADPH + H+
+ORTHOLOGY   K00051  malate dehydrogenase (NADP+) [EC:1.1.1.82]
+DBLINKS     RHEA: 10827
+///

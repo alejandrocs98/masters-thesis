@@ -1,0 +1,23 @@
+ENTRY       R11634                      Reaction
+NAME        ATP:formate 2'-oxidoreductase
+DEFINITION  ATP + Formate <=> dATP + CO2 + H2O
+EQUATION    C00002 + C00058 <=> C00131 + C00011 + C00001
+RCLASS      RC00613  C00002_C00131
+ENZYME      1.1.98.6
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.98  With other, known, physiological acceptors
+                1.1.98.6
+                 R11634  ATP + Formate <=> dATP + CO2 + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.98.6
+               R11592  Ribonucleoside triphosphate <=> Deoxynucleoside triphosphate
+                R11634  ATP <=> dATP
+ORTHOLOGY   K21636  ribonucleoside-triphosphate reductase (formate) [EC:1.1.98.6]
+DBLINKS     RHEA: 51619
+///

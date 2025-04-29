@@ -1,0 +1,21 @@
+ENTRY       R02106                      Reaction
+NAME        urate:oxygen oxidoreductase
+DEFINITION  Urate + Oxygen + H2O <=> 5-Hydroxyisourate + Hydrogen peroxide
+EQUATION    C00366 + C00007 + C00001 <=> C11821 + C00027
+RCLASS      RC02551  C00366_C11821
+            RC02755  C00007_C00027
+ENZYME      1.7.3.3
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00546  Purine degradation, xanthine => urea
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.7  Acting on other nitrogenous compounds as donors
+               1.7.3  With oxygen as acceptor
+                1.7.3.3
+                 R02106  Urate + Oxygen + H2O <=> 5-Hydroxyisourate + Hydrogen peroxide
+ORTHOLOGY   K00365  urate oxidase [EC:1.7.3.3]
+            K16838  urate oxidase / 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase [EC:1.7.3.3 4.1.1.97]
+DBLINKS     RHEA: 21371
+///

@@ -1,0 +1,19 @@
+ENTRY       R02207                      Reaction
+NAME        20alpha-hydroxy-4-pregnen-3-one:NAD+ 20-oxidoreductase
+DEFINITION  20alpha-Hydroxy-4-pregnen-3-one + NAD+ <=> Progesterone + NADH + H+
+EQUATION    C04042 + C00003 <=> C00410 + C00004 + C00080
+COMMENT     NADP+ (see R02209)
+RCLASS      RC00001  C00003_C00004
+            RC00139  C00410_C04042
+ENZYME      1.1.1.149
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.149
+                 R02207  20alpha-Hydroxy-4-pregnen-3-one + NAD+ <=> Progesterone + NADH + H+
+ORTHOLOGY   K00212  20alpha/3alpha-hydroxysteroid dehydrogenase / dihydrodiol dehydrogenase [EC:1.1.1.149 1.1.1.357 1.3.1.20]
+            K05295  20alpha-hydroxysteroid dehydrogenase [EC:1.1.1.149]
+///

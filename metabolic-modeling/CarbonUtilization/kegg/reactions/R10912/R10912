@@ -1,0 +1,20 @@
+ENTRY       R10912                      Reaction
+NAME        aldehyde:quinone oxidoreductase
+DEFINITION  Aldehyde + Quinone + H2O <=> Fatty acid + Hydroquinone
+EQUATION    C00071 + C15602 + C00001 <=> C00162 + C15603
+COMMENT     general reaction
+RCLASS      RC00071  C00071_C00162
+ENZYME      1.2.5.2
+PATHWAY     rn00071  Fatty acid degradation
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.5  With a quinone or similar compound as acceptor
+                1.2.5.2
+                 R10912  Aldehyde + Quinone + H2O <=> Fatty acid + Hydroquinone
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.5.2
+               R10911  Aldehyde <=> Carboxylate
+                R10912  Fatty acid
+///

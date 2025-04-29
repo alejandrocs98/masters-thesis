@@ -1,0 +1,20 @@
+ENTRY       R01164                      Reaction
+NAME        L-histidine:beta-alanine ligase (ADP-forming)
+DEFINITION  ATP + L-Histidine + beta-Alanine <=> ADP + Orthophosphate + Carnosine
+EQUATION    C00002 + C00135 + C00099 <=> C00008 + C00009 + C00386
+RCLASS      RC00002  C00002_C00008
+            RC00064  C00135_C00386
+            RC00090  C00099_C00386
+ENZYME      6.3.2.11
+PATHWAY     rn00340  Histidine metabolism
+            rn00410  beta-Alanine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.11
+                 R01164  ATP + L-Histidine + beta-Alanine <=> ADP + Orthophosphate + Carnosine
+ORTHOLOGY   K14755  carnosine synthase [EC:6.3.2.11]
+DBLINKS     RHEA: 19300
+///

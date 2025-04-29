@@ -1,0 +1,20 @@
+ENTRY       R08051                      Reaction
+NAME        2-isopentenyl-diphosphate:ATP delta2-isopentenyltransferase;
+            dimethylallyl-diphosphate:ATP dimethylallyltransferase
+DEFINITION  Dimethylallyl diphosphate + ATP <=> Isopentenyladenosine-5'-triphosphate + Diphosphate
+EQUATION    C00235 + C00002 <=> C16424 + C00013
+RCLASS      RC00121  C00002_C16424
+            RC02820  C00235_C16424
+ENZYME      2.5.1.112
+PATHWAY     rn00908  Zeatin biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.112
+                 R08051  Dimethylallyl diphosphate + ATP <=> Isopentenyladenosine-5'-triphosphate + Diphosphate
+ORTHOLOGY   K10760  adenylate dimethylallyltransferase (cytokinin synthase) [EC:2.5.1.27 2.5.1.112]
+DBLINKS     RHEA: 36334
+///

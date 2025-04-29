@@ -1,0 +1,29 @@
+ENTRY       R01778                      Reaction
+NAME        (3S)-3-hydroxyacyl-CoA:NAD+ oxidoreductase
+DEFINITION  (3S)-3-Hydroxyacyl-CoA + NAD+ <=> 3-Oxoacyl-CoA + NADH + H+
+EQUATION    C00640 + C00003 <=> C00264 + C00004 + C00080
+COMMENT     general reaction
+            the enzyme ec 1.1.1.35 has broad specificity to acyl chain-length, while ec 1.1.1.211 is long-chain specific
+RCLASS      RC00001  C00003_C00004
+            RC00103  C00264_C00640
+ENZYME      1.1.1.35        1.1.1.211
+PATHWAY     rn00062  Fatty acid elongation
+MODULE      M00085  Fatty acid elongation in mitochondria
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.35
+                 R01778  (3S)-3-Hydroxyacyl-CoA + NAD+ <=> 3-Oxoacyl-CoA + NADH + H+
+                1.1.1.211
+                 R01778  (3S)-3-Hydroxyacyl-CoA + NAD+ <=> 3-Oxoacyl-CoA + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.35
+               R01778  (3S)-3-Hydroxyacyl-CoA <=> 3-Oxoacyl-CoA
+              1.1.1.211
+               R01778  (3S)-3-Hydroxyacyl-CoA <=> 3-Oxoacyl-CoA
+ORTHOLOGY   K00022  3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35]
+            K07515  enoyl-CoA hydratase / long-chain 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.211]
+DBLINKS     RHEA: 22435
+///

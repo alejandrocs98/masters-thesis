@@ -1,0 +1,22 @@
+ENTRY       R00093                      Reaction
+NAME        L-glutamate:NAD+ oxidoreductase (transaminating)
+DEFINITION  2 L-Glutamate + NAD+ <=> L-Glutamine + 2-Oxoglutarate + NADH + H+
+EQUATION    2 C00025 + C00003 <=> C00064 + C00026 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00006  C00025_C00026
+            RC00010  C00025_C00064
+ENZYME      1.4.1.14
+PATHWAY     rn00250  Alanine, aspartate and glutamate metabolism
+            rn00910  Nitrogen metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.1  With NAD+ or NADP+ as acceptor
+                1.4.1.14
+                 R00093  2 L-Glutamate + NAD+ <=> L-Glutamine + 2-Oxoglutarate + NADH + H+
+ORTHOLOGY   K00264  glutamate synthase (NADH) [EC:1.4.1.14]
+DBLINKS     RHEA: 13756
+///

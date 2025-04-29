@@ -1,0 +1,21 @@
+ENTRY       R05399                      Reaction
+NAME        NADH:2-hydroxy-1,4-benzoquinone oxidoreductase
+DEFINITION  2-Hydroxy-1,4-benzoquinone + NADH + H+ <=> Benzene-1,2,4-triol + NAD+
+EQUATION    C07103 + C00004 + C00080 <=> C02814 + C00003
+COMMENT     hydroxybenzoquinone reductase
+RCLASS      RC00001  C00003_C00004
+            RC01360  C02814_C07103
+ENZYME      1.6.5.7
+PATHWAY     rn00361  Chlorocyclohexane and chlorobenzene degradation
+            rn00627  Aminobenzoate degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.6  Acting on NADH or NADPH
+               1.6.5  With a quinone or similar compound as acceptor
+                1.6.5.7
+                 R05399  2-Hydroxy-1,4-benzoquinone + NADH + H+ <=> Benzene-1,2,4-triol + NAD+
+ORTHOLOGY   K23529  2-hydroxy-1,4-benzoquinone reductase [EC:1.6.5.7]
+DBLINKS     RHEA: 12431
+///

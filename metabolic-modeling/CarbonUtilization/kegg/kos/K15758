@@ -1,0 +1,39 @@
+ENTRY       K15758                      KO
+SYMBOL      xylA
+NAME        toluene methyl-monooxygenase electron transfer component [EC:1.18.1.3]
+PATHWAY     map00622  Xylene degradation
+            map00623  Toluene degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00537  Xylene degradation, xylene => methylbenzoate
+REACTION    R02550  toluene,ferredoxin:oxygen oxidoreductase (methyl-hydroxylating)
+            R05288  p-xylene,ferredoxin:oxygen oxidoreductase (methyl-hydroxylating)
+            R05442  o-xylene,ferredoxin:oxygen oxidoreductase (methyl-hydroxylating)
+            R05443  m-xylene,ferredoxin:oxygen oxidoreductase (methyl-hydroxylating)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00623 Toluene degradation
+                K15758  xylA; toluene methyl-monooxygenase electron transfer component
+               00622 Xylene degradation
+                K15758  xylA; toluene methyl-monooxygenase electron transfer component
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.18  Acting on iron-sulfur proteins as donors
+               1.18.1  With NAD+ or NADP+ as acceptor
+                1.18.1.3  ferredoxin---NAD+ reductase
+                 K15758  xylA; toluene methyl-monooxygenase electron transfer component
+DBLINKS     GO: 0018639
+GENES       PSD: DSC_14805
+            NAR: Saro_3846
+            NPP: PP1Y_AT15752 PP1Y_AT31343
+            SPHY: CHN51_07010
+            AG: AAA26027(xylA)
+REFERENCE   PMID:1999388
+  AUTHORS   Suzuki M, Hayakawa T, Shaw JP, Rekik M, Harayama S
+  TITLE     Primary structure of xylene monooxygenase: similarities to and differences from the alkane hydroxylation system.
+  JOURNAL   J Bacteriol 173:1690-5 (1991)
+            DOI:10.1128/JB.173.5.1690-1695.1991
+  SEQUENCE  [ag:AAA26027]
+///

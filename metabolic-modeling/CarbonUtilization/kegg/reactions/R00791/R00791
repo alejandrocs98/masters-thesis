@@ -1,0 +1,19 @@
+ENTRY       R00791                      Reaction
+NAME        nitrite:ferredoxin oxidoreductase
+DEFINITION  Nitrite + H2O + 2 Oxidized ferredoxin <=> Nitrate + 2 Reduced ferredoxin
+EQUATION    C00088 + C00001 + 2 C00139 <=> C00244 + 2 C00138
+RCLASS      RC02812  C00088_C00244
+ENZYME      1.7.7.2
+PATHWAY     rn00910  Nitrogen metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00531  Assimilatory nitrate reduction, nitrate => ammonia
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.7  Acting on other nitrogenous compounds as donors
+               1.7.7  With an iron-sulfur protein as acceptor
+                1.7.7.2
+                 R00791  Nitrite + H2O + 2 Oxidized ferredoxin <=> Nitrate + 2 Reduced ferredoxin
+ORTHOLOGY   K00367  ferredoxin-nitrate reductase [EC:1.7.7.2]
+DBLINKS     RHEA: 21831
+///

@@ -1,0 +1,16 @@
+ENTRY       R02002                      Reaction
+NAME        rubredoxin:NADP+ oxidoreductase
+DEFINITION  2 Reduced rubredoxin + NADP+ + H+ <=> 2 Oxidized rubredoxin + NADPH
+EQUATION    2 C00340 + C00006 + C00080 <=> 2 C00435 + C00005
+RCLASS      RC00001  C00005_C00006
+ENZYME      1.18.1.4
+PATHWAY     rn00071  Fatty acid degradation
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.18  Acting on iron-sulfur proteins as donors
+               1.18.1  With NAD+ or NADP+ as acceptor
+                1.18.1.4
+                 R02002  2 Reduced rubredoxin + NADP+ + H+ <=> 2 Oxidized rubredoxin + NADPH
+ORTHOLOGY   K00530  rubredoxin---NAD(P)+ reductase [EC:1.18.1.4]
+DBLINKS     RHEA: 13952
+///

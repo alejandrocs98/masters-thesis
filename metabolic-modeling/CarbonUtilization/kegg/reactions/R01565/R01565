@@ -1,0 +1,19 @@
+ENTRY       R01565                      Reaction
+NAME        N,N-dimethylglycine,5,6,7,8-tetrahydrofolate:electron-transferflavoprotein oxidoreductase (demethylating,5,10-methylenetetrahydrofolate-forming)
+DEFINITION  N,N-Dimethylglycine + Tetrahydrofolate + Electron-transferring flavoprotein <=> Sarcosine + 5,10-Methylenetetrahydrofolate + Reduced electron-transferring flavoprotein
+EQUATION    C01026 + C00101 + C04253 <=> C00213 + C00143 + C04570
+RCLASS      RC00181  C00213_C01026
+ENZYME      1.5.8.4
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+MODULE      M00974  Betaine metabolism, animals, betaine => glycine
+            M00975  Betaine degradation, bacteria, betaine => pyruvate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.8  With a flavin or flavoprotein as acceptor
+                1.5.8.4
+                 R01565  N,N-Dimethylglycine + Tetrahydrofolate + Electron-transferring flavoprotein <=> Sarcosine + 5,10-Methylenetetrahydrofolate + Reduced electron-transferring flavoprotein
+ORTHOLOGY   K00315  dimethylglycine dehydrogenase [EC:1.5.8.4]
+DBLINKS     RHEA: 52859
+///

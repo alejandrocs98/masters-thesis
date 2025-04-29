@@ -1,0 +1,20 @@
+ENTRY       R01885                      Reaction
+DEFINITION  ADP-ribose + H2O <=> alpha-D-Ribose 1-phosphate + AMP
+EQUATION    C00301 + C00001 <=> C00620 + C00020
+RCLASS      RC00002  C00020_C00301
+ENZYME      3.6.1.21
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.21
+                 R01885  ADP-ribose + H2O <=> alpha-D-Ribose 1-phosphate + AMP
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.6.1.21
+               R03570  ADP-sugar <=> alpha-D-Aldose 1-phosphate
+                R01885  ADP-ribose <=> alpha-D-Ribose 1-phosphate
+ORTHOLOGY   K18447  ADP-sugar diphosphatase [EC:3.6.1.21]
+///

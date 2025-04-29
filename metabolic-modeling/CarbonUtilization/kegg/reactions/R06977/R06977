@@ -1,0 +1,25 @@
+ENTRY       R06977                      Reaction
+NAME        L-2,4-diaminobutyrate:2-oxoglutarate 4-aminotransferase
+DEFINITION  L-Glutamate + L-Aspartate 4-semialdehyde <=> 2-Oxoglutarate + L-2,4-Diaminobutanoate
+EQUATION    C00025 + C00441 <=> C00026 + C03283
+COMMENT     Ectoine biosynthesis reaction step1, EctB
+RCLASS      RC00006  C00025_C00026
+            RC00062  C00441_C03283
+ENZYME      2.6.1.76
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01230  Biosynthesis of amino acids
+MODULE      M00033  Ectoine biosynthesis, aspartate => ectoine
+            M00919  Ectoine degradation, ectoine => aspartate
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.76
+                 R06977  L-Glutamate + L-Aspartate 4-semialdehyde <=> 2-Oxoglutarate + L-2,4-Diaminobutanoate
+ORTHOLOGY   K00836  diaminobutyrate-2-oxoglutarate transaminase [EC:2.6.1.76]
+            K15785  L-2,4-diaminobutyrate transaminase [EC:2.6.1.76]
+DBLINKS     RHEA: 11163
+///

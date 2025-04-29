@@ -1,0 +1,19 @@
+ENTRY       R09924                      Reaction
+NAME        8-hydroxylinalool,[reduced NADPH---hemoprotein reductase]:oxygen 8-oxidoreductase
+DEFINITION  (6E)-8-Hydroxylinalool + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> (6E)-8-Oxolinalool + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+EQUATION    C04433 + C03024 + C00007 <=> C20221 + C03161 + 2 C00001
+COMMENT     the second step of two-step reaction (see R09925, R04366+R09924)
+RCLASS      RC02561  C04433_C20221
+ENZYME      1.14.14.84
+PATHWAY     rn00902  Monoterpenoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.84
+                 R09924  (6E)-8-Hydroxylinalool + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> (6E)-8-Oxolinalool + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+ORTHOLOGY   K05525  linalool 8-monooxygenase [EC:1.14.14.84]
+            K23810  (E)-8-carboxylinalool synthase [EC:1.14.14.-]
+DBLINKS     RHEA: 32642
+///

@@ -1,0 +1,36 @@
+ENTRY       R08392                      Reaction
+DEFINITION  Retinoate + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> all-trans-4-Hydroxyretinoic acid + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00777 + C03024 + C00007 <=> C16677 + C03161 + C00001
+COMMENT     CYP1A1/2, CYP2A6, CYP2B6, CYP2C8/9/18, CYP3A4/5/7, CYP26, CYP2S1
+RCLASS      RC00723  C00777_C16677
+ENZYME      1.14.14.1       1.14.14.-
+PATHWAY     rn00830  Retinol metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R08392  Retinoate + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> all-trans-4-Hydroxyretinoic acid + [Oxidized NADPH---hemoprotein reductase] + H2O
+                1.14.14.-
+                 R08392  Retinoate + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> all-trans-4-Hydroxyretinoic acid + [Oxidized NADPH---hemoprotein reductase] + H2O
+ORTHOLOGY   K07408  cytochrome P450 family 1 subfamily A1 [EC:1.14.14.1]
+            K07409  cytochrome P450 family 1 subfamily A2 [EC:1.14.14.1]
+            K07411  cytochrome P450 family 2 subfamily A [EC:1.14.14.1]
+            K07412  cytochrome P450 family 2 subfamily B [EC:1.14.14.1]
+            K07413  cytochrome P450 family 2 subfamily C [EC:1.14.14.1]
+            K07420  cytochrome P450 family 2 subfamily S1 [EC:1.14.14.1]
+            K07423  cytochrome P450 family 2 subfamily W1 [EC:1.14.14.-]
+            K07424  cytochrome P450 family 3 subfamily A [EC:1.14.14.1]
+            K07437  cytochrome P450 family 26 subfamily A [EC:1.14.14.-]
+            K12664  cytochrome P450 family 26 subfamily B [EC:1.14.14.-]
+            K12665  cytochrome P450 family 26 subfamily C [EC:1.14.14.-]
+            K17683  cytochrome P450 family 2 subfamily A6 [EC:1.14.14.-]
+            K17689  cytochrome P450 family 3 subfamily A4 [EC:1.14.13.32 1.14.14.55 1.14.14.56 1.14.14.57 1.14.14.73 1.14.14.-]
+            K17690  cytochrome P450 family 3 subfamily A5 [EC:1.14.14.1]
+            K17691  cytochrome P450 family 3 subfamily A7 [EC:1.14.14.1]
+            K17709  cytochrome P450 family 2 subfamily B6 [EC:1.14.14.-]
+            K17718  cytochrome P450 family 2 subfamily C8 [EC:1.14.14.1]
+            K17719  cytochrome P450 family 2 subfamily C9 [EC:1.14.14.51 1.14.14.52 1.14.14.53 1.14.14.-]
+            K17720  cytochrome P450 family 2 subfamily C18 [EC:1.14.14.1]
+///

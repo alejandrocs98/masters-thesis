@@ -1,0 +1,21 @@
+ENTRY       R09446                      Reaction
+NAME        nitrous-oxide:NADP+ oxidoreductase
+DEFINITION  2 Nitric oxide + NADPH + H+ <=> Nitrous oxide + NADP+ + H2O
+EQUATION    2 C00533 + C00005 + C00080 <=> C00887 + C00006 + C00001
+COMMENT     NADH (see R02492)
+            P450nor
+RCLASS      RC00001  C00005_C00006
+            RC02794  C00533_C00887
+ENZYME      1.7.1.14
+PATHWAY     rn00910  Nitrogen metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.7  Acting on other nitrogenous compounds as donors
+               1.7.1  With NAD+ or NADP+ as acceptor
+                1.7.1.14
+                 R09446  2 Nitric oxide + NADPH + H+ <=> Nitrous oxide + NADP+ + H2O
+ORTHOLOGY   K15877  fungal nitric oxide reductase [EC:1.7.1.14]
+DBLINKS     RHEA: 29614
+///

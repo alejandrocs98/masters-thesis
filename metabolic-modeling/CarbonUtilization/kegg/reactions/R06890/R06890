@@ -1,0 +1,16 @@
+ENTRY       R06890                      Reaction
+DEFINITION  4-Ethylphenol + NADPH + H+ + Oxygen <=> 1-(4'-Hydroxyphenyl)ethanol + NADP+ + H2O
+EQUATION    C13637 + C00005 + C00080 + C00007 <=> C13638 + C00006 + C00001
+COMMENT     4-ethylphenol methylenehydroxylase
+RCLASS      RC00001  C00005_C00006
+            RC00275  C13637_C13638
+ENZYME      1.14.13.-
+PATHWAY     rn00363  Bisphenol degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R06890  4-Ethylphenol + NADPH + H+ + Oxygen <=> 1-(4'-Hydroxyphenyl)ethanol + NADP+ + H2O
+///

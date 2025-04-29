@@ -1,0 +1,21 @@
+ENTRY       R07399                      Reaction
+DEFINITION  Acetyl-CoA + Pyruvate + H2O <=> (R)-2-Methylmalate + CoA
+EQUATION    C00024 + C00022 + C00001 <=> C02612 + C00010
+RCLASS      RC00004  C00010_C00024
+            RC01205  C00022_C02612
+ENZYME      2.3.3.21
+PATHWAY     rn00290  Valine, leucine and isoleucine biosynthesis
+            rn00660  C5-Branched dibasic acid metabolism
+            rn01100  Metabolic pathways
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01230  Biosynthesis of amino acids
+MODULE      M00535  Isoleucine biosynthesis, pyruvate => 2-oxobutanoate
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.3  Acyl groups converted into alkyl groups on transfer
+                2.3.3.21
+                 R07399  Acetyl-CoA + Pyruvate + H2O <=> (R)-2-Methylmalate + CoA
+ORTHOLOGY   K09011  (R)-citramalate synthase [EC:2.3.3.21]
+DBLINKS     RHEA: 19048
+///

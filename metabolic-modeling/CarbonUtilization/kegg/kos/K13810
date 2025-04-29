@@ -1,0 +1,317 @@
+ENTRY       K13810                      KO
+SYMBOL      tal-pgi
+NAME        transaldolase / glucose-6-phosphate isomerase [EC:2.2.1.2 5.3.1.9]
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00030  Pentose phosphate pathway
+            map00500  Starch and sucrose metabolism
+            map00520  Amino sugar and nucleotide sugar metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+            map01230  Biosynthesis of amino acids
+            map01250  Biosynthesis of nucleotide sugars
+MODULE      M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate
+            M00004  Pentose phosphate pathway (Pentose phosphate cycle)
+            M00007  Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P
+            M00909  UDP-N-acetyl-D-glucosamine biosynthesis, prokaryotes, glucose => UDP-GlcNAc
+REACTION    R00771  D-glucose-6-phosphate aldose-ketose-isomerase
+            R01827  sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
+            R02739  alpha-D-glucose 6-phosphate ketol-isomerase
+            R02740  alpha-D-glucose 6-phosphate ketol-isomerase
+            R03321  beta-D-glucose 6-phosphate ketol-isomerase
+            R08575  sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
+            R13199  alpha-D-glucose-6-phosphate aldose-ketose-isomerase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00010 Glycolysis / Gluconeogenesis
+                K13810  tal-pgi; transaldolase / glucose-6-phosphate isomerase
+               00030 Pentose phosphate pathway
+                K13810  tal-pgi; transaldolase / glucose-6-phosphate isomerase
+               00500 Starch and sucrose metabolism
+                K13810  tal-pgi; transaldolase / glucose-6-phosphate isomerase
+               00520 Amino sugar and nucleotide sugar metabolism
+                K13810  tal-pgi; transaldolase / glucose-6-phosphate isomerase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.2  Transferring aldehyde or ketonic groups
+               2.2.1  Transketolases and transaldolases
+                2.2.1.2  transaldolase
+                 K13810  tal-pgi; transaldolase / glucose-6-phosphate isomerase
+             5. Isomerases
+              5.3  Intramolecular oxidoreductases
+               5.3.1  Interconverting aldoses and ketoses, and related compounds
+                5.3.1.9  glucose-6-phosphate isomerase
+                 K13810  tal-pgi; transaldolase / glucose-6-phosphate isomerase
+DBLINKS     GO: 0004801 0004347
+GENES       POR: APT59_15000
+            PLUL: FOB45_08725
+            PPSL: BJP27_06595
+            BBRO: BAU06_20840
+            BFZ: BAU07_05550
+            BOH: AKI39_20060
+            BGV: CAL12_22840
+            AIS: BUW96_12740
+            AAEG: RA224_08960
+            CDN: BN940_13511
+            BJA: blr6758(blr6758)
+            BJU: BJ6T_26620
+            BJP: RN69_12975
+            BRA: BRADO5809
+            BBT: BBta_6315
+            BRS: S23_15550
+            AOL: S58_18100
+            BRC: BCCGELA001_09295
+            BRAD: BF49_4894
+            BIC: LMTR13_06655
+            BRO: BRAD285_1497
+            BRK: CWS35_34410(tal)
+            BOT: CIT37_20840
+            BRQ: CIT40_25625
+            BGQ: X265_09455
+            BGZ: XH91_08330
+            BSYM: CIT39_24615(tal)
+            BBET: F8237_22955
+            BARH: WN72_38670
+            BVZ: BRAD3257_2497
+            BEL: BE61_34630
+            BDG: LPJ38_13680
+            BSEP: HAP48_0003710
+            BQB: J4P68_0009440
+            BSEI: KMZ68_06460
+            BBAN: J4G43_041600
+            BCAN: BcanWSM471_29815
+            BAUT: QA635_12690
+            BBRA: QA636_12515
+            BGK: IC762_27525
+            BCOU: IC761_08150
+            BPAH: QA639_32070
+            BXN: I3J27_29330
+            BROS: QUH67_08035
+            BRAZ: LRP30_35905
+            RPA: TX73_018835
+            RPB: RPB_1892
+            RPC: RPC_3670
+            RPD: RPD_3474
+            RPE: RPE_3708
+            RPT: Rpal_4155
+            RPX: Rpdx1_1717
+            RBK: E0H22_08135
+            NWI: Nwi_2641
+            NHA: Nham_3269
+            OCA: OCAR_5070
+            OCG: OCA5_c28910(tal)
+            OCO: OCA4_c28930(tal)
+            PCAX: AFIC_000813
+            TRB: HB776_01510
+            TALZ: RPMA_08565
+            MEA: Mex_1p1862 Mex_1p4950
+            MDI: METDI5539
+            MEX: Mext_4502
+            MCH: Mchl_4965
+            MPO: Mpop_5018
+            MZA: B2G69_04490
+            MRD: Mrad2831_2306
+            MET: M446_6706
+            MNO: Mnod_7445
+            MOR: MOC_2731
+            META: Y590_22955
+            MAQU: Maq22A_c10110(mipB)
+            MPHY: MCBMB27_01922
+            MEE: DA075_05185(tal)
+            METD: C0214_24795(tal)
+            METX: A3862_19250
+            METS: DK389_29755(tal)
+            METI: DK427_15845(tal)
+            MMES: MMSR116_20160
+            MTEA: DK419_05665(tal)
+            MIND: mvi_32840
+            MOG: MMB17_15445
+            MTAD: M6G65_12860
+            HDT: HYPDE_26208
+            RHZ: RHPLAN_25730
+            METG: HT051_05390
+            MBRY: B1812_07720
+            CAUL: KCG34_21810
+            SSAN: NX02_p0185 NX02_p1100
+            SKR: BRX40_22210
+            SMOR: LHA26_14135
+            SNOS: K8P63_14090
+            SABI: PBT88_17275
+            SPHT: K426_10040 K426_27945
+            SCLO: SCLO_2002830
+            PMEA: KTC28_01900
+            GOX: GOX1704
+            GOH: B932_0326
+            GOY: GLS_c18210(tal)
+            GAL: A0U94_02610
+            GTI: FXF46_08895
+            GSP: IGS75_09920
+            GFA: MKW11_08755
+            GBE: GbCGDNIH1_0855
+            GBH: GbCGDNIH2_0855
+            GBC: GbCGDNIH3_0855
+            GBS: GbCGDNIH4_0855
+            ACR: Acry_1277
+            AMV: ACMV_13170(tal_pgi)
+            GDI: GDI0286(tal)
+            GDJ: Gdia_2349
+            GXY: GLX_20710
+            GXL: H845_2908
+            KNA: B0W47_08160 B0W47_15595
+            KEU: S101446_00744(talA) S101446_02553
+            KSC: CD178_00834(tal)
+            KRE: GWK63_01300
+            KOI: LV478_02590 LV478_06805
+            APT: APA01_23120
+            APW: APA42C_23120
+            APF: APA03_23120
+            APU: APA07_23120
+            APG: APA12_23120
+            APQ: APA22_23120
+            APX: APA26_23120
+            APZ: APA32_23120
+            APK: APA386B_1153(tal)
+            ASZ: ASN_2674(tal)
+            ASV: WG31_11595
+            AACE: A0U92_11630
+            APER: A0U91_10280
+            APOM: CPF11_09095(tal)
+            ATO: CIW82_17910(tal)
+            AASC: A4S02_00285
+            ACET: DS739_11315
+            AOT: AcetOri_orf01936
+            AOY: EOV40_010890
+            ACEK: FLP30_06460
+            ABG: Asbog_01930
+            KBA: A0U89_03135
+            NCH: A0U93_04840
+            COQ: D9V35_00315
+            COMM: GN303_00500
+            NTN: D5366_09040
+            NEH: E3E11_06420 E3E11_06425
+            SSAM: E3D00_06835
+            SWF: E3E12_05860
+            BOB: GN304_02620
+            BOMB: GT348_02285
+            EBLA: JGUZn3_02230(tal)
+            LCK: HN018_18990
+            KHA: IFJ82_15225
+            PARZ: DTQ13_06895
+            KDP: N5W20_05115
+            NGU: QN315_08525
+            HTQ: FRZ44_15080
+            DTI: Desti_2109 Desti_4459
+            TCM: HL41_02335
+            THET: F1847_03810
+            CTHI: THC_1017
+            TAV: G4V39_04960
+            TMAI: FVE67_07140
+            DHR: LGS26_05870
+            SAY: TPY_1051(talA)
+            SAP: Sulac_2597
+            STHR: BXT84_09135
+            HFV: R50_1123(tal)
+            RLA: Rhola_00007850
+            RPLA: A4Z71_03780
+            RTX: TI83_06745
+            RTC: APU90_10340
+            RTN: A6122_1250
+            RRY: C1O28_05615
+            RFS: C1I64_08075
+            RTE: GSU10_07185
+            CUB: BJK06_00025
+            MALK: MalAC0309_1478(pgiA)
+            ARL: AFL94_09970
+            AAQ: AOC05_06610
+            ARY: ATC04_08250
+            AAI: AARI_18890(pgi)
+            AUL: DCC27_003360
+            ORN: DV701_02345
+            BLIN: BLSMQ_2148
+            SVI: Svir_15960
+            SACC: EYD13_09100(pgi)
+            ACTA: C1701_20600
+            SAQ: Sare_3318
+            PLAB: C6361_24585
+            PLAT: C6W10_33615
+            SNA: Snas_2420
+            PSUF: A1sIA56_02985
+            EKE: EK0264_18830
+            RRD: RradSPS_3022
+            CWO: Cwoe_4691
+            PARN: NBH00_09540
+            TALU: JDY09_06685(tal)
+            AQZ: KSP35_17610
+            IAM: HC251_21970
+            IMA: PO878_19825
+            AMR: AM1_6318(tal)
+            LBO: LBWT_56220
+            GLJ: GKIL_4246(talA)
+            NCN: BZZ01_00525 BZZ01_14830
+            ATM: ANT_18060(tal_pgi)
+            ABAT: CFX1CAM_1068(tal_pgi)
+            PSUB: Pelsub_P1942
+            LEK: hrd7_30140
+            ABAO: BEQ56_05915
+            PBF: CFX0092_A3617
+            TBH: Tbon_01190
+            TFLA: O0235_12415
+            PMET: G4Y79_08170
+            TRO: trd_1141
+            STI: Sthe_2434
+            FGI: OP10G_4093
+            VAB: WPS_13960
+            BROC: IPI25_11980
+            BPIT: BPIT_02900
+            JET: L3J17_01625
+            UAM: UABAM_01565
+            ABA: Acid345_2810
+            CTM: Cabther_A1295
+            CVL: J8C06_05270
+            CHLO: J8C02_06295
+            ABAC: LuPra_02955(pgi)
+            LUB: TBR22_A20350
+            HSW: Hsw_1597
+            HYM: N008_13115
+            HYG: AUC43_05545
+            HYP: A0257_20070
+            HYZ: AXW84_10135
+            HNV: DDQ68_05455(tal)
+            HYH: D3Y59_11305
+            HYJ: FHG12_09235
+            HQI: H9L05_20470
+            HRS: HER32_03915
+            HBN: GUY19_06805
+            HTS: HMJ29_19260
+            HMT: MTP16_05035
+            HTB: MTX78_07475
+            HYK: O9Z63_12300
+            HSK: H4317_05240
+            HCW: O3303_10405
+            HSB: MWH26_05375
+            HAEI: MUN82_05060
+            HCU: MUN79_09815
+            HVL: MUN86_06845
+            HCF: MUN80_09050
+            SRU: SRU_0080(tal)
+            SRM: SRM_00085(tal)
+            IAL: IALB_1964
+            NMV: NITMOv2_0275
+            NIO: NITINOP_0912
+            NKF: Nkreftii_004008
+            NALL: PP769_08385
+            NNEO: PQG83_19625
+            LFI: LFML04_1631
+            LFP: Y981_08200
+            LEG: ABH19_03895 ABH19_04920
+            ALAM: RT761_01227(pgi)
+            SCHV: BRCON_1022
+REFERENCE   PMID:14730129
+  AUTHORS   Sugiyama M, Suzuki S, Tonouchi N, Yokozeki K
+  TITLE     Transaldolase/glucose-6-phosphate isomerase bifunctional enzyme and ribulokinase as factors to increase xylitol production from D-arabitol in Gluconobacter oxydans.
+  JOURNAL   Biosci Biotechnol Biochem 67:2524-32 (2003)
+            DOI:10.1271/bbb.67.2524
+  SEQUENCE  [gox:GOX1704]
+///

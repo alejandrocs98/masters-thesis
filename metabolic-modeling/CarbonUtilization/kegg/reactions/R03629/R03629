@@ -1,0 +1,24 @@
+ENTRY       R03629                      Reaction
+NAME        melatonin,NADPH---hemoprotein reductase:oxygen oxidoreductase
+DEFINITION  Melatonin + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 6-Hydroxymelatonin + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C01598 + C03024 + C00007 <=> C05643 + C03161 + C00001
+COMMENT     see R04122
+RCLASS      RC00046  C01598_C05643
+ENZYME      1.14.14.1
+PATHWAY     rn00380  Tryptophan metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R03629  Melatonin + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 6-Hydroxymelatonin + [Oxidized NADPH---hemoprotein reductase] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.1
+               R04122  Alkane <=> ROH
+                R03629  Melatonin <=> 6-Hydroxymelatonin
+ORTHOLOGY   K07408  cytochrome P450 family 1 subfamily A1 [EC:1.14.14.1]
+            K07409  cytochrome P450 family 1 subfamily A2 [EC:1.14.14.1]
+            K07410  cytochrome P450 family 1 subfamily B1 [EC:1.14.14.1]
+            K14338  cytochrome P450 / NADPH-cytochrome P450 reductase [EC:1.14.14.1 1.6.2.4]
+///

@@ -1,0 +1,19 @@
+ENTRY       R10919                      Reaction
+NAME        (R)-ipsdienol:NADP+ oxidoreductase
+DEFINITION  (R)-Ipsdienol + NADP+ <=> Ipsdienone + NADPH + H+
+EQUATION    C20943 + C00006 <=> C20944 + C00005 + C00080
+COMMENT     NAD+ (see R10918)
+RCLASS      RC00001  C00005_C00006
+            RC00241  C20943_C20944
+ENZYME      1.1.1.386
+PATHWAY     rn00902  Monoterpenoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.386
+                 R10919  (R)-Ipsdienol + NADP+ <=> Ipsdienone + NADPH + H+
+ORTHOLOGY   K20142  ipsdienol dehydrogenase [EC:1.1.1.386]
+DBLINKS     RHEA: 45119
+///

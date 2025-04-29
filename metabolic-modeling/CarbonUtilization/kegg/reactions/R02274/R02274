@@ -1,0 +1,22 @@
+ENTRY       R02274                      Reaction
+NAME        5-aminopentanoate:2-oxoglutarate aminotransferase
+DEFINITION  5-Aminopentanoate + 2-Oxoglutarate <=> 5-Oxopentanoate + L-Glutamate
+EQUATION    C00431 + C00026 <=> C03273 + C00025
+RCLASS      RC00006  C00025_C00026
+            RC00062  C00431_C03273
+ENZYME      2.6.1.48
+PATHWAY     rn00310  Lysine degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00956  Lysine degradation, bacteria, L-lysine => succinate
+            M00957  Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.48
+                 R02274  5-Aminopentanoate + 2-Oxoglutarate <=> 5-Oxopentanoate + L-Glutamate
+ORTHOLOGY   K07250  4-aminobutyrate aminotransferase / (S)-3-amino-2-methylpropionate transaminase / 5-aminovalerate transaminase [EC:2.6.1.19 2.6.1.22 2.6.1.48]
+            K14268  5-aminovalerate/4-aminobutyrate aminotransferase [EC:2.6.1.48 2.6.1.19]
+DBLINKS     RHEA: 10215
+///

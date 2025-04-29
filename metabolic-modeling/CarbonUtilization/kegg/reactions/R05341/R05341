@@ -1,0 +1,34 @@
+ENTRY       R05341                      Reaction
+NAME        carotenoid beta-end group lyase (decyclizing)
+DEFINITION  Lycopene <=> gamma-Carotene
+EQUATION    C05432 <=> C05435
+COMMENT     lycopene cyclase (see R03824)
+RCLASS      RC01004  C05432_C05435
+ENZYME      5.5.1.19
+PATHWAY     rn00906  Carotenoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00097  beta-Carotene biosynthesis, GGAP => beta-carotene
+BRITE       Enzymatic reactions [BR:br08201]
+             5. Isomerase reactions
+              5.5  Intramolecular lyases
+               5.5.1  Intramolecular lyases (only sub-subclass identified to date)
+                5.5.1.19
+                 R05341  Lycopene <=> gamma-Carotene
+ORTHOLOGY   K06443  lycopene beta-cyclase [EC:5.5.1.19]
+            K14605  lycopene cyclase CruA [EC:5.5.1.19]
+            K14606  lycopene cyclase CruP [EC:5.5.1.19]
+            K17841  15-cis-phytoene synthase / lycopene beta-cyclase [EC:2.5.1.32 5.5.1.19]
+            K22502  lycopene beta-cyclase [EC:5.5.1.19]
+REFERENCE   1  [PMID:8837512]
+  AUTHORS   Cunningham FX Jr, Pogson B, Sun Z, McDonald KA, DellaPenna D, Gantt E.
+  TITLE     Functional analysis of the beta and epsilon lycopene cyclase enzymes of Arabidopsis reveals a mechanism for control of cyclic carotenoid formation.
+  JOURNAL   Plant Cell 8:1613-26 (1996)
+            DOI:10.1105/tpc.8.9.1613
+REFERENCE   2  [PMID:17606904]
+  AUTHORS   Maresca JA, Graham JE, Wu M, Eisen JA, Bryant DA
+  TITLE     Identification of a fourth family of lycopene cyclases in photosynthetic bacteria.
+  JOURNAL   Proc Natl Acad Sci U S A 104:11784-9 (2007)
+            DOI:10.1073/pnas.0702984104
+DBLINKS     RHEA: 32222
+///

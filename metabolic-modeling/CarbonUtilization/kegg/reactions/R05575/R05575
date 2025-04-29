@@ -1,0 +1,22 @@
+ENTRY       R05575                      Reaction
+NAME        (2S)-[(R)-hydroxy(phenyl)methyl]succinyl-CoA:NAD+ oxidoreductase
+DEFINITION  (2S)-[(R)-Hydroxy(phenyl)methyl]succinyl-CoA + NAD+ <=> (S)-2-Benzoylsuccinyl-CoA + NADH + H+
+EQUATION    C09819 + C00003 <=> C09820 + C00004 + C00080
+COMMENT     BbsC,BbsD
+RCLASS      RC00001  C00003_C00004
+            RC01681  C09819_C09820
+ENZYME      1.1.1.429
+PATHWAY     rn00623  Toluene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00418  Toluene degradation, anaerobic, toluene => benzoyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.429
+                 R05575  (2S)-[(R)-Hydroxy(phenyl)methyl]succinyl-CoA + NAD+ <=> (S)-2-Benzoylsuccinyl-CoA + NADH + H+
+ORTHOLOGY   K07547  (2S)-[(R)-hydroxy(phenyl)methyl]-succinyl-CoA dehydrogenase BbsC subunit [EC:1.1.1.429]
+            K07548  (2S)-[(R)-hydroxy(phenyl)methyl]-succinyl-CoA dehydrogenase BbsD subunit [EC:1.1.1.429]
+///

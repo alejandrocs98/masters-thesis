@@ -1,0 +1,25 @@
+ENTRY       R00203                      Reaction
+NAME        pyruvaldehyde:NAD+ oxidoreductase;
+            2-oxopropanal:NAD+ oxidoreductase
+DEFINITION  Methylglyoxal + NAD+ + H2O <=> Pyruvate + NADH + H+
+EQUATION    C00546 + C00003 + C00001 <=> C00022 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00104  C00022_C00546
+ENZYME      1.2.1.22        1.2.1.23
+PATHWAY     rn00620  Pyruvate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.22
+                 R00203  Methylglyoxal + NAD+ + H2O <=> Pyruvate + NADH + H+
+                1.2.1.23
+                 R00203  Methylglyoxal + NAD+ + H2O <=> Pyruvate + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.23
+               R01337  2-Oxoaldehyde <=> 2-Oxo acid
+                R00203  Methylglyoxal <=> Pyruvate
+ORTHOLOGY   K07248  lactaldehyde dehydrogenase / glycolaldehyde dehydrogenase [EC:1.2.1.22 1.2.1.21]
+///

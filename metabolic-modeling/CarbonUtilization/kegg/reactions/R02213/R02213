@@ -1,0 +1,23 @@
+ENTRY       R02213                      Reaction
+NAME        progesterone,NADPH-hemoprotein reductase:oxygen oxidoreductase (21-hydroxylating)
+DEFINITION  Progesterone + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 11-Deoxycorticosterone + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00410 + C03024 + C00007 <=> C03205 + C03161 + C00001
+RCLASS      RC00157  C00410_C03205
+ENZYME      1.14.14.16
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00108  C21-Steroid hormone biosynthesis, progesterone => corticosterone/aldosterone
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.16
+                 R02213  Progesterone + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 11-Deoxycorticosterone + [Oxidized NADPH---hemoprotein reductase] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.16
+               R02130  Steroid <=> 21-Hydroxysteroid
+                R02213  Progesterone <=> 11-Deoxycorticosterone
+ORTHOLOGY   K00513  steroid 21-monooxygenase [EC:1.14.14.16]
+DBLINKS     RHEA: 50307
+///

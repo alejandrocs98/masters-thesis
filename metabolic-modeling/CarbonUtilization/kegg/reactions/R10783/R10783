@@ -1,0 +1,22 @@
+ENTRY       R10783                      Reaction
+NAME        3-hexenol:NAD+ oxidoreductase
+DEFINITION  3-Hexenal + NADH + H+ <=> 3-Hexenol + NAD+
+EQUATION    C16310 + C00004 + C00080 <=> C08492 + C00003
+RCLASS      RC00001  C00003_C00004
+            RC00087  C08492_C16310
+ENZYME      1.1.1.1
+PATHWAY     rn00592  alpha-Linolenic acid metabolism
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.1
+                 R10783  3-Hexenal + NADH + H+ <=> 3-Hexenol + NAD+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.1
+               R00623  Primary alcohol <=> Aldehyde
+                R10783  3-Hexenol <=> 3-Hexenal
+ORTHOLOGY   K18857  alcohol dehydrogenase class-P [EC:1.1.1.1]
+///

@@ -1,0 +1,18 @@
+ENTRY       R12659                      Reaction
+DEFINITION  Tryptamine + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Serotonin + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00398 + C03024 + C00007 <=> C00780 + C03161 + C00001
+COMMENT     tryptamine 5-hydroxylase
+RCLASS      RC00490  C00398_C00780
+ENZYME      1.14.-.-
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00936  Melatonin biosynthesis, plants, tryptophan => serotonin => melatonin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.-  Acting on paired donors, with incorporation or reduction of molecular oxygen
+                1.14.-.-
+                 R12659  Tryptamine + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Serotonin + [Oxidized NADPH---hemoprotein reductase] + H2O
+ORTHOLOGY   K24541  tryptamine 5-hydroxylase [EC:1.14.-.-]
+///

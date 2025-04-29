@@ -1,0 +1,68 @@
+ENTRY       K16268            Tight     KO
+SYMBOL      todC2, bedC2, tcbAb
+NAME        benzene/toluene/chlorobenzene dioxygenase subunit beta [EC:1.14.12.3 1.14.12.11 1.14.12.26]
+PATHWAY     map00361  Chlorocyclohexane and chlorobenzene degradation
+            map00362  Benzoate degradation
+            map00623  Toluene degradation
+            map00625  Chloroalkane and chloroalkene degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00547  Benzene/toluene degradation, benzene => catechol / toluene => 3-methylcatechol
+REACTION    R03543  benzene,NADH:oxygene 1,2-oxidoreductase
+            R03559  toluene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R05429  1,4-dichlorobenzene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R06831  1,2,4-trichlorobenzene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R06856  chlorobenzene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R09151  trichloroethene,NADH:oxygen oxidoreductase (glyoxylate-forming)
+            R09152  trichloroethene,NADH:oxygen oxidoreductase (formate-forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00362 Benzoate degradation
+                K16268  todC2, bedC2, tcbAb; benzene/toluene/chlorobenzene dioxygenase subunit beta
+               00625 Chloroalkane and chloroalkene degradation
+                K16268  todC2, bedC2, tcbAb; benzene/toluene/chlorobenzene dioxygenase subunit beta
+               00361 Chlorocyclohexane and chlorobenzene degradation
+                K16268  todC2, bedC2, tcbAb; benzene/toluene/chlorobenzene dioxygenase subunit beta
+               00623 Toluene degradation
+                K16268  todC2, bedC2, tcbAb; benzene/toluene/chlorobenzene dioxygenase subunit beta
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.12  With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into the other donor
+                1.14.12.3  benzene 1,2-dioxygenase
+                 K16268  todC2, bedC2, tcbAb; benzene/toluene/chlorobenzene dioxygenase subunit beta
+                1.14.12.11  toluene dioxygenase
+                 K16268  todC2, bedC2, tcbAb; benzene/toluene/chlorobenzene dioxygenase subunit beta
+                1.14.12.26  chlorobenzene dioxygenase
+                 K16268  todC2, bedC2, tcbAb; benzene/toluene/chlorobenzene dioxygenase subunit beta
+            Dioxygenases [br01602.html]
+             Dioxygenases in aromatic ring cleavage
+              K16268
+DBLINKS     GO: 0018619 0018624 0018609
+GENES       PPF: Pput_2880
+            PPX: T1E_4267(todC2)
+            PMON: X969_10935
+            PMOT: X970_10590
+            PASI: LG197_17455
+            BPT: Bpet3739
+            ATEM: PQV96_18705
+            AG: AAC43633(tcbAb)
+REFERENCE   PMID:8824602
+  AUTHORS   Fong KP, Goh CB, Tan HM
+  TITLE     Characterization and expression of the plasmid-borne bedD gene from Pseudomonas putida ML2, which codes for a NAD+-dependent cis-benzene dihydrodiol dehydrogenase.
+  JOURNAL   J Bacteriol 178:5592-601 (1996)
+            DOI:10.1128/JB.178.19.5592-5601.1996
+REFERENCE   PMID:2670929
+  AUTHORS   Zylstra GJ, Gibson DT
+  TITLE     Toluene degradation by Pseudomonas putida F1. Nucleotide sequence of the todC1C2BADE genes and their expression in Escherichia coli.
+  JOURNAL   J Biol Chem 264:14940-6 (1989)
+  SEQUENCE  [ppf:Pput_2880]
+REFERENCE   PMID:8626733
+  AUTHORS   Werlen C, Kohler HP, van der Meer JR
+  TITLE     The broad substrate chlorobenzene dioxygenase and cis-chlorobenzene dihydrodiol dehydrogenase of Pseudomonas sp. strain P51 are linked evolutionarily to the enzymes for benzene and toluene degradation.
+  JOURNAL   J Biol Chem 271:4009-16 (1996)
+            DOI:10.1074/jbc.271.8.4009
+  SEQUENCE  [ag:AAC43633]
+///

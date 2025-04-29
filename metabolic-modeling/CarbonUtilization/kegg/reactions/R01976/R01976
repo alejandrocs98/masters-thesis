@@ -1,0 +1,21 @@
+ENTRY       R01976                      Reaction
+NAME        (S)-3-hydroxybutanoyl-CoA:NADP+ oxidoreductase
+DEFINITION  (S)-3-Hydroxybutanoyl-CoA + NADP+ <=> Acetoacetyl-CoA + NADPH + H+
+EQUATION    C01144 + C00006 <=> C00332 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00117  C00332_C01144
+ENZYME      1.1.1.157
+PATHWAY     rn00362  Benzoate degradation
+            rn00650  Butanoate metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.157
+                 R01976  (S)-3-Hydroxybutanoyl-CoA + NADP+ <=> Acetoacetyl-CoA + NADPH + H+
+ORTHOLOGY   K00074  3-hydroxybutyryl-CoA dehydrogenase [EC:1.1.1.157]
+DBLINKS     RHEA: 16200
+///

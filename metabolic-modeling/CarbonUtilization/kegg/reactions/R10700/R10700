@@ -1,0 +1,23 @@
+ENTRY       R10700                      Reaction
+NAME        palmitoyl-[acp]:CoA S-palmitoyltransferase
+DEFINITION  Hexadecanoyl-[acp] + CoA <=> Palmitoyl-CoA + Acyl-carrier protein
+EQUATION    C05764 + C00010 <=> C00154 + C00229
+COMMENT     the last step (acyl-CoA-forming) of fatty-acyl-CoA synthase (ec 2.3.1.86, see R05190, map00061)
+RCLASS      RC00004  C00010_C00154
+            RC00039  C00229_C05764
+            RC02727  C00154_C05764
+ENZYME      2.3.1.86        2.3.1.-
+PATHWAY     rn00061  Fatty acid biosynthesis
+            rn01100  Metabolic pathways
+            rn01212  Fatty acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.86
+                 R10700  Hexadecanoyl-[acp] + CoA <=> Palmitoyl-CoA + Acyl-carrier protein
+                2.3.1.-
+                 R10700  Hexadecanoyl-[acp] + CoA <=> Palmitoyl-CoA + Acyl-carrier protein
+ORTHOLOGY   K00668  fatty acid synthase subunit beta, fungi type [EC:2.3.1.86]
+            K11533  fatty acid synthase, bacteria type [EC:2.3.1.-]
+///

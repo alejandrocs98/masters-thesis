@@ -1,0 +1,335 @@
+ENTRY       K18366                      KO
+SYMBOL      bphJ, xylQ, nahO, tesF
+NAME        acetaldehyde/propanal dehydrogenase [EC:1.2.1.10 1.2.1.87]
+PATHWAY     map00362  Benzoate degradation
+            map00620  Pyruvate metabolism
+            map00621  Dioxin degradation
+            map00622  Xylene degradation
+            map00650  Butanoate metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00569  Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA
+REACTION    R00228  acetaldehyde:NAD+ oxidoreductase (CoA-acetylating)
+            R01172  butanal:NAD+ oxidoreductase (CoA-acylating)
+            R09097  propanal:NAD+ oxidoreductase (CoA-propanoylating)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00620 Pyruvate metabolism
+                K18366  bphJ, xylQ, nahO, tesF; acetaldehyde/propanal dehydrogenase
+               00650 Butanoate metabolism
+                K18366  bphJ, xylQ, nahO, tesF; acetaldehyde/propanal dehydrogenase
+              09111 Xenobiotics biodegradation and metabolism
+               00362 Benzoate degradation
+                K18366  bphJ, xylQ, nahO, tesF; acetaldehyde/propanal dehydrogenase
+               00622 Xylene degradation
+                K18366  bphJ, xylQ, nahO, tesF; acetaldehyde/propanal dehydrogenase
+               00621 Dioxin degradation
+                K18366  bphJ, xylQ, nahO, tesF; acetaldehyde/propanal dehydrogenase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.10  acetaldehyde dehydrogenase (acetylating)
+                 K18366  bphJ, xylQ, nahO, tesF; acetaldehyde/propanal dehydrogenase
+                1.2.1.87  propanal dehydrogenase (CoA-propanoylating)
+                 K18366  bphJ, xylQ, nahO, tesF; acetaldehyde/propanal dehydrogenase
+            Dioxygenases [br01602.html]
+             Dioxygenases in aromatic ring cleavage
+              K18366
+DBLINKS     COG: COG4569
+            GO: 0008774
+GENES       PATR: EV46_07230
+            PATO: GZ59_14670(nahO)
+            PSD: DSC_09370
+            RGL: CS053_01765
+            RTH: LRK53_10285
+            RBD: ALSL_0878 ALSL_1081
+            VAF: D1115_22445
+            PRE: PCA10_13830
+            PFUW: KF707C_12180 KF707C_16060(salG) KF707C_16240(bphX2)
+            PPI: ND085(nahO)
+            PPUT: L483_14060
+            PPUN: PP4_27270(mhpF)
+            PVR: PverR02_11590 PverR02_14705
+            PPUU: PputUW4_01661(mhpF)
+            PKC: PKB_4238(nahO)
+            PFZ: AV641_10530
+            PLQ: AA042_19760
+            PALK: PSAKL28_05970
+            PPSY: AOC04_07830
+            PFK: PFAS1_28770
+            PSET: THL1_1434
+            PSIL: PMA3_11730
+            PKE: DLD99_14745
+            PALL: UYA_06975 UYA_07055
+            PUM: HGP31_20765
+            PPSH: G5J76_13485
+            PLAL: FXN65_06425
+            PAZE: KSS91_19290
+            PTAE: NCTC10697_02056(bphJ)
+            PCAV: D3880_17510
+            PPHN: HU825_04965 HU825_14760
+            PIZ: LAB08_R40960
+            PKM: PZ739_11540
+            PSC: A458_06515
+            PSTU: UIB01_22745
+            PBM: CL52_14715
+            SDEG: GOM96_01765
+            AVN: Avin_30580(lapF)
+            AVL: AvCA_30580(lapF)
+            AVD: AvCA6_30580(lapF)
+            HARR: HV822_17980
+            PPHA: BVH74_17965
+            MARJ: MARI_05450(bphJ)
+            MSHE: MAALD49_03440(mhpF)
+            KAK: Kalk_07860
+            ALC: OTEC02_08815
+            AEI: AOY20_01980
+            ASJ: AsACE_CH00351
+            ADV: DJ533_16965
+            ARJ: DOM24_01570
+            AWU: BEN71_02685
+            ACUM: C9E88_006010
+            ALW: FOB21_11705
+            ATN: FM020_13985
+            ACHI: CDG60_02960
+            ALJ: G8D99_13405
+            AWG: GFH30_01710
+            ASHA: G8E00_02250
+            ATG: J4G44_04385
+            AVB: RYU24_27160
+            ABOU: ACBO_27750
+            ACIU: A3K93_01260
+            APOT: MZO21_10845
+            ATZ: M5E07_14195
+            ACIE: KIP84_08185
+            SPL: Spea_2117
+            SHL: Shal_2089
+            SWD: Swoo_1391
+            COLW: A3Q33_18580
+            CBER: B5D82_11265
+            THT: E2K93_11205
+            PHA: PSHAa2142(mhpF)
+            PTN: PTRA_a2595(bphJ)
+            PNG: PNIG_a2789(bphJ)
+            LAL: AT746_01295
+            SALH: HMF8227_02731(bphJ)
+            CJA: CJA_1528(nahO)
+            CEG: D0C16_06470
+            TTU: TERTU_1282
+            SPOI: IMCC21906_00396 IMCC21906_02715
+            SNAN: I6N98_10795
+            STAW: NCG89_14275
+            ZAL: AZF00_03865 AZF00_11425 AZF00_17815
+            HJA: BST95_09510
+            HALC: EY643_13290
+            AFUS: EYZ66_02680 EYZ66_12970
+            PAQM: E0F26_07470
+            HMAR: HVMH_0575(mhpF)
+            CYQ: Q91_0509(nahO) Q91_1490
+            CZA: CYCME_0970(nahO) CYCME_2102
+            CYY: CPC19_05400 CPC19_10510
+            BLEP: AL038_01295
+            THIS: HZT40_10610
+            AEH: Mlg_2461
+            TBN: TBH_C0929
+            MMW: Mmwyl1_3802
+            MPRI: MP3633_3150
+            MGEO: CFI10_00430 CFI10_04965 CFI10_06045
+            MSEC: LN244_04510 LN244_04770 LN244_11325
+            MRZ: KDW95_00760
+            NCU: F0U83_03050
+            NJP: NEJAP_0672(mhpF)
+            NIK: F5I99_02025 F5I99_10100 F5I99_10515
+            AJP: AMJAP_2525 AMJAP_2998
+            EMP: EZMO1_1318(tesF)
+            ASIM: FE240_03465
+            ZDF: AN401_14620
+            SOK: D0B54_06195
+            SINI: GT972_14665
+            FCE: JN531_005835
+            GBI: PG2T_09670
+            GPB: HDN1F_27080(aphF)
+            NZO: SAMEA4504057_0443(bphJ)
+            NCI: NCTC10296_00918(bphJ)
+            NWD: H3L96_04780
+            NDU: LVJ88_00575
+            VFF: VITFI_CDS1375
+            PTES: JQU52_04845
+            USU: LVJ78_03645
+            AQL: BXU06_16255 BXU06_16880 BXU06_17060
+            RPI: Rpic_4618
+            RPF: Rpic12D_3542
+            RIN: ACS15_4355
+            REH: H16_B0596(h16_B0596)
+            CNC: CNE_2c05410
+            CUH: BJN34_24655
+            RME: Rmet_1320(mhpF)
+            CTI: RALTA_B0400(mhpF)
+            CBW: RR42_s2314
+            COX: E0W60_08020
+            CCAX: KZ686_10000
+            CUK: KB879_20420
+            BVI: Bcep1808_7604
+            BUR: Bcep18194_B1458 Bcep18194_B2960
+            BCJ: BCAM1614(mhpF)
+            BCEN: DM39_3382 DM39_4833
+            BCEO: I35_5474(mhpF)
+            BCT: GEM_4110 GEM_5402
+            BCED: DM42_4992 DM42_6344
+            BCEP: APZ15_31150
+            BPYR: ABD05_27815
+            BCON: NL30_04135 NL30_24595
+            BDF: WI26_15990 WI26_21150
+            BTEI: WS51_00565 WS51_05700
+            BPSL: WS57_06040 WS57_12160
+            BMEC: WJ16_26795
+            BSTL: BBJ41_10515 BBJ41_21345
+            BANN: JFN94_19130 JFN94_25655
+            BARI: NLX30_30180
+            BAEN: L3V59_21745 L3V59_30400
+            BUQ: AC233_11190
+            BURK: DM992_32620
+            BXE: Bxe_C1188(bphJ)
+            BXB: DR64_8617
+            BFN: OI25_4590
+            PARB: CJU94_37875 CJU94_38120
+            PCAF: DSC91_003290
+            PMEG: FNZ07_21160
+            PBRY: NDK50_32880
+            PPAI: E1956_37235
+            PPK: U875_01895
+            PRB: X636_07575
+            CABA: SBC2_49010(bphJ)
+            LIMN: HKT17_03825
+            AXY: AXYL_04308
+            APES: FOC84_00310
+            AALN: Q3V95_01640
+            CDN: BN940_14426
+            RFR: Rfer_0455
+            PNA: Pnap_4143
+            AJS: Ajs_0223
+            ACID: CBP33_01110
+            ACIP: CBP36_01205
+            ACIN: CBP34_01115
+            ACIS: CBP35_17745
+            AMON: H9L24_14180
+            VEI: Veis_2782
+            VBO: CKY39_28500
+            CTT: CtCNB1_1352 CtCNB1_3148
+            CTES: O987_07735
+            COF: FOZ74_08310
+            CRJ: QMY55_07015
+            ADN: Alide_0338
+            ADK: Alide2_0283
+            OTD: J1M35_00050
+            HYL: LPB072_18195
+            HPSE: HPF_01855(bphJ)
+            HYN: F9K07_02770 F9K07_11455
+            HTN: KI616_01950
+            DIH: G7047_09700
+            SIMP: C6571_13620
+            MELA: C6568_07855
+            MJE: LVC68_01010
+            STHM: IS481_10545
+            SAQA: OMP39_09125
+            MPT: Mpe_A2267 Mpe_A3322
+            METP: C1M51_06445 C1M51_16315
+            SNN: EWH46_19315
+            IDC: LRM40_19580
+            LCH: Lcho_3341
+            JAJ: EKL02_01795 EKL02_13155
+            MASW: AM586_18655
+            TMJ: P0M04_30660
+            RBU: PG1C_14095
+            ABRE: pbN1_20570(mhpF)
+            DAR: Daro_0906 Daro_1355 Daro_3783 Daro_3807
+            DEY: HYN24_14115 HYN24_14205
+            DDEN: KI615_16875
+            QAU: KI612_15150
+            FLE: KI610_08590 KI610_13430 KI610_15455
+            AZO: azo1856(lapF) azo1973(mhpF) azo2432(nahO)
+            AOA: dqs_2009 dqs_2128 dqs_2576
+            AZI: AzCIB_1508 AzCIB_4410
+            AZD: CDA09_09960 CDA09_10330 CDA09_10455 CDA09_21435
+            AZR: CJ010_12265 CJ010_12840 CJ010_15210
+            TMZ: Tmz1t_2078 Tmz1t_3106
+            THU: AC731_001815 AC731_008900
+            THAU: C4PIVTH_2808(mhpF) C4PIVTH_4320(mhpF) C4PIVTH_4381(mhpF)
+            THK: CCZ27_04600 CCZ27_10755
+            THAG: CKCBHOJB_01547(bphJ_1) CKCBHOJB_02380(bphJ_2)
+            AZQ: G3580_00545 G3580_08275
+            ACOM: CEW83_03605
+            NPM: QEO92_31655
+            SHZ: shn_33315
+            CID: P73_1381
+            DAA: AKL17_3p0138
+            TEC: AKL02_008265
+            PGV: SL003B_p0057
+            NPP: PP1Y_AT32733
+            SGI: SGRAN_1580(mhpF)
+            SJP: SJA_C1-11900(mhpF)
+            SINB: SIDU_08315
+            SYB: TZ53_09025 TZ53_23470
+            SHYD: CJD35_06510
+            SUFL: FIL70_18990
+            SBAR: H5V43_20640
+            SFLA: SPHFLASMR4Y_02367(bphJ)
+            SPHJ: BSL82_10440
+            PMAS: NCF86_10600
+            TFV: IDJ81_04965
+            TXI: TH3_21413
+            HTL: HPTL_0048
+            ACIB: ACBT_0260(dmpF)
+            AFC: AFAEC_1845(dmpF)
+            AAQI: AAQM_0981(dmpF)
+            ACLO: ACLO_a0140(dmpF)
+            ADZ: ADFLV_2552(dmpF)
+            ARC: ABLL_2443
+            AROS: NJU99_01645
+            ALK: ALEK_0382(dmpF)
+            AANA: AANAER_1259(dmpF)
+            BSM: BSM4216_0948
+            BACI: B1NLA3E_08430 B1NLA3E_09190 B1NLA3E_13975
+            BACQ: DOE78_09225
+            BHK: B4U37_13940
+            OCN: CUC15_03675
+            GJF: M493_00040
+            PARG: PspKH34_15470
+            LGY: T479_19650
+            LYZ: DCE79_01750
+            LYG: C1N55_08070
+            VIG: BKP57_09385
+            VNT: OLD84_14185
+            VIK: KFZ58_14505
+            LAO: AOX59_17245
+            BSJ: UP17_10520
+            PFRI: L8956_11385
+            PRD: F7984_12030
+            RUE: DT065_13785 DT065_15200
+            SALE: EPH95_15035
+            SIV: SSIL_0067
+            SSIL: SOLI23_18500 SOLI23_19600
+            SOB: CSE16_14635
+            PLL: I858_008615
+            KZO: NCTC404_01742(bphJ)
+            SPOO: J3U78_11180
+            CFM: BJL90_19995
+            DCA: Desca_1928
+            LACY: A4V08_07735
+            MTHO: MOTHE_c17900
+            MTHZ: MOTHA_c18730
+            STED: SPTER_02990(bphJ_1) SPTER_36970(bphJ_2)
+            MMUC: C1S78_007400
+            SPAV: Spa2297_32965
+            SAQ: Sare_4566
+            CWO: Cwoe_4834
+REFERENCE   PMID:16151114
+  AUTHORS   Horinouchi M, Hayashi T, Koshino H, Kurita T, Kudo T
+  TITLE     Identification of 9,17-dioxo-1,2,3,4,10,19-hexanorandrostan-5-oic acid, 4-hydroxy-2-oxohexanoic acid, and 2-hydroxyhexa-2,4-dienoic acid and related enzymes involved in testosterone degradation in Comamonas testosteroni TA441.
+  JOURNAL   Appl Environ Microbiol 71:5275-81 (2005)
+            DOI:10.1128/AEM.71.9.5275-5281.2005
+  SEQUENCE  [ctt:CtCNB1_1352]
+///

@@ -1,0 +1,17 @@
+ENTRY       R04807                      Reaction
+DEFINITION  3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestane + Oxygen + 2 H+ + 2 Reduced adrenal ferredoxin <=> 3alpha,7alpha,12alpha,26-Tetrahydroxy-5beta-cholestane + H2O + 2 Oxidized adrenal ferredoxin
+EQUATION    C05454 + C00007 + 2 C00080 + 2 C00662 <=> C05446 + C00001 + 2 C00667
+RCLASS      RC01216  C05446_C05454
+ENZYME      1.14.15.15
+PATHWAY     rn00120  Primary bile acid biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00104  Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.15  With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.15.15
+                 R04807  3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestane + Oxygen + 2 H+ + 2 Reduced adrenal ferredoxin <=> 3alpha,7alpha,12alpha,26-Tetrahydroxy-5beta-cholestane + H2O + 2 Oxidized adrenal ferredoxin
+ORTHOLOGY   K00488  cholestanetriol 26-monooxygenase [EC:1.14.15.15]
+DBLINKS     RHEA: 14376
+///

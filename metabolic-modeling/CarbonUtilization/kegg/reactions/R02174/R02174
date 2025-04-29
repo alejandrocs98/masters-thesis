@@ -1,0 +1,22 @@
+ENTRY       R02174                      Reaction
+NAME        S-adenosyl-L-methionine:amine N-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + Tryptamine <=> S-Adenosyl-L-homocysteine + N-Methyltryptamine
+EQUATION    C00019 + C00398 <=> C00021 + C06213
+RCLASS      RC00003  C00019_C00021
+            RC00060  C00398_C06213
+ENZYME      2.1.1.49
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.49
+                 R02174  S-Adenosyl-L-methionine + Tryptamine <=> S-Adenosyl-L-homocysteine + N-Methyltryptamine
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.1.1.49
+               R02808  Amine <=> Methylated amine
+                R02174  Tryptamine <=> N-Methyltryptamine
+ORTHOLOGY   K00562  methyltransferase [EC:2.1.1.49 2.1.1.96]
+///

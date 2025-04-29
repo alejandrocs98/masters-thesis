@@ -1,0 +1,20 @@
+ENTRY       R08059                      Reaction
+DEFINITION  5,10-Methylenetetrahydromethanopterin + NADP+ <=> 5,10-Methenyltetrahydromethanopterin + NADPH
+EQUATION    C04377 + C00006 <=> C04330 + C00005
+RCLASS      RC00001  C00005_C00006
+            RC00202  C04330_C04377
+ENZYME      1.5.1.-
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.-
+                 R08059  5,10-Methylenetetrahydromethanopterin + NADP+ <=> 5,10-Methenyltetrahydromethanopterin + NADPH
+ORTHOLOGY   K00300  methylenetetrahydrofolate/methylenetetrahydromethanopterin dehydrogenase (NADP+) [EC:1.5.1.5 1.5.1.-]
+            K10714  methylene-tetrahydromethanopterin dehydrogenase [EC:1.5.1.-]
+DBLINKS     RHEA: 24685 53387
+///

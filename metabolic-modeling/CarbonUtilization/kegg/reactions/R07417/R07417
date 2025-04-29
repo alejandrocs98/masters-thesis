@@ -1,0 +1,19 @@
+ENTRY       R07417                      Reaction
+NAME        4-(gamma-L-glutamylamino)butanal:NAD+ oxidoreductase
+DEFINITION  gamma-Glutamyl-gamma-aminobutyraldehyde + NAD+ + H2O <=> 4-(L-gamma-Glutamylamino)butanoate + NADH + H+
+EQUATION    C15700 + C00003 + C00001 <=> C15767 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00080  C15700_C15767
+ENZYME      1.2.1.99
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+MODULE      M00136  GABA biosynthesis, prokaryotes, putrescine => GABA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.99
+                 R07417  gamma-Glutamyl-gamma-aminobutyraldehyde + NAD+ + H2O <=> 4-(L-gamma-Glutamylamino)butanoate + NADH + H+
+ORTHOLOGY   K09472  4-(gamma-glutamylamino)butanal dehydrogenase [EC:1.2.1.99]
+DBLINKS     RHEA: 42343
+///

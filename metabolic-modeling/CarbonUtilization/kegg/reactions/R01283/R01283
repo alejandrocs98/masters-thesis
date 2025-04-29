@@ -1,0 +1,19 @@
+ENTRY       R01283                      Reaction
+NAME        L-homocysteine hydrogen-sulfide-lyase (deaminating; 2-oxobutanoate-forming)
+DEFINITION  L-Homocysteine + H2O <=> Hydrogen sulfide + Ammonia + 2-Oxobutanoate
+EQUATION    C00155 + C00001 <=> C00283 + C00014 + C00109
+COMMENT     multi-step reaction (see R08633+R08637)
+RCLASS      RC00487  C00109_C00155
+            RC02814  C00155_C00283
+ENZYME      4.4.1.2
+PATHWAY     rn00920  Sulfur metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.4  Carbon-sulfur lyases
+               4.4.1  Carbon-sulfur lyases (only sub-subclass identified to date)
+                4.4.1.2
+                 R01283  L-Homocysteine + H2O <=> Hydrogen sulfide + Ammonia + 2-Oxobutanoate
+ORTHOLOGY   K17217  cystathionine gamma-lyase / homocysteine desulfhydrase [EC:4.4.1.1 4.4.1.2]
+DBLINKS     RHEA: 14504
+///

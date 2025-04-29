@@ -1,0 +1,16 @@
+ENTRY       R11449                      Reaction
+NAME        tetracycline,NADPH:oxygen oxidoreductase (11a-hydroxylating)
+DEFINITION  Tetracycline + NADPH + H+ + Oxygen <=> 11a-Hydroxytetracycline + NADP+ + H2O
+EQUATION    C06570 + C00005 + C00080 + C00007 <=> C21391 + C00006 + C00001
+RCLASS      RC03438  C06570_C21391
+ENZYME      1.14.13.231
+PATHWAY     rn00253  Tetracycline biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.231
+                 R11449  Tetracycline + NADPH + H+ + Oxygen <=> 11a-Hydroxytetracycline + NADP+ + H2O
+ORTHOLOGY   K18221  tetracycline 11a-monooxygenase, tetracycline resistance protein [EC:1.14.13.231]
+DBLINKS     RHEA: 50007
+///

@@ -1,0 +1,20 @@
+ENTRY       R10672                      Reaction
+NAME        4-hydroxyphenylacetaldehyde-oxime,NADPH:oxygen oxidoreductase (adding cysteine)
+DEFINITION  (E)-4-Hydroxyphenylacetaldehyde oxime + L-Cysteine + NADPH + Oxygen + H+ <=> S-(Hydroxyphenylacetothiohydroximoyl)-L-cysteine + NADP+ + 2 H2O
+EQUATION    C04350 + C00097 + C00005 + C00007 + C00080 <=> C17238 + C00006 + 2 C00001
+COMMENT     multi-step reaction (similar to R08168, R08607+R08608)
+RCLASS      RC00001  C00005_C00006
+            RC01705  C00097_C17238
+            RC02210  C04350_C17238
+ENZYME      1.14.14.45
+PATHWAY     rn00966  Glucosinolate biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+            rn01210  2-Oxocarboxylic acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.45
+                 R10672  (E)-4-Hydroxyphenylacetaldehyde oxime + L-Cysteine + NADPH + Oxygen + H+ <=> S-(Hydroxyphenylacetothiohydroximoyl)-L-cysteine + NADP+ + 2 H2O
+ORTHOLOGY   K11818  aromatic aldoxime N-monooxygenase [EC:1.14.14.45]
+///

@@ -1,0 +1,22 @@
+ENTRY       R07958                      Reaction
+NAME        paraxanthine:oxygen oxidoreductase (N1-demethylating)
+DEFINITION  1,7-Dimethylxanthine + NADPH + H+ + Oxygen <=> 7-Methylxanthine + NADP+ + Formaldehyde + H2O
+EQUATION    C13747 + C00005 + C00080 + C00007 <=> C16353 + C00006 + C00067 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00334  C13747_C16353
+            RC01797  C00067_C13747
+ENZYME      1.14.13.178
+PATHWAY     rn00232  Caffeine metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00915  Caffeine degradation, caffeine => xanthine
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.178
+                 R07958  1,7-Dimethylxanthine + NADPH + H+ + Oxygen <=> 7-Methylxanthine + NADP+ + Formaldehyde + H2O
+ORTHOLOGY   K21722  methylxanthine N1-demethylase [EC:1.14.13.178]
+DBLINKS     RHEA: 36286
+///

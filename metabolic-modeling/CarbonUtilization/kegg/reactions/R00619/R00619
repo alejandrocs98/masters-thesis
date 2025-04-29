@@ -1,0 +1,21 @@
+ENTRY       R00619                      Reaction
+NAME        ATP:thiamine diphosphotransferase
+DEFINITION  ATP + Thiamine <=> AMP + Thiamin diphosphate
+EQUATION    C00002 + C00378 <=> C00020 + C00068
+RCLASS      RC00002  C00002_C00020
+            RC00017  C00068_C00378
+ENZYME      2.7.6.2
+PATHWAY     rn00730  Thiamine metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00897  Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP
+            M00898  Thiamine biosynthesis, pyridoxal-5P => TMP/thiamine/TPP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.6  Diphosphotransferases
+                2.7.6.2
+                 R00619  ATP + Thiamine <=> AMP + Thiamin diphosphate
+ORTHOLOGY   K00949  thiamine pyrophosphokinase [EC:2.7.6.2]
+DBLINKS     RHEA: 11579
+///

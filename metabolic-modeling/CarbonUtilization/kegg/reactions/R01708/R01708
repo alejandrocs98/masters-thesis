@@ -1,0 +1,19 @@
+ENTRY       R01708                      Reaction
+NAME        pyridoxine:NADP+ 4-oxidoreductase
+DEFINITION  Pyridoxine + NADP+ <=> Pyridoxal + NADPH + H+
+EQUATION    C00314 + C00006 <=> C00250 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00116  C00250_C00314
+ENZYME      1.1.1.65
+PATHWAY     rn00750  Vitamin B6 metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.65
+                 R01708  Pyridoxine + NADP+ <=> Pyridoxal + NADPH + H+
+ORTHOLOGY   K05275  pyridoxine 4-dehydrogenase [EC:1.1.1.65]
+DBLINKS     RHEA: 16132
+///

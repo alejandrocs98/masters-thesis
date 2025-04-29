@@ -1,0 +1,17 @@
+ENTRY       R01180                      Reaction
+NAME        butanoyl-CoA:glyoxylate C-butanoyltransferase (thioester-hydrolysing, 1-carboxypropyl-forming);
+            3-ethylmalate glyoxylate-lyase (CoA-butanoylating)
+DEFINITION  3-Ethylmalate + CoA <=> Butanoyl-CoA + H2O + Glyoxylate
+EQUATION    C01989 + C00010 <=> C00136 + C00001 + C00048
+RCLASS      RC00004  C00010_C00136
+            RC00311  C00048_C01989
+ENZYME      2.3.3.7
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.3  Acyl groups converted into alkyl groups on transfer
+                2.3.3.7
+                 R01180  3-Ethylmalate + CoA <=> Butanoyl-CoA + H2O + Glyoxylate
+DBLINKS     RHEA: 10503
+///

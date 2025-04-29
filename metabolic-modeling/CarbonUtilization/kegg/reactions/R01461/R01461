@@ -1,0 +1,22 @@
+ENTRY       R01461                      Reaction
+NAME        acyl-CoA:cholesterol O-acyltransferase
+DEFINITION  Acyl-CoA + Cholesterol <=> CoA + Cholesterol ester
+EQUATION    C00040 + C00187 <=> C00010 + C02530
+RCLASS      RC00004  C00010_C00040
+            RC00055  C00187_C02530
+ENZYME      2.3.1.26
+PATHWAY     rn00100  Steroid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.26
+                 R01461  Acyl-CoA + Cholesterol <=> CoA + Cholesterol ester
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.26
+               R12496  Sterol <=> Long-chain 3-hydroxysterol ester
+                R01461  Cholesterol <=> Cholesterol ester
+ORTHOLOGY   K00637  sterol O-acyltransferase [EC:2.3.1.26]
+DBLINKS     RHEA: 17732
+///

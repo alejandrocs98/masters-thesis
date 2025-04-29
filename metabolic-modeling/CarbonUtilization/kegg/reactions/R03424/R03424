@@ -1,0 +1,25 @@
+ENTRY       R03424                      Reaction
+NAME        S-adenosyl-L-methionine:phosphatidyl-N-methylethanolamine N-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + Phosphatidyl-N-methylethanolamine <=> S-Adenosyl-L-homocysteine + Phosphatidyl-N-dimethylethanolamine
+EQUATION    C00019 + C01241 <=> C00021 + C04308
+COMMENT     subsequently R01320
+RCLASS      RC00003  C00019_C00021
+            RC00181  C01241_C04308
+ENZYME      2.1.1.16        2.1.1.71
+PATHWAY     rn00564  Glycerophospholipid metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00091  Phosphatidylcholine (PC) biosynthesis, PE => PC
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.16
+                 R03424  S-Adenosyl-L-methionine + Phosphatidyl-N-methylethanolamine <=> S-Adenosyl-L-homocysteine + Phosphatidyl-N-dimethylethanolamine
+                2.1.1.71
+                 R03424  S-Adenosyl-L-methionine + Phosphatidyl-N-methylethanolamine <=> S-Adenosyl-L-homocysteine + Phosphatidyl-N-dimethylethanolamine
+ORTHOLOGY   K00550  phosphatidyl-N-methylethanolamine N-methyltransferase [EC:2.1.1.71]
+            K00551  phosphatidylethanolamine/phosphatidyl-N-methylethanolamine N-methyltransferase [EC:2.1.1.17 2.1.1.71]
+            K00570  phosphatidylethanolamine/phosphatidyl-N-methylethanolamine N-methyltransferase [EC:2.1.1.17 2.1.1.71]
+DBLINKS     RHEA: 32738
+///

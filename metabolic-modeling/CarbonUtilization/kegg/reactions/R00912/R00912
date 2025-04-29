@@ -1,0 +1,19 @@
+ENTRY       R00912                      Reaction
+NAME        L-arginine:beta-alanine ligase (ADP-forming)
+DEFINITION  ATP + L-Arginine + beta-Alanine <=> ADP + Orthophosphate + beta-Alanyl-L-arginine
+EQUATION    C00002 + C00062 + C00099 <=> C00008 + C00009 + C05340
+RCLASS      RC00002  C00002_C00008
+            RC00064  C00062_C05340
+            RC00090  C00099_C05340
+ENZYME      6.3.2.11
+PATHWAY     rn00410  beta-Alanine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.11
+                 R00912  ATP + L-Arginine + beta-Alanine <=> ADP + Orthophosphate + beta-Alanyl-L-arginine
+ORTHOLOGY   K14755  carnosine synthase [EC:6.3.2.11]
+DBLINKS     RHEA: 59595
+///

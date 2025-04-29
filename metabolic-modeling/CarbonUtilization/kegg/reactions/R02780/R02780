@@ -1,0 +1,21 @@
+ENTRY       R02780                      Reaction
+DEFINITION  alpha,alpha-Trehalose + Protein N(pi)-phospho-L-histidine <=> alpha,alpha'-Trehalose 6-phosphate + Protein histidine
+EQUATION    C01083 + C04261 <=> C00689 + C00615
+REMARK      Same as: R06229
+COMMENT     TreB
+            Ref.: 1. J Bacteriol 1994 ;176(18) :5654-5664
+            Ref.: 2. J Bacteriol 1996 ;178(21) :6250-6257
+RCLASS      RC00017  C00689_C01083
+            RC03206  C00615_C04261
+ENZYME      2.7.1.201
+PATHWAY     rn00500  Starch and sucrose metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.201
+                 R02780  alpha,alpha-Trehalose + Protein N(pi)-phospho-L-histidine <=> alpha,alpha'-Trehalose 6-phosphate + Protein histidine
+ORTHOLOGY   K02777  sugar PTS system EIIA component [EC:2.7.1.-]
+            K02819  trehalose PTS system EIIBC or EIIBCA component [EC:2.7.1.201]
+DBLINKS     RHEA: 33374
+///

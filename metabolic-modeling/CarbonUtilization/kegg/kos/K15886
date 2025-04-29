@@ -1,0 +1,51 @@
+ENTRY       K15886            Tight     KO
+SYMBOL      tcmN
+NAME        multifunctional cyclase / dehydratase / O-methyltransferase [EC:2.3.1.235]
+PATHWAY     map01056  Biosynthesis of type II polyketide backbone
+            map01057  Biosynthesis of type II polyketide products
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00778  Type II polyketide backbone biosynthesis, acyl-CoA + malonyl-CoA => polyketide
+            M00783  Tetracenomycin C/8-demethyltetracenomycin C biosynthesis, tetracenomycin F2 => tetracenomycin C/8-demethyltetracenomycin C
+REACTION    R06701  
+            R09269  
+            R10960  malonyl-CoA:acetate malonyltransferase (tetracenomycin-F2-forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
+               01056 Biosynthesis of type II polyketide backbone
+                K15886  tcmN; multifunctional cyclase / dehydratase / O-methyltransferase
+               01057 Biosynthesis of type II polyketide products
+                K15886  tcmN; multifunctional cyclase / dehydratase / O-methyltransferase
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01008 Polyketide biosynthesis proteins
+                K15886  tcmN; multifunctional cyclase / dehydratase / O-methyltransferase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.235  tetracenomycin F2 synthase
+                 K15886  tcmN; multifunctional cyclase / dehydratase / O-methyltransferase
+            Polyketide biosynthesis proteins [BR:ko01008]
+             Polyketide synthase (PKS)
+              Type II PKS
+               C7-C14 cyclized polyketide type
+                Decaketide PKS
+                 K15886  tcmN; multifunctional cyclase / dehydratase / O-methyltransferase
+             Polyketide tailoring proteins
+              Methylase
+               K15886  tcmN; multifunctional cyclase / dehydratase / O-methyltransferase
+GENES       SGU: SGLAU_26370(tcmN)
+REFERENCE   PMID:1548230
+  AUTHORS   Summers RG, Wendt-Pienkowski E, Motamedi H, Hutchinson CR
+  TITLE     Nucleotide sequence of the tcmII-tcmIV region of the tetracenomycin C biosynthetic gene cluster of Streptomyces glaucescens and evidence that the tcmN gene encodes a multifunctional cyclase-dehydratase-O-methyl transferase.
+  JOURNAL   J Bacteriol 174:1810-20 (1992)
+            DOI:10.1128/JB.174.6.1810-1820.1992
+  SEQUENCE  [sgu:SGLAU_26370]
+REFERENCE   PMID:18388203
+  AUTHORS   Ames BD, Korman TP, Zhang W, Smith P, Vu T, Tang Y, Tsai SC
+  TITLE     Crystal structure and functional analysis of tetracenomycin ARO/CYC: implications for cyclization specificity of aromatic polyketides.
+  JOURNAL   Proc Natl Acad Sci U S A 105:5349-54 (2008)
+            DOI:10.1073/pnas.0709223105
+///

@@ -1,0 +1,19 @@
+ENTRY       R10961                      Reaction
+DEFINITION  Benzoyl-CoA + Reduced acceptor <=> Cyclohexa-1,5-diene-1-carbonyl-CoA + Acceptor
+EQUATION    C00512 + C00030 <=> C06322 + C00028
+COMMENT     benzoyl-CoA reductase
+RCLASS      RC01839  C00512_C06322
+ENZYME      1.3.-.-
+PATHWAY     rn00362  Benzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00541  Benzoyl-CoA degradation, benzoyl-CoA => 3-hydroxypimeloyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.-  Acting on the CH-CH group of donors
+                1.3.-.-
+                 R10961  Benzoyl-CoA + Reduced acceptor <=> Cyclohexa-1,5-diene-1-carbonyl-CoA + Acceptor
+ORTHOLOGY   K19515  benzoyl-CoA reductase subunit BamB [EC:1.3.-.-]
+            K19516  benzoyl-CoA reductase subunit BamC [EC:1.3.-.-]
+///

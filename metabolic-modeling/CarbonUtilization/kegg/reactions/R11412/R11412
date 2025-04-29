@@ -1,0 +1,17 @@
+ENTRY       R11412                      Reaction
+DEFINITION  Acetyl-CoA + 3 Malonyl-CoA + Acyl-carrier protein <=> Orsellinate-[acp] + 4 CoA + 3 CO2 + H2O
+EQUATION    C00024 + 3 C00083 + C00229 <=> C21343 + 4 C00010 + 3 C00011 + C00001
+ENZYME      2.3.1.-
+PATHWAY     rn01059  Biosynthesis of enediyne antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00833  Calicheamicin biosynthesis, calicheamicinone => calicheamicin
+            M00834  Calicheamicin orsellinate moiety biosynthesis, malonyl-CoA => orsellinate-ACP => 5-iodo-2,3-dimethoxyorsellinate-ACP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.-
+                 R11412  Acetyl-CoA + 3 Malonyl-CoA + Acyl-carrier protein <=> Orsellinate-[acp] + 4 CoA + 3 CO2 + H2O
+ORTHOLOGY   K21254  orsellinic acid synthase [EC:2.3.1.-]
+///

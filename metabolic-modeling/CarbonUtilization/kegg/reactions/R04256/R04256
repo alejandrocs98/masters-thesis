@@ -1,0 +1,16 @@
+ENTRY       R04256                      Reaction
+NAME        (7E,9E,11Z,14Z)-(5S,6R)-6-(cystein-S-yl)-5-hydroxyicosa-7,9,11,14-tetraenoate,NADPH:oxygen oxidoreductase (20-hydroxylating)
+DEFINITION  Leukotriene E4 + Oxygen + NADPH + H+ <=> 20-Hydroxyleukotriene E4 + NADP+ + H2O
+EQUATION    C05952 + C00007 + C00005 + C00080 <=> C03577 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00797  C03577_C05952
+ENZYME      1.14.13.34
+PATHWAY     rn00590  Arachidonic acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.34
+                 R04256  Leukotriene E4 + Oxygen + NADPH + H+ <=> 20-Hydroxyleukotriene E4 + NADP+ + H2O
+DBLINKS     RHEA: 24123
+///

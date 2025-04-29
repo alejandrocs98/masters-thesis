@@ -1,0 +1,17 @@
+ENTRY       R00211                      Reaction
+NAME        pyruvate:oxygen 2-oxidoreductase (CoA-acetylating)
+DEFINITION  Pyruvate + CoA + Oxygen <=> Hydrogen peroxide + Acetyl-CoA + CO2
+EQUATION    C00022 + C00010 + C00007 <=> C00027 + C00024 + C00011
+RCLASS      RC00004  C00010_C00024
+            RC02742  C00022_C00024
+            RC02755  C00007_C00027
+ENZYME      1.2.3.6
+PATHWAY     rn00620  Pyruvate metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.3  With oxygen as acceptor
+                1.2.3.6
+                 R00211  Pyruvate + CoA + Oxygen <=> Hydrogen peroxide + Acetyl-CoA + CO2
+DBLINKS     RHEA: 21915
+///

@@ -1,0 +1,17 @@
+ENTRY       R03278                      Reaction
+NAME        2-hydroxycyclohexan-1-one:NAD+ oxidoreductase
+DEFINITION  2-Hydroxycyclohexan-1-one + NAD+ <=> Cyclohexane-1,2-dione + NADH + H+
+EQUATION    C01147 + C00003 <=> C06105 + C00004 + C00080
+COMMENT     trans-cyclohexane-1,2-diol:NAD+ 1-oxidoreductase
+RCLASS      RC00001  C00003_C00004
+            RC00897  C01147_C06105
+ENZYME      1.1.1.174
+PATHWAY     rn00930  Caprolactam degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.174
+                 R03278  2-Hydroxycyclohexan-1-one + NAD+ <=> Cyclohexane-1,2-dione + NADH + H+
+///

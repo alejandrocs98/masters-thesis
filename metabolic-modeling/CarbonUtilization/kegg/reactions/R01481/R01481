@@ -1,0 +1,24 @@
+ENTRY       R01481                      Reaction
+NAME        L-gulonate:NADP+ 6-oxidoreductase
+DEFINITION  L-Gulonate + NADP+ <=> D-Glucuronate + NADPH + H+
+EQUATION    C00800 + C00006 <=> C00191 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00108  C00191_C00800
+ENZYME      1.1.1.2         1.1.1.19
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn00053  Ascorbate and aldarate metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00014  Glucuronate pathway (uronate pathway)
+            M00129  Ascorbate biosynthesis, animals, glucose-1P => ascorbate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.2
+                 R01481  L-Gulonate + NADP+ <=> D-Glucuronate + NADPH + H+
+                1.1.1.19
+                 R01481  L-Gulonate + NADP+ <=> D-Glucuronate + NADPH + H+
+ORTHOLOGY   K00002  alcohol dehydrogenase (NADP+) [EC:1.1.1.2]
+DBLINKS     RHEA: 14912
+///

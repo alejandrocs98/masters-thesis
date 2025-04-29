@@ -1,0 +1,26 @@
+ENTRY       R07407                      Reaction
+NAME        L-aspartate:NADP+ oxidoreductase (deaminating)
+DEFINITION  L-Aspartate + NADP+ <=> Iminoaspartate + NADPH + H+
+EQUATION    C00049 + C00006 <=> C05840 + C00005 + C00080
+COMMENT     the first step of two-step reaction (see R07165, R07407+R13023)
+RCLASS      RC00001  C00005_C00006
+            RC02566  C00049_C05840
+ENZYME      1.4.1.21
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00115  NAD biosynthesis, aspartate => quinolinate => NAD
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.1  With NAD+ or NADP+ as acceptor
+                1.4.1.21
+                 R07407  L-Aspartate + NADP+ <=> Iminoaspartate + NADPH + H+
+ORTHOLOGY   K06989  aspartate dehydrogenase [EC:1.4.1.21]
+REFERENCE   1  [PMID:12496312]
+  AUTHORS   Yang Z, Savchenko A, Yakunin A, Zhang R, Edwards A, Arrowsmith C, Tong L
+  TITLE     Aspartate dehydrogenase, a novel enzyme identified from structural and functional studies of TM1643.
+  JOURNAL   J Biol Chem 278:8804-8 (2003)
+            DOI:10.1074/jbc.M211892200
+DBLINKS     RHEA: 42447
+///

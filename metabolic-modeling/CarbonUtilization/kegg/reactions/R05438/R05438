@@ -1,0 +1,16 @@
+ENTRY       R05438                      Reaction
+DEFINITION  2 2-Indanone + Oxygen + 2 NADPH + 2 H+ <=> 2 3-Isochromanone + 2 NADP+
+EQUATION    2 C07727 + C00007 + 2 C00005 + 2 C00080 <=> 2 C07728 + 2 C00006
+COMMENT     2-indanone monooxygenase
+            NADH (see R05437)
+RCLASS      RC00001  C00005_C00006
+            RC00278  C07727_C07728
+ENZYME      1.14.12.-
+PATHWAY     rn00624  Polycyclic aromatic hydrocarbon degradation
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.12  With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into the other donor
+                1.14.12.-
+                 R05438  2 2-Indanone + Oxygen + 2 NADPH + 2 H+ <=> 2 3-Isochromanone + 2 NADP+
+///

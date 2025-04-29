@@ -1,0 +1,10 @@
+ENTRY       R01410                      Reaction
+DEFINITION  Hydrogen cyanide + Acetaldehyde + Ammonia <=> alpha-Aminopropiononitrile + H2O
+EQUATION    C01326 + C00084 + C00014 <=> C05714 + C00001
+COMMENT     multi-step reaction
+            possibly intermediate (Schiff base)
+RCLASS      RC00598  C01326_C05714
+            RC02305  C00084_C05714
+PATHWAY     rn00460  Cyanoamino acid metabolism
+            rn01100  Metabolic pathways
+///

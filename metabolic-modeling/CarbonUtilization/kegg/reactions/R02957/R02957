@@ -1,0 +1,21 @@
+ENTRY       R02957                      Reaction
+NAME        D-glucuronolactone:NAD+ oxidoreductase
+DEFINITION  D-Glucuronolactone + NAD+ + 2 H2O <=> D-Glucarate + NADH + H+
+EQUATION    C02670 + C00003 + 2 C00001 <=> C00818 + C00004 + C00080
+COMMENT     multi-step reaction
+RCLASS      RC00001  C00003_C00004
+            RC00816  C00818_C02670
+ENZYME      1.2.1.3
+PATHWAY     rn00053  Ascorbate and aldarate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.3
+                 R02957  D-Glucuronolactone + NAD+ + 2 H2O <=> D-Glucarate + NADH + H+
+ORTHOLOGY   K00128  aldehyde dehydrogenase (NAD+) [EC:1.2.1.3]
+            K00149  aldehyde dehydrogenase family 9 member A1 [EC:1.2.1.47 1.2.1.3]
+            K14085  aldehyde dehydrogenase family 7 member A1 [EC:1.2.1.31 1.2.1.8 1.2.1.3]
+DBLINKS     RHEA: 30886
+///

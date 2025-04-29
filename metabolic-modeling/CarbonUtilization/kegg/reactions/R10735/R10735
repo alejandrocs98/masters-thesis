@@ -1,0 +1,23 @@
+ENTRY       R10735                      Reaction
+NAME        OA-6129-A,2-oxoglutarate:oxygen oxidoreductase (8-hydroxylating)
+DEFINITION  OA-6129 A + 2-Oxoglutarate + Oxygen <=> OA-6129 B2 + Succinate + CO2
+EQUATION    C20813 + C00026 + C00007 <=> C17374 + C00042 + C00011
+COMMENT     proposed pathway
+            not yet characterized sufficiently
+RCLASS      RC01525  C17374_C20813
+ENZYME      1.14.20.-
+PATHWAY     rn00332  Carbapenem biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.20  With 2-oxoglutarate as one donor, and the other dehydrogenated
+                1.14.20.-
+                 R10735  OA-6129 A + 2-Oxoglutarate + Oxygen <=> OA-6129 B2 + Succinate + CO2
+ORTHOLOGY   K18562  2-oxoglutarate-dependent dioxygenase [EC:1.14.20.-]
+REFERENCE   1  [PMID:24420617]
+  AUTHORS   Li R, Lloyd EP, Moshos KA, Townsend CA
+  TITLE     Identification and characterization of the carbapenem MM 4550 and its gene cluster in Streptomyces argenteolus ATCC 11009.
+  JOURNAL   Chembiochem 15:320-31 (2014)
+            DOI:10.1002/cbic.201300319
+///

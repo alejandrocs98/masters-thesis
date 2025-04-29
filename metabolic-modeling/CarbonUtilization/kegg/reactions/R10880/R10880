@@ -1,0 +1,29 @@
+ENTRY       R10880                      Reaction
+DEFINITION  5 ATP + 3 L-4-Hydroxyphenylglycine + L-Arginine + L-Serine + H2O <=> 5 AMP + 5 Diphosphate + Nocardicin G + L-4-Hydroxyphenylglycyl-L-arginine
+EQUATION    5 C00002 + 3 C12323 + C00062 + C00065 + C00001 <=> 5 C00020 + 5 C00013 + C17355 + C20910
+COMMENT     nocardicin nonribosomal peptide synthetase
+            (1) 3 L-pHPG + L-Arg + L-Ser + 5 ATP <=> Pro-nocardicin G + 5 AMP + 5 Diphosphate
+            (2) Pro-nocardicin G + H2O <=> Nocardicin G + L-pHPG-L-Arg
+RCLASS      RC00064  C00062_C20910
+            RC00141  C12323_C20910
+            RC03296  C12323_C17355
+            RC03297  C12323_C17355
+            RC03298  C00065_C17355
+PATHWAY     rn00261  Monobactam biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00736  Nocardicin A biosynthesis, L-pHPG + arginine + serine => nocardicin A
+ORTHOLOGY   K05375  MbtH protein
+            K19102  nocardicin nonribosomal peptide synthetase NocA
+            K19103  nocardicin nonribosomal peptide synthetase NocB
+REFERENCE   1  [PMID:25624104]
+  AUTHORS   Gaudelli NM, Long DH, Townsend CA
+  TITLE     beta-Lactam formation by a non-ribosomal peptide synthetase during antibiotic biosynthesis.
+  JOURNAL   Nature 520:383-7 (2015)
+            DOI:10.1038/nature14100
+REFERENCE   2  [PMID:24531841]
+  AUTHORS   Gaudelli NM, Townsend CA
+  TITLE     Epimerization and substrate gating by a TE domain in beta-lactam antibiotic biosynthesis.
+  JOURNAL   Nat Chem Biol 10:251-8 (2014)
+            DOI:10.1038/nchembio.1456
+///

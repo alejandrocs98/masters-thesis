@@ -1,0 +1,23 @@
+ENTRY       R00513                      Reaction
+NAME        ATP:cytidine 5'-phosphotransferase
+DEFINITION  ATP + Cytidine <=> ADP + CMP
+EQUATION    C00002 + C00475 <=> C00008 + C00055
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00055_C00475
+ENZYME      2.7.1.48        2.7.1.213
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.48
+                 R00513  ATP + Cytidine <=> ADP + CMP
+                2.7.1.213
+                 R00513  ATP + Cytidine <=> ADP + CMP
+ORTHOLOGY   K00876  uridine kinase [EC:2.7.1.48]
+            K21057  cytidine kinase [EC:2.7.1.213]
+            K22026  nucleoside kinase [EC:2.7.1.73 2.7.1.213 2.7.1.-]
+DBLINKS     RHEA: 24677
+///

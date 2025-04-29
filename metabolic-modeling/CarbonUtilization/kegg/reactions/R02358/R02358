@@ -1,0 +1,21 @@
+ENTRY       R02358                      Reaction
+NAME        UDPglucuronate beta-D-glucuronosyltransferase(acceptor-unspecific)
+DEFINITION  Estrone + UDP-glucuronate <=> Estrone glucuronide + UDP
+EQUATION    C00468 + C00167 <=> C11133 + C00015
+RCLASS      RC00005  C00015_C00167
+            RC00171  C00468_C11133
+ENZYME      2.4.1.17
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.17
+                 R02358  Estrone + UDP-glucuronate <=> Estrone glucuronide + UDP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.1.17
+               R09428  Acceptor <=> Acceptor beta-D-glucuronoside
+                R02358  Estrone <=> Estrone glucuronide
+ORTHOLOGY   K00699  glucuronosyltransferase [EC:2.4.1.17]
+///

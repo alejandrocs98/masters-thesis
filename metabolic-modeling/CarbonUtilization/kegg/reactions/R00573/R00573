@@ -1,0 +1,23 @@
+ENTRY       R00573                      Reaction
+NAME        UTP:L-glutamine amido-ligase (ADP-forming)
+DEFINITION  ATP + UTP + L-Glutamine + H2O <=> ADP + Orthophosphate + CTP + L-Glutamate
+EQUATION    C00002 + C00075 + C00064 + C00001 <=> C00008 + C00009 + C00063 + C00025
+COMMENT     two-step reaction (see R00256+R00571)
+RCLASS      RC00002  C00002_C00008
+            RC00010  C00025_C00064
+            RC00074  C00063_C00075
+ENZYME      6.3.4.2
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+            rn01240  Biosynthesis of cofactors
+MODULE      M00052  Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.4  Other carbon-nitrogen ligases
+                6.3.4.2
+                 R00573  ATP + UTP + L-Glutamine + H2O <=> ADP + Orthophosphate + CTP + L-Glutamate
+ORTHOLOGY   K01937  CTP synthase [EC:6.3.4.2]
+DBLINKS     RHEA: 26429
+///

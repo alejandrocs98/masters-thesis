@@ -1,0 +1,21 @@
+ENTRY       R00590                      Reaction
+NAME        L-serine hydro-lyase
+DEFINITION  L-Serine <=> Dehydroalanine + H2O
+EQUATION    C00065 <=> C02218 + C00001
+COMMENT     a part of multi-step reaction
+            ec 4.3.1.17 (see R00220, R00590+R08698)
+            unclear reaction (see R00590+R08699)
+RCLASS      RC00331  C00065_C02218
+ENZYME      4.3.1.17
+PATHWAY     rn00270  Cysteine and methionine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.3  Carbon-nitrogen lyases
+               4.3.1  Ammonia-lyases
+                4.3.1.17
+                 R00590  L-Serine <=> Dehydroalanine + H2O
+ORTHOLOGY   K01752  L-serine dehydratase [EC:4.3.1.17]
+            K17989  L-serine/L-threonine ammonia-lyase [EC:4.3.1.17 4.3.1.19]
+DBLINKS     RHEA: 40666
+///

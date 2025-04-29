@@ -1,0 +1,17 @@
+ENTRY       R11007                      Reaction
+NAME        cholesterol,NADH:oxygen oxidoreductase (7,8 dehydrogenating)
+DEFINITION  Cholesterol + Oxygen + NADH + H+ <=> 7-Dehydrocholesterol + NAD+ + 2 H2O
+EQUATION    C00187 + C00007 + C00004 + C00080 <=> C01164 + C00003 + 2 C00001
+RCLASS      RC00001  C00003_C00004
+            RC00138  C00187_C01164
+ENZYME      1.14.19.21
+PATHWAY     rn00981  Insect hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.21
+                 R11007  Cholesterol + Oxygen + NADH + H+ <=> 7-Dehydrocholesterol + NAD+ + 2 H2O
+ORTHOLOGY   K14938  cholesterol 7-desaturase [EC:1.14.19.21]
+DBLINKS     RHEA: 51647
+///

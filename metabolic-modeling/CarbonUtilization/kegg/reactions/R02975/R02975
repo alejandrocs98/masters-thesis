@@ -1,0 +1,36 @@
+ENTRY       R02975                      Reaction
+NAME        7,8-dihydrobiopterin:NADP+ oxidoreductase
+DEFINITION  7,8-Dihydrobiopterin + NADP+ <=> Sepiapterin + NADPH + H+
+EQUATION    C02953 + C00006 <=> C00835 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00823  C00835_C02953
+ENZYME      1.1.1.153       1.1.1.184
+PATHWAY     rn00790  Folate biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.153
+                 R02975  7,8-Dihydrobiopterin + NADP+ <=> Sepiapterin + NADPH + H+
+                1.1.1.184
+                 R02975  7,8-Dihydrobiopterin + NADP+ <=> Sepiapterin + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.184
+               R03557  Secondary alcohol <=> Ketone
+                R02975  7,8-Dihydrobiopterin <=> Sepiapterin
+ORTHOLOGY   K00072  sepiapterin reductase [EC:1.1.1.153]
+            K00079  carbonyl reductase 1 [EC:1.1.1.184 1.1.1.189 1.1.1.197]
+REFERENCE   1  [PMID:1902669]
+  AUTHORS   Park YS, Heizmann CW, Wermuth B, Levine RA, Steinerstauch P, Guzman J, Blau N
+  TITLE     Human carbonyl and aldose reductases: new catalytic functions in tetrahydrobiopterin biosynthesis.
+  JOURNAL   Biochem Biophys Res Commun 175:738-44 (1991)
+            DOI:10.1016/0006-291X(91)91628-P
+REFERENCE   2  [PMID:12893295]
+  AUTHORS   Iino T, Tabata M, Takikawa S, Sawada H, Shintaku H, Ishikura S, Hara A
+  TITLE     Tetrahydrobiopterin is synthesized from 6-pyruvoyl-tetrahydropterin by the human aldo-keto reductase AKR1 family members.
+  JOURNAL   Arch Biochem Biophys 416:180-7 (2003)
+            DOI:10.1016/S0003-9861(03)00295-9
+DBLINKS     RHEA: 18956
+///

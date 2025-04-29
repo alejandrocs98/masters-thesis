@@ -1,0 +1,24 @@
+ENTRY       R01630                      Reaction
+NAME        protocatechuate,NADPH:oxygen oxidoreductase (1-hydroxylating, decarboxylating)
+DEFINITION  3,4-Dihydroxybenzoate + Oxygen + NADPH + H+ <=> Benzene-1,2,4-triol + CO2 + NADP+ + H2O
+EQUATION    C00230 + C00007 + C00005 + C00080 <=> C02814 + C00011 + C00006 + C00001
+COMMENT     NADH (see R01629)
+RCLASS      RC00001  C00005_C00006
+            RC00115  C00230_C02814
+ENZYME      1.14.13.64
+PATHWAY     rn00362  Benzoate degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.64
+                 R01630  3,4-Dihydroxybenzoate + Oxygen + NADPH + H+ <=> Benzene-1,2,4-triol + CO2 + NADP+ + H2O
+REFERENCE   1  [PMID:9352916]
+  AUTHORS   Eppink MH, Boeren SA, Vervoort J, van Berkel WJ.
+  TITLE     Purification and properties of 4-hydroxybenzoate 1-hydroxylase (decarboxylating), a novel flavin adenine dinucleotide-dependent monooxygenase from Candida parapsilosis CBS604.
+  JOURNAL   J Bacteriol 179:6680-7 (1997)
+            DOI:10.1128/JB.179.21.6680-6687.1997
+DBLINKS     RHEA: 30042
+///

@@ -1,0 +1,28 @@
+ENTRY       R00921                      Reaction
+NAME        propanoyl-CoA:phosphate propanoyltransferase
+DEFINITION  Propanoyl-CoA + Orthophosphate <=> Propanoyl phosphate + CoA
+EQUATION    C00100 + C00009 <=> C02876 + C00010
+RCLASS      RC00004  C00010_C00100
+            RC02816  C00100_C02876
+ENZYME      2.3.1.8         2.3.1.222
+PATHWAY     rn00640  Propanoate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.8
+                 R00921  Propanoyl-CoA + Orthophosphate <=> Propanoyl phosphate + CoA
+                2.3.1.222
+                 R00921  Propanoyl-CoA + Orthophosphate <=> Propanoyl phosphate + CoA
+ORTHOLOGY   K00625  phosphate acetyltransferase [EC:2.3.1.8]
+            K13788  phosphate acetyltransferase [EC:2.3.1.8]
+            K13923  phosphate propanoyltransferase [EC:2.3.1.222]
+            K15024  putative phosphotransacetylase [EC:2.3.1.8]
+REFERENCE   1  [PMID:9484901]
+  AUTHORS   Hesslinger C, Fairhurst SA, Sawers G
+  TITLE     Novel keto acid formate-lyase and propionate kinase enzymes are components of an anaerobic pathway in Escherichia coli that degrades L-threonine to propionate.
+  JOURNAL   Mol Microbiol 27:477-92 (1998)
+            DOI:10.1046/j.1365-2958.1998.00696.x
+DBLINKS     RHEA: 28049
+///

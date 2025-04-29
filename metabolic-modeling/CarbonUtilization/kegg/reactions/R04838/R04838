@@ -1,0 +1,21 @@
+ENTRY       R04838                      Reaction
+NAME        tetrahydrocorticosterone:NADP+ oxidoreductase (B-specific)
+DEFINITION  Tetrahydrocorticosterone + NADP+ <=> 11beta,21-Dihydroxy-5beta-pregnane-3,20-dione + NADPH + H+
+EQUATION    C05476 + C00006 <=> C05475 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00144  C05475_C05476
+ENZYME      1.1.1.50
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.50
+                 R04838  Tetrahydrocorticosterone + NADP+ <=> 11beta,21-Dihydroxy-5beta-pregnane-3,20-dione + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.50
+               R10423  3alpha-Hydroxysteroid <=> 3-Oxosteroid
+                R04838  Tetrahydrocorticosterone <=> 11beta,21-Dihydroxy-5beta-pregnane-3,20-dione
+ORTHOLOGY   K00037  3alpha-hydroxysteroid 3-dehydrogenase / chlordecone reductase [EC:1.1.1.50 1.1.1.357 1.1.1.225]
+///

@@ -1,0 +1,20 @@
+ENTRY       R01926                      Reaction
+NAME        ATP:sphingosine 1-phosphotransferase;
+            sphingosine kinase
+DEFINITION  Sphingosine + ATP <=> Sphingosine 1-phosphate + ADP
+EQUATION    C00319 + C00002 <=> C06124 + C00008
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00319_C06124
+ENZYME      2.7.1.91
+PATHWAY     rn00600  Sphingolipid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00100  Sphingosine degradation
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.91
+                 R01926  Sphingosine + ATP <=> Sphingosine 1-phosphate + ADP
+ORTHOLOGY   K04718  sphingosine kinase [EC:2.7.1.91]
+DBLINKS     RHEA: 35850
+///

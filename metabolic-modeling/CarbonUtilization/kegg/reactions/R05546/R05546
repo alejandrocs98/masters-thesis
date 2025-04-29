@@ -1,0 +1,15 @@
+ENTRY       R05546                      Reaction
+DEFINITION  2-Amino-5-oxocyclohex-1-enecarbonyl-CoA + 2 H2O <=> 1,4-Cyclohexanedione + Ammonia + CO2 + CoA
+EQUATION    C05165 + 2 C00001 <=> C08063 + C00014 + C00011 + C00010
+COMMENT     non-enzymatic
+            following after R03998 or R03999 (ec 1.14.13.40)
+RCLASS      RC00004  C00010_C05165
+            RC01417  C05165_C08063
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+REFERENCE   1  [PMID:2384085]
+  AUTHORS   Langkau B, Ghisla S, Buder R, Ziegler K, Fuchs G.
+  TITLE     2-Aminobenzoyl-CoA monooxygenase/reductase, a novel type of flavoenzyme. Identification of the reaction products.
+  JOURNAL   Eur J Biochem 191:365-71 (1990)
+            DOI:10.1111/j.1432-1033.1990.tb19131.x
+///

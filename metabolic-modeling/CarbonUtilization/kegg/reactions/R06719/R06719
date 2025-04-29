@@ -1,0 +1,20 @@
+ENTRY       R06719                      Reaction
+NAME        S-adenosyl-L-methionine:premithramycin-A3' C-methyltransferase
+DEFINITION  Premithramycin A3' + S-Adenosyl-L-methionine <=> Premithramycin A3 + S-Adenosyl-L-homocysteine
+EQUATION    C12386 + C00019 <=> C12387 + C00021
+COMMENT     C-methyltransferase, mtmMII
+RCLASS      RC00003  C00019_C00021
+            RC01662  C12386_C12387
+ENZYME      2.1.1.-
+PATHWAY     rn01057  Biosynthesis of type II polyketide products
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00782  Mithramycin biosynthesis, 4-demethylpremithramycinone => mithramycin
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.-
+                 R06719  Premithramycin A3' + S-Adenosyl-L-methionine <=> Premithramycin A3 + S-Adenosyl-L-homocysteine
+ORTHOLOGY   K15963  C-methyltransferase [EC:2.1.1.-]
+///

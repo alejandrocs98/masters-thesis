@@ -1,0 +1,38 @@
+ENTRY       R02382                      Reaction
+NAME        tyramine:oxygen oxidoreductase(deaminating)(flavin-containing)
+DEFINITION  Tyramine + H2O + Oxygen <=> 4-Hydroxyphenylacetaldehyde + Ammonia + Hydrogen peroxide
+EQUATION    C00483 + C00001 + C00007 <=> C03765 + C00014 + C00027
+RCLASS      RC00062  C00483_C03765
+            RC02755  C00007_C00027
+ENZYME      1.4.3.4         1.4.3.21        1.4.3.-         1.4.9.2
+PATHWAY     rn00350  Tyrosine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.4
+                 R02382  Tyramine + H2O + Oxygen <=> 4-Hydroxyphenylacetaldehyde + Ammonia + Hydrogen peroxide
+                1.4.3.21
+                 R02382  Tyramine + H2O + Oxygen <=> 4-Hydroxyphenylacetaldehyde + Ammonia + Hydrogen peroxide
+                1.4.3.-
+                 R02382  Tyramine + H2O + Oxygen <=> 4-Hydroxyphenylacetaldehyde + Ammonia + Hydrogen peroxide
+               1.4.9  With a copper protein as acceptor
+                1.4.9.2
+                 R02382  Tyramine + H2O + Oxygen <=> 4-Hydroxyphenylacetaldehyde + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.4
+               R11354  RCH2NHR' <=> Aldehyde
+                R02382  Tyramine <=> 4-Hydroxyphenylacetaldehyde
+              1.4.3.21
+               R01853  RCH2NH2 <=> Aldehyde
+                R02382  Tyramine <=> 4-Hydroxyphenylacetaldehyde
+ORTHOLOGY   K00274  monoamine oxidase [EC:1.4.3.4]
+            K00276  primary-amine oxidase [EC:1.4.3.21]
+            K13371  aralkylamine dehydrogenase light chain [EC:1.4.9.2]
+            K13372  aralkylamine dehydrogenase heavy chain [EC:1.4.9.2]
+            K25271  tyramine oxidase subunit A [EC:1.4.3.-]
+            K25272  tyramine oxidase subunit B [EC:1.4.3.-]
+DBLINKS     RHEA: 30594
+///

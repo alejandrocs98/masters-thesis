@@ -1,0 +1,19 @@
+ENTRY       R09517                      Reaction
+NAME        anthranilate,FAD:oxygen oxidoreductase (3-hydroxylating)
+DEFINITION  Anthranilate + FADH2 + Oxygen <=> 3-Hydroxyanthranilate + FAD + H2O
+EQUATION    C00108 + C01352 + C00007 <=> C00632 + C00016 + C00001
+RCLASS      RC00046  C00108_C00632
+            RC00126  C00016_C01352
+ENZYME      1.14.14.8
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.8
+                 R09517  Anthranilate + FADH2 + Oxygen <=> 3-Hydroxyanthranilate + FAD + H2O
+ORTHOLOGY   K16901  anthranilate 3-monooxygenase (FAD) / 4-hydroxyphenylacetate 3-monooxygenase [EC:1.14.14.8 1.14.14.9]
+            K16902  FAD reductase [NAD(P)H] [EC:1.5.1.45]
+DBLINKS     RHEA: 27549
+///

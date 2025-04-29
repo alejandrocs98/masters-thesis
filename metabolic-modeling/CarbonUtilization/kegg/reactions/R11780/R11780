@@ -1,0 +1,22 @@
+ENTRY       R11780                      Reaction
+NAME        S-adenosyl-L-methionine:8-demethyl-8-(methylamino)riboflavin N-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + 8-Demethyl-8-(methylamino)riboflavin <=> S-Adenosyl-L-homocysteine + Roseoflavin
+EQUATION    C00019 + C21648 <=> C00021 + C21647
+COMMENT     second step of two-step reaction (see R11778, R11779+R11780)
+            following after R11779
+RCLASS      RC00003  C00019_C00021
+            RC01451  C21647_C21648
+ENZYME      2.1.1.343
+PATHWAY     rn00998  Biosynthesis of various antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00890  Roseoflavin biosynthesis, FMN => roseoflavin
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.343
+                 R11780  S-Adenosyl-L-methionine + 8-Demethyl-8-(methylamino)riboflavin <=> S-Adenosyl-L-homocysteine + Roseoflavin
+ORTHOLOGY   K22269  8-amino-8-demethylriboflavin N,N-dimethyltransferase [EC:2.1.1.343]
+DBLINKS     RHEA: 53423
+///

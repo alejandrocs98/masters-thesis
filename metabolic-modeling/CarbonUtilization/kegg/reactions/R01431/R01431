@@ -1,0 +1,29 @@
+ENTRY       R01431                      Reaction
+NAME        xylitol:NADP+ oxidoreductase
+DEFINITION  Xylitol + NADP+ <=> D-Xylose + NADPH + H+
+EQUATION    C00379 + C00006 <=> C00181 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00133  C00181_C00379
+ENZYME      1.1.1.21        1.1.1.307       1.1.1.431
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.21
+                 R01431  Xylitol + NADP+ <=> D-Xylose + NADPH + H+
+                1.1.1.307
+                 R01431  Xylitol + NADP+ <=> D-Xylose + NADPH + H+
+                1.1.1.431
+                 R01431  Xylitol + NADP+ <=> D-Xylose + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.21
+               R02820  Alditol <=> Aldose
+                R01431  Xylitol <=> D-Xylose
+ORTHOLOGY   K00011  aldehyde reductase [EC:1.1.1.21]
+            K17743  D-xylose reductase [EC:1.1.1.307 1.1.1.430 1.1.1.431]
+            K26066  D-xylose/L-arabinose reductase (NADPH) [EC:1.1.1.431 1.1.1.-]
+DBLINKS     RHEA: 27448
+///

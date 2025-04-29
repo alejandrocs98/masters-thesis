@@ -1,0 +1,25 @@
+ENTRY       R00569                      Reaction
+NAME        CTP phosphohydrolase
+DEFINITION  CTP + H2O <=> CDP + Orthophosphate
+EQUATION    C00063 + C00001 <=> C00112 + C00009
+RCLASS      RC00002  C00063_C00112
+ENZYME      3.6.1.5
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.5
+                 R00569  CTP + H2O <=> CDP + Orthophosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.6.1.5
+               R02319  Nucleoside triphosphate <=> NDP
+                R00569  CTP <=> CDP
+ORTHOLOGY   K01510  apyrase [EC:3.6.1.5]
+            K14641  apyrase [EC:3.6.1.5]
+            K14642  golgi apyrase [EC:3.6.1.5]
+DBLINKS     RHEA: 29390
+///

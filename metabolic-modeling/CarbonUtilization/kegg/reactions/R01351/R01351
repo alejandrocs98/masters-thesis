@@ -1,0 +1,21 @@
+ENTRY       R01351                      Reaction
+NAME        1-acylglycerol acylhydrolase
+DEFINITION  1-Acylglycerol + H2O <=> Glycerol + Fatty acid
+EQUATION    C01885 + C00001 <=> C00116 + C00162
+COMMENT     see R01352 (2-acyl type reaction)
+RCLASS      RC00020  C00162_C01885
+            RC00041  C00116_C01885
+ENZYME      3.1.1.23
+PATHWAY     rn00561  Glycerolipid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00098  Acylglycerol degradation
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.23
+                 R01351  1-Acylglycerol + H2O <=> Glycerol + Fatty acid
+ORTHOLOGY   K01054  acylglycerol lipase [EC:3.1.1.23]
+            K25824  abhydrolase domain-containing protein 16A [EC:3.1.1.23 3.1.-.-]
+DBLINKS     RHEA: 34022
+///

@@ -1,0 +1,28 @@
+ENTRY       R13050                      Reaction
+NAME        (S)-lactate:NAD+,ferredoxin oxidoreductase
+DEFINITION  (S)-Lactate + 2 NAD+ + 2 Reduced ferredoxin <=> Pyruvate + 2 NADH + 2 Oxidized ferredoxin
+EQUATION    C00186 + 2 C00003 + 2 C00138 <=> C00022 + 2 C00004 + 2 C00139
+RCLASS      RC00044  C00022_C00186
+ENZYME      1.1.1.436
+PATHWAY     rn00620  Pyruvate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.436
+                 R13050  (S)-Lactate + 2 NAD+ + 2 Reduced ferredoxin <=> Pyruvate + 2 NADH + 2 Oxidized ferredoxin
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.436
+               R11676  Lactate <=> Pyruvate
+                R13050  (S)-Lactate <=> Pyruvate
+ORTHOLOGY   K26113  lactate dehydrogenase (NAD+,ferredoxin) subunit LctD [EC:1.1.1.436]
+            K26114  lactate dehydrogenase (NAD+,ferredoxin) subunit LctC
+            K26115  lactate dehydrogenase (NAD+,ferredoxin) subunit LctB
+REFERENCE   1  [PMID:24762045]
+  AUTHORS   Weghoff MC, Bertsch J, Muller V
+  TITLE     A novel mode of lactate metabolism in strictly anaerobic bacteria.
+  JOURNAL   Environ Microbiol 17:670-7 (2015)
+            DOI:10.1111/1462-2920.12493
+///

@@ -1,0 +1,32 @@
+ENTRY       R10243                      Reaction
+DEFINITION  Tetrahydrofolate + Acetyl-CoA <=> 5-Methyltetrahydrofolate + CoA + CO
+EQUATION    C00101 + C00024 <=> C00440 + C00010 + C00237
+COMMENT     two-step reaction (see R08433+R02289)
+RCLASS      RC00004  C00010_C00024
+            RC00113  C00101_C00440
+            RC02963  C00024_C00237
+            RC02977  C00024_C00440
+ENZYME      2.1.1.258       2.3.1.169
+PATHWAY     rn00720  Carbon fixation pathways in prokaryotes
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00377  Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.258
+                 R10243  Tetrahydrofolate + Acetyl-CoA <=> 5-Methyltetrahydrofolate + CoA + CO
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.169
+                 R10243  Tetrahydrofolate + Acetyl-CoA <=> 5-Methyltetrahydrofolate + CoA + CO
+            Overall reaction [br08210.html]
+             Carbon fixation
+              R10243
+ORTHOLOGY   K00194  acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit delta [EC:2.1.1.245]
+            K00197  acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit gamma [EC:2.1.1.245]
+            K14138  acetyl-CoA synthase [EC:2.3.1.169]
+            K15023  5-methyltetrahydrofolate corrinoid/iron sulfur protein methyltransferase [EC:2.1.1.258]
+///

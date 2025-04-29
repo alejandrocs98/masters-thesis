@@ -1,0 +1,16 @@
+ENTRY       R08943                      Reaction
+NAME        pregnenolone,NADPH:oxygen oxidoreductase (7alpha-hydroxylating)
+DEFINITION  Pregnenolone + NADPH + H+ + Oxygen <=> 7alpha-Hydroxypregnenolone + NADP+ + H2O
+EQUATION    C01953 + C00005 + C00080 + C00007 <=> C18038 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00524  C01953_C18038
+ENZYME      1.14.14.29
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.29
+                 R08943  Pregnenolone + NADPH + H+ + Oxygen <=> 7alpha-Hydroxypregnenolone + NADP+ + H2O
+ORTHOLOGY   K07430  25/26-hydroxycholesterol 7alpha-hydroxylase [EC:1.14.14.29]
+///

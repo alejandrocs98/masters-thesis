@@ -1,0 +1,12 @@
+ENTRY       R05537                      Reaction
+DEFINITION  3-(2-Hydroxyphenyl)propanoate + ATP + CoA + FAD + NAD+ <=> Salicylate + AMP + Diphosphate + FADH2 + Acetyl-CoA + NADH + H+
+EQUATION    C01198 + C00002 + C00010 + C00016 + C00003 <=> C00805 + C00020 + C00013 + C01352 + C00024 + C00004 + C00080
+COMMENT     beta-oxidation
+            Ref.: 1. Applied and Environmental Microbiology, Mar. 1997, 819-826
+RCLASS      RC00001  C00003_C00004
+            RC00004  C00010_C00024
+            RC00126  C00016_C01352
+            RC01409  C00805_C01198
+PATHWAY     rn00624  Polycyclic aromatic hydrocarbon degradation
+            rn01120  Microbial metabolism in diverse environments
+///

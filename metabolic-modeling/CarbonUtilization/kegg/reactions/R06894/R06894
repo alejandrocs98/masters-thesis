@@ -1,0 +1,19 @@
+ENTRY       R06894                      Reaction
+DEFINITION  UDP-N-acetyl-D-galactosamine + 2 NAD+ + H2O <=> UDP-N-acetyl-D-galactosaminuronic acid + 2 NADH + 2 H+
+EQUATION    C00203 + 2 C00003 + C00001 <=> C13952 + 2 C00004 + 2 C00080
+COMMENT     UDP-N-acetyl-D-galactosamine dehydrogenase,WbpO
+RCLASS      RC00001  C00003_C00004
+            RC00291  C00203_C13952
+ENZYME      1.1.1.-
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  O-Antigen nucleotide sugar biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R06894  UDP-N-acetyl-D-galactosamine + 2 NAD+ + H2O <=> UDP-N-acetyl-D-galactosaminuronic acid + 2 NADH + 2 H+
+ORTHOLOGY   K02474  UDP-N-acetyl-D-glucosamine/UDP-N-acetyl-D-galactosamine dehydrogenase [EC:1.1.1.136 1.1.1.-]
+///

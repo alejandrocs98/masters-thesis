@@ -1,0 +1,68 @@
+ENTRY       R00238                      Reaction
+NAME        acetyl-CoA:acetyl-CoA C-acetyltransferase
+DEFINITION  2 Acetyl-CoA <=> CoA + Acetoacetyl-CoA
+EQUATION    2 C00024 <=> C00010 + C00332
+RCLASS      RC00004  C00010_C00024
+            RC00326  C00024_C00332
+ENZYME      2.3.1.9         2.3.1.16
+PATHWAY     rn00071  Fatty acid degradation
+            rn00280  Valine, leucine and isoleucine degradation
+            rn00310  Lysine degradation
+            rn00362  Benzoate degradation
+            rn00380  Tryptophan metabolism
+            rn00620  Pyruvate metabolism
+            rn00630  Glyoxylate and dicarboxylate metabolism
+            rn00650  Butanoate metabolism
+            rn00720  Carbon fixation pathways in prokaryotes
+            rn00900  Terpenoid backbone biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+            rn01212  Fatty acid metabolism
+MODULE      M00087  beta-Oxidation
+            M00088  Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone
+            M00095  C5 isoprenoid biosynthesis, mevalonate pathway
+            M00373  Ethylmalonyl pathway
+            M00374  Dicarboxylate-hydroxybutyrate cycle
+            M00375  Hydroxypropionate-hydroxybutylate cycle
+            M00849  C5 isoprenoid biosynthesis, mevalonate pathway, archaea
+            M00957  Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.9
+                 R00238  2 Acetyl-CoA <=> CoA + Acetoacetyl-CoA
+                2.3.1.16
+                 R00238  2 Acetyl-CoA <=> CoA + Acetoacetyl-CoA
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.16
+               R00391  Acyl-CoA <=> 3-Oxoacyl-CoA
+                R00238  Acetyl-CoA <=> Acetoacetyl-CoA
+            Overall reaction [br08210.html]
+             Carbon fixation
+              R00238
+ORTHOLOGY   K00626  acetyl-CoA C-acetyltransferase [EC:2.3.1.9]
+            K00632  acetyl-CoA acyltransferase [EC:2.3.1.16]
+            K07508  acetyl-CoA acyltransferase 2 [EC:2.3.1.16]
+            K07509  acetyl-CoA acyltransferase [EC:2.3.1.16]
+            K07513  acetyl-CoA acyltransferase 1 [EC:2.3.1.16]
+REFERENCE   1  [PMID:25478839]
+  AUTHORS   Kiema TR, Harijan RK, Strozyk M, Fukao T, Alexson SE, Wierenga RK.
+  TITLE     The crystal structure of human mitochondrial 3-ketoacyl-CoA thiolase (T1): insight into the reaction mechanism of its thiolase and thioesterase activities.
+  JOURNAL   Acta Crystallogr D Biol Crystallogr 70:3212-25 (2014)
+            DOI:10.1107/S1399004714023827
+REFERENCE   2  [PMID:12535077]
+  AUTHORS   Campbell JW, Morgan-Kiss RM, Cronan JE Jr
+  TITLE     A new Escherichia coli metabolic competency: growth on fatty acids by a novel anaerobic beta-oxidation pathway.
+  JOURNAL   Mol Microbiol 47:793-805 (2003)
+            DOI:10.1046/j.1365-2958.2003.03341.x
+REFERENCE   3  [PMID:22669882]
+  AUTHORS   Hu J, Baker A, Bartel B, Linka N, Mullen RT, Reumann S, Zolman BK.
+  TITLE     Plant peroxisomes: biogenesis and function.
+  JOURNAL   Plant Cell 24:2279-303 (2012)
+            DOI:10.1105/tpc.112.096586
+DBLINKS     RHEA: 21039
+///

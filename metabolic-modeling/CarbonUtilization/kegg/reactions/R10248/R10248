@@ -1,0 +1,23 @@
+ENTRY       R10248                      Reaction
+NAME        eugenol:NADP+ oxidoreductase (coniferyl ester reducing)
+DEFINITION  Coniferyl acetate + NADPH + H+ <=> Eugenol + NADP+ + Acetate
+EQUATION    C20225 + C00005 + C00080 <=> C10453 + C00006 + C00033
+RCLASS      RC00001  C00005_C00006
+            RC00020  C00033_C20225
+            RC02844  C10453_C20225
+ENZYME      1.1.1.318
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.318
+                 R10248  Coniferyl acetate + NADPH + H+ <=> Eugenol + NADP+ + Acetate
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.318
+               R09930  Carboxylate <=> Coniferyl ester
+                R10248  Acetate <=> Coniferyl acetate
+ORTHOLOGY   K17055  eugenol synthase [EC:1.1.1.318]
+DBLINKS     RHEA: 24693
+///

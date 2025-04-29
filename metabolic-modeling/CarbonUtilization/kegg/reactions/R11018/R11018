@@ -1,0 +1,19 @@
+ENTRY       R11018                      Reaction
+NAME        D-arginine:acceptor oxidoreductase (deaminating)
+DEFINITION  D-Arginine + Acceptor + H2O <=> 5-Guanidino-2-oxopentanoate + Ammonia + Reduced acceptor
+EQUATION    C00792 + C00028 + C00001 <=> C03771 + C00014 + C00030
+COMMENT     two-step reaction (see R11016+R11017)
+RCLASS      RC00006  C00792_C03771
+ENZYME      1.4.99.6
+PATHWAY     rn00470  D-Amino acid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00947  D-Arginine racemization, D-arginine => L-arginine
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.99  With unknown physiological acceptors
+                1.4.99.6
+                 R11018  D-Arginine + Acceptor + H2O <=> 5-Guanidino-2-oxopentanoate + Ammonia + Reduced acceptor
+ORTHOLOGY   K19746  D-arginine dehydrogenase [EC:1.4.99.6]
+DBLINKS     RHEA: 43575
+///

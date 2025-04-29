@@ -1,0 +1,25 @@
+ENTRY       R01117                      Reaction
+NAME        CTP:N-acetylneuraminate cytidylyltransferase
+DEFINITION  CTP + N-Acetylneuraminate <=> Diphosphate + CMP-N-acetylneuraminate
+EQUATION    C00063 + C00270 <=> C00013 + C00128
+RCLASS      RC00152  C00128_C00270
+ENZYME      2.7.7.43
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  O-Antigen nucleotide sugar biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00922  CMP-Neu5Ac biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.7  Nucleotidyltransferases
+                2.7.7.43
+                 R01117  CTP + N-Acetylneuraminate <=> Diphosphate + CMP-N-acetylneuraminate
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.7.43
+               R02599  N-Acylneuraminate <=> CMP-N-acylneuraminate
+                R01117  N-Acetylneuraminate <=> CMP-N-acetylneuraminate
+ORTHOLOGY   K00983  N-acylneuraminate cytidylyltransferase [EC:2.7.7.43]
+            K21749  N-acylneuraminate/3-deoxy-D-glycero-D-galacto-nononate cytidylyltransferase [EC:2.7.7.43 2.7.7.92]
+///

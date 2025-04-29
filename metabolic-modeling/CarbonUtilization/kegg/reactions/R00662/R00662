@@ -1,0 +1,29 @@
+ENTRY       R00662                      Reaction
+NAME        uridine triphosphate pyrophosphohydrolase
+DEFINITION  UTP + H2O <=> UMP + Diphosphate
+EQUATION    C00075 + C00001 <=> C00105 + C00013
+RCLASS      RC00002  C00075_C00105
+ENZYME      3.6.1.9         3.6.1.-
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.9
+                 R00662  UTP + H2O <=> UMP + Diphosphate
+                3.6.1.-
+                 R00662  UTP + H2O <=> UMP + Diphosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.6.1.9
+               R01532  Nucleoside triphosphate <=> Nucleotide
+                R00662  UTP <=> UMP
+ORTHOLOGY   K01513  ectonucleotide pyrophosphatase/phosphodiesterase family member 1/3 [EC:3.1.4.1 3.6.1.9]
+            K04765  nucleoside triphosphate diphosphatase [EC:3.6.1.9]
+            K06287  nucleoside triphosphate pyrophosphatase [EC:3.6.1.-]
+            K07043  UTP pyrophosphatase [EC:3.6.1.-]
+            K25435  putative bifunctional nucleoside triphosphate pyrophosphatase / methyltransferase [EC:3.6.1.- 2.1.1.-]
+DBLINKS     RHEA: 29398
+///

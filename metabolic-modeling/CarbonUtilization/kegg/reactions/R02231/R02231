@@ -1,0 +1,19 @@
+ENTRY       R02231                      Reaction
+NAME        cyclohexanone,NADPH:oxygen oxidoreductase (6-hydroxylating 1,2-lactonizing)
+DEFINITION  Cyclohexanone + Oxygen + NADPH + H+ <=> epsilon-Caprolactone + NADP+ + H2O
+EQUATION    C00414 + C00007 + C00005 + C00080 <=> C01880 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00662  C00414_C01880
+ENZYME      1.14.13.22
+PATHWAY     rn00930  Caprolactam degradation
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.22
+                 R02231  Cyclohexanone + Oxygen + NADPH + H+ <=> epsilon-Caprolactone + NADP+ + H2O
+ORTHOLOGY   K03379  cyclohexanone monooxygenase [EC:1.14.13.22]
+DBLINKS     RHEA: 24071
+///

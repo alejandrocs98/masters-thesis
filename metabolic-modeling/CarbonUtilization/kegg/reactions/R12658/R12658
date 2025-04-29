@@ -1,0 +1,20 @@
+ENTRY       R12658                      Reaction
+DEFINITION  2-Polyprenyl-6-methoxyphenol + Oxygen <=> 2-Methoxy-6-all-trans-polyprenyl-1,4-benzoquinol + H2O
+EQUATION    C17552 + C00007 <=> C19858 + C00001
+COMMENT     general reaction
+RCLASS      RC00490  C17552_C19858
+ENZYME      1.14.13.-
+PATHWAY     rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01240  Biosynthesis of cofactors
+MODULE      M00117  Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol
+            M00128  Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate + polyprenyl-PP => ubiquinol
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R12658  2-Polyprenyl-6-methoxyphenol + Oxygen <=> 2-Methoxy-6-all-trans-polyprenyl-1,4-benzoquinol + H2O
+ORTHOLOGY   K03185  2-octaprenyl-6-methoxyphenol hydroxylase [EC:1.14.13.-]
+///

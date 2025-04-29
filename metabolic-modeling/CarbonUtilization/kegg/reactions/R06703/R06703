@@ -1,0 +1,20 @@
+ENTRY       R06703                      Reaction
+NAME        S-adenosyl-L-methionine:tetracenomycin-E O-methyltransferase
+DEFINITION  Tetracenomycin E + S-Adenosyl-L-methionine <=> Tetracenomycin A2 + S-Adenosyl-L-homocysteine
+EQUATION    C12370 + C00019 <=> C12371 + C00021
+COMMENT     O-methyltransferase, tcmP
+RCLASS      RC00003  C00019_C00021
+            RC00460  C12370_C12371
+ENZYME      2.1.1.-
+PATHWAY     rn01057  Biosynthesis of type II polyketide products
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00783  Tetracenomycin C/8-demethyltetracenomycin C biosynthesis, tetracenomycin F2 => tetracenomycin C/8-demethyltetracenomycin C
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.-
+                 R06703  Tetracenomycin E + S-Adenosyl-L-methionine <=> Tetracenomycin A2 + S-Adenosyl-L-homocysteine
+ORTHOLOGY   K15971  O-methyltransferase [EC:2.1.1.-]
+///

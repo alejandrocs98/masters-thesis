@@ -1,0 +1,22 @@
+ENTRY       R02078                      Reaction
+NAME        L-tyrosine,L-dopa:oxygen oxidoreductase
+DEFINITION  3,4-Dihydroxy-L-phenylalanine + L-Tyrosine + Oxygen <=> Dopaquinone + 3,4-Dihydroxy-L-phenylalanine + H2O
+EQUATION    C00355 + C00082 + C00007 <=> C00822 + C00355 + C00001
+RCLASS      RC00046  C00082_C00355
+            RC00180  C00355_C00822
+ENZYME      1.10.3.1        1.14.18.1
+PATHWAY     rn00350  Tyrosine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.10  Acting on diphenols and related substances as donors
+               1.10.3  With oxygen as acceptor
+                1.10.3.1
+                 R02078  3,4-Dihydroxy-L-phenylalanine + L-Tyrosine + Oxygen <=> Dopaquinone + 3,4-Dihydroxy-L-phenylalanine + H2O
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.18  With another compound as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.18.1
+                 R02078  3,4-Dihydroxy-L-phenylalanine + L-Tyrosine + Oxygen <=> Dopaquinone + 3,4-Dihydroxy-L-phenylalanine + H2O
+ORTHOLOGY   K00422  polyphenol oxidase [EC:1.10.3.1]
+            K00505  tyrosinase [EC:1.14.18.1]
+///

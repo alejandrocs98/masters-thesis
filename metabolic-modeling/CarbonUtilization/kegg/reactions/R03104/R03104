@@ -1,0 +1,17 @@
+ENTRY       R03104                      Reaction
+NAME        3-mercaptolactate:NAD+ oxidoreductase
+DEFINITION  3-Mercaptolactate + NAD+ <=> Mercaptopyruvate + NADH + H+
+EQUATION    C05823 + C00003 <=> C00957 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00031  C00957_C05823
+ENZYME      1.1.1.27
+PATHWAY     rn00270  Cysteine and methionine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.27
+                 R03104  3-Mercaptolactate + NAD+ <=> Mercaptopyruvate + NADH + H+
+ORTHOLOGY   K00016  L-lactate dehydrogenase [EC:1.1.1.27]
+///

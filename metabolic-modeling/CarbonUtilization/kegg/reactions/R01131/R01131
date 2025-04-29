@@ -1,0 +1,20 @@
+ENTRY       R01131                      Reaction
+NAME        ATP:inosine 5'-phosphotransferase
+DEFINITION  ATP + Inosine <=> ADP + IMP
+EQUATION    C00002 + C00294 <=> C00008 + C00130
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00130_C00294
+ENZYME      2.7.1.73
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.73
+                 R01131  ATP + Inosine <=> ADP + IMP
+ORTHOLOGY   K00892  inosine kinase [EC:2.7.1.73]
+            K22026  nucleoside kinase [EC:2.7.1.73 2.7.1.213 2.7.1.-]
+DBLINKS     RHEA: 21143
+///

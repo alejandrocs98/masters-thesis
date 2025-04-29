@@ -1,0 +1,27 @@
+ENTRY       R04509                      Reaction
+NAME        ATP:4-amino-2-methyl-5-phosphomethylpyrimidine phosphotransferase
+DEFINITION  ATP + 4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine <=> ADP + 4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate
+EQUATION    C00002 + C04556 <=> C00008 + C04752
+RCLASS      RC00002  C00002_C00008  C04556_C04752
+ENZYME      2.7.4.7
+PATHWAY     rn00730  Thiamine metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00127  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP
+            M00895  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP
+            M00896  Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP
+            M00897  Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP
+            M00898  Thiamine biosynthesis, pyridoxal-5P => TMP/thiamine/TPP
+            M00899  Thiamine salvage pathway, HMP/HET => TMP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.7
+                 R04509  ATP + 4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine <=> ADP + 4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate
+ORTHOLOGY   K00877  hydroxymethylpyrimidine/phosphomethylpyrimidine kinase / thiaminase [EC:2.7.1.49 2.7.4.7 3.5.99.2]
+            K00941  hydroxymethylpyrimidine/phosphomethylpyrimidine kinase [EC:2.7.1.49 2.7.4.7]
+            K14153  hydroxymethylpyrimidine kinase / phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase [EC:2.7.1.49 2.7.4.7 2.5.1.3]
+            K21219  hydroxymethylpyrimidine kinase / phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase [EC:2.7.1.49 2.7.4.7 2.5.1.3]
+DBLINKS     RHEA: 19896
+///

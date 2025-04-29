@@ -1,0 +1,18 @@
+ENTRY       R11642                      Reaction
+DEFINITION  Isobutyronitrile + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Acetone cyanohydrin + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C02420 + C03024 + C00007 <=> C02659 + C03161 + C00001
+COMMENT     the last step of three-step reaction (see R11598, R10034+R11641+R11642)
+RCLASS      RC03495  C02420_C02659
+ENZYME      1.14.14.41
+PATHWAY     rn00460  Cyanoamino acid metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.41
+                 R11642  Isobutyronitrile + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Acetone cyanohydrin + [Oxidized NADPH---hemoprotein reductase] + H2O
+ORTHOLOGY   K16265  (E)-2-methylbutanal oxime monooxygenase [EC:1.14.14.41]
+DBLINKS     RHEA: 51967
+///

@@ -1,0 +1,19 @@
+ENTRY       R06470                      Reaction
+DEFINITION  6,8a-Seco-6,8a-deoxy-5-oxoavermectin ''1b'' aglycone + NADPH + Oxygen <=> 5-Oxoavermectin ''1b'' aglycone + NADP+ + H2O
+EQUATION    C11961 + C00005 + C00007 <=> C11962 + C00006 + C00001
+COMMENT     cytochrome P450 hydroxylase,AveE
+RCLASS      RC00001  C00005_C00006
+            RC01527  C11961_C11962
+ENZYME      1.14.-.-
+PATHWAY     rn00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00777  Avermectin biosynthesis, 2-methylbutanoyl-CoA/isobutyryl-CoA => 6,8a-Seco-6,8a-deoxy-5-oxoavermectin 1a/1b aglycone => avermectin A1a/B1a/A1b/B1b
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.-  Acting on paired donors, with incorporation or reduction of molecular oxygen
+                1.14.-.-
+                 R06470  6,8a-Seco-6,8a-deoxy-5-oxoavermectin ''1b'' aglycone + NADPH + Oxygen <=> 5-Oxoavermectin ''1b'' aglycone + NADP+ + H2O
+ORTHOLOGY   K14372  cytochrome P450 hydroxylase [EC:1.14.-.-]
+///

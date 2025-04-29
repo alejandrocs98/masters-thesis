@@ -1,0 +1,17 @@
+ENTRY       R05351                      Reaction
+DEFINITION  Ethylene oxide + CoA + NAD+ <=> Acetyl-CoA + NADH + H+
+EQUATION    C06548 + C00010 + C00003 <=> C00024 + C00004 + C00080
+COMMENT     epoxide dehydrogenase
+RCLASS      RC00001  C00003_C00004
+            RC00004  C00010_C00024
+            RC01334  C00024_C06548
+ENZYME      1.1.1.-
+PATHWAY     rn00625  Chloroalkane and chloroalkene degradation
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R05351  Ethylene oxide + CoA + NAD+ <=> Acetyl-CoA + NADH + H+
+///

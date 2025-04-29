@@ -1,0 +1,22 @@
+ENTRY       R04097                      Reaction
+NAME        3-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(3-methylbutanoyl)transferase
+DEFINITION  3-Methylbutanoyl-CoA + Enzyme N6-(dihydrolipoyl)lysine <=> CoA + [Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(3-methylbutanoyl)dihydrolipoyllysine
+EQUATION    C02939 + C15973 <=> C00010 + C15975
+COMMENT     3-methyl-2-oxobutanoate dehydrogenase complexes:3-methyl-2-oxobutanoate dehydrogenase
+            a part of multi-step reaction (see R01702+R04097+R07618, possibly identical to R01651)
+            following after R01702
+RCLASS      RC00004  C00010_C02939  C15973_C15975
+            RC02727  C02939_C15975
+ENZYME      2.3.1.168
+PATHWAY     rn00280  Valine, leucine and isoleucine degradation
+            rn00785  Lipoic acid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00036  Leucine degradation, leucine => acetoacetate + acetyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.168
+                 R04097  3-Methylbutanoyl-CoA + Enzyme N6-(dihydrolipoyl)lysine <=> CoA + [Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(3-methylbutanoyl)dihydrolipoyllysine
+ORTHOLOGY   K09699  2-oxoisovalerate dehydrogenase E2 component (dihydrolipoyl transacylase) [EC:2.3.1.168]
+///

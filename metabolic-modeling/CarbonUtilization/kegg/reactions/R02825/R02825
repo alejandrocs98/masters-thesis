@@ -1,0 +1,24 @@
+ENTRY       R02825                      Reaction
+DEFINITION  5-Aminopentanoate <=> D-Proline
+EQUATION    C00431 <=> C00763
+COMMENT     incomplete reaction (donor is unidentified in vivo, dl-dihydrolipoate [CPD:C02147] or other dithiols in vitro)
+RCLASS      RC00790  C00431_C00763
+ENZYME      1.4.1.12        1.21.4.1
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn00470  D-Amino acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.1  With NAD+ or NADP+ as acceptor
+                1.4.1.12
+                 R02825  5-Aminopentanoate <=> D-Proline
+              1.21  Catalysing the reaction X-H + Y-H = X-Y
+               1.21.4  With a disulfide as acceptor
+                1.21.4.1
+                 R02825  5-Aminopentanoate <=> D-Proline
+ORTHOLOGY   K10793  D-proline reductase (dithiol) PrdA [EC:1.21.4.1]
+            K10794  D-proline reductase (dithiol) PrdB [EC:1.21.4.1]
+            K21672  2,4-diaminopentanoate dehydrogenase [EC:1.4.1.12 1.4.1.26]
+DBLINKS     RHEA: 12740
+///

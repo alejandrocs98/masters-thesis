@@ -1,0 +1,21 @@
+ENTRY       R08307                      Reaction
+NAME        3-carbamoyl-2-phenylpropionaldehyde:NAD+ oxidoreductase
+DEFINITION  3-Carbamoyl-2-phenylpropionaldehyde + NAD+ + H2O <=> 3-Carbamoyl-2-phenylpropionic acid + NADH + H+
+EQUATION    C16587 + C00003 + C00001 <=> C16591 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00242  C16587_C16591
+ENZYME      1.2.1.5
+PATHWAY     rn00982  Drug metabolism - cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.5
+                 R08307  3-Carbamoyl-2-phenylpropionaldehyde + NAD+ + H2O <=> 3-Carbamoyl-2-phenylpropionic acid + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.5
+               R00538  Aldehyde <=> Carboxylate
+                R08307  3-Carbamoyl-2-phenylpropionaldehyde <=> 3-Carbamoyl-2-phenylpropionic acid
+ORTHOLOGY   K00129  aldehyde dehydrogenase (NAD(P)+) [EC:1.2.1.5]
+///

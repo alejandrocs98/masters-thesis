@@ -1,0 +1,20 @@
+ENTRY       R04941                      Reaction
+NAME        selenocystathionine L-homocysteine-lyase (deaminating)
+DEFINITION  L-Selenocystathionine + H2O <=> Selenohomocysteine + Ammonia + Pyruvate
+EQUATION    C05699 + C00001 <=> C05698 + C00014 + C00022
+COMMENT     multi-step reaction
+RCLASS      RC00056  C05698_C05699
+            RC01245  C00022_C05699
+ENZYME      4.4.1.13
+PATHWAY     rn00450  Selenocompound metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.4  Carbon-sulfur lyases
+               4.4.1  Carbon-sulfur lyases (only sub-subclass identified to date)
+                4.4.1.13
+                 R04941  L-Selenocystathionine + H2O <=> Selenohomocysteine + Ammonia + Pyruvate
+ORTHOLOGY   K00816  kynurenine---oxoglutarate transaminase / cysteine-S-conjugate beta-lyase / glutamine---phenylpyruvate transaminase [EC:2.6.1.7 4.4.1.13 2.6.1.64]
+            K01760  cysteine-S-conjugate beta-lyase [EC:4.4.1.13]
+            K14155  cysteine-S-conjugate beta-lyase [EC:4.4.1.13]
+///

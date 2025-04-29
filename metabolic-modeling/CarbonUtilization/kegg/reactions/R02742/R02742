@@ -1,0 +1,18 @@
+ENTRY       R02742                      Reaction
+NAME        gamma-glutamylcysteine:NADP+ oxidoreductase
+DEFINITION  2 gamma-L-Glutamyl-L-cysteine + NADP+ <=> Bis-gamma-glutamylcystine + NADPH + H+
+EQUATION    2 C00669 + C00006 <=> C03646 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00011  C00669_C03646
+ENZYME      1.8.1.13
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.1  With NAD+ or NADP+ as acceptor
+                1.8.1.13
+                 R02742  2 gamma-L-Glutamyl-L-cysteine + NADP+ <=> Bis-gamma-glutamylcystine + NADPH + H+
+ORTHOLOGY   K03423  bis-gamma-glutamylcystine reductase [EC:1.8.1.13]
+DBLINKS     RHEA: 11983
+///

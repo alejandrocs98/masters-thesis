@@ -1,0 +1,21 @@
+ENTRY       R04840                      Reaction
+NAME        tetrahydrocorticosterone:NADP+ 11-oxidoreductase
+DEFINITION  Tetrahydrocorticosterone + NADP+ <=> 3alpha,21-Dihydroxy-5beta-pregnane-11,20-dione + NADPH + H+
+EQUATION    C05476 + C00006 <=> C05478 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00154  C05476_C05478
+ENZYME      1.1.1.146
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.146
+                 R04840  Tetrahydrocorticosterone + NADP+ <=> 3alpha,21-Dihydroxy-5beta-pregnane-11,20-dione + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.146
+               R03203  11beta-Hydroxysteroid <=> 11-Oxosteroid
+                R04840  Tetrahydrocorticosterone <=> 3alpha,21-Dihydroxy-5beta-pregnane-11,20-dione
+ORTHOLOGY   K15680  corticosteroid 11-beta-dehydrogenase isozyme 1 [EC:1.1.1.146]
+///

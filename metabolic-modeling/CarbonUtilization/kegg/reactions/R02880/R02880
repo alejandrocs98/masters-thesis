@@ -1,0 +1,19 @@
+ENTRY       R02880                      Reaction
+NAME        (S)-tetrahydroberberine:oxigen oxidoreductase
+DEFINITION  (S)-Canadine + 2 Oxygen + H+ <=> Berberine + 2 Hydrogen peroxide
+EQUATION    C03329 + 2 C00007 + C00080 <=> C00757 + 2 C00027
+COMMENT     multi-step reaction
+RCLASS      RC00798  C00757_C03329
+            RC02755  C00007_C00027
+ENZYME      1.3.3.8
+PATHWAY     rn00950  Isoquinoline alkaloid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.3  With oxygen as acceptor
+                1.3.3.8
+                 R02880  (S)-Canadine + 2 Oxygen + H+ <=> Berberine + 2 Hydrogen peroxide
+ORTHOLOGY   K22089  tetrahydroprotoberberine oxidase [EC:1.3.3.8]
+DBLINKS     RHEA: 13492
+///

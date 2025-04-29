@@ -1,0 +1,23 @@
+ENTRY       R08957                      Reaction
+NAME        3alpha-hydroxy-5alpha-pregnan-20-one:NADP+ 3-oxidoreductase (A-specific)
+DEFINITION  5alpha-Pregnane-3,20-dione + NADPH + H+ <=> Allopregnanolone + NADP+
+EQUATION    C03681 + C00005 + C00080 <=> C13712 + C00006
+RCLASS      RC00001  C00005_C00006
+            RC00144  C03681_C13712
+ENZYME      1.1.1.213
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.213
+                 R08957  5alpha-Pregnane-3,20-dione + NADPH + H+ <=> Allopregnanolone + NADP+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.213
+               R10423  3alpha-Hydroxysteroid <=> 3-Oxosteroid
+                R08957  Allopregnanolone <=> 5alpha-Pregnane-3,20-dione
+ORTHOLOGY   K00089  3alpha-hydroxysteroid 3-dehydrogenase [EC:1.1.1.213 1.1.1.357]
+            K04119  aldo-keto reductase family 1 member C3 [EC:1.1.1.51 1.1.1.188 1.1.1.213 1.1.1.357]
+///

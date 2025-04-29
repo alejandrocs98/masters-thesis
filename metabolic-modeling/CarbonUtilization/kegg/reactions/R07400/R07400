@@ -1,0 +1,22 @@
+ENTRY       R07400                      Reaction
+NAME        cephalosporin C:oxygen oxidoreductase (deaminating)
+DEFINITION  Cephalosporin C + H2O + Oxygen <=> (7R)-7-(5-Carboxy-5-oxopentanoyl)aminocephalosporinate + Ammonia + Hydrogen peroxide
+EQUATION    C00916 + C00001 + C00007 <=> C04712 + C00014 + C00027
+RCLASS      RC00006  C00916_C04712
+            RC02755  C00007_C00027
+ENZYME      1.4.3.3
+PATHWAY     rn00311  Penicillin and cephalosporin biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.3
+                 R07400  Cephalosporin C + H2O + Oxygen <=> (7R)-7-(5-Carboxy-5-oxopentanoyl)aminocephalosporinate + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.3
+               R01340  D-Amino acid <=> 2-Oxo acid
+                R07400  Cephalosporin C <=> (7R)-7-(5-Carboxy-5-oxopentanoyl)aminocephalosporinate
+ORTHOLOGY   K00273  D-amino-acid oxidase [EC:1.4.3.3]
+///

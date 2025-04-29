@@ -1,0 +1,21 @@
+ENTRY       R00920                      Reaction
+NAME        propanoate:CoA ligase (ADP-forming)
+DEFINITION  ATP + Propanoate + CoA <=> ADP + Orthophosphate + Propanoyl-CoA
+EQUATION    C00002 + C00163 + C00010 <=> C00008 + C00009 + C00100
+RCLASS      RC00002  C00002_C00008
+            RC00004  C00010_C00100
+            RC00014  C00100_C00163
+ENZYME      6.2.1.13
+PATHWAY     rn00640  Propanoate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.13
+                 R00920  ATP + Propanoate + CoA <=> ADP + Orthophosphate + Propanoyl-CoA
+ORTHOLOGY   K01905  acetate---CoA ligase (ADP-forming) subunit alpha [EC:6.2.1.13]
+            K22224  acetate---CoA ligase (ADP-forming) subunit beta [EC:6.2.1.13]
+            K24012  acetate---CoA ligase (ADP-forming) [EC:6.2.1.13]
+DBLINKS     RHEA: 29846
+///

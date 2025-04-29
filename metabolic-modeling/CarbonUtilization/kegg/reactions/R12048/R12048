@@ -1,0 +1,17 @@
+ENTRY       R12048                      Reaction
+DEFINITION  Stearoyl-CoA + NADPH + H+ + Oxygen <=> Oleoyl-CoA + NADP+ + 2 H2O
+EQUATION    C00412 + C00005 + C00080 + C00007 <=> C00510 + C00006 + 2 C00001
+COMMENT     NADPH-dependent stearoyl-CoA 9-desaturase
+RCLASS      RC00917  C00412_C00510
+ENZYME      1.14.19.-
+PATHWAY     rn01040  Biosynthesis of unsaturated fatty acids
+            rn01212  Fatty acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.-
+                 R12048  Stearoyl-CoA + NADPH + H+ + Oxygen <=> Oleoyl-CoA + NADP+ + 2 H2O
+ORTHOLOGY   K22769  NADPH-dependent stearoyl-CoA 9-desaturase [EC:1.14.19.-]
+            K22770  stearoyl-CoA 9-desaturase NADPH oxidoreductase
+///

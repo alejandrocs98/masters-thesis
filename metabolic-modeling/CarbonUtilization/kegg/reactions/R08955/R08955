@@ -1,0 +1,22 @@
+ENTRY       R08955                      Reaction
+NAME        3alpha,21-dihydroxy-5alpha-pregnan-20-one:NADP+ 3-oxidoreductase (A-specific)
+DEFINITION  5alpha-Dihydrodeoxycorticosterone + NADPH + H+ <=> Allotetrahydrodeoxycorticosterone + NADP+
+EQUATION    C18040 + C00005 + C00080 <=> C13713 + C00006
+RCLASS      RC00001  C00005_C00006
+            RC00144  C13713_C18040
+ENZYME      1.1.1.213
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.213
+                 R08955  5alpha-Dihydrodeoxycorticosterone + NADPH + H+ <=> Allotetrahydrodeoxycorticosterone + NADP+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.213
+               R10423  3alpha-Hydroxysteroid <=> 3-Oxosteroid
+                R08955  Allotetrahydrodeoxycorticosterone <=> 5alpha-Dihydrodeoxycorticosterone
+ORTHOLOGY   K00089  3alpha-hydroxysteroid 3-dehydrogenase [EC:1.1.1.213 1.1.1.357]
+            K04119  aldo-keto reductase family 1 member C3 [EC:1.1.1.51 1.1.1.188 1.1.1.213 1.1.1.357]
+///

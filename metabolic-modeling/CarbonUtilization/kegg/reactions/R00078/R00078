@@ -1,0 +1,25 @@
+ENTRY       R00078                      Reaction
+NAME        Fe(II):oxygen oxidoreductase;
+            Fe2+:oxygen oxidoreductase
+DEFINITION  Oxygen + 4 Fe2+ + 4 H+ <=> 4 Fe3+ + 2 H2O
+EQUATION    C00007 + 4 C14818 + 4 C00080 <=> 4 C14819 + 2 C00001
+RCLASS      RC02758  C14818_C14819
+ENZYME      1.16.3.1
+PATHWAY     rn00860  Porphyrin metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.16  Oxidizing metal ions
+               1.16.3  With oxygen as acceptor
+                1.16.3.1
+                 R00078  Oxygen + 4 Fe2+ + 4 H+ <=> 4 Fe3+ + 2 H2O
+ORTHOLOGY   K00522  ferritin heavy chain [EC:1.16.3.1]
+            K03594  bacterioferritin [EC:1.16.3.1]
+            K13624  ceruloplasmin [EC:1.16.3.1]
+            K13625  ferritin light chain
+            K14735  hephaestin [EC:1.16.3.1]
+            K18495  ferritin, mitochondrial [EC:1.16.3.1]
+            K19054  frataxin [EC:1.16.3.1]
+            K22336  bacterioferritin B [EC:1.16.3.1]
+            K22552  multicopper oxidase [EC:1.16.3.1]
+DBLINKS     RHEA: 11151
+///

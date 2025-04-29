@@ -1,0 +1,23 @@
+ENTRY       R03256                      Reaction
+NAME        lactose 6-phosphate 6-phosphogalactohydrolase
+DEFINITION  Lactose 6'-phosphate + H2O <=> beta-D-Glucose + D-Galactose 6-phosphate
+EQUATION    C05396 + C00001 <=> C00221 + C01113
+REMARK      Same as: R06110
+RCLASS      RC00049  C00221_C05396  C01113_C05396
+ENZYME      3.2.1.85
+PATHWAY     rn00052  Galactose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.2  Glycosylases
+               3.2.1  Glycosidases, i.e. enzymes that hydrolyse O- and S-glycosyl compounds
+                3.2.1.85
+                 R03256  Lactose 6'-phosphate + H2O <=> beta-D-Glucose + D-Galactose 6-phosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.2.1.85
+               R03255  6-Phospho-beta-D-galactoside <=> Alcohol
+                R03256  Lactose 6'-phosphate <=> beta-D-Glucose
+ORTHOLOGY   K01220  6-phospho-beta-galactosidase [EC:3.2.1.85]
+DBLINKS     RHEA: 42407
+///

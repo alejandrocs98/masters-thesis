@@ -1,0 +1,20 @@
+ENTRY       R03262                      Reaction
+NAME        corticosterone,reduced-adrenal-ferredoxin:oxygen oxidoreductase (18-hydroxylating)
+DEFINITION  Corticosterone + 2 Reduced adrenal ferredoxin + Oxygen + 2 H+ <=> 18-Hydroxycorticosterone + 2 Oxidized adrenal ferredoxin + H2O
+EQUATION    C02140 + 2 C00662 + C00007 + 2 C00080 <=> C01124 + 2 C00667 + C00001
+RCLASS      RC00257  C01124_C02140
+ENZYME      1.14.15.4       1.14.15.5
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00108  C21-Steroid hormone biosynthesis, progesterone => corticosterone/aldosterone
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.15  With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.15.4
+                 R03262  Corticosterone + 2 Reduced adrenal ferredoxin + Oxygen + 2 H+ <=> 18-Hydroxycorticosterone + 2 Oxidized adrenal ferredoxin + H2O
+                1.14.15.5
+                 R03262  Corticosterone + 2 Reduced adrenal ferredoxin + Oxygen + 2 H+ <=> 18-Hydroxycorticosterone + 2 Oxidized adrenal ferredoxin + H2O
+ORTHOLOGY   K07433  steroid 11beta-monooxygenase / corticosterone 18-monooxygenase [EC:1.14.15.4 1.14.15.5]
+DBLINKS     RHEA: 11875
+///

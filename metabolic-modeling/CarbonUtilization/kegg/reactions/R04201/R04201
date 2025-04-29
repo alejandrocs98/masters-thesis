@@ -1,0 +1,19 @@
+ENTRY       R04201                      Reaction
+NAME        D-threo-2,4-diaminopentanoate:NADP+ oxidoreductase(deaminating)
+DEFINITION  (2R,4S)-2,4-Diaminopentanoate + NADP+ + H2O <=> 2-Amino-4-oxopentanoic acid + NADPH + Ammonia + H+
+EQUATION    C03943 + C00006 + C00001 <=> C03341 + C00005 + C00014 + C00080
+COMMENT     R04200 (NAD)
+RCLASS      RC00001  C00005_C00006
+            RC00249  C03341_C03943
+ENZYME      1.4.1.12
+PATHWAY     rn00470  D-Amino acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.1  With NAD+ or NADP+ as acceptor
+                1.4.1.12
+                 R04201  (2R,4S)-2,4-Diaminopentanoate + NADP+ + H2O <=> 2-Amino-4-oxopentanoic acid + NADPH + Ammonia + H+
+ORTHOLOGY   K21672  2,4-diaminopentanoate dehydrogenase [EC:1.4.1.12 1.4.1.26]
+DBLINKS     RHEA: 24195
+///

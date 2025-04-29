@@ -1,0 +1,19 @@
+ENTRY       R00277                      Reaction
+NAME        pyridoxamine-5'-phosphate:oxygen oxidoreductase (deaminating)
+DEFINITION  Pyridoxamine phosphate + H2O + Oxygen <=> Pyridoxal phosphate + Ammonia + Hydrogen peroxide
+EQUATION    C00647 + C00001 + C00007 <=> C00018 + C00014 + C00027
+RCLASS      RC00048  C00018_C00647
+            RC02755  C00007_C00027
+ENZYME      1.4.3.5
+PATHWAY     rn00750  Vitamin B6 metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.5
+                 R00277  Pyridoxamine phosphate + H2O + Oxygen <=> Pyridoxal phosphate + Ammonia + Hydrogen peroxide
+ORTHOLOGY   K00275  pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]
+            K23998  pyridoxal 5'-phosphate synthase / NAD(P)H-hydrate epimerase [EC:1.4.3.5 5.1.99.6]
+DBLINKS     RHEA: 15820
+///

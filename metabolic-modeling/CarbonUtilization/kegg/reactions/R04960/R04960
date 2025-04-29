@@ -1,0 +1,39 @@
+ENTRY       R04960                      Reaction
+NAME        octanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)
+DEFINITION  Octanoyl-[acp] + Malonyl-[acyl-carrier protein] <=> 3-Oxodecanoyl-[acp] + CO2 + Acyl-carrier protein
+EQUATION    C05752 + C01209 <=> C05753 + C00011 + C00229
+RCLASS      RC00039  C00229_C05752
+            RC02728  C05752_C05753
+            RC02888  C01209_C05753
+ENZYME      2.3.1.41        2.3.1.85        2.3.1.86        2.3.1.179       
+            2.3.1.-
+PATHWAY     rn00061  Fatty acid biosynthesis
+            rn01100  Metabolic pathways
+            rn01212  Fatty acid metabolism
+MODULE      M00083  Fatty acid biosynthesis, elongation
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.41
+                 R04960  Octanoyl-[acp] + Malonyl-[acyl-carrier protein] <=> 3-Oxodecanoyl-[acp] + CO2 + Acyl-carrier protein
+                2.3.1.85
+                 R04960  Octanoyl-[acp] + Malonyl-[acyl-carrier protein] <=> 3-Oxodecanoyl-[acp] + CO2 + Acyl-carrier protein
+                2.3.1.86
+                 R04960  Octanoyl-[acp] + Malonyl-[acyl-carrier protein] <=> 3-Oxodecanoyl-[acp] + CO2 + Acyl-carrier protein
+                2.3.1.179
+                 R04960  Octanoyl-[acp] + Malonyl-[acyl-carrier protein] <=> 3-Oxodecanoyl-[acp] + CO2 + Acyl-carrier protein
+                2.3.1.-
+                 R04960  Octanoyl-[acp] + Malonyl-[acyl-carrier protein] <=> 3-Oxodecanoyl-[acp] + CO2 + Acyl-carrier protein
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.41
+               R02768  Acyl-[acyl-carrier protein] <=> 3-Oxoacyl-[acyl-carrier protein]
+                R04960  Octanoyl-[acp] <=> 3-Oxodecanoyl-[acp]
+ORTHOLOGY   K00647  3-oxoacyl-[acyl-carrier-protein] synthase I [EC:2.3.1.41]
+            K00665  fatty acid synthase, animal type [EC:2.3.1.85]
+            K00667  fatty acid synthase subunit alpha, fungi type [EC:2.3.1.86]
+            K09458  3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179]
+            K11533  fatty acid synthase, bacteria type [EC:2.3.1.-]
+DBLINKS     RHEA: 41855
+///

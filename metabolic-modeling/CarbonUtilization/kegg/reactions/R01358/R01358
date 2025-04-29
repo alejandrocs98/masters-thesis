@@ -1,0 +1,18 @@
+ENTRY       R01358                      Reaction
+NAME        acetoacetyl-CoA hydrolase
+DEFINITION  Acetoacetyl-CoA + H2O <=> Acetoacetate + CoA
+EQUATION    C00332 + C00001 <=> C00164 + C00010
+COMMENT     catalysed by two enzymes (see R01978+R01360)
+RCLASS      RC00004  C00010_C00332
+            RC00014  C00164_C00332
+ENZYME      3.1.2.11
+PATHWAY     rn00650  Butanoate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.2  Thioester hydrolases
+                3.1.2.11
+                 R01358  Acetoacetyl-CoA + H2O <=> Acetoacetate + CoA
+DBLINKS     RHEA: 15676
+///

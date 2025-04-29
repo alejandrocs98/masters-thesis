@@ -1,0 +1,25 @@
+ENTRY       R04902                      Reaction
+NAME        eriodictyol,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase
+DEFINITION  Eriodictyol + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Pentahydroxyflavanone + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C05631 + C03024 + C00007 <=> C05911 + C03161 + C00001
+COMMENT     flavonoid 3',5'-hydroxylase
+            flavonoid 3',5'-monooxygenase
+            second step of two-step reaction (see R02443, R02442+R04902)
+RCLASS      RC00046  C05631_C05911
+ENZYME      1.14.14.81
+PATHWAY     rn00941  Flavonoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.81
+                 R04902  Eriodictyol + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Pentahydroxyflavanone + [Oxidized NADPH---hemoprotein reductase] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.81
+               R07370  3'-Hydroxyflavanone <=> 3',5'-Dihydroxyflavanone
+                R04902  Eriodictyol <=> Pentahydroxyflavanone
+ORTHOLOGY   K13083  flavonoid 3',5'-hydroxylase [EC:1.14.14.81]
+DBLINKS     RHEA: 61103
+///

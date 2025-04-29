@@ -1,0 +1,42 @@
+ENTRY       K15757                      KO
+SYMBOL      xylM
+NAME        toluene methyl-monooxygenase [EC:1.14.15.26]
+PATHWAY     map00622  Xylene degradation
+            map00623  Toluene degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00537  Xylene degradation, xylene => methylbenzoate
+REACTION    R02550  toluene,ferredoxin:oxygen oxidoreductase (methyl-hydroxylating)
+            R05288  p-xylene,ferredoxin:oxygen oxidoreductase (methyl-hydroxylating)
+            R05442  o-xylene,ferredoxin:oxygen oxidoreductase (methyl-hydroxylating)
+            R05443  m-xylene,ferredoxin:oxygen oxidoreductase (methyl-hydroxylating)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00623 Toluene degradation
+                K15757  xylM; toluene methyl-monooxygenase
+               00622 Xylene degradation
+                K15757  xylM; toluene methyl-monooxygenase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.15  With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.15.26  toluene methyl-monooxygenase
+                 K15757  xylM; toluene methyl-monooxygenase
+DBLINKS     GO: 0018639
+GENES       PSD: DSC_14810
+            NAR: Saro_3845
+            NPP: PP1Y_AT31329
+            SBAR: H5V43_22380
+            SPHY: CHN51_07015
+            RPSK: JWS13_01880 JWS13_02030
+            PPEL: H6H00_18580
+            AG: AAA26026(xylM)
+REFERENCE   PMID:1999388
+  AUTHORS   Suzuki M, Hayakawa T, Shaw JP, Rekik M, Harayama S
+  TITLE     Primary structure of xylene monooxygenase: similarities to and differences from the alkane hydroxylation system.
+  JOURNAL   J Bacteriol 173:1690-5 (1991)
+            DOI:10.1128/JB.173.5.1690-1695.1991
+  SEQUENCE  [ag:AAA26026]
+///

@@ -1,0 +1,26 @@
+ENTRY       R09999                      Reaction
+NAME        dimethylamine:coenzyme M methyltransferase
+DEFINITION  Dimethylamine + Coenzyme M <=> 2-(Methylthio)ethanesulfonate + Methylamine
+EQUATION    C00543 + C03576 <=> C03920 + C00218
+COMMENT     two-step reaction (see R10015+R10000)
+RCLASS      RC00035  C03576_C03920
+            RC00556  C00218_C00543
+            RC02986  C00543_C03920
+ENZYME      2.1.1.247       2.1.1.249
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00563  Methanogenesis, methylamine/dimethylamine/trimethylamine => methane
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.247
+                 R09999  Dimethylamine + Coenzyme M <=> 2-(Methylthio)ethanesulfonate + Methylamine
+                2.1.1.249
+                 R09999  Dimethylamine + Coenzyme M <=> 2-(Methylthio)ethanesulfonate + Methylamine
+ORTHOLOGY   K14082  [methyl-Co(III) methylamine-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.247]
+            K16178  dimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.249]
+            K16179  dimethylamine corrinoid protein
+///

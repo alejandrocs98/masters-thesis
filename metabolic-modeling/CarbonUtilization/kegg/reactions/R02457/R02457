@@ -1,0 +1,22 @@
+ENTRY       R02457                      Reaction
+NAME        D-ornithine:oxygen oxidoreductase (deaminating)
+DEFINITION  D-Ornithine + H2O + Oxygen <=> 5-Amino-2-oxopentanoic acid + Ammonia + Hydrogen peroxide
+EQUATION    C00515 + C00001 + C00007 <=> C01110 + C00014 + C00027
+RCLASS      RC00006  C00515_C01110
+            RC02755  C00007_C00027
+ENZYME      1.4.3.3
+PATHWAY     rn00470  D-Amino acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.3
+                 R02457  D-Ornithine + H2O + Oxygen <=> 5-Amino-2-oxopentanoic acid + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.3
+               R01340  D-Amino acid <=> 2-Oxo acid
+                R02457  D-Ornithine <=> 5-Amino-2-oxopentanoic acid
+ORTHOLOGY   K00273  D-amino-acid oxidase [EC:1.4.3.3]
+///

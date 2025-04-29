@@ -1,0 +1,23 @@
+ENTRY       R03103                      Reaction
+NAME        L-2-aminoadipate-6-semialdehyde:NADP+ 6-oxidoreductase
+DEFINITION  L-2-Aminoadipate 6-semialdehyde + NADP+ + H2O <=> L-2-Aminoadipate + NADPH + H+
+EQUATION    C04076 + C00006 + C00001 <=> C00956 + C00005 + C00080
+COMMENT     NAD+ (see R03102)
+            two-step reaction (see R02317+R11232)
+RCLASS      RC00001  C00005_C00006
+            RC00080  C00956_C04076
+ENZYME      1.2.1.31
+PATHWAY     rn00310  Lysine degradation
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00032  Lysine degradation, lysine => saccharopine => acetoacetyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.31
+                 R03103  L-2-Aminoadipate 6-semialdehyde + NADP+ + H2O <=> L-2-Aminoadipate + NADPH + H+
+ORTHOLOGY   K14085  aldehyde dehydrogenase family 7 member A1 [EC:1.2.1.31 1.2.1.8 1.2.1.3]
+DBLINKS     RHEA: 12307
+///

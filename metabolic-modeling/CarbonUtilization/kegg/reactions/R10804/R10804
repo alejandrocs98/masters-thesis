@@ -1,0 +1,18 @@
+ENTRY       R10804                      Reaction
+NAME        UDP-alpha-D-galactose:1-alkyl-2-acylglycerol 3-beta-D-galactosyl-transferase
+DEFINITION  1-Alkyl-2-acylglycerol + UDP-alpha-D-galactose <=> Galactosyl-1-alkyl-2-acylglycerol + UDP
+EQUATION    C03201 + C00052 <=> C20859 + C00015
+RCLASS      RC00005  C00015_C00052
+            RC00059  C03201_C20859
+ENZYME      2.4.1.47
+PATHWAY     rn00565  Ether lipid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00067  Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.47
+                 R10804  1-Alkyl-2-acylglycerol + UDP-alpha-D-galactose <=> Galactosyl-1-alkyl-2-acylglycerol + UDP
+ORTHOLOGY   K04628  ceramide galactosyltransferase [EC:2.4.1.47]
+///

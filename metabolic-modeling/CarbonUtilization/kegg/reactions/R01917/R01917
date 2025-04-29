@@ -1,0 +1,23 @@
+ENTRY       R01917                      Reaction
+NAME        gamma-L-glutamyl-L-cysteinyl-glycine:spermidine ligase (ADP-forming)
+DEFINITION  ATP + Glutathione + Spermidine <=> ADP + Orthophosphate + Glutathionylspermidine
+EQUATION    C00002 + C00051 + C00315 <=> C00008 + C00009 + C05730
+RCLASS      RC00002  C00002_C00008
+            RC00090  C00051_C05730
+            RC00096  C00315_C05730
+ENZYME      6.3.1.8         6.3.1.9
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.1  Acid-D-ammonia (or amine) ligases (amide synthases)
+                6.3.1.8
+                 R01917  ATP + Glutathione + Spermidine <=> ADP + Orthophosphate + Glutathionylspermidine
+                6.3.1.9
+                 R01917  ATP + Glutathione + Spermidine <=> ADP + Orthophosphate + Glutathionylspermidine
+ORTHOLOGY   K01460  glutathionylspermidine amidase/synthetase [EC:3.5.1.78 6.3.1.8]
+            K01833  trypanothione synthetase/amidase [EC:6.3.1.9 3.5.1.-]
+            K01917  glutathionylspermidine synthase [EC:6.3.1.8]
+DBLINKS     RHEA: 21275
+///

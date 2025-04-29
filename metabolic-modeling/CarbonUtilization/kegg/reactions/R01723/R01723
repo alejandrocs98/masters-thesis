@@ -1,0 +1,9 @@
+ENTRY       R01723                      Reaction
+DEFINITION  Nicotinate + Glycine + ATP <=> Nicotinurate + AMP + Diphosphate
+EQUATION    C00253 + C00037 + C00002 <=> C05380 + C00020 + C00013
+COMMENT     multi-step reaction (similar to R01422+R02452)
+            intermediate (Nicotinoyl-CoA)
+RCLASS      RC00096  C00037_C05380
+            RC00162  C00253_C05380
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+///

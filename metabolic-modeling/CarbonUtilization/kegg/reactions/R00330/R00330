@@ -1,0 +1,25 @@
+ENTRY       R00330                      Reaction
+NAME        ATP:GDP phosphotransferase
+DEFINITION  ATP + GDP <=> ADP + GTP
+EQUATION    C00002 + C00035 <=> C00008 + C00044
+RCLASS      RC00002  C00002_C00008  C00035_C00044
+ENZYME      2.7.4.6
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00050  Guanine ribonucleotide biosynthesis, IMP => GDP,GTP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.6
+                 R00330  ATP + GDP <=> ADP + GTP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.4.6
+               R00331  NDP <=> Nucleoside triphosphate
+                R00330  GDP <=> GTP
+ORTHOLOGY   K00940  nucleoside-diphosphate kinase [EC:2.7.4.6]
+            K18533  adenylate/nucleoside-diphosphate kinase [EC:2.7.4.3 2.7.4.6]
+DBLINKS     RHEA: 27689
+///

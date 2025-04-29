@@ -1,0 +1,25 @@
+ENTRY       R05468                      Reaction
+NAME        proclavaminate,2-oxoglutarate:oxygen oxidoreductase (cyclyzing)
+DEFINITION  Proclavaminic acid + Oxygen + 2-Oxoglutarate <=> Dihydroclavaminic acid + CO2 + Succinate + H2O
+EQUATION    C06658 + C00007 + C00026 <=> C06659 + C00011 + C00042 + C00001
+COMMENT     see R05466, R05469
+RCLASS      RC01390  C06658_C06659
+ENZYME      1.14.11.21
+PATHWAY     rn00331  Clavulanic acid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00674  Clavaminate biosynthesis, arginine + glyceraldehyde-3P => clavaminate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.11  With 2-oxoglutarate as one donor, and incorporation of one atom of oxygen into each donor
+                1.14.11.21
+                 R05468  Proclavaminic acid + Oxygen + 2-Oxoglutarate <=> Dihydroclavaminic acid + CO2 + Succinate + H2O
+ORTHOLOGY   K12675  clavaminate synthase [EC:1.14.11.21]
+REFERENCE   1  [PMID:9614345]
+  AUTHORS   McGowan SJ, Bycroft BW, Salmond GP.
+  TITLE     Bacterial production of carbapenems and clavams: evolution of beta-lactam antibiotic pathways.
+  JOURNAL   Trends Microbiol 6:203-8 (1998)
+            DOI:10.1016/S0966-842X(98)01251-7
+DBLINKS     RHEA: 12776 19788
+///

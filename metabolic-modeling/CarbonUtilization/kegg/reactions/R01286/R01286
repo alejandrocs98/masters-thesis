@@ -1,0 +1,28 @@
+ENTRY       R01286                      Reaction
+NAME        L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming)
+DEFINITION  L-Cystathionine + H2O <=> L-Homocysteine + Ammonia + Pyruvate
+EQUATION    C02291 + C00001 <=> C00155 + C00014 + C00022
+RCLASS      RC00069  C00155_C02291
+            RC00488  C00022_C02291
+ENZYME      4.4.1.13
+PATHWAY     rn00270  Cysteine and methionine metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01230  Biosynthesis of amino acids
+MODULE      M00017  Methionine biosynthesis, aspartate => homoserine => methionine
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.4  Carbon-sulfur lyases
+               4.4.1  Carbon-sulfur lyases (only sub-subclass identified to date)
+                4.4.1.13
+                 R01286  L-Cystathionine + H2O <=> L-Homocysteine + Ammonia + Pyruvate
+            IUBMB reaction hierarchy [BR:br08202]
+             4. Lyase reactions
+              4.4.1.13
+               R12188  L-Cysteine-S-conjugate <=> Thiol
+                R01286  L-Cystathionine <=> L-Homocysteine
+ORTHOLOGY   K00816  kynurenine---oxoglutarate transaminase / cysteine-S-conjugate beta-lyase / glutamine---phenylpyruvate transaminase [EC:2.6.1.7 4.4.1.13 2.6.1.64]
+            K01760  cysteine-S-conjugate beta-lyase [EC:4.4.1.13]
+            K14155  cysteine-S-conjugate beta-lyase [EC:4.4.1.13]
+DBLINKS     RHEA: 13968
+///

@@ -1,0 +1,26 @@
+ENTRY       R09562                      Reaction
+NAME        S-(2E,6E)-farnesyl-L-cysteine oxidase
+DEFINITION  Farnesylcysteine + Oxygen + H2O <=> 2-trans,6-trans-Farnesal + L-Cysteine + Hydrogen peroxide
+EQUATION    C19691 + C00007 + C00001 <=> C03461 + C00097 + C00027
+RCLASS      RC00069  C00097_C19691
+            RC02012  C03461_C19691
+            RC02755  C00007_C00027
+ENZYME      1.8.3.5         1.8.3.6
+PATHWAY     rn00900  Terpenoid backbone biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.3  With oxygen as acceptor
+                1.8.3.5
+                 R09562  Farnesylcysteine + Oxygen + H2O <=> 2-trans,6-trans-Farnesal + L-Cysteine + Hydrogen peroxide
+                1.8.3.6
+                 R09562  Farnesylcysteine + Oxygen + H2O <=> 2-trans,6-trans-Farnesal + L-Cysteine + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.8.3.5
+               R07360  Prenyl-L-cysteine <=> Prenal
+                R09562  Farnesylcysteine <=> 2-trans,6-trans-Farnesal
+ORTHOLOGY   K05906  prenylcysteine oxidase / farnesylcysteine lyase [EC:1.8.3.5 1.8.3.6]
+DBLINKS     RHEA: 30234
+///

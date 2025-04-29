@@ -1,0 +1,20 @@
+ENTRY       R08140                      Reaction
+DEFINITION  3-Dehydroecdysone + NADH + H+ <=> 3-Epiecdysone + NAD+
+EQUATION    C02513 + C00004 + C00080 <=> C16496 + C00003
+COMMENT     3-dehydroecdysone 3alpha-reductase
+RCLASS      RC00001  C00003_C00004
+            RC00154  C02513_C16496
+ENZYME      1.1.1.-
+PATHWAY     rn00981  Insect hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R08140  3-Dehydroecdysone + NADH + H+ <=> 3-Epiecdysone + NAD+
+REFERENCE   1  [PMID:15813704]
+  AUTHORS   Takeuchi H, Rigden DJ, Ebrahimi B, Turner PC, Rees HH
+  TITLE     Regulation of ecdysteroid signalling during Drosophila development: identification, characterization and modelling of ecdysone oxidase, an enzyme involved in control of ligand concentration.
+  JOURNAL   Biochem J 389:637-45 (2005)
+            DOI:10.1042/BJ20050498
+///

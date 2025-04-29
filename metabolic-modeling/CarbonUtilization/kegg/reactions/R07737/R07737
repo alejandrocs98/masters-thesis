@@ -1,0 +1,26 @@
+ENTRY       R07737                      Reaction
+NAME        (3R,4R)-4'-methoxyisoflavan-2',4,7-triol:NADP+ 4-oxidoreductase
+DEFINITION  (-)-Vestitone + NADPH + H+ <=> 7,2'-Dihydroxy-4'-methoxy-isoflavanol + NADP+
+EQUATION    C00786 + C00005 + C00080 <=> C16187 + C00006
+COMMENT     vestitione reductase
+RCLASS      RC00001  C00005_C00006
+            RC00235  C00786_C16187
+ENZYME      1.1.1.348
+PATHWAY     rn00943  Isoflavonoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00942  Pterocarpan biosynthesis, daidzein => medicarpin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.348
+                 R07737  (-)-Vestitone + NADPH + H+ <=> 7,2'-Dihydroxy-4'-methoxy-isoflavanol + NADP+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.348
+               R11877  (4R)-4,2'-Dihydroxyisoflavan <=> (3R)-2'-Hydroxyisoflavanone
+                R07737  7,2'-Dihydroxy-4'-methoxy-isoflavanol <=> (-)-Vestitone
+ORTHOLOGY   K13265  vestitone reductase [EC:1.1.1.348]
+DBLINKS     RHEA: 35406
+///

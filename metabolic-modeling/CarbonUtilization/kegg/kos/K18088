@@ -1,0 +1,46 @@
+ENTRY       K18088                      KO
+SYMBOL      bphAd, bphA4, bphG
+NAME        biphenyl 2,3-dioxygenase ferredoxin reductase component [EC:1.18.1.3]
+PATHWAY     map00621  Dioxin degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00543  Biphenyl degradation, biphenyl => 2-oxopent-4-enoate + benzoate
+REACTION    R05261  biphenyl,NADH:oxygen oxidoreductase (2,3-hydroxylating)
+            R05262  
+            R05263  biphenyl,NADH2:oxygen oxidoreductase (2,3-hydroxylating)
+            R05264  biphenyl,NADH:oxygen oxidoreductase (2,3-hydroxylating)
+            R05475  
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00621 Dioxin degradation
+                K18088  bphAd, bphA4, bphG; biphenyl 2,3-dioxygenase ferredoxin reductase component
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.18  Acting on iron-sulfur proteins as donors
+               1.18.1  With NAD+ or NADP+ as acceptor
+                1.18.1.3  ferredoxin---NAD+ reductase
+                 K18088  bphAd, bphA4, bphG; biphenyl 2,3-dioxygenase ferredoxin reductase component
+            Dioxygenases [br01602.html]
+             Dioxygenases in aromatic ring cleavage
+              K18088
+DBLINKS     COG: COG1251
+            GO: 0008860
+GENES       PSD: DSC_09345
+            BANN: JFN94_18375
+            BXE: Bxe_C1193(bphA4)
+            BXB: DR64_8612(bedA)
+            PNA: Pnap_4148
+            RHA: RHA1_ro08057(bphAd)
+            ROP: ROP_pROB02-01610(bnzA4)
+            ROZ: CBI38_14160
+            RPSK: JWS13_01615
+            AG: BAM76239(bphAd)
+REFERENCE   PMID:1569021
+  AUTHORS   Erickson BD, Mondello FJ
+  TITLE     Nucleotide sequencing and transcriptional mapping of the genes encoding biphenyl dioxygenase, a multicomponent polychlorinated-biphenyl-degrading enzyme in Pseudomonas strain LB400.
+  JOURNAL   J Bacteriol 174:2903-12 (1992)
+            DOI:10.1128/jb.174.9.2903-2912.1992
+  SEQUENCE  [bxe:Bxe_C1193]
+///

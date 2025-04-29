@@ -1,0 +1,29 @@
+ENTRY       R02237                      Reaction
+NAME        7,8-dihydropteroate:L-glutamate ligase (ADP-forming)
+DEFINITION  ATP + Dihydropteroate + L-Glutamate <=> ADP + Orthophosphate + Dihydrofolate
+EQUATION    C00002 + C00921 + C00025 <=> C00008 + C00009 + C00415
+RCLASS      RC00002  C00002_C00008
+            RC00064  C00025_C00415
+            RC00162  C00415_C00921
+ENZYME      6.3.2.12        6.3.2.17
+PATHWAY     rn00790  Folate biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00126  Tetrahydrofolate biosynthesis, GTP => THF
+            M00840  Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF
+            M00841  Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.12
+                 R02237  ATP + Dihydropteroate + L-Glutamate <=> ADP + Orthophosphate + Dihydrofolate
+                6.3.2.17
+                 R02237  ATP + Dihydropteroate + L-Glutamate <=> ADP + Orthophosphate + Dihydrofolate
+ORTHOLOGY   K01930  folylpolyglutamate synthase [EC:6.3.2.17]
+            K11754  dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]
+            K20457  dihydrofolate synthase [EC:6.3.2.12]
+            K22099  dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]
+            K24102  dihydrofolate synthase / dihydropteroate synthase [EC:6.3.2.12 2.5.1.15]
+DBLINKS     RHEA: 23587
+///

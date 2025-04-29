@@ -1,0 +1,21 @@
+ENTRY       R03089                      Reaction
+DEFINITION  Estradiol-17beta + H+ + Oxygen + NADPH <=> Estriol + NADP+ + H2O
+EQUATION    C00951 + C00080 + C00007 + C00005 <=> C05141 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00661  C00951_C05141
+ENZYME      1.14.14.1
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R03089  Estradiol-17beta + H+ + Oxygen + NADPH <=> Estriol + NADP+ + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.1
+               R04122  Alkane <=> ROH
+                R03089  Estradiol-17beta <=> Estriol
+ORTHOLOGY   K07408  cytochrome P450 family 1 subfamily A1 [EC:1.14.14.1]
+///

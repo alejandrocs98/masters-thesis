@@ -1,0 +1,23 @@
+ENTRY       R01199                      Reaction
+NAME        2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating)
+DEFINITION  2 Oxidized ferredoxin + 2-Oxobutanoate + CoA <=> 2 Reduced ferredoxin + Propanoyl-CoA + CO2 + 2 H+
+EQUATION    2 C00139 + C00109 + C00010 <=> 2 C00138 + C00100 + C00011 + 2 C00080
+RCLASS      RC00004  C00010_C00100
+            RC02833  C00100_C00109
+ENZYME      1.2.7.1
+PATHWAY     rn00640  Propanoate metabolism
+            rn01100  Metabolic pathways
+            rn01210  2-Oxocarboxylic acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.7  With an iron-sulfur protein as acceptor
+                1.2.7.1
+                 R01199  2 Oxidized ferredoxin + 2-Oxobutanoate + CoA <=> 2 Reduced ferredoxin + Propanoyl-CoA + CO2 + 2 H+
+ORTHOLOGY   K00169  pyruvate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.1]
+            K00170  pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1]
+            K00171  pyruvate ferredoxin oxidoreductase delta subunit [EC:1.2.7.1]
+            K00172  pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.1]
+            K00189  2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.7 1.2.7.1]
+DBLINKS     RHEA: 32138
+///

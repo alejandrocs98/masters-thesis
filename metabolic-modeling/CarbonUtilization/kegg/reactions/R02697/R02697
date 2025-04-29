@@ -1,0 +1,23 @@
+ENTRY       R02697                      Reaction
+NAME        4-hydroxyphenylacetaldehyde:NADP+ oxidoreductase
+DEFINITION  4-Hydroxyphenylacetaldehyde + NADP+ + H2O <=> 4-Hydroxyphenylacetate + NADPH + H+
+EQUATION    C03765 + C00006 + C00001 <=> C00642 + C00005 + C00080
+COMMENT     see R02695 (NADH)
+RCLASS      RC00001  C00005_C00006
+            RC00080  C00642_C03765
+ENZYME      1.2.1.5
+PATHWAY     rn00350  Tyrosine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.5
+                 R02697  4-Hydroxyphenylacetaldehyde + NADP+ + H2O <=> 4-Hydroxyphenylacetate + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.5
+               R00634  Aldehyde <=> Carboxylate
+                R02697  4-Hydroxyphenylacetaldehyde <=> 4-Hydroxyphenylacetate
+ORTHOLOGY   K00129  aldehyde dehydrogenase (NAD(P)+) [EC:1.2.1.5]
+///

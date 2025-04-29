@@ -1,0 +1,22 @@
+ENTRY       R06606                      Reaction
+NAME        daidzein,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (2'-hydroxylating)
+DEFINITION  Daidzein + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 2'-Hydroxydaidzein + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C10208 + C03024 + C00007 <=> C02495 + C03161 + C00001
+RCLASS      RC00046  C02495_C10208
+ENZYME      1.14.14.90
+PATHWAY     rn00943  Isoflavonoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.90
+                 R06606  Daidzein + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 2'-Hydroxydaidzein + [Oxidized NADPH---hemoprotein reductase] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.90
+               R07371  Isoflavone <=> 2'-Hydroxyisoflavone
+                R06606  Daidzein <=> 2'-Hydroxydaidzein
+ORTHOLOGY   K13260  isoflavone/4'-methoxyisoflavone 2'-hydroxylase [EC:1.14.14.90 1.14.14.89]
+DBLINKS     RHEA: 53211
+///

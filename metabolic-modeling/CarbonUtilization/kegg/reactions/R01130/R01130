@@ -1,0 +1,21 @@
+ENTRY       R01130                      Reaction
+NAME        IMP:NAD+ oxidoreductase
+DEFINITION  IMP + NAD+ + H2O <=> Xanthosine 5'-phosphate + NADH + H+
+EQUATION    C00130 + C00003 + C00001 <=> C00655 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00143  C00130_C00655
+ENZYME      1.1.1.205
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01232  Nucleotide metabolism
+MODULE      M00050  Guanine ribonucleotide biosynthesis, IMP => GDP,GTP
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.205
+                 R01130  IMP + NAD+ + H2O <=> Xanthosine 5'-phosphate + NADH + H+
+ORTHOLOGY   K00088  IMP dehydrogenase [EC:1.1.1.205]
+DBLINKS     RHEA: 11711
+///

@@ -1,0 +1,25 @@
+ENTRY       R00354                      Reaction
+NAME        (3S)-citryl-CoA oxaloacetate-lyase (acetyl-CoA-forming)
+DEFINITION  (3S)-Citryl-CoA <=> Acetyl-CoA + Oxaloacetate
+EQUATION    C00566 <=> C00024 + C00036
+COMMENT     a part of multi-step reaction (see R00352, R01322+R00354)
+RCLASS      RC00067  C00036_C00566
+            RC00502  C00024_C00566
+ENZYME      4.1.3.34
+PATHWAY     rn00720  Carbon fixation pathways in prokaryotes
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00173  Reductive citrate cycle (Arnon-Buchanan cycle)
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.3  Oxo-acid-lyases
+                4.1.3.34
+                 R00354  (3S)-Citryl-CoA <=> Acetyl-CoA + Oxaloacetate
+            Overall reaction [br08210.html]
+             Carbon fixation
+              R00354
+ORTHOLOGY   K15234  citryl-CoA lyase [EC:4.1.3.34]
+DBLINKS     RHEA: 20815
+///

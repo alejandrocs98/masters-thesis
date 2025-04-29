@@ -1,0 +1,23 @@
+ENTRY       R12376                      Reaction
+NAME        4alpha-carboxy-stigmasta-7,24(24(1))-dien-3beta-ol:NAD+ 3-oxidoreductase (decarboxylating)
+DEFINITION  4alpha-Carboxy-stigmasta-7,24(24(1))-dien-3beta-ol + NAD+ <=> Avenastenone + NADH + CO2 + H+
+EQUATION    C22120 + C00003 <=> C22123 + C00004 + C00011 + C00080
+RCLASS      RC03536  C22120_C22123
+ENZYME      1.1.1.418
+PATHWAY     rn00100  Steroid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00917  Phytosterol biosynthesis, squalene 2,3-epoxide => campesterol/sitosterol
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.418
+                 R12376  4alpha-Carboxy-stigmasta-7,24(24(1))-dien-3beta-ol + NAD+ <=> Avenastenone + NADH + CO2 + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.418
+               R12366  3beta-Hydroxysteroid-4alpha-carboxylate <=> 3-Oxosteroid
+                R12376  4alpha-Carboxy-stigmasta-7,24(24(1))-dien-3beta-ol <=> Avenastenone
+ORTHOLOGY   K23558  plant 3beta-hydroxysteroid-4alpha-carboxylate 3-dehydrogenase [EC:1.1.1.418]
+///

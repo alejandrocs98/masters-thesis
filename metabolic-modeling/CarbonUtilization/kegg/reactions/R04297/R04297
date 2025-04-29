@@ -1,0 +1,18 @@
+ENTRY       R04297                      Reaction
+NAME        1,2,3,5-tetrahydroxybenzene:1,2,3-trihydroxybenzene hydroxytransferase
+DEFINITION  1,2,3,5-Tetrahydroxybenzene + 1,2,3-Trihydroxybenzene <=> 1,2,3,5-Tetrahydroxybenzene + Phloroglucinol
+EQUATION    C03743 + C01108 <=> C03743 + C02183
+COMMENT     multi-step reaction
+RCLASS      RC00236  C02183_C03743
+            RC00490  C01108_C03743
+ENZYME      1.97.1.2
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.97  Other oxidoreductases
+               1.97.1  Sole sub-subclass for oxidoreductases that do not belong in the other subclasses
+                1.97.1.2
+                 R04297  1,2,3,5-Tetrahydroxybenzene + 1,2,3-Trihydroxybenzene <=> 1,2,3,5-Tetrahydroxybenzene + Phloroglucinol
+DBLINKS     RHEA: 21003
+///

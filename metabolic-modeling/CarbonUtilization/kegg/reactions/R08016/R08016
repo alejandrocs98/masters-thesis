@@ -1,0 +1,16 @@
+ENTRY       R08016                      Reaction
+DEFINITION  2,4-Dihydroxylamino-6-nitrotoluene + NADPH + H+ <=> 4-Amino-2-hydroxylamino-6-nitrotoluene + NADP+ + H2O
+EQUATION    C16402 + C00005 + C00080 <=> C16403 + C00006 + C00001
+COMMENT     nitroreductase
+RCLASS      RC00001  C00005_C00006
+            RC01760  C16402_C16403
+ENZYME      1.7.1.-
+PATHWAY     rn00633  Nitrotoluene degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.7  Acting on other nitrogenous compounds as donors
+               1.7.1  With NAD+ or NADP+ as acceptor
+                1.7.1.-
+                 R08016  2,4-Dihydroxylamino-6-nitrotoluene + NADPH + H+ <=> 4-Amino-2-hydroxylamino-6-nitrotoluene + NADP+ + H2O
+///

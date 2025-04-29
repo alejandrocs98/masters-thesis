@@ -1,0 +1,16 @@
+ENTRY       R04831                      Reaction
+NAME        cortolone:NAD+ oxidoreductase
+DEFINITION  Cortolone + NAD+ <=> Tetrahydrocortisone + NADH + H+
+EQUATION    C05481 + C00003 <=> C05470 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC01219  C05470_C05481
+ENZYME      1.1.1.53
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.53
+                 R04831  Cortolone + NAD+ <=> Tetrahydrocortisone + NADH + H+
+ORTHOLOGY   K00038  3alpha(or 20beta)-hydroxysteroid dehydrogenase [EC:1.1.1.53]
+///

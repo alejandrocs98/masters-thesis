@@ -1,0 +1,22 @@
+ENTRY       R02253                      Reaction
+NAME        trans-cinnamate,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (4-hydroxylating)
+DEFINITION  trans-Cinnamate + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 4-Coumarate + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00423 + C03024 + C00007 <=> C00811 + C03161 + C00001
+RCLASS      RC00490  C00423_C00811
+ENZYME      1.14.14.91
+PATHWAY     rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn00940  Phenylpropanoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01220  Degradation of aromatic compounds
+MODULE      M00039  Monolignol biosynthesis, phenylalanine/tyrosine => monolignol
+            M00137  Flavanone biosynthesis, phenylalanine => naringenin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.91
+                 R02253  trans-Cinnamate + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 4-Coumarate + [Oxidized NADPH---hemoprotein reductase] + H2O
+ORTHOLOGY   K00487  trans-cinnamate 4-monooxygenase [EC:1.14.14.91]
+DBLINKS     RHEA: 10611
+///

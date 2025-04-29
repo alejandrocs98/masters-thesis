@@ -1,0 +1,31 @@
+ENTRY       R05532                      Reaction
+NAME        S-adenosyl-L-methionine:erythromycin-D 3''-O-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + Erythromycin D <=> S-Adenosyl-L-homocysteine + Erythromycin B
+EQUATION    C00019 + C06633 <=> C00021 + C06653
+COMMENT     EryG: O-methyl transferase
+RCLASS      RC00003  C00019_C00021
+            RC01324  C06633_C06653
+ENZYME      2.1.1.254
+PATHWAY     rn00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00774  Erythromycin biosynthesis, propanoyl-CoA + methylmalonyl-CoA => deoxyerythronolide B => erythromycin A/B
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.254
+                 R05532  S-Adenosyl-L-methionine + Erythromycin D <=> S-Adenosyl-L-homocysteine + Erythromycin B
+ORTHOLOGY   K14369  erythromycin 3''-O-methyltransferase [EC:2.1.1.254]
+REFERENCE   1  [PMID:9353926]
+  AUTHORS   Summers RG, Donadio S, Staver MJ, Wendt-Pienkowski E, Hutchinson CR, Katz L.
+  TITLE     Sequencing and mutagenesis of genes from the erythromycin biosynthetic gene cluster of Saccharopolyspora erythraea that are involved in L-mycarose and D-desosamine production.
+  JOURNAL   Microbiology 143:3251-62 (1997)
+            DOI:10.1099/00221287-143-10-3251
+REFERENCE   2  [PMID:1840640]
+  AUTHORS   Haydock SF, Dowson JA, Dhillon N, Roberts GA, Cortes J, Leadlay PF
+  TITLE     Cloning and sequence analysis of genes involved in erythromycin biosynthesis in Saccharopolyspora erythraea: sequence similarities between EryG and a family of S-adenosylmethionine-dependent methyltransferases.
+  JOURNAL   Mol Gen Genet 230:120-8 (1991)
+            DOI:10.1007/BF00290659
+DBLINKS     RHEA: 32654
+///

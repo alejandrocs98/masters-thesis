@@ -1,0 +1,19 @@
+ENTRY       R08854                      Reaction
+NAME        (5R)-albaflavenol,reduced-ferredoxin:oxygen oxidoreductase
+DEFINITION  (5R)-Albaflavenol + 2 Reduced [2Fe-2S] ferredoxin + 2 H+ + Oxygen <=> Albaflavenone + 2 Oxidized [2Fe-2S] ferredoxin + 2 H2O
+EQUATION    C17955 + 2 C22150 + 2 C00080 + C00007 <=> C17954 + 2 C22151 + 2 C00001
+COMMENT     the second step of two-step reaction (see R10072, R08853+R08854)
+            (S)-form (see R08851+R08852)
+RCLASS      RC00850  C17954_C17955
+ENZYME      1.14.15.39
+PATHWAY     rn00909  Sesquiterpenoid and triterpenoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.15  With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.15.39
+                 R08854  (5R)-Albaflavenol + 2 Reduced [2Fe-2S] ferredoxin + 2 H+ + Oxygen <=> Albaflavenone + 2 Oxidized [2Fe-2S] ferredoxin + 2 H2O
+ORTHOLOGY   K12645  epi-isozizaene 5-monooxygenase / beta-farnesene synthase [EC:1.14.15.39 4.2.3.47]
+DBLINKS     RHEA: 25991
+///

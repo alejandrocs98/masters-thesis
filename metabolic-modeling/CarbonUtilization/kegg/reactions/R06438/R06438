@@ -1,0 +1,21 @@
+ENTRY       R06438                      Reaction
+NAME        dTDP-6-deoxy-alpha-D-allose:NAD+ oxidoreductase
+DEFINITION  dTDP-6-deoxy-D-allose + NAD+ <=> dTDP-4-oxo-6-deoxy-D-allose + NADH + H+
+EQUATION    C11912 + C00003 <=> C11926 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00182  C11912_C11926
+ENZYME      1.1.1.364
+PATHWAY     rn00523  Polyketide sugar unit biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00794  dTDP-6-deoxy-D-allose biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.364
+                 R06438  dTDP-6-deoxy-D-allose + NAD+ <=> dTDP-4-oxo-6-deoxy-D-allose + NADH + H+
+ORTHOLOGY   K13313  dTDP-4-dehydro-6-deoxy-alpha-D-gulose 4-ketoreductase [EC:1.1.1.364]
+DBLINKS     RHEA: 36682
+///

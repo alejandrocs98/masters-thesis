@@ -1,0 +1,17 @@
+ENTRY       R02545                      Reaction
+NAME        meso-tartaric acid:NAD+ oxidoreductase
+DEFINITION  meso-Tartaric acid + NAD+ <=> 2-Hydroxy-3-oxosuccinate + NADH + H+
+EQUATION    C00552 + C00003 <=> C03459 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00084  C00552_C03459
+ENZYME      1.1.1.93
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.93
+                 R02545  meso-Tartaric acid + NAD+ <=> 2-Hydroxy-3-oxosuccinate + NADH + H+
+ORTHOLOGY   K07246  tartrate dehydrogenase/decarboxylase / D-malate dehydrogenase [EC:1.1.1.93 4.1.1.73 1.1.1.83]
+DBLINKS     RHEA: 16460
+///

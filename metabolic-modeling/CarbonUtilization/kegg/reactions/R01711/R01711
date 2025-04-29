@@ -1,0 +1,25 @@
+ENTRY       R01711                      Reaction
+NAME        pyridoxine:oxygen oxidoreductase (deaminating)
+DEFINITION  Pyridoxine + Oxygen <=> Pyridoxal + Hydrogen peroxide
+EQUATION    C00314 + C00007 <=> C00250 + C00027
+RCLASS      RC00116  C00250_C00314
+            RC02755  C00007_C00027
+ENZYME      1.1.3.12        1.4.3.5
+PATHWAY     rn00750  Vitamin B6 metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.3  With oxygen as acceptor
+                1.1.3.12
+                 R01711  Pyridoxine + Oxygen <=> Pyridoxal + Hydrogen peroxide
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.5
+                 R01711  Pyridoxine + Oxygen <=> Pyridoxal + Hydrogen peroxide
+ORTHOLOGY   K00275  pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5]
+            K18607  pyridoxine 4-oxidase [EC:1.1.3.12]
+            K23998  pyridoxal 5'-phosphate synthase / NAD(P)H-hydrate epimerase [EC:1.4.3.5 5.1.99.6]
+DBLINKS     RHEA: 15036
+///

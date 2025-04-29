@@ -1,0 +1,25 @@
+ENTRY       R08977                      Reaction
+NAME        3'-phosphoadenylyl-sulfate:cholesterol sulfotransferase
+DEFINITION  Cholesterol + 3'-Phosphoadenylyl sulfate <=> Cholesterol sulfate + Adenosine 3',5'-bisphosphate
+EQUATION    C00187 + C00053 <=> C18043 + C00054
+COMMENT     3-hydroxysteroid sulfotransferase
+RCLASS      RC00007  C00053_C00054
+            RC00231  C00187_C18043
+ENZYME      2.8.2.2         2.8.2.14
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.8  Transferring sulfur-containing groups
+               2.8.2  Sulfotransferases
+                2.8.2.2
+                 R08977  Cholesterol + 3'-Phosphoadenylyl sulfate <=> Cholesterol sulfate + Adenosine 3',5'-bisphosphate
+                2.8.2.14
+                 R08977  Cholesterol + 3'-Phosphoadenylyl sulfate <=> Cholesterol sulfate + Adenosine 3',5'-bisphosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.8.2.2
+               R00629  Alcohol <=> Alkyl sulfate
+                R08977  Cholesterol <=> Cholesterol sulfate
+ORTHOLOGY   K01015  alcohol sulfotransferase [EC:2.8.2.2]
+///

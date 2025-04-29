@@ -1,0 +1,173 @@
+ENTRY       K14581                      KO
+SYMBOL      nahAa, nagAa, ndoR, nbzAa, dntAa
+NAME        naphthalene 1,2-dioxygenase ferredoxin reductase component [EC:1.18.1.7]
+PATHWAY     map00624  Polycyclic aromatic hydrocarbon degradation
+            map00626  Naphthalene degradation
+            map00627  Aminobenzoate degradation
+            map00633  Nitrotoluene degradation
+            map00642  Ethylbenzene degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00534  Naphthalene degradation, naphthalene => salicylate
+            M00638  Salicylate degradation, salicylate => gentisate
+REACTION    R02968  naphthalene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R05422  fluorene,NADH:oxygen oxidoreductase
+            R05423  
+            R05424  
+            R05425  
+            R05426  
+            R05427  
+            R06909  naphthalene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R06930  naphthalene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R06937  naphthalene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R07704  anthracene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R07706  nitrobenzene 1,2-dioxygenase
+            R07709  salicylate,NADH:oxygen oxidoreductase (5-hydroxylating)
+            R07710  salicylate,NADPH:oxygen oxidoreductase (5-hydroxylating)
+            R09159  
+            R09233  2,4-dinitrotoluene,NADH:oxygen oxidoreductase (4,5-hydroxylating, nitrite-releasing)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00627 Aminobenzoate degradation
+                K14581  nahAa, nagAa, ndoR, nbzAa, dntAa; naphthalene 1,2-dioxygenase ferredoxin reductase component
+               00633 Nitrotoluene degradation
+                K14581  nahAa, nagAa, ndoR, nbzAa, dntAa; naphthalene 1,2-dioxygenase ferredoxin reductase component
+               00642 Ethylbenzene degradation
+                K14581  nahAa, nagAa, ndoR, nbzAa, dntAa; naphthalene 1,2-dioxygenase ferredoxin reductase component
+               00626 Naphthalene degradation
+                K14581  nahAa, nagAa, ndoR, nbzAa, dntAa; naphthalene 1,2-dioxygenase ferredoxin reductase component
+               00624 Polycyclic aromatic hydrocarbon degradation
+                K14581  nahAa, nagAa, ndoR, nbzAa, dntAa; naphthalene 1,2-dioxygenase ferredoxin reductase component
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.18  Acting on iron-sulfur proteins as donors
+               1.18.1  With NAD+ or NADP+ as acceptor
+                1.18.1.7  ferredoxin---NAD(P)+ reductase (naphthalene dioxygenase ferredoxin-specific)
+                 K14581  nahAa, nagAa, ndoR, nbzAa, dntAa; naphthalene 1,2-dioxygenase ferredoxin reductase component
+            Dioxygenases [br01602.html]
+             Dioxygenases in aromatic ring cleavage
+              K14581
+GENES       EBT: EBL_c34260(ndoR)
+            KAS: KATP_22580
+            KLU: K7B04_17400
+            PPI: ND053(nahAa)
+            PFK: PFAS1_28600
+            PSC: A458_06735
+            PSTU: UIB01_22615
+            PBM: CL52_14600
+            ALT: ambt_18035
+            MMW: Mmwyl1_2668
+            MME: Marme_2403
+            MPC: Mar181_2356
+            MPRI: MP3633_2252
+            FCE: JN531_005600
+            RSO: RSc1091(nagAa)
+            RSE: F504_1062
+            RPU: CDC45_05600
+            RNC: GO999_11015
+            RSL: RPSI07_2300(ndoR)
+            RSN: RSPO_c02273
+            RSM: CMR15_20210(ndoR)
+            RSY: RSUY_15130
+            RSG: JK151_19130
+            RPJ: N234_28700
+            RMN: TK49_07925
+            CBW: RR42_s2750
+            CCUP: BKK81_31190
+            CUP: BKK80_25160
+            CUU: BKK79_30870
+            CCAX: KZ686_18760
+            BMK: DM80_1434(ndoR) DM80_1439(ndoR)
+            BUG: BC1001_0575
+            BUQ: AC233_10920
+            BPX: BUPH_04465
+            BUZ: AYM40_33160
+            BFN: OI25_3043(ndoR)
+            PARB: CJU94_38680
+            PTER: C2L65_39085
+            PPAI: E1956_38415
+            PPK: U875_04290
+            PPNO: DA70_21365
+            PPNM: LV28_08955
+            PRB: X636_05155
+            PPUL: RO07_03185
+            PSPU: NA29_24095
+            PAPI: SG18_03375
+            PVE: UC34_19340
+            POX: MB84_24095
+            PFG: AB870_06335
+            PNR: AT302_02770
+            PFIB: PI93_008705
+            PCOM: NTU39_21100
+            CABK: NK8_60790
+            AXY: AXYL_06582
+            AFA: UZ73_08385
+            AFQ: AFA_02200
+            AAQU: D3M96_02175
+            PIG: EGT29_02420 EGT29_23985
+            POL: Bpro_0980
+            PNA: Pnap_2489
+            AJS: Ajs_3089
+            ACK: C380_10005
+            AAV: Aave_0164
+            AAA: Acav_0195
+            VPE: Varpa_2932
+            VBO: CKY39_17850
+            VAM: C4F17_05700
+            LCH: Lcho_0800
+            JAJ: EKL02_16445
+            MASY: DPH57_09575
+            UND: UNDKW_4644
+            TIN: Tint_1781
+            THI: THI_2205
+            AZO: azo2517(nagAa)
+            AOA: dqs_2674
+            AZR: CJ010_15890
+            SIX: BSY16_5589
+            RHV: BA939_22370
+            SHZ: shn_02370
+            OAN: Oant_3238 Oant_4051
+            OAH: DR92_3251 DR92_4202
+            OCR: HGK82_13400
+            OCL: GTN27_14640
+            BOP: AXW83_15000
+            STAR: G3545_17180
+            MRD: Mrad2831_0219
+            MNO: Mnod_0136
+            MPHY: MCBMB27_05204
+            METX: A3862_01170
+            MOC: BB934_42075
+            CDQ: BOQ54_10960
+            HMC: HYPMC_3092
+            AALA: IGS74_00605
+            NOH: G5V57_28305
+            RBM: TEF_01260
+            PSF: PSE_0864
+            PPHR: APZ00_10945
+            LAP: ACP90_27015
+            LABR: CHH27_20650
+            LABT: FIU93_04780(nagAa1)
+            LAGG: B0E33_11075
+            SIW: GH266_12635
+            PYE: A6J80_03590
+            PARR: EOJ32_06500
+            PKD: F8A10_03980
+            SGI: SGRAN_2805(thnY)
+            DVN: HQ394_12615
+            TII: DY252_20845
+            TMO: TMO_2240(ndoR)
+            AG: AAA25904(nahAa) AAB09763(dntAa) AAD12606(nagAa) AAL76199(nbzAa) AGH09224(mntAa)
+REFERENCE   PMID:8486285
+  AUTHORS   Simon MJ, Osslund TD, Saunders R, Ensley BD, Suggs S, Harcourt A, Suen WC, Cruden DL, Gibson DT, Zylstra GJ
+  TITLE     Sequences of genes encoding naphthalene dioxygenase in Pseudomonas putida strains G7 and NCIB 9816-4.
+  JOURNAL   Gene 127:31-7 (1993)
+            DOI:10.1016/0378-1119(93)90613-8
+REFERENCE   PMID:15288784
+  AUTHORS   Dennis JJ, Zylstra GJ
+  TITLE     Complete sequence and genetic organization of pDTG1, the 83 kilobase naphthalene degradation plasmid from Pseudomonas putida strain NCIB 9816-4.
+  JOURNAL   J Mol Biol 341:753-68 (2004)
+            DOI:10.1016/j.jmb.2004.06.034
+  SEQUENCE  [ag:AAA25904]
+///

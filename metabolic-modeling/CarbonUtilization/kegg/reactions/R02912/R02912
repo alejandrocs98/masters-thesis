@@ -1,0 +1,17 @@
+ENTRY       R02912                      Reaction
+NAME        serotonin O-methyltransferase
+DEFINITION  Serotonin + 5-Methyltetrahydrofolate <=> 5-Methoxytryptamine + Tetrahydrofolate
+EQUATION    C00780 + C00440 <=> C05659 + C00101
+COMMENT     serotonin O-methylase
+RCLASS      RC00113  C00101_C00440
+            RC00392  C00780_C05659
+ENZYME      2.1.1.-
+PATHWAY     rn00380  Tryptophan metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.-
+                 R02912  Serotonin + 5-Methyltetrahydrofolate <=> 5-Methoxytryptamine + Tetrahydrofolate
+ORTHOLOGY   K00599  tRNA N(3)-methylcytidine methyltransferase METTL6 [EC:2.1.1.-]
+///

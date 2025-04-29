@@ -1,0 +1,23 @@
+ENTRY       R08160                      Reaction
+NAME        L-tryptophan,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (N-hydroxylating)
+DEFINITION  L-Tryptophan + 2 [Reduced NADPH---hemoprotein reductase] + 2 Oxygen <=> Indole-3-acetaldehyde oxime + 2 [Oxidized NADPH---hemoprotein reductase] + CO2 + 3 H2O
+EQUATION    C00078 + 2 C03024 + 2 C00007 <=> C02937 + 2 C03161 + C00011 + 3 C00001
+COMMENT     three-step reaction (see R09583+R09584+R09585)
+RCLASS      RC02295  C00078_C02937
+ENZYME      1.14.14.156
+PATHWAY     rn00380  Tryptophan metabolism
+            rn00966  Glucosinolate biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01210  2-Oxocarboxylic acid metabolism
+MODULE      M00370  Glucosinolate biosynthesis, tryptophan => glucobrassicin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.156
+                 R08160  L-Tryptophan + 2 [Reduced NADPH---hemoprotein reductase] + 2 Oxygen <=> Indole-3-acetaldehyde oxime + 2 [Oxidized NADPH---hemoprotein reductase] + CO2 + 3 H2O
+ORTHOLOGY   K11812  tryptophan N-monooxygenase [EC:1.14.14.156]
+            K11813  tryptophan N-monooxygenase [EC:1.14.14.156]
+DBLINKS     RHEA: 33282
+///

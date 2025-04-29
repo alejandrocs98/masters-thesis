@@ -1,0 +1,25 @@
+ENTRY       R04230                      Reaction
+NAME        (R)-4'-phosphopantothenate:L-cysteine ligase (ATP-utilizing)
+DEFINITION  ATP + D-4'-Phosphopantothenate + L-Cysteine <=> AMP + Diphosphate + (R)-4'-Phosphopantothenoyl-L-cysteine
+EQUATION    C00002 + C03492 + C00097 <=> C00020 + C00013 + C04352
+RCLASS      RC00064  C00097_C04352
+            RC00090  C03492_C04352
+ENZYME      6.3.2.51
+PATHWAY     rn00770  Pantothenate and CoA biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00120  Coenzyme A biosynthesis, pantothenate => CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.51
+                 R04230  ATP + D-4'-Phosphopantothenate + L-Cysteine <=> AMP + Diphosphate + (R)-4'-Phosphopantothenoyl-L-cysteine
+ORTHOLOGY   K01922  phosphopantothenate---cysteine ligase (ATP) [EC:6.3.2.51]
+REFERENCE   1  [PMID:12906824]
+  AUTHORS   Manoj N, Strauss E, Begley TP, Ealick SE.
+  TITLE     Structure of human phosphopantothenoylcysteine synthetase at 2.3 A resolution.
+  JOURNAL   Structure 11:927-36 (2003)
+            DOI:10.1016/S0969-2126(03)00146-1
+DBLINKS     RHEA: 25159
+///

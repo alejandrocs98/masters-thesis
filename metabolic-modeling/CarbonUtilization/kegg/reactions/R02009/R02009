@@ -1,0 +1,24 @@
+ENTRY       R02009                      Reaction
+NAME        geranyldiphosphate diphosphate-lyase (myrcene-forming)
+DEFINITION  Geranyl diphosphate <=> Myrcene + Diphosphate
+EQUATION    C00341 <=> C06074 + C00013
+COMMENT     myrcene synthase
+RCLASS      RC00637  C00341_C06074
+ENZYME      4.2.3.15
+PATHWAY     rn00902  Monoterpenoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.3  Acting on phosphates
+                4.2.3.15
+                 R02009  Geranyl diphosphate <=> Myrcene + Diphosphate
+ORTHOLOGY   K12467  myrcene/ocimene synthase [EC:4.2.3.15]
+            K21925  (-)-camphene/tricyclene/(4S)-limonene/myrcene synthase [EC:4.2.3.117 4.2.3.105 4.2.3.16 4.2.3.15]
+REFERENCE   1  [PMID:10700382]
+  AUTHORS   Bohlmann J, Martin D, Oldham NJ, Gershenzon J.
+  TITLE     Terpenoid secondary metabolism in Arabidopsis thaliana: cDNA cloning, characterization, and functional expression of a myrcene/(E)-beta-ocimene synthase.
+  JOURNAL   Arch Biochem Biophys 375:261-9 (2000)
+            DOI:10.1006/abbi.1999.1669
+DBLINKS     RHEA: 16968
+///

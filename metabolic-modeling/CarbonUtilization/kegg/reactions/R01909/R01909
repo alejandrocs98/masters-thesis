@@ -1,0 +1,19 @@
+ENTRY       R01909                      Reaction
+NAME        ATP:pyridoxine 5'-phosphotransferase
+DEFINITION  ATP + Pyridoxine <=> ADP + Pyridoxine phosphate
+EQUATION    C00002 + C00314 <=> C00008 + C00627
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00314_C00627
+ENZYME      2.7.1.35
+PATHWAY     rn00750  Vitamin B6 metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.35
+                 R01909  ATP + Pyridoxine <=> ADP + Pyridoxine phosphate
+ORTHOLOGY   K00868  pyridoxine kinase [EC:2.7.1.35]
+DBLINKS     RHEA: 25111
+///

@@ -1,0 +1,18 @@
+ENTRY       R07112                      Reaction
+NAME        1,2-dibromoethane,NADPH:oxygen oxidoreductase (RH-hydroxylating or -epoxidizing)
+DEFINITION  1,2-Dibromoethane + NADPH + Oxygen + H+ <=> 2-Bromoacetaldehyde + NADP+ + H2O + Hydrobromic acid
+EQUATION    C11088 + C00005 + C00007 + C00080 <=> C14870 + C00006 + C00001 + C13645
+COMMENT     CYP2E1
+            2 steps reaction
+RCLASS      RC00001  C00005_C00006
+            RC01740  C11088_C14870
+ENZYME      1.14.14.-
+PATHWAY     rn00980  Metabolism of xenobiotics by cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.-
+                 R07112  1,2-Dibromoethane + NADPH + Oxygen + H+ <=> 2-Bromoacetaldehyde + NADP+ + H2O + Hydrobromic acid
+ORTHOLOGY   K07415  cytochrome P450 family 2 subfamily E1 [EC:1.14.14.-]
+///

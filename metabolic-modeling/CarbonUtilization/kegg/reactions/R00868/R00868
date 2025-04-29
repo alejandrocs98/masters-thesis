@@ -1,0 +1,21 @@
+ENTRY       R00868                      Reaction
+NAME        D-mannitol:NAD+ 2-oxidoreductase
+DEFINITION  Mannitol + NAD+ <=> D-Fructose + NADH + H+
+EQUATION    C00392 + C00003 <=> C00095 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00085  C00095_C00392
+ENZYME      1.1.1.11        1.1.1.67
+PATHWAY     rn00051  Fructose and mannose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.11
+                 R00868  Mannitol + NAD+ <=> D-Fructose + NADH + H+
+                1.1.1.67
+                 R00868  Mannitol + NAD+ <=> D-Fructose + NADH + H+
+ORTHOLOGY   K00007  D-arabinitol 4-dehydrogenase [EC:1.1.1.11]
+            K00045  mannitol 2-dehydrogenase [EC:1.1.1.67]
+DBLINKS     RHEA: 12087
+///

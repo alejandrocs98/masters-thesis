@@ -1,0 +1,20 @@
+ENTRY       R01296                      Reaction
+NAME        4-hydroxybenzoate,NADH:oxygen oxidoreductase (3-hydroxylating)
+DEFINITION  4-Hydroxybenzoate + Oxygen + NADH + H+ <=> 3,4-Dihydroxybenzoate + NAD+ + H2O
+EQUATION    C00156 + C00007 + C00004 + C00080 <=> C00230 + C00003 + C00001
+COMMENT     NADPH (see R01298)
+RCLASS      RC00001  C00003_C00004
+            RC00046  C00156_C00230
+ENZYME      1.14.13.33
+PATHWAY     rn00362  Benzoate degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.33
+                 R01296  4-Hydroxybenzoate + Oxygen + NADH + H+ <=> 3,4-Dihydroxybenzoate + NAD+ + H2O
+DBLINKS     RHEA: 19476
+///

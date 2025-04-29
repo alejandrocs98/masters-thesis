@@ -1,0 +1,56 @@
+ENTRY       K15972                      KO
+SYMBOL      tcmG, elmG
+NAME        tetracenomycin A2 monooxygenase-dioxygenase [EC:1.14.13.200]
+PATHWAY     map01057  Biosynthesis of type II polyketide products
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00783  Tetracenomycin C/8-demethyltetracenomycin C biosynthesis, tetracenomycin F2 => tetracenomycin C/8-demethyltetracenomycin C
+REACTION    R06704  tetracenomycin-A2,NADPH:oxygen oxidoreductase (tetracenomycin-C-forming)
+            R10954  tetracenomycin-B2,NADPH:oxygen oxidoreductase (8-demethyltetracenomycin-C-forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
+               01057 Biosynthesis of type II polyketide products
+                K15972  tcmG, elmG; tetracenomycin A2 monooxygenase-dioxygenase
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01008 Polyketide biosynthesis proteins
+                K15972  tcmG, elmG; tetracenomycin A2 monooxygenase-dioxygenase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.200  tetracenomycin A2 monooxygenase-dioxygenase
+                 K15972  tcmG, elmG; tetracenomycin A2 monooxygenase-dioxygenase
+            Polyketide biosynthesis proteins [BR:ko01008]
+             Polyketide tailoring proteins
+              Oxygenase
+               K15972  tcmG, elmG; tetracenomycin A2 monooxygenase-dioxygenase
+DBLINKS     COG: COG0654
+GENES       SMOR: LHA26_18465
+            MSPG: F6B93_10335
+            NYA: LTV02_15905
+            SGU: SGLAU_26335(tcmG)
+            SHUN: DWB77_06590(dnrF)
+            NCX: Nocox_12825(tfdB2)
+            CROS: N8J89_07320
+            ACTY: OG774_06650
+            AG: CAP12596(elmG)
+REFERENCE   PMID:8509339
+  AUTHORS   Decker H, Motamedi H, Hutchinson CR
+  TITLE     Nucleotide sequences and heterologous expression of tcmG and tcmP, biosynthetic genes for tetracenomycin C in Streptomyces glaucescens.
+  JOURNAL   J Bacteriol 175:3876-86 (1993)
+            DOI:10.1128/JB.175.12.3876-3886.1993
+  SEQUENCE  [sgu:SGLAU_26335]
+REFERENCE   PMID:11009387
+  AUTHORS   Rafanan ER Jr, Hutchinson CR, Shen B
+  TITLE     Triple hydroxylation of tetracenomycin A2 to tetracenomycin C involving two molecules of O(2) and one molecule of H(2)O.
+  JOURNAL   Org Lett 2:3225-7 (2000)
+            DOI:10.1021/ol0002267
+REFERENCE   PMID:11325225
+  AUTHORS   Rafanan ER Jr, Le L, Zhao L, Decker H, Shen B
+  TITLE     Cloning, sequencing, and heterologous expression of the elmGHIJ genes involved in the biosynthesis of the polyketide antibiotic elloramycin from Streptomyces olivaceus Tu2353.
+  JOURNAL   J Nat Prod 64:444-9 (2001)
+            DOI:10.1021/np010007+
+  SEQUENCE  [ag:CAP12596]
+///

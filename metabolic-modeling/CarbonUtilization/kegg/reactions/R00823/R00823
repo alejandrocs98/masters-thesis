@@ -1,0 +1,32 @@
+ENTRY       R00823                      Reaction
+NAME        anthranilate,NADH:oxygen oxidoreductase (1,2-hydroxylating, deaminating, decarboxylating)
+DEFINITION  Anthranilate + Oxygen + NADH + H+ <=> Catechol + Ammonia + CO2 + NAD+
+EQUATION    C00108 + C00007 + C00004 + C00080 <=> C00090 + C00014 + C00011 + C00003
+COMMENT     NADPH (see R00825)
+RCLASS      RC00001  C00003_C00004
+            RC00192  C00090_C00108
+ENZYME      1.14.12.1
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00637  Anthranilate degradation, anthranilate => catechol
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.12  With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into the other donor
+                1.14.12.1
+                 R00823  Anthranilate + Oxygen + NADH + H+ <=> Catechol + Ammonia + CO2 + NAD+
+ORTHOLOGY   K05599  anthranilate 1,2-dioxygenase (deaminating, decarboxylating) large subunit [EC:1.14.12.1]
+            K05600  anthranilate 1,2-dioxygenase (deaminating, decarboxylating) small subunit [EC:1.14.12.1]
+            K11311  anthranilate 1,2-dioxygenase reductase component [EC:1.18.1.-]
+            K16319  anthranilate 1,2-dioxygenase large subunit [EC:1.14.12.1]
+            K16320  anthranilate 1,2-dioxygenase small subunit [EC:1.14.12.1]
+            K18248  anthranilate 1,2-dioxygenase ferredoxin component
+            K18249  anthranilate 1,2-dioxygenase ferredoxin reductase component [EC:1.18.1.-]
+REFERENCE   1  [PMID:11114907]
+  AUTHORS   Eby DM, Beharry ZM, Coulter ED, Kurtz DM Jr, Neidle EL
+  TITLE     Characterization and evolution of anthranilate 1,2-dioxygenase from Acinetobacter sp. strain ADP1.
+  JOURNAL   J Bacteriol 183:109-18 (2001)
+            DOI:10.1128/JB.183-1.109-118.2001
+DBLINKS     RHEA: 11079
+///

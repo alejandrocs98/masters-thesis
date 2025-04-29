@@ -1,0 +1,21 @@
+ENTRY       R11187                      Reaction
+NAME        dihydromonacolin L-[acyl-carrier protein] hydrolase
+DEFINITION  Dihydromonacolin L-[acyl-carrier protein] + H2O <=> Acyl-carrier protein + Dihydromonacolin L acid
+EQUATION    C21108 + C00001 <=> C00229 + C20851
+COMMENT     Acy-carrier protein is acp domain of LOVB [KO:K20981].
+RCLASS      RC00014  C20851_C21108
+            RC00039  C00229_C21108
+ENZYME      3.1.2.31
+PATHWAY     rn00997  Biosynthesis of various other secondary metabolites
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00893  Lovastatin biosynthesis, malonyl-CoA => lovastatin acid
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.2  Thioester hydrolases
+                3.1.2.31
+                 R11187  Dihydromonacolin L-[acyl-carrier protein] + H2O <=> Acyl-carrier protein + Dihydromonacolin L acid
+ORTHOLOGY   K20985  dihydromonacolin L-[lovastatin nonaketide synthase] thioesterase [EC:3.1.2.31]
+DBLINKS     RHEA: 11595
+///

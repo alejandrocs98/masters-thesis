@@ -1,0 +1,20 @@
+ENTRY       R05402                      Reaction
+NAME        glutathione disulfide:2,6-dichlorohydroquinone (chlorinating)
+DEFINITION  Tetrachlorohydroquinone + 2 Glutathione <=> 2,3,6-Trichlorohydroquinone + Glutathione disulfide + Hydrochloric acid
+EQUATION    C03434 + 2 C00051 <=> C07099 + C00127 + C01327
+COMMENT     tetrachloro-p-hyrodoquinone reductive dehalogenase, PcpC
+RCLASS      RC00011  C00051_C00127
+            RC01363  C03434_C07099
+ENZYME      1.21.4.5
+PATHWAY     rn00361  Chlorocyclohexane and chlorobenzene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.21  Catalysing the reaction X-H + Y-H = X-Y
+               1.21.4  With a disulfide as acceptor
+                1.21.4.5
+                 R05402  Tetrachlorohydroquinone + 2 Glutathione <=> 2,3,6-Trichlorohydroquinone + Glutathione disulfide + Hydrochloric acid
+ORTHOLOGY   K15241  tetrachlorohydroquinone reductive dehalogenase [EC:1.21.4.5]
+DBLINKS     RHEA: 56831
+///

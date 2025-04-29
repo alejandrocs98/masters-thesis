@@ -1,0 +1,18 @@
+ENTRY       R04130                      Reaction
+NAME        2,6-dihydroxypyridine,NADH:oxygen oxidoreductase (3-hydroxylating)
+DEFINITION  2,6-Dihydroxypyridine + Oxygen + NADH + H+ <=> 2,3,6-Trihydroxypyridine + NAD+ + H2O
+EQUATION    C03056 + C00007 + C00004 + C00080 <=> C03458 + C00003 + C00001
+RCLASS      RC00001  C00003_C00004
+            RC00046  C03056_C03458
+ENZYME      1.14.13.10
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.10
+                 R04130  2,6-Dihydroxypyridine + Oxygen + NADH + H+ <=> 2,3,6-Trihydroxypyridine + NAD+ + H2O
+ORTHOLOGY   K19189  2,6-dihydroxypyridine 3-monooxygenase [EC:1.14.13.10]
+DBLINKS     RHEA: 16920
+///

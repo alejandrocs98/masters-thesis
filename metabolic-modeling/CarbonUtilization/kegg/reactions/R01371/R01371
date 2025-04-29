@@ -1,0 +1,21 @@
+ENTRY       R01371                      Reaction
+NAME        phenyllactate:NADP+ oxidoreductase
+DEFINITION  Phenyllactate + NADP+ <=> Phenylpyruvate + NADPH + H+
+EQUATION    C05607 + C00006 <=> C00166 + C00005 + C00080
+COMMENT     NAD+ (see R01370)
+RCLASS      RC00001  C00005_C00006
+            RC00031  C00166_C05607
+ENZYME      1.1.1.237
+PATHWAY     rn00360  Phenylalanine metabolism
+            rn00960  Tropane, piperidine and pyridine alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.237
+                 R01371  Phenyllactate + NADP+ <=> Phenylpyruvate + NADPH + H+
+ORTHOLOGY   K13574  hydroxycarboxylate dehydrogenase B [EC:1.1.1.237 1.1.1.-]
+            K18606  hydroxyphenylpyruvate reductase [EC:1.1.1.237]
+///

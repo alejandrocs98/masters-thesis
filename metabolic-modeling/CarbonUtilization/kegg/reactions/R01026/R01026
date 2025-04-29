@@ -1,0 +1,24 @@
+ENTRY       R01026                      Reaction
+NAME        acetylcholine aectylhydrolase
+DEFINITION  Acetylcholine + H2O <=> Choline + Acetate
+EQUATION    C01996 + C00001 <=> C00114 + C00033
+RCLASS      RC00020  C00033_C01996
+            RC00041  C00114_C01996
+ENZYME      3.1.1.7         3.1.1.8
+PATHWAY     rn00564  Glycerophospholipid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.7
+                 R01026  Acetylcholine + H2O <=> Choline + Acetate
+                3.1.1.8
+                 R01026  Acetylcholine + H2O <=> Choline + Acetate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.1.1.8
+               R01029  Acylcholine <=> Carboxylate
+                R01026  Acetylcholine <=> Acetate
+ORTHOLOGY   K01049  acetylcholinesterase [EC:3.1.1.7]
+DBLINKS     RHEA: 17564
+///

@@ -1,0 +1,19 @@
+ENTRY       R05700                      Reaction
+NAME        coniferyl aldehyde:NAD oxidoreductase
+DEFINITION  Coniferyl aldehyde + H2O + NAD+ <=> Ferulate + NADH + H+
+EQUATION    C02666 + C00001 + C00003 <=> C01494 + C00004 + C00080
+COMMENT     see R05701 (NADP)
+RCLASS      RC00001  C00003_C00004
+            RC00218  C01494_C02666
+ENZYME      1.2.1.68
+PATHWAY     rn00940  Phenylpropanoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.68
+                 R05700  Coniferyl aldehyde + H2O + NAD+ <=> Ferulate + NADH + H+
+ORTHOLOGY   K12355  coniferyl-aldehyde dehydrogenase [EC:1.2.1.68]
+DBLINKS     RHEA: 23971
+///

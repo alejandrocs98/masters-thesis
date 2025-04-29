@@ -1,0 +1,23 @@
+ENTRY       R04882                      Reaction
+NAME        3,4-dihydroxymandelaldehyde:NAD+ oxidoreductase
+DEFINITION  3,4-Dihydroxymandelaldehyde + NAD+ + H2O <=> 3,4-Dihydroxymandelate + NADH + H+
+EQUATION    C05577 + C00003 + C00001 <=> C05580 + C00004 + C00080
+COMMENT     see R04883 (NADPH)
+RCLASS      RC00001  C00003_C00004
+            RC00242  C05577_C05580
+ENZYME      1.2.1.5
+PATHWAY     rn00350  Tyrosine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.5
+                 R04882  3,4-Dihydroxymandelaldehyde + NAD+ + H2O <=> 3,4-Dihydroxymandelate + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.5
+               R00538  Aldehyde <=> Carboxylate
+                R04882  3,4-Dihydroxymandelaldehyde <=> 3,4-Dihydroxymandelate
+ORTHOLOGY   K00129  aldehyde dehydrogenase (NAD(P)+) [EC:1.2.1.5]
+///

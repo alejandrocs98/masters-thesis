@@ -1,0 +1,35 @@
+ENTRY       R00074                      Reaction
+NAME        2-aminophenol:oxygen oxidoreductase (dimerizing)
+DEFINITION  4 2-Aminophenol + 3 Oxygen <=> 2 2-Aminophenoxazin-3-one + 6 H2O
+EQUATION    4 C01987 + 3 C00007 <=> 2 C02161 + 6 C00001
+COMMENT     multi-step reaction (see R08762+R08763)
+RCLASS      RC00767  C01987_C02161
+            RC02319  C01987_C02161
+ENZYME      1.10.3.4
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.10  Acting on diphenols and related substances as donors
+               1.10.3  With oxygen as acceptor
+                1.10.3.4
+                 R00074  4 2-Aminophenol + 3 Oxygen <=> 2 2-Aminophenoxazin-3-one + 6 H2O
+ORTHOLOGY   K20204  grixazone synthase / o-aminophenol oxidase [EC:1.10.3.15 1.10.3.4]
+            K20219  o-aminophenol oxidase [EC:1.10.3.4]
+REFERENCE   1  [PMID:14298835]
+  AUTHORS   NAIR PM, VINING LC.
+  TITLE     ESOPHENOXAZINE SYNTHASE APOENZYME FROM PYCNOPORUS COCCINEUS.
+  JOURNAL   Biochim Biophys Acta 96:318-27 (1965)
+            DOI:10.1016/0005-2787(65)90594-0
+REFERENCE   2  [PMID:4166439]
+  AUTHORS   Subba Rao PV, Vaidyanathan CS.
+  TITLE     Studies on the metabolism of o-aminophenol. Purification and properties of isophenoxazine synthase from Bauhenia monandra.
+  JOURNAL   Arch Biochem Biophys 118:388-94 (1967)
+            DOI:10.1016/0003-9861(67)90365-7
+REFERENCE   3  [PMID:16282322]
+  AUTHORS   Suzuki H, Furusho Y, Higashi T, Ohnishi Y, Horinouchi S
+  TITLE     A novel o-aminophenol oxidase responsible for formation of the phenoxazinone chromophore of grixazone.
+  JOURNAL   J Biol Chem 281:824-33 (2006)
+            DOI:10.1074/jbc.M505806200
+DBLINKS     RHEA: 40966
+///

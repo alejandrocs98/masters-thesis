@@ -1,0 +1,19 @@
+ENTRY       R04121                      Reaction
+NAME        fatty acid,reduced-flaboprotein:oxygen oxidoreductase (RH-hydroxylating or -epoxidizing)
+DEFINITION  [Reduced NADPH---hemoprotein reductase] + Fatty acid + Oxygen <=> alpha-Hydroxy fatty acid + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C03024 + C00162 + C00007 <=> C05102 + C03161 + C00001
+ENZYME      1.14.14.1
+PATHWAY     rn00071  Fatty acid degradation
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R04121  [Reduced NADPH---hemoprotein reductase] + Fatty acid + Oxygen <=> alpha-Hydroxy fatty acid + [Oxidized NADPH---hemoprotein reductase] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.1
+               R04122  Alkane <=> ROH
+                R04121  Fatty acid <=> alpha-Hydroxy fatty acid
+ORTHOLOGY   K14338  cytochrome P450 / NADPH-cytochrome P450 reductase [EC:1.14.14.1 1.6.2.4]
+///

@@ -1,0 +1,28 @@
+ENTRY       R02125                      Reaction
+NAME        retinal:oxygen oxidoreductase
+DEFINITION  Retinal + Oxygen + H2O <=> Retinoate + Hydrogen peroxide
+EQUATION    C00376 + C00007 + C00001 <=> C00777 + C00027
+RCLASS      RC00218  C00376_C00777
+            RC02755  C00007_C00027
+ENZYME      1.2.3.1
+PATHWAY     rn00830  Retinol metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.3  With oxygen as acceptor
+                1.2.3.1
+                 R02125  Retinal + Oxygen + H2O <=> Retinoate + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.3.1
+               R00635  Aldehyde <=> Carboxylate
+                R02125  Retinal <=> Retinoate
+ORTHOLOGY   K00157  aldehyde oxidase [EC:1.2.3.1]
+REFERENCE   1  [PMID:17992629]
+  AUTHORS   Graessler J, Fischer S.
+  TITLE     The dual substrate specificity of aldehyde oxidase 1 for retinal and acetaldehyde and its role in ABCA1 mediated efflux.
+  JOURNAL   Horm Metab Res 39:775-6 (2007)
+            DOI:10.1055/s-2007-992126
+DBLINKS     RHEA: 22523
+///

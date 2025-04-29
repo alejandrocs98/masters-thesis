@@ -1,0 +1,26 @@
+ENTRY       R06560                      Reaction
+NAME        formononetin,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (2'-hydroxylating)
+DEFINITION  Formononetin + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 2'-Hydroxyformononetin + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00858 + C03024 + C00007 <=> C02920 + C03161 + C00001
+RCLASS      RC00046  C00858_C02920
+ENZYME      1.14.14.89      1.14.14.90
+PATHWAY     rn00943  Isoflavonoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00942  Pterocarpan biosynthesis, daidzein => medicarpin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.89
+                 R06560  Formononetin + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 2'-Hydroxyformononetin + [Oxidized NADPH---hemoprotein reductase] + H2O
+                1.14.14.90
+                 R06560  Formononetin + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 2'-Hydroxyformononetin + [Oxidized NADPH---hemoprotein reductase] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.90
+               R07371  Isoflavone <=> 2'-Hydroxyisoflavone
+                R06560  Formononetin <=> 2'-Hydroxyformononetin
+ORTHOLOGY   K13260  isoflavone/4'-methoxyisoflavone 2'-hydroxylase [EC:1.14.14.90 1.14.14.89]
+DBLINKS     RHEA: 12391
+///

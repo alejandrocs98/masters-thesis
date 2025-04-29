@@ -1,0 +1,19 @@
+ENTRY       R02454                      Reaction
+NAME        D-mannonate:NAD+ 5-oxidoreductase
+DEFINITION  D-Mannonate + NAD+ <=> D-Fructuronate + NADH + H+
+EQUATION    C00514 + C00003 <=> C00905 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00085  C00514_C00905
+ENZYME      1.1.1.57
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn01100  Metabolic pathways
+MODULE      M00061  D-Glucuronate degradation, D-glucuronate => pyruvate + D-glyceraldehyde 3P
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.57
+                 R02454  D-Mannonate + NAD+ <=> D-Fructuronate + NADH + H+
+ORTHOLOGY   K00040  fructuronate reductase [EC:1.1.1.57]
+DBLINKS     RHEA: 15732
+///

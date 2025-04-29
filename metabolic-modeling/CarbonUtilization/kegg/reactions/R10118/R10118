@@ -1,0 +1,19 @@
+ENTRY       R10118                      Reaction
+NAME        glutaryl-[acp]-methyl-ester:NADP+ oxidoreductase
+DEFINITION  Enoylglutaryl-[acp] methyl ester + NADPH + H+ <=> Glutaryl-[acp] methyl ester + NADP+
+EQUATION    C20374 + C00005 + C00080 <=> C20375 + C00006
+RCLASS      RC00001  C00005_C00006
+            RC00052  C20374_C20375
+ENZYME      1.3.1.10
+PATHWAY     rn00780  Biotin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00572  Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.10
+                 R10118  Enoylglutaryl-[acp] methyl ester + NADPH + H+ <=> Glutaryl-[acp] methyl ester + NADP+
+ORTHOLOGY   K00208  enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]
+///

@@ -1,0 +1,19 @@
+ENTRY       R02640                      Reaction
+NAME        L-gulonate:NAD+ 3-oxidoreductase
+DEFINITION  L-Gulonate + NAD+ <=> 3-Dehydro-L-gulonate + NADH + H+
+EQUATION    C00800 + C00003 <=> C00618 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00761  C00618_C00800
+ENZYME      1.1.1.45
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn01100  Metabolic pathways
+MODULE      M00014  Glucuronate pathway (uronate pathway)
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.45
+                 R02640  L-Gulonate + NAD+ <=> 3-Dehydro-L-gulonate + NADH + H+
+ORTHOLOGY   K13247  L-gulonate 3-dehydrogenase [EC:1.1.1.45]
+DBLINKS     RHEA: 12892
+///

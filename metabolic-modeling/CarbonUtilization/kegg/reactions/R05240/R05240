@@ -1,0 +1,21 @@
+ENTRY       R05240                      Reaction
+NAME        cis-2,3-dihydroxy-2,3-dihydro-p-cumate:NAD+ oxidoreductase
+DEFINITION  cis-2,3-Dihydroxy-2,3-dihydro-p-cumate + NAD+ <=> 2,3-Dihydroxy-p-cumate + NADH + H+
+EQUATION    C06579 + C00003 <=> C06580 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00057  C06579_C06580
+ENZYME      1.3.1.58
+PATHWAY     rn00622  Xylene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00539  Cumate degradation, p-cumate => 2-oxopent-4-enoate + 2-methylpropanoate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.58
+                 R05240  cis-2,3-Dihydroxy-2,3-dihydro-p-cumate + NAD+ <=> 2,3-Dihydroxy-p-cumate + NADH + H+
+ORTHOLOGY   K10620  2,3-dihydroxy-2,3-dihydro-p-cumate dehydrogenase [EC:1.3.1.58]
+DBLINKS     RHEA: 23775
+///

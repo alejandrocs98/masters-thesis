@@ -1,0 +1,23 @@
+ENTRY       R03392                      Reaction
+NAME        CDP-4-dehydro-3,6-dideoxy-D-glucose:NADP+ 3-oxydoreductase
+DEFINITION  CDP-4-dehydro-3,6-dideoxy-D-glucose + NADP+ + H2O <=> CDP-4-dehydro-6-deoxy-D-glucose + NADPH + H+
+EQUATION    C04297 + C00006 + C00001 <=> C01219 + C00005 + C00080
+COMMENT     NAD+ (see R03391)
+            multi-step reaction
+RCLASS      RC00001  C00005_C00006
+            RC00230  C01219_C04297
+ENZYME      1.17.1.1
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  O-Antigen nucleotide sugar biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.17  Acting on CH or CH2 groups
+               1.17.1  With NAD+ or NADP+ as acceptor
+                1.17.1.1
+                 R03392  CDP-4-dehydro-3,6-dideoxy-D-glucose + NADP+ + H2O <=> CDP-4-dehydro-6-deoxy-D-glucose + NADPH + H+
+ORTHOLOGY   K00523  CDP-4-dehydro-6-deoxyglucose reductase, E3 [EC:1.17.1.1]
+            K12452  CDP-4-dehydro-6-deoxyglucose reductase, E1 [EC:1.17.1.1]
+DBLINKS     RHEA: 19660
+///

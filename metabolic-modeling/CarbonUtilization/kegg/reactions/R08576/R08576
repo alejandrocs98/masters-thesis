@@ -1,0 +1,18 @@
+ENTRY       R08576                      Reaction
+NAME        O-phospho-L-serine:tRNA(Cys) ligase (AMP-forming)
+DEFINITION  O-Phospho-L-serine + tRNA(Cys) + ATP <=> O-Phosphoseryl-tRNA(Cys) + Diphosphate + AMP
+EQUATION    C01005 + C01639 + C00002 <=> C17022 + C00013 + C00020
+COMMENT     O-phosphoseryl-tRNA synthetase
+RCLASS      RC00055  C01639_C17022
+            RC00523  C01005_C17022
+ENZYME      6.1.1.27
+PATHWAY     rn00970  Aminoacyl-tRNA biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.1  Forming carbon-oxygen bonds
+               6.1.1  Ligases forming aminoacyl-tRNA and related compounds
+                6.1.1.27
+                 R08576  O-Phospho-L-serine + tRNA(Cys) + ATP <=> O-Phosphoseryl-tRNA(Cys) + Diphosphate + AMP
+ORTHOLOGY   K07587  O-phosphoseryl-tRNA synthetase [EC:6.1.1.27]
+DBLINKS     RHEA: 25681
+///

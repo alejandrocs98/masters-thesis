@@ -1,0 +1,19 @@
+ENTRY       R11392                      Reaction
+NAME        (R)-2-aza-beta-tyrosine:[peptidyl-carrier protein] ligase (AMP-forming)
+DEFINITION  ATP + (R)-2-Aza-beta-tyrosine + Peptidyl-carrier protein <=> AMP + Diphosphate + (R)-2-Aza-beta-tyrosyl-[pcp]
+EQUATION    C00002 + C21326 + C21097 <=> C00020 + C00013 + C21327
+RCLASS      RC00014  C21326_C21327
+            RC00039  C21097_C21327
+ENZYME      6.2.1.-
+PATHWAY     rn01059  Biosynthesis of enediyne antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00832  Kedarcidin 2-aza-3-chloro-beta-tyrosine moiety biosynthesis, azatyrosine => 2-aza-3-chloro-beta-tyrosyl-PCP
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.-
+                 R11392  ATP + (R)-2-Aza-beta-tyrosine + Peptidyl-carrier protein <=> AMP + Diphosphate + (R)-2-Aza-beta-tyrosyl-[pcp]
+ORTHOLOGY   K21228  (R)-2-aza-beta-tyrosine adenylation enzyme [EC:6.2.1.-]
+///

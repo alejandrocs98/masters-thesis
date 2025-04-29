@@ -1,0 +1,17 @@
+ENTRY       R02631                      Reaction
+NAME        protein-N(pi)-phosphohistidine:D-glucosamine 6-phosphotransferase
+DEFINITION  Protein N(pi)-phospho-L-histidine + D-Glucosamine <=> Protein histidine + D-Glucosamine 6-phosphate
+EQUATION    C04261 + C00329 <=> C00615 + C00352
+RCLASS      RC00017  C00329_C00352
+            RC03206  C00615_C04261
+ENZYME      2.7.1.-
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.-
+                 R02631  Protein N(pi)-phospho-L-histidine + D-Glucosamine <=> Protein histidine + D-Glucosamine 6-phosphate
+ORTHOLOGY   K02765  D-glucosamine PTS system EIICBA component [EC:2.7.1.-]
+DBLINKS     RHEA: 37362
+///

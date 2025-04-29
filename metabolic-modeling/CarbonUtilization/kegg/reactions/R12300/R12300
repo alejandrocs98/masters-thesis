@@ -1,0 +1,28 @@
+ENTRY       R12300                      Reaction
+NAME        malonate:CoA ligase (AMP-forming)
+DEFINITION  ATP + Malonate + CoA <=> AMP + Diphosphate + Malonyl-CoA
+EQUATION    C00002 + C00383 + C00010 <=> C00020 + C00013 + C00083
+RCLASS      RC00004  C00010_C00083
+            RC00014  C00083_C00383
+ENZYME      6.2.1.76
+PATHWAY     rn00061  Fatty acid biosynthesis
+            rn01100  Metabolic pathways
+            rn01212  Fatty acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.76
+                 R12300  ATP + Malonate + CoA <=> AMP + Diphosphate + Malonyl-CoA
+ORTHOLOGY   K18660  malonyl-CoA/methylmalonyl-CoA synthetase [EC:6.2.1.76 6.2.1.-]
+REFERENCE   1  [PMID:30201289]
+  AUTHORS   Bowman CE, Wolfgang MJ
+  TITLE     Role of the malonyl-CoA synthetase ACSF3 in mitochondrial metabolism.
+  JOURNAL   Adv Biol Regul 71:34-40 (2019)
+            DOI:10.1016/j.jbior.2018.09.002
+REFERENCE   2  [PMID:21846720]
+  AUTHORS   Witkowski A, Thweatt J, Smith S
+  TITLE     Mammalian ACSF3 protein is a malonyl-CoA synthetase that supplies the chain extender units for mitochondrial fatty acid synthesis.
+  JOURNAL   J Biol Chem 286:33729-36 (2011)
+            DOI:10.1074/jbc.M111.291591
+///

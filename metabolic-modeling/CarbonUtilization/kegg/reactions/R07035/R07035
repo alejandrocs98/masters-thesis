@@ -1,0 +1,22 @@
+ENTRY       R07035                      Reaction
+NAME        glutathione: 15-HPETE oxidoreductase
+DEFINITION  2 Glutathione + 15(S)-HPETE <=> Glutathione disulfide + (15S)-15-Hydroxy-5,8,11-cis-13-trans-eicosatetraenoate + H2O
+EQUATION    2 C00051 + C05966 <=> C00127 + C04742 + C00001
+RCLASS      RC00011  C00051_C00127
+            RC00982  C04742_C05966
+ENZYME      1.11.1.12
+PATHWAY     rn00590  Arachidonic acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.11  Acting on a peroxide as acceptor
+               1.11.1  Peroxidases
+                1.11.1.12
+                 R07035  2 Glutathione + 15(S)-HPETE <=> Glutathione disulfide + (15S)-15-Hydroxy-5,8,11-cis-13-trans-eicosatetraenoate + H2O
+ORTHOLOGY   K05361  phospholipid-hydroperoxide glutathione peroxidase [EC:1.11.1.12]
+REFERENCE   1  [PMID:30337875]
+  AUTHORS   Li C, Deng X, Xie X, Liu Y, Friedmann Angeli JP, Lai L.
+  TITLE     Activation of Glutathione Peroxidase 4 as a Novel Anti-inflammatory Strategy.
+  JOURNAL   Front Pharmacol 9:1120 (2018)
+            DOI:10.3389/fphar.2018.01120
+///

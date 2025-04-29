@@ -1,0 +1,23 @@
+ENTRY       R10089                      Reaction
+NAME        D-ribose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5'-phosphate-lyase (glutamine-hydrolyzing)
+DEFINITION  D-Ribose 5-phosphate + D-Glyceraldehyde 3-phosphate + L-Glutamine <=> Pyridoxal phosphate + L-Glutamate + 3 H2O + Orthophosphate
+EQUATION    C00117 + C00118 + C00064 <=> C00018 + C00025 + 3 C00001 + C00009
+COMMENT     two-step reaction (see R00256+R10088)
+RCLASS      RC00010  C00025_C00064
+            RC01783  C00018_C00118
+            RC03049  C00018_C00117
+ENZYME      4.3.3.6
+PATHWAY     rn00750  Vitamin B6 metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00916  Pyridoxal-P biosynthesis, R5P + glyceraldehyde-3P + glutamine => pyridoxal-P
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.3  Carbon-nitrogen lyases
+               4.3.3  Amine-lyases
+                4.3.3.6
+                 R10089  D-Ribose 5-phosphate + D-Glyceraldehyde 3-phosphate + L-Glutamine <=> Pyridoxal phosphate + L-Glutamate + 3 H2O + Orthophosphate
+ORTHOLOGY   K06215  pyridoxal 5'-phosphate synthase pdxS subunit [EC:4.3.3.6]
+            K08681  pyridoxal 5'-phosphate synthase pdxT subunit [EC:4.3.3.6]
+DBLINKS     RHEA: 31510
+///

@@ -1,0 +1,23 @@
+ENTRY       R12375                      Reaction
+NAME        3beta-hydroxyergosta-7,24(24(1))-dien-4alpha-carboxylate:NAD+ 3-oxidoreductase (decarboxylating)
+DEFINITION  3beta-Hydroxyergosta-7,24(24(1))-dien-4alpha-carboxylate + NAD+ <=> Episterone + NADH + CO2 + H+
+EQUATION    C22119 + C00003 <=> C22122 + C00004 + C00011 + C00080
+RCLASS      RC03536  C22119_C22122
+ENZYME      1.1.1.418
+PATHWAY     rn00100  Steroid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00917  Phytosterol biosynthesis, squalene 2,3-epoxide => campesterol/sitosterol
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.418
+                 R12375  3beta-Hydroxyergosta-7,24(24(1))-dien-4alpha-carboxylate + NAD+ <=> Episterone + NADH + CO2 + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.418
+               R12366  3beta-Hydroxysteroid-4alpha-carboxylate <=> 3-Oxosteroid
+                R12375  3beta-Hydroxyergosta-7,24(24(1))-dien-4alpha-carboxylate <=> Episterone
+ORTHOLOGY   K23558  plant 3beta-hydroxysteroid-4alpha-carboxylate 3-dehydrogenase [EC:1.1.1.418]
+///

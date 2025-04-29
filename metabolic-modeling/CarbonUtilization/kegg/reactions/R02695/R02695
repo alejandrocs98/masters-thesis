@@ -1,0 +1,34 @@
+ENTRY       R02695                      Reaction
+NAME        4-hydroxyphenylacetaldehyde:NAD+ oxidoreductase
+DEFINITION  4-Hydroxyphenylacetaldehyde + NAD+ + H2O <=> 4-Hydroxyphenylacetate + NADH + H+
+EQUATION    C03765 + C00003 + C00001 <=> C00642 + C00004 + C00080
+COMMENT     see R02697 (NADPH)
+RCLASS      RC00001  C00003_C00004
+            RC00080  C00642_C03765
+ENZYME      1.2.1.5         1.2.1.29        1.2.1.39        1.2.1.53
+PATHWAY     rn00350  Tyrosine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.5
+                 R02695  4-Hydroxyphenylacetaldehyde + NAD+ + H2O <=> 4-Hydroxyphenylacetate + NADH + H+
+                1.2.1.29
+                 R02695  4-Hydroxyphenylacetaldehyde + NAD+ + H2O <=> 4-Hydroxyphenylacetate + NADH + H+
+                1.2.1.39
+                 R02695  4-Hydroxyphenylacetaldehyde + NAD+ + H2O <=> 4-Hydroxyphenylacetate + NADH + H+
+                1.2.1.53
+                 R02695  4-Hydroxyphenylacetaldehyde + NAD+ + H2O <=> 4-Hydroxyphenylacetate + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.5
+               R00538  Aldehyde <=> Carboxylate
+                R02695  4-Hydroxyphenylacetaldehyde <=> 4-Hydroxyphenylacetate
+              1.2.1.29
+               R01486  Aromatic aldehyde <=> Aromatic acid
+                R02695  4-Hydroxyphenylacetaldehyde <=> 4-Hydroxyphenylacetate
+ORTHOLOGY   K00129  aldehyde dehydrogenase (NAD(P)+) [EC:1.2.1.5]
+            K00146  phenylacetaldehyde dehydrogenase [EC:1.2.1.39]
+DBLINKS     RHEA: 17276
+///

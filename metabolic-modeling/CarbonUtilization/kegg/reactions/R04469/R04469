@@ -1,0 +1,21 @@
+ENTRY       R04469                      Reaction
+NAME        UDP-alpha-D-galactose:1,2-diacyl-3-beta-D-galactosyl-sn-glycerol 6-alpha-D-galactosyltransferase
+DEFINITION  1,2-Diacyl-3-beta-D-galactosyl-sn-glycerol + UDP-alpha-D-galactose <=> Digalactosyl-diacylglycerol + UDP
+EQUATION    C03692 + C00052 <=> C06037 + C00015
+RCLASS      RC00005  C00015_C00052
+            RC00059  C03692_C06037
+ENZYME      2.4.1.241
+PATHWAY     rn00561  Glycerolipid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.241
+                 R04469  1,2-Diacyl-3-beta-D-galactosyl-sn-glycerol + UDP-alpha-D-galactose <=> Digalactosyl-diacylglycerol + UDP
+            Glycosyltransferase reactions [BR:br08203]
+             Galactosyltransferase reactions
+              R04469  Gal a1-6 Gal
+ORTHOLOGY   K09480  digalactosyldiacylglycerol synthase [EC:2.4.1.241]
+DBLINKS     RHEA: 10523
+///

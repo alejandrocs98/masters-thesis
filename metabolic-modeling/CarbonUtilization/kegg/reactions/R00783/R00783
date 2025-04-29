@@ -1,0 +1,26 @@
+ENTRY       R00783                      Reaction
+NAME        nitric-oxide:ferricytochrome-c oxidoreductase
+DEFINITION  Nitric oxide + H2O + Ferricytochrome c <=> Nitrite + Ferrocytochrome c + H+
+EQUATION    C00533 + C00001 + C00125 <=> C00088 + C00126 + C00080
+RCLASS      RC00016  C00125_C00126
+            RC00086  C00088_C00533
+ENZYME      1.7.2.1
+PATHWAY     rn00910  Nitrogen metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00529  Denitrification, nitrate => nitrogen
+            M00973  Anammox, nitrite + ammonia => nitrogen
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.7  Acting on other nitrogenous compounds as donors
+               1.7.2  With a cytochrome as acceptor
+                1.7.2.1
+                 R00783  Nitric oxide + H2O + Ferricytochrome c <=> Nitrite + Ferrocytochrome c + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.7.2.1
+               R00783  Ferricytochrome c <=> Ferrocytochrome c
+ORTHOLOGY   K00368  nitrite reductase (NO-forming) [EC:1.7.2.1]
+            K15864  nitrite reductase (NO-forming) / hydroxylamine reductase [EC:1.7.2.1 1.7.99.1]
+DBLINKS     RHEA: 15236
+///

@@ -1,0 +1,27 @@
+ENTRY       R09313                      Reaction
+NAME        dihydrokalafungin-dihydroquinone,FMNH2:oxygen oxidoreductase (hydroxylating)
+DEFINITION  Dihydrokalafungin dihydroquinone form + Reduced FMN + Oxygen <=> DHKred-OH + FMN + H2O
+EQUATION    C18360 + C01847 + C00007 <=> C18358 + C00061 + C00001
+RCLASS      RC00046  C18358_C18360
+            RC00126  C00061_C01847
+ENZYME      1.14.14.-
+PATHWAY     rn01057  Biosynthesis of type II polyketide products
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.-
+                 R09313  Dihydrokalafungin dihydroquinone form + Reduced FMN + Oxygen <=> DHKred-OH + FMN + H2O
+ORTHOLOGY   K14630  two-component flavin-dependent monooxygenase [EC:1.14.14.-]
+REFERENCE   1  [PMID:18245777]
+  AUTHORS   Valton J, Mathevon C, Fontecave M, Niviere V, Ballou DP
+  TITLE     Mechanism and regulation of the Two-component FMN-dependent monooxygenase ActVA-ActVB from Streptomyces coelicolor.
+  JOURNAL   J Biol Chem 283:10287-96 (2008)
+            DOI:10.1074/jbc.M709730200
+REFERENCE   2  [PMID:16267053]
+  AUTHORS   Valton J, Fontecave M, Douki T, Kendrew SG, Niviere V
+  TITLE     An aromatic hydroxylation reaction catalyzed by a two-component FMN-dependent Monooxygenase. The ActVA-ActVB system from Streptomyces coelicolor.
+  JOURNAL   J Biol Chem 281:27-35 (2006)
+            DOI:10.1074/jbc.M506146200
+///

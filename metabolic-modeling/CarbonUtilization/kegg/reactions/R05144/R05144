@@ -1,0 +1,20 @@
+ENTRY       R05144                      Reaction
+NAME        peptidyl-glutamate 4-carboxylase (2-methyl-3-phytyl-1,4-naphthoquinone-epoxidizing)
+DEFINITION  Gla protein + Vitamin K1 epoxide + H2O <=> Gla protein precursor + Phylloquinol + CO2 + Oxygen
+EQUATION    C06246 + C05849 + C00001 <=> C06247 + C03313 + C00011 + C00007
+RCLASS      RC01278  C03313_C05849
+            RC02133  C06246_C06247
+ENZYME      4.1.1.90
+PATHWAY     rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01240  Biosynthesis of cofactors
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.90
+                 R05144  Gla protein + Vitamin K1 epoxide + H2O <=> Gla protein precursor + Phylloquinol + CO2 + Oxygen
+ORTHOLOGY   K10106  vitamin K-dependent gamma-carboxylase [EC:4.1.1.90]
+DBLINKS     RHEA: 45143
+///

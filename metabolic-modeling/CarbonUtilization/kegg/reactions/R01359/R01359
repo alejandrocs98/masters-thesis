@@ -1,0 +1,25 @@
+ENTRY       R01359                      Reaction
+NAME        acetoacetyl-CoA:acetate CoA-transferase
+DEFINITION  Acetoacetyl-CoA + Acetate <=> Acetoacetate + Acetyl-CoA
+EQUATION    C00332 + C00033 <=> C00164 + C00024
+RCLASS      RC00012  C00024_C00033
+            RC00014  C00164_C00332
+ENZYME      2.8.3.8
+PATHWAY     rn00650  Butanoate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.8  Transferring sulfur-containing groups
+               2.8.3  CoA-transferases
+                2.8.3.8
+                 R01359  Acetoacetyl-CoA + Acetate <=> Acetoacetate + Acetyl-CoA
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.8.3.8
+               R00393  Acyl-CoA <=> Fatty acid anion
+                R01359  Acetoacetyl-CoA <=> Acetoacetate
+ORTHOLOGY   K01034  acetate CoA/acetoacetate CoA-transferase alpha subunit [EC:2.8.3.8 2.8.3.9]
+            K01035  acetate CoA/acetoacetate CoA-transferase beta subunit [EC:2.8.3.8 2.8.3.9]
+            K19709  acetate CoA-transferase [EC:2.8.3.8]
+DBLINKS     RHEA: 27809
+///

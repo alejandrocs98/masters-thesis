@@ -1,0 +1,20 @@
+ENTRY       R11478                      Reaction
+NAME        tetracycline:FADH2 oxidoreductase (7-halogenating)
+DEFINITION  Tetracycline + FADH2 + Cl- + Oxygen + H+ <=> Chlortetracycline + FAD + 2 H2O
+EQUATION    C06570 + C01352 + C00698 + C00007 + C00080 <=> C06571 + C00016 + 2 C00001
+RCLASS      RC00949  C06570_C06571
+ENZYME      1.14.19.49
+PATHWAY     rn00253  Tetracycline biosynthesis
+            rn01057  Biosynthesis of type II polyketide products
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00823  Chlortetracycline biosynthesis, pretetramide => chlortetracycline
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.49
+                 R11478  Tetracycline + FADH2 + Cl- + Oxygen + H+ <=> Chlortetracycline + FAD + 2 H2O
+ORTHOLOGY   K14257  tetracycline 7-halogenase / FADH2 O2-dependent halogenase [EC:1.14.19.49 1.14.19.-]
+DBLINKS     RHEA: 50715
+///

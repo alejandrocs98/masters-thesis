@@ -1,0 +1,24 @@
+ENTRY       R07041                      Reaction
+NAME        arachidonic acid:oxygen 1-oxidoreductase
+DEFINITION  Arachidonate + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 20-HETE + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00219 + C03024 + C00007 <=> C14748 + C03161 + C00001
+COMMENT     CYP4A1/2/3/8/11, CYP4F1/4, CYP2U1, CYP4F2/3
+RCLASS      RC00797  C00219_C14748
+ENZYME      1.14.14.80
+PATHWAY     rn00590  Arachidonic acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.80
+                 R07041  Arachidonate + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 20-HETE + [Oxidized NADPH---hemoprotein reductase] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.80
+               R12072  Long-chain fatty acid <=> omega-Hydroxy-long-chain fatty acid
+                R07041  Arachidonate <=> 20-HETE
+ORTHOLOGY   K07422  long-chain fatty acid omega-monooxygenase [EC:1.14.14.80]
+            K07425  long-chain fatty acid omega-monooxygenase [EC:1.14.14.80]
+            K17726  phylloquinone omega-hydroxylase / docosahexaenoic acid omega-hydroxylase / leukotriene-B4 20-monooxygenase [EC:1.14.14.78 1.14.14.79 1.14.14.94]
+///

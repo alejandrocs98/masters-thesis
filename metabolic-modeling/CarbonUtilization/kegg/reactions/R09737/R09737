@@ -1,0 +1,24 @@
+ENTRY       R09737                      Reaction
+NAME        S-adenosyl-L-methionine:2-methoxy-6-all-trans-polyprenyl-1,4-benzoquinol 5-C-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + 2-Methoxy-6-all-trans-polyprenyl-1,4-benzoquinol <=> S-Adenosyl-L-homocysteine + 6-Methoxy-3-methyl-2-all-trans-polyprenyl-1,4-benzoquinol
+EQUATION    C00019 + C19858 <=> C00021 + C19859
+COMMENT     general reaction
+RCLASS      RC00003  C00019_C00021
+            RC01662  C19858_C19859
+ENZYME      2.1.1.201
+PATHWAY     rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01240  Biosynthesis of cofactors
+MODULE      M00117  Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol
+            M00128  Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate + polyprenyl-PP => ubiquinol
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.201
+                 R09737  S-Adenosyl-L-methionine + 2-Methoxy-6-all-trans-polyprenyl-1,4-benzoquinol <=> S-Adenosyl-L-homocysteine + 6-Methoxy-3-methyl-2-all-trans-polyprenyl-1,4-benzoquinol
+ORTHOLOGY   K03183  demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.163 2.1.1.201]
+            K06127  2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.201]
+DBLINKS     RHEA: 28289
+///

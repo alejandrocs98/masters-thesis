@@ -1,0 +1,20 @@
+ENTRY       R10102                      Reaction
+NAME        4-methylaminobutanoate:oxygen oxidoreductase (formaldehyde-forming);
+            4-methylaminobutanoate:oxygen oxidoreductase (demethylating)
+DEFINITION  4-Methylaminobutyrate + Oxygen + H2O <=> 4-Aminobutanoate + Formaldehyde + Hydrogen peroxide
+EQUATION    C15987 + C00007 + C00001 <=> C00334 + C00067 + C00027
+RCLASS      RC00060  C00334_C15987
+            RC00557  C00067_C15987
+            RC02755  C00007_C00027
+ENZYME      1.5.3.19
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.3  With oxygen as acceptor
+                1.5.3.19
+                 R10102  4-Methylaminobutyrate + Oxygen + H2O <=> 4-Aminobutanoate + Formaldehyde + Hydrogen peroxide
+ORTHOLOGY   K19191  4-methylaminobutanoate oxidase (formaldehyde-forming) [EC:1.5.3.19]
+DBLINKS     RHEA: 33910
+///

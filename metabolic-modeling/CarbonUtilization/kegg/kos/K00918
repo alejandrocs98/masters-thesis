@@ -1,0 +1,175 @@
+ENTRY       K00918                      KO
+SYMBOL      pfkC
+NAME        ADP-dependent phosphofructokinase/glucokinase [EC:2.7.1.146 2.7.1.147]
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00030  Pentose phosphate pathway
+            map00680  Methane metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+            map01230  Biosynthesis of amino acids
+MODULE      M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate
+REACTION    R05805  ADP:D-fructose-6-phosphate 1-phosphotransferase
+            R09084  ADP:D-fructose-6-phosphate 1-phosphotransferase
+            R09085  ADP:D-glucose 6-phosphotransferase
+            R09086  ADP:D-glucose 6-phosphotransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00010 Glycolysis / Gluconeogenesis
+                K00918  pfkC; ADP-dependent phosphofructokinase/glucokinase
+               00030 Pentose phosphate pathway
+                K00918  pfkC; ADP-dependent phosphofructokinase/glucokinase
+              09102 Energy metabolism
+               00680 Methane metabolism
+                K00918  pfkC; ADP-dependent phosphofructokinase/glucokinase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.146  ADP-specific phosphofructokinase
+                 K00918  pfkC; ADP-dependent phosphofructokinase/glucokinase
+                2.7.1.147  ADP-specific glucose/glucosamine kinase
+                 K00918  pfkC; ADP-dependent phosphofructokinase/glucokinase
+DBLINKS     COG: COG4809
+            GO: 0043844 0043843
+GENES       GRC: GI584_20260
+            PWN: QNH46_01615
+            TCO: Theco_1176
+            CSCI: HDCHBGLK_00653
+            CHYL: CE91St63_33110
+            CSH: Closa_0608
+            QDO: H9Q78_06885
+            HALS: D7D81_07845
+            LPIL: LIP_1249
+            MBAS: ALGA_3097
+            ASAC: ATHSA_0704
+            MJA: MJ_1604
+            MFE: Mefer_1517
+            MVU: Metvu_0786
+            MFS: MFS40622_0160
+            MIF: Metin_0227
+            MJH: JH146_0031
+            MESG: MLAUSG7_0561(pfkC)
+            MESA: MLASG1_0234(pfkC)
+            MIG: Metig_1734
+            MMP: MMP1296(pfkC)
+            MMQ: MmarC5_0297
+            MMX: MmarC6_1378
+            MMZ: MmarC7_0541
+            MMD: GYY_07315
+            MMAK: MMKA1_15210(pfkC)
+            MMAO: MMOS7_14030(pfkC)
+            MMAD: MMJJ_15470
+            MAE: Maeo_0005
+            MVN: Mevan_0606
+            MVO: Mvol_0050 Mvol_0110
+            MOK: Metok_1190
+            METF: CFE53_04560
+            PFU: PF0312 PF1784
+            PFI: PFC_00640 PFC_09670
+            PHO: PH0589(PH0589) PH1645(PH1645)
+            PAB: PAB0967 PAB2013
+            PYN: PNA2_0229 PNA2_1204
+            PYA: PYCH_02450 PYCH_10910
+            PYS: Py04_0618 Py04_1537
+            PYC: TQ32_02010 TQ32_08590
+            TKO: TK0376 TK1110
+            TON: TON_0246 TON_1012
+            TGA: TGAM_0818(glkA) TGAM_1465(pfkC)
+            TSI: TSIB_0252 TSIB_1220
+            TBA: TERMP_00004 TERMP_01160
+            THE: GQS_04080 GQS_10400
+            THA: TAM4_1728 TAM4_738
+            THM: CL1_0470 CL1_1657
+            TLT: OCC_01044 OCC_09701
+            THS: TES1_0130 TES1_1218
+            TNU: BD01_0151 BD01_1045
+            TEU: TEU_06460 TEU_11110
+            TGY: X802_00245 X802_07910
+            THV: ADU37_CDS01920 ADU37_CDS09450
+            TCH: CHITON_1323 CHITON_1878
+            TPEP: A0127_02440 A0127_09685
+            TGG: A3K92_05080 A3K92_05775
+            TCE: A3L02_00520 A3L02_03710
+            TBS: A3L01_01790 A3L01_05875
+            THH: CDI07_01765 CDI07_05830(pfkC)
+            TSL: A3L11_05625 A3L11_10255
+            TTD: A3L14_03240 A3L14_08235
+            TPRF: A3L09_05575 A3L09_08760
+            TRL: A3L10_00730 A3L10_04695
+            TPAF: A3L08_05185 A3L08_09265
+            THY: A3L12_01825 A3L12_06865
+            TIC: FH039_03970 FH039_09365(pfkC)
+            TCQ: TIRI35C_0588(glkA) TIRI35C_1487(pfkC)
+            THEM: FPV09_00340(pfkC) FPV09_05320
+            THEI: K1720_04385 K1720_09185(pfkC)
+            PPAC: PAP_01430 PAP_04875
+            MBA: Mbar_A2004 Mbar_A2005
+            MBY: MSBRM_2497 MSBRM_2498
+            MBW: MSBRW_2730 MSBRW_2731
+            MBAR: MSBR2_2474 MSBR2_2475
+            MBAK: MSBR3_2515 MSBR3_2516
+            MAC: MA_3562(glkA) MA_3563(pfk)
+            MMA: MM_0472 MM_0473
+            MMJ: MSMAS_0831 MSMAS_0832
+            MMAC: MSMAC_0811 MSMAC_0812
+            MVC: MSVAZ_2547 MSVAZ_2548
+            MEK: MSKOL_2555 MSKOL_2556
+            MLS: MSLAZ_2352 MSLAZ_2353
+            METM: MSMTP_2385 MSMTP_2386
+            MEF: MSWH1_2360 MSWH1_2361
+            MEQ: MSWHS_2732 MSWHS_2733
+            MSJ: MSSAC_3156 MSSAC_3157
+            MSZ: MSSIH_0989 MSSIH_0990
+            MSW: MSSIT_1026 MSSIT_1027
+            MTHR: MSTHT_1057 MSTHT_1058
+            MTHE: MSTHC_2246 MSTHC_2247
+            MHOR: MSHOH_0977 MSHOH_0978
+            MFZ: AOB57_011160 AOB57_011165(pfkC)
+            MBU: Mbur_1338 Mbur_1339
+            MMET: MCMEM_1827 MCMEM_1828
+            MELO: J7W08_08075 J7W08_08080(pfkC)
+            MMH: Mmah_1645 Mmah_1646
+            MHAZ: BHR79_05490 BHR79_05495
+            MPOT: BKM01_01570 BKM01_01575
+            MEV: Metev_0816 Metev_0817
+            MZH: Mzhil_0819 Mzhil_0820
+            MPY: Mpsy_1159 Mpsy_1160
+            MZI: HWN40_02795 HWN40_02800
+            MMAV: RE476_07455 RE476_07460(pfkC)
+            MSEB: RE474_03715 RE474_03720(pfkC)
+            MHZ: Metho_2034 Metho_2035
+            MTP: Mthe_1214
+            MCJ: MCON_0234(pfkC)
+            MBN: Mboo_1525
+            HSN: DV733_07550
+            SRUB: C2R22_19410
+            HALU: HUG12_09055
+            NMG: Nmag_3826
+            NGE: Natgr_2898
+            HRU: Halru_0715 Halru_2961
+            SAWL: NGM29_19280
+            HLC: CHINAEXTREME19235
+            NAJ: B1756_05745
+            NAG: AArcMg_1072
+            NAN: AArc1_2551
+            NARA: QQ977_08830
+            NBG: DV706_17425
+            NAS: GCU68_12220
+            NAC: AQV86_01495
+            FLT: Sv326_0933
+            NCON: LC1Nh_0114
+REFERENCE   PMID:12921536
+  AUTHORS   Verhees CH, Kengen SW, Tuininga JE, Schut GJ, Adams MW, De Vos WM, Van Der Oost J
+  TITLE     The unique features of glycolytic pathways in Archaea.
+  JOURNAL   Biochem J 375:231-46 (2003)
+            DOI:10.1042/BJ20021472
+REFERENCE   PMID:11856730
+  AUTHORS   Sakuraba H, Yoshioka I, Koga S, Takahashi M, Kitahama Y, Satomura T, Kawakami R, Ohshima T
+  TITLE     ADP-dependent glucokinase/phosphofructokinase, a novel bifunctional enzyme from the hyperthermophilic archaeon Methanococcus jannaschii.
+  JOURNAL   J Biol Chem 277:12495-8 (2002)
+            DOI:10.1074/jbc.C200059200
+  SEQUENCE  [mja:MJ_1604]
+///

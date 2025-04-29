@@ -1,0 +1,48 @@
+ENTRY       K18089            Tight     KO
+SYMBOL      todB, tcbAc
+NAME        benzene/toluene/chlorobenzene dioxygenase ferredoxin component
+PATHWAY     map00361  Chlorocyclohexane and chlorobenzene degradation
+            map00362  Benzoate degradation
+            map00623  Toluene degradation
+            map00625  Chloroalkane and chloroalkene degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00547  Benzene/toluene degradation, benzene => catechol / toluene => 3-methylcatechol
+REACTION    R03543  benzene,NADH:oxygene 1,2-oxidoreductase
+            R03559  toluene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R05429  1,4-dichlorobenzene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R06831  1,2,4-trichlorobenzene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R06856  chlorobenzene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R09151  trichloroethene,NADH:oxygen oxidoreductase (glyoxylate-forming)
+            R09152  trichloroethene,NADH:oxygen oxidoreductase (formate-forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00362 Benzoate degradation
+                K18089  todB, tcbAc; benzene/toluene/chlorobenzene dioxygenase ferredoxin component
+               00625 Chloroalkane and chloroalkene degradation
+                K18089  todB, tcbAc; benzene/toluene/chlorobenzene dioxygenase ferredoxin component
+               00361 Chlorocyclohexane and chlorobenzene degradation
+                K18089  todB, tcbAc; benzene/toluene/chlorobenzene dioxygenase ferredoxin component
+               00623 Toluene degradation
+                K18089  todB, tcbAc; benzene/toluene/chlorobenzene dioxygenase ferredoxin component
+            Dioxygenases [br01602.html]
+             Dioxygenases in aromatic ring cleavage
+              K18089
+DBLINKS     COG: COG2146
+GENES       PPF: Pput_2879
+            PPX: T1E_4268(tobB)
+            PMON: X969_10940
+            PMOT: X970_10595
+            PASI: LG197_17460
+            BPT: Bpet3740
+            ATEM: PQV96_18700
+            AG: AAC43634(tcbAc)
+REFERENCE   PMID:8626733
+  AUTHORS   Werlen C, Kohler HP, van der Meer JR
+  TITLE     The broad substrate chlorobenzene dioxygenase and cis-chlorobenzene dihydrodiol dehydrogenase of Pseudomonas sp. strain P51 are linked evolutionarily to the enzymes for benzene and toluene degradation.
+  JOURNAL   J Biol Chem 271:4009-16 (1996)
+            DOI:10.1074/jbc.271.8.4009
+  SEQUENCE  [ag:AAC43634]
+///

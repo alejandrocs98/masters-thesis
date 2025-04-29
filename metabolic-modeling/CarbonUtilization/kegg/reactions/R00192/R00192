@@ -1,0 +1,20 @@
+ENTRY       R00192                      Reaction
+NAME        S-adenosyl-L-homocysteine hydrolase
+DEFINITION  S-Adenosyl-L-homocysteine + H2O <=> Adenosine + L-Homocysteine
+EQUATION    C00021 + C00001 <=> C00212 + C00155
+COMMENT     multi-step reaction
+RCLASS      RC00069  C00021_C00155
+            RC01161  C00021_C00212
+ENZYME      3.13.2.1
+PATHWAY     rn00270  Cysteine and methionine metabolism
+            rn01100  Metabolic pathways
+MODULE      M00035  Methionine degradation
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.13  Acting on carbon-sulfur bonds
+               3.13.2  Thioether and trialkylsulfonium hydrolases
+                3.13.2.1
+                 R00192  S-Adenosyl-L-homocysteine + H2O <=> Adenosine + L-Homocysteine
+ORTHOLOGY   K01251  adenosylhomocysteinase [EC:3.13.2.1]
+DBLINKS     RHEA: 21711
+///

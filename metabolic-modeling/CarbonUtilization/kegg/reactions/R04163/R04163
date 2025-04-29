@@ -1,0 +1,23 @@
+ENTRY       R04163                      Reaction
+NAME        21-hydroxypregnenolone:NAD+ 3-oxidoreductase
+DEFINITION  21-Hydroxypregnenolone + NAD+ <=> 11-Deoxycorticosterone + NADH + H+
+EQUATION    C05485 + C00003 <=> C03205 + C00004 + C00080
+COMMENT     NADP+ (see R04164)
+            multi-step reaction (see R03176+R02644)
+RCLASS      RC00001  C00003_C00004
+            RC00146  C03205_C05485
+ENZYME      1.1.1.145       5.3.3.1
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.145
+                 R04163  21-Hydroxypregnenolone + NAD+ <=> 11-Deoxycorticosterone + NADH + H+
+             5. Isomerase reactions
+              5.3  Intramolecular oxidoreductases
+               5.3.3  Transposing C=C bonds
+                5.3.3.1
+                 R04163  21-Hydroxypregnenolone + NAD+ <=> 11-Deoxycorticosterone + NADH + H+
+ORTHOLOGY   K00070  3beta-hydroxy-Delta5-steroid dehydrogenase / steroid Delta-isomerase [EC:1.1.1.145 5.3.3.1]
+///

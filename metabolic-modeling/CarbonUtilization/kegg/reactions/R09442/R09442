@@ -1,0 +1,17 @@
+ENTRY       R09442                      Reaction
+DEFINITION  7,12-Dimethylbenz[a]anthracene + Oxygen + NADPH + H+ <=> 7,12-Dimethylbenz[a]anthracene 5,6-oxide + H2O + NADP+
+EQUATION    C19488 + C00007 + C00005 + C00080 <=> C19604 + C00001 + C00006
+COMMENT     CYP1A1, CYP1B1
+RCLASS      RC00001  C00005_C00006
+            RC01444  C19488_C19604
+ENZYME      1.14.14.1
+PATHWAY     rn00980  Metabolism of xenobiotics by cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R09442  7,12-Dimethylbenz[a]anthracene + Oxygen + NADPH + H+ <=> 7,12-Dimethylbenz[a]anthracene 5,6-oxide + H2O + NADP+
+ORTHOLOGY   K07408  cytochrome P450 family 1 subfamily A1 [EC:1.14.14.1]
+            K07410  cytochrome P450 family 1 subfamily B1 [EC:1.14.14.1]
+///

@@ -1,0 +1,38 @@
+ENTRY       R05462                      Reaction
+NAME        4-hydroxy-6-methylpretetramide,NADPH:oxygen oxidoreductase (12a-hydroxylating)
+DEFINITION  4-Hydroxy-6-methylpretetramide + NADPH + Oxygen + H+ <=> 4-Keto-anhydrotetracycline + NADP+ + H2O
+EQUATION    C06628 + C00005 + C00007 + C00080 <=> C06627 + C00006 + C00001
+COMMENT     following after R05463
+RCLASS      RC00001  C00005_C00006
+            RC01388  C06627_C06628
+ENZYME      1.14.13.233
+PATHWAY     rn00253  Tetracycline biosynthesis
+            rn01057  Biosynthesis of type II polyketide products
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00780  Tetracycline/oxytetracycline biosynthesis, pretetramide => tetracycline/oxytetracycline
+            M00823  Chlortetracycline biosynthesis, pretetramide => chlortetracycline
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.233
+                 R05462  4-Hydroxy-6-methylpretetramide + NADPH + Oxygen + H+ <=> 4-Keto-anhydrotetracycline + NADP+ + H2O
+ORTHOLOGY   K14252  6-methylpretetramide 4-monooxygenase / 4-hydroxy-6-methylpretetramide 12a-monooxygenase [EC:1.14.13.232 1.14.13.233]
+REFERENCE   1  [PMID:20522541]
+  AUTHORS   Pickens LB, Tang Y
+  TITLE     Oxytetracycline biosynthesis.
+  JOURNAL   J Biol Chem 285:27509-15 (2010)
+            DOI:10.1074/jbc.R110.130419
+REFERENCE   2  [PMID:18422316]
+  AUTHORS   Zhang W, Watanabe K, Cai X, Jung ME, Tang Y, Zhan J
+  TITLE     Identifying the minimal enzymes required for anhydrotetracycline biosynthesis.
+  JOURNAL   J Am Chem Soc 130:6068-9 (2008)
+            DOI:10.1021/ja800951e
+REFERENCE   3  [PMID:19472250]
+  AUTHORS   Wang P, Zhang W, Zhan J, Tang Y
+  TITLE     Identification of OxyE as an ancillary oxygenase during tetracycline biosynthesis.
+  JOURNAL   Chembiochem 10:1544-50 (2009)
+            DOI:10.1002/cbic.200900122
+DBLINKS     RHEA: 50359
+///

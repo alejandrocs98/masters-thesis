@@ -1,0 +1,36 @@
+ENTRY       R02477                      Reaction
+NAME        androsterone:NADP+ oxidoreductase
+DEFINITION  Androsterone + NADP+ <=> 5alpha-Androstane-3,17-dione + NADPH + H+
+EQUATION    C00523 + C00006 <=> C00674 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00144  C00523_C00674
+ENZYME      1.1.1.50        1.1.1.209       1.1.1.213       1.1.1.357
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.50
+                 R02477  Androsterone + NADP+ <=> 5alpha-Androstane-3,17-dione + NADPH + H+
+                1.1.1.209
+                 R02477  Androsterone + NADP+ <=> 5alpha-Androstane-3,17-dione + NADPH + H+
+                1.1.1.213
+                 R02477  Androsterone + NADP+ <=> 5alpha-Androstane-3,17-dione + NADPH + H+
+                1.1.1.357
+                 R02477  Androsterone + NADP+ <=> 5alpha-Androstane-3,17-dione + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.50
+               R10423  3alpha-Hydroxysteroid <=> 3-Oxosteroid
+                R02477  Androsterone <=> 5alpha-Androstane-3,17-dione
+              1.1.1.213
+               R10423  3alpha-Hydroxysteroid <=> 3-Oxosteroid
+                R02477  Androsterone <=> 5alpha-Androstane-3,17-dione
+              1.1.1.357
+               R10423  3alpha-Hydroxysteroid <=> 3-Oxosteroid
+                R02477  Androsterone <=> 5alpha-Androstane-3,17-dione
+ORTHOLOGY   K00037  3alpha-hydroxysteroid 3-dehydrogenase / chlordecone reductase [EC:1.1.1.50 1.1.1.357 1.1.1.225]
+            K00089  3alpha-hydroxysteroid 3-dehydrogenase [EC:1.1.1.213 1.1.1.357]
+DBLINKS     RHEA: 20380
+///

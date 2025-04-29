@@ -1,0 +1,26 @@
+ENTRY       R08968                      Reaction
+NAME        ATP:N-acetyl-D-glucosamine 1-phosphotransferase
+DEFINITION  N-Acetyl-D-glucosamine + ATP <=> N-Acetyl-alpha-D-glucosamine 1-phosphate + ADP
+EQUATION    C00140 + C00002 <=> C04501 + C00008
+RCLASS      RC00002  C00002_C00008
+            RC00078  C00140_C04501
+ENZYME      2.7.1.162       2.7.1.-
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.162
+                 R08968  N-Acetyl-D-glucosamine + ATP <=> N-Acetyl-alpha-D-glucosamine 1-phosphate + ADP
+                2.7.1.-
+                 R08968  N-Acetyl-D-glucosamine + ATP <=> N-Acetyl-alpha-D-glucosamine 1-phosphate + ADP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.1.162
+               R08962  N-Acetyl-D-hexosamine <=> N-Acetyl-alpha-D-hexosamine 1-phosphate
+                R08968  N-Acetyl-D-glucosamine <=> N-Acetyl-alpha-D-glucosamine 1-phosphate
+ORTHOLOGY   K07102  N-acetylmuramate 1-kinase [EC:2.7.1.221]
+DBLINKS     RHEA: 53727
+///

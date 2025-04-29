@@ -1,0 +1,18 @@
+ENTRY       R04908                      Reaction
+NAME        5-hydroxykynurenamine:oxygen oxidoreductase(deaminating)(flavin-containing)
+DEFINITION  5-Hydroxykynurenamine + H2O + Oxygen <=> 4,6-Dihydroxyquinoline + Ammonia + Hydrogen peroxide + H2O
+EQUATION    C05638 + C00001 + C00007 <=> C05639 + C00014 + C00027 + C00001
+COMMENT     multi-step reaction
+RCLASS      RC02713  C05638_C05639
+            RC02755  C00007_C00027
+ENZYME      1.4.3.4
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.4
+                 R04908  5-Hydroxykynurenamine + H2O + Oxygen <=> 4,6-Dihydroxyquinoline + Ammonia + Hydrogen peroxide + H2O
+ORTHOLOGY   K00274  monoamine oxidase [EC:1.4.3.4]
+///

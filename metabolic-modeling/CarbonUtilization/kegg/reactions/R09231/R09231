@@ -1,0 +1,16 @@
+ENTRY       R09231                      Reaction
+DEFINITION  2,4-Dinitrotoluene + 3 NADH + 3 H+ <=> 2-Amino-4-nitrotoluene + 3 NAD+ + 2 H2O
+EQUATION    C11006 + 3 C00004 + 3 C00080 <=> C16398 + 3 C00003 + 2 C00001
+COMMENT     NADH nitroreductase
+RCLASS      RC00001  C00003_C00004
+            RC01333  C11006_C16398
+ENZYME      1.7.1.-
+PATHWAY     rn00633  Nitrotoluene degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.7  Acting on other nitrogenous compounds as donors
+               1.7.1  With NAD+ or NADP+ as acceptor
+                1.7.1.-
+                 R09231  2,4-Dinitrotoluene + 3 NADH + 3 H+ <=> 2-Amino-4-nitrotoluene + 3 NAD+ + 2 H2O
+///

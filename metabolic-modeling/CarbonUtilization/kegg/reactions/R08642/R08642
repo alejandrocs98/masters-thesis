@@ -1,0 +1,17 @@
+ENTRY       R08642                      Reaction
+NAME        3-(6'-methylthio)hexylmalate:NAD+ oxidoreductase (decarboxylating)
+DEFINITION  3-(6'-Methylthio)hexylmalic acid + NAD+ <=> 2-Oxo-9-methylthiononanoic acid + CO2 + NADH + H+
+EQUATION    C17227 + C00003 <=> C17228 + C00011 + C00004 + C00080
+COMMENT     two-step reaction (similar to R10052, R04426+R01652)
+RCLASS      RC00114  C17227_C17228
+ENZYME      1.1.1.-
+PATHWAY     rn00966  Glucosinolate biosynthesis
+            rn01210  2-Oxocarboxylic acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R08642  3-(6'-Methylthio)hexylmalic acid + NAD+ <=> 2-Oxo-9-methylthiononanoic acid + CO2 + NADH + H+
+ORTHOLOGY   K21360  3-isopropylmalate/methylthioalkylmalate dehydrogenase [EC:1.1.1.85 1.1.1.-]
+///

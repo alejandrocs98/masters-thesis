@@ -1,0 +1,34 @@
+ENTRY       R09748                      Reaction
+NAME        FADH2:NAD+ oxidoreductase
+DEFINITION  FADH2 + NAD+ <=> FAD + NADH + H+
+EQUATION    C01352 + C00003 <=> C00016 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00126  C00016_C01352
+ENZYME      1.5.1.36        1.5.1.37        1.5.1.45
+PATHWAY     rn00740  Riboflavin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.36
+                 R09748  FADH2 + NAD+ <=> FAD + NADH + H+
+                1.5.1.37
+                 R09748  FADH2 + NAD+ <=> FAD + NADH + H+
+                1.5.1.45
+                 R09748  FADH2 + NAD+ <=> FAD + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.5.1.36
+               R09662  Reduced flavin <=> Flavin
+                R09748  FADH2 <=> FAD
+ORTHOLOGY   K00484  flavin reductase (NADH) [EC:1.5.1.36]
+            K15245  flavin reductase [EC:1.5.1.37]
+            K16902  FAD reductase [NAD(P)H] [EC:1.5.1.45]
+            K22393  flavin reductase (NADH) subunit 1 [EC:1.5.1.36]
+            K22394  flavin reductase (NADH) subunit 2 [EC:1.5.1.36]
+            K23462  flavin-dependent trigonelline monooxygenase, reductase component [EC:1.5.1.36]
+            K23470  4-hydroxyphenylacetate 3-hydroxylase, reductase component [EC:1.5.1.36]
+DBLINKS     RHEA: 30150
+///

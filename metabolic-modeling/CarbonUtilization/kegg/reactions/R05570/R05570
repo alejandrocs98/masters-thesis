@@ -1,0 +1,20 @@
+ENTRY       R05570                      Reaction
+NAME        protein-N(pi)-phosphohistidine:galactitol 1-phosphotransferase
+DEFINITION  Galactitol + Protein N(pi)-phospho-L-histidine <=> Galactitol 1-phosphate + Protein histidine
+EQUATION    C01697 + C04261 <=> C06311 + C00615
+RCLASS      RC00017  C01697_C06311
+            RC03206  C00615_C04261
+ENZYME      2.7.1.200
+PATHWAY     rn00052  Galactose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.200
+                 R05570  Galactitol + Protein N(pi)-phospho-L-histidine <=> Galactitol 1-phosphate + Protein histidine
+ORTHOLOGY   K02773  galactitol PTS system EIIA component [EC:2.7.1.200]
+            K02774  galactitol PTS system EIIB component [EC:2.7.1.200]
+            K02775  galactitol PTS system EIIC component
+DBLINKS     RHEA: 49251
+///

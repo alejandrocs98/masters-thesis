@@ -1,0 +1,20 @@
+ENTRY       R11149                      Reaction
+NAME        aurachin B:NAD+ 3-oxidoreductase
+DEFINITION  Aurachin B + NAD+ + H2O <=> 4-Hydroxy-2-methyl-3-oxo-4-[(2E,6E)-farnesyl]-3,4-dihydroquinoline 1-oxide + NADH + H+
+EQUATION    C21140 + C00003 + C00001 <=> C21141 + C00004 + C00080
+COMMENT     two-step reaction (see R11148+R11147)
+RCLASS      RC00001  C00003_C00004
+            RC03371  C21140_C21141
+ENZYME      1.1.1.394
+PATHWAY     rn00998  Biosynthesis of various antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00848  Aurachin biosynthesis, anthranilate => aurachin A
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.394
+                 R11149  Aurachin B + NAD+ + H2O <=> 4-Hydroxy-2-methyl-3-oxo-4-[(2E,6E)-farnesyl]-3,4-dihydroquinoline 1-oxide + NADH + H+
+ORTHOLOGY   K21271  aurachin B dehydrogenase [EC:1.1.1.394]
+///

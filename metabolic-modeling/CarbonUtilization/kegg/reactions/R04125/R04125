@@ -1,0 +1,23 @@
+ENTRY       R04125                      Reaction
+NAME        [protein]-S8-aminomethyldihydrolipoyllysine:tetrahydrofolate aminomethyltransferase (ammonia-forming)
+DEFINITION  [Protein]-S8-aminomethyldihydrolipoyllysine + Tetrahydrofolate <=> Dihydrolipoylprotein + 5,10-Methylenetetrahydrofolate + Ammonia
+EQUATION    C01242 + C00101 <=> C02972 + C00143 + C00014
+COMMENT     a part step of glycine cleavage system (see R01221, R03425+R04125+R03815)
+RCLASS      RC00022  C00101_C00143
+            RC00069  C01242_C02972
+ENZYME      2.1.2.10
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn00670  One carbon pool by folate
+            rn00785  Lipoic acid metabolism
+            rn01100  Metabolic pathways
+            rn01200  Carbon metabolism
+MODULE      M00621  Glycine cleavage system
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.2  Hydroxymethyl-, formyl- and related transferases
+                2.1.2.10
+                 R04125  [Protein]-S8-aminomethyldihydrolipoyllysine + Tetrahydrofolate <=> Dihydrolipoylprotein + 5,10-Methylenetetrahydrofolate + Ammonia
+ORTHOLOGY   K00605  glycine cleavage system T protein (aminomethyltransferase) [EC:2.1.2.10]
+DBLINKS     RHEA: 16948
+///

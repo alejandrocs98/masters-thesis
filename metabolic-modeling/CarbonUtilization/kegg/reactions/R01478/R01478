@@ -1,0 +1,28 @@
+ENTRY       R01478                      Reaction
+NAME        beta-D-glucuronoside glucuronosohydrolase
+DEFINITION  H2O + beta-D-Glucuronoside <=> D-Glucuronate + Alcohol
+EQUATION    C00001 + C03033 <=> C00191 + C00069
+COMMENT     general reaction
+RCLASS      RC00529  C00069_C03033
+            RC00530  C00191_C03033
+ENZYME      3.2.1.31
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn00053  Ascorbate and aldarate metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00014  Glucuronate pathway (uronate pathway)
+            M00129  Ascorbate biosynthesis, animals, glucose-1P => ascorbate
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.2  Glycosylases
+               3.2.1  Glycosidases, i.e. enzymes that hydrolyse O- and S-glycosyl compounds
+                3.2.1.31
+                 R01478  H2O + beta-D-Glucuronoside <=> D-Glucuronate + Alcohol
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.2.1.31
+               R01478  beta-D-Glucuronoside <=> Alcohol
+ORTHOLOGY   K01195  beta-glucuronidase [EC:3.2.1.31]
+            K14756  klotho [EC:3.2.1.31]
+DBLINKS     RHEA: 17636
+///

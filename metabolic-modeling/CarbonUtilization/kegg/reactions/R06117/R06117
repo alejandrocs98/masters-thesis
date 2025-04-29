@@ -1,0 +1,19 @@
+ENTRY       R06117                      Reaction
+NAME        (+)-trans-carveol: NAD+ oxidoreductase
+DEFINITION  (+)-trans-Carveol + NAD+ <=> (+)-(S)-Carvone + NADH + H+
+EQUATION    C11409 + C00003 <=> C11383 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00850  C11383_C11409
+ENZYME      1.1.1.275
+PATHWAY     rn00902  Monoterpenoid biosynthesis
+            rn00903  Limonene degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.275
+                 R06117  (+)-trans-Carveol + NAD+ <=> (+)-(S)-Carvone + NADH + H+
+ORTHOLOGY   K12466  (+)-trans-carveol dehydrogenase [EC:1.1.1.275]
+DBLINKS     RHEA: 14828
+///

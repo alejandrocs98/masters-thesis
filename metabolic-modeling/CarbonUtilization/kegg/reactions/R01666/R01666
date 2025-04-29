@@ -1,0 +1,33 @@
+ENTRY       R01666                      Reaction
+NAME        ATP:deoxycitidine 5'-phosphotransferase
+DEFINITION  ATP + Deoxycytidine <=> ADP + dCMP
+EQUATION    C00002 + C00881 <=> C00008 + C00239
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00239_C00881
+ENZYME      2.7.1.74        2.7.1.145       2.7.1.213
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.74
+                 R01666  ATP + Deoxycytidine <=> ADP + dCMP
+                2.7.1.145
+                 R01666  ATP + Deoxycytidine <=> ADP + dCMP
+                2.7.1.213
+                 R01666  ATP + Deoxycytidine <=> ADP + dCMP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.1.74
+               R02321  Nucleoside triphosphate <=> NDP
+                R01666  ATP <=> ADP
+              2.7.1.145
+               R05806  Deoxynucleoside <=> Deoxynucleoside 5'-phosphate
+                R01666  Deoxycytidine <=> dCMP
+ORTHOLOGY   K00893  deoxycitidine/deoxyadenosine/deoxyguanosine kinase [EC:2.7.1.74 2.7.1.76 2.7.1.113]
+            K05961  deoxynucleoside kinase [EC:2.7.1.145]
+            K15519  deoxyadenosine/deoxycytidine kinase [EC:2.7.1.76 2.7.1.74]
+DBLINKS     RHEA: 46043
+///

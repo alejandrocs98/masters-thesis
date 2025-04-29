@@ -1,0 +1,32 @@
+ENTRY       R02147                      Reaction
+NAME        guanosine:phosphate alpha-D-ribosyltransferase
+DEFINITION  Guanosine + Orthophosphate <=> Guanine + alpha-D-Ribose 1-phosphate
+EQUATION    C00387 + C00009 <=> C00242 + C00620
+RCLASS      RC00063  C00242_C00387
+ENZYME      2.4.2.1         2.4.2.15
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00959  Guanine ribonucleotide degradation, GMP => Urate
+            M00968  Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.2  Pentosyltransferases
+                2.4.2.1
+                 R02147  Guanosine + Orthophosphate <=> Guanine + alpha-D-Ribose 1-phosphate
+                2.4.2.15
+                 R02147  Guanosine + Orthophosphate <=> Guanine + alpha-D-Ribose 1-phosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.2.1
+               R08368  N-D-Ribosylpurine <=> Purine
+                R02147  Guanosine <=> Guanine
+ORTHOLOGY   K03783  purine-nucleoside phosphorylase [EC:2.4.2.1]
+            K03784  purine-nucleoside phosphorylase [EC:2.4.2.1]
+            K05810  purine-nucleoside/S-methyl-5'-thioadenosine phosphorylase / adenosine deaminase [EC:2.4.2.1 2.4.2.28 3.5.4.4]
+            K09913  purine/pyrimidine-nucleoside phosphorylase [EC:2.4.2.1 2.4.2.2]
+            K26211  guanosine phosphorylase [EC:2.4.2.15]
+            K26212  guanosine phosphorylase [EC:2.4.2.15]
+DBLINKS     RHEA: 13236
+///

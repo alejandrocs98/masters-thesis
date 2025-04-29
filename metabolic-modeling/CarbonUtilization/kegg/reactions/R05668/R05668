@@ -1,0 +1,21 @@
+ENTRY       R05668                      Reaction
+DEFINITION  ATP + NAD+ <=> 3'-Keto-3'-deoxy-ATP + NADH + H+
+EQUATION    C00002 + C00003 <=> C07024 + C00004 + C00080
+COMMENT     Pur10, putative oxidoreductase
+            Ref.1. The Journal of Biological chemistry; vol.271, No.3, Jan 19, 
+            pp.1579-1590, 1996
+RCLASS      RC00001  C00003_C00004
+            RC00182  C00002_C07024
+ENZYME      1.-.-.-
+PATHWAY     rn00998  Biosynthesis of various antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00889  Puromycin biosynthesis, ATP => puromycin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.-  
+               1.-.-  
+                1.-.-.-
+                 R05668  ATP + NAD+ <=> 3'-Keto-3'-deoxy-ATP + NADH + H+
+ORTHOLOGY   K12628  puromycin biosynthesis protein Pur10 [EC:1.-.-.-]
+///

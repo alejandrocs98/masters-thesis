@@ -1,0 +1,17 @@
+ENTRY       R11978                      Reaction
+NAME        ent-isokaurene,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase
+DEFINITION  ent-2alpha-Hydroxyisokaurene + Oxygen + [Reduced NADPH---hemoprotein reductase] <=> ent-2alpha,3alpha-Dihydroxyisokaurene + H2O + [Oxidized NADPH---hemoprotein reductase]
+EQUATION    C20146 + C00007 + C03024 <=> C21831 + C00001 + C03161
+COMMENT     the second step of two-step reaction (see R12058, R09861+R11978)
+RCLASS      RC01993  C20146_C21831
+ENZYME      1.14.14.76
+PATHWAY     rn00904  Diterpenoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.76
+                 R11978  ent-2alpha-Hydroxyisokaurene + Oxygen + [Reduced NADPH---hemoprotein reductase] <=> ent-2alpha,3alpha-Dihydroxyisokaurene + H2O + [Oxidized NADPH---hemoprotein reductase]
+ORTHOLOGY   K16083  ent-isokaurene hydroxylase [EC:1.14.14.76]
+///

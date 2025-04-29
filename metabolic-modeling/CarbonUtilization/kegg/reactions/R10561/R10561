@@ -1,0 +1,20 @@
+ENTRY       R10561                      Reaction
+NAME        ATP:phosphomevalonate carboxy-lyase (adding ATP; isopentenyl-phosphate-forming)
+DEFINITION  (R)-5-Phosphomevalonate + ATP <=> Isopentenyl phosphate + ADP + Orthophosphate + CO2
+EQUATION    C01107 + C00002 <=> C20345 + C00008 + C00009 + C00011
+RCLASS      RC00002  C00002_C00008
+            RC00453  C01107_C20345
+ENZYME      4.1.1.99
+PATHWAY     rn00900  Terpenoid backbone biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00849  C5 isoprenoid biosynthesis, mevalonate pathway, archaea
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.99
+                 R10561  (R)-5-Phosphomevalonate + ATP <=> Isopentenyl phosphate + ADP + Orthophosphate + CO2
+ORTHOLOGY   K17942  phosphomevalonate decarboxylase [EC:4.1.1.99]
+DBLINKS     RHEA: 40958
+///

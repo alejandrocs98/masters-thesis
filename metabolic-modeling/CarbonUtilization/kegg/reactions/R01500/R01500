@@ -1,0 +1,25 @@
+ENTRY       R01500                      Reaction
+NAME        UDP-alpha-D-galactose:N-acylsphingosine D-galactosyltransferase
+DEFINITION  UDP-alpha-D-galactose + N-Acylsphingosine <=> UDP + Galactosylceramide
+EQUATION    C00052 + C00195 <=> C00015 + C02686
+REMARK      Same as: R06277
+COMMENT     N-Acyl group can be 2-hydroxylated (see R04322).
+RCLASS      RC00005  C00015_C00052
+            RC00059  C00195_C02686
+ENZYME      2.4.1.47
+PATHWAY     rn00600  Sphingolipid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00067  Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.47
+                 R01500  UDP-alpha-D-galactose + N-Acylsphingosine <=> UDP + Galactosylceramide
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.1.47
+               R01500  N-Acylsphingosine <=> Galactosylceramide
+ORTHOLOGY   K04628  ceramide galactosyltransferase [EC:2.4.1.47]
+DBLINKS     RHEA: 13096
+///

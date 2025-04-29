@@ -1,0 +1,22 @@
+ENTRY       R04863                      Reaction
+NAME        L-2-aminoadipate-6-semialdehyde:NADP+ 6-oxidoreductase
+DEFINITION  L-2-Aminoadipate adenylate + Holo-Lys2 <=> alpha-Aminoadipoyl-S-acyl enzyme + AMP
+EQUATION    C05560 + C11482 <=> C05535 + C00020
+COMMENT     The second step of three-step reaction (R03098 + R04863 + R04390)
+            For reverse direction, one-step reaction (see R03103) 
+RCLASS      RC00039  C05535_C11482
+            RC00070  C00020_C05560
+            RC02816  C05535_C05560
+ENZYME      1.2.1.95
+PATHWAY     rn00300  Lysine biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00030  Lysine biosynthesis, AAA pathway, 2-oxoglutarate => 2-aminoadipate => lysine
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.95
+                 R04863  L-2-Aminoadipate adenylate + Holo-Lys2 <=> alpha-Aminoadipoyl-S-acyl enzyme + AMP
+ORTHOLOGY   K00143  L-2-aminoadipate reductase [EC:1.2.1.95]
+///

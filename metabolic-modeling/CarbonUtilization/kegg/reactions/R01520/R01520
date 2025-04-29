@@ -1,0 +1,20 @@
+ENTRY       R01520                      Reaction
+NAME        beta-D-glucose:NAD+ 1-oxoreductase
+DEFINITION  beta-D-Glucose + NAD+ <=> D-Glucono-1,5-lactone + NADH + H+
+EQUATION    C00221 + C00003 <=> C00198 + C00004 + C00080
+COMMENT     NADP+ (see R01521)
+RCLASS      RC00001  C00003_C00004
+            RC00066  C00198_C00221
+ENZYME      1.1.1.47
+PATHWAY     rn00030  Pentose phosphate pathway
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.47
+                 R01520  beta-D-Glucose + NAD+ <=> D-Glucono-1,5-lactone + NADH + H+
+ORTHOLOGY   K00034  glucose 1-dehydrogenase [EC:1.1.1.47]
+///

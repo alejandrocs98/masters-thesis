@@ -1,0 +1,22 @@
+ENTRY       R07081                      Reaction
+NAME        benzpyrene,NADPH:oxygen oxidoreductase (RH-hydroxylating or -epoxidizing)
+DEFINITION  Benzo[a]pyrene + NADPH + Oxygen + H+ <=> Benzo[a]pyrene-4,5-oxide + NADP+ + H2O
+EQUATION    C07535 + C00005 + C00007 + C00080 <=> C14851 + C00006 + C00001
+COMMENT     CYP1A1, CYP1B1, CYP2C9, CYP3A4
+RCLASS      RC00001  C00005_C00006
+            RC01444  C07535_C14851
+ENZYME      1.14.14.1       1.14.14.-
+PATHWAY     rn00980  Metabolism of xenobiotics by cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R07081  Benzo[a]pyrene + NADPH + Oxygen + H+ <=> Benzo[a]pyrene-4,5-oxide + NADP+ + H2O
+                1.14.14.-
+                 R07081  Benzo[a]pyrene + NADPH + Oxygen + H+ <=> Benzo[a]pyrene-4,5-oxide + NADP+ + H2O
+ORTHOLOGY   K07408  cytochrome P450 family 1 subfamily A1 [EC:1.14.14.1]
+            K07410  cytochrome P450 family 1 subfamily B1 [EC:1.14.14.1]
+            K17689  cytochrome P450 family 3 subfamily A4 [EC:1.14.13.32 1.14.14.55 1.14.14.56 1.14.14.57 1.14.14.73 1.14.14.-]
+            K17719  cytochrome P450 family 2 subfamily C9 [EC:1.14.14.51 1.14.14.52 1.14.14.53 1.14.14.-]
+///

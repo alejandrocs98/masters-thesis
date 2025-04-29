@@ -1,0 +1,21 @@
+ENTRY       R08021                      Reaction
+NAME        UDP-glucose:flavanone 7-O-beta-D-glucosyltransferase
+DEFINITION  UDP-glucose + Hesperetin <=> UDP + Hesperetin 7-O-glucoside
+EQUATION    C00029 + C01709 <=> C00015 + C16422
+RCLASS      RC00005  C00015_C00029
+            RC00171  C01709_C16422
+ENZYME      2.4.1.185
+PATHWAY     rn00941  Flavonoid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.185
+                 R08021  UDP-glucose + Hesperetin <=> UDP + Hesperetin 7-O-glucoside
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.1.185
+               R07333  Flavanone <=> Flavanone 7-O-beta-D-glucoside
+                R08021  Hesperetin <=> Hesperetin 7-O-glucoside
+DBLINKS     RHEA: 65247
+///

@@ -1,0 +1,16 @@
+ENTRY       R03697                      Reaction
+DEFINITION  Morphine + [Oxidized NADPH---hemoprotein reductase] + Formaldehyde + H2O <=> Codeine + [Reduced NADPH---hemoprotein reductase] + Oxygen
+EQUATION    C01516 + C03161 + C00067 + C00001 <=> C06174 + C03024 + C00007
+COMMENT     CYP2D6:O-demethylation
+RCLASS      RC00392  C01516_C06174
+            RC01533  C00067_C06174
+ENZYME      1.14.14.1
+PATHWAY     rn00982  Drug metabolism - cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R03697  Morphine + [Oxidized NADPH---hemoprotein reductase] + Formaldehyde + H2O <=> Codeine + [Reduced NADPH---hemoprotein reductase] + Oxygen
+ORTHOLOGY   K17712  cytochrome P450 family 2 subfamily D6 [EC:1.14.14.1]
+///

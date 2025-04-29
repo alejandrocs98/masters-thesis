@@ -1,0 +1,32 @@
+ENTRY       R00760                      Reaction
+NAME        ATP:D-fructose 6-phosphotransferase
+DEFINITION  ATP + D-Fructose <=> ADP + D-Fructose 6-phosphate
+EQUATION    C00002 + C00095 <=> C00008 + C00085
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00085_C00095
+ENZYME      2.7.1.1         2.7.1.4
+PATHWAY     rn00051  Fructose and mannose metabolism
+            rn00500  Starch and sucrose metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.1
+                 R00760  ATP + D-Fructose <=> ADP + D-Fructose 6-phosphate
+                2.7.1.4
+                 R00760  ATP + D-Fructose <=> ADP + D-Fructose 6-phosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.1.1
+               R02848  D-Hexose <=> D-Hexose 6-phosphate
+                R00760  D-Fructose <=> D-Fructose 6-phosphate
+              2.7.1.4
+               R00760  D-Fructose <=> D-Fructose 6-phosphate
+ORTHOLOGY   K00844  hexokinase [EC:2.7.1.1]
+            K00847  fructokinase [EC:2.7.1.4]
+DBLINKS     RHEA: 16128
+///

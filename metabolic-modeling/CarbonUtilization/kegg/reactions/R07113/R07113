@@ -1,0 +1,24 @@
+ENTRY       R07113                      Reaction
+NAME        1,2-dibromoethane:glutathione ethylenetransferase (episulfonium-forming)
+DEFINITION  1,2-Dibromoethane + Glutathione + H+ <=> Glutathione episulfonium ion + 2 Hydrobromic acid
+EQUATION    C11088 + C00051 + C00080 <=> C14874 + 2 C13645
+RCLASS      RC01706  C00051_C14874
+            RC02940  C11088_C14874
+ENZYME      2.5.1.18
+PATHWAY     rn00980  Metabolism of xenobiotics by cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.18
+                 R07113  1,2-Dibromoethane + Glutathione + H+ <=> Glutathione episulfonium ion + 2 Hydrobromic acid
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.5.1.18
+               R03522  RX <=> R-S-Glutathione
+                R07113  1,2-Dibromoethane <=> Hydrobromic acid
+ORTHOLOGY   K00799  glutathione S-transferase [EC:2.5.1.18]
+            K04097  prostaglandin-H2 D-isomerase / glutathione transferase [EC:5.3.99.2 2.5.1.18]
+            K13299  glutathione S-transferase kappa 1 [EC:2.5.1.18]
+            K23790  glutathione S-transferase P [EC:2.5.1.18]
+///

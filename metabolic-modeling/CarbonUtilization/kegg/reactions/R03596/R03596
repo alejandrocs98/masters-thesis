@@ -1,0 +1,17 @@
+ENTRY       R03596                      Reaction
+NAME        hydrogen selenide:NADP+ oxidoreductase
+DEFINITION  Hydrogen selenide + 3 NADP+ + 3 H2O <=> Selenite + 3 NADPH + 5 H+
+EQUATION    C01528 + 3 C00006 + 3 C00001 <=> C05684 + 3 C00005 + 5 C00080
+RCLASS      RC00001  C00005_C00006
+            RC02873  C01528_C05684
+ENZYME      1.8.1.9
+PATHWAY     rn00450  Selenocompound metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.1  With NAD+ or NADP+ as acceptor
+                1.8.1.9
+                 R03596  Hydrogen selenide + 3 NADP+ + 3 H2O <=> Selenite + 3 NADPH + 5 H+
+ORTHOLOGY   K00384  thioredoxin reductase (NADPH) [EC:1.8.1.9]
+            K22182  thioredoxin reductase (NADPH) [EC:1.8.1.9]
+///

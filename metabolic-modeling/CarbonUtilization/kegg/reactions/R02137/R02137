@@ -1,0 +1,26 @@
+ENTRY       R02137                      Reaction
+NAME        cytidine ribohydrolase
+DEFINITION  Cytidine + H2O <=> Cytosine + D-Ribose
+EQUATION    C00475 + C00001 <=> C00380 + C00121
+RCLASS      RC00063  C00380_C00475
+            RC00318  C00121_C00475
+ENZYME      3.2.2.8
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.2  Glycosylases
+               3.2.2  Hydrolysing N-glycosyl compounds
+                3.2.2.8
+                 R02137  Cytidine + H2O <=> Cytosine + D-Ribose
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.2.2.8
+               R02172  Pyrimidine nucleoside <=> Pyrimidine
+                R02137  Cytidine <=> Cytosine
+ORTHOLOGY   K01250  pyrimidine-specific ribonucleoside hydrolase [EC:3.2.2.-]
+            K10213  ribosylpyrimidine nucleosidase [EC:3.2.2.8]
+            K12700  non-specific riboncleoside hydrolase [EC:3.2.2.-]
+DBLINKS     RHEA: 27961
+///

@@ -1,0 +1,21 @@
+ENTRY       R09379                      Reaction
+NAME        (R)-4-phosphopantoate:beta-alanine ligase (AMP-forming)
+DEFINITION  ATP + (R)-4-Phosphopantoate + beta-Alanine <=> AMP + Diphosphate + D-4'-Phosphopantothenate
+EQUATION    C00002 + C18911 + C00099 <=> C00020 + C00013 + C03492
+RCLASS      RC00096  C00099_C03492
+            RC00141  C03492_C18911
+ENZYME      6.3.2.36
+PATHWAY     rn00410  beta-Alanine metabolism
+            rn00770  Pantothenate and CoA biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00914  Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.36
+                 R09379  ATP + (R)-4-Phosphopantoate + beta-Alanine <=> AMP + Diphosphate + D-4'-Phosphopantothenate
+ORTHOLOGY   K09722  4-phosphopantoate---beta-alanine ligase [EC:6.3.2.36]
+DBLINKS     RHEA: 27933
+///

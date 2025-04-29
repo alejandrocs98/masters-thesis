@@ -1,0 +1,24 @@
+ENTRY       R09775                      Reaction
+NAME        LysW:L-2-aminoadipate ligase (ADP-forming);
+            [lysine-biosynthesis-protein LysW]-C-terminal-L-glutamate:L-2-aminoadipate ligase (ADP-forming)
+DEFINITION  L-2-Aminoadipate + alpha-Aminoadipate carrier protein LysW + ATP <=> LysW-gamma-L-alpha-aminoadipate + ADP + Orthophosphate
+EQUATION    C00956 + C19885 + C00002 <=> C19886 + C00008 + C00009
+RCLASS      RC00002  C00002_C00008
+            RC00064  C00956_C19886
+            RC00090  C19885_C19886
+ENZYME      6.3.2.43
+PATHWAY     rn00300  Lysine biosynthesis
+            rn01100  Metabolic pathways
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01230  Biosynthesis of amino acids
+MODULE      M00031  Lysine biosynthesis, mediated by LysW, 2-aminoadipate => lysine
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.43
+                 R09775  L-2-Aminoadipate + alpha-Aminoadipate carrier protein LysW + ATP <=> LysW-gamma-L-alpha-aminoadipate + ADP + Orthophosphate
+ORTHOLOGY   K05827  [lysine-biosynthesis-protein LysW]---L-2-aminoadipate ligase [EC:6.3.2.43]
+            K25032  alpha-aminoadipate-LysW ligase/glutamate-LysW ligase [EC:6.3.2.43 6.3.2.60]
+DBLINKS     RHEA: 41943
+///

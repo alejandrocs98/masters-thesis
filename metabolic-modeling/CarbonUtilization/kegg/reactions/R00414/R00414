@@ -1,0 +1,29 @@
+ENTRY       R00414                      Reaction
+NAME        UDP-N-acetyl-D-glucosamine 2-epimerase
+DEFINITION  UDP-N-acetyl-alpha-D-glucosamine + H2O <=> N-Acetyl-D-mannosamine + UDP
+EQUATION    C00043 + C00001 <=> C00645 + C00015
+COMMENT     possibly intermediate (2-acetamido-D-glucal)
+RCLASS      RC00005  C00015_C00043
+            RC00288  C00043_C00645
+ENZYME      3.2.1.183       5.1.3.14
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  O-Antigen nucleotide sugar biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00922  CMP-Neu5Ac biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.2  Glycosylases
+               3.2.1  Glycosidases, i.e. enzymes that hydrolyse O- and S-glycosyl compounds
+                3.2.1.183
+                 R00414  UDP-N-acetyl-alpha-D-glucosamine + H2O <=> N-Acetyl-D-mannosamine + UDP
+             5. Isomerase reactions
+              5.1  Racemases and epimerases
+               5.1.3  Acting on carbohydrates and derivatives
+                5.1.3.14
+                 R00414  UDP-N-acetyl-alpha-D-glucosamine + H2O <=> N-Acetyl-D-mannosamine + UDP
+ORTHOLOGY   K08068  UDP-N-acetylglucosamine 2-epimerase (hydrolysing) [EC:3.2.1.183]
+            K12409  bifunctional UDP-N-acetylglucosamine 2-epimerase / N-acetylmannosamine kinase [EC:3.2.1.183 2.7.1.60]
+            K24257  UDP-N-acetylglucosamine 2-epimerase (hydrolysing) [EC:3.2.1.183]
+DBLINKS     RHEA: 30686
+///

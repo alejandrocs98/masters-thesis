@@ -1,0 +1,25 @@
+ENTRY       R00391                      Reaction
+NAME        acyl-CoA:acetyl-CoA C-acyltransferase
+DEFINITION  Acyl-CoA + Acetyl-CoA <=> CoA + 3-Oxoacyl-CoA
+EQUATION    C00040 + C00024 <=> C00010 + C00264
+COMMENT     general reaction
+RCLASS      RC00004  C00010_C00040
+            RC00326  C00024_C00264
+            RC02997  C00040_C00264
+ENZYME      2.3.1.16
+PATHWAY     rn00062  Fatty acid elongation
+MODULE      M00085  Fatty acid elongation in mitochondria
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.16
+                 R00391  Acyl-CoA + Acetyl-CoA <=> CoA + 3-Oxoacyl-CoA
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.16
+               R00391  Acyl-CoA <=> 3-Oxoacyl-CoA
+ORTHOLOGY   K07508  acetyl-CoA acyltransferase 2 [EC:2.3.1.16]
+            K07509  acetyl-CoA acyltransferase [EC:2.3.1.16]
+DBLINKS     RHEA: 21567
+///

@@ -1,0 +1,23 @@
+ENTRY       R07152                      Reaction
+NAME        xylitol:oxygen oxidoreductase
+DEFINITION  Xylitol + Oxygen <=> D-Xylose + Hydrogen peroxide
+EQUATION    C00379 + C00007 <=> C00181 + C00027
+RCLASS      RC00133  C00181_C00379
+            RC02755  C00007_C00027
+ENZYME      1.1.3.41
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.3  With oxygen as acceptor
+                1.1.3.41
+                 R07152  Xylitol + Oxygen <=> D-Xylose + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.3.41
+               R11618  Alditol <=> Aldose
+                R07152  Xylitol <=> D-Xylose
+ORTHOLOGY   K00594  alditol oxidase [EC:1.1.3.41]
+DBLINKS     RHEA: 22311 25911
+///

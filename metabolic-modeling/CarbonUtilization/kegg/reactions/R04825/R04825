@@ -1,0 +1,23 @@
+ENTRY       R04825                      Reaction
+NAME        3alpha,7alpha,12alpha-trihydroxy-5beta-cholestane:NADP+ oxidoreductase (B-specific)
+DEFINITION  3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestane + NADP+ <=> 7alpha,12alpha-Dihydroxy-5beta-cholestan-3-one + NADPH + H+
+EQUATION    C05454 + C00006 <=> C05453 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00144  C05453_C05454
+ENZYME      1.1.1.50
+PATHWAY     rn00120  Primary bile acid biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00104  Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.50
+                 R04825  3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestane + NADP+ <=> 7alpha,12alpha-Dihydroxy-5beta-cholestan-3-one + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.50
+               R10423  3alpha-Hydroxysteroid <=> 3-Oxosteroid
+                R04825  3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestane <=> 7alpha,12alpha-Dihydroxy-5beta-cholestan-3-one
+ORTHOLOGY   K00037  3alpha-hydroxysteroid 3-dehydrogenase / chlordecone reductase [EC:1.1.1.50 1.1.1.357 1.1.1.225]
+///

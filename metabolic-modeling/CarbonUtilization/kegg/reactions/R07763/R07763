@@ -1,0 +1,28 @@
+ENTRY       R07763                      Reaction
+DEFINITION  3-Oxostearoyl-[acp] + NADPH + H+ <=> (3R)-3-Hydroxyoctadecanoyl-[acyl-carrier protein] + NADP+
+EQUATION    C16219 + C00005 + C00080 <=> C16220 + C00006
+RCLASS      RC00001  C00005_C00006
+            RC00029  C16219_C16220
+ENZYME      1.1.1.100       2.3.1.-
+PATHWAY     rn00061  Fatty acid biosynthesis
+            rn01100  Metabolic pathways
+            rn01212  Fatty acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.100
+                 R07763  3-Oxostearoyl-[acp] + NADPH + H+ <=> (3R)-3-Hydroxyoctadecanoyl-[acyl-carrier protein] + NADP+
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.-
+                 R07763  3-Oxostearoyl-[acp] + NADPH + H+ <=> (3R)-3-Hydroxyoctadecanoyl-[acyl-carrier protein] + NADP+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.100
+               R02767  (3R)-3-Hydroxyacyl-[acyl-carrier protein] <=> 3-Oxoacyl-[acyl-carrier protein]
+                R07763  3-Oxostearoyl-[acp] <=> (3R)-3-Hydroxyoctadecanoyl-[acyl-carrier protein]
+ORTHOLOGY   K00059  3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]
+            K11533  fatty acid synthase, bacteria type [EC:2.3.1.-]
+///

@@ -1,0 +1,24 @@
+ENTRY       R00689                      Reaction
+NAME        L-phenylalanine:oxygen oxidoreductase (deaminating)
+DEFINITION  L-Phenylalanine + H2O + Oxygen <=> Phenylpyruvate + Ammonia + Hydrogen peroxide
+EQUATION    C00079 + C00001 + C00007 <=> C00166 + C00014 + C00027
+RCLASS      RC00006  C00079_C00166
+            RC02755  C00007_C00027
+ENZYME      1.4.3.2
+PATHWAY     rn00360  Phenylalanine metabolism
+            rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.2
+                 R00689  L-Phenylalanine + H2O + Oxygen <=> Phenylpyruvate + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.2
+               R01259  L-Amino acid <=> 2-Oxo acid
+                R00689  L-Phenylalanine <=> Phenylpyruvate
+ORTHOLOGY   K03334  L-amino-acid oxidase [EC:1.4.3.2]
+DBLINKS     RHEA: 61243
+///

@@ -1,0 +1,26 @@
+ENTRY       R10042                      Reaction
+NAME        benzene,NADH:oxygen oxidoreductase
+DEFINITION  Benzene + Oxygen + NADH + H+ <=> Phenol + NAD+ + H2O
+EQUATION    C01407 + C00007 + C00004 + C00080 <=> C00146 + C00003 + C00001
+RCLASS      RC00001  C00003_C00004
+            RC00490  C00146_C01407
+ENZYME      1.14.13.244
+PATHWAY     rn00361  Chlorocyclohexane and chlorobenzene degradation
+            rn00362  Benzoate degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00548  Benzene degradation, benzene => catechol
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.244
+                 R10042  Benzene + Oxygen + NADH + H+ <=> Phenol + NAD+ + H2O
+ORTHOLOGY   K16242  phenol/toluene 2-monooxygenase (NADH) P3/A3 [EC:1.14.13.244 1.14.13.243]
+            K16243  phenol/toluene 2-monooxygenase (NADH) P1/A1 [EC:1.14.13.244 1.14.13.243]
+            K16244  phenol/toluene 2-monooxygenase (NADH) P2/A2 [EC:1.14.13.244 1.14.13.243]
+            K16245  phenol/toluene 2-monooxygenase (NADH) P4/A4 [EC:1.14.13.244 1.14.13.243]
+            K16246  phenol/toluene 2-monooxygenase (NADH) P5/A5 [EC:1.14.13.244 1.14.13.243]
+            K16249  phenol/toluene 2-monooxygenase (NADH) P0/A0
+///

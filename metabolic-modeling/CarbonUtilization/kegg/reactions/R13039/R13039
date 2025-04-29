@@ -1,0 +1,29 @@
+ENTRY       R13039                      Reaction
+DEFINITION  Androstan-3alpha,17beta-diol + NAD+ <=> Androsterone + NADH + H+
+EQUATION    C03852 + C00003 <=> C00523 + C00004 + C00080
+COMMENT     hydroxysteroid 17beta dehydrogenase
+RCLASS      RC00127  C00523_C03852
+ENZYME      1.1.1.51        1.1.1.-
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00977  C19-Steroid hormone biosynthesis (androgen backdoor pathway), pregnenolone => androsterone => dihydrotestosterone
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.51
+                 R13039  Androstan-3alpha,17beta-diol + NAD+ <=> Androsterone + NADH + H+
+                1.1.1.-
+                 R13039  Androstan-3alpha,17beta-diol + NAD+ <=> Androsterone + NADH + H+
+ORTHOLOGY   K04119  aldo-keto reductase family 1 member C3 [EC:1.1.1.51 1.1.1.188 1.1.1.213 1.1.1.357]
+            K25779  hydroxysteroid 17beta dehydrogenase 11 [EC:1.1.1.-]
+REFERENCE   1  [PMID:12697717]
+  AUTHORS   Chai Z, Brereton P, Suzuki T, Sasano H, Obeyesekere V, Escher G, Saffery R, Fuller P, Enriquez C, Krozowski Z
+  TITLE     17 beta-hydroxysteroid dehydrogenase type XI localizes to human steroidogenic cells.
+  JOURNAL   Endocrinology 144:2084-91 (2003)
+            DOI:10.1210/en.2002-221030
+REFERENCE   2  [PMID:10800688]
+  AUTHORS   Haeseleer F, Palczewski K.
+  TITLE     Short-chain dehydrogenases/reductases in retina.
+  JOURNAL   Methods Enzymol 316:372-83 (2000)
+///

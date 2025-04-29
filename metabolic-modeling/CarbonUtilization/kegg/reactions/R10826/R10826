@@ -1,0 +1,20 @@
+ENTRY       R10826                      Reaction
+NAME        very-long-chain-(3R)-3-hydroxyacyl-CoA:NADP+ oxidoreductase
+DEFINITION  Very-long-chain (3R)-3-hydroxyacyl-CoA + NADP+ <=> Very-long-chain 3-oxoacyl-CoA + NADPH + H+
+EQUATION    C20878 + C00006 <=> C20877 + C00005 + C00080
+COMMENT     Elongation of C16/C18 acyl-CoAs to very-long-chain acyl CoAs. 
+RCLASS      RC00001  C00005_C00006
+            RC00103  C20877_C20878
+ENZYME      1.1.1.330
+PATHWAY     rn00062  Fatty acid elongation
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.330
+                 R10826  Very-long-chain (3R)-3-hydroxyacyl-CoA + NADP+ <=> Very-long-chain 3-oxoacyl-CoA + NADPH + H+
+ORTHOLOGY   K10251  17beta-estradiol 17-dehydrogenase / very-long-chain 3-oxoacyl-CoA reductase [EC:1.1.1.62 1.1.1.330]
+DBLINKS     RHEA: 48683
+///

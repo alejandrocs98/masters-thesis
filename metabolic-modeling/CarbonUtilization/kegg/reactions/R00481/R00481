@@ -1,0 +1,21 @@
+ENTRY       R00481                      Reaction
+NAME        L-aspartate:oxygen oxidoreductase
+DEFINITION  L-Aspartate + Oxygen <=> Iminoaspartate + Hydrogen peroxide
+EQUATION    C00049 + C00007 <=> C05840 + C00027
+COMMENT     iminoaspartate can either be hydrolysed (see R00357) or can be used by ec 2.5.1.72 (see R04292)
+RCLASS      RC02566  C00049_C05840
+            RC02755  C00007_C00027
+ENZYME      1.4.3.16
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00115  NAD biosynthesis, aspartate => quinolinate => NAD
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.16
+                 R00481  L-Aspartate + Oxygen <=> Iminoaspartate + Hydrogen peroxide
+ORTHOLOGY   K00278  L-aspartate oxidase [EC:1.4.3.16]
+DBLINKS     RHEA: 25879
+///

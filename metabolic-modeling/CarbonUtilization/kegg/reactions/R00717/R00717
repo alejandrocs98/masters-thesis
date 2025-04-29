@@ -1,0 +1,23 @@
+ENTRY       R00717                      Reaction
+NAME        glycolate:NAD+ oxidoreductase
+DEFINITION  Glycolate + NAD+ <=> Glyoxylate + NADH + H+
+EQUATION    C00160 + C00003 <=> C00048 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00042  C00048_C00160
+ENZYME      1.1.1.26        1.1.1.29
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.26
+                 R00717  Glycolate + NAD+ <=> Glyoxylate + NADH + H+
+                1.1.1.29
+                 R00717  Glycolate + NAD+ <=> Glyoxylate + NADH + H+
+ORTHOLOGY   K00015  glyoxylate reductase [EC:1.1.1.26]
+            K00018  glycerate dehydrogenase [EC:1.1.1.29]
+            K15893  glycerate dehydrogenase [EC:1.1.1.29]
+DBLINKS     RHEA: 18232
+///

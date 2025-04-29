@@ -1,0 +1,21 @@
+ENTRY       R01795                      Reaction
+NAME        L-phenylalanine,tetrahydrobiopterin:oxygen oxidoreductase (4-hydroxylating)
+DEFINITION  Tetrahydrobiopterin + L-Phenylalanine + Oxygen <=> Dihydrobiopterin + L-Tyrosine + H2O
+EQUATION    C00272 + C00079 + C00007 <=> C00268 + C00082 + C00001
+COMMENT     two-step reaction (see R07211+R04734)
+RCLASS      RC00023  C00268_C00272
+            RC00490  C00079_C00082
+ENZYME      1.14.16.1
+PATHWAY     rn00360  Phenylalanine metabolism
+            rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn01100  Metabolic pathways
+            rn01230  Biosynthesis of amino acids
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.16  With reduced pteridine as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.16.1
+                 R01795  Tetrahydrobiopterin + L-Phenylalanine + Oxygen <=> Dihydrobiopterin + L-Tyrosine + H2O
+ORTHOLOGY   K00500  phenylalanine-4-hydroxylase [EC:1.14.16.1]
+DBLINKS     RHEA: 30790
+///

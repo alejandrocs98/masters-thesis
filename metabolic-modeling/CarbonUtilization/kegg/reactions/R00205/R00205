@@ -1,0 +1,21 @@
+ENTRY       R00205                      Reaction
+NAME        2-oxopropanal:NADP+ oxidoreductase
+DEFINITION  Methylglyoxal + NADP+ + H2O <=> Pyruvate + NADPH + H+
+EQUATION    C00546 + C00006 + C00001 <=> C00022 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00104  C00022_C00546
+ENZYME      1.2.1.49
+PATHWAY     rn00620  Pyruvate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.49
+                 R00205  Methylglyoxal + NADP+ + H2O <=> Pyruvate + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.49
+               R01338  2-Oxoaldehyde <=> 2-Oxo acid
+                R00205  Methylglyoxal <=> Pyruvate
+///

@@ -1,0 +1,55 @@
+ENTRY       K13227                      KO
+SYMBOL      BX8_9
+NAME        UDP-glucosyltransferase BX8/BX9 [EC:2.4.1.202]
+PATHWAY     map00402  Benzoxazinoid biosynthesis
+            map00999  Biosynthesis of various plant secondary metabolites
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00952  Benzoxazinoid biosynthesis, indoleglycerol phosphate => DIMBOA-glucoside
+REACTION    R04579  UDP-alpha-D-glucose:2,4-dihydroxy-7-methoxy-2H-1,4-benzoxazin-3(4H)-one 2-beta-D-glucosyltransferase
+            R07426  UDP-glucose:DIBOA 2-D-glucosyltransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09110 Biosynthesis of other secondary metabolites
+               00402 Benzoxazinoid biosynthesis
+                K13227  BX8_9; UDP-glucosyltransferase BX8/BX9
+               00999 Biosynthesis of various plant secondary metabolites
+                K13227  BX8_9; UDP-glucosyltransferase BX8/BX9
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.202  2,4-dihydroxy-7-methoxy-2H-1,4-benzoxazin-3(4H)-one 2-D-glucosyltransferase
+                 K13227  BX8_9; UDP-glucosyltransferase BX8/BX9
+DBLINKS     GO: 0047254
+            CAZy: GT1
+GENES       OSA: 4334628 4342809 4350429
+            DOSA: Os03t0824600-00(Os03g0824600) Os11t0444000-01(Os11g0444000)
+            OBR: 102699351 102716206
+            OGL: 127754441 127766058 127780103
+            BDI: 100830404 100830893
+            ATS: 109735346 109736907 109754422 109779844
+            TDC: 119312581 119314690 119315414 119328279 119330805 119334371 119336035 119336866 119340106 119341052 119349903 119349904
+            TAES: 100682422 123114056 123123546 123147887 123150283 123150314 123159126 123160005 123167683 123172831
+            TUA: 125511240 125523142 125523860
+            LPER: 127292054 127330662
+            LRD: 124671666 124681485
+            SBI: 110430107 8069138 8079707 8079708
+            ZMA: 100274317 100277344 103632152 109943562
+            SITA: 101752637 101753321 101778310 101780325 101784691 101785893
+            SVS: 117836233 117836591 117859511
+            PVIR: 120644461 120644612 120649240 120684540 120684928 120691830 120696099
+            PHAI: 112873443 112897861
+REFERENCE   PMID:16666853
+  AUTHORS   Bailey BA, Larson RL
+  TITLE     Hydroxamic Acid glucosyltransferases from maize seedlings.
+  JOURNAL   Plant Physiol 90:1071-6 (1989)
+            DOI:10.1104/pp.90.3.1071
+  SEQUENCE  [zma:100274317]
+REFERENCE   PMID:11851909
+  AUTHORS   von Rad U, Huttl R, Lottspeich F, Gierl A, Frey M.
+  TITLE     Two glucosyltransferases are involved in detoxification of benzoxazinoids in maize.
+  JOURNAL   Plant J 28:633-42 (2001)
+            DOI:10.1046/j.1365-313x.2001.01161.x
+  SEQUENCE  [zma:100277344 100274317]
+///

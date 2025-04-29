@@ -1,0 +1,22 @@
+ENTRY       R01476                      Reaction
+NAME        ATP:D-glucuronate 1-phosphotransferase
+DEFINITION  ATP + D-Glucuronate <=> ADP + D-Glucuronate 1-phosphate
+EQUATION    C00002 + C00191 <=> C00008 + C05385
+RCLASS      RC00002  C00002_C00008
+            RC00078  C00191_C05385
+ENZYME      2.7.1.43
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn00053  Ascorbate and aldarate metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00014  Glucuronate pathway (uronate pathway)
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.43
+                 R01476  ATP + D-Glucuronate <=> ADP + D-Glucuronate 1-phosphate
+ORTHOLOGY   K16190  glucuronokinase [EC:2.7.1.43]
+DBLINKS     RHEA: 17008
+///

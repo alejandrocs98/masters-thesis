@@ -1,0 +1,25 @@
+ENTRY       R02836                      Reaction
+NAME        cortisol:NADP+ 11-oxidoreductase
+DEFINITION  Cortisol + NADP+ <=> Cortisone + NADPH + H+
+EQUATION    C00735 + C00006 <=> C00762 + C00005 + C00080
+COMMENT     NAD+ (see R02834)
+RCLASS      RC00001  C00005_C00006
+            RC00154  C00735_C00762
+ENZYME      1.1.1.146
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00109  C21-Steroid hormone biosynthesis, progesterone => cortisol/cortisone
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.146
+                 R02836  Cortisol + NADP+ <=> Cortisone + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.146
+               R03203  11beta-Hydroxysteroid <=> 11-Oxosteroid
+                R02836  Cortisol <=> Cortisone
+ORTHOLOGY   K15680  corticosteroid 11-beta-dehydrogenase isozyme 1 [EC:1.1.1.146]
+DBLINKS     RHEA: 68619
+///

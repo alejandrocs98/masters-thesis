@@ -1,0 +1,37 @@
+ENTRY       R07052                      Reaction
+DEFINITION  Arachidonate + Oxygen + NADPH + H+ <=> 5,6-EET + NADP+ + H2O
+EQUATION    C00219 + C00007 + C00005 + C00080 <=> C14768 + C00006 + C00001
+COMMENT     CYP2C10/11/23/34/40, CYP2B, CYP2J2/4
+RCLASS      RC00001  C00005_C00006
+            RC01711  C00219_C14768
+ENZYME      1.14.14.1       1.14.14.-
+PATHWAY     rn00590  Arachidonic acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R07052  Arachidonate + Oxygen + NADPH + H+ <=> 5,6-EET + NADP+ + H2O
+                1.14.14.-
+                 R07052  Arachidonate + Oxygen + NADPH + H+ <=> 5,6-EET + NADP+ + H2O
+ORTHOLOGY   K07412  cytochrome P450 family 2 subfamily B [EC:1.14.14.1]
+            K07413  cytochrome P450 family 2 subfamily C [EC:1.14.14.1]
+            K07418  cytochrome P450 family 2 subfamily J [EC:1.14.14.1 1.14.14.73 1.14.14.74 1.14.14.75]
+            K17709  cytochrome P450 family 2 subfamily B6 [EC:1.14.14.-]
+REFERENCE   1  [PMID:23362865]
+  AUTHORS   Knights KM, Rowland A, Miners JO.
+  TITLE     Renal drug metabolism in humans: the potential for drug-endobiotic interactions involving cytochrome P450 (CYP) and UDP-glucuronosyltransferase (UGT).
+  JOURNAL   Br J Clin Pharmacol 76:587-602 (2013)
+            DOI:10.1111/bcp.12086
+REFERENCE   2  [PMID:11679404]
+  AUTHORS   Fleming I.
+  TITLE     Cytochrome p450 and vascular homeostasis.
+  JOURNAL   Circ Res 89:753-62 (2001)
+            DOI:10.1161/hh2101.099268
+REFERENCE   3  [PMID:10908295]
+  AUTHORS   Tsao CC, Foley J, Coulter SJ, Maronpot R, Zeldin DC, Goldstein JA.
+  TITLE     CYP2C40, a unique arachidonic acid 16-hydroxylase, is the major CYP2C in murine intestinal tract.
+  JOURNAL   Mol Pharmacol 58:279-87 (2000)
+            DOI:10.1124/mol.58.2.279
+///

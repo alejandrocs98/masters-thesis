@@ -1,0 +1,17 @@
+ENTRY       R13180                      Reaction
+NAME        S-adenosyl-L-methionine:gentamicin X2 C6'-methyltransferase
+DEFINITION  Gentamicin X2 + 2 S-Adenosyl-L-methionine + Reduced acceptor <=> Antibiotic G-418 + 5'-Deoxyadenosine + L-Methionine + S-Adenosyl-L-homocysteine + Acceptor
+EQUATION    C17702 + 2 C00019 + C00030 <=> C17703 + C05198 + C00073 + C00021 + C00028
+COMMENT     three-step reaction (see R13182+R11294+R13183)
+RCLASS      RC03408  C17702_C17703
+ENZYME      2.1.1.390
+PATHWAY     rn00524  Neomycin, kanamycin and gentamicin biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.390
+                 R13180  Gentamicin X2 + 2 S-Adenosyl-L-methionine + Reduced acceptor <=> Antibiotic G-418 + 5'-Deoxyadenosine + L-Methionine + S-Adenosyl-L-homocysteine + Acceptor
+ORTHOLOGY   K20594  gentamicin X2 methyltransferase [EC:2.1.1.390]
+///

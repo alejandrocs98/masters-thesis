@@ -1,0 +1,18 @@
+ENTRY       R04084                      Reaction
+NAME        3,4-dihydroxyphenylacetaldehyde hydro-lyase (adding dopamine)
+DEFINITION  3,4-Dihydroxyphenylacetaldehyde + Dopamine <=> (S)-Norlaudanosoline + H2O
+EQUATION    C04043 + C03758 <=> C02916 + C00001
+COMMENT     multi-step reaction
+RCLASS      RC01071  C02916_C03758
+            RC01072  C02916_C04043
+ENZYME      3.5.99.14
+PATHWAY     rn00950  Isoquinoline alkaloid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.99  In other compounds
+                3.5.99.14
+                 R04084  3,4-Dihydroxyphenylacetaldehyde + Dopamine <=> (S)-Norlaudanosoline + H2O
+ORTHOLOGY   K13382  (S)-norcoclaurine synthase [EC:3.5.99.14]
+///

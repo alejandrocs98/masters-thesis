@@ -1,0 +1,19 @@
+ENTRY       R08809                      Reaction
+NAME        p-coumaroyl-CoA:feruloyl-diketide-CoA C-coumaroyltransferase (thioester-hydrolysing and decarboxylating)
+DEFINITION  Feruloyl-diketide-CoA + p-Coumaroyl-CoA + H2O <=> Demethoxycurcumin + 2 CoA + CO2
+EQUATION    C17741 + C00223 + C00001 <=> C17742 + 2 C00010 + C00011
+COMMENT     curcuminoid synthase (CURS)
+RCLASS      RC00004  C00010_C00223  C00010_C17741
+            RC02998  C17741_C17742
+ENZYME      2.3.1.219
+PATHWAY     rn00945  Stilbenoid, diarylheptanoid and gingerol biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.219
+                 R08809  Feruloyl-diketide-CoA + p-Coumaroyl-CoA + H2O <=> Demethoxycurcumin + 2 CoA + CO2
+ORTHOLOGY   K17211  curcumin/demethoxycurcumin synthase [EC:2.3.1.217 2.3.1.219]
+DBLINKS     RHEA: 35122
+///

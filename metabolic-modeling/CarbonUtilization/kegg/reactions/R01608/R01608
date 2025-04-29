@@ -1,0 +1,21 @@
+ENTRY       R01608                      Reaction
+NAME        3-hydroxypropanoate:NAD+ oxidoreductase
+DEFINITION  3-Hydroxypropanoate + NAD+ <=> 3-Oxopropanoate + NADH + H+
+EQUATION    C01013 + C00003 <=> C00222 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00087  C00222_C01013
+ENZYME      1.1.1.59
+PATHWAY     rn00410  beta-Alanine metabolism
+            rn00640  Propanoate metabolism
+            rn01100  Metabolic pathways
+            rn01200  Carbon metabolism
+MODULE      M00013  Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.59
+                 R01608  3-Hydroxypropanoate + NAD+ <=> 3-Oxopropanoate + NADH + H+
+ORTHOLOGY   K23146  3-hydroxyisobutyrate/3-hydroxypropionate dehydrogenase [EC:1.1.1.31 1.1.1.59]
+DBLINKS     RHEA: 13360
+///

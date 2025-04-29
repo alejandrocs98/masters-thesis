@@ -1,0 +1,20 @@
+ENTRY       R02081                      Reaction
+NAME        (R)-mevalonate:NAD+ oxidoreductase (CoA-acetylating)
+DEFINITION  (R)-Mevalonate + CoA + 2 NAD+ <=> (S)-3-Hydroxy-3-methylglutaryl-CoA + 2 NADH + 2 H+
+EQUATION    C00418 + C00010 + 2 C00003 <=> C00356 + 2 C00004 + 2 C00080
+RCLASS      RC00001  C00003_C00004
+            RC00004  C00010_C00356
+            RC00644  C00356_C00418
+ENZYME      1.1.1.88
+PATHWAY     rn00900  Terpenoid backbone biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00849  C5 isoprenoid biosynthesis, mevalonate pathway, archaea
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.88
+                 R02081  (R)-Mevalonate + CoA + 2 NAD+ <=> (S)-3-Hydroxy-3-methylglutaryl-CoA + 2 NADH + 2 H+
+ORTHOLOGY   K00054  hydroxymethylglutaryl-CoA reductase [EC:1.1.1.88]
+DBLINKS     RHEA: 14836
+///

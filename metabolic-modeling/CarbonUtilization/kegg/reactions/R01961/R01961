@@ -1,0 +1,27 @@
+ENTRY       R01961                      Reaction
+NAME        ATP:D-glucosamine 6-phosphotransferase
+DEFINITION  ATP + D-Glucosamine <=> ADP + D-Glucosamine 6-phosphate
+EQUATION    C00002 + C00329 <=> C00008 + C00352
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00329_C00352
+ENZYME      2.7.1.1         2.7.1.8
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.1
+                 R01961  ATP + D-Glucosamine <=> ADP + D-Glucosamine 6-phosphate
+                2.7.1.8
+                 R01961  ATP + D-Glucosamine <=> ADP + D-Glucosamine 6-phosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.1.1
+               R02848  D-Hexose <=> D-Hexose 6-phosphate
+                R01961  D-Glucosamine <=> D-Glucosamine 6-phosphate
+ORTHOLOGY   K00844  hexokinase [EC:2.7.1.1]
+            K18676  glucosamine kinase [EC:2.7.1.8]
+DBLINKS     RHEA: 10951
+///

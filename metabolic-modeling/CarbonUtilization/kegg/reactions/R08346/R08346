@@ -1,0 +1,18 @@
+ENTRY       R08346                      Reaction
+NAME        citalopram:oxygen oxidoreductase(deaminating)(flavin-containing)
+DEFINITION  Citalopram + Oxygen + H2O <=> Citalopram aldehyde + Dimethylamine + Hydrogen peroxide
+EQUATION    C07572 + C00007 + C00001 <=> C16612 + C00543 + C00027
+COMMENT     monoamine oxidase
+RCLASS      RC01808  C00543_C07572
+            RC02226  C07572_C16612
+            RC02755  C00007_C00027
+ENZYME      1.4.3.4
+PATHWAY     rn00982  Drug metabolism - cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.4
+                 R08346  Citalopram + Oxygen + H2O <=> Citalopram aldehyde + Dimethylamine + Hydrogen peroxide
+ORTHOLOGY   K00274  monoamine oxidase [EC:1.4.3.4]
+///

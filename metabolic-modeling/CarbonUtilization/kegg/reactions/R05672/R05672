@@ -1,0 +1,21 @@
+ENTRY       R05672                      Reaction
+DEFINITION  N6,N6,O-Tridemethylpuromycin-5'-phosphate + Acetyl-CoA <=> N-Acetyl-N6,N6,O-tridemethylpuromycin-5'-phosphate + CoA
+EQUATION    C07027 + C00024 <=> C07028 + C00010
+COMMENT     Pac, puromycin N-acetyltransferase
+            Ref.1. The Journal of Biological chemistry; vol.271, No.3, Jan 19, 
+            pp.1579-1590, 1996
+RCLASS      RC00004  C00010_C00024
+            RC00064  C07027_C07028
+ENZYME      2.3.-.-
+PATHWAY     rn00998  Biosynthesis of various antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00889  Puromycin biosynthesis, ATP => puromycin
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.-  Acyltransferases
+                2.3.-.-
+                 R05672  N6,N6,O-Tridemethylpuromycin-5'-phosphate + Acetyl-CoA <=> N-Acetyl-N6,N6,O-tridemethylpuromycin-5'-phosphate + CoA
+ORTHOLOGY   K12632  puromycin N-acetyltransferase [EC:2.3.-.-]
+///

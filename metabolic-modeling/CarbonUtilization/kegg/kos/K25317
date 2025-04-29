@@ -1,0 +1,300 @@
+ENTRY       K25317                      KO
+SYMBOL      alr, bsrV
+NAME        amino-acid racemase [EC:5.1.1.10]
+PATHWAY     map00260  Glycine, serine and threonine metabolism
+            map00270  Cysteine and methionine metabolism
+            map00310  Lysine degradation
+            map00470  D-Amino acid metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+MODULE      M00960  Lysine degradation, bacteria, L-lysine => D-lysine => succinate
+REACTION    R00460  lysine racemase
+            R00567  arginine racemase
+            R00579  glutamine racemase
+            R00589  serine racemase
+            R00672  ornithine racemase
+            R00903  cysteine racemase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09105 Amino acid metabolism
+               00260 Glycine, serine and threonine metabolism
+                K25317  alr, bsrV; amino-acid racemase
+               00270 Cysteine and methionine metabolism
+                K25317  alr, bsrV; amino-acid racemase
+               00310 Lysine degradation
+                K25317  alr, bsrV; amino-acid racemase
+              09106 Metabolism of other amino acids
+               00470 D-Amino acid metabolism
+                K25317  alr, bsrV; amino-acid racemase
+            Enzymes [BR:ko01000]
+             5. Isomerases
+              5.1  Racemases and epimerases
+               5.1.1  Acting on amino acids and derivatives
+                5.1.1.10  amino-acid racemase
+                 K25317  alr, bsrV; amino-acid racemase
+DBLINKS     COG: COG0787
+            GO: 0047661
+GENES       CWE: CO701_09930
+            CYO: CD187_11430
+            CPOT: FOB25_22975
+            CAMA: F384_12735
+            CIF: AL515_12575
+            CPAR: CUC49_08305
+            IZH: FEM41_24010
+            YPE: YPO1687
+            YPK: y1849
+            YPH: YPC_1795
+            YPA: YPA_1835
+            YPN: YPN_1944
+            YPP: YPDSF_1761
+            YPZ: YPZ3_2014(alr)
+            YPT: A1122_17450
+            YPD: YPD4_2054(alr)
+            YPX: YPD8_2052(alr)
+            YPW: CH59_151(alr)
+            YPJ: CH55_262(alr)
+            YPV: BZ15_1865(alr)
+            YPL: CH46_3439(alr)
+            YPS: YPTB2392
+            YPO: BZ17_61(alr)
+            YPI: YpsIP31758_1652(alr1)
+            YPY: YPK_1764
+            YPB: YPTS_2470
+            YPQ: DJ40_4176(alr)
+            YPU: BZ21_1681(alr)
+            YPR: BZ20_3811(alr)
+            YPC: BZ23_1967(alr)
+            YPF: BZ19_1758(alr)
+            YSI: BF17_21115
+            SMAF: D781_4025
+            SFW: WN53_13865
+            SFG: AV650_09415
+            SFO: Z042_03845
+            GQU: AWC35_02940
+            PMR: PMI1774
+            PMIB: BB2000_1881
+            PVL: AOB99_10850
+            PVG: CRN77_10030
+            PHAU: PH4a_00590
+            PROT: BTA34_10530
+            PCOL: F1325_12475
+            PCIB: F9282_12550
+            PPEE: I6G31_15995
+            XBO: XBJ1_3817
+            XNE: XNC1_4208
+            XNM: XNC2_4060
+            XDO: XDD1_3534
+            XPO: XPG1_3315
+            XHO: A9255_17220
+            XBU: HGO23_01975(alr)
+            XGR: QL128_02345(alr)
+            PSI: S70_00955
+            PSX: DR96_3338(alr)
+            PSTA: BGK56_03910
+            PTHA: OI982_01335(alr)
+            PRG: RB151_024240(alr_2)
+            PALA: CO695_13850
+            PHEI: NCTC12003_01837(alr_2)
+            PRQ: CYG50_04445
+            PRJ: NCTC6933_02085(alr_2)
+            PVC: G3341_10690
+            PMAG: JI723_10590
+            PHAG: PZ638_09915(alr)
+            MWI: MNY66_00645(alr)
+            PFQ: QQ39_00895
+            LRI: NCTC12151_01708(alr_2)
+            SACZ: AOT14_07650(argR)
+            LUG: FPZ22_06115(alr)
+            VCH: VC_1312
+            VCF: IR04_11855
+            VCS: MS6_1092
+            VCE: Vch1786_I0814(alr)
+            VCQ: EN18_09845
+            VCJ: VCD_003024
+            VCI: O3Y_06110
+            VCO: VC0395_A0930
+            VCR: VC395_1431
+            VCM: VCM66_1267
+            VCX: VAA049_1483(alr)
+            VCZ: VAB027_1988(alr)
+            VVU: VV2_0478(alr)
+            VVY: VVA1029
+            VVM: VVMO6_03946
+            VVL: VV93_v1c39720(alr)
+            VPA: VP2848
+            VPB: VPBB_2698
+            VPK: M636_23190
+            VPF: M634_00755
+            VPH: VPUCM_2947
+            VAG: N646_4376
+            VEX: VEA_000054
+            VDB: AL552_07650(alr)
+            VFU: vfu_B00460
+            VNI: VIBNI_A2139
+            VAN: VAA_01439
+            LAG: N175_07880
+            VAU: VANGNB10_cI1384(alr2?)
+            VCY: IX92_07085
+            VCT: JV59_31405
+            VFL: AL536_02260(alr)
+            VMI: AL543_15915(alr)
+            VQI: CCZ37_06780(alr)
+            VNL: D3H41_17825(alr)
+            VKA: BTD91_19820(alr)
+            VPL: SA104470976_01060(alr_1)
+            VTI: CEQ48_12155(alr)
+            VNP: KW548_08390(alr)
+            VMT: QYQ96_07335(alr)
+            VFI: VF_0735
+            VFM: VFMJ11_0754(alr_1)
+            AWD: AWOD_I_0706(alr)
+            PPR: PBPRA3385(ALR)
+            PGH: FH974_14725(alr)
+            SALY: E8E00_01205(alr)
+            SKS: FCN78_11620(alr)
+            SCOT: HBA18_12065(alr)
+            SPRO: N7E60_12585(alr)
+            PPU: PP_3722(alr)
+            PPF: Pput_2041
+            PPG: PputGB1_2184
+            PPT: PPS_3190
+            PPB: PPUBIRD1_2040(alr)
+            PPI: YSA_09436
+            PPX: T1E_1731
+            PPUH: B479_15830
+            PPUT: L483_19370
+            PPUN: PP4_21000(alr)
+            PPUD: DW66_3461
+            PMON: X969_15340
+            PMOT: X970_14985
+            PPJ: RK21_01448
+            PALD: LU682_011580(alr)
+            PIX: RIN61_01160(alr)
+            PFN: HZ99_15595
+            PTV: AA957_16550
+            PFZ: AV641_12985
+            PPSY: AOC04_09650
+            PSET: THL1_2972
+            PSIL: PMA3_09700
+            PPSH: G5J76_16865
+            PSHH: HU773_026040(alr)
+            PANH: HU763_004370(alr) HU763_010535(alr)
+            PORY: EJA05_15510(alr)
+            PTW: TUM18999_37360(alr-3)
+            PTAE: NCTC10697_02706(alr)
+            PSIH: LOY51_15840(alr)
+            PASI: LG197_21540(alr)
+            PKM: PZ739_10440(alr) PZ739_16620(alr)
+            PTAI: ICN73_22460(alr)
+            PKK: QQ992_10580(alr)
+            PKJ: Q1W70_12205(alr)
+            PHYG: JTY93_25265
+            PPAE: LDL65_25100(alr)
+            PSJY: AA098_17125
+            ACB: A1S_1357
+            ABAB: BJAB0715_01556
+            ABAL: ABLAC_21810
+            ACC: BDGL_000716(alr2)
+            ALC: OTEC02_11495
+            ASEI: I8T81_11865(alr)
+            AJO: RZ95_12800
+            ACW: A0J50_10810
+            ATN: FM020_15385(alr)
+            AVB: RYU24_11870(alr2)
+            ATZ: M5E07_15615(alr)
+            ACIE: KIP84_10805(alr)
+            MNC: LU297_00400(alr)
+            MNJ: LU290_01825(alr)
+            SHL: Shal_2833
+            MVS: MVIS_2349(alr)
+            FRC: KX01_989(alr)
+            HCS: FF32_18150
+            HAG: BB497_10075
+            HQD: K1Y77_10730(alr)
+            HBH: E4T21_13395(alr)
+            HBP: HPTD01_2527
+            HASO: B2G49_04535
+            HALK: CUU95_12885(alr)
+            HVN: EI420_12715(alr)
+            AHA: AHA_2607(alr-3)
+            AHY: AHML_13840
+            AHD: AI20_06420
+            AHR: V428_14330
+            AHP: V429_14350
+            AHJ: V469_08760
+            AHH: RY45_13530
+            AHI: VU14_08715
+            AAJ: BOQ57_13355
+            ASA: ASA_1704(alr2)
+            AEO: O23A_p0992
+            AVR: B565_1395
+            AVO: AMS64_12735
+            AMED: B224_1498
+            ADH: CK627_13030(alr)
+            ACAV: VI35_07685(alr)
+            AEM: CK911_09730(alr)
+            AEA: C2U39_08325(alr)
+            ARV: C7N77_16915(alr)
+            AES: C2U30_05230(alr)
+            AEL: NCTC12917_01618(alr)
+            ASIM: FE240_11355(alr)
+            AALL: I6G90_08240(alr)
+            AJD: I6H43_18725(alr)
+            ARIV: KYK33_11915(alr)
+            ASAA: KXJ75_09325(alr)
+            AEJ: E5E97_18355(alr)
+            ABES: IU367_08670(alr)
+            ZDF: AN401_12265
+            NANI: NCTC12227_02055(alr_2)
+            NAW: LVJ86_00960(alr)
+            KOA: H3L93_00690(alr)
+            VMS: LVJ82_18025(alr) LVJ82_18030(alr)
+            AFF: H3L97_09605
+            PTES: JQU52_02965
+            USU: LVJ78_12380(alr)
+            UTE: LVJ83_00165(alr)
+            WBO: MIS45_02060(alr)
+            CCAH: DWG20_03905
+            CRZ: D1345_22820
+            CHAE: CH06BL_47150(alr-3)
+            CNC: CNE_BB1p01200(alr)
+            CCUP: BKK81_20525
+            TEQ: TEQUI_1568
+            TEA: KUI_0958
+            TEG: KUK_1286
+            TAS: TASI_0723
+            PSF: PSE_3114
+            SMED: JNX03_17170(alr)
+            ROH: FIU89_05710(alr)
+            SEDI: EBB79_23800(alr)
+            PPSO: QPJ95_01760(alr)
+            NOR: FA702_18950(alr)
+            HHE: HH_0466(alr)
+            CFUS: CYFUS_009033
+            MIM: AKG07_14050
+            MFOL: DXT68_01455(alr)
+            MAZA: NFX31_02515(alr)
+            ARE: AL755_09265
+            ARW: MB46_00520
+            ARN: CGK93_23190(alr)
+            PNV: JMY29_19955(alr)
+            PSEY: GU243_05255(alr)
+            LSK: J5X98_00680(alr)
+REFERENCE   PMID:23995642
+  AUTHORS   Radkov AD, Moe LA
+  TITLE     Amino acid racemization in Pseudomonas putida KT2440.
+  JOURNAL   J Bacteriol 195:5016-24 (2013)
+            DOI:10.1128/JB.00761-13
+  SEQUENCE  [ppu:PP_3722]
+REFERENCE   PMID:24419381
+  AUTHORS   Espaillat A, Carrasco-Lopez C, Bernardo-Garcia N, Pietrosemoli N, Otero LH, Alvarez L, de Pedro MA, Pazos F, Davis BM, Waldor MK, Hermoso JA, Cava F
+  TITLE     Structural basis for the broad specificity of a new family of amino-acid racemases.
+  JOURNAL   Acta Crystallogr D Biol Crystallogr 70:79-90 (2014)
+            DOI:10.1107/S1399004713024838
+  SEQUENCE  [vch:VC_1312]
+REFERENCE   PMID:20564572
+  AUTHORS   Matsui D, Oikawa T
+  TITLE     Detection and function of the intramolecular disulfide bond in arginine racemase: an enzyme with broad substrate specificity.
+  JOURNAL   Chem Biodivers 7:1591-602 (2010)
+            DOI:10.1002/cbdv.200900258
+///

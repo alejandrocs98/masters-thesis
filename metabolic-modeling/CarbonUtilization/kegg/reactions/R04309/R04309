@@ -1,0 +1,24 @@
+ENTRY       R04309                      Reaction
+NAME        3alpha-hydroxy-5beta-androstan-17-one:NAD+ oxidoreductase (B-specific)
+DEFINITION  Etiocholanolone + NAD+ <=> 5beta-Androstane-3,17-dione + NADH + H+
+EQUATION    C04373 + C00003 <=> C03772 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00144  C03772_C04373
+ENZYME      1.1.1.50        1.1.1.152
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.50
+                 R04309  Etiocholanolone + NAD+ <=> 5beta-Androstane-3,17-dione + NADH + H+
+                1.1.1.152
+                 R04309  Etiocholanolone + NAD+ <=> 5beta-Androstane-3,17-dione + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.50
+               R10422  3alpha-Hydroxysteroid <=> 3-Oxosteroid
+                R04309  Etiocholanolone <=> 5beta-Androstane-3,17-dione
+ORTHOLOGY   K00037  3alpha-hydroxysteroid 3-dehydrogenase / chlordecone reductase [EC:1.1.1.50 1.1.1.357 1.1.1.225]
+DBLINKS     RHEA: 10359
+///

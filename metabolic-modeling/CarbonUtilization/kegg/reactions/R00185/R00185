@@ -1,0 +1,19 @@
+ENTRY       R00185                      Reaction
+NAME        ATP:adenosine 5'-phosphotransferase
+DEFINITION  ATP + Adenosine <=> ADP + AMP
+EQUATION    C00002 + C00212 <=> C00008 + C00020
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00020_C00212
+ENZYME      2.7.1.20
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.20
+                 R00185  ATP + Adenosine <=> ADP + AMP
+ORTHOLOGY   K00856  adenosine kinase [EC:2.7.1.20]
+DBLINKS     RHEA: 20827
+///

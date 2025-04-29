@@ -1,0 +1,18 @@
+ENTRY       R05643                      Reaction
+NAME        2-formylbenzoate:NAD+ oxidoreductase
+DEFINITION  2-Carboxybenzaldehyde + NAD+ + H2O <=> Phthalate + NADH + H+
+EQUATION    C03057 + C00003 + C00001 <=> C01606 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00075  C01606_C03057
+ENZYME      1.2.1.78
+PATHWAY     rn00624  Polycyclic aromatic hydrocarbon degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.78
+                 R05643  2-Carboxybenzaldehyde + NAD+ + H2O <=> Phthalate + NADH + H+
+ORTHOLOGY   K18275  2-formylbenzoate dehydrogenase [EC:1.2.1.78]
+DBLINKS     RHEA: 27301
+///

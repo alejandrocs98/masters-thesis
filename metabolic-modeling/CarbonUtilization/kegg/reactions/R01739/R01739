@@ -1,0 +1,20 @@
+ENTRY       R01739                      Reaction
+NAME        D-gluconate:NADP+ 2-oxidoreductase
+DEFINITION  D-Gluconic acid + NADP+ <=> 2-Keto-D-gluconic acid + NADPH + H+
+EQUATION    C00257 + C00006 <=> C06473 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00084  C00257_C06473
+ENZYME      1.1.1.215
+PATHWAY     rn00030  Pentose phosphate pathway
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.215
+                 R01739  D-Gluconic acid + NADP+ <=> 2-Keto-D-gluconic acid + NADPH + H+
+ORTHOLOGY   K00090  glyoxylate/hydroxypyruvate/2-ketogluconate reductase [EC:1.1.1.79 1.1.1.81 1.1.1.215]
+            K22229  2-ketogluconate reductase [EC:1.1.1.215]
+DBLINKS     RHEA: 16656
+///

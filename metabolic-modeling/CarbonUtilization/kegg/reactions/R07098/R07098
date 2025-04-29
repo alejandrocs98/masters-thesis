@@ -1,0 +1,26 @@
+ENTRY       R07098                      Reaction
+NAME        trichloroethene,NADPH:oxygen oxidoreductase (RH-hydroxylating or -epoxidizing)
+DEFINITION  Trichloroethene + NADPH + Oxygen + H+ <=> TCE epoxide + NADP+ + H2O
+EQUATION    C06790 + C00005 + C00007 + C00080 <=> C11148 + C00006 + C00001
+COMMENT     CYP2E1, CYP2F2/4, CYP2B1 (ec 1.14.14.1), CYP1A1/2
+            Soluble methane monooxygenase (ec 1.14.13.25)
+            NADH (ec 1.14.13.25, see R09141)
+RCLASS      RC00001  C00005_C00006
+            RC01732  C06790_C11148
+ENZYME      1.14.13.25      1.14.14.1       1.14.14.-
+PATHWAY     rn00980  Metabolism of xenobiotics by cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.25
+                 R07098  Trichloroethene + NADPH + Oxygen + H+ <=> TCE epoxide + NADP+ + H2O
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R07098  Trichloroethene + NADPH + Oxygen + H+ <=> TCE epoxide + NADP+ + H2O
+                1.14.14.-
+                 R07098  Trichloroethene + NADPH + Oxygen + H+ <=> TCE epoxide + NADP+ + H2O
+ORTHOLOGY   K07408  cytochrome P450 family 1 subfamily A1 [EC:1.14.14.1]
+            K07409  cytochrome P450 family 1 subfamily A2 [EC:1.14.14.1]
+            K07415  cytochrome P450 family 2 subfamily E1 [EC:1.14.14.-]
+///

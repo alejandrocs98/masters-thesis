@@ -1,0 +1,4447 @@
+ENTRY       K00705                      KO
+SYMBOL      malQ
+NAME        4-alpha-glucanotransferase [EC:2.4.1.25]
+PATHWAY     map00500  Starch and sucrose metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00855  Glycogen degradation, glycogen => glucose-6P
+REACTION    R02111  1,4-alpha-D-glucan:orthophosphate alpha-D-glucosyltransferase
+            R05196  1,4-alpha-D-glucan:1,4-alpha-D-glucan 4-alpha-D-glycosyltransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00500 Starch and sucrose metabolism
+                K00705  malQ; 4-alpha-glucanotransferase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.25  4-alpha-glucanotransferase
+                 K00705  malQ; 4-alpha-glucanotransferase
+DBLINKS     COG: COG1640
+            GO: 0004134
+            CAZy: GH77
+GENES       ATH: AT2G40840(DPE2) AT5G64860(DPE1)
+            ALY: 9301002 9315961
+            CRB: 17874656 17887931
+            CSAT: 104727124 104743229 104762653 104785312 104792950
+            EUS: EUTSA_v10003902mg EUTSA_v10016195mg
+            BRP: 103837558 103866523
+            BNA: 106396022 106414552 106450686 125593353
+            BOE: 106318541 106342570
+            RSZ: 108812098 108827968
+            THJ: 104803226 104818477
+            CPAP: 110806815 110811214
+            CIT: 102621691 102627737
+            CIC: CICLE_v10010989mg CICLE_v10025236mg
+            PVY: 116108380 116136269
+            MINC: 123197746 123199366
+            TCC: 18598562 18611672
+            GRA: 105772551 105787870
+            GHI: 107889849 107950372 107962149 121210124
+            GAB: 108467087 108486139
+            HSYR: 120126337 120139847 120184637
+            DZI: 111292485 111293942
+            EGR: 104420197 104425401
+            GMX: 100785271 100793021 100795007 100809128
+            GSJ: 114399386 114406585 114410144 114415721
+            PVU: PHAVU_001G117700g PHAVU_009G139500g
+            VRA: 106752776 106753949
+            VAR: 108327535 108331871(dpe1)
+            VUN: 114164008 114183001
+            VUM: 124835778 124837241
+            CCAJ: 109797175 109802083
+            APRC: 113847658 113862638
+            MTR: 11415020 11440463
+            TPRA: 123888238 123913746 123915810
+            CAM: 101492564 101500626
+            PSAT: 127080507 127126496
+            VVO: 131609985 131623720 131661164
+            LJA: Lj1g3v1218940.1(Lj1g3v1218940.1) Lj1g3v1218940.2(Lj1g3v1218940.2) Lj1g3v4081830.1(Lj1g3v4081830.1) Lj1g3v4081830.2(Lj1g3v4081830.2)
+            ADU: 107470283 107494145
+            AIP: 107604704 107604820 107621049
+            AHF: 112696786 112715829 112754644 112754822 112783383
+            LANG: 109337666 109358472
+            PCIN: 129304852 129320089
+            QSA: O6P43_006305 O6P43_023280
+            FVE: 101305814 101309943
+            RCN: 112188704 112192240
+            PPER: 18769381 18772517
+            PMUM: 103331846 103342251
+            PAVI: 110746607 110755521
+            PDUL: 117632407 117634131
+            MDM: 103405614 114822990
+            MSYL: 126592032 126603201
+            PXB: 103935052 103966218
+            ZJU: 107425478 107431547
+            MNT: 21402976 21410504
+            CSAV: 115700644 115713038
+            CSV: 101208819 101216247
+            CMO: 103495851 103497466
+            BHJ: 120073342 120088576
+            MCHA: 111021480 111021744
+            CMAX: 111467152 111470358
+            CMOS: 111434944 111453446
+            CPEP: 111777441 111803321
+            RCU: 8274926 8289517
+            JCU: 105636123 105636538
+            HBR: 110642784 110667668
+            MESC: 110620872 110628196
+            POP: 7456959 7458898 7479637
+            PEU: 105126435 105136895 105137330
+            PALZ: 118033171 118043608 118052980
+            JRE: 109008132 109012780
+            CILL: 122276457 122307708
+            CAVE: 132161819 132166378
+            QSU: 112007311 112031642
+            QLO: 115952393 115995155
+            TWL: 119995125 120013359
+            VVI: 100259462 100267188
+            VRI: 117918727 117920368
+            SLY: 101250983 101253841
+            SPEN: 107017855
+            SOT: 102577807(DE2) 102595076(dpeP)
+            SSTN: 125849131 125855005
+            SDUL: 129875017 129902134
+            CANN: 107850686 107858464
+            LBB: 132613805 132621292
+            NTA: 107798208 107803132 107811953
+            NSY: 104218246 104230247
+            NTO: 104115671 104120353
+            NAU: 109229620 109243810
+            INI: 109159074 109172425 109182127
+            ITR: 116006853 116020659 116029316
+            SIND: 105162703 105179007
+            OEU: 111392875
+            EGT: 105973041 105976674
+            SSPL: 121748479 121752360 121765242
+            SMIL: 130990245 131021716 131021760
+            SHIS: 125198962 125219102
+            APAN: 127240600 127264101
+            HAN: 110865379 110912004
+            ECAD: 122591224 122604545
+            LSV: 111917066 111918908
+            CCAV: 112507874 112511206
+            DCR: 108214196 108218439
+            CSIN: 114271878 114313487
+            RVL: 131303683 131318780
+            AEW: 130776832 130789170
+            BVG: 104889559 104896086
+            SOE: 110775661 110787247
+            CQI: 110703195 110711798 110714985 110724057
+            ATRI: 130820121 130828046
+            MOF: 131159684 131160236
+            NNU: 104589296 104593644 104600019
+            MING: 122087997 122089678
+            TSS: 122669597 122670935
+            PSOM: 113282420 113287008 113309751 113321324
+            OSA: 4343975 4344192
+            DOSA: Os07t0627000-01(Os07g0627000) Os07t0662900-01(Os07g0662900)
+            OBR: 102720896 102722230
+            OGL: 127779436 127780598
+            BDI: 100839794 100845971
+            ATS: 109760178 109768306
+            TDC: 119353429 119353714 119362569 119362898
+            TAES: 123043822 123044125 123051688 123052006 123187605 780606
+            TUA: 125535817 125536156
+            LPER: 127331733 127332063
+            LRD: 124673994 124677854
+            SBI: 8072271 8079356
+            ZMA: 100194185 100381522
+            SITA: 101760963 101763600 101781159
+            SVS: 117838493 117843901 117845412
+            PVIR: 120661902 120662103 120694562 120694774
+            PHAI: 112879429 112881577
+            PDA: 103711711 103721718
+            EGU: 105041676 105057692
+            MUS: 103976721 103977700
+            ZOF: 121988748 121989001 121997679 121997936
+            DCT: 110102910 110104720
+            PEQ: 110024993 110031325
+            AOF: 109833891 109848712
+            MSIN: 131227423 131242171
+            NCOL: 116248016 116261482
+            ATR: 18422365 18442847
+            SMO: SELMODRAFT_109836 SELMODRAFT_123852 SELMODRAFT_268243 SELMODRAFT_427302 SELMODRAFT_444105
+            PPP: 112273235 112283720 112285345 112292049
+            CRE: CHLRE_02g095126v5 CHLRE_03g181500v5
+            VCN: VOLCADRAFT_107405(dpe1) VOLCADRAFT_56349
+            MNG: MNEG_11917
+            CSL: COCSUDRAFT_28856 COCSUDRAFT_47370
+            CVR: CHLNCDRAFT_21506 CHLNCDRAFT_58753
+            APRO: F751_0471 F751_4714
+            OLU: OSTLU_44388 OSTLU_44779
+            OTA: OT_ostta02g03360 OT_ostta11g02110
+            BPG: Bathy13g00790 Bathy14g02920
+            MIS: MICPUN_86873(DPE2) MICPUN_89545(DPE1)
+            MPP: MICPUCDRAFT_20445(DPE2) MICPUCDRAFT_25076(DPE1)
+            CME: CYME_CMP352C CYME_CMT204C
+            GSL: Gasu_34050
+            CCP: CHC_T00009120001
+            DDI: DDB_G0284259
+            DPP: DICPUDRAFT_46840
+            DFA: DFA_01299
+            EHI: EHI_148560(1.t00098)
+            EDI: EDI_196330
+            EIV: EIN_283630 EIN_390810
+            GTT: GUITHDRAFT_101143 GUITHDRAFT_103520 GUITHDRAFT_145761 GUITHDRAFT_163686
+            TVA: TVAG_2v0001810 TVAG_2v0163930 TVAG_2v0221760 TVAG_2v0232100 TVAG_2v0543560 TVAG_2v0794900 TVAG_2v0821020 TVAG_2v0946950 TVAG_2v0969590 TVAG_2v0993460
+            ECO: b3416(malQ)
+            ECJ: JW3379(malQ)
+            ECD: ECDH10B_3591(malQ)
+            EBW: BWG_3110(malQ)
+            ECOK: ECMDS42_2862(malQ)
+            ECOC: C3026_18530(malQ)
+            ECE: Z4771(malQ)
+            ECS: ECs_4258(malQ)
+            ECF: ECH74115_4723(malQ)
+            ETW: ECSP_4366(malQ)
+            ELX: CDCO157_3999(malQ)
+            EOI: ECO111_4225(malQ)
+            EOJ: ECO26_4504(malQ)
+            EOH: ECO103_4134(malQ)
+            ECOO: ECRM13514_4364(malQ)
+            ECOH: ECRM13516_4161(malQ)
+            ESL: O3K_01980(malQ)
+            ESO: O3O_23670(malQ)
+            ESM: O3M_02025(malQ)
+            ECK: EC55989_3824(malQ)
+            ECG: E2348C_3661(malQ)
+            EOK: G2583_4113(malQ)
+            ELR: ECO55CA74_19640(malQ)
+            ELH: ETEC_3666
+            ECW: EcE24377A_3892(malQ)
+            EUN: UMNK88_4184(malQ)
+            ECP: ECP_3502
+            ENA: ECNA114_3524(malQ)
+            ECOS: EC958_3810(malQ)
+            ECV: APECO1_3050(malQ)
+            ECOA: APECO78_20870(malQ)
+            ECX: EcHS_A3614(malQ)
+            ECM: EcSMS35_3697(malQ)
+            ECY: ECSE_3683
+            ECR: ECIAI1_3560(malQ)
+            ECQ: ECED1_4077(malQ)
+            EUM: ECUMN_3875(malQ)
+            ECT: ECIAI39_3897(malQ)
+            EOC: CE10_3937(malQ)
+            EBR: ECB_03268(malQ)
+            ECOB: C3029_21100(malQ)
+            EBL: ECD_03268(malQ)
+            EBE: B21_03220(malQ)
+            EBD: ECBD_0329
+            ECI: UTI89_C3917(malQ)
+            EIH: ECOK1_3831(malQ)
+            ECZ: ECS88_3805(malQ)
+            ECC: c4193(malQ)
+            ELO: EC042_3677(malQ)
+            ELN: NRG857_16910(malQ)
+            ESE: ECSF_3238
+            ECL: EcolC_0297
+            EKO: EKO11_0327
+            EKF: KO11_05705(malQ)
+            EAB: ECABU_c38370(malQ)
+            EDH: EcDH1_0297
+            EDJ: ECDH1ME8569_3295(malQ)
+            ELU: UM146_17140(malQ)
+            ELW: ECW_m3674(malQ)
+            ELL: WFL_17950(malQ)
+            ELC: i14_3864(malQ)
+            ELD: i02_3864(malQ)
+            ELP: P12B_c3517(malQ)
+            ELF: LF82_1264(malQ)
+            ECOL: LY180_17520(malQ)
+            ECOI: ECOPMV1_03723(malQ)
+            ECOJ: P423_19035(malQ)
+            EFE: EFER_3385(malQ)
+            EAL: EAKF1_ch2547(malQ)
+            EMA: C1192_14950
+            ESZ: FEM44_08035(malQ)
+            ERUY: OSH18_11240(malQ)
+            STY: STY4283(malQ)
+            STT: t3993(malQ)
+            SEX: STBHUCCB_42250
+            SENT: TY21A_20310(malQ)
+            STM: STM3513(malQ)
+            SEO: STM14_4231(malQ)
+            SEV: STMMW_35031
+            SEY: SL1344_3480(malQ)
+            SEM: STMDT12_C35680(malQ)
+            SEJ: STMUK_3499(malQ)
+            SEB: STM474_3681(malQ)
+            SEF: UMN798_3816(malQ)
+            SETU: STU288_17765(malQ)
+            SETC: CFSAN001921_22880(malQ)
+            SENR: STMDT2_34001(malQ)
+            SEND: DT104_34971(malQ)
+            SENI: CY43_18260(malQ)
+            SEEN: SE451236_03340(malQ)
+            SPT: SPA3378(malQ)
+            SEK: SSPA3153
+            SPQ: SPAB_04373
+            SEI: SPC_3583(malQ)
+            SEC: SCH_3445(malQ)
+            SEH: SeHA_C3821(malQ)
+            SHB: SU5_03989
+            SENH: CFSAN002069_14610(malQ)
+            SEEH: SEEH1578_03645(malQ)
+            SEE: SNSL254_A3787(malQ)
+            SENN: SN31241_3730
+            SEW: SeSA_A3712(malQ)
+            SEA: SeAg_B3715(malQ)
+            SENS: Q786_17150(malQ)
+            SED: SeD_A3883(malQ)
+            SEG: SG3925(malQ)
+            SEL: SPUL_4066(malQ)
+            SEGA: SPUCDC_4052(malQ)
+            SET: SEN3339(malQ)
+            SENA: AU38_17035(malQ)
+            SENO: AU37_17225(malQ)
+            SENV: AU39_17230(malQ)
+            SENQ: AU40_19200(malQ)
+            SENL: IY59_17660(malQ)
+            SENJ: CFSAN001992_16015(malQ)
+            SEEC: CFSAN002050_24525(malQ)
+            SEEB: SEEB0189_002305(malQ)
+            SEEP: I137_19435(malQ)
+            SENB: BN855_35930(malQ)
+            SENE: IA1_17040(malQ)
+            SENC: SEET0819_01160(malQ)
+            SES: SARI_04101
+            SBG: SBG_3118(malQ)
+            SBZ: A464_3593
+            SBV: N643_15485(malQ)
+            SALZ: EOS98_01710
+            SFL: SF3439(malQ)
+            SFX: S4326(malQ)
+            SFV: SFV_3424(malQ)
+            SFE: SFxv_3755(malQ)
+            SFN: SFy_4891
+            SFS: SFyv_4964
+            SFT: NCTC1_03719(malQ)
+            SSN: SSON_3548(malQ)
+            SBO: SBO_3405(malQ)
+            SBC: SbBS512_E3797(malQ)
+            SDY: SDY_3660(malQ)
+            SDZ: Asd1617_04837
+            SHQ: A0259_20840(malQ)
+            ENC: ECL_04780
+            ENL: A3UG_21250(malQ)
+            ECLG: EC036_41470
+            ECLE: ECNIH2_21775(malQ)
+            ECLN: ECNIH4_01820(malQ)
+            ECLI: ECNIH5_20405(malQ)
+            ECLX: LI66_21045(malQ)
+            ECLY: LI62_23030(malQ)
+            ECLZ: LI64_20130(malQ)
+            ECLO: ENC_26150
+            EHM: AB284_03780(malQ)
+            EXF: BFV63_20535
+            ECLA: ECNIH3_20500(malQ)
+            ECLC: ECR091_20430(malQ)
+            EAU: DI57_20055(malQ)
+            EKB: BFV64_22005
+            ENO: ECENHK_20765(malQ)
+            EEC: EcWSU1_04203(malQ)
+            ELG: BH714_13815
+            ECAN: CWI88_21075
+            ERN: BFV67_20565
+            ECLS: LI67_022600(malQ)
+            ECHG: FY206_22860(malQ)
+            ESH: C1N69_21470
+            EPT: HWQ17_14960(malQ)
+            ENT: Ent638_3829
+            EAS: Entas_4111
+            ENR: H650_13470(malQ)
+            ENX: NI40_020700(malQ)
+            ENF: AKI40_0387(malQ)
+            LNI: CWR52_14100
+            EBG: FAI37_08340(malQ)
+            END: A4308_05495(malQ)
+            ENZ: G0034_21420(malQ)
+            ENS: HWQ15_06360(malQ)
+            ENK: LOC22_09075(malQ)
+            EHU: D5067_0001625(malQ)
+            EMOR: L6Y89_20615(malQ)
+            ENB: ELK40_21070
+            EQU: OM418_20760(malQ)
+            EPU: QVH39_21615(malQ)
+            ESA: ESA_04322
+            CSK: ES15_0253(malQ)
+            CSZ: CSSP291_19910(malQ)
+            CSJ: CSK29544_01212
+            CCON: AFK62_18695(malQ)
+            CDM: AFK67_19220(malQ)
+            CSI: P262_00382
+            CMJ: AFK66_001320(malQ)
+            CUI: AFK65_18390(malQ)
+            CMW: AFK63_00005(malQ)
+            CTU: CTU_39260(malQ)
+            KPN: KPN_03786(malQ)
+            KPU: KP1_5120(malQ)
+            KPM: KPHS_49380
+            KPP: A79E_0327
+            KPH: KPNIH24_24620(malQ)
+            KPZ: KPNIH27_23535(malQ)
+            KPV: KPNIH29_24450(malQ)
+            KPW: KPNIH30_24900(malQ)
+            KPY: KPNIH31_23955(malQ)
+            KPG: KPNIH32_25770(malQ)
+            KPC: KPNIH10_24585(malQ)
+            KPQ: KPR0928_24105(malQ)
+            KPT: VK055_3685(malQ)
+            KPO: KPN2242_21955(malQ)
+            KPR: KPR_0681(malQ)
+            KPJ: N559_0368
+            KPI: D364_19370(malQ)
+            KPA: KPNJ1_00347
+            KPS: KPNJ2_00348
+            KPX: PMK1_01290(malQ)
+            KPB: FH42_15260(malQ)
+            KPNE: KU54_001695(malQ)
+            KPNU: LI86_01690(malQ)
+            KPNK: BN49_0331(malQ)
+            KVA: Kvar_0315
+            KPE: KPK_0329(malQ)
+            KPK: A593_09130(malQ)
+            KVD: KR75_06485
+            KVQ: SP68_13075
+            KOX: KOX_04675(malQ)
+            KOE: A225_5399
+            KOY: J415_05085(malQ)
+            KOM: HR38_03245(malQ)
+            KMI: VW41_22120(malQ)
+            KOK: KONIH1_27195(malQ)
+            KOC: AB185_09090(malQ)
+            KQU: AVR78_02780
+            EAE: EAE_05340(malQ)
+            EAR: CCG32930
+            KQV: B8P98_01710
+            KLL: BJF97_26860
+            KLW: DA718_02175
+            KAR: LGL98_01680(malQ)
+            KGR: JJJ10_01885(malQ)
+            KPAS: LUW96_04705(malQ)
+            KLC: K7H21_01820(malQ)
+            KLM: BWI76_26160
+            REE: electrica_00317(malQ)
+            ROR: RORB6_20500(malQ)
+            RON: TE10_00525(malQ)
+            RPLN: B1209_01725
+            RAO: DSD31_01840
+            RTG: NCTC13098_00424(malQ)
+            CRO: ROD_44071(malQ)
+            CKO: CKO_04837
+            CFD: CFNIH1_04740(malQ)
+            CBRA: A6J81_18840
+            CWE: CO701_23675
+            CYO: CD187_01495
+            CPOT: FOB25_12960(malQ)
+            CFQ: C2U38_00875
+            CSED: JY391_01820(malQ)
+            CAMA: F384_18540(malQ)
+            CAF: AL524_01190
+            CIF: AL515_21755
+            CFAR: CI104_01660
+            CIR: C2U53_07685
+            CIE: AN232_06125
+            CPAR: CUC49_17615
+            CTEL: GBC03_02705(malQ)
+            CITZ: E4Z61_18545(malQ)
+            CARS: E1B03_24560(malQ)
+            CIX: M4I31_01595(malQ)
+            CIB: HF677_001405(malQ)
+            CENS: P2W74_01405(malQ)
+            EBT: EBL_c02140(malQ)
+            CNT: JT31_13830(malQ)
+            CEM: LH23_03885(malQ)
+            CEN: LH86_03825(malQ)
+            CLAP: NCTC11466_00149(malQ)
+            PGE: LG71_03050(malQ)
+            ESC: Entcl_0319
+            KLE: AO703_19820(malQ)
+            KSA: C813_25835
+            KOR: AWR26_01690(malQ)
+            KRD: A3780_23050(malQ)
+            KCO: BWI95_09430
+            KOT: EH164_01510
+            KPSE: IP581_21585(malQ)
+            KOB: HF650_22125(malQ)
+            KOO: O9K67_01915(malQ)
+            KIE: NCTC12125_04232(malQ)
+            KAS: KATP_03180(malQ)
+            KLU: K7B04_06985(malQ)
+            KCY: RIN60_01705(malQ)
+            LAX: APT61_01680(malQ)
+            LEI: C2U54_03055
+            LEH: C3F35_13490
+            LEE: DVA44_01630
+            LER: GNG29_21310(malQ)
+            LEA: GNG26_20515(malQ)
+            LPNU: KQ929_01080(malQ)
+            LEY: DVA43_19670
+            LAZ: A8A57_19920
+            LEF: LJPFL01_3934
+            LEW: DAI21_06165
+            BUF: D8682_16965
+            BAGE: BADSM9389_02800
+            BFT: MNO13_01440(malQ)
+            SYM: K6K13_21765(malQ)
+            AHN: NCTC12129_00363(malQ_1)
+            ASUB: NLZ15_01455(malQ)
+            YRE: HEC60_16485(malQ)
+            SGOE: A8O29_002120(malQ)
+            KIN: AB182_27330(malQ)
+            PDZ: HHA33_04105(malQ)
+            METY: MRY16398_03800
+            IZH: FEM41_12350(malQ)
+            PSGC: G163CM_39050(malQ)
+            SCOL: KFZ77_01335(malQ)
+            PVJ: LMA04_11035(malQ)
+            SUPE: P0H77_01925(malQ)
+            TOE: QMG90_01245(malQ)
+            EBF: D782_0299
+            EBC: C2U52_10130
+            EBU: CUC76_17330
+            EBB: F652_3290
+            PSTS: E05_01520 E05_41610
+            YPE: YPO0126(malQ)
+            YPK: y3902(malQ)
+            YPH: YPC_0060(malQ)
+            YPA: YPA_3343
+            YPN: YPN_3939
+            YPM: YP_0127(malQ)
+            YPP: YPDSF_0053
+            YPG: YpAngola_A3751(malQ)
+            YPZ: YPZ3_0109(malQ)
+            YPT: A1122_04515(malQ)
+            YPD: YPD4_0110(malQ)
+            YPX: YPD8_0115(malQ)
+            YPW: CH59_2218(malQ)
+            YPJ: CH55_2869(malQ)
+            YPV: BZ15_3442(malQ)
+            YPL: CH46_790(malQ)
+            YPS: YPTB3774(malQ)
+            YPO: BZ17_2811(malQ)
+            YPI: YpsIP31758_3992(malQ)
+            YPY: YPK_0162
+            YPB: YPTS_3970
+            YPQ: DJ40_2621(malQ)
+            YPU: BZ21_3108(malQ)
+            YPR: BZ20_2320(malQ)
+            YPC: BZ23_3395(malQ)
+            YPF: BZ19_3257(malQ)
+            YEN: YE3992(malQ)
+            YEP: YE105_C3720
+            YEY: Y11_31971
+            YEL: LC20_00250
+            YEW: CH47_3739(malQ)
+            YET: CH48_1449(malQ)
+            YEF: FORC2_0195
+            YEE: YE5303_38321(malQ)
+            YSI: BF17_06735(malQ)
+            YFR: AW19_3456(malQ)
+            YIN: CH53_1568(malQ)
+            YKR: CH54_2334(malQ)
+            YRO: CH64_2415(malQ)
+            YRU: BD65_2128(malQ)
+            YRB: UGYR_10925(malQ)
+            YAK: ACZ76_08175(malQ)
+            YMA: DA391_00760
+            YHI: D5F51_21160
+            YCA: F0T03_20820(malQ)
+            YMO: HRD69_06470(malQ)
+            YAS: N0H69_00860(malQ)
+            YKI: HRD70_03445(malQ)
+            YEG: PL78_11750(malQ)
+            SMAR: SM39_4085(malQ)
+            SMAC: SMDB11_3879(malQ)
+            SMW: SMWW4_v1c45870(malQ)
+            SPE: Spro_4635
+            SRR: SerAS9_4723
+            SRL: SOD_c44300(malQ)
+            SRY: M621_24140(malQ)
+            SPLY: Q5A_024105(malQ)
+            SRS: SerAS12_4724
+            SRA: SerAS13_4724
+            SMAF: D781_4351
+            SLQ: M495_23355(malQ)
+            SERF: L085_03200(malQ)
+            SERS: SERRSCBI_22190(malQ)
+            SFW: WN53_06325(malQ)
+            SFG: AV650_04600(malQ)
+            SRZ: AXX16_0779
+            SERM: CLM71_22385
+            SQU: E4343_17585(malQ)
+            SFJ: SAMEA4384070_4592(malQ)
+            SOF: NCTC11214_01392(malQ)
+            SSUR: ATE40_019550
+            SURI: J0X03_01140(malQ)
+            SRHZ: FO014_11240(malQ)
+            SENP: KHA73_00575(malQ)
+            SNEM: NLX84_23535(malQ)
+            SNEV: OI978_07875(malQ)
+            SFO: Z042_10375(malQ)
+            RAH: Rahaq_0224 Rahaq_0535
+            RACE: JHW33_17725(malQ) JHW33_19330(malQ)
+            RAQ: Rahaq2_0245 Rahaq2_0588
+            RAA: Q7S_01120(malQ) Q7S_02665(malQ)
+            ROX: BV494_14070 BV494_15575
+            RVC: J9880_08880(malQ) J9880_10450(malQ)
+            RBON: QNM34_01020(malQ) QNM34_02595(malQ)
+            RIU: I2123_02990(malQ) I2123_04745(malQ)
+            GQU: AWC35_12725(malQ)
+            EAME: GXP68_00960(malQ)
+            RBAD: H2866_06935(malQ)
+            RCB: O1V66_18560(malQ)
+            CARU: P0E69_00975(malQ)
+            NIG: C1N62_00905
+            PROD: PCO85_01750(malQ) PCO85_04995(malQ)
+            SERA: Ser39006_000690 Ser39006_020550
+            SERQ: CWC46_00690 CWC46_20555
+            ECA: ECA4135(malQ)
+            PATR: EV46_20580(malQ)
+            PATO: GZ59_41900
+            PCT: PC1_3927
+            PCC: PCC21_039190
+            PCV: BCS7_19610(malQ)
+            PWA: Pecwa_4120
+            PPAR: A8F97_20885
+            PEC: W5S_4279
+            PWS: A7983_05735
+            PPOA: BJK05_14630
+            PBRA: B5S52_01540
+            PPUJ: E2566_19955(malQ)
+            PARI: I2D83_01670(malQ)
+            PAQU: DMB82_0018905(malQ)
+            PVZ: OA04_41920(malQ)
+            PPAV: LOZ86_02705(malQ)
+            PQU: IG609_018655(malQ)
+            PPOO: LW347_19985(malQ)
+            PCAC: OI450_17495(malQ)
+            PACB: M9782_00255(malQ)
+            DDD: Dda3937_00347(malQ)
+            DZE: Dd1591_0233
+            DDC: Dd586_3827
+            DZC: W909_18615(malQ)
+            DSO: A4U42_07245(malQ)
+            CED: LH89_14265(malQ)
+            DFN: CVE23_20635
+            DDQ: DDI_3933
+            DAQ: DAQ1742_04151(malQ)
+            DIC: Dpoa569_000329(malQ)
+            DLC: O1Q98_13185(malQ)
+            DDA: Dd703_0315
+            BGJ: AWC36_20565(malQ)
+            BRB: EH207_00310
+            BNG: EH206_01845
+            BIZ: HC231_01785(malQ)
+            LBQ: CKQ53_03850
+            LPOP: I6N93_01150(malQ)
+            SOD: Sant_0360(malQ)
+            PES: SOPEG_0298(malQ)
+            SLIG: GTU79_02095(malQ)
+            EAM: EAMY_3454(malQ)
+            EAY: EAM_3260(malQ)
+            ETA: ETA_32300(malQ)
+            EPY: EpC_34380(malQ)
+            EPR: EPYR_03699(malQ)
+            EBI: EbC_42130(malQ) EbC_44710(malQ)
+            ERJ: EJP617_09310(malQ)
+            EPE: CI789_20135 CI789_21555
+            ERWI: GN242_01435(malQ) GN242_02730(malQ)
+            ERP: LJN55_01685(malQ) LJN55_02995(malQ)
+            ETO: RIN69_01500(malQ)
+            EGE: EM595_0304(malQ)
+            PAM: PANA_1917(malQ) PANA_3691(malQ)
+            PLF: PANA5342_0354(malQ1) PANA5342_2274(malQ3)
+            PAJ: PAJ_1245(malQ) PAJ_2915(malQ)
+            PAQ: PAGR_g0343 PAGR_g2190
+            PVA: Pvag_2961(malQ) Pvag_pPag30213(malQ)
+            PAGG: AL522_21960
+            PAO: Pat9b_3712 Pat9b_5620
+            KLN: LH22_03765(malQ)
+            PANT: PSNIH1_04735(malQ) PSNIH1_p00790(malQ)
+            PANP: PSNIH2_18795(malQ)
+            PAGC: BEE12_05280 BEE12_19850
+            PSTW: DSJ_13795
+            PALH: B1H58_06055
+            PANS: FCN45_18045(malQ) FCN45_20465(malQ)
+            PEY: EE896_01780(malQ) EE896_20615(malQ)
+            PDIS: D8B20_16150 D8B20_18485
+            PER: LAC65_14925(malQ) LAC65_17080(malQ)
+            PJI: KTJ90_01730(malQ) KTJ90_20745(malQ)
+            PANO: OJ965_01760(malQ) OJ965_04290(malQ)
+            KPIE: N5580_01120(malQ) N5580_21075(malQ)
+            PALF: K6R05_01765(malQ) K6R05_21240(malQ)
+            PPHO: CTZ24_18890 CTZ24_21830
+            PGZ: C2E15_01695
+            PCD: C2E16_01770
+            MINT: C7M51_03831(malQ)
+            MTHI: C7M52_03195(malQ)
+            MHAN: K6958_01585(malQ)
+            TCI: A7K98_03065
+            PLU: plu0469(malQ)
+            PLUM: A4R40_02300(malQ)
+            PAY: PAU_00376(malQ)
+            PTT: VY86_05780(malQ)
+            PAKH: B0X70_02230
+            PLUI: CE143_02215
+            XBO: XBJ1_4043(malQ)
+            XBV: XBW1_0419(malQ)
+            XNE: XNC1_4286(malQ)
+            XNM: XNC2_4136(malQ)
+            XDO: XDD1_3632(malQ)
+            XPO: XPG1_3160(malQ)
+            XHO: A9255_16725
+            XBU: HGO23_01550(malQ)
+            XGR: QL128_01745(malQ)
+            PHEI: NCTC12003_01125(malQ)
+            EIC: NT01EI_3671
+            ETR: ETAE_3305(malQ)
+            ETD: ETAF_2993
+            ETE: ETEE_1533(malQ)
+            ETC: ETAC_15765(malQ)
+            EDL: AAZ33_17245(malQ)
+            EHO: A9798_00920
+            HAV: AT03_20740(malQ)
+            HPAR: AL518_05245
+            OPO: DSM2777_04695(malQ)
+            LPV: HYN51_04690
+            PRAG: EKN56_12010
+            PFQ: QQ39_07650(malQ)
+            LRI: NCTC12151_02119(malQ)
+            GKN: PVT67_14235(malQ)
+            HIN: HI_1356
+            HIT: NTHI1810(malQ)
+            HIP: CGSHiEE_04305
+            HIU: HIB_15250
+            HIE: R2846_0835(malQ)
+            HIZ: R2866_1046(malQ)
+            HIK: HifGL_001154(malQ)
+            HIA: H733_1099
+            HIH: NF38_06585
+            HIW: NTHI477_00306(malQ)
+            HIC: NTHIC486_01352(malQ)
+            HIX: NTHI723_00224(malQ)
+            HPR: PARA_15510 PARA_18940
+            HAY: C3V42_08265(malQ)
+            HPIT: NCTC13334_01334(malQ_1) NCTC13334_01551(malQ_2)
+            HHZ: NCTC10839_01542(malQ)
+            HPAA: E5Q53_08365(malQ)
+            HSEM: L3077_06125(malQ)
+            HAP: HAPS_0233(malQ)
+            HPAZ: K756_05355(malQ)
+            HPAS: JL26_04860
+            HPAK: JT17_02415
+            GLE: CJD39_07325
+            HSO: HS_0890(malQ)
+            HSM: HSM_1369
+            PMU: PM0540(malQ)
+            PMV: PMCN06_0570(malQ)
+            PUL: NT08PM_0760
+            PMP: Pmu_06060(malQ)
+            PMUL: DR93_1317(malQ)
+            PDAG: 4362423_00822(malQ_1) 4362423_01712(malQ_2)
+            PSKY: A6B44_02405
+            PATL: KGI96_06850(malQ)
+            PCAI: K7G93_000620(malQ)
+            MSU: MS1124(malQ) MS2074(malQ)
+            BSUN: A4G13_03375 A4G13_07505
+            MHT: D648_19410 D648_6390
+            MHQ: D650_21210 D650_6760
+            MHAT: B824_19410 B824_6900
+            MHX: MHH_c12420(malQ1) MHH_c27940(malQ2)
+            MHAE: F382_04680 F382_11320
+            MHAM: J450_03680 J450_09985
+            MHAO: J451_04925 J451_11425
+            MHAL: N220_03440 N220_10810
+            MHAQ: WC39_03405 WC39_10425
+            MHAY: VK67_03405 VK67_10425
+            MVR: X781_18180 X781_6930
+            MVI: X808_15950
+            MVG: X874_14880
+            MVE: X875_5130
+            MGRA: A4G16_00905
+            MBOS: ICJ55_10130(malQ)
+            MPEG: HV560_05830(malQ)
+            MANN: GM695_05315(malQ)
+            APL: APL_1240(malQ)
+            APJ: APJL_1252(malQ)
+            APA: APP7_1290(malQ)
+            ASU: Asuc_0312 Asuc_1351
+            ASI: ASU2_00635(malQ)
+            ASS: ASU1_00640(malQ)
+            AEU: ACEE_00500
+            APOR: DDU33_04180
+            AIO: EXH44_02950(malQ)
+            ALIG: NCTC10568_01543(malQ)
+            AART: NYR89_06015(malQ)
+            AGP: NYR63_06520(malQ)
+            AGK: NYR60_00525(malQ)
+            AAP: NT05HA_0942
+            AAZ: ADJ80_07940 ADJ80_08770
+            AAT: D11S_1232
+            AAO: ANH9381_1573
+            AAN: D7S_00318
+            AAH: CF65_01981
+            AACN: AANUM_2025
+            AACT: ACT75_01240
+            ASEG: NCTC10977_01405(malQ)
+            AGJ: J5A60_04565(malQ)
+            BTO: WQG_16720 WQG_5310
+            BTRE: F542_16740 F542_5360
+            BTRH: F543_18450 F543_6530
+            BTRA: F544_17070 F544_5630
+            APAG: EIA51_06090(malQ)
+            AVT: NCTC3438_01469(malQ_1) NCTC3438_01829(malQ_2)
+            RHEY: FEE42_02730(malQ)
+            RHAE: IHV77_07510(malQ)
+            OOI: A6A10_06965
+            FCL: A4G17_03700
+            BHUD: A6A11_05345 A6A11_09360
+            MSEP: CEP49_03955
+            PAET: NCTC13378_00663(malQ_1) NCTC13378_02098(malQ_2)
+            XCC: XCC0411(malQ)
+            XCB: XC_0424
+            XCA: xcc-b100_0443(malQ)
+            XCP: XCR_4101(malQ)
+            XCV: XCV0454(malQ)
+            XAX: XACM_0420(malQ)
+            XAC: XAC0428(malQ)
+            XCI: XCAW_00839(malQ)
+            XCT: J151_00551
+            XCJ: J158_00548
+            XCU: J159_00548
+            XCN: J169_00547
+            XCW: J162_00547
+            XCR: J163_00547
+            XCM: J164_00547
+            XCF: J172_00542
+            XFU: XFF4834R_chr04200(malQ)
+            XAO: XAC29_02190
+            XOM: XOO0063(XOO0063)
+            XOO: XOO0115(malQ)
+            XOP: PXO_03373(malQ)
+            XOY: AZ54_00565
+            XOR: XOC_4414(malQ)
+            XOZ: BE73_01395
+            XAL: XALC_2593
+            XSA: SB85_16400
+            XTN: FD63_02885
+            XFR: BER92_17590
+            XVE: BJD12_14765
+            XPE: BJD13_14755
+            XHR: XJ27_17995
+            XGA: BI317_21820
+            XPH: XppCFBP6546_09655(XppCFBP6546P_09655)
+            XVA: C7V42_02170
+            XAN: AC801_02035
+            XAR: XB05_18630
+            XHY: FZ025_11860(malQ)
+            XCZ: EBN15_02020
+            XTH: G4Q83_15225
+            XEU: XSP_000415
+            XHD: LMG31886_04710(malQ)
+            XAG: HEP73_00709
+            XDY: NYR95_02575
+            XAS: HEP74_00684
+            SML: Smlt2758
+            SMZ: SMD_2425(malQ)
+            SRH: BAY15_2107
+            SLM: BIZ42_00750
+            STEM: CLM74_11035
+            SPAQ: STNY_R24300
+            STEQ: ICJ04_08895(malQ)
+            PSD: DSC_14445
+            PWI: MWN52_16960
+            LAUX: LA521A_17310(malQ)
+            FSG: LQ771_07310(malQ)
+            FED: LQ772_08590(malQ)
+            DJI: CH75_08195
+            DYE: EO087_01325(malQ)
+            LRZ: BJI69_15610
+            LPY: FIV34_08010(malQ)
+            LANH: KR767_14930(malQ)
+            LFL: IM816_06905(malQ)
+            LAEG: L2Y94_08345(malQ)
+            LAEO: L2Y97_08690(malQ)
+            LAES: L2Y96_08840(malQ)
+            RBD: ALSL_1668
+            VCH: VC_A0014
+            VCF: IR04_00055
+            VCS: MS6_A0005
+            VCE: Vch1786_II0811(malQ)
+            VCQ: EN18_03845
+            VCJ: VCD_000218
+            VCI: O3Y_13563(malQ)
+            VCO: VC0395_0118(malQ)
+            VCR: VC395_A0012(malQ)
+            VCM: VCM66_A0014(malQ)
+            VCL: VCLMA_B0012
+            VCX: VAA049_1883(malQ)
+            VCZ: VAB027_1007(malQ)
+            VVU: VV2_1251(malQ)
+            VVY: VVA0078
+            VVM: VVMO6_03057
+            VVL: VV93_v1c30900(malQ)
+            VPA: VPA1619
+            VPB: VPBB_A1483
+            VPK: M636_06910
+            VPF: M634_17555
+            VPH: VPUCM_21441
+            VHA: VIBHAR_04850
+            VCA: M892_26860
+            VAG: N646_3342
+            VEX: VEA_001104
+            VDB: AL552_03805
+            VHR: AL538_18330
+            VNA: PN96_15600
+            VOW: A9237_25075
+            VRO: BSZ04_03390
+            VSP: VS_II0185
+            VEJ: VEJY3_23706(malQ)
+            VFU: vfu_B01008
+            VNI: VIBNI_B1560(malQ)
+            VAN: VAA_01940
+            LAG: N175_16740
+            VAU: VANGNB10_cII0977c(malQ)
+            VCY: IX92_16680
+            VCT: JV59_22430
+            VTU: IX91_22985
+            VEU: IXK98_04780(malQ)
+            VSI: MTO69_17165(malQ)
+            VFL: AL536_07445
+            VMI: AL543_01370
+            VBR: A6E01_17210
+            VSC: VSVS12_03087(malQ) VSVS12_03727
+            VGA: BSQ33_02090 BSQ33_20425
+            VSH: BSZ05_18410
+            VQI: CCZ37_18550
+            VTA: B0674(malQ)
+            VAF: D1115_21880
+            VNL: D3H41_23185
+            VCC: FAZ90_19165(malQ)
+            VAS: GT360_20700(malQ)
+            VAQ: FIV01_18250(malQ)
+            VSR: Vspart_01963(malQ_1) Vspart_04508(malQ_2)
+            VKA: BTD91_18085(malQ)
+            VZI: G5S32_16840(malQ)
+            VNV: IF132_01350(malQ)
+            VGI: MID13_16775(malQ)
+            VSL: LTQ54_23490(malQ)
+            VPL: SA104470976_02855(malQ)
+            VJP: NP165_16510(malQ)
+            VPG: LZI70_18595(malQ)
+            VOS: KNV97_04375(malQ)
+            VTI: CEQ48_02785
+            VCRA: IS519_18490(malQ)
+            VNP: KW548_19990(malQ)
+            VLE: ISX51_21640(malQ)
+            VSY: K08M4_31680(malQ)
+            VRU: RND59_12850(malQ) RND59_17655(malQ)
+            VMT: QYQ96_17810(malQ)
+            VFI: VF_A0809(malQ)
+            VFM: VFMJ11_A0936(malQ)
+            VSA: VSAL_II0039(malQ)
+            AWD: AWOD_II_0909(malQ)
+            PPR: PBPRB1329(VVA0078)
+            PGB: H744_1c1024
+            PDS: CAY62_15770
+            PGH: FH974_22200(malQ)
+            SALY: E8E00_16930(malQ)
+            SKS: FCN78_13130(malQ)
+            SCOT: HBA18_13610(malQ)
+            SPRO: N7E60_15490(malQ)
+            PAE: PA2163
+            PAEV: N297_2233(malQ)
+            PAEI: N296_2233(malQ)
+            PAU: PA14_36590(malQ)
+            PAP: PSPA7_3143(malQ)
+            PAG: PLES_31631
+            PAF: PAM18_2875
+            PNC: NCGM2_3147(malQ)
+            PDK: PADK2_14850
+            PSG: G655_14300
+            PRP: M062_11215
+            PAEP: PA1S_14880
+            PAER: PA1R_gp5641
+            PAEM: U769_14475
+            PAEL: T223_16160
+            PAES: SCV20265_3216
+            PAEU: BN889_02372
+            PAEG: AI22_18890
+            PAEC: M802_2230(malQ)
+            PAEO: M801_2232(malQ)
+            PMY: Pmen_2279
+            PMK: MDS_2455
+            PCQ: PcP3B5_27450(malQ)
+            PMUI: G4G71_15580(malQ)
+            PNT: G5B91_16430(malQ)
+            PPAA: B7D75_14275(malQ)
+            PPU: PP_4052(malQ)
+            PPF: Pput_1791
+            PPG: PputGB1_3651
+            PPW: PputW619_1822
+            PPT: PPS_3457
+            PPB: PPUBIRD1_1773(malQ)
+            PPI: YSA_08693
+            PPX: T1E_3309(malQ)
+            PPUH: B479_17185
+            PPUT: L483_22630
+            PPUN: PP4_17080(malQ)
+            PPUD: DW66_3903
+            PFV: Psefu_2791
+            PMON: X969_16485
+            PMOT: X970_16130
+            PPJ: RK21_01148
+            POR: APT59_10400
+            PMOL: CLJ08_22685(malQ)
+            PALD: LU682_009800(malQ)
+            PIX: RIN61_02290(malQ)
+            PMOS: O165_005110
+            PST: PSPTO_3127(malQ)
+            PSB: Psyr_2994
+            PSYR: N018_11585
+            PSP: PSPPH_2246(malQ)
+            PSAV: PSA3335_14650
+            PAMG: BKM19_017595(malQ)
+            PCI: PCH70_22770
+            PAVL: BKM03_13465(malQ)
+            PVD: CFBP1590__3029
+            PCAB: JGS08_12060(malQ)
+            PCOF: POR16_13395(malQ)
+            PTRE: I9H09_11670(malQ)
+            PSYI: MME58_15255(malQ)
+            PAST: N015_12255(malQ)
+            PLIJ: KQP88_10930(malQ)
+            PFL: PFL_2885(malQ)
+            PPRC: PFLCHA0_c29310(malQ)
+            PPRO: PPC_2917(malQ)
+            PFE: PSF113_2786
+            PFN: HZ99_03765
+            PFO: Pfl01_2547(malQ)
+            PFS: PFLU_3366
+            PFC: PflA506_2850(malQ)
+            PPZ: H045_09310
+            PFB: VO64_0507
+            PMAN: OU5_0581
+            PTV: AA957_28250
+            PCG: AXG94_01105
+            PVR: PverR02_16915
+            PAZO: AYR47_23330
+            POI: BOP93_11600
+            PRX: HRH33_14595(malQ)
+            PMED: E3Z27_13270(malQ)
+            PKR: AYO71_15970
+            PMUD: NCTC8068_02575(malQ)
+            PTOL: I7845_14870(malQ)
+            PFW: PF1751_v1c28230(malQ)
+            PFF: PFLUOLIPICF722085
+            PFX: A7318_12490
+            PEN: PSEEN2052
+            PLUL: FOB45_15120(malQ)
+            PBA: PSEBR_a3008
+            PPUU: PputUW4_02791(malQ)
+            PSV: PVLB_09975
+            PSK: U771_17850
+            PCH: EY04_13630
+            PCZ: PCL1606_32300
+            PCP: JM49_16310
+            PCHP: C4K32_2928
+            PFZ: AV641_09065
+            PALK: PSAKL28_29840
+            PRH: LT40_11265
+            PSW: LK03_19415
+            PPV: NJ69_06405
+            PSES: PSCI_4369
+            PSEM: TO66_14350
+            PSEC: CCOS191_3449
+            PPSY: AOC04_05780
+            PSOS: POS17_3192(malQ)
+            PFK: PFAS1_25725
+            PANR: A7J50_3115
+            PPSL: BJP27_01380
+            PSIL: PMA3_14895
+            PYM: AK972_3183
+            PKE: DLD99_13365(malQ)
+            PALL: UYA_12660
+            PUM: HGP31_14805(malQ)
+            POJ: PtoMrB4_29030
+            PGG: FX982_04415
+            PPSH: G5J76_12475(malQ)
+            PGY: AWU82_14450(malQ)
+            PSEJ: HNQ25_12855(malQ)
+            PVK: EPZ47_13335(malQ)
+            PEZ: HWQ56_18060(malQ)
+            PBZ: GN234_02405(malQ)
+            PTY: JWV26_22295(malQ)
+            PATA: JWU58_14060(malQ)
+            PDW: BV82_2116(malQ)
+            PZE: HU754_015885(malQ)
+            PMOE: HV782_016015(malQ)
+            PSEP: C4K39_5197
+            PPII: QL104_16740(malQ)
+            PVW: HU752_012400(malQ)
+            PTRT: HU722_0015955(malQ)
+            PXA: KSS93_12750(malQ)
+            PSAM: HU731_002490(malQ)
+            PTZ: HU718_016120(malQ)
+            PQI: KH389_14985(malQ)
+            PSHH: HU773_014220(malQ)
+            PXN: HU772_015740(malQ)
+            PHV: HU739_004895(malQ)
+            PPRG: HU725_008525(malQ)
+            PANH: HU763_015575(malQ)
+            PASG: KSS96_15740(malQ)
+            PFAK: KSS94_09845(malQ)
+            PMUY: KSS95_12070(malQ)
+            PMAM: KSS90_16875(malQ)
+            PAZE: KSS91_15635(malQ)
+            PALV: KSS97_13240(malQ)
+            PORY: EJA05_10430(malQ)
+            PTK: EXN22_15495(malQ)
+            PTW: TUM18999_32240
+            PZA: HU749_016180(malQ)
+            PIE: HU724_014450(malQ)
+            PWY: HU734_016605(malQ)
+            PTAE: NCTC10697_01781(malQ)
+            PGF: J0G10_15160(malQ)
+            PJU: L1P09_09005(malQ)
+            PHF: NLY38_12455(malQ)
+            PPHN: HU825_14175(malQ)
+            PIZ: LAB08_R31000(malQ)
+            PPEG: KUA23_16085(malQ)
+            PSII: NF676_13530(malQ)
+            PSIH: LOY51_10230(malQ)
+            PCAS: LOY40_12685(malQ)
+            PFIT: KJY40_14515(malQ)
+            PASI: LG197_23960(malQ)
+            PKM: PZ739_18930(malQ)
+            PNB: NK667_12285(malQ)
+            PSOA: PSm6_50950
+            PTAI: ICN73_23775(malQ)
+            PKK: QQ992_18725(malQ)
+            PKJ: Q1W70_22660(malQ)
+            PHYG: JTY93_13335(malQ)
+            PHOM: KJF94_11875(malQ)
+            PCHE: QYM18_20270(malQ)
+            PCUC: PSH97_13265(malQ)
+            PTRL: OU419_14035(malQ)
+            PPAE: LDL65_26360(malQ)
+            PPAO: K3169_16500(malQ)
+            PRHZ: CRX69_18115(malQ)
+            PSJY: AA098_18390
+            PSKU: KUIN1_29120
+            PSA: PST_2139(malQ)
+            PSZ: PSTAB_2027(malQ)
+            PSR: PSTAA_2170(malQ)
+            PSC: A458_10055
+            PSJ: PSJM300_09655
+            PSH: Psest_2170
+            PSTT: CH92_11335
+            PSTU: UIB01_11220
+            PCHL: LLJ08_10495(malQ)
+            PBM: CL52_09520
+            PKG: LW136_12105(malQ)
+            SDEG: GOM96_01170(malQ)
+            PZD: KQ248_15915(malQ)
+            AVN: Avin_24890(malQ)
+            AVL: AvCA_24890(malQ)
+            AVD: AvCA6_24890(malQ)
+            ACX: Achr_19960(malQ)
+            HPEG: EAO82_07910(malQ)
+            PNN: KEM63_13175(malQ)
+            PBAU: OS670_02615(malQ)
+            MAQ: Maqu_1431
+            MHC: MARHY1840(malQ)
+            MAD: HP15_1709(malQ)
+            MARI: ACP86_20920
+            MLQ: ASQ50_01245
+            MSQ: BKP64_05610
+            MARA: D0851_02080(malQ)
+            MALL: PBN92_10140(malQ)
+            MSHE: MAALD49_20140(malQ)
+            MANP: EHN06_07025(malQ)
+            KAK: Kalk_19755(malQ)
+            AVZ: HWI77_18275(malQ)
+            SON: SO_1493(malQ)
+            SFR: Sfri_2166
+            SAZ: Sama_2454
+            SBL: Sbal_1330
+            SBM: Shew185_1320
+            SBN: Sbal195_1356
+            SBP: Sbal223_3029
+            SBT: Sbal678_1387
+            SBS: Sbal117_1434
+            SBB: Sbal175_3007
+            SLO: Shew_1167
+            SPC: Sputcn32_1247
+            SHP: Sput200_1255
+            SHE: Shewmr4_2759
+            SHM: Shewmr7_2837
+            SHN: Shewana3_2935
+            SHW: Sputw3181_2857
+            SWP: swp_1312
+            SVO: SVI_1073(malQ)
+            SHF: CEQ32_08670(malQ)
+            SJA: SJ2017_2161
+            SPSW: Sps_02311
+            SBJ: CF168_06225(malQ)
+            SMAV: CFF01_13555(malQ)
+            SHEW: CKQ84_01050(malQ)
+            SALG: BS332_13380
+            SLJ: EGC82_10340(malQ)
+            SMAI: EXU30_16100(malQ)
+            SPOL: FH971_09105(malQ)
+            SBK: SHEWBE_1799(malQ)
+            SKH: STH12_02235
+            SAES: HBH39_09225(malQ) HBH39_11600(malQ)
+            SLIT: JQC75_12730(malQ)
+            SDK: KHX94_04345
+            SEUR: FM038_006555(malQ)
+            SYK: KDN34_04165(malQ)
+            SCYP: JYB88_04900(malQ)
+            SAVI: JYB87_14155(malQ)
+            SSEM: JYB85_05110(malQ)
+            SGLA: FJ709_09405(malQ)
+            SINV: K8B83_13405(malQ)
+            SXM: MKD32_14270(malQ)
+            SVM: KDH10_001134(malQ)
+            SHEJ: MZ182_05955(malQ)
+            SCHK: GII14_15625(malQ)
+            SACH: K0H61_12275(malQ)
+            SAEG: K0H80_05825(malQ)
+            SDEO: D0436_15535(malQ)
+            SMES: K0I73_13385(malQ)
+            SHAO: K0H81_14220(malQ)
+            SZH: K0H63_13655(malQ)
+            SSPA: K0I31_05905(malQ)
+            SHNS: K0J45_05850(malQ)
+            SRHS: K0I63_05925(malQ)
+            SPSJ: K0I62_05085(malQ)
+            SMAY: K0H60_14760(malQ)
+            SOG: RA178_15775(malQ)
+            SPSR: EGC80_15180(malQ)
+            COZ: A3Q34_19370
+            COLW: A3Q33_00775 A3Q33_15680
+            COLA: DBO93_06770(malQ) DBO93_11520(malQ)
+            COV: EKO29_08310(malQ)
+            CBER: B5D82_05500(malQ) B5D82_15955(malQ)
+            THT: E2K93_08025(malQ)
+            THAP: FNC98_16485(malQ)
+            PSM: PSM_B0509
+            PIA: PI2015_3521
+            PPHE: PP2015_4163
+            PBW: D172_019490
+            PRR: AT705_21740
+            PLZ: S4054249_22065
+            PALN: B0W48_00900
+            PPIS: B1L02_20120(malQ)
+            PEA: PESP_b0703(malQ)
+            PSPO: PSPO_b0352(malQ)
+            PART: PARC_b0668(malQ)
+            PTU: PTUN_b0765(malQ)
+            PTD: PTET_b0634(malQ)
+            PSEN: PNC201_18950(malQ)
+            PDJ: D0907_16715(malQ)
+            PAGA: PAGA_b0804(malQ)
+            PCAR: PC2016_3318
+            PXI: J5O05_20070(malQ)
+            PVB: J5X90_20250(malQ)
+            PSAZ: PA25_32640
+            PDV: FFU37_20135(malQ)
+            PFLI: CTT31_20460(malQ)
+            PMAZ: R5H13_20620(malQ)
+            PSMM: PspMM1_36680(malQ)
+            PSYM: J1N51_02520(malQ)
+            AMC: MADE_1011670
+            AMH: I633_12555(malQ)
+            AMAA: amad1_12135(malQ)
+            AMAL: I607_11455(malQ)
+            AMAE: I876_11830(malQ)
+            AMAO: I634_11685(malQ)
+            AMAD: I636_11710(malQ)
+            AMAI: I635_12115(malQ)
+            AMAG: I533_11470(malQ)
+            AMAC: MASE_11155(malQ)
+            AMB: AMBAS45_11780(malQ)
+            AMG: AMEC673_11510(malQ)
+            AMK: AMBLS11_11000(malQ)
+            ALT: ambt_05850(malQ)
+            AAL: EP13_11465
+            AAUS: EP12_12150
+            ASP: AOR13_1165
+            ASQ: AVL57_12830
+            AAW: AVL56_11955
+            ALR: DS731_09600(malQ)
+            ALE: AV939_11670
+            ALZ: AV940_11435
+            APEL: CA267_017610(malQ)
+            SALM: D0Y50_10950
+            SALK: FBQ74_07545(malQ)
+            SMAA: IT774_07005(malQ)
+            GAG: Glaag_2697
+            GNI: GNIT_2104(malQ)
+            GPS: C427_1857(malQ) C427_1858(malQ)
+            PMES: FX988_00999
+            PAT: Patl_1635
+            LAL: AT746_08010
+            CATE: C2869_15155
+            SALH: HMF8227_01689(malQ)
+            HMI: soil367_08615(malQ)
+            PAEW: KIH87_08865(malQ)
+            AGZ: M0C34_09260(malQ)
+            AGQ: LQZ07_12685(malQ)
+            CATT: OLW01_07850(malQ)
+            ALII: QR722_10790(malQ)
+            PMAW: MACH26_14870(malQ)
+            PIN: Ping_2365
+            MVS: MVIS_3183(malQ)
+            MYA: MORIYA_1767(malQ)
+            MMAA: FR932_02460(malQ)
+            MOQ: HWV03_05860(malQ)
+            CJA: CJA_1882(mal77Q)
+            CEB: B0D95_05035
+            CELL: CBR65_03735
+            CEK: D0B88_13440(malQ)
+            CEG: D0C16_03735(malQ)
+            SDE: Sde_0986
+            TTU: TERTU_0935(malQ)
+            MARQ: MARGE09_P0358
+            GIL: NHM04_02380(malQ)
+            MKE: OOT55_05175(malQ)
+            KIM: G3T16_07075(malQ)
+            AFUS: EYZ66_09515(malQ) EYZ66_13965(malQ)
+            MCA: MCA1473(malQ)
+            METU: GNH96_09285(malQ)
+            MMEO: OOT43_01590(malQ)
+            MMT: Metme_1516
+            MDN: JT25_014325
+            MDH: AYM39_03790
+            MKO: MKLM6_0792
+            METL: U737_19570(malQ)
+            MPAD: KEF85_05290(treY) KEF85_13960(malQ)
+            MELL: IVG45_01990(malQ)
+            MRP: NM686_007650(malQ)
+            MMOT: QZJ86_04000(malQ)
+            MAH: MEALZ_3504(malQ)
+            MBUR: EQU24_18650(malQ)
+            MPSY: CEK71_02995(malQ)
+            MMAI: sS8_2276 sS8_4738
+            MSZE: MSZNOR_0193(malQ) MSZNOR_3778
+            MMOB: F6R98_03450(malQ)
+            MEIN: methR_P2173
+            MOZ: MoryE10_22350(malQ)
+            MISZ: MishRS11D_35060
+            MESL: KKZ03_17080(malQ) KKZ03_19815(treY)
+            MEIY: MIN45_P1347
+            MCAU: MIT9_P1300
+            FTU: FTT_0418(malA)
+            FTQ: RO31_0471(malQ)
+            FTF: FTF0418(malA)
+            FTW: FTW_1655(malQ)
+            FTR: NE061598_02325
+            FTT: FTV_0388(malA)
+            FTG: FTU_0472(malA)
+            FTL: FTL_0488
+            FTH: FTH_0486(malQ)
+            FTA: FTA_0514(malQ)
+            FTI: FTS_0490(malQ)
+            FTO: X557_02625
+            FTC: DA46_207(malQ)
+            FTV: CH67_789(malQ)
+            FTZ: CH68_523(malQ)
+            FTM: FTM_0574(malQ)
+            FTN: FTN_0518(malQ)
+            FTX: AW25_1511(malQ)
+            FTD: AS84_168(malQ)
+            FTY: CH70_1547(malQ)
+            FCF: FNFX1_0505
+            FCN: FN3523_0478
+            FHI: FSC454_02400
+            FPH: Fphi_0322
+            FPT: BZ13_1750(malQ)
+            FPI: BF30_498(malQ)
+            FPM: LA56_1864(malQ)
+            FPX: KU46_1055(malQ)
+            FPZ: LA55_518(malQ)
+            FPJ: LA02_1935(malQ)
+            FRT: F7308_1817
+            FNA: OOM_1085
+            FNL: M973_03055
+            FRF: LO80_03910
+            FPER: ACH24_01555
+            FHA: CDV26_08515(malQ)
+            FRX: F7310_07960
+            FRM: BBG19_1278
+            FRC: KX01_986(malQ)
+            FAD: CDH04_05030(malQ)
+            FMI: F0R74_01005(malQ)
+            FOO: CGC45_06415(malQ)
+            FNN: FSC774_00905(malQ)
+            FSR: KQR59_02545(malQ)
+            FRL: FIP56_08165(malQ)
+            TCX: Tcr_0510
+            HTR: EPV75_03165(malQ)
+            HMAR: HVMH_1336
+            TCY: Thicy_1315
+            TAO: THIAE_08345
+            THIO: AYJ59_10640
+            TMH: JX580_07800(malQ)
+            MEJ: Q7A_2552(malQ)
+            MEC: Q7C_1001
+            MPIN: LGT42_006890(malQ)
+            MMAF: GCM100_26320
+            MTHA: VSX76_11985(malQ)
+            THIG: FE785_02240(malQ)
+            TXA: HQN79_10015(malQ)
+            TIB: THMIRHAM_04700(malQ)
+            TLH: NR989_02415(malQ)
+            TSE: THMIRHAS_04510
+            TZO: THMIRHAT_05930
+            TIG: THII_1442
+            BLEP: AL038_07100(malQ)
+            TUN: J9260_16670(malQ)
+            TLO: J9253_16295(malQ)
+            TSB: HMY34_09385(malQ)
+            TANI: J8380_05560(malQ)
+            TWN: L2Y54_04630(malQ)
+            TLC: RCF98_08980(malQ)
+            TSJ: L3K52_02180(malQ)
+            TDU: QJT80_02060(malQ)
+            NOC: Noc_0906
+            NHL: Nhal_1099
+            NWA: Nwat_0773
+            NWR: E3U44_17705(malQ)
+            ALV: Alvin_2021
+            ATEP: Atep_15190
+            TVI: Thivi_0228
+            TMB: Thimo_3317
+            MPUR: MARPU_07480
+            TEE: Tel_05105
+            NTT: TAO_1406
+            TSY: THSYN_00315 THSYN_00815
+            RHH: E0Z06_07955
+            RHEI: ATY27_15535
+            TTP: E6P07_00405(malQ)
+            NTG: NSCAC_1117(malQ)
+            THIP: N838_21465(malQ)
+            CJAP: GWK36_03825(malQ)
+            THIM: KFB96_20970(malQ)
+            TBOG: LT988_16180(malQ)
+            TLR: Thiosp_01776(malQ)
+            TFRI: Thiofri_01779(malQ)
+            TWG: Thiowin_02416(malQ) Thiowin_03475(treY)
+            AEH: Mlg_0961
+            HHA: Hhal_1108
+            HHK: HH1059_03110
+            HHC: M911_08185
+            EBS: ECTOBSL9_2986
+            TGR: Tgr7_2071
+            TKM: TK90_1527
+            TNI: TVNIR_1270(malQ_[H])
+            TTI: THITH_10055
+            TVR: TVD_05380
+            APRS: BI364_08425
+            AAEO: BJI67_08415
+            AFY: BW247_09030
+            HNA: Hneap_0778
+            HAZ: A9404_01255
+            GHL: GM160_06550(malQ)
+            TBN: TBH_C2275
+            EPS: L0Y14_11125(malQ)
+            WOC: BA177_01870
+            TTC: FOKN1_1522
+            THIC: TspCOW1_11170
+            HAK: KO116_01196
+            HSV: HNO53_16240(malQ)
+            HSR: HSBAA_50680
+            HCAM: I4484_15765(malQ)
+            HSX: HNO51_15690(malQ)
+            HTX: EKK97_17755(malQ)
+            HAA: A5892_17540
+            KUS: B9G99_02025
+            KMA: B9H00_13155
+            KUY: FY550_12355(malQ)
+            PAUR: FGL86_11760(malQ)
+            SAJS: QO259_03325(malQ)
+            GSN: YC6258_02929
+            RFO: REIFOR_02275
+            ENW: MJO57_03690(malQ) MJO57_10120(malQ)
+            EEI: NX720_05200(malQ) NX720_05225(malQ)
+            ENG: O2T12_03455(malQ) O2T12_06740(malQ)
+            EMP: EZMO1_1115(malQ1) EZMO1_1126(malQ2)
+            PLEI: Q9312_17165(malQ)
+            AHA: AHA_3617(malQ)
+            AHY: AHML_19125(malQ)
+            AHD: AI20_01280
+            AHR: V428_19875
+            AHP: V429_19905
+            AHJ: V469_03405
+            AHH: RY45_18570
+            AHI: VU14_03610
+            AAJ: BOQ57_18875
+            ASA: ASA_0760(malQ)
+            AEO: O23A_p2840
+            AVR: B565_0626
+            AVO: AMS64_04645
+            AMED: B224_5829
+            ASR: WL1483_4188(malQ)
+            ADH: CK627_00075
+            ACAV: VI35_17225
+            AEM: CK911_13430
+            AEA: C2U39_18510
+            ARV: C7N77_00475
+            AES: C2U30_18440
+            AEL: NCTC12917_00744(malQ)
+            ASIM: FE240_03700(malQ)
+            AALL: I6G90_12560(malQ)
+            AJD: I6H43_14165(malQ)
+            ARIV: KYK33_03740(malQ)
+            ASAA: KXJ75_20000(malQ)
+            AEJ: E5E97_00515(malQ)
+            ABES: IU367_03400(malQ)
+            TAU: Tola_0043 Tola_2697
+            SDF: ACG33_14275
+            GBI: PG2T_01025
+            SLIM: SCL_1108
+            SVA: SVA_1501
+            ACII: C4901_05940(malQ) C4901_06065(treY)
+            ATY: A9R16_010530(malQ)
+            SALN: SALB1_2960
+            REV: HUE57_14020(malQ)
+            CDIZ: CEDIAZO_01397(malQ_1) CEDIAZO_03213(malQ_2)
+            ENM: EBS_2233(malQ)
+            NBA: CUN60_06245(malQ)
+            RSO: RSp0236(malQ)
+            RSE: F504_3676
+            RPU: CDC45_18795(malQ)
+            RNC: GO999_23190(malQ)
+            RSL: RPSI07_mp0198
+            RSN: RSPO_m00233(malQ)
+            RSM: CMR15_mp10209
+            RSY: RSUY_35710(malQ)
+            RPI: Rpic_3934
+            RPF: Rpic12D_4047
+            RPJ: N234_29610
+            RMN: TK49_20040
+            RIN: ACS15_5651(malQ)
+            RWE: KOL96_03520(malQ)
+            REH: H16_B1561(malQ)
+            CNC: CNE_2c15610(malQ)
+            CUH: BJN34_29635
+            REU: Reut_B4231
+            CTI: RALTA_B1368(malQ)
+            CGD: CR3_4213(malQ)
+            CCUP: BKK81_26035
+            CUP: BKK80_30320
+            CUU: BKK79_20975
+            CPAU: EHF44_24310(malQ)
+            COX: E0W60_01925(malQ)
+            CCAM: M5D45_20895(malQ)
+            CUK: KB879_12985(malQ)
+            CNAN: A2G96_25560
+            BMA: BMA0817(malQ)
+            BMV: BMASAVP1_A1335(malQ)
+            BML: BMA10229_A0539(malQ)
+            BMN: BMA10247_0616(malQ)
+            BMAL: DM55_2791(malQ)
+            BMAQ: DM76_2774(malQ)
+            BMAI: DM57_2887
+            BMAF: DM51_586(malQ)
+            BMAZ: BM44_2418(malQ)
+            BMAB: BM45_1983(malQ)
+            BPS: BPSL2079
+            BPM: BURPS1710b_1734(malQ)
+            BPL: BURPS1106A_1563(malQ)
+            BPD: BURPS668_1540(malQ)
+            BPR: GBP346_A1579(malQ)
+            BPSE: BDL_618(malQ)
+            BPSM: BBQ_1958(malQ)
+            BPSU: BBN_2084(malQ)
+            BPSD: BBX_2557(malQ)
+            BPZ: BP1026B_I2061
+            BPQ: BPC006_I1610
+            BPK: BBK_122(malQ)
+            BPSH: DR55_3199(malQ)
+            BPSA: BBU_794(malQ)
+            BPSO: X996_2806(malQ)
+            BUT: X994_1263(malQ)
+            BVI: Bcep1808_5809
+            BVE: AK36_5292(malQ)
+            BUR: Bcep18194_C7029
+            BCM: Bcenmc03_6083
+            BCH: Bcen2424_6494
+            BCEN: DM39_7058(malQ)
+            BCEW: DM40_5159(malQ)
+            BCEO: I35_7572
+            BAM: Bamb_5595
+            BAC: BamMC406_6325
+            BMJ: BMULJ_06010(malQ)
+            BMU: Bmul_5486
+            BMK: DM80_5706(malQ)
+            BMUL: NP80_5555(malQ)
+            BCED: DM42_7087(malQ)
+            BCEP: APZ15_36470
+            BDL: AK34_5087(malQ)
+            BCON: NL30_37555
+            BUB: BW23_4995(malQ)
+            BDF: WI26_27570
+            BLAT: WK25_16470
+            BTEI: WS51_27150
+            BSEM: WJ12_16895
+            BPSL: WS57_15670
+            BMEC: WJ16_18125
+            BGL: bglu_2g15600
+            BGU: KS03_4378(malQ)
+            BUG: BC1001_4918
+            BGF: BC1003_4576
+            BGD: bgla_2g09320
+            BYI: BYI23_B011500
+            BUK: MYA_5322
+            BUE: BRPE67_BCDS15280
+            BUQ: AC233_25350
+            BGP: BGL_2c08200(malQ)
+            BPLA: bpln_2g09090
+            BUM: AXG89_20130
+            BUI: AX768_23035
+            BURK: DM992_37810(malQ)
+            BXE: Bxe_B2866
+            BXB: DR64_5195(malQ)
+            BPH: Bphy_4388
+            BGE: BC1002_5225
+            BPX: BUPH_01484
+            BPY: Bphyt_6826
+            BUZ: AYM40_22250
+            BFN: OI25_5282(malQ)
+            BCAI: K788_0000983
+            PSPW: BJG93_20930(malQ)
+            PARA: BTO02_20415
+            PARB: CJU94_29325(malQ)
+            PHS: C2L64_31805(malQ)
+            PTER: C2L65_28540(malQ)
+            PGP: CUJ91_30860(malQ)
+            PCJ: CUJ87_27055(malQ)
+            PTS: CUJ90_24455(malQ)
+            PMEG: FNZ07_06260(malQ)
+            PTRO: G5S35_22150(malQ)
+            PGIS: I6I06_17360(malQ)
+            PACP: FAZ97_22170(malQ)
+            PACS: FAZ98_17980(malQ)
+            PEW: KZJ38_36115(malQ)
+            PDIO: PDMSB3_0187.1
+            PBRY: NDK50_35370(malQ)
+            PSAA: QEN71_17715(malQ)
+            PKF: RW095_16220(malQ)
+            PBON: QS306_16670(malQ)
+            PPAI: E1956_15430(malQ)
+            PPUL: RO07_21250
+            PVE: UC34_12435
+            POX: MB84_16805
+            PFG: AB870_22585
+            PLG: NCTC10937_02550(malQ)
+            LMIR: NCTC12852_00697(malQ)
+            CABA: SBC2_56450(malQ)
+            BUO: BRPE64_BCDS12540(malQ)
+            CABK: NK8_30820(malQ)
+            TVL: FAZ95_37615(malQ)
+            TCAR: U0034_27115(malQ)
+            BPA: BPP2897(malQ)
+            BBH: BN112_0669(malQ)
+            BBR: BB2867(malQ)
+            BBM: BN115_2278(malQ)
+            BBX: BBS798_2696(malQ)
+            BPT: Bpet2366(malQ)
+            BBRO: BAU06_15325
+            BFZ: BAU07_11075
+            BOH: AKI39_14730
+            BGM: CAL15_06885
+            BGV: CAL12_16165
+            AXY: AXYL_03245(malQ)
+            AXO: NH44784_059821
+            AXN: AX27061_4219
+            AXX: ERS451415_04241(malQ)
+            ADT: APT56_13660
+            AIS: BUW96_06120
+            ASW: CVS48_18370(malQ)
+            ACHB: DVB37_13760(malQ)
+            ADY: HLG70_06750(malQ)
+            ACHO: H4P35_12995(malQ)
+            AMUI: PE062_09670(malQ)
+            AAEG: RA224_16920(malQ)
+            PUS: CKA81_15690(malQ)
+            POLL: OEG81_16595(malQ)
+            CDN: BN940_11221
+            ODI: ODI_R0748
+            PIG: EGT29_09650(malQ)
+            PACR: FXN63_20750(malQ)
+            RFR: Rfer_0514 Rfer_2156
+            RAC: RA876_15495
+            RHY: RD110_14395
+            PNA: Pnap_1102
+            ACRA: BSY15_2214(treY)
+            AAV: Aave_2985
+            AAA: Acav_2313
+            VAP: Vapar_1984
+            VPE: Varpa_3009
+            VPD: VAPA_1c21150
+            VAM: C4F17_02170
+            CBX: Cenrod_1459(malQ)
+            HYR: BSY239_3561(malQ)
+            HPSE: HPF_20810(malQ)
+            HYN: F9K07_17920(treY)
+            HTN: KI616_23125(malQ)
+            SIMP: C6571_08040
+            MELM: C7H73_09320
+            MELA: C6568_00805
+            STHM: IS481_09045
+            PBH: AAW51_2832(malQ)
+            SAQA: OMP39_01925
+            RGE: RGE_22360(malQ) RGE_29110(malQ)
+            RBN: RBXJA2T_03743 RBXJA2T_07463
+            RDP: RD2015_3658
+            ROI: N4261_14985(malQ)
+            PKT: AT984_10315
+            PAQA: K9V56_014925(malQ)
+            MIU: ABE85_12755
+            IDC: LRM40_18255(malQ)
+            ATER: MW290_05415(malQ)
+            LCH: Lcho_3896
+            JAJ: EKL02_10080(malQ)
+            HSE: Hsero_2500(malQ)
+            HSZ: ACP92_12490
+            HHT: F506_13185
+            HRB: Hrubri_2576(malQ)
+            HEE: hmeg3_11345(malQ)
+            HHF: E2K99_13280(malQ)
+            HFR: G5S34_13385(malQ)
+            OFO: BRW83_0232(malQ)
+            OVB: NB640_07045(malQ)
+            OAL: NB647_00875(malQ)
+            NOK: FAY22_05060(malQ)
+            GLC: JQN73_04500(malQ)
+            TIN: Tint_1098
+            THI: THI_1390(malQ)
+            AON: DEH84_09185
+            XYK: GT347_04780
+            XYG: R9X41_14335
+            ETB: N7L95_02620
+            BBAG: E1O_07840
+            NCO: AAW31_08945
+            NMU: Nmul_A1402
+            NLC: EBAPG3_008410
+            TBD: Tbd_1174 Tbd_2059
+            MMB: Mmol_0831
+            MEH: M301_1497
+            MEU: ACJ67_07185
+            SLT: Slit_1037
+            SIDE: SIDCL21_0187
+            GCA: Galf_1364
+            FAM: OYT1_ch2401
+            NIM: W01_11680
+            NARC: NTG6680_0796
+            FKU: FGKAn22_12580(malQ)
+            SDR: SCD_n02434 SCD_n02442
+            SULF: CAP31_06125 CAP31_10285
+            SNIV: SFSGTM_19800
+            URU: DSM104443_02110
+            NIV: JY500_11090(malQ)
+            EBA: ebA6918(treY)
+            ABRE: pbN1_34620(malQ)
+            AZO: azo1799
+            AOA: dqs_1948
+            AZA: AZKH_2630(treY)
+            THU: AC731_004180
+            THAU: C4PIVTH_3572(malQ)
+            FMY: HO273_04450
+            APP: CAP2UW1_1512
+            MESO: BSQ44_02385
+            MES: Meso_2674
+            CHEA: PVE73_05605(malQ)
+            ORM: HTY61_14565(malQ)
+            PLA: Plav_0545
+            AVV: RvVAT039_39220
+            AVF: RvVAR031_42150
+            AVI: Avi_5566
+            RET: RHE_PF00262(malQ)
+            REC: RHECIAT_PC0000455(malQ)
+            REL: REMIM1_PF00657
+            REP: IE4803_PC00263
+            REI: IE4771_PD00263
+            RLE: pRL120723(malQ)
+            RLT: Rleg2_5398
+            RLG: Rleg_5113
+            RLB: RLEG3_08730
+            RLU: RLEG12_04045
+            RHN: AMJ98_PE00355
+            RPHA: AMC79_PD00489
+            RHX: AMK02_PD00213
+            RHK: Kim5_PC00246
+            REZ: AMJ99_PD00355
+            RAD: CO657_26675(malQ)
+            RII: FFM53_026680(malQ)
+            RHID: FFM81_023835(malQ)
+            RBQ: J2J99_24215(malQ)
+            RLN: J0663_23250(malQ)
+            RBAN: J2J98_23595(malQ)
+            RRG: J3P73_27610(malQ)
+            RAW: NE851_34810(malQ)
+            RLW: RlegWSM1455_28810(malQ)
+            RRHO: PR018_06825(malQ)
+            RTU: PR017_06940(malQ)
+            RBW: RLCC275e_28035(malQ)
+            NGG: RG540_PA12570
+            NEO: CYG48_19605(malQ)
+            NEN: NCHU2750_57980(malQ)
+            RHT: NT26_0299
+            RFV: RFYW14_00580
+            BJA: bll6765(bll6765)
+            BJU: BJ6T_26540
+            BJP: RN69_12935
+            BRA: BRADO5815
+            BBT: BBta_6321
+            BRS: S23_15480
+            AOL: S58_18040
+            BRC: BCCGELA001_09260
+            BRAD: BF49_4887
+            BIC: LMTR13_06620
+            BRO: BRAD285_1491
+            BRK: CWS35_34445(malQ)
+            BOT: CIT37_20805(malQ)
+            BRQ: CIT40_25660(malQ)
+            BGQ: X265_09415(malQ)
+            BGZ: XH91_08295(malQ)
+            BSYM: CIT39_24650(malQ)
+            BBET: F8237_22920(malQ)
+            BARH: WN72_38705(malQ)
+            BVZ: BRAD3257_2490
+            BEL: BE61_34560
+            BDG: LPJ38_13640(malQ)
+            BSEP: HAP48_0003745(malQ)
+            BQB: J4P68_0009475(malQ)
+            BSEI: KMZ68_06435(malQ)
+            BBAN: J4G43_041635(malQ)
+            BCAN: BcanWSM471_29850(malQ)
+            BAUT: QA635_12655(malQ)
+            BBRA: QA636_12480
+            BGK: IC762_27560(malQ)
+            BCOU: IC761_08115(malQ)
+            BPAH: QA639_32115(malQ)
+            BXN: I3J27_29365(malQ)
+            BROS: QUH67_08000(malQ)
+            BRAZ: LRP30_35940(malQ)
+            RPA: TX73_018870(malQ)
+            RPB: RPB_1885
+            RPC: RPC_3677 RPC_3778
+            RPD: RPD_3481
+            RPE: RPE_3644 RPE_3715
+            RPT: Rpal_4162
+            RPX: Rpdx1_1710
+            RBK: E0H22_08100(malQ)
+            NWI: Nwi_1210
+            NHA: Nham_1467
+            OCA: OCAR_7061(malQ)
+            OCG: OCA5_c10350(malQ)
+            OCO: OCA4_c10350(malQ)
+            PCAX: AFIC_002460(malQ)
+            VGO: GJW-30_1_02168(malQ)
+            TRB: HB776_01475(malQ)
+            BVV: BHK69_24650
+            BOP: AXW83_09965
+            BOS: BSY19_3450(malQ)
+            BOI: BLM15_30195
+            BOW: NWE53_01875(malQ)
+            AZC: AZC_4117
+            MEA: Mex_1p2905
+            MDI: METDI3474
+            MEX: Mext_2711
+            MCH: Mchl_2938
+            MPO: Mpop_2833
+            MZA: B2G69_21095
+            MRD: Mrad2831_1600
+            MET: M446_6809
+            MNO: Mnod_7548
+            MOR: MOC_1984(treY)
+            META: Y590_13030
+            MAQU: Maq22A_c03990(treY)
+            MPHY: MCBMB27_01241
+            MEE: DA075_21500
+            METD: C0214_15210
+            METX: A3862_22870
+            METI: DK427_25335
+            MMES: MMSR116_31055
+            MTEA: DK419_00530
+            MIND: mvi_43960
+            MOG: MMB17_07740
+            MTAD: M6G65_08080
+            MOC: BB934_19885
+            MTEZ: HPT29_008155
+            MLD: U0023_01185
+            BBAR: RHAL1_02683
+            CHEL: AL346_23255
+            RHZ: RHPLAN_55270
+            MCG: GL4_2753
+            METG: HT051_05695(malQ)
+            CMET: K6K41_21410(malQ)
+            AUA: M673_05495
+            AALA: IGS74_18615(malQ)
+            AALM: LUX29_20820(malQ)
+            AUZ: Sa4125_37960
+            AUB: LXB15_01285(malQ)
+            JAV: OXU80_17945(malQ)
+            TSO: IZ6_27930
+            RPOP: K1718_07000(malQ)
+            PHR: C6569_20580(malQ)
+            ACUT: MRB58_08280(malQ)
+            RDE: RD1_2871(malQ)
+            RLI: RLO149_c015690(malQ)
+            RPON: G3256_11350(malQ)
+            OAT: OAN307_c09560(malQ)
+            OAR: OA238_c34190(malQ)
+            RED: roselon_02204
+            CID: P73_3063
+            CEH: CEW89_00635(malQ)
+            MALG: MALG_01983
+            YPAC: CEW88_07065(malQ)
+            YAN: AYJ57_00660
+            TPRO: Ga0080559_TMP3992
+            PABY: Ga0080574_TMP4456
+            AHT: ANTHELSMS3_00768(malQ)
+            SAGU: CDO87_11385
+            RMH: LVO79_08210(malQ)
+            MALU: KU6B_51980
+            PALX: GQA70_00860(malQ)
+            PLCG: RVY76_07505(malQ)
+            MARU: FIU81_10950(malQ)
+            RMAI: MACH21_21960
+            RSP: RSP_2451
+            RSH: Rsph17029_1114
+            RSQ: Rsph17025_1780
+            RSK: RSKD131_0765
+            CAZT: LV780_07885(malQ)
+            PDE: Pden_4424
+            PAMN: JCM7685_1171(malQ)
+            PARR: EOJ32_17925(malQ)
+            PAAK: FIU66_17760(malQ)
+            PPAN: ESD82_02460
+            PLIA: E4191_17705(malQ)
+            PMAU: CP157_03144(malQ)
+            PMEH: JWJ88_18655
+            PSTL: JHW45_17685(malQ)
+            PVER: E3U25_08280
+            PFEO: E3U26_23085
+            RSU: NHU_01874
+            RHM: B5V46_08880
+            RHC: RGUI_0389
+            LVS: LOKVESSMR4R_03649(malQ)
+            SALO: EF888_15745(malQ)
+            PPRU: FDP22_21585(malQ)
+            FAP: GR316_11190(malQ)
+            LVR: T8T21_02105(malQ)
+            FAQ: G5B39_13400(malQ)
+            NRE: BES08_01945
+            NOV: TQ38_011380(malQ)
+            NDR: HT578_20720(malQ)
+            STAX: MC45_09915
+            SPHI: TS85_04055
+            SSAN: NX02_08370
+            SNJ: A7E77_03990
+            SPAN: AWL63_12915
+            SPLK: AV944_10740
+            SPHF: DM480_09535(malQ)
+            SPAU: DRN02_003070(malQ)
+            SECH: B18_22745
+            SAER: NEF64_10800(malQ)
+            SMOR: LHA26_10090(malQ)
+            SQO: NMP03_04745(malQ)
+            SRAD: LLW23_02915(malQ)
+            SNAP: PQ455_03480(malQ)
+            SNOS: K8P63_12965(malQ)
+            SSAG: KV697_02205(malQ)
+            SSY: SLG_10340(malQ)
+            SYB: TZ53_06560
+            SYA: A6768_07500
+            SPYG: YGS_C2P0844
+            SUFL: FIL70_22405(malQ)
+            SBAR: H5V43_18405(malQ)
+            SPZR: G5C33_03140(malQ)
+            SPHS: ETR14_14590(malQ)
+            ALB: AEB_P2575
+            ALH: G6N82_02540(malQ)
+            ADO: A6F68_02514(malQ)
+            CMAN: A9D14_17060
+            PNS: A9D12_07135
+            PORL: BG023_11899
+            PHZ: CHX26_06440(malQ)
+            POT: E2E27_04470(malQ)
+            GBE: GbCGDNIH1_0748
+            GBH: GbCGDNIH2_0748
+            GBC: GbCGDNIH3_0748
+            GBS: GbCGDNIH4_0748
+            ACR: Acry_2938
+            AMV: ACMV_32770(malQ)
+            GDI: GDI0547(malQ)
+            GDJ: Gdia_1461
+            GXY: GLX_01500
+            GXL: H845_1322
+            KNA: B0W47_01210
+            KEU: S101446_00454(malQ)
+            KSC: CD178_02607(malQ)
+            KRE: GWK63_06585(malQ)
+            KOI: LV478_12620(malQ)
+            ASZ: ASN_3576(malQ)
+            ATO: CIW82_13655(malQ)
+            RGI: RGI145_15110
+            ROS: CTJ15_13875(malQ)
+            RMUC: FOB66_05310(malQ)
+            RMT: IAI58_12495(malQ)
+            RCV: PFY06_11945(malQ)
+            LCK: HN018_07295(malQ)
+            KHA: IFJ82_08145(malQ)
+            NGU: QN315_08765(malQ)
+            SHUM: STHU_20580(malQ)
+            SVC: STVA_35490
+            STEL: STAQ_16000(malQ)
+            AZL: AZL_a00430(malQ)
+            ALI: AZOLI_p10107(malQ)
+            ABS: AZOBR_140112(malQ) AZOBR_p140015
+            ABQ: ABAZ39_05215 ABAZ39_19815
+            ABF: AMK58_08860 AMK58_15020
+            ATI: AL072_21390
+            AZT: TSH58p_16710(malQ) TSH58p_28165
+            AZM: DM194_15280(malQ)
+            AZZ: DEW08_28490(malQ)
+            AOZ: HUE56_26535(malQ)
+            AARE: D3093_04020(malQ)
+            AZS: E6C72_15190(malQ)
+            NCB: C0V82_08470(malQ)
+            SKT: IGS68_14375(malQ) IGS68_19025(malQ)
+            SMUC: JL100_006995(malQ) JL100_011795(malQ)
+            SROE: JL101_006835(malQ) JL101_013915(malQ)
+            RRU: Rru_A1607
+            RRF: F11_08290
+            RCE: RC1_1748(malQ)
+            RPM: RSPPHO_00673
+            MGY: MGMSRv2__0522
+            MGRY: MSR1_16930(malQ)
+            MAGX: XM1_2167
+            MAGN: WV31_18585
+            DEX: HWD60_06975
+            DVN: HQ394_07815(malQ)
+            MAG: amb3063
+            MAGQ: MGMAQ_1984 MGMAQ_3197(malQ)
+            ELIO: KO353_06870(malQ)
+            THAR: T8K17_24050(malQ)
+            TMO: TMO_a0211(malQ)
+            TMK: QGN29_07860(malQ)
+            AFI: Acife_0609
+            MAES: Ga0123461_0986
+            MFN: Ga0123462_1345
+            HTL: HPTL_0887
+            GSU: GSU1182(malQ)
+            GSK: KN400_1159(malQ)
+            GME: Gmet_2391(malQ)
+            GPI: GPICK_05955
+            GAO: A2G06_10900
+            GBZ: JZM60_16060(malQ)
+            GEM: GM21_3246 GM21_3444
+            GEB: GM18_3482
+            GEF: FO488_08825(malQ)
+            GUR: Gura_3250
+            GEO: Geob_1889(malQ)
+            GLO: Glov_2041
+            TAMM: GEAMG1_1179(malQ)
+            GBM: Gbem_0817(malQ-2) Gbem_1014(malQ-1)
+            GBN: GEOBRER4_31240(malQ_1) GEOBRER4_33130(malQ_2)
+            GER: KP004_15175(malQ) KP004_16180(malQ)
+            GSUB: KP001_21080(malQ)
+            GNT: KP003_15050(malQ)
+            GPL: M1B72_17310(malQ)
+            GSB: GSUB_03915
+            GHC: L9S41_00135(malQ)
+            PCA: Pcar_0554(malQ)
+            PACE: A6070_03025
+            PEF: A7E78_11605
+            PPD: Ppro_1738 Ppro_3264
+            DEU: DBW_0959
+            DVE: DESUT3_31060(malQ)
+            DEP: AOP6_2142(malQ)
+            DES: DSOUD_1010(malQ)
+            DFL: DFE_2788(malQ) DFE_3221
+            PSYF: N1030_08535(malQ)
+            DSB: LN040_06285(malQ)
+            DMA: DMR_43140(malQ)
+            DCB: C3Y92_01565(malQ)
+            DGG: DGI_2638
+            DDE: Dde_0510
+            DMS: E8L03_12915(malQ) E8L03_17725(malQ)
+            DSA: Desal_1074
+            DHY: DESAM_23078(malQ)
+            DAF: Desaf_0926
+            DSX: GD604_02435(malQ)
+            DSD: GD606_09555(malQ)
+            PBIZ: LWC08_12270(malQ) LWC08_13355(malQ)
+            DVU: DVU_3148(malQ)
+            DVL: Dvul_0237
+            DVM: DvMF_1705
+            DVG: Deval_2906
+            CLIH: KPS_001947(malQ)
+            DBA: Dbac_2959
+            DOA: AXF15_04865
+            DESU: NLA06_14725(malQ)
+            THEW: TDMWS_04670
+            DRT: Dret_0041
+            DSF: UWK_02733
+            DLM: DPPLL_13980
+            DAK: DaAHT2_1065
+            DPR: Despr_1802
+            DEO: CAY53_06245
+            DOG: HP555_10410(malQ)
+            DBK: DGMP_16200
+            DDU: GF1_18930
+            ECOM: QTN59_08075(malQ)
+            DLI: dnl_39940
+            DMM: dnm_021390
+            SAT: SYN_01069
+            DAO: Desac_0402
+            DTI: Desti_1687
+            SFU: Sfum_3452
+            DAX: FDQ92_12840(treY)
+            TMAI: FVE67_06220(malQ)
+            ADE: Adeh_0294 Adeh_3001
+            ACP: A2cp1_0316 A2cp1_3201
+            AFW: Anae109_0318 Anae109_2966 Anae109_3072
+            ANK: AnaeK_0305 AnaeK_3100
+            AORY: AMOR_43620
+            APAU: AMPC_33330
+            MXA: MXAN_0529 MXAN_6463(malQ)
+            MSD: MYSTI_00517 MYSTI_07073
+            MYM: A176_000426 A176_006498
+            MFB: MFUL124B02_02965 MFUL124B02_37445
+            CCX: COCOR_00465(malQ1) COCOR_07056(malQ)
+            MFU: LILAB_06200 LILAB_14235
+            MMAS: MYMAC_000543 MYMAC_006168
+            SUR: STAUR_1372(malQ) STAUR_7228 STAUR_7842
+            AGE: AA314_01467 AA314_09100
+            AVM: JQX13_05565 JQX13_19505
+            MBD: MEBOL_002167 MEBOL_004015
+            CFUS: CYFUS_000818 CYFUS_008900
+            VIN: AKJ08_1823 AKJ08_3677
+            SCL: sce0351 sce2377(malQ2)
+            SCU: SCE1572_14365
+            CCRO: CMC5_013900(malQ) CMC5_064250(malQ)
+            PAUU: E8A73_010985 E8A73_035995(malQ)
+            MRM: A7982_02310 A7982_03150
+            PABO: BCY86_03340
+            SAMY: DB32_005726
+            LLU: AKJ09_07387 AKJ09_10089
+            HOH: Hoch_1931 Hoch_4140
+            BSED: DN745_14795(malQ)
+            PCAY: FRD00_18815(malQ)
+            BBAE: FRD01_10575(malQ)
+            DHR: LGS26_09160(malQ)
+            BSTO: C0V70_05210(malQ)
+            PARH: I5S86_10015(malQ)
+            SHV: AAT16_01765
+            GOT: AXE85_02580
+            GMO: NCTC11323_01255(malQ)
+            GEQ: CG018_04355(malQ)
+            GSA: FOC50_05900(malQ)
+            GHA: NCTC10459_01337(malQ)
+            LLK: LLKF_0714(ygjD)
+            LLT: CVCAS_0650(ygjD)
+            LLS: lilo_0629(malQ)
+            LLD: P620_03820
+            LLX: NCDO2118_0711
+            LLJ: LG36_0680(ygjD)
+            LLC: LACR_0723
+            LLR: llh_9480
+            LLN: LLNZ_09655
+            LLW: kw2_0635
+            LRN: CMV25_03705
+            LACT: D7I46_00730 D7I46_08805
+            LTI: JW886_03955
+            SPY: SPy_1292(malM)
+            SPZ: M5005_Spy1056(malM)
+            SPYM: M1GAS476_1115(malM)
+            SPYA: A20_1090c(malQ)
+            SPM: spyM18_1312(malQ)
+            SPG: SpyM3_0981(malQ)
+            SPS: SPs0873
+            SPH: MGAS10270_Spy1112(malM)
+            SPI: MGAS10750_Spy1148(malM)
+            SPJ: MGAS2096_Spy1058(malM)
+            SPK: MGAS9429_Spy1102(malM)
+            SPF: SpyM50804(malM)
+            SPA: M6_Spy1030
+            SPB: M28_Spy1037(malM)
+            STG: MGAS15252_1000(malQ)
+            STX: MGAS1882_0996(malQ)
+            SOZ: Spy49_1026c(malQ)
+            STZ: SPYALAB49_001053(malQ)
+            SPYH: L897_05275
+            SPYO: STAB901_05565
+            SPN: SP_2107(malQ)
+            SPD: SPD_1933(malQ)
+            SPR: spr1917(malM)
+            SPW: SPCG_2071(malM)
+            SJJ: SPJ_2128(malQ)
+            SNV: SPNINV200_19180(malQ)
+            SPX: SPG_2044(malQ)
+            SNT: SPT_2115(malQ)
+            SND: MYY_2024
+            SPNN: T308_10080
+            SNE: SPN23F21320(malQ)
+            SPV: SPH_2296(malQ)
+            SNC: HMPREF0837_10105(malQ)
+            SNM: SP70585_2212(malQ)
+            SPP: SPP_2161(malQ)
+            SNI: INV104_18170(malQ)
+            SPNG: HMPREF1038_02119
+            SNB: SP670_2247(malQ)
+            SNP: SPAP_2155
+            SNX: SPNOXC18580(malQ)
+            SNU: SPNA45_00104(malQ)
+            SPNE: SPN034156_09410(malQ)
+            SPNU: SPN034183_18640(malQ)
+            SPNM: SPN994038_18530(malQ)
+            SPNO: SPN994039_18540(malQ)
+            SAG: SAG1439(malQ)
+            SAN: gbs1508
+            SAK: SAK_1473(malQ)
+            SGC: A964_1353(malQ)
+            SAGS: SaSA20_1180
+            SAGL: GBS222_1188(malQ)
+            SAGM: BSA_15200
+            SAGI: MSA_15630
+            SAGR: SAIL_15000
+            SAGP: V193_06410
+            SAGC: DN94_06410
+            SAGT: GBSCOH1_1314
+            SAGE: EN72_07965
+            SAGG: EN73_07170
+            SAGN: W903_1454(malQ)
+            SAGJ: ID870_02445(malQ)
+            SMU: SMU_1565(malQ)
+            SMC: SmuNN2025_0545(malQ)
+            SMUT: SMUGS5_07045
+            SMJ: SMULJ23_0559(malQ)
+            SMUA: SMUFR_1358
+            STC: str1013(malQ)
+            STL: stu1013(malQ)
+            STE: STER_1017
+            STN: STND_0971
+            STU: STH8232_1215(malQ)
+            STW: Y1U_C0885
+            STHE: T303_06085
+            STHS: AVT04_00115
+            SSA: SSA_2266(malQ)
+            SSB: SSUBM407_0342(malM) SSUBM407_1979(malQ)
+            SSU: SSU05_0392 SSU05_0393 SSU05_2131 SSU05_2132
+            SSV: SSU98_0379 SSU98_2134
+            SSI: SSU0353(malM) SSU1914(malQ)
+            SSS: SSUSC84_0339(malM) SSUSC84_1932(malQ)
+            SSF: SSUA7_0355 SSUA7_1942
+            SSW: SSGZ1_0349 SSGZ1_1935
+            SUP: YYK_01675 YYK_09225
+            SSUS: NJAUSS_0365 NJAUSS_1955
+            SST: SSUST3_0390(malM) SSUST3_1965
+            SSUY: YB51_1925 YB51_9740
+            SSK: SSUD12_0371 SSUD12_2097
+            SSQ: SSUD9_0411(malM) SSUD9_2137
+            SUI: SSUJS14_0362 SSUJS14_2083
+            SUO: SSU12_0359 SSU12_2051
+            SRP: SSUST1_2026
+            SSUT: TL13_0418(malM) TL13_1929(malQ)
+            SSUI: T15_0385 T15_2187
+            SGO: SGO_0105(malQ)
+            SEZ: Sez_1255(malQ)
+            SEQ: SZO_07090
+            SEZO: SeseC_01617(malQ)
+            SEQU: Q426_02850
+            SEU: SEQ_1436
+            SUB: SUB1141(malM)
+            SDS: SDEG_1293(malQ)
+            SDG: SDE12394_06790
+            SDA: GGS_1176(malQ)
+            SDC: SDSE_1275(malM)
+            SDQ: SDSE167_1421(malQ)
+            SGA: GALLO_1397
+            SGG: SGGBAA2069_c14190(malM)
+            SGT: SGGB_1391(malQ)
+            SMB: smi_0134(malM)
+            SOR: SOR_0122(malM)
+            STK: STP_0993(malM)
+            STB: SGPB_1312(malQ)
+            SCP: HMPREF0833_11418(malQ)
+            SCF: Spaf_2048(malQ)
+            SSR: SALIVB_1046(malQ)
+            STF: Ssal_01115(malQ)
+            STJ: SALIVA_1084(malQ)
+            STRS: SSAL8618_05395
+            SSAH: HSISS4_00928(malQ)
+            STD: SPPN_10725
+            SMN: SMA_1332(malQ)
+            SIF: Sinf_1210(malQ)
+            SIE: SCIM_1628(malQ)
+            SIB: SIR_1820(malQ)
+            SIU: SII_1785(malQ)
+            SANG: SAIN_1761(malQ)
+            SANC: SANR_2043(malQ)
+            SANS: DK43_00525
+            SCG: SCI_1858(malQ)
+            SCON: SCRE_1814(malQ)
+            SCOS: SCR2_1814(malQ)
+            SOI: I872_10025
+            SIK: K710_0745
+            SIQ: DQ08_03580
+            SIO: DW64_03575
+            SIZ: SI82_03815
+            SLU: KE3_1282
+            SIG: N596_06950
+            SIP: N597_08860
+            STV: V470_00620
+            SPAT: A0O21_03395
+            STRA: ATM98_06640
+            STRN: SNAG_0183(malQ)
+            SSOB: DK181_09510(malQ)
+            SRQ: SR187_1890 SR187_9865
+            SEQI: A6J79_08085(malQ)
+            SKI: D7D50_03405(malQ)
+            SPEI: EHW89_08930(malQ)
+            SRAT: FY406_00255(malQ)
+            SGW: D7D53_08385(malQ)
+            SPLR: C0J00_04500(malQ)
+            STRG: SRT_05540
+            SVB: NCTC12167_00984(malQ)
+            SMEN: SAMEA4412692_0700(malQ) SAMEA4412692_1398(malM)
+            SFER: NCTC12278_00630(malQ)
+            SCAI: NCTC12191_01407(malQ)
+            SPSU: NCTC13786_00467(malM)
+            SCHJ: DDV21_007425(malQ)
+            SPOC: NCTC10925_00731(malM)
+            SPAB: KQ224_05265(malQ) KQ224_07050(malQ)
+            SLAT: J4854_10030(malQ)
+            SAUP: NCTC3168_00830(malQ)
+            SURN: NCTC13766_01412(malQ)
+            SACO: SAME_01113(malQ)
+            SVF: NCTC3166_01918(malQ)
+            SOS: INT76_07535(malQ) INT76_09500(malQ) INT76_09515(malQ)
+            STOY: STYK_01450(malM)
+            SRUM: GPZ88_00365(malQ)
+            SACY: O6R09_06005(malQ)
+            SMIE: NCTC11169_01820(malQ)
+            SRUN: LPB404_00530(malQ)
+            AUN: AWM73_06220
+            AUI: APT62_00840
+            ASAN: AWM72_05535
+            ACG: AWM71_05320
+            AVS: AWM76_09750
+            AUH: AWM75_04320
+            ALOY: CJ190_006450(malQ)
+            AMIT: DBT49_0006965(malQ)
+            ATJ: DBT50_005840(malQ)
+            ADC: FOC79_01450(malQ)
+            ABAE: CL176_10615(malQ)
+            GSG: CYJ72_002445(malQ)
+            FCT: NRE15_13730(malQ)
+            CARN: FPV25_04155(malQ)
+            GAD: K8O88_07910(malQ)
+            GEG: LK443_01640(malQ)
+            CPE: CPE2338
+            CPF: CPF_2647(malQ)
+            CPR: CPR_2333(malQ)
+            CNO: NT01CX_0969(malQ)
+            CBK: CLL_A0976(malQ)
+            CBN: CbC4_0089(malQ)
+            CBT: CLH_0913(malQ)
+            CBE: Cbei_0233 Cbei_0864
+            CBZ: Cbs_0233 Cbs_0864
+            CBEI: LF65_00272 LF65_00951
+            CCB: Clocel_0516
+            CLS: CXIVA_15350 CXIVA_19300
+            CSR: Cspa_c02860(malQ1) Cspa_c09800(malQ2)
+            CSB: CLSA_c11250(malQ)
+            CLT: CM240_1993(malQ)
+            CBV: U729_596(malQ)
+            CSQ: CSCA_4474
+            CACE: CACET_c33890(malQ)
+            CCK: Ccar_19085
+            CBUT: ATN24_02810 ATN24_05390
+            CTYK: CTK_C02740
+            CTAE: BGI42_04535(malQ)
+            CFM: BJL90_02360
+            CCHV: BTM20_10820
+            CDRK: B9W14_22625
+            CIA: BEN51_10105
+            CSEP: CP523_11580(malQ)
+            CDY: F3K33_01280(malQ) F3K33_04700(malQ)
+            CFER: D4Z93_09725(malQ)
+            CGAS: J1C67_10345(malQ) J1C67_10360(malQ)
+            CCAA: KQH81_04790(malQ)
+            CMAH: C1I91_10160(malQ)
+            CNN: CNEO_0346(malQ)
+            CGEL: psyc5s11_02480(malM) psyc5s11_45760(malQ)
+            CINT: HZF06_00205(malQ)
+            CRS: FQB35_03495(malQ)
+            CPRF: K7H06_03970(malQ)
+            CRAS: KVH43_00990(malQ)
+            SARJ: HH195_09465(malQ)
+            HHJ: NQ487_27995(malQ)
+            PROQ: P6M73_00895(malQ)
+            CLO: HMPREF0868_1241(malQ)
+            FSA: C5Q98_04485(malQ) C5Q98_04490(malQ)
+            HSC: HVS_08630
+            RUK: A4V00_06405
+            RBP: B6259_07810
+            ESR: ES1_08150 ES1_10560
+            ESU: EUS_04780 EUS_22510
+            FPLA: A4U99_07540
+            EHA: Ethha_2590
+            RAL: Rumal_0289
+            RUM: CK1_00370 CK1_29460
+            RUS: RBI_I01636(malQ)
+            RUJ: E5Z56_05000(malQ)
+            RGV: NQ502_16410(malQ)
+            FPR: FP2_13480 FP2_18390
+            FPA: FPR_10020 FPR_24180
+            FPRA: CG447_00560(malQ) CG447_09785(malQ)
+            FDU: GXM22_08300(malQ) GXM22_14170(malQ)
+            OVA: OBV_37540(malQ)
+            OBJ: EIO64_12040(malQ)
+            CAML: H6X83_03190(malQ)
+            CLF: GJQ69_02680(malQ)
+            CARL: PXC00_03770(malQ)
+            PFAA: MM59RIKEN_30610
+            VFA: MM35RIKEN_04260
+            VCOP: MM50RIKEN_01870(malQ)
+            ACOL: K5I23_07315(malQ)
+            SVJ: NQ490_04495(malQ) NQ490_05525(malQ)
+            LASA: L9O85_12795
+            TMEL: NOG13_07120(malQ)
+            PALM: RBG61_00810(malQ)
+            AIM: PYS61_03025(malQ)
+            ANQ: PYS63_06570(malQ)
+            CAPR: EQM14_14550(malQ)
+            CFEM: HCR03_10690(malQ)
+            AMUR: ADH66_02560
+            AGAT: RWV98_14135(malQ)
+            INT: RX717_10550(malQ)
+            DSY: DSY2035
+            DHD: Dhaf_3195
+            DCA: Desca_0952
+            PTH: PTH_1585(MalQ)
+            DRM: Dred_1459
+            DRU: Desru_2583
+            DFG: B0537_07165
+            DAU: Daud_0866
+            TFR: BR63_00810(malQ)
+            FWA: DCMF_28750
+            DGI: Desgi_3384
+            HMO: HM1_1305(malQ)
+            HCV: FTV88_0033(malQ)
+            ELM: ELI_3626
+            EMT: CPZ25_018610(malQ)
+            ELIM: B2M23_08300
+            EVN: NQ558_05490(malQ) NQ558_07145(malQ)
+            AWO: Awo_c22650(malQ)
+            AWI: CHL1_002243(malQ)
+            ALKA: J0B03_00645(malQ)
+            ACAE: HYG86_12180(malQ)
+            ALAC: JYE50_02835(malQ)
+            AHC: JYE49_03540(malQ)
+            IBU: IB211_01389c
+            FMS: M1R53_06100
+            BPEN: NQ488_12260(malQ)
+            BPRM: CL3_08060 CL3_23030
+            BPRS: CK3_00300
+            CBAF: JS518_05970(malQ)
+            BPB: bpr_I2429(mal77A)
+            BFI: CIY_07220
+            BHU: bhn_I2177
+            BCRO: NQ527_11415(malQ)
+            RHO: RHOM_06635
+            RIX: RO1_10860 RO1_25150
+            RIM: ROI_03490 ROI_26720
+            RRK: H8S51_008100(malQ) H8S51_016660(malQ)
+            COO: CCU_20280
+            CCT: CC1_12760
+            CCOM: I6K69_03850(malQ)
+            CEV: LK421_04550(malQ) LK421_06410(malQ) LK421_10255(malQ)
+            ROB: CK5_02910 CK5_34380
+            BYL: A4V09_02085 A4V09_11040
+            BHAN: CGC63_00850(malQ)
+            BLAU: DQQ01_15075(malQ)
+            BPRO: PMF13cell1_03073(malQ_1) PMF13cell1_05052(malQ_2)
+            BLAB: EYS05_05270(malQ) EYS05_12025(malQ)
+            BLIQ: INP51_00940(malQ)
+            BWX: NQ550_16360(malQ) NQ550_18170(malQ)
+            BMAS: LK422_11795(malQ) LK422_17475(malQ)
+            BLAR: LC508_08720(malQ) LC508_26445(malQ)
+            BLUI: Blut17040_08310(malQ_1) Blut17040_28850(malQ_2)
+            BCOC: BLCOC_21470(malQ_1) BLCOC_41440(malQ_2)
+            BHV: BLHYD_09570(malQ)
+            CPY: Cphy_2349
+            LACY: A4V08_12160 A4V08_26085 A4V08_31485
+            CSCI: HDCHBGLK_00193(malQ_1) HDCHBGLK_01438(malQ_2)
+            CHYL: CE91St63_03630 CE91St63_24960
+            CSH: Closa_3882
+            CSO: CLS_10330 CLS_11130
+            LXA: OW255_02920(malQ) OW255_09500(malQ)
+            BPRL: CL2_23310
+            ARF: AR1Y2_0459
+            ACAC: EYQ97_14605(malQ)
+            HSD: SD1D_0669(malQ)
+            LUA: D4A81_06685(malQ) D4A81_12565(malQ)
+            LGG: QJR73_06360(malQ) QJR73_12445(malQ)
+            EHL: EHLA_0195 EHLA_0348 EHLA_3189
+            PXV: FXF36_07220(malQ)
+            ACEL: acsn021_00320(malQ)
+            ACHT: bsdcttw_00350(malM)
+            EEL: EUBELI_00367
+            RTO: RTO_00220
+            RGN: RGna_08515(malQ)
+            RLR: NQ541_03460(malQ)
+            CBOL: CGC65_04150(malQ) CGC65_06815(malQ)
+            CASP: NQ535_04800(malQ) NQ535_28345(malQ)
+            DLO: K5I24_06325(malQ) K5I24_06650(malQ)
+            DFM: NQ560_07720(malQ) NQ560_13350(malQ)
+            SINT: K5I26_14680(malQ)
+            WCP: H9Q76_00130(malQ) H9Q76_10960(malQ)
+            SSUN: H9Q77_10820(malQ) H9Q77_15115(malQ)
+            QDO: H9Q78_09635(malQ)
+            WHJ: H9Q79_10015(malQ)
+            MFOR: NQ534_11795(malQ) NQ534_13080(malQ)
+            AHB: bsdtb5_19070(malM) bsdtb5_42430
+            STOM: QU660_07935(malQ) QU660_09190(malQ)
+            ERE: EUBREC_0541 EUBREC_1840
+            ERT: EUR_14230
+            ERA: ERE_28420
+            KIB: RBB56_04845(malQ)
+            CBIL: EUBC25_23860(malA)
+            LBW: C3V36_06790(malQ)
+            LBX: lbkm_2647
+            CPRO: CPRO_02100(malQ)
+            ANV: RBQ60_01065(malQ)
+            CLE: Clole_3838
+            CEW: EKH84_00580(malQ)
+            CBAR: PATL70BA_2320(malQ)
+            VGU: HYG85_08870(malQ)
+            VPY: HZI73_03550(malQ)
+            AMT: Amet_1677
+            GFE: Gferi_20865
+            CSPO: QNI18_11705(malQ)
+            ROC: HF520_11780(malQ)
+            TEM: JW646_09280(malQ)
+            TGC: L0P85_18485(malQ)
+            TMY: TEMA_29540(malQ)
+            IBR: NQ514_00385(malQ)
+            PBQ: C3V37_06640
+            CST: CLOST_1215(malQ)
+            CMIU: B1H56_05245(malQ)
+            TPZ: Tph_c26440(malQ)
+            MTA: Moth_1850
+            MTHO: MOTHE_c18800(malQ)
+            MTHZ: MOTHA_c19600(malQ)
+            AAR: Acear_0829
+            HHL: Halha_0937 Halha_1037
+            HPRF: HLPR_01430(malQ)
+            FMA: FMG_0201
+            APR: Apre_0413
+            AVG: I6H45_00120(malQ)
+            AOB: I6H46_03140(malQ)
+            PIV: NCTC13079_00616(malQ)
+            MHAP: JFY71_07560(malQ)
+            HOV: EQF90_005550(malQ)
+            CAD: Curi_c10240(malQ)
+            TIS: P3962_09450(malQ)
+            MHG: MHY_02300
+            ERL: AOC36_01585
+            EIO: H9L01_10555(malQ)
+            EUC: EC1_14420 EC1_21140
+            FRO: AALO17_02170 AALO17_06920 AALO17_25770
+            AARG: Aargi30884_12120(malA)
+            ABSI: A9CBEGH2_13010(malA)
+            BULL: JOS54_07350(malQ)
+            EBM: SG0102_02370(malA) SG0102_27840(malQ)
+            LCG: L3BBH23_20650(malA)
+            AMUO: KWG62_05575(malQ) KWG62_05795(malQ) KWG62_09050(malQ)
+            ALLO: KWG61_02960
+            SMOE: RGT18_03350(malQ)
+            AHQ: NMU03_13330(malQ)
+            ERB: A4V01_08240
+            EHN: H9Q80_13340(malQ)
+            FIT: Fi14EGH31_20880(malA)
+            CIU: G4D55_07090(malQ)
+            ERM: EYR00_07940(malQ)
+            TSF: NQ543_05485(malQ)
+            CMIT: NQ499_01160(malQ) NQ499_07985(malQ)
+            ACL: ACL_0655(malQ)
+            AOC: Aocu_07270(malQ)
+            AHK: NCTC10172_00353(malQ)
+            AAXA: NCTC10138_01513(malQ)
+            MANR: MPAN_013260(malM)
+            TBM: BK010_06900
+            TBZ: BK011_07380
+            FVG: I6G91_01420(malQ)
+            APV: Apar_0608
+            OLS: Olsu_1483
+            OLO: ADJ70_00540
+            ATB: J4859_08775(malQ)
+            CGO: Corgl_1213
+            CAER: CSV91_06790(malQ)
+            COLL: KPC83_05920(malQ)
+            ERZ: ER308_10940(malQ)
+            MTU: Rv1781c(malQ)
+            MTV: RVBD_1781c
+            MTC: MT1831(malQ)
+            MRA: MRA_1796(malQ)
+            MTF: TBFG_11812
+            MTB: TBMG_02215
+            MTK: TBSG_02227
+            MTZ: TBXG_002196
+            MTG: MRGA327_11055
+            MTE: CCDC5079_1643
+            MTUR: CFBS_1871(malQ)
+            MTL: CCDC5180_1624
+            MTO: MTCTRI2_1813(malQ)
+            MTD: UDA_1781c(malQ)
+            MTN: ERDMAN_1971(malQ)
+            MTJ: J112_09530
+            MTUB: MT7199_1808
+            MTUC: J113_12380
+            MTUE: J114_09525
+            MTX: M943_09280
+            MTUH: I917_12655
+            MTUL: TBHG_01740
+            MTUT: HKBT1_1870(malQ)
+            MTUU: HKBT2_1878(malQ)
+            MTQ: HKBS1_1874(malQ)
+            MBO: BQ2027_MB1810C(malQ)
+            MBB: BCG_1814c(malQ)
+            MBT: JTY_1798(malQ)
+            MBM: BCGMEX_1795c(malQ)
+            MBK: K60_018670
+            MBX: BCGT_1611
+            MAF: MAF_18030(malQ)
+            MMIC: RN08_1982
+            MCE: MCAN_17991(malQ)
+            MCQ: BN44_40039(malQ)
+            MCV: BN43_30920(malQ)
+            MCX: BN42_30037(malQ)
+            MCZ: BN45_50038(malQ)
+            MORY: MO_001884(malQ)
+            MPA: MAP_1500c
+            MAO: MAP4_2341
+            MAVI: RC58_11635
+            MAVU: RE97_11645
+            MAV: MAV_2934(malQ)
+            MIT: OCO_27660
+            MIA: OCU_27530
+            MID: MIP_03852
+            MYO: OEM_26130
+            MCHI: AN480_14490
+            MIR: OCQ_26220
+            MMAL: CKJ54_12555(malQ)
+            MLP: MLM_2364
+            MMAN: MMAN_11320(malQ_1) MMAN_15890(malQ_2)
+            MSA: Mycsm_03231
+            MUL: MUL_3094(malQ)
+            MMI: MMAR_2663(malQ)
+            MMAE: MMARE11_25830(malQ)
+            MLI: MULP_02408(malQ)
+            MPSE: MPSD_27350(malQ)
+            MSHO: MSHO_39810(malQ)
+            MMC: Mmcs_2869
+            MKM: Mkms_2913
+            MJL: Mjls_2899
+            MMM: W7S_13395
+            MKN: MKAN_00150
+            MYV: G155_16680
+            MYE: AB431_17140 AB431_23180
+            MHAD: B586_12000
+            MDX: BTO20_15325
+            MSHG: MSG_00106(malQ_1) MSG_02552(malQ_2)
+            MFJ: MFLOJ_06870(malQ)
+            MSTO: MSTO_02800(malQ) MSTO_08110
+            MSIM: MSIM_46930(malQ_1) MSIM_52220(malQ_2)
+            MSAK: MSAS_06540(malQ_1) MSAS_34940(malQ_2)
+            MKU: I2456_01110(malQ)
+            MLW: MJO58_13530(malQ) MJO58_16065(malQ)
+            MXE: MYXE_26380(malQ)
+            MNV: MNVI_39880(malQ)
+            MPAG: C0J29_00850(malQ) C0J29_15350(malQ)
+            MNM: MNVM_23370(malQ)
+            MGOR: H0P51_14500(malQ)
+            MCOO: MCOO_08530(malQ)
+            MBAI: MB901379_02452(malQ)
+            MSEO: MSEO_13720(malQ_1) MSEO_39220(malQ_2)
+            MHEK: JMUB5695_02580(malQ)
+            MGAU: MGALJ_17660(malQ)
+            MLJ: MLAC_17340(malQ)
+            MBRD: MBRA_40100(malQ)
+            MSHJ: MSHI_14100(malQ)
+            MMAM: K3U93_12205(malQ)
+            MSPG: F6B93_11000(malQ)
+            MOT: LTS72_10895(malQ)
+            MPAA: MKK62_12045(malQ) MKK62_24595(malQ)
+            MMEH: M5I08_17020(malQ)
+            MKY: IWGMT90018_30630(malQ)
+            MADI: A7U43_15040
+            MWU: PT015_05480(malQ)
+            MSM: MSMEG_3673(malQ)
+            MSG: MSMEI_3586
+            MSB: LJ00_18260
+            MSN: LI99_18265
+            MSH: LI98_18270
+            MVA: Mvan_3175
+            MGI: Mflv_0996 Mflv_3421
+            MSP: Mspyr1_27530 Mspyr1_51940
+            MCB: Mycch_1510 Mycch_2733
+            MNE: D174_15935
+            MYN: MyAD_15660
+            MFT: XA26_34170
+            MPHL: MPHLCCUG_02332(malQ)
+            MVQ: MYVA_2904(malQ1) MYVA_5785(malQ2)
+            MLL: B1R94_06905
+            MRH: MycrhN_4785
+            MTHN: 4412656_02229(malQ)
+            MHAS: MHAS_01788(malQ)
+            MDU: MDUV_13430(malQ)
+            MCHT: MCHIJ_37340(malQ)
+            MDR: MDOR_21000(malQ)
+            MAUU: NCTC10437_03049(malQ_1) NCTC10437_05627(malQ_2)
+            MMAG: MMAD_18950(malQ_1) MMAD_30750(malQ_2)
+            MMOR: MMOR_32650(malQ)
+            MFX: MFAL_10980(malQ)
+            MAIC: MAIC_29890(malQ_1) MAIC_41870(malQ_2)
+            MIJ: MINS_28420(malQ)
+            MALV: MALV_05830(malQ)
+            MTY: MTOK_23870(malQ_1) MTOK_49220(malQ_2)
+            MPSC: MPSYJ_10240(malQ_1) MPSYJ_36880(malQ_2)
+            MARZ: MARA_10240(malQ_1) MARA_41300(malQ_2)
+            MGAD: MGAD_07200(malQ)
+            MHEV: MHEL_53700(malQ)
+            MSAR: MSAR_38700(malQ)
+            MANY: MANY_06890(malQ_1) MANY_15590(malQ_2)
+            MAUB: MAUB_07500(malQ)
+            MPOF: MPOR_33140(malQ)
+            MPHU: MPHO_05170(malQ)
+            MMUC: C1S78_015740(malQ)
+            MMAT: MMAGJ_67020(malQ)
+            MBOK: MBOE_40220(malQ)
+            MFG: K6L26_15215(malQ)
+            MSEI: MSEDJ_09220(malQ_1) MSEDJ_41560(malQ_2)
+            MFLV: NCTC10271_02581(malQ)
+            MCEE: MCEL_08510(malQ)
+            MBRM: L2Z93_001667(malQ)
+            MMON: EWR22_15195(malQ)
+            MGO: AFA91_21535
+            MHOL: K3U96_12895(malQ)
+            MSEN: K3U95_14150(malQ)
+            MPAE: K0O64_16315(malQ) K0O64_22775(malQ)
+            MRF: MJO55_13815(malQ) MJO55_27000(malQ)
+            MDF: K0O62_16415(malQ)
+            MCRO: MI149_17215(malQ) MI149_23200(malQ)
+            MGRO: FZ046_07270(malQ)
+            MKR: MKOR_02240(malQ)
+            MPAK: MIU77_05380(malQ)
+            MJD: JDM601_3860(malQ)
+            MTER: 4434518_03736(malQ)
+            MHIB: MHIB_31240(malQ)
+            MHER: K3U94_21065(malQ)
+            MVM: MJO54_20960(malQ)
+            CGL: Cgl2297(Cgl2297)
+            CGB: cg2523(malQ)
+            CGU: WA5_2217(MalQ)
+            CGT: cgR_2169
+            CGS: C624_11100
+            CGG: C629_11110
+            CGM: cgp_2523(malQ)
+            CGJ: AR0_10985
+            CGQ: CGLAR1_10835
+            CGX: SB89_10650
+            CEF: CE2196
+            CDI: DIP1726
+            CDP: CD241_1658(malQ)
+            CDH: CDB402_1616(malQ)
+            CDT: CDHC01_1661(malQ)
+            CDE: CDHC02_1596(malQ)
+            CDR: CDHC03_1624(malQ)
+            CDA: CDHC04_1623(malQ)
+            CDZ: CD31A_1732(malQ)
+            CDB: CDBH8_1698(malQ)
+            CDS: CDC7B_1710(malQ)
+            CDD: CDCE8392_1622(malQ)
+            CDW: CDPW8_1718(malQ)
+            CDV: CDVA01_1586(malQ)
+            CDIP: ERS451417_01742(malQ)
+            CJK: jk0596(malQ)
+            CAR: cauri_1817(malQ)
+            CKP: ckrop_1330(malQ)
+            CPU: CPFRC_07740(malQ)
+            CPL: Cp3995_1576(malQ)
+            CPG: CP316_07840(malQ)
+            CPP: CpP54B96_1561(malQ)
+            CPK: CP1002_05405(malQ)
+            CPQ: CPC231_07740(malQ)
+            CPX: CPI19_03780(malQ)
+            CPZ: CpPAT10_1534(malQ)
+            COR: Cp267_1598(malQ)
+            COP: CP31_08065(malQ)
+            COD: Cp106_1496(malQ)
+            COS: Cp4202_1524(malQ)
+            COI: CPCIP5297_07855(malQ)
+            COE: CP258_07855(malQ)
+            COU: CP162_07850(malQ)
+            CPSE: CPTA_02127
+            CPSU: CPTB_01632
+            CPSF: CPTC_02126
+            CRD: CRES_0673(malQ)
+            CUL: CULC22_01634(malQ)
+            CUC: CULC809_01617(malQ)
+            CUE: CULC0102_1753(malQ)
+            CUN: Cul210932_1711(malQ)
+            CUQ: Cul210931_1609(malQ)
+            CUZ: Cul05146_1695(malQ)
+            CUJ: CUL131002_1633(malQ)
+            CUS: CulFRC11_1611(malQ)
+            CHN: A605_10450
+            CCN: H924_09670
+            CMD: B841_09785
+            CAZ: CARG_07205
+            CFN: CFAL_03470
+            CCG: CCASEI_04450
+            CVT: B843_09575
+            CAX: CATYP_07870
+            CII: CIMIT_09060
+            CUV: CUREI_08650
+            COA: DR71_426(malQ)
+            CDO: CDOO_10185
+            CHM: B842_09555
+            CSX: CSING_10065(malQ)
+            CMQ: B840_09190(malQ)
+            CKU: UL82_03665(malQ)
+            CCJ: UL81_08560(malQ)
+            CMV: CMUST_11640(malQ)
+            CEI: CEPID_08975(malQ)
+            CTED: CTEST_09595(malQ)
+            CUT: CUTER_08015(malQ)
+            CLW: CLAC_08570
+            CDX: CDES_10405(malQ)
+            CSP: WM42_2124(malQ)
+            CSTA: CSTAT_03920
+            CCJZ: ccrud_10140
+            CFK: CFRA_08740
+            CPHO: CPHO_03465
+            CFC: CFLV_08995
+            CGV: CGLAU_09435(malQ)
+            CSTR: CBE89_04290
+            CAQU: CAQU_09080
+            CSPH: CSPHI_08640
+            CAMG: CAMM_04135
+            CMIN: NCTC10288_00624(malQ)
+            CPEG: CPELA_03050(malQ)
+            CXE: FOB82_01440(malQ)
+            CEE: CENDO_08500(malQ)
+            CSAN: E3227_06920
+            CGK: CGERO_07980(malQ)
+            CRF: FRC0190_01751
+            CCHO: CCHOA_08410(malQ)
+            CPSO: CPPEL_03305(malQ)
+            CSUR: N24_2362(malQ)
+            CCYS: SAMEA4530656_0500(malQ)
+            CMAT: HBA49_03050
+            CYZ: C3B44_03050(malQ)
+            CKF: I6I12_03910(malQ)
+            CANS: GP473_02895
+            CLIA: C3E79_08245(malQ)
+            CAMC: I6I65_04480(malQ)
+            CGLU: I6J20_01125(malQ)
+            CUO: CUROG_03240(malQ)
+            CLIZ: G7Y31_08685
+            CSIL: CBE74_08820
+            CTUB: I6I74_02310(malQ)
+            CLUJ: IAU68_08755(malQ)
+            CQN: G7Y29_08045(malQ)
+            CKW: CKALI_03540(malQ)
+            CCOE: CETAM_09775(malQ)
+            COK: COCCU_10070(malQ)
+            CCYC: SCMU_37250
+            CORY: FQV43_07500(malQ)
+            CWK: IA203_09070(malQ)
+            CPOY: GP475_08370(malQ)
+            CFY: I6L56_04735(malQ)
+            CPSL: KBP54_08290(malQ)
+            CHIN: J5O04_10325(malQ)
+            CJH: CJEDD_09140(malQ)
+            CMAS: CMASS_07695(malQ)
+            CHEI: CHEID_03490(malQ)
+            CIHU: CIHUM_08255(malQ)
+            CCOY: CCOY_09120(malQ)
+            CHAD: CHAD_09250(malQ)
+            CFG: CFREI_10205(malQ)
+            CAQM: CAQUA_03250(malQ)
+            CCAW: CCANI_10325(malQ)
+            CAUI: CAURIS_08345(malQ)
+            CFAC: CFAEC_10025(malQ)
+            CFOU: CFOUR_08400(malQ)
+            CFEU: CFELI_10345(malQ)
+            CAUS: CAURIC_03500(malQ)
+            CATR: CATRI_09370(malQ)
+            CDUR: CDUR_09875(malQ)
+            CCOU: CCONF_08700(malQ)
+            CHAN: CHAN_09650(malQ)
+            CAFE: CAFEL_08230(malQ)
+            CGF: CGUA_09930(malQ)
+            CGOI: CGOTT_08900(malQ)
+            CAPP: CAPP_08555(malQ)
+            CSUE: QP029_13995(malQ)
+            CBRE: QP027_08190(malQ)
+            CPYR: CYJ47_03470(malQ)
+            CRIE: AK829_00640
+            BFV: C628_11105
+            RHA: RHA1_ro04830
+            ROP: ROP_49140(malQ)
+            ROA: Pd630_LPD01341
+            RPY: Y013_24260
+            RBY: CEJ39_10205(malQ)
+            RHB: NY08_399
+            RAV: AAT18_09805
+            RFA: A3L23_03725(malQ)
+            RHS: A3Q41_04515(malQ)
+            RRZ: CS378_24765(malQ)
+            RHU: A3Q40_00742(malQ)
+            RHQ: IM25_13580
+            RRT: 4535765_01627(malQ)
+            RCR: NCTC10994_01235(malQ)
+            RKO: JWS14_26735(malQ)
+            ROZ: CBI38_05880
+            RPSK: JWS13_17885(malQ)
+            RGOR: NMQ04_07095(malQ)
+            RANT: RHODO2019_17650(malQ)
+            RHOP: D8W71_19995(malQ)
+            GBR: Gbro_3533
+            GPO: GPOL_c34090(malQ)
+            GOR: KTR9_3559
+            GTA: BCM27_18235
+            GRU: GCWB2_18315(malQ)
+            GOM: D7316_05164(malQ)
+            GAV: C5O27_09830(malQ)
+            GOD: GKZ92_17300(malQ)
+            GAM: GII34_17190(malQ)
+            GPD: GII33_16695(malQ)
+            GJI: H1R19_17030(malQ)
+            GOI: LK459_16820(malQ)
+            GHN: MVF96_17535(malQ)
+            GAMI: IHQ52_21075(malQ)
+            GMG: NWF22_02480(malQ)
+            DIT: C3V38_09945(malQ)
+            DIZ: CT688_03835(malQ)
+            DPC: A6048_03860
+            DLU: A6035_04095
+            DKN: NHB83_03665(malQ)
+            CBQ: AL705_08040
+            SCO: SCO2649(SC8E4A.19c)
+            SALB: XNR_4294
+            SMA: SAVERM_5391(malQ)
+            SGR: SGR_4879
+            SGB: WQO_11065
+            SFI: SFUL_2229
+            SANL: KZO11_11180(malQ)
+            SGRF: SGFS_076160
+            SCYE: R2B67_25000(malQ)
+            SCB: SCAB_59571
+            SSX: SACTE_2078
+            SVL: Strvi_7939
+            SHY: SHJG_4150
+            SHO: SHJGH_3915
+            SRC: M271_31970
+            SMAL: SMALA_2651
+            SSOI: I1A49_17190(malQ)
+            SFA: Sfla_4230
+            SBH: SBI_07082
+            SVE: SVEN_2436
+            SDV: BN159_5631(malQ)
+            SALS: SLNWT_5227
+            STRP: F750_2482
+            SCI: B446_14080
+            SLV: SLIV_24430
+            SGU: SGLAU_01030(gacQ) SGLAU_12145
+            SVT: SVTN_13130
+            STRE: GZL_05764
+            SCW: TU94_11610
+            SLD: T261_5412
+            SLC: SL103_05850
+            STRM: M444_12975
+            STRC: AA958_09810
+            SAMB: SAM23877_2698(malQ)
+            SPRI: SPRI_4864
+            SCZ: ABE83_24835
+            SCX: AS200_29070
+            SRW: TUE45_03272(malQ)
+            STRF: ASR50_12840
+            SLE: sle_45660(sle_45660)
+            SRN: A4G23_00482(malQ_1) A4G23_01725(malQ_2)
+            SPAV: Spa2297_11225
+            STRT: A8713_10515
+            SCLF: BB341_19205
+            SGS: AVL59_40840
+            STSI: A4E84_13970
+            SKY: D0C37_23110(malQ)
+            SALW: CP975_12080(malQ)
+            SGM: GCM10017557_54820
+            SCAD: DN051_25195(malQ)
+            SPHW: NFX46_34230(malQ)
+            SLS: SLINC_3073
+            SNR: SNOUR_27105
+            SALU: DC74_3166
+            SALL: SAZ_16900
+            SPLU: LK06_010035
+            STRD: NI25_25710
+            SNW: BBN63_23325
+            SAUO: BV401_16815
+            SSIA: A7J05_03490 A7J05_23765
+            SVU: B1H20_10310
+            SPUN: BFF78_27550
+            SGV: B1H19_15205
+            SLAU: SLA_2331
+            SALF: SMD44_02969(malQ)
+            SALJ: SMD11_4484(malQ)
+            SLX: SLAV_24300(malQ)
+            STRO: STRMOE7_14040
+            SFK: KY5_2788c
+            SGE: DWG14_05468(malQ)
+            SRJ: SRO_4796
+            SLK: SLUN_13515(malQ)
+            SDX: C4B68_26445(malQ)
+            SGD: ELQ87_26005(malQ)
+            SCYA: EJ357_16000(malQ)
+            SAST: CD934_22025(malQ)
+            SNQ: CP978_12400(malQ)
+            STIR: DDW44_08535(malQ)
+            SKA: CP970_28645(malQ)
+            SGZ: C0216_25840
+            SVN: CP980_21955
+            SNK: CP967_22985(malQ)
+            SHAW: CEB94_14395(malQ)
+            SRK: FGW37_11195(malQ)
+            SFIC: EIZ62_21960(malQ)
+            SGAL: CP966_12460(malQ)
+            SSPO: DDQ41_06870(malQ) DDQ41_30770(malQ)
+            SVR: CP971_09680(malQ)
+            SPAD: DVK44_09335(malQ)
+            SFY: GFH48_26360(malQ)
+            SAQU: EJC51_17565(malQ)
+            SGF: HEP81_05120(malQ)
+            SCAV: CVT27_09845(malQ)
+            SSEO: D0Z67_09645(malQ)
+            SRIM: CP984_26775(malQ)
+            SSUB: CP968_21830
+            SPHV: F9278_14485(malQ)
+            SCIN: CP977_11875(malQ)
+            SFUG: CNQ36_12085(malQ)
+            SPAC: B1H29_04430 B1H29_24145
+            SCHA: CP983_28215(malQ)
+            SGX: H4W23_14330(malQ)
+            SCOE: CP976_15540(malQ)
+            SSPB: CP982_16095(malQ)
+            SNF: JYK04_03286(malQ)
+            SPLA: CP981_13565(malQ)
+            SBRO: GQF42_16985(malQ)
+            STUI: GCM10017668_23290
+            SATA: C5746_14375(malQ)
+            SCHF: IPT68_12930(malQ)
+            SHUN: DWB77_05037(malQ)
+            SCYG: S1361_14620(malQ)
+            SFEU: IM697_07825(malQ)
+            SLIA: HA039_23220(malQ)
+            SDW: K7C20_12855(malQ)
+            SVD: CP969_14440(malQ)
+            SCAL: I6J39_10525(malQ)
+            SAUH: SU9_011095(malQ)
+            SFB: CP974_02510(malQ) CP974_09680(malQ)
+            SMOB: J7W19_10850(malQ)
+            SPRA: CP972_12700(malQ)
+            SPEU: CGZ69_12130(malQ)
+            SROI: IAG44_26885(malQ)
+            SXN: IAG42_23365(malQ)
+            SGJ: IAG43_10540(malQ)
+            SHK: J2N69_12230(malQ)
+            SANU: K7396_23785(malQ)
+            STRY: EQG64_10150(malQ)
+            SACT: DMT42_13825(malQ)
+            SMAO: CAG99_18945
+            SGOB: test1122_06715(malQ)
+            SINE: KI385_16590(malQ)
+            SLF: JEQ17_30425(malQ)
+            SDEC: L3078_15990(malQ)
+            SAOV: G3H79_24625(malQ)
+            SDUR: M4V62_27460(malQ)
+            SYAN: NRK68_11980
+            SRUG: F0345_08505(malQ)
+            SAKB: K1J60_28925(malQ)
+            STAA: LDH80_26010(malQ)
+            SNIG: HEK616_07460
+            SVIO: HWN34_21660(malQ)
+            SCAE: IHE65_29275(malQ)
+            STUB: MMF93_11345
+            SSPN: LXH13_14815(malQ)
+            SCIR: STRCI_002957(malQ)
+            SXT: KPP03845_102843(malQ)
+            SLON: LGI35_17240(malQ)
+            SDRZ: NEH16_21200(malQ)
+            STUD: STRTU_004703(malQ)
+            STEE: F3L20_26680(malQ)
+            SGK: PET44_11670
+            SANT: QR300_28150(malQ)
+            SYUN: MOV08_27180(malQ)
+            SARG: HKX69_22710(malQ)
+            SJN: RI060_27580(malQ)
+            SCYN: N8I84_14505(malQ)
+            SOV: QZH56_23960(malQ)
+            SFIY: F0344_24715(malQ)
+            SHAU: K9S39_29120(malQ)
+            SKG: KJK29_24940(malQ)
+            SCOA: QU709_27965(malQ)
+            SLAI: P8A22_26040(malQ)
+            SROC: RGF97_22675(malQ)
+            SFP: QUY26_25955(malQ)
+            SCHG: NRO40_09615(malQ)
+            STTN: BSL84_11580
+            SINN: ABB07_24835
+            SCT: SCAT_1759(malQ)
+            SCY: SCATT_17540
+            KSK: KSE_54900(malQ)
+            KAB: B7C62_09990
+            KAU: B6264_04760
+            KIT: CFP65_5360
+            KIS: HUT16_25570(malQ)
+            STRI: C7M71_009225(malQ)
+            YIA: LO772_22945(malQ)
+            STRH: GXP74_07540(malQ) GXP74_26560(malQ)
+            ABRY: NYE86_06535(malQ)
+            AGLA: OIE69_25855(malQ)
+            LXL: KDY119_01289(malQ)
+            PSIC: J4E96_05540(malQ) J4E96_07725(malQ)
+            MIO: AOA12_21365
+            MPAL: BO218_11135
+            MAUR: BOH66_00095
+            MHOS: CXR34_00090(malQ)
+            MICS: C1N74_15890(malQ)
+            MTEC: OAU46_14680(malQ)
+            MARK: QUC20_15850(malQ)
+            GRY: D7I44_01320(malQ)
+            AGG: C1N71_11420
+            MANT: BHD05_11915
+            PSEV: USB125703_01421(malQ)
+            GSD: M3M28_04930(malQ)
+            GMN: GMOLON4_1331(malQ)
+            NAEI: GCM126_27340(malQ)
+            ART: Arth_2153
+            ARH: AHiyo8_32790
+            ARU: ASPU41_15840
+            ARQ: BWQ92_08440
+            ACRY: AC20117_04295
+            ARTH: C3B78_01790(malQ)
+            ARTP: E5206_12780(malQ)
+            AAGI: NCTC2676_1_02786(malQ)
+            AJG: KKR91_15625(malQ)
+            ASUN: KG104_16415(malQ)
+            ASUF: MNQ99_18120(malQ)
+            ARTY: AHiyo4_03720
+            ACAO: NF551_14680(malQ)
+            AZH: MUK71_14500(malQ)
+            AGEG: MUG94_15730(malQ)
+            AOD: Q8Z05_18715(malQ)
+            AKO: N9A08_14480(malQ)
+            AZX: N2K95_14380(malQ)
+            AJR: N2K98_15230(malQ)
+            ACH: Achl_0478
+            APN: Asphe3_03920
+            PSUL: AU252_08540
+            PSNI: NIBR502771_03245(malQ)
+            PDEL: JCQ34_01625(malQ)
+            POK: SMD14_02025(malQ)
+            KRH: KRH_03590(malQ)
+            KPL: KPaMU14_10890
+            KFV: AS188_15625
+            KII: KocCE7_01695(malQ)
+            KRS: EQG70_04405(malQ)
+            KOD: HBK84_01935(malQ)
+            KVR: CIB50_0000340(malQ)
+            MLU: Mlut_11750
+            MICK: B1A86_00005805(malQ)
+            MLY: CJ228_003600
+            MPOR: KW076_08160(malQ)
+            MTEU: R3I42_03895(malQ)
+            SATK: SA2016_3644
+            AUL: DCC27_003575(malQ)
+            AIG: QDX25_02850(malQ)
+            CMUA: P8192_07800(malQ)
+            BCV: Bcav_2633
+            BFA: Bfae_13220
+            BRX: BH708_01075
+            BRV: CFK39_14555(malQ)
+            BGG: CFK41_10290(malQ)
+            BRZ: CFK38_12935(malQ)
+            BSAU: DWV08_03990(malQ)
+            BRR: C1N80_12285(malQ)
+            BKI: M4486_07070(malQ)
+            BRHA: NLU66_13365(malQ)
+            BHH: Bra3105_03780(malQ)
+            BHQ: BRM3_13520(malQ)
+            JDE: Jden_0941
+            DNI: HX89_06850
+            DAY: FV141_04695(malQ)
+            DERM: H7F30_12895(malQ)
+            LMOI: VV02_18610
+            YIM: J5M86_09935(malQ)
+            ALX: LVQ62_09300(malQ)
+            BEI: GCM100_10580
+            XCE: Xcel_1101
+            XYL: ET495_01655(malQ)
+            XYA: ET471_10860(malQ)
+            IVA: Isova_1065
+            IDO: I598_1159(malQ)
+            CET: B8281_15375
+            CCEU: CBR64_15975
+            CPRT: FIC82_014270(malQ)
+            SKE: Sked_24590
+            SANW: G7063_05550(malQ)
+            CFL: Cfla_1369
+            CFI: Celf_1397
+            CGA: Celgi_2201
+            CEZ: CBP52_02315
+            CELZ: E5225_11295(malQ)
+            CEJ: GC089_11665(malQ)
+            CELH: GXP71_03830(malQ)
+            CIRA: LFM56_11330(malQ)
+            CPAL: F1D97_09200(malQ)
+            CELC: K5O09_06375(malQ)
+            CDON: KKR89_06690(malQ)
+            CWAN: KG103_06915(malQ)
+            CFEN: KG102_05885(malQ)
+            CWN: NP075_06905(malQ)
+            CCHE: NP064_10800(malQ)
+            CXIE: NP048_06820(malQ)
+            OEK: FFI11_010680(malQ)
+            PSEI: GCE65_11825
+            PSEK: GCM125_00410
+            ICA: Intca_3197
+            ARS: ADJ73_09680
+            JTE: ASJ30_03305
+            JLI: EXU32_11570(malQ)
+            JME: EEW87_011495(malQ)
+            JAY: H7A72_03315(malQ)
+            JCR: O9K63_15975(malQ)
+            TEH: GKE56_05130
+            PHW: G7075_01630(malQ)
+            PEI: H9L10_09720(malQ)
+            SERJ: SGUI_1126
+            SERW: FY030_03680(malQ)
+            ORN: DV701_07075(malQ)
+            ORZ: FNH13_14415(malQ)
+            OCP: NF557_12640(malQ)
+            BRI: FDF13_09685(malQ)
+            BLUT: EW640_04465
+            DCO: SAMEA4475696_1403(malQ)
+            AUS: IPK37_15370(malQ)
+            GEZ: FE251_00910(malQ) FE251_03895(malQ)
+            GYU: FE374_05650(malQ)
+            HALT: IM660_06945(malQ)
+            RHAL: LQF10_12675(malQ)
+            RSUA: LQF12_05605(malQ)
+            DEM: LGT36_007600(malQ)
+            DSS: GCM25873_14480(malQ)
+            PAC: PPA1683
+            PAK: HMPREF0675_4733(malQ)
+            PAV: TIA2EST22_08255
+            PAX: TIA2EST36_08240
+            PAZ: TIA2EST2_08180
+            PAW: PAZ_c17530(malQ)
+            PAD: TIIST44_01225
+            PCN: TIB1ST10_08645
+            PACC: PAC1_08660
+            PACH: PAGK_1611
+            PACN: TIA1EST1_08300
+            CACN: RN83_08745
+            PRA: PALO_02530
+            PRL: BCB70_10015
+            CGRN: 4412665_01693(malQ)
+            CEQU: O6R08_07575(malQ)
+            PFR: PFREUD_07470(malQ1) PFREUD_21500(malQ2)
+            PFRE: RM25_0714 RM25_2021
+            PACD: EGX94_06075(malQ) EGX94_10860(malQ)
+            PAUS: NCTC13651_00048(malQ_1) NCTC13651_00932(malQ_2)
+            PPC: HMPREF9154_0969(malQ)
+            ARUB: J5A65_04960(malQ) J5A65_10170(malQ)
+            PBO: PACID_23940
+            ACIJ: JS278_01102(malQ)
+            AJI: C0Z10_03850(malQ)
+            MPH: MLP_15250(malQ)
+            MICG: GJV80_03585(malQ)
+            TFL: RPIT_09535
+            TFA: BW733_13615
+            TES: BW730_09325
+            TEZ: BKM78_03775
+            TDF: H9L22_08480(malQ)
+            TLA: TLA_TLA_00770(malQ)
+            TEJ: KDB89_04310(malQ)
+            RAIN: Rai3103_00870(malQ)
+            PRV: G7070_02220(malQ)
+            BRT: J4N02_11525(malQ)
+            PROP: QQ658_02930(malQ) QQ658_13005(malQ)
+            BROO: brsh051_14560(malQ_1) brsh051_23270(malQ_2)
+            NOY: EXE57_15075(malQ)
+            NOO: FE634_16280(malQ)
+            NANO: G5V58_14125(malQ)
+            NMES: H9L09_18525(malQ)
+            NPI: G7071_15640(malQ)
+            NAQU: ENKNEFLB_04307(malQ)
+            NRO: K8W59_01360(malQ)
+            NCQ: K6T13_14855(malQ)
+            NPS: KRR39_08805(malQ)
+            NMAR: HPC71_19425(malQ)
+            AER: AERYTH_16135
+            AEZ: C3E78_12290(malQ)
+            AEB: C6I20_10245(malQ)
+            AEF: GEV26_12340(malQ)
+            AWN: NQV15_12960(malQ)
+            MGG: MPLG2_2166(malQ)
+            KFL: Kfla_2240
+            KQI: F1D05_30835(malQ)
+            KSL: OG809_23515(malQ)
+            TFU: Tfu_2205
+            THAO: NI17_013700(malQ)
+            TALX: FOF52_11060(malQ)
+            NDA: Ndas_3414
+            NAL: B005_0522(malQ)
+            NGV: CDO52_20425(malQ)
+            NEX: NE857_25675(malQ)
+            NAKE: KGD83_08000(malQ)
+            NCG: KGD84_07845(malQ)
+            STRR: EKD16_18025(malQ)
+            SNAH: OUQ99_06765(malQ)
+            TCU: Tcur_1347
+            ACTW: F7P10_08550(malQ)
+            AGRA: AGRA3207_001834(malQ)
+            AMAZ: LUW76_13395(malQ)
+            ACIR: OG979_28185(malQ)
+            ACTQ: OG417_14470(malQ)
+            NCX: Nocox_23950(malQ)
+            FRA: Francci3_1157
+            FRE: Franean1_5309
+            FAL: FRAAL1852(malQ)
+            FSY: FsymDg_1490
+            FRI: FraEuI1c_5131
+            ACE: Acel_1601
+            NML: Namu_4887
+            GOB: Gobs_3093
+            BSD: BLASA_2396
+            BLAP: MVA48_04965(malQ)
+            BBRG: U6N30_12795(malQ)
+            MMAR: MODMU_3276
+            KRA: Krad_3529
+            AMD: AMED_2591(malQ)
+            AMN: RAM_13165
+            AMM: AMES_2563(malQ)
+            AMZ: B737_2564(malQ)
+            AMQ: AMETH_2764(malQ)
+            AMYC: CU254_22030(malQ)
+            AACD: LWP59_06445(malQ)
+            APRT: MUY14_23425(malQ)
+            ATHM: L1857_16640(malQ)
+            ARHD: VSH64_17110(malQ)
+            PDX: Psed_0544
+            PSEH: XF36_22520
+            PSEQ: AD006_03040
+            PHH: AFB00_08315
+            PAUT: Pdca_06450(malQ)
+            PBRO: HOP40_05230
+            PPEL: H6H00_05765(malQ)
+            APRE: CNX65_25430(malQ)
+            AMI: Amir_5116
+            SESP: BN6_61840
+            SSYI: EKG83_35295(malQ)
+            KAL: KALB_3110
+            KUT: JJ691_05840(malQ)
+            KBU: Q4V64_17225(malQ)
+            KPHY: AOZ06_15245
+            LED: BBK82_27990
+            AHM: TL08_07010
+            ACTI: UA75_06705
+            ACAD: UA74_06705
+            AHG: AHOG_06475(malQ)
+            ACTU: Actkin_02792(malQ)
+            CROS: N8J89_12400(malQ)
+            ACTY: OG774_29640
+            UME: RM788_40160(malQ)
+            MPRN: Q3V37_17240(malQ)
+            ASE: ACPL_3674(acbQ) ACPL_7581(malQ)
+            AMS: AMIS_73150
+            ACTN: L083_7238(acbQ)
+            AFS: AFR_38210
+            ACTS: ACWT_3546 ACWT_7451
+            AIH: Aiant_34200(malQ)
+            ACTR: Asp14428_58070(malQ)
+            ACTL: L3i22_099060(malQ)
+            ASIC: Q0Z83_018920(malQ_1) Q0Z83_096820(malQ_2)
+            AOU: ACTOB_007849(malQ)
+            PLK: CIK06_06845
+            ATL: Athai_37160(malQ)
+            ASER: Asera_36650(malQ)
+            PRY: Prubr_33410
+            DVC: Dvina_36325(malQ)
+            DFU: Dfulv_18655(malQ)
+            DROS: Drose_17850(malQ)
+            DAUR: Daura_35955(malQ)
+            DMAT: Dmats_31115(malQ)
+            CCAZ: COUCH_06330(malQ)
+            AHE: Arch_0469
+            ARCA: HC352_02325(malQ)
+            APHO: JTE88_02345(malQ)
+            APII: NG665_02160(malQ)
+            AWL: P8A24_06285(malQ)
+            ACAS: P7079_05815(malQ)
+            MCU: HMPREF0573_10190(malQ)
+            TPY: CQ11_02320
+            TPYO: X956_07370
+            TBW: NCTC13354_00431(malQ)
+            TPEC: HLG82_06580(malQ)
+            TBER: QPC17_06250(malQ)
+            ASG: FB03_00215
+            AUU: CJ184_001265(malQ)
+            ATIM: CYJ17_0005110(malQ)
+            ACTT: DDD63_08395(malQ)
+            AMY: ADJ76_03940
+            SOO: FBF35_04445(malQ)
+            STUC: G5S47_04735(malQ)
+            ACQ: AM609_03155
+            ARD: AXF14_08300
+            ACTP: B6G06_02200
+            ACTC: CHIBA101_1814
+            ACTO: C3V41_00420(malQ)
+            ANE: ATCC27039_14080
+            AHW: NCTC11636_00872(malQ)
+            ACTZ: CWT12_03520(malQ)
+            AIR: NCTC12972_01235(malQ)
+            ASLA: NCTC11923_01424(malQ)
+            AVC: NCTC10951_01273(malQ)
+            AWE: JG540_07210(malQ)
+            AMAM: HPC72_07655(malQ)
+            AREP: ID810_04235(malQ)
+            AGH: M3I41_03335(malQ)
+            AMAS: QU670_04700(malQ)
+            ACAP: MANAM107_02750(malQ)
+            AUO: R3I39_10560(malQ)
+            AVU: BK816_03060
+            FSL: EJO69_05260(malQ)
+            FLH: EJ997_06355(malQ)
+            WIK: H8R18_04880(malQ)
+            WNE: PIG85_07040(malQ)
+            GEU: CJ185_006005(malQ)
+            GHM: CJ187_002070(malQ)
+            BLO: BL0527(malQ) BL1570(malQ1)
+            BLJ: BLD_1321(malQ1) BLD_1692(malQ2)
+            BLN: Blon_0139 Blon_2246
+            BLON: BLIJ_0141 BLIJ_2318
+            BLF: BLIF_0104 BLIF_1758
+            BLL: BLJ_0110 BLJ_1761
+            BLB: BBMN68_1259(malQ1) BBMN68_1607(malQ2)
+            BLM: BLLJ_0114 BLLJ_1689
+            BLK: BLNIAS_00265(malQ1) BLNIAS_02655
+            BLG: BIL_04440 BIL_18320
+            BLZ: BLGT_00855 BLGT_09050
+            BLX: GS08_00595 GS08_09140
+            BAD: BAD_0308(malQ1) BAD_1560(malQ)
+            BADL: BADO_0317 BADO_1446
+            BADO: BBMN23_0338 BBMN23_1729
+            BLA: BLA_0353(malQ) BLA_0908(malQ)
+            BLC: Balac_0373 Balac_1567
+            BLT: Balat_0373 Balat_1567
+            BBB: BIF_00869(malQ) BIF_01314(malQ)
+            BBC: BLC1_0355 BLC1_1511
+            BNM: BALAC2494_00759 BALAC2494_01173
+            BLV: BalV_0358 BalV_1515
+            BLW: W7Y_0375 W7Y_1561
+            BLS: W91_0389 W91_1596
+            BANI: Bl12_0347 Bl12_1464
+            BANL: BLAC_01870 BLAC_07800
+            BNI: BANAN_01960 BANAN_07550
+            BANM: EN10_01890 EN10_07915
+            BDE: BDP_0418(malQ2) BDP_2201(malQ1)
+            BDN: BBDE_0400 BBDE_2069
+            BBP: BBPR_1571(malQ2)
+            BBI: BBIF_1514(malQ)
+            BBF: BBB_1549(malQ)
+            BBV: HMPREF9228_0116(malQ) HMPREF9228_1710(malQ)
+            BBRU: Bbr_0116(malQ1) Bbr_1650(malQ2)
+            BBRE: B12L_0107 B12L_1584
+            BBRV: B689b_0104 B689b_1685
+            BBRJ: B7017_0133 B7017_1852
+            BBRC: B7019_0113 B7019_1825
+            BBRN: B2258_0103 B2258_1665
+            BBRS: BS27_0130(malQ1) BS27_1637(malQ2)
+            BBRD: BBBR_0100 BBBR_1655
+            BTP: D805_1459 D805_1691
+            BKA: AH68_01730 AH68_09790
+            BKS: BBKW_0339 BBKW_1907
+            BCAT: BBCT_0297 BBCT_1618
+            BPSP: AH67_02020 AH67_08380
+            BANG: BBAG_0040 BBAG_1355
+            BPSC: BBPC_0326 BBPC_1726
+            BSCA: BBSC_0496 BBSC_2491
+            BCHO: BcFMB_02095 BcFMB_04285
+            BGX: ESN35_00010(malQ) ESN35_09040(malQ)
+            BLEM: BL8807_03550(malQ) BL8807_06235(malQ)
+            BEU: BE0216_05400(malQ) BE0216_08010(malQ)
+            BSUE: BS3272_01165(malQ)
+            BFJ: B19861_03070(malQ_1) B19861_17960(malQ_2)
+            GVG: HMPREF0421_20237(malQ) HMPREF0421_21288(malQ)
+            GVA: HMPREF0424_0251(malQ) HMPREF0424_1299(malQ)
+            GVH: HMPREF9231_0120(malQ) HMPREF9231_0237(malQ)
+            GPT: K9E43_02760(malQ) K9E43_04235(malQ)
+            GSW: K9E37_02880(malQ) K9E37_04375(malQ)
+            SIJ: SCIP_0186
+            PDO: PSDT_1349
+            BNK: KIM372_01490(malQ2)
+            RXY: Rxyl_0251
+            RRD: RradSPS_0087
+            BSOL: FSW04_08475
+            BALA: DSM104299_01242(malQ)
+            PARN: NBH00_16645
+            SBAE: DSM104329_03985(malQ)
+            ATQ: GH723_15220
+            AQZ: KSP35_06965(malQ)
+            IAM: HC251_22280
+            IMA: PO878_05575
+            DHI: LH044_00645(malQ)
+            SYN: sll1676(malQ)
+            SYZ: MYO_12240(malQ)
+            SYY: SYNGTS_0224(malQ)
+            SYT: SYNGTI_0224(malQ)
+            SYS: SYNPCCN_0224(malQ)
+            SYQ: SYNPCCP_0224(malQ)
+            SYJ: D082_17230(malQ)
+            SYO: C7I86_01155(malQ)
+            SYC: syc0527_c
+            SYU: M744_11590
+            SYF: Synpcc7942_1019
+            SYD: Syncc9605_1614
+            SYE: Syncc9902_1375
+            SYG: sync_1015(malQ)
+            SYR: SynRCC307_0775(malQ)
+            SYX: SynWH7803_1549(malQ)
+            CYA: CYA_2436(malQ)
+            CYB: CYB_1490(malQ)
+            SYNE: Syn6312_1827
+            SYNP: Syn7502_01550
+            SYNK: KR100_07635
+            SYNR: KR49_03480
+            SYND: KR52_08160
+            SYH: Syncc8109_1013(malQ)
+            SYNW: SynWH8103_01100(malQ)
+            SYNC: CB0101_12800(malQ)
+            SYNY: BM449_02320
+            DSL: Dacsa_2732
+            SYW: SYNW0962(malQ)
+            CGC: Cyagr_0230
+            CYI: CBM981_1200(malQ)
+            PMA: Pro_1116(malQ)
+            PMM: PMM1081(malQ)
+            PMT: PMT_1071
+            PMN: PMN2A_0669
+            PMI: PMT9312_1092
+            PMB: A9601_11871(malQ)
+            PMC: P9515_11711(malQ)
+            PMF: P9303_09791(malQ)
+            PMG: P9301_11881(malQ)
+            PMH: P9215_12171(malQ)
+            PMJ: P9211_11061(malQ)
+            PME: NATL1_15011(malQ)
+            PRC: EW14_1221
+            PRM: EW15_1562
+            WNA: KA717_17855(malQ)
+            CMP: Cha6605_5375
+            CYN: Cyan7425_1055
+            CEP: Cri9333_4145
+            TVN: NIES2134_123650
+            SLW: BRW62_05540
+            AMR: AM1_2103(malQ)
+            ACAM: HRE53_08245(malQ)
+            TEL: tlr0708
+            THN: NK55_10055(malQ)
+            THEC: FFX45_11990(malQ)
+            TSZ: OOK60_11390(malQ) OOK60_12810(malQ)
+            LEN: LEP3755_12340 LEP3755_51980
+            LET: O77CONTIG1_03572(malQ)
+            LBO: LBWT_10130 LBWT_2290
+            KOV: K9N68_16925(malQ)
+            LSC: KIK02_23555(malQ)
+            LSK: J5X98_13785(malQ)
+            HHG: XM38_016230(malQ)
+            PSEU: Pse7367_2593
+            PSER: ABRG53_1878(malQ)
+            PGX: OA858_09470(malQ)
+            THEU: HPC62_05405(malQ)
+            TOG: HNI00_09630(malQ)
+            TSIN: OXH18_03015(malQ) OXH18_20845(malQ) OXH18_24985(malQ)
+            GLP: Glo7428_1254
+            CHON: NIES4102_25770
+            GDU: P0S91_00295(malQ)
+            GEN: GM3709_2983
+            GEE: GM3708_2434
+            CAN: Cyan10605_2270
+            CSN: Cyast_0825
+            CYL: AA637_13375(malQ)
+            SYP: SYNPCC7002_A0330(malQ)
+            SYV: AWQ23_01800
+            SYL: AWQ21_01690
+            LEP: Lepto7376_4169
+            SYNN: NIES970_03870(malQ)
+            MAR: MAE_54130
+            MPK: VL20_3281
+            MIQ: B5D77_21945
+            MVZ: myaer102_26690
+            HAO: PCC7418_0457
+            ENN: FRE64_08130(malQ)
+            CYT: cce_1474(malQ)
+            CWA: CwatDRAFT_6305
+            CYP: PCC8801_1690
+            CYH: Cyan8802_1708
+            CYC: PCC7424_2921 PCC7424_4956
+            CYJ: Cyan7822_1182 Cyan7822_5145
+            TER: Tery_1296
+            ARP: NIES39_A04250(malQ) NIES39_K04110(malQ)
+            PAGH: NIES204_31620(malQ_1) NIES204_41750(malQ_2)
+            PPSU: NO713_02571(malQ) NO713_04543(malQ)
+            PRUN: PCC7821_00028(malQ) PCC7821_03253(malQ)
+            OXY: HCG48_02940(malQ)
+            MVAG: D0A34_06105(malQ)
+            LFS: HFV01_01985(malQ) HFV01_29515(malQ)
+            OAC: Oscil6304_0278 Oscil6304_0621
+            ONI: Osc7112_0611
+            MPRO: BJP34_25875
+            PHOR: JWS08_12220(malQ)
+            PYH: NEA10_00595(malQ)
+            MIC: Mic7113_5438
+            GEI: GEI7407_2769
+            GVI: gll3316
+            GLJ: GKIL_1685(malQ)
+            GML: ISF26_14550(malQ)
+            ANA: alr3871
+            NPU: Npun_F5814
+            NOS: Nos7107_4013
+            NOP: Nos7524_4606
+            NON: NOS3756_26010
+            NFL: COO91_02752
+            NOE: CLI64_26190(malQ)
+            NSH: GXM_03836
+            NED: HUN01_00685(malQ) HUN01_20775(malQ)
+            AVA: Ava_1822
+            NAZ: Aazo_1186
+            ANB: ANA_C13711(malQ)
+            ACY: Anacy_2658
+            AWA: AA650_10800
+            ANN: EH233_07555(malQ)
+            CSG: Cylst_5111
+            RSIN: B6N60_00986
+            HBQ: QI031_18700(malQ)
+            CALO: Cal7507_0836
+            CALT: Cal6303_5131
+            CALH: IJ00_12150
+            CALN: NIES2098_22330
+            CALS: NIES3974_14760
+            RIV: Riv7116_0795 Riv7116_2080
+            FIS: FIS3754_43900 FIS3754_48290
+            NSPH: BDGGKGIB_02095(malQ)
+            DOU: BMF77_03912(malQ)
+            DFS: HGD76_17545(malQ)
+            DHT: NG743_01240(malQ)
+            CCUR: IAR63_07560(malQ)
+            CRK: L3I90_08000(malQ)
+            AFLO: HEQ12_20265(malQ)
+            STOQ: K2F26_19015(malQ)
+            AEE: IM676_08190(malQ)
+            RCS: NIES932_05160
+            TOQ: HCG51_13700(malQ)
+            ALAX: NIES50_29880
+            NCN: BZZ01_25095
+            CTHE: Chro_0492 Chro_1514 Chro_2172
+            PLP: Ple7327_4089
+            SCS: Sta7437_2263
+            STAN: STA3757_00010
+            GLT: GlitD10_1253(malQ)
+            GCY: LQF76_01020(malQ)
+            CEO: ETSB_1720(malQ)
+            CER: RGRSB_1289(malQ)
+            CEEC: P3F56_08805(malQ)
+            DFO: Dform_01116(malQ)
+            DETH: HX448_05740(malQ)
+            RRS: RoseRS_1575 RoseRS_3111
+            RCA: Rcas_2645 Rcas_2968
+            CAU: Caur_3182 Caur_3875
+            CHL: Chy400_3434 Chy400_4186
+            CAG: Cagg_0433 Cagg_0906
+            HAU: Haur_2912
+            ATM: ANT_21030(malQ)
+            ABAT: CFX1CAM_1074(malQ)
+            PSUB: Pelsub_P1982
+            LEK: hrd7_29240
+            ABAO: BEQ56_08065
+            CAP: CLDAP_06880(malQ)
+            PBF: CFX0092_A3258(malQ)
+            TBH: Tbon_01185(malQ)
+            TFLA: O0235_12420(malQ)
+            TTR: Tter_0244
+            PMET: G4Y79_20240(malQ)
+            TRO: trd_1932(treY)
+            STI: Sthe_1074
+            DGE: Dgeo_0667
+            DDR: Deide_16980(malQ)
+            DMR: Deima_1678
+            DPT: Deipr_0830
+            DGO: DGo_CA1498
+            DPD: Deipe_3548
+            DSW: QR90_10735
+            DCH: SY84_01350
+            DAB: AUC44_08630
+            DPU: SU48_06925
+            DEZ: DKM44_13100(malQ)
+            DWU: DVJ83_05760(malQ)
+            DFC: DFI_09120
+            DEIN: DAAJ005_12835(malQ)
+            DGA: DEGR_15050
+            DPH: EHF33_08035(malQ)
+            DRD: LMT64_03765(malQ)
+            DRB: N0D28_05960(malQ)
+            DAH: DAETH_13940
+            DAQU: M8445_14825(malQ)
+            DTAE: LAJ19_05645(malQ)
+            DMB: E5F05_13070(malQ)
+            TRA: Trad_0604
+            TTH: TT_C0897
+            TTJ: TTHA1261(TTHA1261)
+            TTS: Ththe16_1275
+            TTL: TtJL18_0786
+            TSC: TSC_c08040(malQ)
+            THC: TCCBUS3UF1_9040
+            TOS: Theos_1280
+            TAQ: TO73_1369
+            TPAR: AV541_04410
+            TANT: KNN15_09030(malQ)
+            MRB: Mrub_1121
+            MRE: K649_05250
+            MTAI: Mtai_v1c18010
+            MSV: Mesil_1468
+            OPR: Ocepr_1302
+            VAB: WPS_04610(malQ)
+            CTR: CT_087(malQ)
+            CTD: CTDEC_0087(malQ)
+            CTF: CTDLC_0087(malQ)
+            CTRD: SOTOND1_00089
+            CTRO: SOTOND5_00089
+            CTRT: SOTOND6_00089
+            CTA: CTA_0092(malQ)
+            CTY: CTR_0861(malQ)
+            CRA: CTO_0092
+            CTRQ: A363_00090
+            CTRX: A5291_00089
+            CTRZ: A7249_00089
+            CTRP: L11322_00088
+            CTLJ: L1115_00088
+            CTLX: L1224_00088
+            CTLL: L1440_00088
+            CTB: CTL0342(malQ)
+            CTRR: L225667R_00088
+            CTLF: CTLFINAL_01805
+            CTLI: CTLINITIAL_01805
+            CTL: CTLon_0338(malQ)
+            CTRU: L2BUCH2_00088
+            CTRL: L2BLST_00088
+            CTRV: L2BCV204_00088
+            CTRM: L2BAMS1_00088
+            CTLA: L2BAMS2_00088
+            CTLM: L2BAMS3_00088
+            CTLS: L2BAMS4_00088
+            CTLZ: L2BAMS5_00088
+            CTLC: L2BCAN1_00090
+            CTLN: L2BCAN2_00088
+            CTLB: L2B795_00088
+            CTLQ: L2B8200_00088
+            CTO: CTL2C_191(malQ)
+            CTRN: L3404_00088
+            CTJ: JALI_0861(malQ)
+            CTZ: CTB_0861(malQ)
+            CTG: E11023_00455
+            CTK: E150_00460
+            CSW: SW2_0881(malQ)
+            CES: ESW3_0881(malQ)
+            CTRB: BOUR_00089
+            CTRE: SOTONE4_00089
+            CTRS: SOTONE8_00089
+            CTEC: EC599_0901(malQ)
+            CFS: FSW4_0881(malQ)
+            CFW: FSW5_0881(malQ)
+            CTFW: SWFP_0931(malQ)
+            CTRF: SOTONF3_00089
+            CTCH: O173_00470
+            CTN: G11074_00450
+            CTV: CTG9301_00450
+            CTW: G9768_00450
+            CTRG: SOTONG1_00088
+            CTRI: BN197_0881(malQ)
+            CTRA: BN442_0881(malQ)
+            CTRH: SOTONIA1_00089
+            CTRJ: SOTONIA3_00089
+            CTRK: SOTONK1_00089
+            CTJT: CTJTET1_00455
+            CTCF: CTRC69_00455
+            CTCJ: CTRC943_00450
+            CTHJ: CTRC953_00455
+            CTMJ: CTRC966_00460
+            CTTJ: CTRC971_00460
+            CTJS: CTRC122_00450
+            CTRC: CTRC55_00460
+            CTRW: CTRC3_00455
+            CTRY: CTRC46_00455
+            CTCT: CTW3_00465
+            CMU: TC_0362(malQ)
+            CMUR: Y015_01880
+            CMN: BB17_01920
+            CMM: NC80_01785
+            CMG: NC81_01800
+            CMX: DNC_01805
+            CMZ: TAC_01880
+            CPN: CPn_0326(malQ)
+            CPA: CP_0431
+            CPJ: malQ(malQ)
+            CPT: CpB0336
+            CLP: CPK_ORF00835(malQ)
+            CPM: G5S_0808(malQ)
+            CPEC: CPE3_0441(malQ)
+            CPEO: CPE1_0441(malQ)
+            CPER: CPE2_0441(malQ)
+            CHP: CPSIT_0495(malQ)
+            CHB: G5O_0492(malQ)
+            CHS: CPS0A_0502(malQ)
+            CHI: CPS0B_0499(malQ)
+            CHT: CPS0D_0501(malQ)
+            CHC: CPS0C_0504(malQ)
+            CHR: Cpsi_4481(malQ)
+            CPSC: B711_0531(malQ)
+            CPSN: B712_0500(malQ)
+            CPSB: B595_0530(malQ)
+            CPSG: B598_0502(malQ)
+            CPSM: B602_0498(malQ)
+            CPSI: B599_0495(malQ)
+            CPSV: B600_0531(malQ)
+            CPSW: B603_0506(malQ)
+            CPST: B601_0502(malQ)
+            CPSD: BN356_4521(malQ)
+            CPSA: AO9_02395
+            CAV: M832_02680(malQ)
+            CCA: CCA_00456(malQ)
+            CAB: CAB442(malQ)
+            CABO: AB7_4961(malQ)
+            CFE: CF0551(malQ)
+            CGZ: M787_004040
+            CHLA: C834K_0481(malQ)
+            CSUI: Chls_384(malQ)
+            CBUE: HBN95_03225
+            CSEE: C10C_0297(malQ)
+            CCRD: H9Q19_04770
+            CPAA: FI836_05035
+            PCU: PC_RS03580
+            PNL: PNK_1376(malQ)
+            PUV: PUV_07340(malQ)
+            NEY: NCS13_1_0650
+            WCH: wcw_0844 wcw_1954(malQ)
+            SNG: SNE_A17690(malQ-A) SNE_A17880(malQ-B)
+            RHAW: RHABOEDO_001339
+            RPOR: RHAB15C_0000944
+            OTE: Oter_0865 Oter_3276
+            OBG: Verru16b_01005(malQ_1) Verru16b_01109(malQ_2)
+            VBH: CMV30_02675 CMV30_18195(malQ)
+            OLE: K0B96_08390(malQ)
+            SLOM: PXH66_07030(malQ) PXH66_08360(malQ)
+            ELUT: CKA38_13065(malQ)
+            AAQW: K1X11_002655(malQ) K1X11_005745(malQ)
+            OBT: OPIT5_25515
+            CAA: Caka_0693
+            RUFI: K0V07_12815(malQ)
+            PUO: RZN69_12440(malQ) RZN69_13275(malQ)
+            PPHT: GA004_15430(malQ)
+            AMU: Amuc_1621
+            AGL: PYTT_0433
+            ABIW: Abiwalacus_01200(malQ)
+            AMAK: J5W79_09475
+            ROO: G5S37_01830(malQ) G5S37_17520
+            LUO: HHL09_04725 HHL09_25945
+            LAMB: KBB96_06835
+            SOA: G3M56_012620 G3M56_013475
+            VEG: SAMN05444156_1689 SAMN05444156_1992
+            MIN: Minf_0942(malQ)
+            MKC: kam1_972
+            MFH: MFUM_1138
+            MCAO: IT6_01900
+            MEAP: MTHMO_0741
+            VBA: IMCC26134_06610
+            RBA: RB4161(malQ)
+            PIR: VN12_01005(malQ)
+            RUL: UC8_47290(malQ)
+            RML: FF011L_38530(malQ)
+            ROL: CA51_36260(malQ)
+            RUV: EC9_38380(malQ)
+            RCF: Poly24_39210(malQ)
+            AHEL: Q31a_39840(malQ)
+            LCRE: Pla8534_09630(malQ)
+            AAGG: ETAA8_52440(malQ)
+            BVO: Pan97_15790(malQ_1) Pan97_33810(malQ_2)
+            BREM: PSR63_21250(malQ)
+            RLC: K227x_52190(malQ)
+            SMAM: Mal15_02880(malQ)
+            SNEP: Enr13x_01920(malQ)
+            TTF: THTE_2143
+            PLM: Plim_1410
+            PEH: Spb1_21100(malQ)
+            PLH: VT85_19895(malQ)
+            FMR: Fuma_03217(malQ)
+            GMR: GmarT_41710(malQ)
+            GIM: F1728_20035(malQ)
+            GPN: Pan110_50690(malQ)
+            GFM: Enr17x_03680(malQ_1) Enr17x_32480(malQ_2)
+            MRI: Mal4_10390(malQ)
+            CCOS: Pan44_09980(malQ)
+            PVAR: SH412_001496(malQ)
+            GES: VT84_16680(malQ)
+            GOG: C1280_15620(malQ)
+            GMS: SOIL9_25320
+            TIM: GMBLW1_10690
+            LRS: PX52LOC_05085(malQ)
+            FTJ: FTUN_8335
+            ULI: ETAA1_12990(malQ_1) ETAA1_18670(malQ_2)
+            TSPH: KIH39_22190(malQ)
+            SACI: Sinac_2913
+            PBOR: BSF38_04927
+            AGV: OJF2_65010(malQ)
+            TPLA: ElP_62540(malQ)
+            KST: KSMBR1_1066(malQ)
+            BROC: IPI25_06310(malQ)
+            BPIT: BPIT_25120
+            JET: L3J17_12820(malQ)
+            PCOR: KS4_20550(malQ)
+            MCAD: Pan265_24450(malQ)
+            ALUS: STSP2_01622(malQ)
+            PBAP: Pla133_29680(malQ)
+            TAER: GT409_15000(malQ)
+            VAI: BU251_04235
+            BBU: BB_0166(malQ)
+            BBZ: BbuZS7_0165(malQ)
+            BBN: BbuN40_0166(malQ)
+            BBJ: BbuJD1_0166(malQ)
+            BBUR: L144_00815
+            BGA: BG0164(malQ)
+            BGB: KK9_0164(malQ)
+            BGN: BgCN_0164
+            BGS: X921_03495
+            BGC: BLA33_03475
+            BAF: BAPKO_0167(malQ)
+            BAFZ: BafPKo_0163(malQ)
+            BAFH: BafHLJ01_0170(malQ)
+            BAFT: P612_00815
+            BAFE: BAFK78_162(malQ)
+            BBS: BbiDN127_0163(malQ)
+            BVT: P613_00825
+            BCHI: OY14_00800
+            BMAY: A7X70_00810
+            BTUD: QIA31_01330(malQ)
+            BKU: QIA22_01380(malQ)
+            BFF: QIA19_01340(malQ)
+            BLUS: QIA24_01510(malQ)
+            BAME: QIA01_00805(malQ)
+            BYN: QIA34_01370(malQ)
+            BJO: QIA21_01415(malQ)
+            BSPI: QIA25_01415(malQ)
+            BLAN: QIA23_01330(malQ)
+            BCAF: QIA17_01340(malQ)
+            BATN: QIA26_01320(malQ)
+            BCAZ: QIA18_01120(malQ)
+            BAND: QIA45_00800(malQ)
+            BSIN: QIA41_03470(malQ)
+            BTU: BT0166
+            BHR: BH0166
+            BHI: L283_00790
+            BDU: BDU_165(malQ)
+            BCW: Q7M_166
+            BMO: I871_00875
+            BMIY: RJ61_00785
+            BPAK: X966_00800
+            BANE: N187_00780
+            BTUR: DB313_00830(malQ)
+            BMAT: DB723_00800(malQ)
+            BCOI: bcCo53_000159(malQ)
+            BPUR: bpuSUM_000161(malQ)
+            BOQ: BKFM_00165(malQ)
+            BVW: bvRMA01_000159(malQ)
+            BFAI: BOFE_06950(malQ)
+            BNY: bhYOR_000159(malQ)
+            TDE: TDE_2387(malQ)
+            TSU: Tresu_0484 Tresu_2493
+            TBE: Trebr_0565 Trebr_2238
+            TPI: TREPR_0223(malQ) TREPR_0240
+            TPED: TPE_2456(malQ)
+            TPK: JO40_13190
+            TRM: JO41_04730 JO41_05890
+            TPHG: FUT81_06105(malQ) FUT81_06420
+            TRZ: GWP43_13105
+            TRC: DYE49_00200(malQ) DYE49_10205
+            TRI: DYE50_09430(malQ) DYE50_10830(malQ)
+            TPAV: HRQ91_00350 HRQ91_00890(malQ)
+            TMED: DWB79_04515 DWB79_05205(malQ)
+            TPER: IWA51_02505 IWA51_05185(malQ) IWA51_10855(malQ)
+            TSK: HRI97_06200(malQ)
+            TRP: ABH09_00685(malQ) ABH09_11760
+            SSM: Spirs_4115
+            SFC: Spiaf_0101 Spiaf_0688
+            SPER: EW093_09385
+            SLR: L21SP2_0023 L21SP2_0174
+            ECUL: PVA46_07690(malQ)
+            SBU: SpiBuddy_0770 SpiBuddy_1509
+            SGP: SpiGrapes_0315 SpiGrapes_1241
+            SASS: MUG09_04485(malQ) MUG09_08335(malQ)
+            SCC: Spico_0443 Spico_1597
+            TAZ: TREAZ_1811(malQ) TREAZ_2460
+            SCD: Spica_0444 Spica_2614
+            BHC: JFL75_05100
+            LBI: LEPBI_I1425(malQ)
+            LBF: LBF_1371(malQ)
+            LKB: LPTSP3_g13750
+            TAQU: KDW03_08125(malQ)
+            ABA: Acid345_1486 Acid345_2764
+            ACA: ACP_1061(malQ)
+            ACM: AciX9_1204
+            GMA: AciX8_1580
+            GRW: FTO74_06750(malQ)
+            GRB: GOB94_03470(malQ)
+            TSA: AciPR4_2212
+            TRS: Terro_1695
+            TALB: FTW19_12670(malQ)
+            ABAS: ACPOL_5755
+            EDA: GWR55_04205(malQ)
+            EDG: H7846_10870(malQ)
+            ADIN: H7849_10820(malQ)
+            ORP: MOP44_15695(malQ)
+            SUS: Acid_2892 Acid_5317
+            PFER: IRI77_31000(malQ)
+            CTM: Cabther_B0690
+            CVL: J8C06_11875(malQ)
+            CHLO: J8C02_12765(malQ)
+            ABAC: LuPra_00477(malQ_1) LuPra_04290(malQ_2)
+            LUB: TBR22_A04520(malQ) TBR22_A31890
+            SCOR: J3U87_05835(malQ)
+            EMI: Emin_0386
+            FNU: FN0858
+            FNC: HMPREF0946_00333
+            FNT: HMPREF0405_02148
+            FUS: HMPREF0409_00566
+            FNE: FSDG_00621
+            FHW: RN87_07555
+            FPD: CTM68_09640(malQ)
+            FVA: FV113G1_07800(malQ)
+            FUL: C4N20_02450(malQ)
+            FMO: C4N19_05695(malQ)
+            FGO: C4N16_06400(malQ)
+            FNF: BSQ88_05650(malQ)
+            FPEI: C4N17_02820(malQ)
+            FCI: I6I83_07375(malQ)
+            FHO: H9Q81_10020(malQ)
+            FPOL: ERS445057_01367(malQ)
+            IPO: Ilyop_1416
+            CSOM: MKD34_11185(malQ)
+            LBA: Lebu_1529
+            LEO: AMK43_03570
+            LOT: AXF11_09675
+            LEQ: BCB68_08265
+            LHF: JCM16775_1658
+            LSZ: JCM16776_1313
+            LHG: JMUB5056_0746
+            LTE: JMUB4039_1011
+            LWD: JCM16777_1251(malQ)
+            LGO: JCM16774_1680
+            STR: Sterm_2811
+            SMF: Smon_0420 Smon_0816
+            SNS: VC03_04835 VC03_05875
+            HABY: HLVA_18780
+            TAI: Taci_0364
+            CPOR: BED41_04230
+            ACO: Amico_0234
+            AMIZ: RBH88_09700(malQ)
+            AMO: Anamo_1751
+            ARAM: KAR29_02375(malQ)
+            FSU: Fisuc_0860
+            FSC: FSU_1304
+            GAU: GAU_0423(malQ)
+            GPH: GEMMAAP_02760
+            GGR: HKW67_13100(malQ)
+            GBA: J421_3811
+            BTH: BT_2146
+            BTHO: Btheta7330_00895(malQ)
+            BFR: BF3828
+            BFS: BF9343_3520
+            BFG: BF638R_3693
+            BFB: VU15_17190
+            BHL: Bache_0004
+            BXY: BXY_11370
+            BOA: Bovatus_02217(malQ)
+            BCEL: BcellWH2_01613(malQ)
+            BCAC: CGC64_00020
+            BCAE: A4V03_13835
+            BZG: C4H11_11540
+            BHF: C3V43_00135
+            BIS: DXK01_000145
+            BUN: Bun01g_00040
+            BEG: INE88_01142
+            BSTE: K6V31_07765
+            BFE: K6V30_00455
+            BNO: K8P02_13670
+            BHUM: JXR92_000020
+            BFC: BacF7301_00020
+            BSAL: K6V25_00020
+            BFIN: BFINE_00050
+            BVU: BVU_1387
+            BSA: Bacsa_0307 Bacsa_2062
+            BDO: EL88_01750
+            BDH: GV66_04445
+            PCOP: I6J50_16715
+            PGI: PG_0767(malQ)
+            PGN: PGN_0793
+            PGT: PGTDC60_1884(malQ)
+            PAH: Poras_0973
+            PCAG: NCTC12856_00945(malQ)
+            PSOE: CE91St14_17620
+            MICA: P0L94_14080(malQ)
+            PBT: ING2E5B_1065
+            PMUC: ING2E5A_1315(DPE2)
+            PET: PEIBARAKI_5155
+            PSAC: PSM36_1890
+            PROJ: KDN43_13005
+            APS: CFPG_444
+            PPN: Palpr_0895 Palpr_1284
+            PDI: BDI_0003
+            PARC: CI960_03120
+            PMER: INE87_01896
+            PGOL: K6V26_00795
+            PJO: LK449_01050
+            PFAI: NXY11_00015
+            TFO: BFO_2501
+            TOH: BCB71_04760
+            PARY: A4V02_02195
+            DUN: FDZ78_10385
+            DDB: E7747_01745
+            PII: NF347_10800
+            BVS: BARVI_00035
+            COPR: Cop2CBH44_00550
+            CFAS: Cfast33896_00050
+            PMZ: HMPREF0659_A5155
+            PDN: HMPREF9137_0726
+            PIT: PIN17_A0138
+            PDT: Prede_1113
+            PRO: HMPREF0669_01043
+            PFUS: ADJ77_05590
+            PJE: CRM71_00670
+            PNI: J5A59_06185
+            PMUF: J4864_04550
+            PHIS: J5A62_07570
+            PHER: prwr041_15150
+            PVF: J5A55_07560
+            PSCJ: J4856_06060
+            PCOU: L6468_02375
+            PBIV: QP022_02675
+            PRU: PRU_1371 PRU_2751
+            PCOI: LK433_03560
+            POC: NCTC13071_00989(malQ)
+            PBY: L6471_05450
+            SHOI: KUA50_009935
+            SBAO: L6469_10180
+            PEO: AS203_11275
+            PBUC: LK429_03015
+            ALQ: C7Y71_000275
+            PCLR: PC1C4_25770
+            AFD: Alfi_1942 Alfi_2354
+            ASH: AL1_00590
+            AOK: A3BBH6_03600
+            ACOU: A5CBH24_22850
+            ADA: A5CPEGH6_20500
+            RBC: BN938_3020
+            DORI: FH5T_21970
+            DRC: G0Q07_13225(malQ)
+            MCOS: GM418_17970(malQ)
+            ANF: AQPE_3352 AQPE_4107
+            CBAE: COR50_12760
+            CHIT: FW415_10460
+            COY: HF329_32730
+            NKO: Niako_2562
+            NSO: NIASO_07145
+            NIA: A8C56_10255
+            NYN: U0035_08600
+            FLA: SY85_02510
+            FGG: FSB75_03035
+            ARK: D6B99_10190
+            AGI: FSB73_18390 FSB73_18395
+            ATEE: K9M52_17015
+            ARAC: E0W69_003895
+            FLN: FLA_4078
+            PSEG: D3H65_12290
+            PGIN: FRZ67_21010
+            PGO: FSB84_22310
+            FLS: GLV81_04700
+            LACS: H4075_10440
+            FEI: K9M53_11215
+            FLP: LK994_14165
+            FLC: KJS93_06380
+            FLV: KJS94_05160
+            SEDT: TEGAF0_03240
+            HHY: Halhy_0045
+            CHU: CHU_2290(malQ)
+            SLI: Slin_5124
+            SRD: SD10_28010
+            SMON: AWR27_18970
+            SPIR: CWM47_11315(malQ)
+            SPIK: EXU85_00245(malQ)
+            SPIB: G8759_03715(malQ)
+            SRHO: HH216_09810(malQ)
+            SOQ: LQ777_22415(malQ)
+            SFOL: H3H32_29460(malQ)
+            SENF: GJR95_27935(malQ)
+            RHOZ: GXP67_24215(malQ)
+            FAE: FAES_4593
+            FIB: A6C57_13440
+            HSW: Hsw_4068
+            HYM: N008_09265
+            HYD: PK28_00900
+            HYE: AM218_15100
+            HYG: AUC43_07265
+            HYP: A0257_15680
+            HYZ: AXW84_00615
+            HNV: DDQ68_17025
+            HYH: D3Y59_12595
+            HYJ: FHG12_09575
+            HQI: H9L05_05945
+            HRS: HER32_09190
+            HBN: GUY19_13725
+            HTS: HMJ29_06495
+            HMT: MTP16_02995
+            HTB: MTX78_00365
+            HYK: O9Z63_16250
+            HSK: H4317_01190
+            HCW: O3303_14210
+            HSB: MWH26_17200
+            HAEI: MUN82_16755
+            HCU: MUN79_03875
+            HVL: MUN86_00165
+            HCF: MUN80_03965
+            PKO: PKOR_22405
+            PACT: CA264_11170
+            FLM: MY04_0880
+            FLL: EI427_08135
+            FYA: KMW28_11740
+            FKA: KM029_02385
+            CLIT: OQ292_20080
+            IRO: RT717_13130
+            FUA: LVD17_09800(malQ)
+            PRHO: PZB74_17520(malQ)
+            TPEL: P0M28_00545(malQ)
+            FAX: FUAX_32180
+            PPSV: PEPS_22580
+            ATK: AUTU_34680
+            AFLA: FHG64_00040(malQ) FHG64_18955(malQ)
+            ANP: FK178_04885(malQ)
+            SAHN: JRG66_14140(malQ)
+            FBA: FIC_00399
+            FBU: UJ101_02423(malQ)
+            ORH: Ornrh_1937
+            ORI: Q785_09545
+            OHM: MSHRCOH1_06320
+            EAO: BD94_0338
+            EMN: M876_00660
+            EEN: BBD30_04970
+            ELB: VO54_02253(malQ)
+            EMG: BBD33_01640
+            EGO: BBD34_11050
+            EGM: AYC65_15505
+            ELZ: FCS00_09015
+            ELIZ: JCR23_08385
+            CHZ: CHSO_0692(malQ)
+            CGN: OK18_10590
+            CIH: ATE47_14620
+            CHH: A0O34_06405
+            CIO: CEQ15_20865
+            CHRY: CEY12_17100
+            CPIP: CJF12_11755
+            CHRS: EAG08_08495
+            CHRZ: CO230_10375
+            CARH: EGY05_00195
+            CSHA: EG350_17825
+            CNK: EG343_16870
+            CJT: EG359_17580
+            CIL: EG358_03850
+            CCAU: EG346_03465
+            CBEN: EG339_08290
+            CGLE: NCTC11432_03887(malQ)
+            CTAI: NCTC12078_01534(malQ)
+            CLAC: EG342_08395
+            CTAK: 4412677_01246(malQ)
+            CSAL: NBC122_01452(malQ)
+            CBP: EB354_17645
+            CNP: M0D58_13585
+            CRHI: KB553_18595
+            CORZ: MTP08_02370
+            CSUP: MTP09_11995
+            CDAE: MUU74_02720
+            CCAB: PFY12_11585
+            CTUR: LNP04_13840
+            CHRJ: CHRYMOREF3P_3446
+            CORA: N0B40_13065
+            CGAM: PFY09_15555
+            CHRA: F7R58_01870
+            CHRC: QGN23_13075
+            CFLU: ODZ84_16695
+            CJG: NCTC13459_02554(malQ)
+            CCAS: EIB73_13000
+            CANT: NCTC13489_01689(malQ)
+            KDA: EIB71_03000
+            KHI: EG338_05765
+            KBE: J4771_07010
+            KFA: Q73A0000_10235
+            KAQ: L0B70_07405
+            CFAE: LL667_08550
+            EVA: EIB75_04355
+            EZE: KI430_09315
+            CBAU: H1R16_09280
+            CNR: EB819_09135
+            BPOR: BPO_0922(malQ)
+            CIV: IMZ16_04750
+            RMR: Rmar_1002
+            RMG: Rhom172_1864
+            RLO: GQ464_014440(malQ)
+            RBAR: AWN76_001140
+            SRU: SRU_0660(malQ)
+            SRM: SRM_00836(malQ)
+            IAL: IALB_0232(malQ)
+            MRO: MROS_2201
+            CPRV: CYPRO_0920
+            CACI: CLOAM1039
+            AAE: aq_723(malM)
+            HTH: HTH_0275(malQ)
+            HTE: Hydth_0272
+            TAL: Thal_1242
+            TRD: THERU_07405
+            TMA: TM0364
+            TMM: Tmari_0362
+            TMI: THEMA_02895
+            TMW: THMA_0372
+            TMQ: THMB_0372
+            TMX: THMC_0372
+            TPT: Tpet_0554
+            TRQ: TRQ2_0568
+            TFE: JYK00_04765
+            MAEO: JRV97_00810
+            CEX: CSE_09410(malQ)
+            TYE: THEYE_A0141(malQ)
+            DTP: JZK55_02260(malQ) JZK55_03330
+            NDE: NIDE1254(malQ)
+            NMV: NITMOv2_1162(malQ)
+            NIO: NITINOP_3204(malQ)
+            NJA: NSJP_2299(malQ)
+            NKF: Nkreftii_001460
+            NIF: W02_27430(malQ)
+            NTI: DNFV4_01608
+            NALL: PP769_09465(malQ) PP769_09945(malQ) PP769_13120(malQ)
+            NNEO: PQG83_03950(malQ) PQG83_20765(malQ)
+            ALAM: RT761_00324(malQ)
+            BANA: BARAN1_0766(malQ)
+            BIH: BIP78_0754
+            SCHV: BRCON_0250
+            MHU: Mhun_0552
+            MRTJ: KHC33_11600(malQ)
+            MEM: Memar_1054 Memar_1263
+            MBG: BN140_2209(malQ) BN140_2273
+            MEMA: MMAB1_2929(malQ) MMAB1_3004(malQ)
+            MCHK: MchiMG62_11870(malQ_1) MchiMG62_14610(malQ_2)
+            MSUM: OH143_00550(malQ) OH143_11995(malQ)
+            MRC: R6Y96_03810(malQ)
+            HALR: EFA46_011980(malQ)
+            HARA: AArcS_1519(malQ)
+            HMA: rrnAC1957(malQ)
+            HHI: HAH_2468(malQ)
+            HHN: HISP_12565
+            HAB: SG26_04870
+            HTA: BVU17_12005
+            HSIN: KDQ40_01035(malQ)
+            HUT: Huta_1049
+            HTI: HTIA_0916
+            HALA: Hrd1104_10100(malQ)
+            HASV: SVXHr_0560(malQ)
+            HABN: HBNXHr_0538(malQ)
+            HSN: DV733_08825(malQ)
+            HDS: HSR122_1596(malQ) HSR122_1607(malQ2)
+            HRR: HZS55_18120(malQ)
+            HPEL: HZS54_21670(malQ)
+            HLT: I7X12_17580(malQ)
+            HARC: HARCEL1_04985(malQ)
+            HWA: HQ_2578A(malQ)
+            HWC: Hqrw_2889(malQ)
+            HVO: HVO_1683(malQ)
+            HME: HFX_1774(malQ)
+            HGI: ABY42_08220
+            HALE: G3A49_11525(malQ)
+            HLS: KU306_13515(malQ)
+            HLN: SVXHx_1639(malq)
+            HBO: Hbor_15290
+            HLM: DV707_13235(malQ)
+            HALM: FCF25_15430(malQ)
+            HLA: Hlac_1505
+            HALP: DOS48_07240(malQ)
+            HALB: EKH57_02560(malQ)
+            HEZZ: EO776_08830(malQ)
+            HALQ: Hrr1229_014225(malQ)
+            HSS: J7656_07615(malQ)
+            HSAI: HPS36_12960(malQ)
+            HAZZ: KI388_06530(malQ)
+            SRUB: C2R22_02560(malQ)
+            HAE: halTADL_2529
+            HMP: K6T50_03150(malQ)
+            HRE: K6T36_03035(malQ)
+            HRM: K6T25_12300(malQ)
+            HACB: Hbl1158_10955(malQ)
+            HDF: AArcSl_1404(malQ)
+            NAS: GCU68_03470(malQ)
+            PARE: PYJP_05890(malQ)
+            PAI: PAE1209
+            PIS: Pisl_1316
+            PCL: Pcal_0768
+            PAS: Pars_0206
+            PYR: P186_2573
+            POG: Pogu_2273
+            TNE: Tneu_0235
+            PYW: PYWP30_00307
+            TUZ: TUZN_0346
+            ASC: ASAC_0898
+            ACIA: SE86_05155
+            LOB: NEF87_002452
+            PSYT: DSAG12_00495
+REFERENCE   PMID:7678257
+  AUTHORS   Takaha T, Yanase M, Okada S, Smith SM
+  TITLE     Disproportionating enzyme (4-alpha-glucanotransferase; EC 2.4.1.25) of potato. Purification, molecular cloning, and potential role in starch metabolism.
+  JOURNAL   J Biol Chem 268:1391-6 (1993)
+  SEQUENCE  [sot:102595076]
+REFERENCE   PMID:15034166
+  AUTHORS   Lloyd JR, Blennow A, Burhenne K, Kossmann J
+  TITLE     Repression of a novel isoform of disproportionating enzyme (stDPE2) in potato leads to inhibition of starch degradation in leaves but not tubers stored at low temperature.
+  JOURNAL   Plant Physiol 134:1347-54 (2004)
+            DOI:10.1104/pp.103.038026
+  SEQUENCE  [sot:102577807]
+///

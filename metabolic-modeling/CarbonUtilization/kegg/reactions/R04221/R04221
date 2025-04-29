@@ -1,0 +1,17 @@
+ENTRY       R04221                      Reaction
+NAME        cis-4-hydroxy-D-proline:oxygen oxidoreductase (deaminating)
+DEFINITION  cis-4-Hydroxy-D-proline + Oxygen <=> 1-Pyrroline-4-hydroxy-2-carboxylate + Hydrogen peroxide
+EQUATION    C03440 + C00007 <=> C04282 + C00027
+RCLASS      RC00135  C03440_C04282
+            RC02755  C00007_C00027
+ENZYME      1.4.3.3
+PATHWAY     rn00470  D-Amino acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.3
+                 R04221  cis-4-Hydroxy-D-proline + Oxygen <=> 1-Pyrroline-4-hydroxy-2-carboxylate + Hydrogen peroxide
+ORTHOLOGY   K00273  D-amino-acid oxidase [EC:1.4.3.3]
+///

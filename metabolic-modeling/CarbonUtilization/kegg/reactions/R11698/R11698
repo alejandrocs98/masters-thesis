@@ -1,0 +1,19 @@
+ENTRY       R11698                      Reaction
+NAME        S-adenosyl-L-methionine:3-(aminomethyl)indole N-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + 3-(Aminomethyl)indole <=> S-Adenosyl-L-homocysteine + (1H-Indol-3-yl)-N-methylmethanamine
+EQUATION    C00019 + C21601 <=> C00021 + C21602
+COMMENT     first step of two-step reaction (see R11697, R11698+R11699)
+            subsequently R11699
+RCLASS      RC00060  C21601_C21602
+ENZYME      2.1.1.340
+PATHWAY     rn00999  Biosynthesis of various plant secondary metabolites
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.340
+                 R11698  S-Adenosyl-L-methionine + 3-(Aminomethyl)indole <=> S-Adenosyl-L-homocysteine + (1H-Indol-3-yl)-N-methylmethanamine
+ORTHOLOGY   K21937  3-aminomethylindole N-methyltransferase [EC:2.1.1.340]
+DBLINKS     RHEA: 52271
+///

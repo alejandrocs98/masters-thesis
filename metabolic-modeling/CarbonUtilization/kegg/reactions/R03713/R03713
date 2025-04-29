@@ -1,0 +1,21 @@
+ENTRY       R03713                      Reaction
+NAME        11beta,21-dihydroxy-3,20-oxo-5beta-pregnan-18-al:NADP+ delta4-oxidoreductase
+DEFINITION  11beta,21-Dihydroxy-3,20-oxo-5beta-pregnan-18-al + NADP+ <=> Aldosterone + NADPH + H+
+EQUATION    C05473 + C00006 <=> C01780 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00145  C01780_C05473
+ENZYME      1.3.1.3
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.3
+                 R03713  11beta,21-Dihydroxy-3,20-oxo-5beta-pregnan-18-al + NADP+ <=> Aldosterone + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.3.1.3
+               R13168  3-Oxo-5beta-steroid <=> 3-Oxo-Delta4-steroid
+                R03713  11beta,21-Dihydroxy-3,20-oxo-5beta-pregnan-18-al <=> Aldosterone
+ORTHOLOGY   K00251  3-oxo-5-beta-steroid 4-dehydrogenase [EC:1.3.1.3]
+///

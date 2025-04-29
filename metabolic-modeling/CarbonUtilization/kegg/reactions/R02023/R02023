@@ -1,0 +1,24 @@
+ENTRY       R02023                      Reaction
+NAME        2'-deoxyuridine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase
+DEFINITION  dUTP + Thioredoxin disulfide + H2O <=> UTP + Thioredoxin
+EQUATION    C00460 + C00343 + C00001 <=> C00075 + C00342
+RCLASS      RC00013  C00342_C00343
+            RC00613  C00075_C00460
+ENZYME      1.17.4.2
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.17  Acting on CH or CH2 groups
+               1.17.4  With a disulfide as acceptor
+                1.17.4.2
+                 R02023  dUTP + Thioredoxin disulfide + H2O <=> UTP + Thioredoxin
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.17.4.2
+               R04315  Ribonucleoside triphosphate
+                R02023  dUTP <=> UTP
+ORTHOLOGY   K00524  ribonucleotide reductase, class II [EC:1.17.4.2]
+            K00527  ribonucleoside-triphosphate reductase (thioredoxin) [EC:1.17.4.2]
+///

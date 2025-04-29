@@ -1,0 +1,21 @@
+ENTRY       R12084                      Reaction
+NAME        ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing, vanadium-dependent)
+DEFINITION  12 Reduced ferredoxin + 12 H+ + Nitrogen + 40 ATP + 40 H2O <=> 12 Oxidized ferredoxin + 3 Hydrogen + 2 Ammonia + 40 ADP + 40 Orthophosphate
+EQUATION    12 C00138 + 12 C00080 + C00697 + 40 C00002 + 40 C00001 <=> 12 C00139 + 3 C00282 + 2 C00014 + 40 C00008 + 40 C00009
+RCLASS      RC02891  C00014_C00697
+ENZYME      1.18.6.2
+PATHWAY     rn00910  Nitrogen metabolism
+            rn01100  Metabolic pathways
+MODULE      M00175  Nitrogen fixation, nitrogen => ammonia
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.18  Acting on iron-sulfur proteins as donors
+               1.18.6  With dinitrogen as acceptor
+                1.18.6.2
+                 R12084  12 Reduced ferredoxin + 12 H+ + Nitrogen + 40 ATP + 40 H2O <=> 12 Oxidized ferredoxin + 3 Hydrogen + 2 Ammonia + 40 ADP + 40 Orthophosphate
+ORTHOLOGY   K22896  vanadium-dependent nitrogenase alpha chain [EC:1.18.6.2]
+            K22897  vanadium-dependent nitrogenase beta chain [EC:1.18.6.2]
+            K22898  vanadium nitrogenase delta subunit [EC:1.18.6.2]
+            K22899  vanadium nitrogenase iron protein
+DBLINKS     RHEA: 55543
+///

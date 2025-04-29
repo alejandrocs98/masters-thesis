@@ -1,0 +1,19 @@
+ENTRY       R00449                      Reaction
+NAME        L-lysine:oxygen 2-oxidoreductase (decarboxylating)
+DEFINITION  L-Lysine + Oxygen <=> 5-Aminopentanamide + CO2 + H2O
+EQUATION    C00047 + C00007 <=> C00990 + C00011 + C00001
+RCLASS      RC00213  C00047_C00990
+ENZYME      1.13.12.2
+PATHWAY     rn00310  Lysine degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00957  Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.13  Acting on single donors with incorporation of molecular oxygen (oxygenases)
+               1.13.12  With incorporation of one atom of oxygen (internal monooxygenases or internal mixed-function oxidases)
+                1.13.12.2
+                 R00449  L-Lysine + Oxygen <=> 5-Aminopentanamide + CO2 + H2O
+ORTHOLOGY   K00468  lysine 2-monooxygenase [EC:1.13.12.2]
+DBLINKS     RHEA: 14604
+///

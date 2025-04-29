@@ -1,0 +1,24 @@
+ENTRY       R01618                      Reaction
+NAME        APS:ATP adenylyltransferase
+DEFINITION  Adenylyl sulfate + ATP <=> Sulfate + P1,P4-Bis(5'-adenosyl)tetraphosphate
+EQUATION    C00224 + C00002 <=> C00059 + C01260
+RCLASS      RC00002  C00002_C01260
+            RC02795  C00224_C01260
+            RC02809  C00059_C00224
+ENZYME      2.7.7.53
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.7  Nucleotidyltransferases
+                2.7.7.53
+                 R01618  Adenylyl sulfate + ATP <=> Sulfate + P1,P4-Bis(5'-adenosyl)tetraphosphate
+ORTHOLOGY   K00988  sulfate adenylyltransferase (ADP) / ATP adenylyltransferase [EC:2.7.7.5 2.7.7.53]
+            K19710  ATP adenylyltransferase [EC:2.7.7.53]
+REFERENCE   1  [PMID:2840953]
+  AUTHORS   Guranowski A, Just G, Holler E, Jakubowski H.
+  TITLE     Synthesis of diadenosine 5',5'''-P1,P4-tetraphosphate (AppppA) from adenosine 5'-phosphosulfate and adenosine 5'-triphosphate catalyzed by yeast AppppA phosphorylase.
+  JOURNAL   Biochemistry 27:2959-64 (1988)
+            DOI:10.1021/bi00408a044
+///

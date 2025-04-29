@@ -1,0 +1,31 @@
+ENTRY       R01626                      Reaction
+NAME        malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase
+DEFINITION  Malonyl-CoA + Acyl-carrier protein <=> CoA + Malonyl-[acyl-carrier protein]
+EQUATION    C00083 + C00229 <=> C00010 + C01209
+RCLASS      RC00004  C00010_C00083
+            RC00039  C00229_C01209
+            RC02727  C00083_C01209
+ENZYME      2.3.1.39        2.3.1.85        2.3.1.86        2.3.1.-
+PATHWAY     rn00061  Fatty acid biosynthesis
+            rn01100  Metabolic pathways
+            rn01212  Fatty acid metabolism
+MODULE      M00082  Fatty acid biosynthesis, initiation
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.39
+                 R01626  Malonyl-CoA + Acyl-carrier protein <=> CoA + Malonyl-[acyl-carrier protein]
+                2.3.1.85
+                 R01626  Malonyl-CoA + Acyl-carrier protein <=> CoA + Malonyl-[acyl-carrier protein]
+                2.3.1.86
+                 R01626  Malonyl-CoA + Acyl-carrier protein <=> CoA + Malonyl-[acyl-carrier protein]
+                2.3.1.-
+                 R01626  Malonyl-CoA + Acyl-carrier protein <=> CoA + Malonyl-[acyl-carrier protein]
+ORTHOLOGY   K00645  [acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39]
+            K00665  fatty acid synthase, animal type [EC:2.3.1.85]
+            K00668  fatty acid synthase subunit beta, fungi type [EC:2.3.1.86]
+            K11533  fatty acid synthase, bacteria type [EC:2.3.1.-]
+            K13935  malonate decarboxylase epsilon subunit [EC:2.3.1.39]
+DBLINKS     RHEA: 41795
+///

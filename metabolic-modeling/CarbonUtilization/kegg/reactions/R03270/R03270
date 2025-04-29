@@ -1,0 +1,25 @@
+ENTRY       R03270                      Reaction
+DEFINITION  2-(alpha-Hydroxyethyl)thiamine diphosphate + Enzyme N6-(lipoyl)lysine <=> [Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine + Thiamin diphosphate
+EQUATION    C05125 + C15972 <=> C16255 + C00068
+COMMENT     2-oxoglutarate dehydrogenase complex: pyruvate dehydrogenase (see R01699)
+            second step of two-step reaction (R01699 or R00014+R03270)
+            following after R00014
+RCLASS      RC00027  C00068_C05125
+            RC00627  C15972_C16255
+            RC02882  C05125_C16255
+ENZYME      1.2.4.1
+PATHWAY     rn00010  Glycolysis / Gluconeogenesis
+            rn00020  Citrate cycle (TCA cycle)
+            rn00620  Pyruvate metabolism
+            rn00785  Lipoic acid metabolism
+MODULE      M00307  Pyruvate oxidation, pyruvate => acetyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.4  With a disulfide as acceptor
+                1.2.4.1
+                 R03270  2-(alpha-Hydroxyethyl)thiamine diphosphate + Enzyme N6-(lipoyl)lysine <=> [Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine + Thiamin diphosphate
+ORTHOLOGY   K00161  pyruvate dehydrogenase E1 component subunit alpha [EC:1.2.4.1]
+            K00162  pyruvate dehydrogenase E1 component subunit beta [EC:1.2.4.1]
+            K00163  pyruvate dehydrogenase E1 component [EC:1.2.4.1]
+///

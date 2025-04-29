@@ -1,0 +1,21 @@
+ENTRY       R01192                      Reaction
+NAME        UDP-alpha-D-galactose:myo-inositol 3-alpha-D-galactosyltransferase;
+            UDP-galactose:myo-inositol 1-alpha-D-galactosyltransferase
+DEFINITION  UDP-alpha-D-galactose + myo-Inositol <=> UDP + alpha-D-Galactosyl-(1->3)-1D-myo-inositol
+EQUATION    C00052 + C00137 <=> C00015 + C01235
+REMARK      Same as: R06214
+RCLASS      RC00005  C00015_C00052
+            RC00049  C00137_C01235
+            RC02748  C00052_C01235
+ENZYME      2.4.1.123
+PATHWAY     rn00052  Galactose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.123
+                 R01192  UDP-alpha-D-galactose + myo-Inositol <=> UDP + alpha-D-Galactosyl-(1->3)-1D-myo-inositol
+ORTHOLOGY   K18819  inositol 3-alpha-galactosyltransferase [EC:2.4.1.123]
+DBLINKS     RHEA: 12467
+///

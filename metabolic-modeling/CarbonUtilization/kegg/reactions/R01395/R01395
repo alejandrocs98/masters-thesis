@@ -1,0 +1,30 @@
+ENTRY       R01395                      Reaction
+NAME        ATP:carbamate phosphotransferase
+DEFINITION  ATP + Carbamate <=> ADP + Carbamoyl phosphate
+EQUATION    C00002 + C01563 <=> C00008 + C00169
+COMMENT     the first step of the two-step reaction (see R00150, R01395+R12185)
+            the last step of the multi-step reaction (see R00575, R00256+R10948+R10949+R01395)
+RCLASS      RC00002  C00002_C00008
+            RC00043  C00169_C01563
+ENZYME      2.7.2.2         6.3.5.5
+PATHWAY     rn00910  Nitrogen metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.2  Phosphotransferases with a carboxy group as acceptor
+                2.7.2.2
+                 R01395  ATP + Carbamate <=> ADP + Carbamoyl phosphate
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.5  Carbon-nitrogen ligases with glutamine as amido-N-donor
+                6.3.5.5
+                 R01395  ATP + Carbamate <=> ADP + Carbamoyl phosphate
+ORTHOLOGY   K00926  carbamate kinase [EC:2.7.2.2]
+            K01954  carbamoyl-phosphate synthase [EC:6.3.5.5]
+            K01955  carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]
+            K01956  carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]
+            K11540  carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase [EC:6.3.5.5 2.1.3.2 3.5.2.3]
+            K11541  carbamoyl-phosphate synthase / aspartate carbamoyltransferase [EC:6.3.5.5 2.1.3.2]
+DBLINKS     RHEA: 30758
+///

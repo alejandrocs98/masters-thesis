@@ -1,0 +1,27 @@
+ENTRY       R05234                      Reaction
+NAME        cis-3-chloro-2-propene-1-ol:NAD+ oxidoreductase
+DEFINITION  cis-3-Chloro-2-propene-1-ol + NAD+ <=> cis-3-Chloroallyl aldehyde + NADH + H+
+EQUATION    C06612 + C00003 <=> C16348 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00649  C06612_C16348
+ENZYME      1.1.1.1
+PATHWAY     rn00625  Chloroalkane and chloroalkene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.1
+                 R05234  cis-3-Chloro-2-propene-1-ol + NAD+ <=> cis-3-Chloroallyl aldehyde + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.1
+               R00623  Primary alcohol <=> Aldehyde
+                R05234  cis-3-Chloro-2-propene-1-ol <=> cis-3-Chloroallyl aldehyde
+ORTHOLOGY   K00001  alcohol dehydrogenase [EC:1.1.1.1]
+            K00121  S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1]
+            K04072  acetaldehyde dehydrogenase / alcohol dehydrogenase [EC:1.2.1.10 1.1.1.1]
+            K13953  alcohol dehydrogenase, propanol-preferring [EC:1.1.1.1]
+            K13954  alcohol dehydrogenase [EC:1.1.1.1]
+///

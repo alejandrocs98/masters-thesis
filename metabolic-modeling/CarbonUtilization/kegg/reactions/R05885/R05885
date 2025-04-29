@@ -1,0 +1,21 @@
+ENTRY       R05885                      Reaction
+NAME        S-adenosyl-L-methionine:16-hydroxytabersonine 16-O-methyltransferase
+DEFINITION  16-Hydroxytabersonine + S-Adenosyl-L-methionine <=> 16-Methoxytabersonine + S-Adenosyl-L-homocysteine + H+
+EQUATION    C11643 + C00019 <=> C11675 + C00021 + C00080
+COMMENT     Ref:1. J Plant Physiol 1986; 125: 147-156
+RCLASS      RC00003  C00019_C00021
+            RC00392  C11643_C11675
+ENZYME      2.1.1.94
+PATHWAY     rn00901  Indole alkaloid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00965  Vindoline biosynthesis, tabersonine => vindoline
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.94
+                 R05885  16-Hydroxytabersonine + S-Adenosyl-L-methionine <=> 16-Methoxytabersonine + S-Adenosyl-L-homocysteine + H+
+ORTHOLOGY   K21895  tabersonine 16-O-methyltransferase [EC:2.1.1.94]
+DBLINKS     RHEA: 20995
+///

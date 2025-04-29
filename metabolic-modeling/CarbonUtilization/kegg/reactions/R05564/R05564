@@ -1,0 +1,17 @@
+ENTRY       R05564                      Reaction
+DEFINITION  2 Atrazine + Oxygen <=> 2 Deisopropylatrazine + 2 Acetone
+EQUATION    2 C06551 + C00007 <=> 2 C06556 + 2 C00207
+COMMENT     AtrA,ThcB,ThcC,ThcD
+            Atrazine monooxygenase
+RCLASS      RC00444  C06551_C06556
+            RC01425  C00207_C06551
+ENZYME      1.14.15.-
+PATHWAY     rn00791  Atrazine degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.15  With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.15.-
+                 R05564  2 Atrazine + Oxygen <=> 2 Deisopropylatrazine + 2 Acetone
+///

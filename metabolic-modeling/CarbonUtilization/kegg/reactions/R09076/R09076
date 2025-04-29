@@ -1,0 +1,28 @@
+ENTRY       R09076                      Reaction
+NAME        spermidine:oxygen oxidoreductase (spermidine-forming)
+DEFINITION  Spermine + Oxygen + H2O <=> Spermidine + 3-Aminopropanal + Hydrogen peroxide
+EQUATION    C00750 + C00007 + C00001 <=> C00315 + C05665 + C00027
+RCLASS      RC00053  C00315_C00750
+            RC00225  C00750_C05665
+            RC02755  C00007_C00027
+ENZYME      1.5.3.16        1.5.3.17
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn00410  beta-Alanine metabolism
+            rn00770  Pantothenate and CoA biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00913  Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.3  With oxygen as acceptor
+                1.5.3.16
+                 R09076  Spermine + Oxygen + H2O <=> Spermidine + 3-Aminopropanal + Hydrogen peroxide
+                1.5.3.17
+                 R09076  Spermine + Oxygen + H2O <=> Spermidine + 3-Aminopropanal + Hydrogen peroxide
+ORTHOLOGY   K12259  spermine oxidase [EC:1.5.3.16 1.5.3.-]
+            K13366  polyamine oxidase [EC:1.5.3.14 1.5.3.16 1.5.3.-]
+            K13367  polyamine oxidase [EC:1.5.3.17]
+            K17839  polyamine oxidase [EC:1.5.3.17 1.5.3.-]
+DBLINKS     RHEA: 25807
+///

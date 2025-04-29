@@ -1,0 +1,22 @@
+ENTRY       R01574                      Reaction
+NAME        D-arabinose:NAD+ 1-oxidoreductase
+DEFINITION  D-Arabinose + NAD+ <=> D-Arabinono-1,4-lactone + NADH + H+
+EQUATION    C00216 + C00003 <=> C00652 + C00004 + C00080
+COMMENT     NADP+ (ec 1.1.1.117, see R01575)
+RCLASS      RC00001  C00003_C00004
+            RC00187  C00216_C00652
+ENZYME      1.1.1.116       1.1.1.117
+PATHWAY     rn00053  Ascorbate and aldarate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.116
+                 R01574  D-Arabinose + NAD+ <=> D-Arabinono-1,4-lactone + NADH + H+
+                1.1.1.117
+                 R01574  D-Arabinose + NAD+ <=> D-Arabinono-1,4-lactone + NADH + H+
+ORTHOLOGY   K00062  D-arabinose 1-dehydrogenase [EC:1.1.1.116]
+            K00063  D-arabinose 1-dehydrogenase [EC:1.1.1.117]
+DBLINKS     RHEA: 20460
+///

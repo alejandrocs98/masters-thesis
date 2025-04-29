@@ -1,0 +1,21 @@
+ENTRY       R06814                      Reaction
+NAME        UDP-D-xylose:flavonol-3-O-glycoside 2''-O-beta-D-xylosyltransferase
+DEFINITION  Isoquercitrin + UDP-D-xylose <=> Quercetin 3-O-[beta-D-xylosyl-(1->2)-beta-D-glucoside] + UDP
+EQUATION    C05623 + C00190 <=> C12637 + C00015
+COMMENT     flavonol-3-O-glycoside xylosyltransferase
+RCLASS      RC00005  C00015_C00190
+            RC00049  C05623_C12637
+ENZYME      2.4.2.35
+PATHWAY     rn00944  Flavone and flavonol biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.2  Pentosyltransferases
+                2.4.2.35
+                 R06814  Isoquercitrin + UDP-D-xylose <=> Quercetin 3-O-[beta-D-xylosyl-(1->2)-beta-D-glucoside] + UDP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.2.35
+               R03268  Flavonol 3-O-D-glycoside <=> Flavonol 3-O-D-xylosylglycoside
+                R06814  Isoquercitrin <=> Quercetin 3-O-[beta-D-xylosyl-(1->2)-beta-D-glucoside]
+///

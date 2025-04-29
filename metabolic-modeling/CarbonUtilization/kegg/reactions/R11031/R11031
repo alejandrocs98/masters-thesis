@@ -1,0 +1,20 @@
+ENTRY       R11031                      Reaction
+NAME        L-arginine:NAD+ oxidoreductase (deaminating)
+DEFINITION  5-Guanidino-2-oxopentanoate + NADH + H+ + Ammonia <=> L-Arginine + NAD+ + H2O
+EQUATION    C03771 + C00004 + C00080 + C00014 <=> C00062 + C00003 + C00001
+COMMENT     L-arginine dehydrogenase
+RCLASS      RC00001  C00003_C00004
+            RC00006  C00062_C03771
+ENZYME      1.4.1.25
+PATHWAY     rn00470  D-Amino acid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00947  D-Arginine racemization, D-arginine => L-arginine
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.1  With NAD+ or NADP+ as acceptor
+                1.4.1.25
+                 R11031  5-Guanidino-2-oxopentanoate + NADH + H+ + Ammonia <=> L-Arginine + NAD+ + H2O
+ORTHOLOGY   K19744  L-arginine dehydrogenase [EC:1.4.1.25]
+DBLINKS     RHEA: 47635
+///

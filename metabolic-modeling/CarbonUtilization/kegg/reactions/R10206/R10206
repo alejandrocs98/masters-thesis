@@ -1,0 +1,26 @@
+ENTRY       R10206                      Reaction
+NAME        methanesulfonate,FMNH2:oxygen oxidoreductase
+DEFINITION  Methanesulfonic acid + Reduced FMN + Oxygen <=> FMN + Sulfite + H2O + Formaldehyde
+EQUATION    C11145 + C01847 + C00007 <=> C00061 + C00094 + C00001 + C00067
+RCLASS      RC00126  C00061_C01847
+            RC02556  C00067_C11145
+ENZYME      1.14.14.5       1.14.14.34
+PATHWAY     rn00920  Sulfur metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.5
+                 R10206  Methanesulfonic acid + Reduced FMN + Oxygen <=> FMN + Sulfite + H2O + Formaldehyde
+                1.14.14.34
+                 R10206  Methanesulfonic acid + Reduced FMN + Oxygen <=> FMN + Sulfite + H2O + Formaldehyde
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.5
+               R07210  Alkanesulfonate <=> Aldehyde
+                R10206  Methanesulfonic acid <=> Formaldehyde
+ORTHOLOGY   K00299  FMN reductase [EC:1.5.1.38]
+            K04091  alkanesulfonate monooxygenase [EC:1.14.14.5 1.14.14.34]
+DBLINKS     RHEA: 29310
+///

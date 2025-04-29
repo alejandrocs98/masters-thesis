@@ -1,0 +1,26 @@
+ENTRY       R03816                      Reaction
+NAME        NADH:phylloquinone oxidoreductase
+DEFINITION  Phylloquinone + NADH + H+ <=> Phylloquinol + NAD+
+EQUATION    C02059 + C00004 + C00080 <=> C03313 + C00003
+RCLASS      RC00001  C00003_C00004
+            RC00819  C02059_C03313
+ENZYME      1.6.5.2
+PATHWAY     rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01240  Biosynthesis of cofactors
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.6  Acting on NADH or NADPH
+               1.6.5  With a quinone or similar compound as acceptor
+                1.6.5.2
+                 R03816  Phylloquinone + NADH + H+ <=> Phylloquinol + NAD+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.6.5.2
+               R07358  Quinone <=> Hydroquinone
+                R03816  Phylloquinone <=> Phylloquinol
+ORTHOLOGY   K00355  NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]
+            K03809  NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]
+            K19267  NAD(P)H dehydrogenase (quinone) [EC:1.6.5.2]
+///

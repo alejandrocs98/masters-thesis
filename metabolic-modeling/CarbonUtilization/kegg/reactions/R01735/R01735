@@ -1,0 +1,16 @@
+ENTRY       R01735                      Reaction
+NAME        (R)-lactaldehyde:NAD+ 2-oxidoreductase
+DEFINITION  (R)-Lactaldehyde + NAD+ + H2O <=> (R)-Lactate + NADH + H+
+EQUATION    C00937 + C00003 + C00001 <=> C00256 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00242  C00256_C00937
+ENZYME      1.2.1.23
+PATHWAY     rn00620  Pyruvate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.23
+                 R01735  (R)-Lactaldehyde + NAD+ + H2O <=> (R)-Lactate + NADH + H+
+///

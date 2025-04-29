@@ -1,0 +1,25 @@
+ENTRY       R00333                      Reaction
+NAME        nucleoside-triphosphate:AMP phosphotransferase
+DEFINITION  Nucleoside triphosphate + AMP <=> NDP + ADP
+EQUATION    C00201 + C00020 <=> C00454 + C00008
+COMMENT     general reaction
+RCLASS      RC00002  C00008_C00020  C00201_C00454
+ENZYME      2.7.4.10
+PATHWAY     rn00230  Purine metabolism
+            rn01110  Biosynthesis of secondary metabolites
+            rn01232  Nucleotide metabolism
+            rn01240  Biosynthesis of cofactors
+MODULE      M00049  Adenine ribonucleotide biosynthesis, IMP => ADP,ATP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.10
+                 R00333  Nucleoside triphosphate + AMP <=> NDP + ADP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.4.10
+               R00333  Nucleoside triphosphate <=> NDP
+ORTHOLOGY   K00944  nucleoside-triphosphate--adenylate kinase [EC:2.7.4.10]
+DBLINKS     RHEA: 13752
+///

@@ -1,0 +1,27 @@
+ENTRY       R00258                      Reaction
+NAME        L-alanine:2-oxoglutarate aminotransferase
+DEFINITION  L-Alanine + 2-Oxoglutarate <=> Pyruvate + L-Glutamate
+EQUATION    C00041 + C00026 <=> C00022 + C00025
+RCLASS      RC00006  C00025_C00026
+            RC00008  C00022_C00041
+ENZYME      2.6.1.2
+PATHWAY     rn00220  Arginine biosynthesis
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00710  Carbon fixation in photosynthetic organisms
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01230  Biosynthesis of amino acids
+MODULE      M00171  C4-dicarboxylic acid cycle, NAD - malic enzyme type
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.2
+                 R00258  L-Alanine + 2-Oxoglutarate <=> Pyruvate + L-Glutamate
+ORTHOLOGY   K00814  alanine transaminase [EC:2.6.1.2]
+            K14260  alanine-synthesizing transaminase [EC:2.6.1.66 2.6.1.2]
+            K14272  glutamate--glyoxylate aminotransferase [EC:2.6.1.4 2.6.1.2 2.6.1.44]
+DBLINKS     RHEA: 19456
+///

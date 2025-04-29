@@ -1,0 +1,19 @@
+ENTRY       R07489                      Reaction
+NAME        beta-sitosterol,NADPH:oxygen oxidoreductase (22,23-dehydrogenating)
+DEFINITION  beta-Sitosterol + NADPH + H+ + Oxygen <=> Stigmasterol + NADP+ + 2 H2O
+EQUATION    C01753 + C00005 + C00080 + C00007 <=> C05442 + C00006 + 2 C00001
+RCLASS      RC00001  C00005_C00006
+            RC01886  C01753_C05442
+ENZYME      1.14.19.41
+PATHWAY     rn00100  Steroid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.41
+                 R07489  beta-Sitosterol + NADPH + H+ + Oxygen <=> Stigmasterol + NADP+ + 2 H2O
+ORTHOLOGY   K09832  sterol 22-desaturase [EC:1.14.19.41]
+DBLINKS     RHEA: 46579
+///

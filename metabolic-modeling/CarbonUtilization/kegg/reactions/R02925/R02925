@@ -1,0 +1,22 @@
+ENTRY       R02925                      Reaction
+NAME        D-sorbitol:(acceptor) 1-oxidoreductase
+DEFINITION  D-Sorbitol + FAD <=> FADH2 + L-Sorbose
+EQUATION    C00794 + C00016 <=> C01352 + C00247
+RCLASS      RC00102  C00247_C00794
+            RC00126  C00016_C01352
+ENZYME      1.1.99.21
+PATHWAY     rn00051  Fructose and mannose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.99  With unknown physiological acceptors
+                1.1.99.21
+                 R02925  D-Sorbitol + FAD <=> FADH2 + L-Sorbose
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.99.21
+               R01697  Acceptor <=> Reduced acceptor
+                R02925  FAD <=> FADH2
+ORTHOLOGY   K08261  D-sorbitol dehydrogenase (acceptor) [EC:1.1.99.21]
+///

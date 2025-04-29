@@ -1,0 +1,17 @@
+ENTRY       R00865                      Reaction
+NAME        D-mannitol:ferricytochrome-c 2-oxidoreductase
+DEFINITION  Mannitol + 2 Ferricytochrome c <=> D-Fructose + 2 Ferrocytochrome c + 2 H+
+EQUATION    C00392 + 2 C00125 <=> C00095 + 2 C00126 + 2 C00080
+RCLASS      RC00016  C00125_C00126
+            RC00085  C00095_C00392
+ENZYME      1.1.2.2
+PATHWAY     rn00051  Fructose and mannose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.2  With a cytochrome as acceptor
+                1.1.2.2
+                 R00865  Mannitol + 2 Ferricytochrome c <=> D-Fructose + 2 Ferrocytochrome c + 2 H+
+DBLINKS     RHEA: 17600
+///

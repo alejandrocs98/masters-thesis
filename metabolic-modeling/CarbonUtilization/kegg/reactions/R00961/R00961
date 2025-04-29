@@ -1,0 +1,37 @@
+ENTRY       R00961                      Reaction
+NAME        IDP phosphohydrolase;
+            inosine diphosphate phosphatase
+DEFINITION  IDP + H2O <=> IMP + Orthophosphate
+EQUATION    C00104 + C00001 <=> C00130 + C00009
+RCLASS      RC00002  C00104_C00130
+ENZYME      3.6.1.5         3.6.1.6         3.6.1.64
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.5
+                 R00961  IDP + H2O <=> IMP + Orthophosphate
+                3.6.1.6
+                 R00961  IDP + H2O <=> IMP + Orthophosphate
+                3.6.1.64
+                 R00961  IDP + H2O <=> IMP + Orthophosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.6.1.5
+               R10442  NDP <=> Nucleoside 5'-phosphate
+                R00961  IDP <=> IMP
+              3.6.1.6
+               R00329  NDP <=> Nucleotide
+                R00961  IDP <=> IMP
+ORTHOLOGY   K01510  apyrase [EC:3.6.1.5]
+            K01511  ectonucleoside triphosphate diphosphohydrolase 5/6 [EC:3.6.1.6]
+            K12304  soluble calcium-activated nucleotidase 1 [EC:3.6.1.6]
+            K12305  ectonucleoside triphosphate diphosphohydrolase 4 [EC:3.6.1.6]
+            K14641  apyrase [EC:3.6.1.5]
+            K14642  golgi apyrase [EC:3.6.1.5]
+            K16855  U8 snoRNA-decapping enzyme [EC:3.6.1.62 3.6.1.64]
+DBLINKS     RHEA: 35210
+///

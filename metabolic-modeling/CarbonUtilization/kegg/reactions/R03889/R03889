@@ -1,0 +1,20 @@
+ENTRY       R03889                      Reaction
+NAME        2-aminomuconate semialdehyde:NAD+ 6-oxidoreductase
+DEFINITION  2-Aminomuconate semialdehyde + NAD+ + H2O <=> 2-Aminomuconate + H+ + NADH
+EQUATION    C03824 + C00003 + C00001 <=> C02220 + C00080 + C00004
+RCLASS      RC00001  C00003_C00004
+            RC00218  C02220_C03824
+ENZYME      1.2.1.32
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+MODULE      M00038  Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.32
+                 R03889  2-Aminomuconate semialdehyde + NAD+ + H2O <=> 2-Aminomuconate + H+ + NADH
+ORTHOLOGY   K10217  aminomuconate-semialdehyde/2-hydroxymuconate-6-semialdehyde dehydrogenase [EC:1.2.1.32 1.2.1.85]
+            K23234  aminomuconate-semialdehyde dehydrogenase [EC:1.2.1.32]
+DBLINKS     RHEA: 14472
+///

@@ -1,0 +1,18 @@
+ENTRY       R10417                      Reaction
+NAME        kanamycin-A:NADP+ oxidoreductase
+DEFINITION  Kanamycin A + NADP+ <=> 2'-Dehydrokanamycin A + NADPH + H+
+EQUATION    C01822 + C00006 <=> C20509 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00182  C01822_C20509
+ENZYME      1.1.1.355
+PATHWAY     rn00524  Neomycin, kanamycin and gentamicin biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.355
+                 R10417  Kanamycin A + NADP+ <=> 2'-Dehydrokanamycin A + NADPH + H+
+ORTHOLOGY   K20152  2'-dehydrokanamycin reductase [EC:1.1.1.355]
+DBLINKS     RHEA: 35838
+///

@@ -1,0 +1,30 @@
+ENTRY       R11107                      Reaction
+DEFINITION  Aminopyrrolnitrin + 2 NADPH + 2 Oxygen + 2 H+ <=> Pyrrolnitrin + 2 NADP+ + 2 H2O
+EQUATION    C21109 + 2 C00005 + 2 C00007 + 2 C00080 <=> C12491 + 2 C00006 + 2 C00001
+COMMENT     three-step reaction (monooxygenation, dehydrogenation and monooxygenation again)
+            incomplete reaction (unidentified acceptor in dehydrogenation)
+RCLASS      RC00001  C00005_C00006
+            RC01333  C12491_C21109
+ENZYME      1.14.13.-
+PATHWAY     rn00404  Staurosporine biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00790  Pyrrolnitrin biosynthesis, tryptophan => pyrrolnitrin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R11107  Aminopyrrolnitrin + 2 NADPH + 2 Oxygen + 2 H+ <=> Pyrrolnitrin + 2 NADP+ + 2 H2O
+ORTHOLOGY   K19982  aminopyrrolnitrin oxygenase [EC:1.14.13.-]
+REFERENCE   1  [PMID:16923884]
+  AUTHORS   Lee JK, Ang EL, Zhao H
+  TITLE     Probing the substrate specificity of aminopyrrolnitrin oxygenase (PrnD) by mutational analysis.
+  JOURNAL   J Bacteriol 188:6179-83 (2006)
+            DOI:10.1128/JB.00259-06
+REFERENCE   2  [PMID:16342311]
+  AUTHORS   Lee J, Zhao H.
+  TITLE     Mechanistic studies on the conversion of arylamines into arylnitro compounds by aminopyrrolnitrin oxygenase: identification of intermediates and kinetic studies.
+  JOURNAL   Angew Chem Int Ed Engl 45:622-5 (2006)
+            DOI:10.1002/anie.200502903
+///

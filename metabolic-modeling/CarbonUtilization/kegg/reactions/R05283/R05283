@@ -1,0 +1,19 @@
+ENTRY       R05283                      Reaction
+NAME        6-hydroxyhexanoate:NAD+ oxidoreductase
+DEFINITION  6-Hydroxyhexanoic acid + NAD+ <=> Adipate semialdehyde + NADH + H+
+EQUATION    C06103 + C00003 <=> C06102 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00087  C06102_C06103
+ENZYME      1.1.1.258
+PATHWAY     rn00930  Caprolactam degradation
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.258
+                 R05283  6-Hydroxyhexanoic acid + NAD+ <=> Adipate semialdehyde + NADH + H+
+ORTHOLOGY   K19961  6-hydroxyhexanoate dehydrogenase [EC:1.1.1.258]
+DBLINKS     RHEA: 14228
+///

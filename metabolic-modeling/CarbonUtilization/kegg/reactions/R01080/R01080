@@ -1,0 +1,30 @@
+ENTRY       R01080                      Reaction
+NAME        uridine ribohydrolase
+DEFINITION  Uridine + H2O <=> Uracil + D-Ribose
+EQUATION    C00299 + C00001 <=> C00106 + C00121
+RCLASS      RC00063  C00106_C00299
+            RC00318  C00121_C00299
+ENZYME      3.2.2.3         3.2.2.8
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.2  Glycosylases
+               3.2.2  Hydrolysing N-glycosyl compounds
+                3.2.2.3
+                 R01080  Uridine + H2O <=> Uracil + D-Ribose
+                3.2.2.8
+                 R01080  Uridine + H2O <=> Uracil + D-Ribose
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.2.2.8
+               R02172  Pyrimidine nucleoside <=> Pyrimidine
+                R01080  Uridine <=> Uracil
+ORTHOLOGY   K01240  uridine nucleosidase [EC:3.2.2.3]
+            K01250  pyrimidine-specific ribonucleoside hydrolase [EC:3.2.2.-]
+            K10213  ribosylpyrimidine nucleosidase [EC:3.2.2.8]
+            K12700  non-specific riboncleoside hydrolase [EC:3.2.2.-]
+            K25589  inosine/uridine nucleosidase [EC:3.2.2.2 3.2.2.3]
+DBLINKS     RHEA: 15580
+///

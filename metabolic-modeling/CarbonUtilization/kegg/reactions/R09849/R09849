@@ -1,0 +1,20 @@
+ENTRY       R09849                      Reaction
+NAME        CTP:2-trans,6-trans-farnesol O-phosphotransferase
+DEFINITION  (2E,6E)-Farnesol + CTP <=> trans,trans-Farnesyl phosphate + CDP
+EQUATION    C01126 + C00063 <=> C20121 + C00112
+COMMENT     farnesol kinase
+            ATP, GTP and UTP can act as phosphate-donor
+RCLASS      RC00002  C00063_C00112
+            RC00017  C01126_C20121
+ENZYME      2.7.1.216
+PATHWAY     rn00900  Terpenoid backbone biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.216
+                 R09849  (2E,6E)-Farnesol + CTP <=> trans,trans-Farnesyl phosphate + CDP
+ORTHOLOGY   K15892  farnesol kinase [EC:2.7.1.216]
+DBLINKS     RHEA: 51683
+///

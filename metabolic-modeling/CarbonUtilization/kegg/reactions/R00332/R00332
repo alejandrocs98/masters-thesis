@@ -1,0 +1,19 @@
+ENTRY       R00332                      Reaction
+NAME        ATP:GMP phosphotransferase
+DEFINITION  ATP + GMP <=> ADP + GDP
+EQUATION    C00002 + C00144 <=> C00008 + C00035
+RCLASS      RC00002  C00002_C00008  C00035_C00144
+ENZYME      2.7.4.8
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00050  Guanine ribonucleotide biosynthesis, IMP => GDP,GTP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.8
+                 R00332  ATP + GMP <=> ADP + GDP
+ORTHOLOGY   K00942  guanylate kinase [EC:2.7.4.8]
+DBLINKS     RHEA: 20783
+///

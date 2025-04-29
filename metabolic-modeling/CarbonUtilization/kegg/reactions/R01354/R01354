@@ -1,0 +1,20 @@
+ENTRY       R01354                      Reaction
+NAME        ATP:propanoate adenylyltransferase
+DEFINITION  ATP + Propanoate <=> Diphosphate + Propionyladenylate
+EQUATION    C00002 + C00163 <=> C00013 + C05983
+COMMENT     the first step of two-step reaction (see R00925, R01354+R00926)
+            subsequently R00926
+RCLASS      RC00043  C00163_C05983
+ENZYME      6.2.1.1         6.2.1.17
+PATHWAY     rn00640  Propanoate metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.1
+                 R01354  ATP + Propanoate <=> Diphosphate + Propionyladenylate
+                6.2.1.17
+                 R01354  ATP + Propanoate <=> Diphosphate + Propionyladenylate
+ORTHOLOGY   K01895  acetyl-CoA synthetase [EC:6.2.1.1]
+            K01908  propionyl-CoA synthetase [EC:6.2.1.17]
+///

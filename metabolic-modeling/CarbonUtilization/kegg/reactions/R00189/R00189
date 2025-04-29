@@ -1,0 +1,23 @@
+ENTRY       R00189                      Reaction
+NAME        deamido-NAD+:ammonia ligase (AMP-forming)
+DEFINITION  ATP + Deamino-NAD+ + Ammonia <=> AMP + Diphosphate + NAD+
+EQUATION    C00002 + C00857 + C00014 <=> C00020 + C00013 + C00003
+RCLASS      RC00100  C00003_C00857
+ENZYME      6.3.1.5         6.3.5.1
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00115  NAD biosynthesis, aspartate => quinolinate => NAD
+            M00912  NAD biosynthesis, tryptophan => quinolinate => NAD
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.1  Acid-D-ammonia (or amine) ligases (amide synthases)
+                6.3.1.5
+                 R00189  ATP + Deamino-NAD+ + Ammonia <=> AMP + Diphosphate + NAD+
+               6.3.5  Carbon-nitrogen ligases with glutamine as amido-N-donor
+                6.3.5.1
+                 R00189  ATP + Deamino-NAD+ + Ammonia <=> AMP + Diphosphate + NAD+
+ORTHOLOGY   K01916  NAD+ synthase [EC:6.3.1.5]
+DBLINKS     RHEA: 21191
+///

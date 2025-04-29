@@ -1,0 +1,30 @@
+ENTRY       R02340                      Reaction
+NAME        (1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase
+DEFINITION  Indoleglycerol phosphate <=> Indole + D-Glyceraldehyde 3-phosphate
+EQUATION    C03506 <=> C00463 + C00118
+COMMENT     a part of multi-step reaction (ec 4.2.1.20, see R02722, R02340+R00674)
+RCLASS      RC00700  C00118_C03506
+            RC00701  C00463_C03506
+ENZYME      4.1.2.8         4.2.1.20
+PATHWAY     rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn00402  Benzoxazinoid biosynthesis
+            rn00999  Biosynthesis of various plant secondary metabolites
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00952  Benzoxazinoid biosynthesis, indoleglycerol phosphate => DIMBOA-glucoside
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.2  Aldehyde-lyases
+                4.1.2.8
+                 R02340  Indoleglycerol phosphate <=> Indole + D-Glyceraldehyde 3-phosphate
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.20
+                 R02340  Indoleglycerol phosphate <=> Indole + D-Glyceraldehyde 3-phosphate
+ORTHOLOGY   K01695  tryptophan synthase alpha chain [EC:4.2.1.20]
+            K01696  tryptophan synthase beta chain [EC:4.2.1.20]
+            K06001  tryptophan synthase beta chain [EC:4.2.1.20]
+            K13222  indole-3-glycerol-phosphate lyase [EC:4.1.2.8]
+DBLINKS     RHEA: 14084
+///

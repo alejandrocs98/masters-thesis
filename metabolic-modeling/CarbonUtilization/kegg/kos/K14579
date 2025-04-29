@@ -1,0 +1,110 @@
+ENTRY       K14579                      KO
+SYMBOL      nahAc, ndoB, nbzAc, dntAc
+NAME        naphthalene 1,2-dioxygenase subunit alpha [EC:1.14.12.12 1.14.12.23 1.14.12.24]
+PATHWAY     map00624  Polycyclic aromatic hydrocarbon degradation
+            map00626  Naphthalene degradation
+            map00627  Aminobenzoate degradation
+            map00633  Nitrotoluene degradation
+            map00642  Ethylbenzene degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00534  Naphthalene degradation, naphthalene => salicylate
+REACTION    R02968  naphthalene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R05422  fluorene,NADH:oxygen oxidoreductase
+            R05423  
+            R05424  
+            R05425  
+            R05426  
+            R05427  
+            R06909  naphthalene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R06930  naphthalene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R06937  naphthalene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R07704  anthracene,NADH:oxygen oxidoreductase (1,2-hydroxylating)
+            R07706  nitrobenzene 1,2-dioxygenase
+            R09159  
+            R09233  2,4-dinitrotoluene,NADH:oxygen oxidoreductase (4,5-hydroxylating, nitrite-releasing)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00627 Aminobenzoate degradation
+                K14579  nahAc, ndoB, nbzAc, dntAc; naphthalene 1,2-dioxygenase subunit alpha
+               00633 Nitrotoluene degradation
+                K14579  nahAc, ndoB, nbzAc, dntAc; naphthalene 1,2-dioxygenase subunit alpha
+               00642 Ethylbenzene degradation
+                K14579  nahAc, ndoB, nbzAc, dntAc; naphthalene 1,2-dioxygenase subunit alpha
+               00626 Naphthalene degradation
+                K14579  nahAc, ndoB, nbzAc, dntAc; naphthalene 1,2-dioxygenase subunit alpha
+               00624 Polycyclic aromatic hydrocarbon degradation
+                K14579  nahAc, ndoB, nbzAc, dntAc; naphthalene 1,2-dioxygenase subunit alpha
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.12  With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into the other donor
+                1.14.12.12  naphthalene 1,2-dioxygenase
+                 K14579  nahAc, ndoB, nbzAc, dntAc; naphthalene 1,2-dioxygenase subunit alpha
+                1.14.12.23  nitroarene dioxygenase
+                 K14579  nahAc, ndoB, nbzAc, dntAc; naphthalene 1,2-dioxygenase subunit alpha
+                1.14.12.24  2,4-dinitrotoluene dioxygenase
+                 K14579  nahAc, ndoB, nbzAc, dntAc; naphthalene 1,2-dioxygenase subunit alpha
+            Dioxygenases [br01602.html]
+             Dioxygenases in aromatic ring cleavage
+              K14579
+DBLINKS     GO: 0018625
+GENES       PPI: ND055(nahAc)
+            PFK: PFAS1_28610
+            PSC: A458_06725
+            PSTU: UIB01_22625
+            PBM: CL52_14610
+            ALT: ambt_17895
+            CYQ: Q91_2226
+            CZA: CYCME_2544
+            CYY: CPC19_01670
+            FCE: JN531_005655
+            GBI: PG2T_11300
+            RMN: TK49_07945
+            BMK: DM80_1443(ndoB)
+            BUQ: AC233_10850 AC233_11010
+            BFN: OI25_3057(ndoB)
+            PARB: CJU94_38660
+            PNA: Pnap_2485
+            AJS: Ajs_3092
+            ACID: CBP33_05315
+            ACIP: CBP36_05765
+            ACIN: CBP34_05150
+            ACIS: CBP35_13180
+            DEL: DelCs14_1743
+            MASW: AM586_27555
+            RBU: PG1C_04275 PG1C_06465
+            NAR: Saro_3901
+            NPP: PP1Y_AT15992 PP1Y_AT31065
+            NPN: JI59_12270 JI59_24755
+            SBAR: H5V43_22625
+            SPHY: CHN51_07270
+            CNA: AB433_10400 AB433_18005
+            ERY: CP97_14005
+            AG: AAB09766(dntAc) AAL76202(nbzAc) AAO64274(nahAc) ADQ90222(cnbAc) AGH09226(mntAc)
+REFERENCE   PMID:8486285
+  AUTHORS   Simon MJ, Osslund TD, Saunders R, Ensley BD, Suggs S, Harcourt A, Suen WC, Cruden DL, Gibson DT, Zylstra GJ
+  TITLE     Sequences of genes encoding naphthalene dioxygenase in Pseudomonas putida strains G7 and NCIB 9816-4.
+  JOURNAL   Gene 127:31-7 (1993)
+            DOI:10.1016/0378-1119(93)90613-8
+REFERENCE   PMID:15288784
+  AUTHORS   Dennis JJ, Zylstra GJ
+  TITLE     Complete sequence and genetic organization of pDTG1, the 83 kilobase naphthalene degradation plasmid from Pseudomonas putida strain NCIB 9816-4.
+  JOURNAL   J Mol Biol 341:753-68 (2004)
+            DOI:10.1016/j.jmb.2004.06.034
+  SEQUENCE  [ag:AAO64274]
+REFERENCE   PMID:11823201
+  AUTHORS   Lessner DJ, Johnson GR, Parales RE, Spain JC, Gibson DT
+  TITLE     Molecular characterization and substrate specificity of nitrobenzene dioxygenase from Comamonas sp. strain JS765.
+  JOURNAL   Appl Environ Microbiol 68:634-41 (2002)
+            DOI:10.1128/AEM.68.2.634-641.2002
+  SEQUENCE  [ag:AAL76202]
+REFERENCE   PMID:8759857
+  AUTHORS   Suen WC, Haigler BE, Spain JC
+  TITLE     2,4-Dinitrotoluene dioxygenase from Burkholderia sp. strain DNT: similarity to naphthalene dioxygenase.
+  JOURNAL   J Bacteriol 178:4926-34 (1996)
+            DOI:10.1128/JB.178.16.4926-4934.1996
+  SEQUENCE  [ag:AAB09766]
+///

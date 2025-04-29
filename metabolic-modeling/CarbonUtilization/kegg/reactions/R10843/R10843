@@ -1,0 +1,20 @@
+ENTRY       R10843                      Reaction
+NAME        zeaxanthin:oxygen oxidoreductase (7,8-cleaving)
+DEFINITION  Zeaxanthin + Oxygen <=> beta-Citraurin + (3S)-3-Hydroxycyclocitral
+EQUATION    C06098 + C00007 <=> C20894 + C19731
+COMMENT     the first step of two-step reaction (see R09603, R10843+R10844)
+RCLASS      RC01690  C06098_C20894
+            RC02575  C06098_C19731
+ENZYME      1.13.11.84
+PATHWAY     rn00999  Biosynthesis of various plant secondary metabolites
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.13  Acting on single donors with incorporation of molecular oxygen (oxygenases)
+               1.13.11  With incorporation of two atoms of oxygen
+                1.13.11.84
+                 R10843  Zeaxanthin + Oxygen <=> beta-Citraurin + (3S)-3-Hydroxycyclocitral
+ORTHOLOGY   K22458  crocetin dialdehyde synthase [EC:1.13.11.84]
+DBLINKS     RHEA: 43595
+///

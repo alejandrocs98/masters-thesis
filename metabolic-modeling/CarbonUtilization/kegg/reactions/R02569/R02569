@@ -1,0 +1,24 @@
+ENTRY       R02569                      Reaction
+NAME        acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase
+DEFINITION  Acetyl-CoA + Enzyme N6-(dihydrolipoyl)lysine <=> CoA + [Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine
+EQUATION    C00024 + C15973 <=> C00010 + C16255
+COMMENT     pyruvate dehydrogenase complex:dihydrolipoyllysine-residue acetyltransferase
+            a part of multi-step reaction (see R00209, R01699+R02569+R07618)
+            following after R01699
+RCLASS      RC00004  C00010_C00024  C15973_C16255
+            RC02857  C00024_C16255
+ENZYME      2.3.1.12
+PATHWAY     rn00010  Glycolysis / Gluconeogenesis
+            rn00020  Citrate cycle (TCA cycle)
+            rn00620  Pyruvate metabolism
+            rn00785  Lipoic acid metabolism
+MODULE      M00307  Pyruvate oxidation, pyruvate => acetyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.12
+                 R02569  Acetyl-CoA + Enzyme N6-(dihydrolipoyl)lysine <=> CoA + [Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine
+ORTHOLOGY   K00627  pyruvate dehydrogenase E2 component (dihydrolipoyllysine-residue acetyltransferase) [EC:2.3.1.12]
+DBLINKS     RHEA: 17020
+///

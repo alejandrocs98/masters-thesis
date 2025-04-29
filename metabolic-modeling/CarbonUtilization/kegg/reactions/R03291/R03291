@@ -1,0 +1,17 @@
+ENTRY       R03291                      Reaction
+NAME        trans-4-hydroxy-L-proline:NAD+ 5-oxidoreductase
+DEFINITION  Hydroxyproline + NAD+ <=> L-1-Pyrroline-3-hydroxy-5-carboxylate + NADH + H+
+EQUATION    C01157 + C00003 <=> C04281 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00054  C01157_C04281
+ENZYME      1.5.1.2
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.2
+                 R03291  Hydroxyproline + NAD+ <=> L-1-Pyrroline-3-hydroxy-5-carboxylate + NADH + H+
+ORTHOLOGY   K00286  pyrroline-5-carboxylate reductase [EC:1.5.1.2]
+///

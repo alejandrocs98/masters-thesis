@@ -1,0 +1,25 @@
+ENTRY       R04674                      Reaction
+NAME        N-methylhistamine:oxygen oxidoreductase (deaminating)
+DEFINITION  N-Methylhistamine + H2O + Oxygen <=> Methylimidazole acetaldehyde + Ammonia + Hydrogen peroxide
+EQUATION    C05127 + C00001 + C00007 <=> C05827 + C00014 + C00027
+RCLASS      RC00062  C05127_C05827
+            RC02755  C00007_C00027
+ENZYME      1.4.3.4         1.4.3.22
+PATHWAY     rn00340  Histidine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.4
+                 R04674  N-Methylhistamine + H2O + Oxygen <=> Methylimidazole acetaldehyde + Ammonia + Hydrogen peroxide
+                1.4.3.22
+                 R04674  N-Methylhistamine + H2O + Oxygen <=> Methylimidazole acetaldehyde + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.4
+               R11354  RCH2NHR' <=> Aldehyde
+                R04674  N-Methylhistamine <=> Methylimidazole acetaldehyde
+ORTHOLOGY   K00274  monoamine oxidase [EC:1.4.3.4]
+            K11182  diamine oxidase [EC:1.4.3.22]
+///

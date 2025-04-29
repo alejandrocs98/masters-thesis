@@ -1,0 +1,23 @@
+ENTRY       R03534                      Reaction
+NAME        2-hydroxyglutarate:(acceptor) 2-oxidoreductase
+DEFINITION  2-Hydroxyglutarate + FAD <=> 2-Oxoglutarate + FADH2
+EQUATION    C02630 + C00016 <=> C00026 + C01352
+RCLASS      RC00031  C00026_C02630
+            RC00126  C00016_C01352
+ENZYME      1.1.99.2
+PATHWAY     rn00650  Butanoate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.99  With unknown physiological acceptors
+                1.1.99.2
+                 R03534  2-Hydroxyglutarate + FAD <=> 2-Oxoglutarate + FADH2
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.99.2
+               R00298  Acceptor <=> Reduced acceptor
+                R03534  FAD <=> FADH2
+ORTHOLOGY   K00109  2-hydroxyglutarate dehydrogenase [EC:1.1.99.2]
+DBLINKS     RHEA: 25264
+///

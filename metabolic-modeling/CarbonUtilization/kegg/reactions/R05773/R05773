@@ -1,0 +1,20 @@
+ENTRY       R05773                      Reaction
+NAME        feruloyl-CoA hydro-lyase/vanillin-lyase (acetyl-CoA-forming)
+DEFINITION  4-Hydroxy-3-methoxyphenyl-beta-hydroxypropanoyl-CoA <=> 4-Hydroxy-3-methoxy-benzaldehyde + Acetyl-CoA
+EQUATION    C07303 <=> C00755 + C00024
+COMMENT     the second step of two-step reaction (see R12566, R05772+R05773)
+RCLASS      RC00307  C00024_C07303
+            RC01468  C00755_C07303
+ENZYME      4.1.2.61
+PATHWAY     rn00996  Biosynthesis of various alkaloids
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.2  Aldehyde-lyases
+                4.1.2.61
+                 R05773  4-Hydroxy-3-methoxyphenyl-beta-hydroxypropanoyl-CoA <=> 4-Hydroxy-3-methoxy-benzaldehyde + Acetyl-CoA
+ORTHOLOGY   K18383  feruloyl-CoA hydratase/lyase [EC:4.1.2.61]
+DBLINKS     RHEA: 18728
+///

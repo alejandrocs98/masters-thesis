@@ -1,0 +1,30 @@
+ENTRY       R10634                      Reaction
+DEFINITION  NAD+ + Protein N6-acetyl-L-lysine + H2O <=> Nicotinamide + Protein lysine + O-Acetyl-ADP-ribose + H+
+EQUATION    C00003 + C20743 + C00001 <=> C00153 + C02188 + C20658 + C00080
+COMMENT     Sirtuin
+RCLASS      RC00033  C00003_C00153
+            RC00096  C02188_C20743
+ENZYME      2.3.1.286
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.286
+                 R10634  NAD+ + Protein N6-acetyl-L-lysine + H2O <=> Nicotinamide + Protein lysine + O-Acetyl-ADP-ribose + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.286
+               R10634  Protein N6-acetyl-L-lysine <=> Protein lysine
+ORTHOLOGY   K11121  NAD-dependent protein deacetylase SIR2 [EC:2.3.1.286]
+            K11411  NAD-dependent protein deacetylase sirtuin 1 [EC:2.3.1.286]
+            K11412  NAD-dependent protein deacetylase sirtuin 2 [EC:2.3.1.286]
+            K11413  NAD-dependent protein deacetylase sirtuin 3 [EC:2.3.1.286]
+            K11414  NAD-dependent protein deacetylase/lipoamidase sirtuin 4 [EC:2.3.1.286 2.3.1.313]
+            K11415  NAD-dependent protein deacetylase sirtuin 5 [EC:2.3.1.286]
+            K11416  NAD-dependent protein deacetylase sirtuin 6 [EC:2.3.1.286]
+            K11417  NAD-dependent protein deacetylase sirtuin 7 [EC:2.3.1.286]
+            K12410  NAD-dependent protein deacetylase/lipoamidase [EC:2.3.1.286 2.3.1.313]
+DBLINKS     RHEA: 43639
+///

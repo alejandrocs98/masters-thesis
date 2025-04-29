@@ -1,0 +1,25 @@
+ENTRY       R03048                      Reaction
+NAME        11-cis-retinol:NAD+ oxidoreductase
+DEFINITION  11-cis-Retinol + NAD+ <=> 11-cis-Retinal + NADH + H+
+EQUATION    C00899 + C00003 <=> C02110 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00649  C00899_C02110
+ENZYME      1.1.1.315       1.1.1.-
+PATHWAY     rn00830  Retinol metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.315
+                 R03048  11-cis-Retinol + NAD+ <=> 11-cis-Retinal + NADH + H+
+                1.1.1.-
+                 R03048  11-cis-Retinol + NAD+ <=> 11-cis-Retinal + NADH + H+
+ORTHOLOGY   K00061  11-cis-retinol dehydrogenase [EC:1.1.1.315]
+            K11151  retinol dehydrogenase 10 [EC:1.1.1.-]
+REFERENCE   1  [PMID:19458327]
+  AUTHORS   Farjo KM, Moiseyev G, Takahashi Y, Crouch RK, Ma JX
+  TITLE     The 11-cis-retinol dehydrogenase activity of RDH10 and its interaction with visual cycle proteins.
+  JOURNAL   Invest Ophthalmol Vis Sci 50:5089-97 (2009)
+            DOI:10.1167/iovs.09-3797
+DBLINKS     RHEA: 42063
+///

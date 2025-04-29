@@ -1,0 +1,29 @@
+ENTRY       R06458                      Reaction
+NAME        (2S)-methylmalonyl-CoA:malonyl-CoA malonyltransferase (10-deoxymethynolide forming)
+DEFINITION  5 (S)-Methylmalonyl-CoA + Malonyl-CoA + 5 NADPH + 5 H+ <=> 10-Deoxymethynolide + 6 CoA + 6 CO2 + 5 NADP+ + 2 H2O
+EQUATION    5 C00683 + C00083 + 5 C00005 + 5 C00080 <=> C11993 + 6 C00010 + 6 C00011 + 5 C00006 + 2 C00001
+COMMENT     type I polyketide synthase,PikA1-3
+RCLASS      RC00001  C00005_C00006
+            RC00004  C00010_C00083  C00010_C00683
+            RC02829  C00683_C11993
+            RC02830  C00683_C11993
+            RC02831  C00683_C11993
+            RC02910  C00683_C11993
+            RC02911  C00083_C11993
+            RC02915  C00683_C11993
+ENZYME      2.3.1.239
+PATHWAY     rn00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00776  Pikromycin/methymycin biosynthesis, methylmalonyl-CoA + malonyl-CoA => narbonolide/10-deoxymethynolide => pikromycin/methymycin
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.239
+                 R06458  5 (S)-Methylmalonyl-CoA + Malonyl-CoA + 5 NADPH + 5 H+ <=> 10-Deoxymethynolide + 6 CoA + 6 CO2 + 5 NADP+ + 2 H2O
+ORTHOLOGY   K16000  narbonolide/10-deoxymethynolide synthase [EC:2.3.1.240 2.3.1.239]
+            K16001  narbonolide/10-deoxymethynolide synthase [EC:2.3.1.240 2.3.1.239]
+            K16002  narbonolide/10-deoxymethynolide synthase [EC:2.3.1.240 2.3.1.239]
+DBLINKS     RHEA: 43059
+///

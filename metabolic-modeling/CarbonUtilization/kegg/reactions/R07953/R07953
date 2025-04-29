@@ -1,0 +1,28 @@
+ENTRY       R07953                      Reaction
+NAME        (4Z,7Z,10Z,13Z,16Z)-docosapentaenoyl-CoA:acetyl-CoA C-acyltransferase
+DEFINITION  (4Z,7Z,10Z,13Z,16Z)-Docosapentaenoyl-CoA + Acetyl-CoA <=> CoA + (6Z,9Z,12Z,15Z,18Z)-3-Oxotetracosapentaenoyl-CoA
+EQUATION    C16173 + C00024 <=> C00010 + C16389
+RCLASS      RC00004  C00010_C16173
+            RC00326  C00024_C16389
+            RC02728  C16173_C16389
+ENZYME      2.3.1.16        2.3.1.176
+PATHWAY     rn01040  Biosynthesis of unsaturated fatty acids
+            rn01100  Metabolic pathways
+            rn01212  Fatty acid metabolism
+MODULE      M00861  beta-Oxidation, peroxisome, VLCFA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.16
+                 R07953  (4Z,7Z,10Z,13Z,16Z)-Docosapentaenoyl-CoA + Acetyl-CoA <=> CoA + (6Z,9Z,12Z,15Z,18Z)-3-Oxotetracosapentaenoyl-CoA
+                2.3.1.176
+                 R07953  (4Z,7Z,10Z,13Z,16Z)-Docosapentaenoyl-CoA + Acetyl-CoA <=> CoA + (6Z,9Z,12Z,15Z,18Z)-3-Oxotetracosapentaenoyl-CoA
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.16
+               R00391  Acyl-CoA <=> 3-Oxoacyl-CoA
+                R07953  (4Z,7Z,10Z,13Z,16Z)-Docosapentaenoyl-CoA <=> (6Z,9Z,12Z,15Z,18Z)-3-Oxotetracosapentaenoyl-CoA
+ORTHOLOGY   K07513  acetyl-CoA acyltransferase 1 [EC:2.3.1.16]
+            K08764  sterol carrier protein 2 [EC:2.3.1.176]
+///

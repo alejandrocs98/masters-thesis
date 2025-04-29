@@ -1,0 +1,19 @@
+ENTRY       R10228                      Reaction
+NAME        (+)-secoisolariciresinol:NADPH+ oxidoreductase
+DEFINITION  (+)-Secoisolariciresinol + NADP+ <=> (-)-Lariciresinol + NADPH + H+
+EQUATION    C20456 + C00006 <=> C20454 + C00005 + C00080
+COMMENT     possibly intermediate (quinone methide)
+RCLASS      RC00001  C00005_C00006
+            RC03088  C20454_C20456
+ENZYME      1.23.1.4
+PATHWAY     rn00999  Biosynthesis of various plant secondary metabolites
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.23  Reducing C-O-C group as acceptor
+               1.23.1  With NADH or NADPH as donor
+                1.23.1.4
+                 R10228  (+)-Secoisolariciresinol + NADP+ <=> (-)-Lariciresinol + NADPH + H+
+ORTHOLOGY   K21568  pinoresinol/lariciresinol reductase [EC:1.23.1.1 1.23.1.2 1.23.1.3 1.23.1.4]
+DBLINKS     RHEA: 34434
+///

@@ -1,0 +1,23 @@
+ENTRY       R07461                      Reaction
+NAME        [enzyme]-S-sulfanyl-L-cysteine:adenylyl-[sulfur-carrier protein] sulfurtransferase
+DEFINITION  [Enzyme]-S-sulfanylcysteine + Adenylyl-[sulfur-carrier protein] + Reduced acceptor <=> AMP + Thiocarboxy-[sulfur-carrier protein] + [Enzyme]-cysteine + Acceptor
+EQUATION    C15812 + C15813 + C00030 <=> C00020 + C15814 + C15811 + C00028
+ENZYME      2.8.1.4         2.8.1.11
+PATHWAY     rn00730  Thiamine metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00127  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP
+            M00895  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.8  Transferring sulfur-containing groups
+               2.8.1  Sulfurtransferases
+                2.8.1.4
+                 R07461  [Enzyme]-S-sulfanylcysteine + Adenylyl-[sulfur-carrier protein] + Reduced acceptor <=> AMP + Thiocarboxy-[sulfur-carrier protein] + [Enzyme]-cysteine + Acceptor
+                2.8.1.11
+                 R07461  [Enzyme]-S-sulfanylcysteine + Adenylyl-[sulfur-carrier protein] + Reduced acceptor <=> AMP + Thiocarboxy-[sulfur-carrier protein] + [Enzyme]-cysteine + Acceptor
+ORTHOLOGY   K03151  tRNA uracil 4-sulfurtransferase [EC:2.8.1.4]
+            K11996  adenylyltransferase and sulfurtransferase [EC:2.7.7.80 2.8.1.11]
+            K21028  molybdopterin synthase sulfurtransferase [EC:2.8.1.11]
+            K21147  sulfur-carrier protein adenylyltransferase/sulfurtransferase [EC:2.7.7.80 2.7.7.- 2.8.1.11 2.8.1.-]
+///

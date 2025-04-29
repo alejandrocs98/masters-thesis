@@ -1,0 +1,19 @@
+ENTRY       R10116                      Reaction
+NAME        3-hydroxyglutaryl-[acp]-methyl-ester:NADP+ oxidoreductase
+DEFINITION  3-Ketoglutaryl-[acp] methyl ester + NADPH + H+ <=> 3-Hydroxyglutaryl-[acp] methyl ester + NADP+
+EQUATION    C20372 + C00005 + C00080 <=> C20373 + C00006
+RCLASS      RC00001  C00005_C00006
+            RC00029  C20372_C20373
+ENZYME      1.1.1.100
+PATHWAY     rn00780  Biotin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00572  Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.100
+                 R10116  3-Ketoglutaryl-[acp] methyl ester + NADPH + H+ <=> 3-Hydroxyglutaryl-[acp] methyl ester + NADP+
+ORTHOLOGY   K00059  3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]
+///

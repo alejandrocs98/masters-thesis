@@ -1,0 +1,26 @@
+ENTRY       R13167                      Reaction
+DEFINITION  4-Carboxy-1-hydroxybutyryl-ThPP + Enzyme N6-(lipoyl)lysine <=> [Dihydrolipoyllysine-residue succinyltransferase] S-glutaryldihydrolipoyllysine + Thiamin diphosphate
+EQUATION    C22667 + C15972 <=> C06157 + C00068
+COMMENT     2-oxoadipate dehydrogenase complex: 2-oxoadipate dehydrogenase (see R01940)
+            TPP-dependent enzymatic reaction (see R13166+R13167)
+            following after R13166
+RCLASS      RC00027  C00068_C22667
+            RC00627  C06157_C15972
+            RC02883  C06157_C22667
+ENZYME      1.2.4.-
+PATHWAY     rn00310  Lysine degradation
+            rn00785  Lipoic acid metabolism
+MODULE      M00032  Lysine degradation, lysine => saccharopine => acetoacetyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.4  With a disulfide as acceptor
+                1.2.4.-
+                 R13167  4-Carboxy-1-hydroxybutyryl-ThPP + Enzyme N6-(lipoyl)lysine <=> [Dihydrolipoyllysine-residue succinyltransferase] S-glutaryldihydrolipoyllysine + Thiamin diphosphate
+ORTHOLOGY   K15791  2-oxoadipate dehydrogenase E1 component [EC:1.2.4.-]
+REFERENCE   1  [PMID:29191460]
+  AUTHORS   Nemeria NS, Gerfen G, Nareddy PR, Yang L, Zhang X, Szostak M, Jordan F
+  TITLE     The mitochondrial 2-oxoadipate and 2-oxoglutarate dehydrogenase complexes share their E2 and E3 components for their function and both generate reactive oxygen species.
+  JOURNAL   Free Radic Biol Med 115:136-145 (2018)
+            DOI:10.1016/j.freeradbiomed.2017.11.018
+///

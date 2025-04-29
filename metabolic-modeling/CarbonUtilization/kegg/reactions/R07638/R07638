@@ -1,0 +1,27 @@
+ENTRY       R07638                      Reaction
+NAME        (Z)-phenylacetaldehyde-oxime hydro-lyase
+DEFINITION  (Z)-Phenylacetaldehyde oxime <=> Phenylacetonitrile + H2O
+EQUATION    C16075 <=> C16074 + C00001
+COMMENT     the second step of three-step reaction (see R11732, R10041+R07638+R11733)
+RCLASS      RC01076  C16074_C16075
+ENZYME      1.14.14.44      4.8.1.4
+PATHWAY     rn00460  Cyanoamino acid metabolism
+            rn00643  Styrene degradation
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.44
+                 R07638  (Z)-Phenylacetaldehyde oxime <=> Phenylacetonitrile + H2O
+             4. Lyase reactions
+              4.8  Nitrogen-oxygen lyases
+               4.8.1  Hydro-lyases
+                4.8.1.4
+                 R07638  (Z)-Phenylacetaldehyde oxime <=> Phenylacetonitrile + H2O
+ORTHOLOGY   K00495  phenylacetaldehyde oxime monooxygenase [EC:1.14.14.44]
+            K10566  phenylacetaldoxime dehydratase [EC:4.8.1.4]
+DBLINKS     RHEA: 20072
+///

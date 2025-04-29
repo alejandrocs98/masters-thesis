@@ -1,0 +1,31 @@
+ENTRY       R00237                      Reaction
+NAME        (3S)-citramalyl-CoA pyruvate-lyase (acetyl-CoA-forming)
+DEFINITION  (3S)-Citramalyl-CoA <=> Acetyl-CoA + Pyruvate
+EQUATION    C01011 <=> C00024 + C00022
+RCLASS      RC00502  C00024_C01011
+            RC01205  C00022_C01011
+ENZYME      4.1.3.25
+PATHWAY     rn00660  C5-Branched dibasic acid metabolism
+            rn00720  Carbon fixation pathways in prokaryotes
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00376  3-Hydroxypropionate bi-cycle
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.3  Oxo-acid-lyases
+                4.1.3.25
+                 R00237  (3S)-Citramalyl-CoA <=> Acetyl-CoA + Pyruvate
+            Overall reaction [br08210.html]
+             Carbon fixation
+              R00237
+ORTHOLOGY   K08691  malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]
+            K18292  (S)-citramalyl-CoA lyase [EC:4.1.3.25]
+REFERENCE   1  [PMID:24657929]
+  AUTHORS   Sasikaran J, Ziemski M, Zadora PK, Fleig A, Berg IA
+  TITLE     Bacterial itaconate degradation promotes pathogenicity.
+  JOURNAL   Nat Chem Biol 10:371-7 (2014)
+            DOI:10.1038/nchembio.1482
+DBLINKS     RHEA: 22615
+///

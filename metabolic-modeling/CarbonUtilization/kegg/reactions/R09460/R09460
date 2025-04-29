@@ -1,0 +1,17 @@
+ENTRY       R09460                      Reaction
+NAME        16-hydroxypalmitate,NADPH:oxygen oxidoreductase (10-hydroxylating)
+DEFINITION  16-Hydroxypalmitate + NADPH + Oxygen + H+ <=> 10,16-Dihydroxyhexadecanoic acid + NADP+ + H2O
+EQUATION    C18218 + C00005 + C00007 + C00080 <=> C08285 + C00006 + C00001
+COMMENT     fatty acid in-chain hydroxylase
+RCLASS      RC00001  C00005_C00006
+            RC00709  C08285_C18218
+ENZYME      1.14.-.-
+PATHWAY     rn00073  Cutin, suberine and wax biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.-  Acting on paired donors, with incorporation or reduction of molecular oxygen
+                1.14.-.-
+                 R09460  16-Hydroxypalmitate + NADPH + Oxygen + H+ <=> 10,16-Dihydroxyhexadecanoic acid + NADP+ + H2O
+ORTHOLOGY   K21995  cytochrome P450 family 77 subfamily A [EC:1.14.-.-]
+///

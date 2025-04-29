@@ -1,0 +1,18 @@
+ENTRY       R10359                      Reaction
+NAME        13-desoxypaxilline,NADPH:oxygen oxidoreductase
+DEFINITION  13-Desoxypaxilline + NADPH + H+ + Oxygen <=> Paxilline + NADP+ + H2O
+EQUATION    C20531 + C00005 + C00080 + C00007 <=> C13782 + C00006 + C00001
+COMMENT     cytochrome P450 monooxygenase, PaxQ
+RCLASS      RC00001  C00005_C00006
+            RC03138  C13782_C20531
+ENZYME      1.14.13.-
+PATHWAY     rn00403  Indole diterpene alkaloid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R10359  13-Desoxypaxilline + NADPH + H+ + Oxygen <=> Paxilline + NADP+ + H2O
+ORTHOLOGY   K18389  cytochrome P450 monooxygenase [EC:1.14.13.-]
+///

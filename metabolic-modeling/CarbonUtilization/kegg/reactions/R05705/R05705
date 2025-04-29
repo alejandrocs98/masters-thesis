@@ -1,0 +1,46 @@
+ENTRY       R05705                      Reaction
+NAME        FMNH2:NAD+ oxidoreductase
+DEFINITION  Reduced FMN + NAD+ <=> FMN + NADH + H+
+EQUATION    C01847 + C00003 <=> C00061 + C00004 + C00080
+COMMENT     see R05706 (NADPH)
+RCLASS      RC00001  C00003_C00004
+            RC00126  C00061_C01847
+ENZYME      1.5.1.36        1.5.1.39        1.5.1.41        1.5.1.42        
+            1.5.1.-
+PATHWAY     rn00740  Riboflavin metabolism
+            rn01057  Biosynthesis of type II polyketide products
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01240  Biosynthesis of cofactors
+MODULE      M00779  Dihydrokalafungin biosynthesis, octaketide => dihydrokalafungin
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.36
+                 R05705  Reduced FMN + NAD+ <=> FMN + NADH + H+
+                1.5.1.39
+                 R05705  Reduced FMN + NAD+ <=> FMN + NADH + H+
+                1.5.1.41
+                 R05705  Reduced FMN + NAD+ <=> FMN + NADH + H+
+                1.5.1.42
+                 R05705  Reduced FMN + NAD+ <=> FMN + NADH + H+
+                1.5.1.-
+                 R05705  Reduced FMN + NAD+ <=> FMN + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.5.1.36
+               R09662  Reduced flavin <=> Flavin
+                R05705  Reduced FMN <=> FMN
+ORTHOLOGY   K00484  flavin reductase (NADH) [EC:1.5.1.36]
+            K05368  NAD(P)H-flavin reductase [EC:1.5.1.41]
+            K13562  NAD(P)H:FMN oxidoreductase [EC:1.5.1.-]
+            K14631  flavin reductase ActVB [EC:1.5.1.-]
+            K19286  FMN reductase [NAD(P)H] [EC:1.5.1.39]
+            K20146  nitrilotriacetate monooxygenase reductase component [EC:1.5.1.42]
+            K22393  flavin reductase (NADH) subunit 1 [EC:1.5.1.36]
+            K22394  flavin reductase (NADH) subunit 2 [EC:1.5.1.36]
+            K23462  flavin-dependent trigonelline monooxygenase, reductase component [EC:1.5.1.36]
+            K23470  4-hydroxyphenylacetate 3-hydroxylase, reductase component [EC:1.5.1.36]
+DBLINKS     RHEA: 21623
+///

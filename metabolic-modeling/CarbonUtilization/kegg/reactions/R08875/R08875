@@ -1,0 +1,19 @@
+ENTRY       R08875                      Reaction
+NAME        methylcobalamin:N-acetyldemethylphosphinothricin-tripeptide P-methyltransferase
+DEFINITION  N-Acetyldemethylphosphinothricin tripeptide + Methylcobalamin + S-Adenosyl-L-methionine + H+ + e- <=> N-Acetylbialaphos + Cob(II)alamin + 5'-Deoxyadenosine + L-Methionine
+EQUATION    C17950 + C06453 + C00019 + C00080 + C05359 <=> C17951 + C00541 + C05198 + C00073
+COMMENT     radical SAM
+RCLASS      RC00021  C00019_C00073
+            RC01144  C00541_C06453
+            RC02376  C17950_C17951
+ENZYME      2.1.1.326
+PATHWAY     rn00440  Phosphonate and phosphinate metabolism
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.326
+                 R08875  N-Acetyldemethylphosphinothricin tripeptide + Methylcobalamin + S-Adenosyl-L-methionine + H+ + e- <=> N-Acetylbialaphos + Cob(II)alamin + 5'-Deoxyadenosine + L-Methionine
+ORTHOLOGY   K12914  P-methyltransferase [EC:2.1.1.326]
+///

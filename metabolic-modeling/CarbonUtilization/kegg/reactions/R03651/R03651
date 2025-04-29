@@ -1,0 +1,18 @@
+ENTRY       R03651                      Reaction
+NAME        L-glutamate:tRNA(Gln) ligase (AMP-forming)
+DEFINITION  ATP + L-Glutamate + tRNA(Gln) <=> AMP + Diphosphate + L-Glutamyl-tRNA(Gln)
+EQUATION    C00002 + C00025 + C01640 <=> C00020 + C00013 + C06112
+RCLASS      RC00055  C01640_C06112
+            RC00523  C00025_C06112
+ENZYME      6.1.1.24
+PATHWAY     rn00970  Aminoacyl-tRNA biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.1  Forming carbon-oxygen bonds
+               6.1.1  Ligases forming aminoacyl-tRNA and related compounds
+                6.1.1.24
+                 R03651  ATP + L-Glutamate + tRNA(Gln) <=> AMP + Diphosphate + L-Glutamyl-tRNA(Gln)
+ORTHOLOGY   K09698  nondiscriminating glutamyl-tRNA synthetase [EC:6.1.1.24]
+DBLINKS     RHEA: 18400 64615
+///

@@ -1,0 +1,20 @@
+ENTRY       R09959                      Reaction
+NAME        7,8-dihydroneopterin 3'-triphosphate acetaldehyde-lyase (6-carboxy-5,6,7,8-tetrahydropterin and triphosphate-forming)
+DEFINITION  7,8-Dihydroneopterin 3'-triphosphate + H2O <=> 6-Carboxy-5,6,7,8-tetrahydropterin + Acetaldehyde + Triphosphate
+EQUATION    C04895 + C00001 <=> C20239 + C00084 + C00536
+COMMENT     multi-step reaction
+            possibly intermediate (see [CPD:C03684], R04286)
+RCLASS      RC02846  C04895_C20239
+            RC02847  C00084_C04895
+ENZYME      4.1.2.50
+PATHWAY     rn00790  Folate biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.2  Aldehyde-lyases
+                4.1.2.50
+                 R09959  7,8-Dihydroneopterin 3'-triphosphate + H2O <=> 6-Carboxy-5,6,7,8-tetrahydropterin + Acetaldehyde + Triphosphate
+ORTHOLOGY   K01737  6-pyruvoyltetrahydropterin/6-carboxytetrahydropterin synthase [EC:4.2.3.12 4.1.2.50]
+DBLINKS     RHEA: 27969
+///

@@ -1,0 +1,19 @@
+ENTRY       R03997                      Reaction
+NAME        2,4-dichlorophenol,NADPH:oxygen oxidoreductase(6-hydroxylating)
+DEFINITION  2,4-Dichlorophenol + Oxygen + NADPH + H+ <=> 3,5-Dichlorocatechol + NADP+ + H2O
+EQUATION    C02625 + C00007 + C00005 + C00080 <=> C02933 + C00006 + C00001
+RCLASS      RC00001  C00005_C00006
+            RC00046  C02625_C02933
+ENZYME      1.14.13.20
+PATHWAY     rn00361  Chlorocyclohexane and chlorobenzene degradation
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.20
+                 R03997  2,4-Dichlorophenol + Oxygen + NADPH + H+ <=> 3,5-Dichlorocatechol + NADP+ + H2O
+ORTHOLOGY   K10676  2,4-dichlorophenol 6-monooxygenase [EC:1.14.13.20]
+DBLINKS     RHEA: 20923
+///

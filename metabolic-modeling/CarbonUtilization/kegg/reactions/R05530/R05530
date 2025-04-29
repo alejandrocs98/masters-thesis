@@ -1,0 +1,21 @@
+ENTRY       R05530                      Reaction
+NAME        dTDP-L-mycarose:erythronolide-B 3-O-alpha-mycarosyltransferase
+DEFINITION  Erythronolide B + dTDP-L-mycarose <=> 3-O-alpha-Mycarosylerythronolide B + dTDP
+EQUATION    C06635 + C11916 <=> C06630 + C00363
+RCLASS      RC00005  C00363_C11916
+            RC00049  C06630_C06635
+            RC03284  C06630_C11916
+ENZYME      2.4.1.328
+PATHWAY     rn00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00774  Erythromycin biosynthesis, propanoyl-CoA + methylmalonyl-CoA => deoxyerythronolide B => erythromycin A/B
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.328
+                 R05530  Erythronolide B + dTDP-L-mycarose <=> 3-O-alpha-Mycarosylerythronolide B + dTDP
+ORTHOLOGY   K14367  erythronolide mycarosyltransferase [EC:2.4.1.328]
+DBLINKS     RHEA: 41579
+///

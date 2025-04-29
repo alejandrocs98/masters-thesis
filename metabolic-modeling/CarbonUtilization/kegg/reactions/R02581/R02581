@@ -1,0 +1,28 @@
+ENTRY       R02581                      Reaction
+NAME        (5Z,13E)-(15S)-9alpha,11alpha,15-trihydroxyprosta-5,13-dienoate:NADP+ 9-oxidoreductase;
+            prostaglandin F2alpha:NADP+ oxidoreductase
+DEFINITION  Prostaglandin F2alpha + NADP+ <=> Prostaglandin E2 + NADPH + H+
+EQUATION    C00639 + C00006 <=> C00584 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00154  C00584_C00639
+ENZYME      1.1.1.184       1.1.1.189
+PATHWAY     rn00590  Arachidonic acid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.184
+                 R02581  Prostaglandin F2alpha + NADP+ <=> Prostaglandin E2 + NADPH + H+
+                1.1.1.189
+                 R02581  Prostaglandin F2alpha + NADP+ <=> Prostaglandin E2 + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.184
+               R03557  Secondary alcohol <=> Ketone
+                R02581  Prostaglandin F2alpha <=> Prostaglandin E2
+ORTHOLOGY   K00079  carbonyl reductase 1 [EC:1.1.1.184 1.1.1.189 1.1.1.197]
+            K00081  carbonyl reductase 2 [EC:1.1.1.184]
+            K00084  carbonyl reductase 3 [EC:1.1.1.184]
+DBLINKS     RHEA: 24511
+///

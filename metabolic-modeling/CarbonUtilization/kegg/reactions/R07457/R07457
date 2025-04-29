@@ -1,0 +1,18 @@
+ENTRY       R07457                      Reaction
+NAME        3-dehydro-6-deoxoteasterone,NADPH---hemoprotein reductase:oxygen oxidoreductase (3-dehydroteasterone-forming)
+DEFINITION  3-Dehydro-6-deoxoteasterone + 2 Oxygen + 2 [Reduced NADPH---hemoprotein reductase] <=> 3-Dehydroteasterone + 3 H2O + 2 [Oxidized NADPH---hemoprotein reductase]
+EQUATION    C15800 + 2 C00007 + 2 C03024 <=> C15792 + 3 C00001 + 2 C03161
+COMMENT     possibly two-step reaction (similar to R10669, R07450+R07451)
+RCLASS      RC02079  C15792_C15800
+ENZYME      1.14.14.179
+PATHWAY     rn00905  Brassinosteroid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.179
+                 R07457  3-Dehydro-6-deoxoteasterone + 2 Oxygen + 2 [Reduced NADPH---hemoprotein reductase] <=> 3-Dehydroteasterone + 3 H2O + 2 [Oxidized NADPH---hemoprotein reductase]
+ORTHOLOGY   K09590  brassinosteroid 6-oxygenase [EC:1.14.14.179]
+            K12640  brassinosteroid 6-oxygenase / brassinolide synthase [EC:1.14.14.179 1.14.14.180]
+DBLINKS     RHEA: 70042
+///

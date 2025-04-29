@@ -1,0 +1,18 @@
+ENTRY       R04694                      Reaction
+NAME        (S)-N-methylcoclaurine,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (C-O phenol-coupling)
+DEFINITION  (S)-N-Methylcoclaurine + (R)-N-Methylcoclaurine + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Berbamunine + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+EQUATION    C05176 + C05243 + C03024 + C00007 <=> C05177 + C03161 + 2 C00001
+RCLASS      RC00878  C05176_C05177
+            RC01199  C05177_C05243
+ENZYME      1.14.19.66
+PATHWAY     rn00950  Isoquinoline alkaloid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.66
+                 R04694  (S)-N-Methylcoclaurine + (R)-N-Methylcoclaurine + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> Berbamunine + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+ORTHOLOGY   K13387  berbamunine synthase [EC:1.14.19.66]
+DBLINKS     RHEA: 23579
+///

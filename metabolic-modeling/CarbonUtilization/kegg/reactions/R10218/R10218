@@ -1,0 +1,16 @@
+ENTRY       R10218                      Reaction
+DEFINITION  5-Hydroxymethyl-2-furaldehyde + NADH + H+ <=> 5-Hydroxymethylfurfuryl alcohol + NAD+
+EQUATION    C11101 + C00004 + C00080 <=> C20443 + C00003
+COMMENT     5-Hydroxymethylfurfuryl alcohol dehydrogenase
+RCLASS      RC00001  C00003_C00004
+            RC00116  C11101_C20443
+ENZYME      1.1.1.-
+PATHWAY     rn00365  Furfural degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R10218  5-Hydroxymethyl-2-furaldehyde + NADH + H+ <=> 5-Hydroxymethylfurfuryl alcohol + NAD+
+///

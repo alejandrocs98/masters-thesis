@@ -1,0 +1,26 @@
+ENTRY       R05506                      Reaction
+DEFINITION  Benzoylacetyl-CoA + CoA <=> Benzoyl-CoA + Acetyl-CoA
+EQUATION    C07118 + C00010 <=> C00512 + C00024
+COMMENT     benzoyl acetyl-CoA thiolase
+RCLASS      RC00004  C00010_C00512
+            RC00326  C00024_C07118
+            RC02898  C00512_C07118
+ENZYME      2.3.1.16        2.3.1.-
+PATHWAY     rn00642  Ethylbenzene degradation
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.16
+                 R05506  Benzoylacetyl-CoA + CoA <=> Benzoyl-CoA + Acetyl-CoA
+                2.3.1.-
+                 R05506  Benzoylacetyl-CoA + CoA <=> Benzoyl-CoA + Acetyl-CoA
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.16
+               R00391  Acyl-CoA <=> 3-Oxoacyl-CoA
+                R05506  Benzoyl-CoA <=> Benzoylacetyl-CoA
+ORTHOLOGY   K00632  acetyl-CoA acyltransferase [EC:2.3.1.16]
+///

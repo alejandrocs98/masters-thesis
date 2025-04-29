@@ -1,0 +1,20 @@
+ENTRY       R08810                      Reaction
+NAME        feruloyl-CoA:feruloylacetyl-CoA feruloyltransferase (curcumin-forming)
+DEFINITION  Feruloyl-diketide-CoA + Feruloyl-CoA + H2O <=> Curcumin + 2 CoA + CO2
+EQUATION    C17741 + C00406 + C00001 <=> C10443 + 2 C00010 + C00011
+COMMENT     curcuminoid synthase (CURS)
+RCLASS      RC00004  C00010_C00406  C00010_C17741
+            RC02970  C10443_C17741
+ENZYME      2.3.1.217
+PATHWAY     rn00945  Stilbenoid, diarylheptanoid and gingerol biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.217
+                 R08810  Feruloyl-diketide-CoA + Feruloyl-CoA + H2O <=> Curcumin + 2 CoA + CO2
+ORTHOLOGY   K13234  curcumin synthase [EC:2.3.1.217]
+            K17211  curcumin/demethoxycurcumin synthase [EC:2.3.1.217 2.3.1.219]
+DBLINKS     RHEA: 34826
+///

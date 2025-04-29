@@ -1,0 +1,21 @@
+ENTRY       R01704                      Reaction
+NAME        palmitaldehyde:NAD+ oxidoreductase
+DEFINITION  Hexadecanal + NAD+ + H2O <=> Hexadecanoic acid + NADH + H+
+EQUATION    C00517 + C00003 + C00001 <=> C00249 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00080  C00249_C00517
+ENZYME      1.2.1.48
+PATHWAY     rn00071  Fatty acid degradation
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.48
+                 R01704  Hexadecanal + NAD+ + H2O <=> Hexadecanoic acid + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.2.1.48
+               R02039  Long-chain aldehyde <=> Long-chain carboxylate
+                R01704  Hexadecanal <=> Hexadecanoic acid
+DBLINKS     RHEA: 33742
+///

@@ -1,0 +1,19 @@
+ENTRY       R00533                      Reaction
+NAME        sulfite:oxygen oxidoreductase
+DEFINITION  Sulfite + Oxygen + H2O <=> Sulfate + Hydrogen peroxide
+EQUATION    C00094 + C00007 + C00001 <=> C00059 + C00027
+RCLASS      RC00168  C00059_C00094
+            RC02755  C00007_C00027
+ENZYME      1.8.3.1
+PATHWAY     rn00920  Sulfur metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.3  With oxygen as acceptor
+                1.8.3.1
+                 R00533  Sulfite + Oxygen + H2O <=> Sulfate + Hydrogen peroxide
+ORTHOLOGY   K00387  sulfite oxidase [EC:1.8.3.1]
+DBLINKS     RHEA: 24603
+///

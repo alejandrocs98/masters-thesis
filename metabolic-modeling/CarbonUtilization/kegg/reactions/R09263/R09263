@@ -1,0 +1,19 @@
+ENTRY       R09263                      Reaction
+DEFINITION  7,9,12-Decaketide intermediate 1 + NADPH + H+ <=> 7,9,12-Decaketide intermediate 2 + NADP+
+EQUATION    C18330 + C00005 + C00080 <=> C18331 + C00006
+COMMENT     ketoreductase, SnoaD
+RCLASS      RC00001  C00005_C00006
+            RC00144  C18330_C18331
+ENZYME      1.1.1.-
+PATHWAY     rn01056  Biosynthesis of type II polyketide backbone
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00778  Type II polyketide backbone biosynthesis, acyl-CoA + malonyl-CoA => polyketide
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R09263  7,9,12-Decaketide intermediate 1 + NADPH + H+ <=> 7,9,12-Decaketide intermediate 2 + NADP+
+ORTHOLOGY   K12420  ketoreductase [EC:1.1.1.-]
+///

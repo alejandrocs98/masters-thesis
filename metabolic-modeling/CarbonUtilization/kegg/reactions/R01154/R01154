@@ -1,0 +1,24 @@
+ENTRY       R01154                      Reaction
+NAME        acetyl-CoA:putrescine N-acetyltransferase
+DEFINITION  Acetyl-CoA + Putrescine <=> CoA + N-Acetylputrescine
+EQUATION    C00024 + C00134 <=> C00010 + C02714
+RCLASS      RC00004  C00010_C00024
+            RC00096  C00134_C02714
+ENZYME      2.3.1.57
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+MODULE      M00135  GABA biosynthesis, eukaryotes, putrescine => GABA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.57
+                 R01154  Acetyl-CoA + Putrescine <=> CoA + N-Acetylputrescine
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.57
+               R03910  Alkane-alpha,omega-diamine <=> N-Acetyldiamine
+                R01154  Putrescine <=> N-Acetylputrescine
+ORTHOLOGY   K00657  diamine N-acetyltransferase [EC:2.3.1.57]
+DBLINKS     RHEA: 25184
+///

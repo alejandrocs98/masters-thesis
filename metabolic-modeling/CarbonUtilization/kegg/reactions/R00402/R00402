@@ -1,0 +1,28 @@
+ENTRY       R00402                      Reaction
+NAME        succinate:NAD+ oxidoreductase
+DEFINITION  Succinate + NAD+ <=> Fumarate + NADH + H+
+EQUATION    C00042 + C00003 <=> C00122 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00045  C00042_C00122
+ENZYME      1.3.1.6
+PATHWAY     rn00720  Carbon fixation pathways in prokaryotes
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00173  Reductive citrate cycle (Arnon-Buchanan cycle)
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.6
+                 R00402  Succinate + NAD+ <=> Fumarate + NADH + H+
+            Overall reaction [br08210.html]
+             Carbon fixation
+              R00402
+ORTHOLOGY   K18556  NADH-dependent fumarate reductase subunit A [EC:1.3.1.6]
+            K18557  NADH-dependent fumarate reductase subunit B [EC:1.3.1.6]
+            K18558  NADH-dependent fumarate reductase subunit C
+            K18559  NADH-dependent fumarate reductase subunit D
+            K18560  NADH-dependent fumarate reductase subunit E
+DBLINKS     RHEA: 18284
+///

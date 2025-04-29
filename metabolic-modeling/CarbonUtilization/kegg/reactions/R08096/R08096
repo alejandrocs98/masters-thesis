@@ -1,0 +1,23 @@
+ENTRY       R08096                      Reaction
+DEFINITION  (S)-(-)-Citronellal + NAD+ + H2O <=> Citronellate + NADH + H+
+EQUATION    C11384 + C00003 + C00001 <=> C16462 + C00004 + C00080
+COMMENT     citronellal dehydrogenase
+RCLASS      RC00001  C00003_C00004
+            RC00080  C11384_C16462
+ENZYME      1.2.1.-
+PATHWAY     rn00907  Pinene, camphor and geraniol degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.-
+                 R08096  (S)-(-)-Citronellal + NAD+ + H2O <=> Citronellate + NADH + H+
+ORTHOLOGY   K13774  citronellol/citronellal dehydrogenase
+            K13775  citronellol/citronellal dehydrogenase
+REFERENCE   1  [PMID:16272386]
+  AUTHORS   Hoschle B, Gnau V, Jendrossek D.
+  TITLE     Methylcrotonyl-CoA and geranyl-CoA carboxylases are involved in leucine/isovalerate utilization (Liu) and acyclic terpene utilization (Atu), and are encoded by liuB/liuD and atuC/atuF, in Pseudomonas aeruginosa.
+  JOURNAL   Microbiology 151:3649-56 (2005)
+            DOI:10.1099/mic.0.28260-0
+///

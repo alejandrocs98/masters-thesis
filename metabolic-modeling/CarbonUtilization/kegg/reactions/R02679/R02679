@@ -1,0 +1,16 @@
+ENTRY       R02679                      Reaction
+NAME        indole-3-ethanol:NAD+ oxidoreductase
+DEFINITION  Indole-3-ethanol + NAD+ <=> Indole-3-acetaldehyde + NADH + H+
+EQUATION    C00955 + C00003 <=> C00637 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00087  C00637_C00955
+ENZYME      1.1.1.190
+PATHWAY     rn00380  Tryptophan metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.190
+                 R02679  Indole-3-ethanol + NAD+ <=> Indole-3-acetaldehyde + NADH + H+
+DBLINKS     RHEA: 14876
+///

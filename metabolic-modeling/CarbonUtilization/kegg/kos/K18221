@@ -1,0 +1,75 @@
+ENTRY       K18221                      KO
+SYMBOL      tetX
+NAME        tetracycline 11a-monooxygenase, tetracycline resistance protein [EC:1.14.13.231]
+PATHWAY     map00253  Tetracycline biosynthesis
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R11449  tetracycline,NADPH:oxygen oxidoreductase (11a-hydroxylating)
+            R11525  oxytetracycline,NADPH:oxygen oxidoreductase (11a-hydroxylating)
+            R11526  chlortetracycline,NADPH:oxygen oxidoreductase (11a-hydroxylating)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
+               00253 Tetracycline biosynthesis
+                K18221  tetX; tetracycline 11a-monooxygenase, tetracycline resistance protein
+             09180 Brite Hierarchies
+              09183 Protein families: signaling and cellular processes
+               01504 Antimicrobial resistance genes
+                K18221  tetX; tetracycline 11a-monooxygenase, tetracycline resistance protein
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.231  tetracycline 11a-monooxygenase
+                 K18221  tetX; tetracycline 11a-monooxygenase, tetracycline resistance protein
+            Antimicrobial resistance genes [BR:ko01504]
+             Gene variants
+              Tetracycline resistance genes
+               Others
+                K18221  tetX; tetracycline 11a-monooxygenase, tetracycline resistance protein
+DBLINKS     COG: COG0654
+GENES       PCOL: F1325_16090(tet(X))
+            PCIB: F9282_16570(tet(X))
+            DCE: O6P33_04460(tet(X))
+            ATG: J4G44_12795
+            APOT: MZO21_09705 MZO21_13965
+            AALN: Q3V95_09630
+            PARC: CI960_14115
+            CHF: KTO58_07930
+            SFAE: MUK51_21330
+            MOD: AS202_10870 AS202_15215 AS202_20005
+            RAR: RIA_0365 RIA_0369
+            RAG: B739_0030 B739_0035
+            RAE: G148_1767 G148_1777
+            RAT: M949_0459
+            RCL: NYR17_04260(tet(X))
+            CTAK: 4412677_02215(kmo)
+            CSUP: MTP09_11285(tet(X)) MTP09_11315
+            CHRJ: CHRYMOREF3P_1011
+            CHRA: F7R58_01260(tet(X))
+            EBV: F0358_17055(tet(X)) F0358_17090(tet(X)) F0358_17245(tet(X))
+            EFAL: FH779_17525(tet(X))
+            ESTE: HNV03_01140(tet(X)) HNV03_01225(tet(X)) HNV03_01240(tet(X))
+            BPOR: BPO_2231 BPO_2249 BPO_2256
+            AG: AAA27471(tet(X))
+REFERENCE   PMID:1846135
+  AUTHORS   Speer BS, Bedzyk L, Salyers AA
+  TITLE     Evidence that a novel tetracycline resistance gene found on two Bacteroides transposons encodes an NADP-requiring oxidoreductase.
+  JOURNAL   J Bacteriol 173:176-83 (1991)
+            DOI:10.1128/JB.173.1.176-183.1991
+  SEQUENCE  [ag:AAA27471]
+REFERENCE   PMID:15452119
+  AUTHORS   Yang W, Moore IF, Koteva KP, Bareich DC, Hughes DW, Wright GD
+  TITLE     TetX is a flavin-dependent monooxygenase conferring resistance to tetracycline antibiotics.
+  JOURNAL   J Biol Chem 279:52346-52 (2004)
+            DOI:10.1074/jbc.M409573200
+REFERENCE   PMID:19862477
+  AUTHORS   Thaker M, Spanogiannopoulos P, Wright GD
+  TITLE     The tetracycline resistome.
+  JOURNAL   Cell Mol Life Sci 67:419-31 (2010)
+            DOI:10.1007/s00018-009-0172-6
+REFERENCE   PMID:19187139
+  AUTHORS   Ghosh S, Sadowsky MJ, Roberts MC, Gralnick JA, LaPara TM
+  TITLE     Sphingobacterium sp. strain PM2-P1-29 harbours a functional tet(X) gene encoding for the degradation of tetracycline.
+  JOURNAL   J Appl Microbiol 106:1336-42 (2009)
+            DOI:10.1111/j.1365-2672.2008.04101.x
+///

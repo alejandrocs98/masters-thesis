@@ -1,0 +1,13 @@
+ENTRY       R06664                      Reaction
+DEFINITION  Urdamycinone F + 2 dTDP-beta-L-rhodinose + dTDP-D-olivose <=> Urdamycin F + 3 dTDP
+EQUATION    C12410 + 2 C12447 + C11923 <=> C12411 + 3 C00363
+COMMENT     multi-step reaction
+            glycosyltransferase, UrdGT1a+UrdGT1c+UrdGT1b
+RCLASS      RC00005  C00363_C11923  C00363_C12447
+            RC01669  C12410_C12411
+PATHWAY     rn01057  Biosynthesis of type II polyketide products
+            rn01110  Biosynthesis of secondary metabolites
+ORTHOLOGY   K15937  glycosyltransferase
+            K15938  glycosyltransferase
+            K15939  glycosyltransferase [EC:2.4.1.-]
+///

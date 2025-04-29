@@ -1,0 +1,19 @@
+ENTRY       R10319                      Reaction
+NAME        8-O-methylsterigmatocystin,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (aflatoxin-B forming)
+DEFINITION  O-Methylsterigmatocystin + 2 [Reduced NADPH---hemoprotein reductase] + 2 Oxygen <=> Aflatoxin B1 + 2 [Oxidized NADPH---hemoprotein reductase] + H2O + Methanol + CO2
+EQUATION    C03686 + 2 C03024 + 2 C00007 <=> C06800 + 2 C03161 + C00001 + C00132 + C00011
+RCLASS      RC03113  C03686_C06800
+ENZYME      1.14.14.117
+PATHWAY     rn00254  Aflatoxin biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00937  Aflatoxin biosynthesis, malonyl-CoA => aflatoxin B1
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.117
+                 R10319  O-Methylsterigmatocystin + 2 [Reduced NADPH---hemoprotein reductase] + 2 Oxygen <=> Aflatoxin B1 + 2 [Oxidized NADPH---hemoprotein reductase] + H2O + Methanol + CO2
+ORTHOLOGY   K17651  aflatoxin B synthase [EC:1.14.14.117]
+DBLINKS     RHEA: 35762
+///

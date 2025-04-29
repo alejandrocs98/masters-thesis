@@ -1,0 +1,36 @@
+ENTRY       R00918                      Reaction
+NAME        propanoyl-CoA:(2S)-methylmalonyl-CoA malonyltransferase (cyclizing);
+            propanoyl-CoA:(2S)-methylmalonyl-CoA 2-C-acyltransferase (decarboxylating, oxoacyl-reducing and cyclizing)
+DEFINITION  Propanoyl-CoA + 6 (S)-Methylmalonyl-CoA + 6 NADPH + 6 H+ <=> 6-Deoxyerythronolide B + 7 CoA + 6 CO2 + H2O + 6 NADP+
+EQUATION    C00100 + 6 C00683 + 6 C00005 + 6 C00080 <=> C03240 + 7 C00010 + 6 C00011 + C00001 + 6 C00006
+COMMENT     EryA MegA
+            multi-step reaction
+RCLASS      RC00001  C00005_C00006
+            RC00004  C00010_C00100  C00010_C00683
+            RC02825  C00100_C03240
+            RC02826  C00683_C03240
+            RC02828  C00683_C03240
+            RC02829  C00683_C03240
+            RC02830  C00683_C03240
+            RC02831  C00683_C03240
+ENZYME      2.3.1.94
+PATHWAY     rn00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00774  Erythromycin biosynthesis, propanoyl-CoA + methylmalonyl-CoA => deoxyerythronolide B => erythromycin A/B
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.94
+                 R00918  Propanoyl-CoA + 6 (S)-Methylmalonyl-CoA + 6 NADPH + 6 H+ <=> 6-Deoxyerythronolide B + 7 CoA + 6 CO2 + H2O + 6 NADP+
+ORTHOLOGY   K10817  6-deoxyerythronolide-B synthase EryAI [EC:2.3.1.94]
+            K24563  6-deoxyerythronolide B synthase EryAII [EC:2.3.1.94]
+            K24564  6-deoxyerythronolide B synthase EryAIII [EC:2.3.1.94]
+REFERENCE   1  [PMID:11752428]
+  AUTHORS   Tsai SC, Miercke LJ, Krucinski J, Gokhale R, Chen JC, Foster PG, Cane DE, Khosla C, Stroud RM
+  TITLE     Crystal structure of the macrocycle-forming thioesterase domain of the erythromycin polyketide synthase: versatility from a unique substrate channel.
+  JOURNAL   Proc Natl Acad Sci U S A 98:14808-13 (2001)
+            DOI:10.1073/pnas.011399198
+DBLINKS     RHEA: 23071
+///

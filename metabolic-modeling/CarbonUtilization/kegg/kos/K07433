@@ -1,0 +1,83 @@
+ENTRY       K07433                      KO
+SYMBOL      CYP11B2
+NAME        steroid 11beta-monooxygenase / corticosterone 18-monooxygenase [EC:1.14.15.4 1.14.15.5]
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map01100  Metabolic pathways
+            map04925  Aldosterone synthesis and secretion
+MODULE      M00108  C21-Steroid hormone biosynthesis, progesterone => corticosterone/aldosterone
+REACTION    R02218  progesterone,reduced ferredoxin:oxygen oxidoreductase (11-hydroxylating)
+            R02725  androstenedione,reduced-adrenal-ferredoxin:oxygen oxidoreductase (11-hydroxylating)
+            R02843  steroid,reduced ferredoxin:oxygen oxidoreductase (11-hydroxylating)
+            R03262  corticosterone,reduced-adrenal-ferredoxin:oxygen oxidoreductase (18-hydroxylating)
+            R03263  
+            R03329  steroid,reduced-adrenal-ferredoxin:oxygen oxidoreductase (11-hydroxylating)
+            R03851  11-deoxycorticosterone,reduced ferredoxin:oxygen oxidoreductase (11-hydroxylating)
+            R04850  17alpha,21-dihydroxypregnenolone:oxygen oxidoreductase (11-hydroxylating)
+DISEASE     H00258  Aldosterone synthase deficiency
+            H00602  Glucocorticoid-remediable aldosteronism (GRA)
+            H01633  High blood pressure
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09103 Lipid metabolism
+               00140 Steroid hormone biosynthesis
+                K07433  CYP11B2; steroid 11beta-monooxygenase / corticosterone 18-monooxygenase
+             09150 Organismal Systems
+              09152 Endocrine system
+               04925 Aldosterone synthesis and secretion
+                K07433  CYP11B2; steroid 11beta-monooxygenase / corticosterone 18-monooxygenase
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               00199 Cytochrome P450
+                K07433  CYP11B2; steroid 11beta-monooxygenase / corticosterone 18-monooxygenase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.15  With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.15.4  steroid 11beta-monooxygenase
+                 K07433  CYP11B2; steroid 11beta-monooxygenase / corticosterone 18-monooxygenase
+                1.14.15.5  corticosterone 18-monooxygenase
+                 K07433  CYP11B2; steroid 11beta-monooxygenase / corticosterone 18-monooxygenase
+            Cytochrome P450 [BR:ko00199]
+             Cytochrome P450, animal type
+              CYP11 family
+               K07433  CYP11B2; steroid 11beta-monooxygenase / corticosterone 18-monooxygenase
+DBLINKS     GO: 0004507 0047783
+GENES       HSA: 1585(CYP11B2)
+            PTR: 745937(CYP11B2)
+            PPS: 100971238(CYP11B2)
+            GGO: 101142418
+            PON: 100461139
+            NLE: 115830633
+            MCC: 695914(CYP11B2)
+            MCF: 102137301(CYP11B2)
+            MTHB: 126961020 126961026
+            MNI: 105483796 105488428
+            CSAB: 103237547(CYP11B2)
+            CATY: 105581294
+            PANU: 101002842
+            MLEU: 105536288
+            RRO: 104679775
+            RBB: 108536550
+            TFN: 117078861
+            CANG: 105509012
+            CJC: 100415304(CYP11B2)
+            CIMI: 108291253(CYP11B1) 108291254(CYP11B2)
+            CSYR: 103276450
+            MMUR: 105867373 105867374
+            LCAT: 123644516 123644520
+            PCOQ: 105813307 105813360
+            OGA: 100948396 100958146
+            HGL: 101700701
+            CPOC: 100379213(Cyp11b2) 100727186
+            GVR: 103599088 103604864 103604866
+REFERENCE   PMID:2592361
+  AUTHORS   Mornet E, Dupont J, Vitek A, White PC
+  TITLE     Characterization of two genes encoding human steroid 11 beta-hydroxylase (P-450(11) beta).
+  JOURNAL   J Biol Chem 264:20961-7 (1989)
+  SEQUENCE  [hsa:1585]
+REFERENCE   PMID:12452430
+  AUTHORS   Bureik M, Lisurek M, Bernhardt R
+  TITLE     The human steroid hydroxylases CYP1B1 and CYP11B2.
+  JOURNAL   Biol Chem 383:1537-51 (2002)
+            DOI:10.1515/BC.2002.174
+///

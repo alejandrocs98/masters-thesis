@@ -1,0 +1,19 @@
+ENTRY       R10389                      Reaction
+NAME        nitroalkane:oxygen oxidoreductase
+DEFINITION  Nitroalkane + H2O + Oxygen <=> Ketone + Nitrite + Hydrogen peroxide
+EQUATION    C06058 + C00001 + C00007 <=> C01450 + C00088 + C00027
+COMMENT     general reaction
+RCLASS      RC02755  C00007_C00027
+            RC03154  C00088_C06058
+ENZYME      1.7.3.1
+PATHWAY     rn00910  Nitrogen metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.7  Acting on other nitrogenous compounds as donors
+               1.7.3  With oxygen as acceptor
+                1.7.3.1
+                 R10389  Nitroalkane + H2O + Oxygen <=> Ketone + Nitrite + Hydrogen peroxide
+ORTHOLOGY   K19823  nitroalkane oxidase [EC:1.7.3.1]
+DBLINKS     RHEA: 26493
+///

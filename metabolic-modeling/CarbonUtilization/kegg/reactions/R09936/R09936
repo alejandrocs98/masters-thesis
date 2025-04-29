@@ -1,0 +1,20 @@
+ENTRY       R09936                      Reaction
+NAME        uracil,FMNH2:oxygen oxidoreductase (uracil hydroxylating, ring-opening)
+DEFINITION  Uracil + Reduced FMN + Oxygen <=> (Z)-3-Ureidoacrylate peracid + FMN
+EQUATION    C00106 + C01847 + C00007 <=> C20231 + C00061
+RCLASS      RC00126  C00061_C01847
+            RC02732  C00106_C20231
+ENZYME      1.14.99.46
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+MODULE      M00939  Pyrimidine degradation, uracil => 3-hydroxypropanoate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.99  Miscellaneous
+                1.14.99.46
+                 R09936  Uracil + Reduced FMN + Oxygen <=> (Z)-3-Ureidoacrylate peracid + FMN
+ORTHOLOGY   K09018  pyrimidine oxygenase [EC:1.14.99.46]
+            K09024  flavin reductase [EC:1.5.1.-]
+DBLINKS     RHEA: 31590
+///

@@ -1,0 +1,171 @@
+ENTRY       map01059                    Pathway
+NAME        Biosynthesis of enediyne antibiotics
+DESCRIPTION Enediyne natural products are potent antitumor antibiotics produced by a variety of Actinomycetes. Enediyne has a unique structure consisting of three building blocks: aromatic, sugar and enediyne core. The enediyne core contains two acetylenic groups conjugated to a double bond in a 9- or 10-membered ring, and it is synthesized by an iterative type I polyketide synthase and other tailoring proteins [MD:M00824 M00825]. The 10-membered enediyne such as calicheamicin also contains an allylic trisulfide group, which acts as a trigger for diradical formation. This diagram shows the biosynthesis of C-1027, maduropeptin, neocarzinostatin, kedarcidin and calicheamicin. Some aromatic moieties are synthesized via iterative type I polyketide synthases, and others are derived from chorismate and aromatic amino acids such as tyrosine and azatyrosine [MD:M00829 M00830 M00831 M00834 M00826 M00827 M00828 M00832]. Finally, the aromatic and sugar building blocks are attached to the enediyne core by acyltransferases, condensation enzymes and glucosyltransferases [MD:M00833].
+CLASS       Metabolism; Metabolism of terpenoids and polyketides
+PATHWAY_MAP map01059  Biosynthesis of enediyne antibiotics
+MODULE      M00824  9-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 9-membered enediyne core [PATH:map01059]
+            M00825  10-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 10-membered enediyne core [PATH:map01059]
+            M00826  C-1027 benzoxazolinate moiety biosynthesis, chorismate => benzoxazolinyl-CoA [PATH:map01059]
+            M00827  C-1027 beta-amino acid moiety biosynthesis, tyrosine => 3-chloro-4,5-dihydroxy-beta-phenylalanyl-PCP [PATH:map01059]
+            M00828  Maduropeptin beta-hydroxy acid moiety biosynthesis, tyrosine => 3-(4-hydroxyphenyl)-3-oxopropanoyl-PCP [PATH:map01059]
+            M00829  3,6-Dimethylsalicylyl-CoA biosynthesis, malonyl-CoA => 6-methylsalicylate => 3,6-dimethylsalicylyl-CoA [PATH:map01059]
+            M00830  Neocarzinostatin naphthoate moiety biosynthesis, malonyl-CoA => 2-hydroxy-5-methyl-1-naphthoate => 2-hydroxy-7-methoxy-5-methyl-1-naphthoyl-CoA [PATH:map01059]
+            M00831  Kedarcidin 2-hydroxynaphthoate moiety biosynthesis, malonyl-CoA => 3,6,8-trihydroxy-2-naphthoate => 3-hydroxy-7,8-dimethoxy-6-isopropoxy-2-naphthoyl-CoA [PATH:map01059]
+            M00832  Kedarcidin 2-aza-3-chloro-beta-tyrosine moiety biosynthesis, azatyrosine => 2-aza-3-chloro-beta-tyrosyl-PCP [PATH:map01059]
+            M00833  Calicheamicin biosynthesis, calicheamicinone => calicheamicin [PATH:map01059]
+            M00834  Calicheamicin orsellinate moiety biosynthesis, malonyl-CoA => orsellinate-ACP => 5-iodo-2,3-dimethoxyorsellinate-ACP [PATH:map01059]
+REFERENCE   PMID:20336235
+  AUTHORS   Liang ZX
+  TITLE     Complexity and simplicity in the biosynthesis of enediyne natural products.
+  JOURNAL   Nat Prod Rep 27:499-528 (2010)
+            DOI:10.1039/b908165h
+REFERENCE   PMID:18397168
+  AUTHORS   Van Lanen SG, Shen B
+  TITLE     Biosynthesis of enediyne antitumor antibiotics.
+  JOURNAL   Curr Top Med Chem 8:448-59 (2008)
+            DOI:10.2174/156802608783955656
+REFERENCE   PMID:12183628
+  AUTHORS   Liu W, Christenson SD, Standage S, Shen B
+  TITLE     Biosynthesis of the enediyne antitumor antibiotic C-1027.
+  JOURNAL   Science 297:1170-3 (2002)
+            DOI:10.1126/science.1072110
+REFERENCE   PMID:12183629
+  AUTHORS   Ahlert J, Shepard E, Lomovskaya N, Zazopoulos E, Staffa A, Bachmann BO, Huang K, Fonstein L, Czisny A, Whitwam RE, Farnet CM, Thorson JS
+  TITLE     The calicheamicin gene cluster and its iterative type I enediyne PKS.
+  JOURNAL   Science 297:1173-6 (2002)
+            DOI:10.1126/science.1072105
+REFERENCE   PMID:17918933
+  AUTHORS   Van Lanen SG, Oh TJ, Liu W, Wendt-Pienkowski E, Shen B
+  TITLE     Characterization of the maduropeptin biosynthetic gene cluster from Actinomadura madurae ATCC 39144 supporting a unifying paradigm for enediyne biosynthesis.
+  JOURNAL   J Am Chem Soc 129:13082-94 (2007)
+            DOI:10.1021/ja073275o
+REFERENCE   PMID:15797213
+  AUTHORS   Liu W, Nonaka K, Nie L, Zhang J, Christenson SD, Bae J, Van Lanen SG, Zazopoulos E, Farnet CM, Yang CF, Shen B
+  TITLE     The neocarzinostatin biosynthetic gene cluster from Streptomyces carzinostaticus ATCC 15944 involving two iterative type I polyketide synthases.
+  JOURNAL   Chem Biol 12:293-302 (2005)
+            DOI:10.1016/j.chembiol.2004.12.013
+REFERENCE   PMID:23360970
+  AUTHORS   Lohman JR, Huang SX, Horsman GP, Dilfer PE, Huang T, Chen Y, Wendt-Pienkowski E, Shen B
+  TITLE     Cloning and sequencing of the kedarcidin biosynthetic gene cluster from Streptoalloteichus sp. ATCC 53650 revealing new insights into biosynthesis of the enediyne family of antitumor antibiotics.
+  JOURNAL   Mol Biosyst 9:478-91 (2013)
+            DOI:10.1039/c3mb25523a
+REFERENCE   PMID:19362637
+  AUTHORS   Horsman GP, Van Lanen SG, Shen B
+  TITLE     Iterative type I polyketide synthases for enediyne core biosynthesis.
+  JOURNAL   Methods Enzymol 459:97-112 (2009)
+            DOI:10.1016/S0076-6879(09)04605-9
+REFERENCE   PMID:20024241
+  AUTHORS   Sun H, Kong R, Zhu D, Lu M, Ji Q, Liew CW, Lescar J, Zhong G, Liang ZX
+  TITLE     Products of the iterative polyketide synthases in 9- and 10-membered enediyne biosynthesis.
+  JOURNAL   Chem Commun (Camb) 7399-401 (2009)
+            DOI:10.1039/b916751j
+REFERENCE   PMID:18223152
+  AUTHORS   Zhang J, Van Lanen SG, Ju J, Liu W, Dorrestein PC, Li W, Kelleher NL, Shen B
+  TITLE     A phosphopantetheinylating polyketide synthase producing a linear polyene to initiate enediyne antitumor antibiotic biosynthesis.
+  JOURNAL   Proc Natl Acad Sci U S A 105:1460-5 (2008)
+            DOI:10.1073/pnas.0711625105
+REFERENCE   PMID:19689130
+  AUTHORS   Belecki K, Crawford JM, Townsend CA
+  TITLE     Production of octaketide polyenes by the calicheamicin polyketide synthase CalE8: implications for the biosynthesis of enediyne core structures.
+  JOURNAL   J Am Chem Soc 131:12564-6 (2009)
+            DOI:10.1021/ja904391r
+REFERENCE   PMID:19357082
+  AUTHORS   Kotaka M, Kong R, Qureshi I, Ho QS, Sun H, Liew CW, Goh LP, Cheung P, Mu Y, Lescar J, Liang ZX
+  TITLE     Structure and catalytic mechanism of the thioesterase CalE7 in enediyne biosynthesis.
+  JOURNAL   J Biol Chem 284:15739-49 (2009)
+            DOI:10.1074/jbc.M809669200
+REFERENCE   PMID:24041368
+  AUTHORS   Belecki K, Townsend CA
+  TITLE     Biochemical determination of enzyme-bound metabolites: preferential accumulation of a programmed octaketide on the enediyne polyketide synthase CalE8.
+  JOURNAL   J Am Chem Soc 135:14339-48 (2013)
+            DOI:10.1021/ja406697t
+REFERENCE   PMID:20534556
+  AUTHORS   Horsman GP, Chen Y, Thorson JS, Shen B
+  TITLE     Polyketide synthase chemistry does not direct biosynthetic divergence between 9- and 10-membered enediynes.
+  JOURNAL   Proc Natl Acad Sci U S A 107:11331-5 (2010)
+            DOI:10.1073/pnas.1003442107
+REFERENCE   PMID:25278375
+  AUTHORS   Chen X, Ji R, Jiang X, Yang R, Liu F, Xin Y
+  TITLE     Iterative type I polyketide synthases involved in enediyne natural product biosynthesis.
+  JOURNAL   IUBMB Life 66:587-95 (2014)
+            DOI:10.1002/iub.1316
+REFERENCE   PMID:19856960
+  AUTHORS   Lin S, Horsman GP, Chen Y, Li W, Shen B
+  TITLE     Characterization of the SgcF epoxide hydrolase supporting an (R)-vicinal diol intermediate for enediyne antitumor antibiotic C-1027 biosynthesis.
+  JOURNAL   J Am Chem Soc 131:16410-7 (2009)
+            DOI:10.1021/ja901242s
+REFERENCE   PMID:23844627
+  AUTHORS   Horsman GP, Lechner A, Ohnishi Y, Moore BS, Shen B
+  TITLE     Predictive model for epoxide hydrolase-generated stereochemistry in the biosynthesis of nine-membered enediyne antitumor antibiotics.
+  JOURNAL   Biochemistry 52:5217-24 (2013)
+            DOI:10.1021/bi400572a
+REFERENCE   PMID:20704329
+  AUTHORS   Lin S, Horsman GP, Shen B
+  TITLE     Characterization of the epoxide hydrolase NcsF2 from the neocarzinostatin biosynthetic gene cluster.
+  JOURNAL   Org Lett 12:3816-9 (2010)
+            DOI:10.1021/ol101473t
+REFERENCE   PMID:18182490
+  AUTHORS   Van Lanen SG, Lin S, Shen B
+  TITLE     Biosynthesis of the enediyne antitumor antibiotic C-1027 involves a new branching point in chorismate metabolism.
+  JOURNAL   Proc Natl Acad Sci U S A 105:494-9 (2008)
+            DOI:10.1073/pnas.0708750105
+REFERENCE   PMID:14580219
+  AUTHORS   Christenson SD, Wu W, Spies MA, Shen B, Toney MD
+  TITLE     Kinetic analysis of the 4-methylideneimidazole-5-one-containing tyrosine aminomutase in enediyne antitumor antibiotic C-1027 biosynthesis.
+  JOURNAL   Biochemistry 42:12708-18 (2003)
+            DOI:10.1021/bi035223r
+REFERENCE   PMID:16887797
+  AUTHORS   Van Lanen SG, Lin S, Dorrestein PC, Kelleher NL, Shen B
+  TITLE     Substrate specificity of the adenylation enzyme SgcC1 involved in the biosynthesis of the enediyne antitumor antibiotic C-1027.
+  JOURNAL   J Biol Chem 281:29633-40 (2006)
+            DOI:10.1074/jbc.M605887200
+REFERENCE   PMID:16104723
+  AUTHORS   Van Lanen SG, Dorrestein PC, Christenson SD, Liu W, Ju J, Kelleher NL, Shen B
+  TITLE     Biosynthesis of the beta-amino acid moiety of the enediyne antitumor antibiotic C-1027 featuring beta-amino acyl-S-carrier protein intermediates.
+  JOURNAL   J Am Chem Soc 127:11594-5 (2005)
+            DOI:10.1021/ja052871k
+REFERENCE   PMID:18426211
+  AUTHORS   Lin S, Van Lanen SG, Shen B
+  TITLE     Characterization of the two-component, FAD-dependent monooxygenase SgcC that requires carrier protein-tethered substrates for the biosynthesis of the enediyne antitumor antibiotic C-1027.
+  JOURNAL   J Am Chem Soc 130:6616-23 (2008)
+            DOI:10.1021/ja710601d
+REFERENCE   PMID:19817865
+  AUTHORS   Van Lanen SG, Lin S, Horsman GP, Shen B
+  TITLE     Characterization of SgcE6, the flavin reductase component supporting FAD-dependent halogenation and hydroxylation in the biosynthesis of the enediyne antitumor antibiotic C-1027.
+  JOURNAL   FEMS Microbiol Lett 300:237-41 (2009)
+            DOI:10.1111/j.1574-6968.2009.01802.x
+REFERENCE   PMID:23034235
+  AUTHORS   Lohman JR, Shen B
+  TITLE     4-methylideneimidazole-5-one-containing aminomutases in enediyne biosynthesis.
+  JOURNAL   Methods Enzymol 516:299-319 (2012)
+            DOI:10.1016/B978-0-12-394291-3.00007-1
+REFERENCE   PMID:20718468
+  AUTHORS   Ling J, Horsman GP, Huang SX, Luo Y, Lin S, Shen B
+  TITLE     Enediyne antitumor antibiotic maduropeptin biosynthesis featuring a C-methyltransferase that acts on a CoA-tethered aromatic substrate.
+  JOURNAL   J Am Chem Soc 132:12534-6 (2010)
+            DOI:10.1021/ja1050814
+REFERENCE   PMID:23633564
+  AUTHORS   Huang SX, Lohman JR, Huang T, Shen B
+  TITLE     A new member of the 4-methylideneimidazole-5-one-containing aminomutase family from the enediyne kedarcidin biosynthetic pathway.
+  JOURNAL   Proc Natl Acad Sci U S A 110:8069-74 (2013)
+            DOI:10.1073/pnas.1304733110
+REFERENCE   PMID:18561189
+  AUTHORS   McCoy JG, Johnson HD, Singh S, Bingman CA, Lei IK, Thorson JS, Phillips GN Jr
+  TITLE     Structural characterization of CalO2: a putative orsellinic acid P450 oxidase in the calicheamicin biosynthetic pathway.
+  JOURNAL   Proteins 74:50-60 (2009)
+            DOI:10.1002/prot.22131
+REFERENCE   PMID:24978950
+  AUTHORS   Singh S, Nandurkar NS, Thorson JS
+  TITLE     Characterization of the calicheamicin orsellinate C2-O-methyltransferase CalO6.
+  JOURNAL   Chembiochem 15:1418-21 (2014)
+            DOI:10.1002/cbic.201402119
+REFERENCE   PMID:21358050
+  AUTHORS   Chang A, Singh S, Bingman CA, Thorson JS, Phillips GN Jr
+  TITLE     Structural characterization of CalO1: a putative orsellinic acid methyltransferase in the calicheamicin-biosynthetic pathway.
+  JOURNAL   Acta Crystallogr D Biol Crystallogr 67:197-203 (2011)
+            DOI:10.1107/S090744491100360X
+REL_PATHWAY map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map00523  Polyketide sugar unit biosynthesis
+            map00620  Pyruvate metabolism
+KO_PATHWAY  ko01059
+///

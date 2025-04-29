@@ -1,0 +1,23 @@
+ENTRY       R02757                      Reaction
+NAME        ATP:acylglycerol 3-phosphotransferase
+DEFINITION  ATP + 1-Acylglycerol <=> ADP + 1-Acyl-sn-glycerol 3-phosphate
+EQUATION    C00002 + C01885 <=> C00008 + C00681
+COMMENT     see R02758 (2-acyl type reaction)
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00681_C01885
+ENZYME      2.7.1.94
+PATHWAY     rn00561  Glycerolipid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.94
+                 R02757  ATP + 1-Acylglycerol <=> ADP + 1-Acyl-sn-glycerol 3-phosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.1.94
+               R03754  Acylglycerol <=> Acyl-sn-glycerol 3-phosphate
+                R02757  1-Acylglycerol <=> 1-Acyl-sn-glycerol 3-phosphate
+ORTHOLOGY   K09881  acylglycerol kinase [EC:2.7.1.94]
+///

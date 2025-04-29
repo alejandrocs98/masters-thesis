@@ -1,0 +1,21 @@
+ENTRY       R10033                      Reaction
+DEFINITION  N,N-Dihydroxy-L-valine <=> (E)-2-Methylpropanal oxime + CO2 + H2O
+EQUATION    C20314 <=> C03219 + C00011 + C00001
+COMMENT     the last step of three-step reaction (see R08663, R10031+R10032+R10033)
+RCLASS      RC03009  C03219_C20314
+ENZYME      1.14.14.38      1.14.14.39
+PATHWAY     rn00460  Cyanoamino acid metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.38
+                 R10033  N,N-Dihydroxy-L-valine <=> (E)-2-Methylpropanal oxime + CO2 + H2O
+                1.14.14.39
+                 R10033  N,N-Dihydroxy-L-valine <=> (E)-2-Methylpropanal oxime + CO2 + H2O
+ORTHOLOGY   K13401  valine N-monooxygenase [EC:1.14.14.38]
+            K14984  isoleucine N-monooxygenase [EC:1.14.14.39]
+DBLINKS     RHEA: 30502
+///

@@ -1,0 +1,21 @@
+ENTRY       R06811                      Reaction
+NAME        UDP-D-xylose:flavonol-3-O-glycoside 2''-O-beta-D-xylosyltransferase
+DEFINITION  Rutin + UDP-D-xylose <=> Quercetin 3-(2G-xylosylrutinoside) + UDP
+EQUATION    C05625 + C00190 <=> C10175 + C00015
+COMMENT     flavonol-3-O-glycoside xylosyltransferase
+RCLASS      RC00005  C00015_C00190
+            RC00049  C05625_C10175
+ENZYME      2.4.2.35
+PATHWAY     rn00944  Flavone and flavonol biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.2  Pentosyltransferases
+                2.4.2.35
+                 R06811  Rutin + UDP-D-xylose <=> Quercetin 3-(2G-xylosylrutinoside) + UDP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.2.35
+               R03268  Flavonol 3-O-D-glycoside <=> Flavonol 3-O-D-xylosylglycoside
+                R06811  Rutin <=> Quercetin 3-(2G-xylosylrutinoside)
+///

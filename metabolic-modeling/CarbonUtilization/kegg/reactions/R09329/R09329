@@ -1,0 +1,20 @@
+ENTRY       R09329                      Reaction
+NAME        nogalavinone:NADP+ 7-oxidoreductase
+DEFINITION  Nogalaviketone + NADPH + H+ <=> Nogalavinone + NADP+
+EQUATION    C18630 + C00005 + C00080 <=> C18631 + C00006
+COMMENT     C7-ketoreductase, snoaF
+RCLASS      RC00001  C00005_C00006
+            RC00234  C18630_C18631
+ENZYME      1.1.1.-
+PATHWAY     rn01057  Biosynthesis of type II polyketide products
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00781  Nogalavinone/aklavinone biosynthesis, deoxynogalonate/deoxyaklanonate => nogalavinone/aklavinone
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R09329  Nogalaviketone + NADPH + H+ <=> Nogalavinone + NADP+
+ORTHOLOGY   K15944  nogalaviketone/aklaviketone reductase [EC:1.1.1.- 1.1.1.362]
+///

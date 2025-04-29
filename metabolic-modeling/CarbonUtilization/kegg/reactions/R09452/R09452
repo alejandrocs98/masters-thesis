@@ -1,0 +1,23 @@
+ENTRY       R09452                      Reaction
+NAME        (9Z)-octadecenoic acid,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (omega-hydroxylating)
+DEFINITION  (9Z)-Octadecenoic acid + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 18-Hydroxyoleate + [Oxidized NADPH---hemoprotein reductase] + H2O
+EQUATION    C00712 + C03024 + C00007 <=> C19616 + C03161 + C00001
+COMMENT     fatty acid omega-hydroxylase
+RCLASS      RC00797  C00712_C19616
+ENZYME      1.14.14.80
+PATHWAY     rn00073  Cutin, suberine and wax biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.80
+                 R09452  (9Z)-Octadecenoic acid + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 18-Hydroxyoleate + [Oxidized NADPH---hemoprotein reductase] + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.14.80
+               R12072  Long-chain fatty acid <=> omega-Hydroxy-long-chain fatty acid
+                R09452  (9Z)-Octadecenoic acid <=> 18-Hydroxyoleate
+ORTHOLOGY   K15401  long-chain fatty acid omega-monooxygenase [EC:1.14.14.80]
+            K20495  long-chain fatty acid omega-monooxygenase [EC:1.14.14.80]
+DBLINKS     RHEA: 41731
+///

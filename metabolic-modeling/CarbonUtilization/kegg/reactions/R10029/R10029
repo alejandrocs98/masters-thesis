@@ -1,0 +1,20 @@
+ENTRY       R10029                      Reaction
+DEFINITION  N,N-Dihydroxy-L-isoleucine <=> (E)-2-Methylbutanal oxime + CO2 + H2O
+EQUATION    C20311 <=> C19491 + C00011 + C00001
+COMMENT     the last step of three-step reaction (see R09403, R10027+R10028+R10029)
+RCLASS      RC03009  C19491_C20311
+ENZYME      1.14.14.38      1.14.14.39
+PATHWAY     rn00460  Cyanoamino acid metabolism
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.38
+                 R10029  N,N-Dihydroxy-L-isoleucine <=> (E)-2-Methylbutanal oxime + CO2 + H2O
+                1.14.14.39
+                 R10029  N,N-Dihydroxy-L-isoleucine <=> (E)-2-Methylbutanal oxime + CO2 + H2O
+ORTHOLOGY   K13401  valine N-monooxygenase [EC:1.14.14.38]
+            K14984  isoleucine N-monooxygenase [EC:1.14.14.39]
+DBLINKS     RHEA: 30490
+///

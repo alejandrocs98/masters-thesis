@@ -1,0 +1,57 @@
+ENTRY       K14582                      KO
+SYMBOL      nahB, doxE
+NAME        cis-1,2-dihydro-1,2-dihydroxynaphthalene/dibenzothiophene dihydrodiol dehydrogenase [EC:1.3.1.29 1.3.1.60]
+PATHWAY     map00624  Polycyclic aromatic hydrocarbon degradation
+            map00626  Naphthalene degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00534  Naphthalene degradation, naphthalene => salicylate
+REACTION    R04115  cis-1,2-dihydronaphthalene-1,2-diol:NAD+ 1,2-oxidoreductase
+            R06910  cis-1,2-dihydronaphthalene-1,2-diol:NAD+ 1,2-oxidoreductase
+            R06931  cis-1,2-dihydronaphthalene-1,2-diol:NAD+ 1,2-oxidoreductase
+            R07705  anthracene cis-1,2-dihydrodiol:NAD+ 1,2-oxidoreductase
+            R09162  cis-4,5-dihydroxy-4,5-dihydropyrene:NAD+ 4,5-oxidoreductase
+            R09183  
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00626 Naphthalene degradation
+                K14582  nahB, doxE; cis-1,2-dihydro-1,2-dihydroxynaphthalene/dibenzothiophene dihydrodiol dehydrogenase
+               00624 Polycyclic aromatic hydrocarbon degradation
+                K14582  nahB, doxE; cis-1,2-dihydro-1,2-dihydroxynaphthalene/dibenzothiophene dihydrodiol dehydrogenase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.29  cis-1,2-dihydro-1,2-dihydroxynaphthalene dehydrogenase
+                 K14582  nahB, doxE; cis-1,2-dihydro-1,2-dihydroxynaphthalene/dibenzothiophene dihydrodiol dehydrogenase
+                1.3.1.60  dibenzothiophene dihydrodiol dehydrogenase
+                 K14582  nahB, doxE; cis-1,2-dihydro-1,2-dihydroxynaphthalene/dibenzothiophene dihydrodiol dehydrogenase
+            Dioxygenases [br01602.html]
+             Dioxygenases in aromatic ring cleavage
+              K14582
+DBLINKS     GO: 0018505 0018513
+GENES       PPI: ND057(nahB)
+            PFK: PFAS1_28620
+            PSC: A458_06715
+            PSTU: UIB01_22635
+            PBM: CL52_14620
+            ALT: ambt_17885
+            RMN: TK49_07960
+            BMK: DM80_1445(bphB)
+            PARB: CJU94_38650
+            PNA: Pnap_2483
+            NPP: PP1Y_AT15739
+            NPN: JI59_24665
+            SBAR: H5V43_22365(hcaB)
+            SPHY: CHN51_07000
+            CNA: AB433_18095
+            AG: AAA16128(doxE)
+REFERENCE   PMID:8226631
+  AUTHORS   Denome SA, Stanley DC, Olson ES, Young KD
+  TITLE     Metabolism of dibenzothiophene and naphthalene in Pseudomonas strains: complete DNA sequence of an upper naphthalene catabolic pathway.
+  JOURNAL   J Bacteriol 175:6890-901 (1993)
+            DOI:10.1128/JB.175.21.6890-6901.1993
+  SEQUENCE  [ag:AAA16128]
+///

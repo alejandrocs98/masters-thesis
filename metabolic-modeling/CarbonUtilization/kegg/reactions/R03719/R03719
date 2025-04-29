@@ -1,0 +1,26 @@
+ENTRY       R03719                      Reaction
+NAME        3alpha,7alpha,12alpha-trihydroxy-5beta-cholanoyl-CoA:propanoyl-CoA C-acyltransferase;
+            choloyl-CoA:propanoyl-CoA C-acyltransferase
+DEFINITION  Propanoyl-CoA + Choloyl-CoA <=> CoA + 3alpha,7alpha,12alpha-Trihydroxy-5beta-24-oxocholestanoyl-CoA
+EQUATION    C00100 + C01794 <=> C00010 + C05467
+RCLASS      RC00004  C00010_C01794
+            RC00405  C00100_C05467
+            RC02725  C01794_C05467
+ENZYME      2.3.1.176
+PATHWAY     rn00120  Primary bile acid biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00104  Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate
+            M00862  beta-Oxidation, peroxisome, tri/dihydroxycholestanoyl-CoA => choloyl/chenodeoxycholoyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.176
+                 R03719  Propanoyl-CoA + Choloyl-CoA <=> CoA + 3alpha,7alpha,12alpha-Trihydroxy-5beta-24-oxocholestanoyl-CoA
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.176
+               R03719  Choloyl-CoA <=> 3alpha,7alpha,12alpha-Trihydroxy-5beta-24-oxocholestanoyl-CoA
+ORTHOLOGY   K08764  sterol carrier protein 2 [EC:2.3.1.176]
+DBLINKS     RHEA: 16868
+///

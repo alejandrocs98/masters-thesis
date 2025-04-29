@@ -1,0 +1,28 @@
+ENTRY       R00460                      Reaction
+NAME        lysine racemase
+DEFINITION  L-Lysine <=> D-Lysine
+EQUATION    C00047 <=> C00739
+RCLASS      RC00302  C00047_C00739
+ENZYME      5.1.1.5         5.1.1.10
+PATHWAY     rn00310  Lysine degradation
+            rn00470  D-Amino acid metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00960  Lysine degradation, bacteria, L-lysine => D-lysine => succinate
+BRITE       Enzymatic reactions [BR:br08201]
+             5. Isomerase reactions
+              5.1  Racemases and epimerases
+               5.1.1  Acting on amino acids and derivatives
+                5.1.1.5
+                 R00460  L-Lysine <=> D-Lysine
+                5.1.1.10
+                 R00460  L-Lysine <=> D-Lysine
+            IUBMB reaction hierarchy [BR:br08202]
+             5. Isomerase reactions
+              5.1.1.10
+               R01265  L-Amino acid <=> D-Amino acid
+                R00460  L-Lysine <=> D-Lysine
+ORTHOLOGY   K25316  amino-acid racemase [EC:5.1.1.10]
+            K25317  amino-acid racemase [EC:5.1.1.10]
+DBLINKS     RHEA: 22867
+///

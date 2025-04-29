@@ -1,0 +1,23 @@
+ENTRY       R05038                      Reaction
+NAME        leucodelphinidin:NADP+ 4-oxidoreductase
+DEFINITION  Leucodelphinidin + NADP+ <=> Dihydromyricetin + NADPH + H+
+EQUATION    C05909 + C00006 <=> C02906 + C00005 + C00080
+COMMENT     dihydrokaempferol 4-reductase
+RCLASS      RC00001  C00005_C00006
+            RC00235  C02906_C05909
+ENZYME      1.1.1.219
+PATHWAY     rn00941  Flavonoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.219
+                 R05038  Leucodelphinidin + NADP+ <=> Dihydromyricetin + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.219
+               R11500  (2R,3S,4S)-Leucoanthocyanidin <=> (2R,3R)-Dihydroflavonol
+                R05038  Leucodelphinidin <=> Dihydromyricetin
+ORTHOLOGY   K13082  bifunctional dihydroflavonol 4-reductase/flavanone 4-reductase [EC:1.1.1.219 1.1.1.234]
+///

@@ -1,0 +1,26 @@
+ENTRY       R05449                      Reaction
+NAME        2,4,6-trichlorophenol,FADH2:oxygen oxidoreductase (dechlorinating)
+DEFINITION  2,4,6-Trichlorophenol + FADH2 + Oxygen <=> 2,6-Dichloro-p-benzoquinone + FAD + H2O + Cl-
+EQUATION    C07098 + C01352 + C00007 <=> C21103 + C00016 + C00001 + C00698
+COMMENT     the first step of two-step reaction (see R13143, R05449+R13142)
+RCLASS      RC00126  C00016_C01352
+            RC03352  C07098_C21103
+ENZYME      1.14.14.173
+PATHWAY     rn00361  Chlorocyclohexane and chlorobenzene degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.173
+                 R05449  2,4,6-Trichlorophenol + FADH2 + Oxygen <=> 2,6-Dichloro-p-benzoquinone + FAD + H2O + Cl-
+ORTHOLOGY   K15245  flavin reductase [EC:1.5.1.37]
+            K15246  chlorophenol-4-monooxygenase [EC:1.14.14.173 1.14.14.-]
+            K24293  3,5,6-trichloropyridin-2-ol/2,4,6-trichlorophenol monooxygenase [EC:1.14.14.172 1.14.14.173]
+REFERENCE   1  [PMID:19915006]
+  AUTHORS   Webb BN, Ballinger JW, Kim E, Belchik SM, Lam KS, Youn B, Nissen MS, Xun L, Kang C
+  TITLE     Characterization of chlorophenol 4-monooxygenase (TftD) and NADH:FAD oxidoreductase (TftC) of Burkholderia cepacia AC1100.
+  JOURNAL   J Biol Chem 285:2014-27 (2010)
+            DOI:10.1074/jbc.M109.056135
+DBLINKS     RHEA: 63415
+///

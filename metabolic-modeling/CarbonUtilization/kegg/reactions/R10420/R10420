@@ -1,0 +1,19 @@
+ENTRY       R10420                      Reaction
+NAME        GDP-beta-L-colitose:NAD+ 4-oxidoreductase (5-epimerizing)
+DEFINITION  GDP-beta-L-colitose + NAD+ <=> GDP-4-dehydro-3,6-dideoxy-alpha-D-mannose + NADH + H+
+EQUATION    C20613 + C00003 <=> C20612 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00154  C20612_C20613
+ENZYME      1.1.1.356
+PATHWAY     rn00541  O-Antigen nucleotide sugar biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.356
+                 R10420  GDP-beta-L-colitose + NAD+ <=> GDP-4-dehydro-3,6-dideoxy-alpha-D-mannose + NADH + H+
+ORTHOLOGY   K21130  GDP-L-colitose synthase [EC:1.1.1.356]
+DBLINKS     RHEA: 36570
+///

@@ -1,0 +1,20 @@
+ENTRY       R01867                      Reaction
+NAME        (S)-dihydroorotate:fumarate oxidoreductase
+DEFINITION  (S)-Dihydroorotate + Fumarate <=> Orotate + Succinate
+EQUATION    C00337 + C00122 <=> C00295 + C00042
+RCLASS      RC00045  C00042_C00122
+            RC00051  C00295_C00337
+ENZYME      1.3.98.1
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00051  De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.3  Acting on the CH-CH group of donors
+               1.3.98  With other, known, physiological acceptors
+                1.3.98.1
+                 R01867  (S)-Dihydroorotate + Fumarate <=> Orotate + Succinate
+ORTHOLOGY   K00226  dihydroorotate dehydrogenase (fumarate) [EC:1.3.98.1]
+DBLINKS     RHEA: 30062
+///

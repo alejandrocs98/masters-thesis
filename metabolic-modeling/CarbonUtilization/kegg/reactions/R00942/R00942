@@ -1,0 +1,25 @@
+ENTRY       R00942                      Reaction
+NAME        tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)
+DEFINITION  ATP + Tetrahydrofolate + L-Glutamate <=> ADP + Orthophosphate + THF-L-glutamate
+EQUATION    C00002 + C00101 + C00025 <=> C00008 + C00009 + C09332
+RCLASS      RC00002  C00002_C00008
+            RC00064  C00025_C09332
+            RC00090  C00101_C09332
+ENZYME      6.3.2.17
+PATHWAY     rn00790  Folate biosynthesis
+            rn01240  Biosynthesis of cofactors
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.17
+                 R00942  ATP + Tetrahydrofolate + L-Glutamate <=> ADP + Orthophosphate + THF-L-glutamate
+            IUBMB reaction hierarchy [BR:br08202]
+             6. Ligase reactions
+              6.3.2.17
+               R04241  THF-polyglutamate <=> THF-polyglutamate
+                R00942  Tetrahydrofolate <=> THF-L-glutamate
+ORTHOLOGY   K01930  folylpolyglutamate synthase [EC:6.3.2.17]
+            K11754  dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]
+            K22099  dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]
+///

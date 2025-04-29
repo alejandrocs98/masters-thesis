@@ -1,0 +1,21 @@
+ENTRY       R05097                      Reaction
+NAME        (gibberellin-44),2-oxoglutarate:oxygen oxidoreductase
+DEFINITION  Gibberellin A53 + 2-Oxoglutarate + Oxygen <=> Gibberellin A44 diacid + Succinate + CO2
+EQUATION    C06094 + C00026 + C00007 <=> C06095 + C00042 + C00011
+COMMENT     GA 20-oxidase (2-oxoglutarate dependent dioxygenase)
+            Ref.: 1. Plant Cell Physiol. 41(3): 251-257 (2000)
+RCLASS      RC00257  C06094_C06095
+ENZYME      1.14.11.12
+PATHWAY     rn00904  Diterpenoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00928  Gibberellin A4/A1 biosynthesis, GA12/GA53 => GA4/GA1
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.11  With 2-oxoglutarate as one donor, and incorporation of one atom of oxygen into each donor
+                1.14.11.12
+                 R05097  Gibberellin A53 + 2-Oxoglutarate + Oxygen <=> Gibberellin A44 diacid + Succinate + CO2
+ORTHOLOGY   K05282  gibberellin-44 dioxygenase [EC:1.14.11.12]
+DBLINKS     RHEA: 60803
+///

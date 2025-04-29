@@ -1,0 +1,23 @@
+ENTRY       R11636                      Reaction
+NAME        CTP:formate 2'-oxidoreductase
+DEFINITION  CTP + Formate <=> dCTP + CO2 + H2O
+EQUATION    C00063 + C00058 <=> C00458 + C00011 + C00001
+RCLASS      RC00613  C00063_C00458
+ENZYME      1.1.98.6
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.98  With other, known, physiological acceptors
+                1.1.98.6
+                 R11636  CTP + Formate <=> dCTP + CO2 + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.98.6
+               R11592  Ribonucleoside triphosphate <=> Deoxynucleoside triphosphate
+                R11636  CTP <=> dCTP
+ORTHOLOGY   K21636  ribonucleoside-triphosphate reductase (formate) [EC:1.1.98.6]
+DBLINKS     RHEA: 51623
+///

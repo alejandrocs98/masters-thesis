@@ -1,0 +1,22 @@
+ENTRY       R08838                      Reaction
+NAME        benzoate,NADPH:oxygen oxidoreductase (2-hydroxylating)
+DEFINITION  Benzoate + NADPH + Oxygen <=> Salicylate + NADP+ + H2O
+EQUATION    C00180 + C00005 + C00007 <=> C00805 + C00006 + C00001
+COMMENT     benzoic acid 2-hydroxylase (BA2H)
+RCLASS      RC00001  C00005_C00006
+            RC00046  C00180_C00805
+ENZYME      1.14.13.-
+PATHWAY     rn00996  Biosynthesis of various alkaloids
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.-
+                 R08838  Benzoate + NADPH + Oxygen <=> Salicylate + NADP+ + H2O
+REFERENCE   1  [PMID:7479795]
+  AUTHORS   Leon J, Shulaev V, Yalpani N, Lawton MA, Raskin I.
+  TITLE     Benzoic acid 2-hydroxylase, a soluble oxygenase from tobacco, catalyzes salicylic acid biosynthesis.
+  JOURNAL   Proc Natl Acad Sci U S A 92:10413-7 (1995)
+            DOI:10.1073/pnas.92.22.10413
+///

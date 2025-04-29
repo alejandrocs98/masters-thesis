@@ -1,0 +1,21 @@
+ENTRY       R05291                      Reaction
+DEFINITION  Toluate + Oxygen + NADPH + H+ <=> cis-1,2-Dihydroxy-4-methylcyclohexa-3,5-diene-1-carboxylate + NADP+
+EQUATION    C01454 + C00007 + C00005 + C00080 <=> C06729 + C00006
+COMMENT     NADH (see R05290)
+RCLASS      RC00001  C00005_C00006
+            RC00270  C01454_C06729
+ENZYME      1.14.12.-
+PATHWAY     rn00622  Xylene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.12  With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into the other donor
+                1.14.12.-
+                 R05291  Toluate + Oxygen + NADPH + H+ <=> cis-1,2-Dihydroxy-4-methylcyclohexa-3,5-diene-1-carboxylate + NADP+
+ORTHOLOGY   K05549  benzoate/toluate 1,2-dioxygenase subunit alpha [EC:1.14.12.10 1.14.12.-]
+            K05550  benzoate/toluate 1,2-dioxygenase subunit beta [EC:1.14.12.10 1.14.12.-]
+            K05784  benzoate/toluate 1,2-dioxygenase reductase component [EC:1.18.1.-]
+///

@@ -1,0 +1,20 @@
+ENTRY       R07178                      Reaction
+NAME        violaxanthin:ascorbate oxidoreductase
+DEFINITION  Violaxanthin + Ascorbate <=> Antheraxanthin + Dehydroascorbate + H2O
+EQUATION    C08614 + C00072 <=> C08579 + C05422 + C00001
+COMMENT     first step of two-step reaction (see R10055, R07178+R07179)
+RCLASS      RC00092  C00072_C05422
+            RC01624  C08579_C08614
+ENZYME      1.23.5.1
+PATHWAY     rn00906  Carotenoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.23  Reducing C-O-C group as acceptor
+               1.23.5  With a quinone or similar compound as acceptor
+                1.23.5.1
+                 R07178  Violaxanthin + Ascorbate <=> Antheraxanthin + Dehydroascorbate + H2O
+ORTHOLOGY   K09839  violaxanthin de-epoxidase [EC:1.23.5.1]
+DBLINKS     RHEA: 15356
+///

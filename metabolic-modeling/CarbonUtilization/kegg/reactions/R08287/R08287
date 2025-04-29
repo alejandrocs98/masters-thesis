@@ -1,0 +1,21 @@
+ENTRY       R08287                      Reaction
+DEFINITION  Ifosfamide <=> 2-Dechloroethylifosfamide + Chloroacetaldehyde
+EQUATION    C07047 <=> C16555 + C06754
+COMMENT     CYP2B6, CYP3A4/5
+            incomplete reaction
+RCLASS      RC00225  C06754_C07047
+            RC02230  C07047_C16555
+ENZYME      1.14.14.1       1.14.14.-
+PATHWAY     rn00982  Drug metabolism - cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.1
+                 R08287  Ifosfamide <=> 2-Dechloroethylifosfamide + Chloroacetaldehyde
+                1.14.14.-
+                 R08287  Ifosfamide <=> 2-Dechloroethylifosfamide + Chloroacetaldehyde
+ORTHOLOGY   K17689  cytochrome P450 family 3 subfamily A4 [EC:1.14.13.32 1.14.14.55 1.14.14.56 1.14.14.57 1.14.14.73 1.14.14.-]
+            K17690  cytochrome P450 family 3 subfamily A5 [EC:1.14.14.1]
+            K17709  cytochrome P450 family 2 subfamily B6 [EC:1.14.14.-]
+///

@@ -1,0 +1,20 @@
+ENTRY       R05274                      Reaction
+NAME        vanillate:oxygen oxidoreductase (demethylating)
+DEFINITION  Vanillate + Oxygen + NADH + H+ <=> 3,4-Dihydroxybenzoate + NAD+ + H2O + Formaldehyde
+EQUATION    C06672 + C00007 + C00004 + C00080 <=> C00230 + C00003 + C00001 + C00067
+RCLASS      RC00001  C00003_C00004
+            RC00392  C00230_C06672
+            RC01533  C00067_C06672
+ENZYME      1.14.13.82
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.82
+                 R05274  Vanillate + Oxygen + NADH + H+ <=> 3,4-Dihydroxybenzoate + NAD+ + H2O + Formaldehyde
+ORTHOLOGY   K03862  vanillate monooxygenase [EC:1.14.13.82]
+            K03863  vanillate monooxygenase ferredoxin subunit
+DBLINKS     RHEA: 13024
+///

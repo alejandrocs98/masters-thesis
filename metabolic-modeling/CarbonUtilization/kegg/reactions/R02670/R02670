@@ -1,0 +1,23 @@
+ENTRY       R02670                      Reaction
+DEFINITION  2 3-Hydroxyanthranilate + 4 Oxygen <=> Cinnavalininate + 2 Superoxide + 2 Hydrogen peroxide + 2 H+
+EQUATION    2 C00632 + 4 C00007 <=> C05640 + 2 C00704 + 2 C00027 + 2 C00080
+COMMENT     non-enzymatic
+            multi-step reaction
+            this reaction is hastened by superoxide dismutase (ec 1.15.1.1) and catalase (ec 1.11.1.6)
+RCLASS      RC00767  C00632_C05640
+            RC02141  C00632_C05640
+            RC02755  C00007_C00027
+ENZYME      1.11.1.6        1.11.1.21
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.11  Acting on a peroxide as acceptor
+               1.11.1  Peroxidases
+                1.11.1.6
+                 R02670  2 3-Hydroxyanthranilate + 4 Oxygen <=> Cinnavalininate + 2 Superoxide + 2 Hydrogen peroxide + 2 H+
+                1.11.1.21
+                 R02670  2 3-Hydroxyanthranilate + 4 Oxygen <=> Cinnavalininate + 2 Superoxide + 2 Hydrogen peroxide + 2 H+
+ORTHOLOGY   K03781  catalase [EC:1.11.1.6]
+            K03782  catalase-peroxidase [EC:1.11.1.21]
+///

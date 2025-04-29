@@ -1,0 +1,17 @@
+ENTRY       R01607                      Reaction
+NAME        3-oxopropanoate:NADP+ oxidoreductase
+DEFINITION  3-Oxopropanoate + NADP+ + H2O <=> Malonate + NADPH + H+
+EQUATION    C00222 + C00006 + C00001 <=> C00383 + C00005 + C00080
+COMMENT     NAD+ (see R01604)
+RCLASS      RC00001  C00005_C00006
+            RC00080  C00222_C00383
+ENZYME      1.2.1.15
+PATHWAY     rn00410  beta-Alanine metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.15
+                 R01607  3-Oxopropanoate + NADP+ + H2O <=> Malonate + NADPH + H+
+DBLINKS     RHEA: 20044
+///

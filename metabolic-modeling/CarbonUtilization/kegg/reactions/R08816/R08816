@@ -1,0 +1,19 @@
+ENTRY       R08816                      Reaction
+NAME        UDP-glucose:2,3-dihydro-5,6-dihydroxyindole-2-carboxylate 5-O-beta-D-glucosyltransferase
+DEFINITION  2-Carboxy-2,3-dihydro-5,6-dihydroxyindole + UDP-glucose <=> cyclo-Dopa 5-O-glucoside + UDP
+EQUATION    C05604 + C00029 <=> C17751 + C00015
+RCLASS      RC00005  C00015_C00029
+            RC00171  C05604_C17751
+ENZYME      2.4.1.-
+PATHWAY     rn00965  Betalain biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00961  Betacyanin biosynthesis, L-tyrosine => amaranthin
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.-
+                 R08816  2-Carboxy-2,3-dihydro-5,6-dihydroxyindole + UDP-glucose <=> cyclo-Dopa 5-O-glucoside + UDP
+ORTHOLOGY   K15776  cyclo-DOPA 5-O-glucosyltransferase [EC:2.4.1.-]
+///

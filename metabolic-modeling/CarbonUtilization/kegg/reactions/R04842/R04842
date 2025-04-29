@@ -1,0 +1,21 @@
+ENTRY       R04842                      Reaction
+NAME        3alpha,21-dihydroxy-5beta-pregnane-11,20-dione:NAD+ oxidoreductase (B-specific)
+DEFINITION  3alpha,21-Dihydroxy-5beta-pregnane-11,20-dione + NAD+ <=> 21-Hydroxy-5beta-pregnane-3,11,20-trione + NADH + H+
+EQUATION    C05478 + C00003 <=> C05477 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00144  C05477_C05478
+ENZYME      1.1.1.50
+PATHWAY     rn00140  Steroid hormone biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.50
+                 R04842  3alpha,21-Dihydroxy-5beta-pregnane-11,20-dione + NAD+ <=> 21-Hydroxy-5beta-pregnane-3,11,20-trione + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.50
+               R10422  3alpha-Hydroxysteroid <=> 3-Oxosteroid
+                R04842  3alpha,21-Dihydroxy-5beta-pregnane-11,20-dione <=> 21-Hydroxy-5beta-pregnane-3,11,20-trione
+ORTHOLOGY   K00037  3alpha-hydroxysteroid 3-dehydrogenase / chlordecone reductase [EC:1.1.1.50 1.1.1.357 1.1.1.225]
+///

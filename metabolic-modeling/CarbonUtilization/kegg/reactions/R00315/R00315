@@ -1,0 +1,27 @@
+ENTRY       R00315                      Reaction
+NAME        ATP:acetate phosphotransferase
+DEFINITION  ATP + Acetate <=> ADP + Acetyl phosphate
+EQUATION    C00002 + C00033 <=> C00008 + C00227
+RCLASS      RC00002  C00002_C00008
+            RC00043  C00033_C00227
+ENZYME      2.7.2.1         2.7.2.15
+PATHWAY     rn00430  Taurine and hypotaurine metabolism
+            rn00620  Pyruvate metabolism
+            rn00680  Methane metabolism
+            rn00720  Carbon fixation pathways in prokaryotes
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00357  Methanogenesis, acetate => methane
+            M00579  Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.2  Phosphotransferases with a carboxy group as acceptor
+                2.7.2.1
+                 R00315  ATP + Acetate <=> ADP + Acetyl phosphate
+                2.7.2.15
+                 R00315  ATP + Acetate <=> ADP + Acetyl phosphate
+ORTHOLOGY   K00925  acetate kinase [EC:2.7.2.1]
+DBLINKS     RHEA: 11355
+///

@@ -1,0 +1,35 @@
+ENTRY       R01126                      Reaction
+NAME        inosine 5'-monophosphate phosphohydrolase
+DEFINITION  IMP + H2O <=> Inosine + Orthophosphate
+EQUATION    C00130 + C00001 <=> C00294 + C00009
+RCLASS      RC00017  C00130_C00294
+ENZYME      3.1.3.5         3.1.3.99        3.1.3.-
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00958  Adenine ribonucleotide degradation, AMP => Urate
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.3  Phosphoric-monoester hydrolases
+                3.1.3.5
+                 R01126  IMP + H2O <=> Inosine + Orthophosphate
+                3.1.3.99
+                 R01126  IMP + H2O <=> Inosine + Orthophosphate
+                3.1.3.-
+                 R01126  IMP + H2O <=> Inosine + Orthophosphate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.1.3.5
+               R07297  5'-Ribonucleotide <=> Ribonucleoside
+                R01126  IMP <=> Inosine
+ORTHOLOGY   K01081  5'-nucleotidase [EC:3.1.3.5]
+            K02566  5'-nucleotidase [EC:3.1.3.5]
+            K03787  5'/3'-nucleotidase [EC:3.1.3.5 3.1.3.6]
+            K08693  2',3'-cyclic-nucleotide 2'-phosphodiesterase / 3'-nucleotidase / 5'-nucleotidase [EC:3.1.4.16 3.1.3.6 3.1.3.5]
+            K11751  5'-nucleotidase / UDP-sugar diphosphatase [EC:3.1.3.5 3.6.1.45]
+            K18550  IMP and pyridine-specific 5'-nucleotidase [EC:3.1.3.99 3.1.3.-]
+            K19970  5'-nucleotidase [EC:3.1.3.5]
+            K20881  GMP/IMP 5'-nucleotidase [EC:3.1.3.-]
+DBLINKS     RHEA: 27721
+///

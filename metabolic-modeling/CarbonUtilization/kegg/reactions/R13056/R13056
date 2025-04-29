@@ -1,0 +1,22 @@
+ENTRY       R13056                      Reaction
+DEFINITION  (S)-Dihydrodaidzein + NADPH + H+ <=> (3S,4R)-Tetrahydrodaidzein + NADP+
+EQUATION    C22557 + C00005 + C00080 <=> C22558 + C00006
+COMMENT     dihydrodaidzein reductase
+RCLASS      RC00235  C22557_C22558
+ENZYME      1.1.1.-
+PATHWAY     rn00946  Degradation of flavonoids
+            rn01100  Metabolic pathways
+MODULE      M00966  Equol biosynthesis, daidzein => equol
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.-
+                 R13056  (S)-Dihydrodaidzein + NADPH + H+ <=> (3S,4R)-Tetrahydrodaidzein + NADP+
+ORTHOLOGY   K26070  dihydrodaidzein reductase [EC:1.1.1.-]
+REFERENCE   1  [PMID:27508112]
+  AUTHORS   Kawada Y, Yokoyama S, Yanase E, Niwa T, Suzuki T
+  TITLE     The production of S-equol from daidzein is associated with a cluster of three genes in Eggerthella sp. YY7918.
+  JOURNAL   Biosci Microbiota Food Health 35:113-21 (2016)
+            DOI:10.12938/bmfh.2015-023
+///

@@ -1,0 +1,22 @@
+ENTRY       R01262                      Reaction
+NAME        glutathione:L-amino-acid 5-glutamyltransferase
+DEFINITION  Glutathione + L-Amino acid <=> Cys-Gly + (5-L-Glutamyl)-L-amino acid
+EQUATION    C00051 + C00151 <=> C01419 + C03740
+RCLASS      RC00064  C00051_C01419  C00151_C03740
+ENZYME      2.3.2.2
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.2  Aminoacyltransferases
+                2.3.2.2
+                 R01262  Glutathione + L-Amino acid <=> Cys-Gly + (5-L-Glutamyl)-L-amino acid
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.2.2
+               R04159  (5-L-Glutamyl)-peptide <=> Peptide
+                R01262  Glutathione <=> Cys-Gly
+ORTHOLOGY   K00681  gamma-glutamyltranspeptidase / glutathione hydrolase [EC:2.3.2.2 3.4.19.13]
+            K18592  gamma-glutamyltranspeptidase / glutathione hydrolase / leukotriene-C4 hydrolase [EC:2.3.2.2 3.4.19.13 3.4.19.14]
+///

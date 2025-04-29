@@ -1,0 +1,20 @@
+ENTRY       R07600                      Reaction
+DEFINITION  2-Methyl-1-hydroxypropyl-ThPP + Enzyme N6-(lipoyl)lysine <=> [Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(2-methylpropanoyl)dihydrolipoyllysine + Thiamin diphosphate
+EQUATION    C15976 + C15972 <=> C15977 + C00068
+COMMENT     Oxo-acid dehydrogenase complexes (see R01701), following after R07599
+RCLASS      RC00027  C00068_C15976
+            RC00627  C15972_C15977
+            RC02953  C15976_C15977
+ENZYME      1.2.4.4
+PATHWAY     rn00280  Valine, leucine and isoleucine degradation
+            rn00785  Lipoic acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.4  With a disulfide as acceptor
+                1.2.4.4
+                 R07600  2-Methyl-1-hydroxypropyl-ThPP + Enzyme N6-(lipoyl)lysine <=> [Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(2-methylpropanoyl)dihydrolipoyllysine + Thiamin diphosphate
+ORTHOLOGY   K00166  2-oxoisovalerate dehydrogenase E1 component subunit alpha [EC:1.2.4.4]
+            K00167  2-oxoisovalerate dehydrogenase E1 component subunit beta [EC:1.2.4.4]
+            K11381  2-oxoisovalerate dehydrogenase E1 component [EC:1.2.4.4]
+///

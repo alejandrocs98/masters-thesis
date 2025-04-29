@@ -1,0 +1,20 @@
+ENTRY       R08555                      Reaction
+NAME        (R)-lactate hydro-lyase (adding N-acetyl-D-glucosamine 6-phosphate; N-acetylmuramate 6-phosphate-forming)
+DEFINITION  (R)-Lactate + N-Acetyl-D-glucosamine 6-phosphate <=> N-Acetylmuramic acid 6-phosphate + H2O
+EQUATION    C00256 + C00357 <=> C16698 + C00001
+COMMENT     possibly intermediate (2,3-unsaturated sugar)
+            two-step reaction (beta-eliminating and hydrolyzing)
+RCLASS      RC00397  C00256_C16698
+            RC00746  C00357_C16698
+ENZYME      4.2.1.126
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.126
+                 R08555  (R)-Lactate + N-Acetyl-D-glucosamine 6-phosphate <=> N-Acetylmuramic acid 6-phosphate + H2O
+ORTHOLOGY   K07106  N-acetylmuramic acid 6-phosphate etherase [EC:4.2.1.126]
+DBLINKS     RHEA: 26413
+///

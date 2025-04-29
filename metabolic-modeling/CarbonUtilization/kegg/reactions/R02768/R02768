@@ -1,0 +1,25 @@
+ENTRY       R02768                      Reaction
+NAME        acyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)
+DEFINITION  Acyl-[acyl-carrier protein] + Malonyl-[acyl-carrier protein] <=> 3-Oxoacyl-[acyl-carrier protein] + CO2 + Acyl-carrier protein
+EQUATION    C00173 + C01209 <=> C00685 + C00011 + C00229
+COMMENT     general reaction (see R04355, R04726, R04952, R04957, R04960, R04963, R04968 and R07762)
+RCLASS      RC00039  C00173_C00229
+ENZYME      2.3.1.41        2.3.1.179
+PATHWAY     rn00061  Fatty acid biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.41
+                 R02768  Acyl-[acyl-carrier protein] + Malonyl-[acyl-carrier protein] <=> 3-Oxoacyl-[acyl-carrier protein] + CO2 + Acyl-carrier protein
+                2.3.1.179
+                 R02768  Acyl-[acyl-carrier protein] + Malonyl-[acyl-carrier protein] <=> 3-Oxoacyl-[acyl-carrier protein] + CO2 + Acyl-carrier protein
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.41
+               R02768  Acyl-[acyl-carrier protein] <=> 3-Oxoacyl-[acyl-carrier protein]
+ORTHOLOGY   K00647  3-oxoacyl-[acyl-carrier-protein] synthase I [EC:2.3.1.41]
+            K09458  3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179]
+DBLINKS     RHEA: 22839
+///

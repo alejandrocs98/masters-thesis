@@ -1,0 +1,17 @@
+ENTRY       R09921                      Reaction
+NAME        stemod-13(17)-ene,[reduced NADPH---hemoprotein reductase]:oxygen 19-oxidoreductase
+DEFINITION  Stemod-13(17)-ene + 3 Oxygen + 3 [Reduced NADPH---hemoprotein reductase] <=> syn-Stemoden-19-oate + 3 [Oxidized NADPH---hemoprotein reductase] + 4 H2O
+EQUATION    C18224 + 3 C00007 + 3 C03024 <=> C20208 + 3 C03161 + 4 C00001
+COMMENT     three-step reaction (similar to R09862+R09863+R09864)
+RCLASS      RC01952  C18224_C20208
+ENZYME      1.14.14.111
+PATHWAY     rn00904  Diterpenoid biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.14  With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.14.111
+                 R09921  Stemod-13(17)-ene + 3 Oxygen + 3 [Reduced NADPH---hemoprotein reductase] <=> syn-Stemoden-19-oate + 3 [Oxidized NADPH---hemoprotein reductase] + 4 H2O
+ORTHOLOGY   K16085  9beta-pimara-7,15-diene oxidase [EC:1.14.14.111]
+///

@@ -1,0 +1,21 @@
+ENTRY       R11655                      Reaction
+NAME        N-[(2S)-2-amino-2-carboxyethyl]-L-glutamate:NAD+ dehydrogenase (L-2,3-diaminopropanoate-forming)
+DEFINITION  N-[(2S)-2-Amino-2-carboxyethyl]-L-glutamate + NAD+ + H2O <=> 2-Oxoglutarate + L-2,3-Diaminopropanoate + NADH + H+
+EQUATION    C21559 + C00003 + C00001 <=> C00026 + C03401 + C00004 + C00080
+RCLASS      RC00217  C03401_C21559
+            RC01532  C00026_C21559
+ENZYME      1.5.1.51
+PATHWAY     rn00997  Biosynthesis of various other secondary metabolites
+            rn00998  Biosynthesis of various antibiotics
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00875  Staphyloferrin B biosynthesis, L-serine => staphyloferrin B
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.51
+                 R11655  N-[(2S)-2-Amino-2-carboxyethyl]-L-glutamate + NAD+ + H2O <=> 2-Oxoglutarate + L-2,3-Diaminopropanoate + NADH + H+
+ORTHOLOGY   K21721  N-[(2S)-2-amino-2-carboxyethyl]-L-glutamate dehydrogenase [EC:1.5.1.51]
+DBLINKS     RHEA: 51931
+///

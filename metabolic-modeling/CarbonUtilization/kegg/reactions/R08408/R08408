@@ -1,0 +1,17 @@
+ENTRY       R08408                      Reaction
+NAME        aldehyde:oxygen oxidoreductase
+DEFINITION  1-Methylnicotinamide + Oxygen + H2O <=> N1-Methyl-2-pyridone-5-carboxamide + Hydrogen peroxide + H+
+EQUATION    C02918 + C00007 + C00001 <=> C05842 + C00027 + C00080
+RCLASS      RC01073  C02918_C05842
+            RC02755  C00007_C00027
+ENZYME      1.2.3.1
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.3  With oxygen as acceptor
+                1.2.3.1
+                 R08408  1-Methylnicotinamide + Oxygen + H2O <=> N1-Methyl-2-pyridone-5-carboxamide + Hydrogen peroxide + H+
+ORTHOLOGY   K00157  aldehyde oxidase [EC:1.2.3.1]
+///

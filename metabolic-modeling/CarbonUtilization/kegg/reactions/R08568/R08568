@@ -1,0 +1,25 @@
+ENTRY       R08568                      Reaction
+NAME        L-aspartate 4-semialdehyde:1-deoxy-D-threo-hexo-2,5-diulose 6-phosphate methylglyoxaltransferase
+DEFINITION  L-Aspartate 4-semialdehyde + 6-Deoxy-5-ketofructose 1-phosphate <=> 2-Amino-3,7-dideoxy-D-threo-hept-6-ulosonic acid + Hydroxypyruvaldehyde phosphate
+EQUATION    C00441 + C16848 <=> C16850 + C16849
+COMMENT     possibly two-step reaction (aldehyde-lyase x2)
+RCLASS      RC00721  C00441_C16850
+            RC02301  C16848_C16849
+ENZYME      2.2.1.10
+PATHWAY     rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.2  Transferring aldehyde or ketonic groups
+               2.2.1  Transketolases and transaldolases
+                2.2.1.10
+                 R08568  L-Aspartate 4-semialdehyde + 6-Deoxy-5-ketofructose 1-phosphate <=> 2-Amino-3,7-dideoxy-D-threo-hept-6-ulosonic acid + Hydroxypyruvaldehyde phosphate
+ORTHOLOGY   K16306  fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase [EC:4.1.2.13 2.2.1.10]
+REFERENCE   1  [PMID:17713928]
+  AUTHORS   Morar M, White RH, Ealick SE.
+  TITLE     Structure of 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonic acid synthase, a catalyst in the archaeal pathway for the biosynthesis of aromatic amino acids.
+  JOURNAL   Biochemistry 46:10562-71 (2007)
+            DOI:10.1021/bi700934v
+DBLINKS     RHEA: 25955
+///

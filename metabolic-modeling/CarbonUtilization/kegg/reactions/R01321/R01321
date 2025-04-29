@@ -1,0 +1,20 @@
+ENTRY       R01321                      Reaction
+NAME        CDP-choline:1,2-diacyl-sn-glycerol cholinephosphotransferase
+DEFINITION  CDP-choline + 1,2-Diacyl-sn-glycerol <=> CMP + Phosphatidylcholine
+EQUATION    C00307 + C00641 <=> C00055 + C00157
+RCLASS      RC00002  C00055_C00307
+            RC00017  C00157_C00641
+ENZYME      2.7.8.2
+PATHWAY     rn00564  Glycerophospholipid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00090  Phosphatidylcholine (PC) biosynthesis, choline => PC
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.8  Transferases for other substituted phosphate groups
+                2.7.8.2
+                 R01321  CDP-choline + 1,2-Diacyl-sn-glycerol <=> CMP + Phosphatidylcholine
+ORTHOLOGY   K00994  diacylglycerol cholinephosphotransferase [EC:2.7.8.2]
+            K13644  choline/ethanolamine phosphotransferase [EC:2.7.8.1 2.7.8.2]
+DBLINKS     RHEA: 32942
+///

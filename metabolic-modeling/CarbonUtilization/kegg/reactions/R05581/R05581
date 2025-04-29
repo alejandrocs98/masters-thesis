@@ -1,0 +1,21 @@
+ENTRY       R05581                      Reaction
+NAME        6-hydroxycyclohex-1-ene-1-carbonyl-CoA:NAD+ 6-oxidoreductase
+DEFINITION  6-Hydroxycyclohex-1-ene-1-carbonyl-CoA + NAD+ <=> 6-Oxocyclohex-1-ene-1-carbonyl-CoA + NADH + H+
+EQUATION    C06749 + C00003 <=> C09821 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00850  C06749_C09821
+ENZYME      1.1.1.368
+PATHWAY     rn00362  Benzoate degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00541  Benzoyl-CoA degradation, benzoyl-CoA => 3-hydroxypimeloyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.368
+                 R05581  6-Hydroxycyclohex-1-ene-1-carbonyl-CoA + NAD+ <=> 6-Oxocyclohex-1-ene-1-carbonyl-CoA + NADH + H+
+ORTHOLOGY   K07538  6-hydroxycyclohex-1-ene-1-carbonyl-CoA dehydrogenase [EC:1.1.1.368]
+DBLINKS     RHEA: 18268
+///

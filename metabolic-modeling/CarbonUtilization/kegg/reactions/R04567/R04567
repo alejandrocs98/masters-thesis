@@ -1,0 +1,24 @@
+ENTRY       R04567                      Reaction
+NAME        (R)-3-hydroxytetradecanoly-[acyl-carrier-protein]:UDP-N-acetyl-glucosamine 3-O-(3-hydroxytetradecanoyl)transferase
+DEFINITION  (3R)-3-Hydroxytetradecanoyl-[acyl-carrier protein] + UDP-N-acetyl-alpha-D-glucosamine <=> Acyl-carrier protein + UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine
+EQUATION    C04688 + C00043 <=> C00229 + C04738
+RCLASS      RC00039  C00229_C04688
+            RC00055  C00043_C04738
+ENZYME      2.3.1.129
+PATHWAY     rn00540  Lipopolysaccharide biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00060  KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.129
+                 R04567  (3R)-3-Hydroxytetradecanoyl-[acyl-carrier protein] + UDP-N-acetyl-alpha-D-glucosamine <=> Acyl-carrier protein + UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.3.1.129
+               R12920  (3R)-3-Hydroxyacyl-[acyl-carrier protein] <=> UDP-3-O-[(3R)-3-hydroxyacyl]-N-acetyl-alpha-D-glucosamine
+                R04567  (3R)-3-Hydroxytetradecanoyl-[acyl-carrier protein] <=> UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine
+ORTHOLOGY   K00677  UDP-N-acetylglucosamine acyltransferase [EC:2.3.1.129]
+DBLINKS     RHEA: 13928
+///

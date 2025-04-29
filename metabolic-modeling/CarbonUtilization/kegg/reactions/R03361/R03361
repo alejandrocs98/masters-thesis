@@ -1,0 +1,21 @@
+ENTRY       R03361                      Reaction
+NAME        ATP:1-phosphatidyl-1D-myo-inositol 4-phosphotransferase
+DEFINITION  ATP + 1-Phosphatidyl-D-myo-inositol <=> ADP + 1-Phosphatidyl-1D-myo-inositol 4-phosphate
+EQUATION    C00002 + C01194 <=> C00008 + C01277
+RCLASS      RC00002  C00002_C00008
+            RC00078  C01194_C01277
+ENZYME      2.7.1.67
+PATHWAY     rn00562  Inositol phosphate metabolism
+            rn01100  Metabolic pathways
+MODULE      M00130  Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.67
+                 R03361  ATP + 1-Phosphatidyl-D-myo-inositol <=> ADP + 1-Phosphatidyl-1D-myo-inositol 4-phosphate
+ORTHOLOGY   K00888  phosphatidylinositol 4-kinase A [EC:2.7.1.67]
+            K13711  phosphatidylinositol 4-kinase type 2 [EC:2.7.1.67]
+            K19801  phosphatidylinositol 4-kinase B [EC:2.7.1.67]
+DBLINKS     RHEA: 19880
+///

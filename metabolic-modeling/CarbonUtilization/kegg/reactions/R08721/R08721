@@ -1,0 +1,21 @@
+ENTRY       R08721                      Reaction
+NAME        (24S)-cholest-5-ene-3beta,7alpha,24-triol:NAD+ 3-oxidoreductase
+DEFINITION  (24S)-Cholest-5-ene-3beta,7alpha,24-triol + NAD+ <=> 7alpha,24-Dihydroxy-4-cholesten-3-one + NADH + H+
+EQUATION    C15518 + C00003 <=> C17331 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC01111  C15518_C17331
+ENZYME      1.1.1.181
+PATHWAY     rn00120  Primary bile acid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.181
+                 R08721  (24S)-Cholest-5-ene-3beta,7alpha,24-triol + NAD+ <=> 7alpha,24-Dihydroxy-4-cholesten-3-one + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.181
+               R04263  7alpha-Hydroxycholesterol <=> 7alpha-Hydroxycholest-4-en-3-one
+                R08721  (24S)-Cholest-5-ene-3beta,7alpha,24-triol <=> 7alpha,24-Dihydroxy-4-cholesten-3-one
+ORTHOLOGY   K12408  cholest-5-ene-3beta,7alpha-diol 3beta-dehydrogenase [EC:1.1.1.181]
+///

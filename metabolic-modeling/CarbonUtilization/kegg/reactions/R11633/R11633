@@ -1,0 +1,23 @@
+ENTRY       R11633                      Reaction
+NAME        GTP:formate 2'-oxidoreductase
+DEFINITION  GTP + Formate <=> dGTP + CO2 + H2O
+EQUATION    C00044 + C00058 <=> C00286 + C00011 + C00001
+RCLASS      RC00613  C00044_C00286
+ENZYME      1.1.98.6
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.98  With other, known, physiological acceptors
+                1.1.98.6
+                 R11633  GTP + Formate <=> dGTP + CO2 + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.98.6
+               R11592  Ribonucleoside triphosphate <=> Deoxynucleoside triphosphate
+                R11633  GTP <=> dGTP
+ORTHOLOGY   K21636  ribonucleoside-triphosphate reductase (formate) [EC:1.1.98.6]
+DBLINKS     RHEA: 51627
+///

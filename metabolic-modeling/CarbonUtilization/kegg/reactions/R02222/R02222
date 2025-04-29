@@ -1,0 +1,17 @@
+ENTRY       R02222                      Reaction
+NAME        steroyl-CoA,hydrogen-donor:oxygen oxidoreductase
+DEFINITION  Stearoyl-CoA + 2 Ferrocytochrome b5 + Oxygen + 2 H+ <=> Oleoyl-CoA + 2 Ferricytochrome b5 + 2 H2O
+EQUATION    C00412 + 2 C00999 + C00007 + 2 C00080 <=> C00510 + 2 C00996 + 2 C00001
+RCLASS      RC00917  C00412_C00510
+ENZYME      1.14.19.1
+PATHWAY     rn01040  Biosynthesis of unsaturated fatty acids
+            rn01212  Fatty acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.1
+                 R02222  Stearoyl-CoA + 2 Ferrocytochrome b5 + Oxygen + 2 H+ <=> Oleoyl-CoA + 2 Ferricytochrome b5 + 2 H2O
+ORTHOLOGY   K00507  stearoyl-CoA desaturase (Delta-9 desaturase) [EC:1.14.19.1]
+DBLINKS     RHEA: 19724
+///

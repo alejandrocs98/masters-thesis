@@ -1,0 +1,20 @@
+ENTRY       R00848                      Reaction
+NAME        sn-glycerol-3-phosphate:(acceptor) 2-oxidoreductase
+DEFINITION  sn-Glycerol 3-phosphate + FAD <=> Glycerone phosphate + FADH2
+EQUATION    C00093 + C00016 <=> C00111 + C01352
+RCLASS      RC00029  C00093_C00111
+            RC00126  C00016_C01352
+ENZYME      1.1.5.3
+PATHWAY     rn00564  Glycerophospholipid metabolism
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.5  With a quinone or similar compound as acceptor
+                1.1.5.3
+                 R00848  sn-Glycerol 3-phosphate + FAD <=> Glycerone phosphate + FADH2
+ORTHOLOGY   K00111  glycerol-3-phosphate dehydrogenase [EC:1.1.5.3]
+            K00112  glycerol-3-phosphate dehydrogenase subunit B [EC:1.1.5.3]
+            K00113  glycerol-3-phosphate dehydrogenase subunit C
+DBLINKS     RHEA: 31286
+///

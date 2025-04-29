@@ -1,0 +1,21 @@
+ENTRY       R12277                      Reaction
+NAME        liquiritigenin,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (7,4'-dihydroxyflavone-forming)
+DEFINITION  Liquiritigenin + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 7,4'-Dihydroxyflavone + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+EQUATION    C09762 + C03024 + C00007 <=> C12123 + C03161 + 2 C00001
+RCLASS      RC00717  C09762_C12123
+ENZYME      1.14.19.76
+PATHWAY     rn00941  Flavonoid biosynthesis
+            rn00943  Isoflavonoid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.76
+                 R12277  Liquiritigenin + [Reduced NADPH---hemoprotein reductase] + Oxygen <=> 7,4'-Dihydroxyflavone + [Oxidized NADPH---hemoprotein reductase] + 2 H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.14.19.76
+               R12276  Flavanone <=> Flavone
+                R12277  Liquiritigenin <=> 7,4'-Dihydroxyflavone
+ORTHOLOGY   K23179  flavone synthase II [EC:1.14.19.76]
+///

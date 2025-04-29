@@ -1,0 +1,17 @@
+ENTRY       R09372                      Reaction
+NAME        methaneselenol:NADP+ oxidoreductase
+DEFINITION  2 NADPH + 2 H+ + Methylselenic acid <=> 2 NADP+ + 2 H2O + Methaneselenol
+EQUATION    2 C00005 + 2 C00080 + C18902 <=> 2 C00006 + 2 C00001 + C05703
+RCLASS      RC00001  C00005_C00006
+            RC02518  C05703_C18902
+ENZYME      1.8.1.9
+PATHWAY     rn00450  Selenocompound metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.1  With NAD+ or NADP+ as acceptor
+                1.8.1.9
+                 R09372  2 NADPH + 2 H+ + Methylselenic acid <=> 2 NADP+ + 2 H2O + Methaneselenol
+ORTHOLOGY   K00384  thioredoxin reductase (NADPH) [EC:1.8.1.9]
+            K22182  thioredoxin reductase (NADPH) [EC:1.8.1.9]
+///

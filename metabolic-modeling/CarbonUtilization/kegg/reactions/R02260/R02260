@@ -1,0 +1,23 @@
+ENTRY       R02260                      Reaction
+NAME        (S)-lactaldehyde:NADP+ oxidoreductase
+DEFINITION  (S)-Lactaldehyde + NADP+ <=> Methylglyoxal + NADPH + H+
+EQUATION    C00424 + C00006 <=> C00546 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00670  C00424_C00546
+ENZYME      1.1.1.283       1.2.1.49
+PATHWAY     rn00620  Pyruvate metabolism
+            rn00640  Propanoate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.283
+                 R02260  (S)-Lactaldehyde + NADP+ <=> Methylglyoxal + NADPH + H+
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.49
+                 R02260  (S)-Lactaldehyde + NADP+ <=> Methylglyoxal + NADPH + H+
+ORTHOLOGY   K17741  NADPH-dependent methylglyoxal reductase [EC:1.1.1.283]
+            K23257  methylglyoxal/glyoxal reductase [EC:1.1.1.283 1.1.1.-]
+///

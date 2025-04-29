@@ -1,0 +1,27 @@
+ENTRY       R07897                      Reaction
+DEFINITION  3-Hydroxy-OPC4-CoA <=> trans-2-Enoyl-OPC4-CoA + H2O
+EQUATION    C16337 <=> C16336 + C00001
+RCLASS      RC01095  C16336_C16337
+ENZYME      4.2.1.17        4.2.1.74
+PATHWAY     rn00592  alpha-Linolenic acid metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00113  Jasmonic acid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.17
+                 R07897  3-Hydroxy-OPC4-CoA <=> trans-2-Enoyl-OPC4-CoA + H2O
+                4.2.1.74
+                 R07897  3-Hydroxy-OPC4-CoA <=> trans-2-Enoyl-OPC4-CoA + H2O
+            IUBMB reaction hierarchy [BR:br08202]
+             4. Lyase reactions
+              4.2.1.17
+               R02685  (3S)-3-Hydroxyacyl-CoA <=> trans-2,3-Dehydroacyl-CoA
+                R07897  3-Hydroxy-OPC4-CoA <=> trans-2-Enoyl-OPC4-CoA
+              4.2.1.74
+               R02685  (3S)-3-Hydroxyacyl-CoA <=> trans-2,3-Dehydroacyl-CoA
+                R07897  3-Hydroxy-OPC4-CoA <=> trans-2-Enoyl-OPC4-CoA
+ORTHOLOGY   K10527  enoyl-CoA hydratase/3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35 1.1.1.211]
+///

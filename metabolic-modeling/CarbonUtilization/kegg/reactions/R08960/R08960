@@ -1,0 +1,23 @@
+ENTRY       R08960                      Reaction
+NAME        5alpha-pregnane-3alpha,20alpha-diol:NADP+ oxidoreductase (A-specific)
+DEFINITION  5alpha-Pregnan-20alpha-ol-3-one + NADPH + H+ <=> 5alpha-Pregnane-3alpha,20alpha-diol + NADP+
+EQUATION    C18041 + C00005 + C00080 <=> C18042 + C00006
+RCLASS      RC00001  C00005_C00006
+            RC00144  C18041_C18042
+ENZYME      1.1.1.213
+PATHWAY     rn00140  Steroid hormone biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.213
+                 R08960  5alpha-Pregnan-20alpha-ol-3-one + NADPH + H+ <=> 5alpha-Pregnane-3alpha,20alpha-diol + NADP+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.213
+               R10423  3alpha-Hydroxysteroid <=> 3-Oxosteroid
+                R08960  5alpha-Pregnane-3alpha,20alpha-diol <=> 5alpha-Pregnan-20alpha-ol-3-one
+ORTHOLOGY   K00089  3alpha-hydroxysteroid 3-dehydrogenase [EC:1.1.1.213 1.1.1.357]
+            K04119  aldo-keto reductase family 1 member C3 [EC:1.1.1.51 1.1.1.188 1.1.1.213 1.1.1.357]
+///

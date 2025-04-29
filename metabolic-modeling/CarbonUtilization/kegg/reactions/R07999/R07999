@@ -1,0 +1,21 @@
+ENTRY       R07999                      Reaction
+NAME        5-deoxyleucocyanidin:NADP+ 4-oxidoreductase
+DEFINITION  Fisetinidol-4beta-ol + NADP+ <=> Fustin + NADPH + H+
+EQUATION    C09736 + C00006 <=> C01378 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00235  C01378_C09736
+ENZYME      1.1.1.219
+PATHWAY     rn00941  Flavonoid biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.219
+                 R07999  Fisetinidol-4beta-ol + NADP+ <=> Fustin + NADPH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.1.1.219
+               R11500  (2R,3S,4S)-Leucoanthocyanidin <=> (2R,3R)-Dihydroflavonol
+                R07999  Fisetinidol-4beta-ol <=> Fustin
+ORTHOLOGY   K13082  bifunctional dihydroflavonol 4-reductase/flavanone 4-reductase [EC:1.1.1.219 1.1.1.234]
+///

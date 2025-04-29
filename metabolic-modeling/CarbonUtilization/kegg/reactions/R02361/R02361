@@ -1,0 +1,30 @@
+ENTRY       R02361                      Reaction
+NAME        (1->4)-alpha-D-galacturonan reducing-end-disaccharide-lyase
+DEFINITION  Pectate <=> 4-(4-Deoxy-alpha-D-gluc-4-enuronosyl)-D-galacturonate + Pectate
+EQUATION    C00470 <=> C06118 + C00470
+REMARK      Same as: R06240
+RCLASS      RC00049  C00470_C00470
+            RC00705  C00470_C06118
+ENZYME      4.2.2.2         4.2.2.9
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.2  Acting on polysaccharides
+                4.2.2.2
+                 R02361  Pectate <=> 4-(4-Deoxy-alpha-D-gluc-4-enuronosyl)-D-galacturonate + Pectate
+                4.2.2.9
+                 R02361  Pectate <=> 4-(4-Deoxy-alpha-D-gluc-4-enuronosyl)-D-galacturonate + Pectate
+            IUBMB reaction hierarchy [BR:br08202]
+             4. Lyase reactions
+              4.2.2.2
+               R08694  Oligosaccharide with 4-deoxy-alpha-D-gluc-4-enuronosyl group
+                R02361  4-(4-Deoxy-alpha-D-gluc-4-enuronosyl)-D-galacturonate
+ORTHOLOGY   K01728  pectate lyase [EC:4.2.2.2]
+            K01731  pectate disaccharide-lyase [EC:4.2.2.9]
+            K19551  pectate lyase C [EC:4.2.2.2 4.2.2.10]
+            K22539  pectate lyase [EC:4.2.2.2]
+            K22994  pectate disaccharide-lyase [EC:4.2.2.9]
+DBLINKS     RHEA: 57107
+///

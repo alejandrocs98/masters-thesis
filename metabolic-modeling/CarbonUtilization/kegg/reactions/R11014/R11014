@@ -1,0 +1,17 @@
+ENTRY       R11014                      Reaction
+NAME        hercynine,L-cysteine:oxygen [S-(hercyn-2-yl)-L-cysteine S-oxide-forming]
+DEFINITION  Hercynine + L-Cysteine + Oxygen <=> S-(Hercyn-2-yl)-L-cysteine S-oxide + H2O
+EQUATION    C05575 + C00097 + C00007 <=> C20994 + C00001
+RCLASS      RC03323  C05575_C20994
+            RC03324  C00097_C20994
+ENZYME      1.21.3.10
+PATHWAY     rn00340  Histidine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.21  Catalysing the reaction X-H + Y-H = X-Y
+               1.21.3  With oxygen as acceptor
+                1.21.3.10
+                 R11014  Hercynine + L-Cysteine + Oxygen <=> S-(Hercyn-2-yl)-L-cysteine S-oxide + H2O
+ORTHOLOGY   K20246  L-histidine Nalpha-methyltransferase / hercynylcysteine S-oxide synthase [EC:2.1.1.44 1.21.3.10]
+///

@@ -1,0 +1,26 @@
+ENTRY       R10395                      Reaction
+NAME        (R)-(homo)3-citrate hydro-lyase
+DEFINITION  (R)-(Homo)3-citrate <=> cis-(Homo)3-aconitate + H2O
+EQUATION    C16598 <=> C20582 + C00001
+COMMENT     first step of two-step reaction (see R10394, R10395+R10396)
+RCLASS      RC00498  C16598_C20582
+ENZYME      4.2.1.114
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01210  2-Oxocarboxylic acid metabolism
+MODULE      M00608  2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.114
+                 R10395  (R)-(Homo)3-citrate <=> cis-(Homo)3-aconitate + H2O
+ORTHOLOGY   K16792  methanogen homoaconitase large subunit [EC:4.2.1.114]
+            K16793  methanogen homoaconitase small subunit [EC:4.2.1.114]
+REFERENCE   1  [PMID:10940051]
+  AUTHORS   Howell DM, Graupner M, Xu H, White RH
+  TITLE     Identification of enzymes homologous to isocitrate dehydrogenase that are involved in coenzyme B and leucine biosynthesis in methanoarchaea.
+  JOURNAL   J Bacteriol 182:5013-6 (2000)
+            DOI:10.1128/JB.182.17.5013-5016.2000
+///

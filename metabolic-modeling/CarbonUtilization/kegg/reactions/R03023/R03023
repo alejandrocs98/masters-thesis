@@ -1,0 +1,19 @@
+ENTRY       R03023                      Reaction
+NAME        4-nitrophenol,NADH:oxygen oxidoreductase (2-hydroxylating)
+DEFINITION  4-Nitrophenol + Oxygen + NADH + H+ <=> 4-Nitrocatechol + NAD+ + H2O
+EQUATION    C00870 + C00007 + C00004 + C00080 <=> C02235 + C00003 + C00001
+RCLASS      RC00001  C00003_C00004
+            RC00046  C00870_C02235
+ENZYME      1.14.13.29
+PATHWAY     rn00627  Aminobenzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.29
+                 R03023  4-Nitrophenol + Oxygen + NADH + H+ <=> 4-Nitrocatechol + NAD+ + H2O
+ORTHOLOGY   K21726  4-nitrophenol 2-monooxygenase / 4-nitrocatechol 4-monooxygenase, oxygenase component [EC:1.14.13.29 1.14.13.166]
+            K21727  4-nitrophenol 2-monooxygenase / 4-nitrocatechol 4-monooxygenase, reductase component
+DBLINKS     RHEA: 12571
+///

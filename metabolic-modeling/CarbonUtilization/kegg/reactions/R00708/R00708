@@ -1,0 +1,20 @@
+ENTRY       R00708                      Reaction
+NAME        (S)-1-pyrroline-5-carboxylate:NADP+ oxidoreductase
+DEFINITION  (S)-1-Pyrroline-5-carboxylate + NADP+ + 2 H2O <=> L-Glutamate + NADPH + H+
+EQUATION    C03912 + C00006 + 2 C00001 <=> C00025 + C00005 + C00080
+COMMENT     possibly two-step reaction
+            NADH (see R00707)
+RCLASS      RC00001  C00005_C00006
+            RC00216  C00025_C03912
+ENZYME      1.2.1.88
+PATHWAY     rn00250  Alanine, aspartate and glutamate metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.88
+                 R00708  (S)-1-Pyrroline-5-carboxylate + NADP+ + 2 H2O <=> L-Glutamate + NADPH + H+
+ORTHOLOGY   K00294  1-pyrroline-5-carboxylate dehydrogenase [EC:1.2.1.88]
+            K13821  RHH-type transcriptional regulator, proline utilization regulon repressor / proline dehydrogenase / delta 1-pyrroline-5-carboxylate dehydrogenase [EC:1.5.5.2 1.2.1.88]
+DBLINKS     RHEA: 24885
+///

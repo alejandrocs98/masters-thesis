@@ -1,0 +1,43 @@
+ENTRY       K16000            Tight     KO
+SYMBOL      pikAI
+NAME        narbonolide/10-deoxymethynolide synthase [EC:2.3.1.240 2.3.1.239]
+PATHWAY     map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            map01052  Type I polyketide structures
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00776  Pikromycin/methymycin biosynthesis, methylmalonyl-CoA + malonyl-CoA => narbonolide/10-deoxymethynolide => pikromycin/methymycin
+REACTION    R06458  (2S)-methylmalonyl-CoA:malonyl-CoA malonyltransferase (10-deoxymethynolide forming)
+            R06459  (2S)-methylmalonyl-CoA:malonyl-CoA malonyltransferase (narbonolide forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
+               01052 Type I polyketide structures
+                K16000  pikAI; narbonolide/10-deoxymethynolide synthase
+               00522 Biosynthesis of 12-, 14- and 16-membered macrolides
+                K16000  pikAI; narbonolide/10-deoxymethynolide synthase
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01008 Polyketide biosynthesis proteins
+                K16000  pikAI; narbonolide/10-deoxymethynolide synthase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.239  10-deoxymethynolide synthase
+                 K16000  pikAI; narbonolide/10-deoxymethynolide synthase
+                2.3.1.240  narbonolide synthase
+                 K16000  pikAI; narbonolide/10-deoxymethynolide synthase
+            Polyketide biosynthesis proteins [BR:ko01008]
+             Polyketide synthase (PKS)
+              Modular type I PKS
+               cis-AT PKS
+                Pikromycin PKS
+                 K16000  pikAI; narbonolide/10-deoxymethynolide synthase
+GENES       AG: AAC69329(pikAI)
+REFERENCE   PMID:9770448
+  AUTHORS   Xue Y, Zhao L, Liu HW, Sherman DH
+  TITLE     A gene cluster for macrolide antibiotic biosynthesis in Streptomyces venezuelae: architecture of metabolic diversity.
+  JOURNAL   Proc Natl Acad Sci U S A 95:12111-6 (1998)
+            DOI:10.1073/pnas.95.21.12111
+  SEQUENCE  [ag:AAC69329]
+///

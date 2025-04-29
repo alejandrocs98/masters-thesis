@@ -1,0 +1,18 @@
+ENTRY       R02589                      Reaction
+NAME        3-hydroxybenzoate,NADH:oxygen oxidoreductase (6-hydroxylating)
+DEFINITION  3-Hydroxybenzoate + Oxygen + NADH + H+ <=> 2,5-Dihydroxybenzoate + NAD+ + H2O
+EQUATION    C00587 + C00007 + C00004 + C00080 <=> C00628 + C00003 + C00001
+RCLASS      RC00001  C00003_C00004
+            RC00046  C00587_C00628
+ENZYME      1.14.13.24
+PATHWAY     rn00362  Benzoate degradation
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.24
+                 R02589  3-Hydroxybenzoate + Oxygen + NADH + H+ <=> 2,5-Dihydroxybenzoate + NAD+ + H2O
+ORTHOLOGY   K22270  3-hydroxybenzoate 6-monooxygenase [EC:1.14.13.24]
+DBLINKS     RHEA: 22695
+///

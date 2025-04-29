@@ -1,0 +1,21 @@
+ENTRY       R07106                      Reaction
+NAME        UDP-glucuronate beta-D-glucuronosyltransferase
+DEFINITION  Trichloroethanol + UDP-glucuronate <=> Trichloroethanol glucuronide + UDP
+EQUATION    C07490 + C00167 <=> C14869 + C00015
+RCLASS      RC00005  C00015_C00167
+            RC00059  C07490_C14869
+ENZYME      2.4.1.17
+PATHWAY     rn00980  Metabolism of xenobiotics by cytochrome P450
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.17
+                 R07106  Trichloroethanol + UDP-glucuronate <=> Trichloroethanol glucuronide + UDP
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.4.1.17
+               R09428  Acceptor <=> Acceptor beta-D-glucuronoside
+                R07106  Trichloroethanol <=> Trichloroethanol glucuronide
+ORTHOLOGY   K00699  glucuronosyltransferase [EC:2.4.1.17]
+///
